@@ -55,9 +55,13 @@
   .cat-block h3 { font-size:15px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
   .cat-block h3 .cnt { font-size:12px; color:#999; font-weight:400; }
   .site-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; }
-  .site-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:12px 10px; text-decoration:none; color:#1a1a1a; font-size:14px; display:flex; align-items:center; justify-content:space-between; gap:6px; }
+  .site-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:12px 10px; text-decoration:none; display:flex; flex-direction:column; align-items:flex-start; gap:3px; }
   .site-grid a:hover { border-color:#1a1a1a; }
-  .site-grid a .off { color:#0369a1; font-size:12px; flex-shrink:0; }
+  .site-grid a .sname { font-size:14px; color:#1a1a1a; display:flex; align-items:center; gap:6px; }
+  .site-grid a .off { color:#0369a1; font-size:12px; font-style:normal; }
+  .site-grid a .sdomain, .quick-grid a .dom { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11px; color:#999; }
+  .quick-grid a .dom { display:block; margin-top:3px; }
+  .card .domain { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; color:#888; margin:2px 0 8px; }
   .footer { text-align:center; color:#bbb; font-size:12px; padding:24px; border-top:1px solid #eee; background:#fff; }
 </style>
 </head>
@@ -137,6 +141,7 @@ dlBtn.onclick = () => {
 regionWrap.appendChild(dlBtn);
 
 function stars(n){ return "★".repeat(n)+"☆".repeat(5-n); }
+function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return ""; } }
 function render(list, q){
   const box = document.getElementById("results");
   if(!q){ box.innerHTML = `<div class="meta">⬆ 在上面输入需求，或点分类看看收录了什么</div>`; return; }
@@ -148,6 +153,7 @@ function render(list, q){
       <div class="rank">${i+1}</div>
       <div class="body">
         <h3>${s.name}<span class="stars">${stars(s.rating)}</span></h3>
+        <div class="domain">${host(s.url)}</div>
         <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">✓ 官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
         <p>${s.desc}</p>
       </div>
@@ -180,8 +186,13 @@ document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter"
     const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
     div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
-      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><span>${s.name}</span>${s.official?'<span class="off">✓</span>':''}</a>`).join("") + `</div>`;
+      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}</span></a>`).join("") + `</div>`;
     cats.appendChild(div);
+  });
+  // 快捷直达也补上域名
+  document.querySelectorAll(".quick-grid a").forEach(a => {
+    const d = host(a.getAttribute("href"));
+    if(d){ const s = document.createElement("span"); s.className = "dom"; s.textContent = d; a.appendChild(s); }
   });
 })();
 </script>
