@@ -42,6 +42,7 @@
   .tags .region-dom { background:#fef2f2; color:#dc2626; }
   .tags .region-for { background:#f0f9ff; color:#0284c7; }
   .tags .dl { background:#f5f3ff; color:#7c3aed; }
+  .tags .plat { background:#f3f4f6; color:#374151; }
   .card p { font-size:14px; color:#555; line-height:1.6; }
   .go { align-self:center; white-space:nowrap; background:#1a1a1a; color:#fff; text-decoration:none; font-size:14px; padding:10px 18px; border-radius:8px; }
   .empty { text-align:center; color:#999; padding:60px 0; font-size:15px; }
@@ -109,6 +110,7 @@
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
 const REGIONS = ["国内","国外"];
 let activeRegion = "";
+let activePlat = "";
 let onlyDownloadable = false;
 const fuse = new Fuse(SITES, { keys:[{name:"name",weight:.4},{name:"kw",weight:.35},{name:"desc",weight:.15},{name:"cat",weight:.1}], threshold:.45, ignoreLocation:true });
 
@@ -121,7 +123,17 @@ REGIONS.forEach(r => {
   const s = document.createElement("span"); s.textContent = (r==="国内"?"🇨🇳 ":"🌍 ") + r; s.dataset.region = r;
   s.onclick = () => {
     activeRegion = (activeRegion === r) ? "" : r;
-    regionWrap.querySelectorAll("span").forEach(x => x.style.borderColor = (x.dataset.region === activeRegion) ? "#1a1a1a" : "");
+    regionWrap.querySelectorAll("span[data-region]").forEach(x => x.style.borderColor = (x.dataset.region === activeRegion) ? "#1a1a1a" : "");
+    doSearch();
+  };
+  regionWrap.appendChild(s);
+});
+// 平台筛选
+["Windows","macOS"].forEach(p => {
+  const s = document.createElement("span"); s.textContent = (p==="Windows"?"🪟 ":"🍎 ") + p; s.dataset.plat = p;
+  s.onclick = () => {
+    activePlat = (activePlat === p) ? "" : p;
+    regionWrap.querySelectorAll("span[data-plat]").forEach(x => x.style.borderColor = (x.dataset.plat === activePlat) ? "#1a1a1a" : "");
     doSearch();
   };
   regionWrap.appendChild(s);
@@ -142,6 +154,7 @@ regionWrap.appendChild(dlBtn);
 
 function stars(n){ return "★".repeat(n)+"☆".repeat(5-n); }
 function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return ""; } }
+function platShort(s){ return s.plat==="Windows"?" · Win":s.plat==="macOS"?" · Mac":""; }
 function render(list, q){
   const box = document.getElementById("results");
   if(!q){ box.innerHTML = `<div class="meta">⬆ 在上面输入需求，或点分类看看收录了什么</div>`; return; }
@@ -154,7 +167,7 @@ function render(list, q){
       <div class="body">
         <h3>${s.name}<span class="stars">${stars(s.rating)}</span></h3>
         <div class="domain">${host(s.url)}</div>
-        <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">✓ 官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
+        <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">✓ 官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
         <p>${s.desc}</p>
       </div>
       <a class="go" href="${s.url}" target="_blank" rel="noopener">直达 →</a>
@@ -162,9 +175,10 @@ function render(list, q){
 }
 function doSearch(){
   const q = document.getElementById("q").value.trim();
-  if(!q && !activeRegion && !onlyDownloadable){ render([], ""); return; }
+  if(!q && !activeRegion && !onlyDownloadable && !activePlat){ render([], ""); return; }
   let res = q ? fuse.search(q).map(r=>r.item) : [...SITES];
   if(activeRegion){ res = res.filter(s => s.region === activeRegion); }
+  if(activePlat){ res = res.filter(s => s.plat === activePlat || s.plat === "双平台" || s.plat === "网页"); }
   if(onlyDownloadable){ res = res.filter(s => s.dl); }
   render(res, q || "筛选");
   if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
@@ -186,13 +200,16 @@ document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter"
     const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
     div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
-      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}</span></a>`).join("") + `</div>`;
+      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
-  // 快捷直达也补上域名
+  // 快捷直达也补上域名和平台
   document.querySelectorAll(".quick-grid a").forEach(a => {
-    const d = host(a.getAttribute("href"));
-    if(d){ const s = document.createElement("span"); s.className = "dom"; s.textContent = d; a.appendChild(s); }
+    const href = a.getAttribute("href");
+    const d = host(href);
+    const site = SITES.find(s => s.url === href);
+    const suffix = site ? platShort(site) : "";
+    if(d){ const s = document.createElement("span"); s.className = "dom"; s.textContent = d + suffix; a.appendChild(s); }
   });
 })();
 </script>
