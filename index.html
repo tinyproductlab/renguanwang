@@ -45,6 +45,19 @@
   .card p { font-size:14px; color:#555; line-height:1.6; }
   .go { align-self:center; white-space:nowrap; background:#1a1a1a; color:#fff; text-decoration:none; font-size:14px; padding:10px 18px; border-radius:8px; }
   .empty { text-align:center; color:#999; padding:60px 0; font-size:15px; }
+  .navsec { max-width:1100px; margin:40px auto 60px; padding:0 20px; }
+  .navsec h2 { font-size:18px; }
+  .navsec .sub { font-size:13px; color:#999; margin:6px 0 12px; }
+  .nav-anchors { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:26px; }
+  .nav-anchors a { font-size:13px; color:#555; background:#fff; border:1px solid #e2e2e2; border-radius:16px; padding:5px 14px; text-decoration:none; }
+  .nav-anchors a:hover { border-color:#1a1a1a; color:#1a1a1a; }
+  .cat-block { margin-bottom:30px; scroll-margin-top:12px; }
+  .cat-block h3 { font-size:15px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .cat-block h3 .cnt { font-size:12px; color:#999; font-weight:400; }
+  .site-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; }
+  .site-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:12px 10px; text-decoration:none; color:#1a1a1a; font-size:14px; display:flex; align-items:center; justify-content:space-between; gap:6px; }
+  .site-grid a:hover { border-color:#1a1a1a; }
+  .site-grid a .off { color:#0369a1; font-size:12px; flex-shrink:0; }
   .footer { text-align:center; color:#bbb; font-size:12px; padding:24px; border-top:1px solid #eee; background:#fff; }
 </style>
 </head>
@@ -77,6 +90,12 @@
   </div>
 </div>
 <div class="results" id="results"></div>
+<div class="navsec">
+  <h2>分类导航</h2>
+  <div class="sub">全部人工验过的站 · 点分类跳转 · ✓ 为官网认证</div>
+  <div class="nav-anchors" id="navAnchors"></div>
+  <div id="navCats"></div>
+</div>
 <div class="footer">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注</div>
 
 <script src="./fuse.min.js"></script>
@@ -149,6 +168,21 @@ document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter"
   const q = new URLSearchParams(location.search).get("q");
   if(q){ document.getElementById("q").value=q; doSearch(); }
   else render([], "");
+})();
+// 分类导航：全部站点按分类铺成方块
+(function buildNav(){
+  const anchors = document.getElementById("navAnchors");
+  const cats = document.getElementById("navCats");
+  CATS.forEach((c, idx) => {
+    const list = SITES.filter(s => s.cat === c);
+    if(!list.length) return;
+    const aid = "cat-" + idx;
+    const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
+    const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
+    div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
+      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><span>${s.name}</span>${s.official?'<span class="off">✓</span>':''}</a>`).join("") + `</div>`;
+    cats.appendChild(div);
+  });
 })();
 </script>
 </body>
