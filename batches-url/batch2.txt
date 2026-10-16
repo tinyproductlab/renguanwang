@@ -1,0 +1,71 @@
+常用软件|Flameshot|
+常用软件|CleanShot X|
+常用软件|ImageGlass|
+常用软件|IrfanView|
+常用软件|XnView|
+常用软件|FastStone Image Viewer|
+AI 工具|Gemini|Google 的 AI 助手。
+AI 工具|Grok|xAI 的 AI 助手。
+AI 工具|腾讯元宝|腾讯推出的 AI 助手。
+AI 工具|百川智能|提供大模型及 AI 服务。
+AI 工具|Adobe Firefly|Adobe 的生成式 AI 创作平台。
+AI 工具|Leonardo AI|AI 图像生成和创作平台。
+AI 工具|Ideogram|擅长生成带文字内容的 AI 图像。
+AI 工具|Flux|一系列 AI 图像生成模型。
+AI 工具|Stable Diffusion|开源生态中的 AI 图像生成模型。
+AI 工具|ComfyUI|节点式 AI 图像和视频生成工作流工具。
+AI 工具|Civitai|AI 模型和生成资源社区。
+AI 工具|Runway|AI 视频生成和创作平台。
+AI 工具|Kling AI / 可灵 AI|AI 视频和图像生成平台。
+AI 工具|海螺 AI|AI 视频生成工具。
+AI 工具|Vidu|AI 视频生成平台。
+AI 工具|Pika|AI 视频生成和编辑工具。
+AI 工具|Luma|AI 视频、图像和 3D 创作平台。
+AI 工具|NotebookLM|基于用户资料进行阅读、总结和研究的 AI 工具。
+AI 工具|Cursor|集成 AI 能力的代码编辑器。
+AI 工具|GitHub Copilot|AI 编程辅助工具。
+AI 工具|Windsurf|AI 编程开发环境。
+AI 工具|Ollama|在本地运行大语言模型的工具。
+AI 工具|LM Studio|图形化运行本地 AI 模型的软件。
+AI 工具|Open WebUI|本地或自托管 AI 模型的 Web 界面。
+AI 工具|Hugging Face|AI 模型、数据集和应用共享平台。
+AI 工具|Replicate|提供 AI 模型 API 和在线运行服务的平台。
+AI 工具|ElevenLabs|AI 语音生成和语音处理平台。
+AI 工具|Udio|AI 音乐创作平台。
+AI 工具|Gamma|AI 生成演示文稿和文档的工具。
+AI 工具|Napkin AI|将文字内容转换成视觉图表的 AI 工具。
+AI 工具|Otter.ai|AI 会议记录和语音转文字工具。
+影音娱乐|mpv|轻量级开源媒体播放器。
+影音娱乐|MPC-BE|Windows 开源媒体播放器。
+影音娱乐|IINA|macOS 原生风格的开源播放器。
+影音娱乐|Kodi|开源家庭影音媒体中心。
+影音娱乐|FFmpeg|强大的开源音视频处理工具。
+影音娱乐|Shotcut|免费开源视频编辑器。
+影音娱乐|Kdenlive|免费开源的视频剪辑软件。
+影音娱乐|DaVinci Resolve|专业视频剪辑、调色和后期软件。
+影音娱乐|Adobe Premiere Pro|专业视频编辑软件。
+影音娱乐|Adobe After Effects|视频特效和动态图形制作软件。
+影音娱乐|Audacity|免费开源音频录制和编辑软件。
+影音娱乐|Spotify|音乐和播客流媒体平台。
+影音娱乐|Apple Music|苹果音乐流媒体服务。
+影音娱乐|YouTube Music|音乐流媒体服务。
+影音娱乐|YouTube|全球视频分享平台。
+影音娱乐|Netflix|国际流媒体影视平台。
+影音娱乐|Disney+|迪士尼旗下流媒体平台。
+影音娱乐|Twitch|直播和游戏内容平台。
+设计创意|Photoshop|
+设计创意|Illustrator|
+设计创意|Sketch|
+设计创意|Affinity|
+设计创意|GIMP|
+设计创意|Krita|
+设计创意|Inkscape|
+设计创意|Canva|
+设计创意|Photopea|
+设计创意|Pixlr|
+设计创意|Penpot|
+设计创意|Excalidraw|
+设计创意|draw.io|
+设计创意|Blender|
+设计创意|After Effects|
+设计创意|Premiere Pro|

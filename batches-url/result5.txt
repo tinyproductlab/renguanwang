@@ -1,0 +1,72 @@
+社交社区|X|https://x.com|原 twitter.com，已迁移至 x.com
+社交社区|Bluesky|https://bsky.app|公司介绍站为 bsky.social
+社交社区|Mastodon|https://joinmastodon.org|去中心化联邦网络，官网为项目入口站
+社交社区|LinkedIn|https://www.linkedin.com|
+社交社区|Quora|https://www.quora.com|
+社交社区|Hacker News|https://news.ycombinator.com|Y Combinator 旗下技术社区
+购物消费|1688|https://www.1688.com|阿里巴巴旗下批发采购平台
+购物消费|闲鱼|https://www.goofish.com|阿里巴巴旗下二手交易平台
+购物消费|得物|未找到|两次搜索均未明确给出官网URL（网上冒名"得物购物"的投资诈骗网站众多，需警惕混淆），请人工核验
+购物消费|抖音商城|未找到|抖音商城以 App 为主入口（抖音 App 内/独立抖音商城 App），搜索未给出独立官网 URL，请人工核验
+购物消费|小红书商城|https://www.xiaohongshu.com|商城功能内嵌于小红书 App/网页端，无独立商城官网
+购物消费|Amazon|https://www.amazon.com|全球电商平台
+购物消费|eBay|https://www.ebay.com|在线拍卖与购物平台
+购物消费|AliExpress|https://www.aliexpress.com|阿里巴巴旗下跨境电商平台
+购物消费|Walmart|https://www.walmart.com|沃尔玛，美国连锁零售商
+购物消费|Costco|https://www.costco.com|会员制仓储式超市
+购物消费|Etsy|https://www.etsy.com|手工艺品与创意商品市场
+购物消费|Temu|https://www.temu.com|拼多多旗下跨境电商平台
+购物消费|Rakuten|https://www.rakuten.com|日本乐天集团官网；日本乐天市场另见 rakuten.co.jp
+购物消费|Apple|https://www.apple.com|另有中国官网 apple.com.cn
+购物消费|华为|https://www.huawei.com|
+购物消费|小米|https://www.mi.com|
+购物消费|OPPO|https://www.oppo.com|
+购物消费|vivo|https://www.vivo.com|
+购物消费|荣耀|https://www.honor.com|
+购物消费|联想|https://www.lenovo.com|另有中国站 lenovo.com.cn
+购物消费|戴尔|https://www.dell.com|
+购物消费|惠普|https://www.hp.com|
+购物消费|三星|https://www.samsung.com|
+购物消费|索尼|https://www.sony.com|另有日本站 sony.co.jp
+购物消费|任天堂|https://www.nintendo.com|
+购物消费|Steam|https://store.steampowered.com|Valve 游戏发行平台
+生活服务|腾讯地图|https://map.qq.com|地图和导航服务
+生活服务|携程|https://www.ctrip.com|酒店、机票、火车票和旅游服务
+生活服务|飞猪|未找到|两次搜索均未明确给出官网URL（阿里旗下旅行平台，入口主要在淘宝App内及飞猪App），请人工核验
+生活服务|同程旅行|https://www.ly.com|官网写于官方App介绍页；酒店、机票、火车票和旅游服务
+生活服务|去哪儿|https://www.qunar.com|旅游产品搜索和预订平台
+生活服务|航旅纵横|未找到|两次搜索均未明确给出官网URL（中航信旗下航班信息服务，主要入口为App/微信小程序），请人工核验
+生活服务|中国民航信息网|https://www.travelsky.cn|不确定：另有候选项 travelsky.com.cn / travelsky.com，请人工核验
+生活服务|顺丰速运|https://www.sf-express.com|快递寄件与物流查询
+生活服务|中通快递|https://www.zto.com|快递查件与寄件服务
+生活服务|圆通速递|https://www.yto.net.cn|快递查件与寄件服务
+生活服务|申通快递|https://www.sto.cn|快递查件与寄件服务；公司官网域名载于申通快递证券发行文件
+生活服务|韵达快递|https://www.yundaex.com|快递查件与寄件服务
+生活服务|极兔速递|https://www.jtexpress.com|快递查件与寄件服务；IR域名为 ir.jtexpress.com
+生活服务|京东物流|https://www.jdl.com|京东集团旗下物流公司；IR域名为 ir.jdl.com
+生活服务|中国邮政|https://www.chinapost.com.cn|中央企业，中国邮政集团有限公司；英文站 english.chinapost.com.cn
+生活服务|中国政府网|https://www.gov.cn|中央人民政府门户网站；英文站 english.www.gov.cn
+生活服务|个人所得税|https://etax.chinatax.gov.cn|国家税务总局自然人电子税务局，个税申报与查询；也可通过"个人所得税"App办理
+生活服务|国家移民管理局|https://www.nia.gov.cn|出入境证件办理与查询；政务服务平台 s.nia.gov.cn
+生活服务|全国住房公积金|未找到|两次搜索均未明确给出全国统一官网域名（公积金业务归各省市住房公积金管理中心，主管部门为住房城乡建设部 mohurd.gov.cn；有"全国住房公积金公共服务"微信小程序/跨省通办渠道），请人工核验
+生活服务|国家市场监督管理总局|https://www.samr.gov.cn|市场监管、反垄断、食品安全、产品质量等
+生活服务|国家知识产权局|https://www.cnipa.gov.cn|专利、商标、地理标志等知识产权业务
+生活服务|中国消费者协会|https://www.cca.org.cn|消费投诉、维权与消费警示
+生活服务|12315|https://www.12315.cn|全国12315互联网平台，消费者投诉举报；电话12315
+生活服务|全国企业信用信息公示系统|https://www.gsxt.gov.cn|市场监管总局主办，企业注册与信用信息查询
+生活服务|中国执行信息公开网|http://zxgk.court.gov.cn|最高人民法院主办，失信被执行人、执行案件信息查询
+生活服务|中国裁判文书网|http://wenshu.court.gov.cn|最高人民法院主办，全国法院裁判文书查询
+生活服务|中国政府采购网|http://www.ccgp.gov.cn|财政部指定全国性政府采购信息发布平台，政府采购信息和政策
+生活服务|国家标准全文公开系统|https://openstd.samr.gov.cn|市场监管总局主办，国家标准免费查询与下载
+生活服务|全国组织机构统一社会信用代码查询|https://www.cods.org.cn|全国组织机构统一社会信用代码数据服务中心，组织机构代码/信用代码查询
+生活服务|国家药品监督管理局|https://www.nmpa.gov.cn|药品、医疗器械、化妆品监管；英文站 english.nmpa.gov.cn
+开发工具|Visual Studio|https://visualstudio.microsoft.com|微软的集成开发环境IDE
+开发工具|Zed|https://zed.dev|Rust 编写的开源代码编辑器，支持多人协作
+开发工具|Sublime Text|https://www.sublimetext.com|跨平台文本编辑器，代码/标记/散文编辑
+开发工具|JetBrains|https://www.jetbrains.com|开发者工具公司，IntelliJ IDEA、PyCharm、WebStorm 等
+开发工具|Android Studio|https://developer.android.com/studio|谷歌官方 Android 应用开发 IDE
+开发工具|Xcode|https://developer.apple.com/xcode|苹果官方开发工具，构建 iOS/macOS 应用
+开发工具|Eclipse|https://www.eclipse.org|不确定：另有候选项 eclipseide.org（Eclipse 基金会主域名为 eclipse.org，请人工核验）
+开发工具|IntelliJ IDEA|https://www.jetbrains.com/idea/|JetBrains 的 Java/Kotlin 集成开发环境
+开发工具|PyCharm|https://www.jetbrains.com/pycharm/|JetBrains 的 Python 集成开发环境
+开发工具|WebStorm|https://www.jetbrains.com/webstorm|JetBrains 的 JavaScript/TypeScript 集成开发环境

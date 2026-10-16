@@ -1,0 +1,72 @@
+阅读创作|Blogger|https://www.blogger.com/|Google 旗下博客平台；首页需登录后使用
+阅读创作|Tumblr|https://www.tumblr.com/|Automattic 旗下微博客平台
+阅读创作|Wattpad|https://www.wattpad.com/|全球最大在线故事平台；另有 company.wattpad.com（官方公司页）
+阅读创作|Grammarly|https://www.grammarly.com/|AI 写作和英文语法辅助工具
+阅读创作|LanguageTool|https://languagetool.org/|开源多语言语法和拼写检查工具
+阅读创作|Hemingway Editor|https://hemingwayapp.com/|改善英文可读性的写作工具
+阅读创作|QuillBot|https://quillbot.com/|AI 改写、总结和写作辅助工具
+阅读创作|Readwise|https://readwise.io/|阅读摘录整理工具
+阅读创作|Pocket|https://getpocket.com/|保存网页文章供稍后阅读（Mozilla旗下）
+阅读创作|Raindrop.io|https://raindrop.io|书签和网页收藏管理工具
+阅读创作|Zotero|https://www.zotero.org/|开源学术文献管理工具
+金融投资|Investing.com|https://www.investing.com/|全球市场行情和财经资讯平台
+金融投资|Yahoo Finance|https://finance.yahoo.com/|Yahoo旗下股票与财经数据服务
+金融投资|Google Finance|https://www.google.com/finance/|Google提供的金融市场信息服务
+金融投资|腾讯自选股|未找到|腾讯自选股主要以手机App和QQ/微信内嵌服务为主，两轮搜索均未找到明确的官方独立网址
+金融投资|富途|https://hk.futuhk.com/|富途证券官方站点；另有 futuholdings.com（集团官网）、moomoo.com（海外品牌）
+金融投资|老虎证券|https://www.itiger.com/|不确定，官方站点域名较分散：另有 laohu8.com（内地官网）、tigersecurities.com（美区）
+金融投资|中国人民银行|https://www.pbc.gov.cn/|中国中央银行，.gov.cn 官方域名
+金融投资|国家金融监督管理总局|https://www.nfra.gov.cn/|.gov.cn 官方域名
+金融投资|中国证监会|https://www.csrc.gov.cn/|.gov.cn 官方域名
+金融投资|上海证券交易所|https://www.sse.com.cn/|证券交易所官方域名
+金融投资|深圳证券交易所|https://www.szse.cn/|证券交易所官方域名
+金融投资|北京证券交易所|https://www.bse.cn/|证券交易所官方域名
+金融投资|中国结算|https://www.chinaclear.com.cn/|中国证券登记结算有限责任公司，注意后缀是 .com.cn
+金融投资|中国证券投资基金业协会|https://www.amac.org.cn/|基金行业自律组织官方域名
+金融投资|PayPal|https://www.paypal.com/|国际在线支付服务
+金融投资|Wise|https://www.wise.com/|国际汇款和多币种账户服务
+金融投资|Revolut|https://www.revolut.com/|多币种金融服务平台
+金融投资|Stripe|https://www.stripe.com/|面向商家的在线支付基础设施
+金融投资|微信支付|https://pay.weixin.qq.com/|腾讯微信支付商户平台官方站
+办公效率|Microsoft 365|https://www.microsoft365.com/|Word、Excel、PowerPoint 等办公套件
+办公效率|LibreOffice|https://www.libreoffice.org/|免费开源办公套件
+办公效率|ONLYOFFICE|https://www.onlyoffice.com/|开源在线办公套件，文档/表格/演示协作编辑
+办公效率|FreeOffice|https://www.freeoffice.com/|SoftMaker出品的免费办公套件
+办公效率|Google Workspace|https://workspace.google.com/|Google企业级云端办公协作套件
+办公效率|Apple iWork|https://www.apple.com/|不确定，iWork独立页面已下线（改推Apple Creator Studio），另有apple.com/pages/等各应用页
+办公效率|Obsidian|https://obsidian.md/|本地Markdown知识库与笔记应用
+办公效率|OneNote|https://www.onenote.com/|微软数字笔记本
+办公效率|Evernote|https://evernote.com/|云端笔记和任务管理平台
+办公效率|Joplin|https://joplinapp.org/|免费开源笔记应用，支持端到端同步
+办公效率|Simplenote|https://simplenote.com/|Automattic旗下极简跨平台笔记应用
+办公效率|语雀|https://www.yuque.com/|阿里旗下专业云端知识库和文档协作平台
+办公效率|Todoist|https://todoist.com/|跨平台待办事项与任务管理工具
+办公效率|Trello|https://trello.com/|Atlassian旗下看板式项目协作工具
+办公效率|Asana|https://www.asana.com/|团队工作管理与项目协作平台
+办公效率|ClickUp|https://clickup.com/|一体化项目管理和生产力平台
+办公效率|Slack|https://www.slack.com/|团队协作即时通讯平台，现属Salesforce
+办公效率|Microsoft Teams|https://www.microsoft.com/en-us/microsoft-teams/group-chat-software|微软团队协作与视频会议平台
+办公效率|Adobe Acrobat|https://acrobat.adobe.com/us/en/|Adobe官方PDF解决方案站，阅读/编辑/签署PDF
+办公效率|Foxit PDF|https://www.foxit.com/|福昕PDF阅读器与编辑器
+办公效率|PDFgear|https://www.pdfgear.com/|完全免费的PDF编辑转换工具
+办公效率|PDFsam|https://pdfsam.org/|免费开源PDF拆分合并工具
+办公效率|Gmail|https://mail.google.com/|Google免费邮箱服务
+办公效率|Outlook|https://outlook.live.com/owa/|微软免费网页邮箱服务
+办公效率|Yahoo Mail|https://mail.yahoo.com/|雅虎免费邮箱服务
+办公效率|Proton Mail|https://proton.me/mail|瑞士端到端加密邮箱
+办公效率|QQ 邮箱|https://mail.qq.com/|腾讯免费邮箱服务
+办公效率|163 邮箱|https://mail.163.com/|网易免费邮箱服务
+办公效率|126 邮箱|https://mail.126.com/|网易免费邮箱服务
+办公效率|Thunderbird|https://www.thunderbird.net/|Mozilla免费开源邮件客户端
+办公效率|Spark Mail|https://sparkmailapp.com/|Readdle出品的智能邮箱客户端
+社交社区|即刻|https://www.okjike.com/|基于兴趣同好的年轻人交友社区
+社交社区|V2EX|https://www.v2ex.com/|面向程序员和科技从业者的创意工作者社区
+社交社区|NGA|https://www.nga.cn/|不确定，官方域名分散，另有nga.178.com、bbs.nga.cn等多个入口
+社交社区|少数派|https://sspai.com/|高效工作生活类数字产品与方法内容社区
+社交社区|什么值得买|https://www.smzdm.com/|消费导购与购物分享社区
+社交社区|Reddit|https://www.reddit.com/|全球社区化讨论与内容聚合平台
+社交社区|Discord|https://discord.com/|面向玩家和社群的语音与即时通讯平台
+社交社区|Telegram|https://telegram.org/|云端即时通讯与社群工具
+社交社区|WhatsApp|https://www.whatsapp.com/|全球主流端到端加密即时通讯应用
+社交社区|Messenger|https://www.messenger.com/|Meta旗下即时通讯应用
+社交社区|Signal|https://signal.org/|开源端到端加密即时通讯应用

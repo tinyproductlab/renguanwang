@@ -1,0 +1,430 @@
+装机必备|balenaEtcher|https://www.balena.io/etcher|另可访问 etcher.balena.io
+装机必备|Autoruns|https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns|微软 Sysinternals 官方下载页
+装机必备|Process Explorer|https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer|微软 Sysinternals 官方下载页
+装机必备|Process Monitor|https://learn.microsoft.com/en-us/sysinternals/downloads/procmon|微软 Sysinternals 官方下载页
+装机必备|HWiNFO|https://www.hwinfo.com/|注意：hwinfo64-official.com 等为仿冒站，非官方
+装机必备|CPU-Z|https://www.cpuid.com/softwares/cpu-z.html|CPUID 公司官方下载页
+装机必备|GPU-Z|https://www.techpowerup.com/gpuz/|TechPowerUp 官方页面
+装机必备|CrystalDiskInfo|https://crystalmark.info/en/software/crystaldiskinfo/|官方主页（英文版）
+装机必备|CrystalDiskMark|https://crystalmark.info/en/software/crystaldiskmark/|官方主页（英文版）
+装机必备|WizTree|https://diskanalyzer.com/|v4 起迁至此站；开发者公司另有 antibody-software.com/wiztree
+装机必备|WinDirStat|https://windirstat.net/|GitHub 组织页确认的官方主站
+装机必备|Revo Uninstaller|https://www.revouninstaller.com|VS Revo Group 官方下载站
+装机必备|Geek Uninstaller|https://geekuninstaller.com/|注意：geek-uninstaller.pro 为第三方指南站，非官方
+装机必备|BleachBit|https://www.bleachbit.org/download|官方下载页（警惕同名仿冒站）
+装机必备|CCleaner|https://www.ccleaner.com|官方主站（隶属 Avast/Piriform）
+装机必备|VirtualBox|https://www.virtualbox.org/|Oracle 官方站点
+装机必备|VMware Workstation|https://www.vmware.com/products/workstation-pro.html|VMware 已被 Broadcom 收购；个人免费、下载需 Broadcom 账号登录
+装机必备|Parallels Desktop|https://www.parallels.com/products/desktop/|官方产品页
+装机必备|WinGet|https://learn.microsoft.com/windows/package-manager/|微软官方文档（Windows 包管理器）
+装机必备|Ninite|https://ninite.com|官方主站
+装机必备|Homebrew|https://brew.sh/|官方主站；注意 brewe.sh 等为仿冒钓鱼站
+装机必备|MacPorts|https://www.macports.org/|MacPorts 项目官方主页
+装机必备|PortableApps|https://portableapps.com/|官方主站
+装机必备|NVIDIA|https://www.nvidia.com/en-gb/drivers/|NVIDIA 官方驱动下载页（多区域版本通用）
+装机必备|AMD|https://www.amd.com/en/support|AMD 官方驱动与支持页面
+装机必备|Intel|https://downloadcenter.intel.com|Intel 下载中心（已迁移至 intel.com 站内）
+装机必备|Realtek|https://www.realtek.com/en/downloads|Realtek 官方下载页；注意 realtek.online 等第三方站非官方
+装机必备|Dell|https://www.dell.com/support/home|戴尔官方支持入口（按区域自动跳转）
+装机必备|HP|https://support.hp.com/us-en/drivers/desktops|惠普官方驱动支持页（按区域跳转）
+装机必备|Lenovo|https://support.lenovo.com|联想官方支持入口（按区域跳转）
+装机必备|ASUS|https://www.asus.com/support/download-center|华硕官方下载中心（全球版；按区域跳转）
+装机必备|Acer|https://www.acer.com/ac/en/US/content/drivers|宏碁官方驱动下载页（按区域跳转）
+装机必备|MSI|https://www.msi.com/support|微星官方支持入口（按区域跳转）
+装机必备|Brother|https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl|兄弟官方驱动下载页（按区域跳转）
+装机必备|Canon|https://global.canon/en/support/index.html|佳能全球支持导航页（引导至各国家/区域站点）
+装机必备|Epson|https://epson.com/Support/sl/s|爱普生官方支持入口（按区域跳转）
+装机必备|Logitech|https://support.logi.com/|罗技官方支持与下载站（按区域跳转）
+装机必备|Razer|https://support.razer.com/|雷蛇官方支持入口（驱动与 Synapse 软件在此下载）
+装机必备|Synology|https://www.synology.com/en-us/support/download|群晖官方下载中心
+装机必备|QNAP|https://www.qnap.com/go/download|威联通官方下载中心（QNAP 官方快速安装指南中的短链）
+安全防护|Microsoft Defender|https://www.microsoft.com/en-us/microsoft-365/microsoft-defender-for-individuals-families|微软官方 Defender 产品页（Windows 内置版随系统提供；按区域跳转）
+安全防护|Bitdefender|https://www.bitdefender.com/|罗马尼亚 Bitdefender 公司官方主站（按区域跳转）
+安全防护|Avast|https://www.avast.com|Gen Digital 旗下 Avast 官方主站（按区域跳转）
+安全防护|AVG|https://www.avg.com|Gen Digital 旗下 AVG 官方主站（按区域跳转）
+安全防护|Kaspersky|https://www.kaspersky.com/|卡巴斯基公司官方主站（按区域跳转）
+安全防护|ESET|https://www.eset.com|斯洛伐克 ESET 公司官方主站（NOD32 厂商；按区域跳转）
+安全防护|Norton|https://www.norton.com|Gen Digital 旗下 Norton 官方主站（另有美国版 us.norton.com）
+安全防护|McAfee|https://www.mcafee.com|McAfee 官方主站（按区域跳转）
+安全防护|Proton VPN|https://protonvpn.com/|瑞士 Proton AG 旗下开源 VPN 官方主站
+安全防护|Mullvad VPN|https://mullvad.net/|瑞典 Mullvad VPN AB 官方主站；开源客户端见 github.com/mullvad/mullvadvpn-app
+安全防护|Tails|https://tails.net/|Tails 项目官方主站；旧域名 tails.boum.org 亦指向官方
+安全防护|Quad9|https://www.quad9.net/|瑞士非营利 Quad9 基金会官方主站（DNS 服务器 9.9.9.9）
+安全防护|NextDNS|https://nextdns.io/|NextDNS 公司官方主站
+常用软件|Safari|https://www.apple.com/safari/|苹果 Safari 浏览器官方页（随苹果系统预装）
+常用软件|Vivaldi|https://vivaldi.com/|Vivaldi Technologies 公司官方主站
+常用软件|Arc|https://arc.net/|The Browser Company（已被 Atlassian 收购）官方主站；2025 年起停止功能开发，仅维护 Chromium 安全更新
+常用软件|Tor Browser|https://www.torproject.org/download/|Tor 项目官方下载页
+常用软件|Chrome Remote Desktop|https://remotedesktop.google.com|谷歌 Chrome 远程桌面官方页面
+常用软件|Microsoft Remote Desktop|https://learn.microsoft.com/en-us/windows-app/|微软远程桌面客户端已并入 Windows App（旧远程桌面客户端已停更），微软官方文档
+常用软件|1Password|https://1password.com/|AgileBits 1Password 官方主站
+常用软件|KeePass|https://keepass.info|开源密码管理器 KeePass 官方主页（警惕搜索引擎广告中的 ķeepass.info 等仿冒站）
+常用软件|Proton Pass|https://proton.me/pass|瑞士 Proton AG 旗下开源密码管理器官方页
+常用软件|Malwarebytes|https://www.malwarebytes.com/|Malwarebytes 公司官方主站（按区域跳转）
+常用软件|ClamAV|https://www.clamav.net|思科 Talos 旗下开源杀毒引擎官方主页；代码见 github.com/Cisco-Talos/clamav
+常用软件|VeraCrypt|https://veracrypt.jp|不确定；2025 年项目迁至日本 AM Crypto，veracrypt.jp 为新官网，旧官网 veracrypt.fr 仍在用
+常用软件|Syncthing|https://syncthing.net/|开源去中心化文件同步工具官方主页；代码见 github.com/syncthing/syncthing
+常用软件|FreeFileSync|https://freefilesync.org/|开源文件夹对比与同步工具官方主页
+常用软件|GoodSync|https://www.goodsync.com|Siber Systems 公司 GoodSync 官方主站；另有中文版 goodsync.com/cn
+常用软件|Greenshot|https://getgreenshot.org/|开源截图工具 Greenshot 官方主页（Windows 免费，Mac 版为付费）
+常用软件|Snagit|https://www.techsmith.com/screen-capture.html|TechSmith 公司 Snagit 产品页（付费软件）
+常用软件|ScreenToGif|https://www.screentogif.com/|开源屏幕录制转 GIF 工具官方主页（Windows 免费）；代码见 github.com/NickeManarin/ScreenToGif
+常用软件|Flameshot|https://flameshot.org|
+常用软件|CleanShot X|https://cleanshot.com|
+常用软件|ImageGlass|https://imageglass.org|
+常用软件|IrfanView|https://www.irfanview.com|
+常用软件|XnView|https://www.xnview.com|
+常用软件|FastStone Image Viewer|https://www.faststone.org|
+AI 工具|Gemini|https://gemini.google.com|Google 的 AI 助手。
+AI 工具|Grok|https://grok.com|xAI 的 AI 助手。公司官网另有 x.ai。
+AI 工具|腾讯元宝|https://yuanbao.tencent.com|腾讯推出的 AI 助手。
+AI 工具|百川智能|https://www.baichuan-ai.com|提供大模型及 AI 服务。
+AI 工具|Adobe Firefly|https://firefly.adobe.com|Adobe 的生成式 AI 创作平台。
+AI 工具|Leonardo AI|https://leonardo.ai|AI 图像生成和创作平台。
+AI 工具|Ideogram|https://ideogram.ai|擅长生成带文字内容的 AI 图像。
+AI 工具|Flux|https://blackforestlabs.ai|一系列 AI 图像生成模型，由 Black Forest Labs 开发。
+AI 工具|Stable Diffusion|https://stability.ai|开源生态中的 AI 图像生成模型，开发者为 Stability AI。
+AI 工具|ComfyUI|https://www.comfy.org|节点式 AI 图像和视频生成工作流工具。
+AI 工具|Civitai|https://civitai.com|AI 模型和生成资源社区。另有成人内容姊妹站 civitai.red。
+AI 工具|Runway|https://runway.com|AI 视频生成和创作平台。
+AI 工具|Kling AI / 可灵 AI|https://kling.ai|AI 视频和图像生成平台，快手出品。另有国内站 klingai.com。
+AI 工具|海螺 AI|https://hailuoai.video|AI 视频生成工具，MiniMax 出品。另有 hailuoai.com。
+AI 工具|Vidu|https://www.vidu.com|AI 视频生成平台，生数科技出品。
+AI 工具|Pika|https://pika.art|AI 视频生成和编辑工具，Pika Labs 出品。
+AI 工具|Luma|https://lumalabs.ai|AI 视频、图像和 3D 创作平台。
+AI 工具|NotebookLM|https://notebooklm.google|基于用户资料进行阅读、总结和研究的 AI 工具，Google 出品。
+AI 工具|Cursor|https://www.cursor.com|集成 AI 能力的代码编辑器。
+AI 工具|GitHub Copilot|https://github.com/features/copilot|AI 编程辅助工具。
+AI 工具|Windsurf|https://windsurf.com|不确定：有资料称 windsurf.com 现跳转至 devin.ai/desktop（已被 Cognition 收购改名 Devin Desktop），请人工打开确认。AI 编程开发环境。
+AI 工具|Ollama|https://ollama.com|在本地运行大语言模型的工具。
+AI 工具|LM Studio|https://lmstudio.ai|图形化运行本地 AI 模型的软件。
+AI 工具|Open WebUI|https://openwebui.com|本地或自托管 AI 模型的 Web 界面。
+AI 工具|Hugging Face|https://huggingface.co|AI 模型、数据集和应用共享平台。
+AI 工具|Replicate|https://replicate.com|提供 AI 模型 API 和在线运行服务的平台。
+AI 工具|ElevenLabs|https://elevenlabs.io|AI 语音生成和语音处理平台。
+AI 工具|Udio|https://www.udio.com|AI 音乐创作平台。
+AI 工具|Gamma|https://gamma.app|AI 生成演示文稿和文档的工具。
+AI 工具|Napkin AI|https://www.napkin.ai|将文字内容转换成视觉图表的 AI 工具。
+AI 工具|Otter.ai|https://otter.ai|AI 会议记录和语音转文字工具。
+影音娱乐|mpv|https://mpv.io|轻量级开源媒体播放器。
+影音娱乐|MPC-BE|https://mpcbe.sourceforge.io|Windows 开源媒体播放器。源码在 github.com/Aleksoid1978/MPC-BE。
+影音娱乐|IINA|https://iina.io|macOS 原生风格的开源播放器。
+影音娱乐|Kodi|https://kodi.tv|开源家庭影音媒体中心。
+影音娱乐|FFmpeg|https://ffmpeg.org|音视频处理与转码工具。
+影音娱乐|Shotcut|https://shotcut.org|开源跨平台视频剪辑软件。
+影音娱乐|Kdenlive|https://kdenlive.org|KDE 社区的开源非线性视频剪辑。
+影音娱乐|DaVinci Resolve|https://www.blackmagicdesign.com/products/davinciresolve|Blackmagic 出品的专业剪辑调色软件。
+影音娱乐|Adobe Premiere Pro|https://www.adobe.com/products/premiere.html|Adobe 专业视频剪辑软件。
+影音娱乐|Adobe After Effects|https://www.adobe.com/products/aftereffects.html|Adobe 动态图形与特效制作软件。
+影音娱乐|Audacity|https://www.audacityteam.org|开源跨平台音频录制与编辑工具。
+影音娱乐|Spotify|https://spotify.com|全球流媒体音乐平台。
+影音娱乐|Apple Music|https://www.apple.com/apple-music/|苹果出品的流媒体音乐平台。另有网页版 music.apple.com。
+影音娱乐|YouTube Music|https://music.youtube.com/|Google/YouTube 出品的流媒体音乐服务。
+影音娱乐|YouTube|https://www.youtube.com|全球最大的视频分享平台。
+影音娱乐|Netflix|https://www.netflix.com|全球最大的流媒体视频平台。
+影音娱乐|Disney+|https://www.disneyplus.com|迪士尼出品的流媒体视频平台。
+影音娱乐|Twitch|https://www.twitch.tv|亚马逊旗下的游戏与综合直播平台。
+设计创意|Photoshop|https://www.adobe.com/products/photoshop.html|Adobe 专业图像处理软件。
+设计创意|Illustrator|https://www.adobe.com/products/illustrator.html|Adobe 矢量图形设计软件。
+设计创意|Sketch|https://www.sketch.com|Mac 平台的 UI/UX 矢量设计工具。
+设计创意|Affinity|https://www.affinity.studio|Serif（现归 Canva）出品的专业设计软件。旧官网 affinity.serif.com 已停用。
+设计创意|GIMP|https://www.gimp.org|开源免费的图像处理软件。
+设计创意|Krita|https://www.krita.org|开源免费的数字绘画软件。
+设计创意|Inkscape|https://inkscape.org|开源免费的矢量图形编辑软件。
+设计创意|Canva|https://www.canva.com/|免费在线平面设计工具。
+设计创意|Photopea|https://www.photopea.com|免费在线修图工具。
+设计创意|Pixlr|https://pixlr.com/|在线 AI 照片编辑器。
+设计创意|Penpot|https://penpot.app|开源在线 UI 设计工具。
+设计创意|Excalidraw|https://excalidraw.com|开源手绘风在线白板与作图工具。
+设计创意|draw.io|https://app.diagrams.net|免费开源的流程图/图表绘制工具。项目主页 drawio.com。
+设计创意|Blender|https://www.blender.org|免费开源的 3D 建模渲染软件。
+设计创意|After Effects|https://www.adobe.com/products/aftereffects.html|同 Adobe After Effects。Adobe 动态图形与特效制作软件。
+设计创意|Premiere Pro|https://www.adobe.com/products/premiere.html|同 Adobe Premiere Pro。Adobe 专业视频剪辑软件。
+设计创意|Final Cut Pro|https://www.apple.com/final-cut-pro/|
+设计创意|CapCut|https://www.capcut.com|字节跳动出品，搜索结果中明确标注为官方首页
+设计创意|Cavalry|https://cavalry.studio|2D 动效软件，官方视频描述中标注的官方域名（旧域名 cavalry.scenegroup.co 已迁移）
+设计创意|SketchUp|https://www.sketchup.com|Trimble 公司出品，多个来源标注的官方网站
+设计创意|Autodesk|https://www.autodesk.com|搜索结果明确标注为官方网站（autodesk.com）
+设计创意|Cinema 4D|https://www.maxon.net/en/cinema-4d/|德国 Maxon 公司出品，搜索结果中标注的官方产品页（Maxon 官网 maxon.net）
+设计创意|Unity|https://unity.com|Unity Technologies 官方网站，搜索结果明确标注
+设计创意|Unreal Engine|https://www.unrealengine.com/|Epic Games 出品，搜索结果明确标注为官方网站
+设计创意|Godot|https://godotengine.org|开源游戏引擎，GitHub 组织 godotengine 的官方仓库明确指向此域名为主页
+设计创意|Google Fonts|https://fonts.google.com/|Google官方字体服务
+设计创意|Adobe Fonts|https://fonts.adobe.com/|Adobe官方字体服务（原Typekit）
+设计创意|Font Awesome|https://fontawesome.com/|图标字体工具包，GitHub FortAwesome组织/维基均标注fontawesome.com为官方站
+设计创意|Unsplash|https://unsplash.com/|免费图片库，多个来源标注的官方域名
+设计创意|Pexels|https://www.pexels.com/|免费图库，官方帮助中心help.pexels.com与首页均归属pexels.com
+设计创意|Pixabay|https://www.pixabay.com/|免费图库/视频/音乐网站，维基标注官网为 pixabay.com
+设计创意|Freepik|https://www.freepik.com/|免费设计素材（矢量/照片/PSD），多个来源标注 freepik.com 为官方站
+设计创意|Flaticon|https://www.flaticon.com/|免费图标库，多个来源标注 flaticon.com 为官方站
+学习教育|Udemy|https://www.udemy.com/|在线课程平台，搜索结果明确标注 udemy.com 为官方站
+学习教育|国家智慧教育公共服务平台|https://www.smartedu.cn/|教育部主办的国家教育资源总入口，国务院官网新华报道明确域名 www.smartedu.cn
+学习教育|国家开放大学|https://www.ouchn.cn/|开放教育官方网站，学校学习网地址为 www.ouchn.cn
+学习教育|中国教育在线|未找到|两次搜索未返回其官方网站地址，教育资讯类商业门户（疑为 eol.cn，未核实），请人工确认
+学习教育|网易公开课|https://open.163.com/|不确定：搜索仅找到网易站内"网易公开课"频道及旧地址 v.163.com/open，open.163.com 为网易长期沿用的公开课独立域名，请人工打开确认
+学习教育|Duolingo|https://www.duolingo.com/|游戏化语言学习平台，Google Play 官方应用页标注"Use Duolingo on the Web at https://www.duolingo.com"
+学习教育|沪江网校|https://www.hujiang.com/|不确定：维基"沪江网"词条外部链接为其官方网站（hujiang.com），请人工打开确认
+学习教育|百词斩|未找到|两次搜索未返回官方网站地址，英语单词学习App（成都超有爱科技），主要提供App下载，网站地址未确认，请人工确认
+学习教育|扇贝|https://www.shanbay.com/|英语学习工具，APKPure 官方应用页标注开发者官网为 shanbay.com
+学习教育|有道词典|https://dict.youdao.com/|不确定：维基"有道词典"词条标注网站为 cidian.youdao.com（旧），dict.youdao.com 为当前在线词典常用入口，请人工确认
+学习教育|Cambridge Dictionary|https://dictionary.cambridge.org/|剑桥官方英语词典，官方 YouTube 账号标注的官网
+学习教育|Merriam-Webster|https://www.merriam-webster.com/|美国常用英语词典，官方 YouTube 账号标注的官网
+学习教育|DeepL|https://www.deepl.com/|AI 翻译工具，维基标注官网为 deepl.com
+学习教育|中国研究生招生信息网|https://yz.chsi.com.cn|教育部官方研招网（学信网旗下），多地教育考试院公告确认网址
+学习教育|中国高等教育学生信息网（学信网）|https://www.chsi.com.cn/|教育部指定学历学籍查询唯一网站，维基/澎湃报道均确认官方域名
+学习教育|全国征兵网|https://www.gfbzb.gov.cn/|官方 .gov.cn 域名，多家媒体（央视新闻转述）确认全国征兵网报名网址
+学习教育|中国人事考试网|https://www.cpta.com.cn/|各类专业技术资格考试官方网站，考试通知均明确域名 www.cpta.com.cn
+学习教育|国家医学考试网|https://www.nmec.org.cn/|国家医学考试中心主办，官方考试公告明确网址 www.nmec.org.cn
+学习教育|教师资格考试网|https://ntce.neea.edu.cn/|教育部教育考试院"中小学教师资格考试网"，各省教育考试院公告确认网址
+学习教育|国家职业资格相关查询平台|https://zscx.osta.org.cn/|技能人才评价证书全国联网查询系统（原国家职业资格证书全国联网查询系统）；主办单位主站为 http://osta.mohrss.gov.cn
+新闻资讯|央视新闻|https://news.cctv.com/|新闻频道_央视网（cctv.com 官方新闻频道）
+新闻资讯|中国新闻网|https://www.chinanews.com/|中国新闻社（中新社）主办，版权/备案信息均为 chinanews.com
+新闻资讯|财新|https://www.caixin.com/|财新传媒财经媒体，维基标注官方网站 caixin.com（英文版另有 caixinglobal.com）
+新闻资讯|第一财经|https://www.yicai.com/|不确定：第一财经的官方网站为"一财网"，其官方域名在媒体资料中常用 www.yicai.com，但两次搜索结果正文中未逐字出现该完整网址，请人工打开确认
+新闻资讯|36 氪|https://www.36kr.com/|36氪官方网站，36kr.com 为北京多氪信息科技有限公司运营域名（备案/版权信息均在搜索结果中）
+新闻资讯|IT之家|https://www.ithome.com/|科技资讯门户，维基/其官方简介均标注官方网址 www.ithome.com（青岛软媒旗下）
+新闻资讯|极客公园|未找到|两次搜索均未返回官网地址（结果多为大会新闻及无关 YouTube 账号），请人工确认
+新闻资讯|虎嗅|https://www.huxiu.com/|科技商业资讯网站，维基标注其官方网站，其站内文章均归属 huxiu.com 域名
+新闻资讯|钛媒体|https://www.tmtpost.com/|科技商业媒体，文章自称"钛媒体官方网站"归属 tmtpost.com（英文版另有 en.tmtpost.com）
+新闻资讯|Reuters|https://www.reuters.com/|路透社全球新闻官网，维基标注网站 reuters.com，官方 YouTube 账号亦指向该域名
+新闻资讯|AP News|https://apnews.com/|美联社新闻官网，维基标注网站 apnews.com（公司站另有 ap.org）
+新闻资讯|BBC|https://www.bbc.com/|英国广播公司国际版官网（维基 BBC Online 标注：国际版 bbc.com、英国版 bbc.co.uk）
+新闻资讯|CNN|https://www.cnn.com/|美国有线电视新闻网官网，多来源明确官方网站为 cnn.com（另有国际版 edition.cnn.com）
+新闻资讯|The New York Times|https://www.nytimes.com/|纽约时报官网，维基标注官方网站 nytimes.com
+新闻资讯|The Guardian|https://www.theguardian.com/|英国卫报官网，维基标注网站 theguardian.com，官方 YouTube 账号亦标注此域名
+新闻资讯|Bloomberg|https://www.bloomberg.com/|彭博社官网，维基 Bloomberg L.P. 标注网站 bloomberg.com，官方 YouTube 账号亦标注此域名
+新闻资讯|CNBC|https://www.cnbc.com/|CNBC 财经媒体官网，官方 LinkedIn/YouTube 账号及第三方公司资料均确认官网为 cnbc.com
+新闻资讯|Financial Times|https://www.ft.com/|英国金融时报官网，维基标注官方网站 www.ft.com（日经旗下）
+新闻资讯|The Verge|https://www.theverge.com/|科技媒体 The Verge 官网，维基标注网站 theverge.com
+新闻资讯|Ars Technica|https://arstechnica.com/|科技深度媒体，维基标注网站 arstechnica.com，官方 YouTube/Vimeo 账号亦标注此域名
+新闻资讯|TechCrunch|https://techcrunch.com/|科技创投媒体，官方网站为 techcrunch.com（多来源确认）
+新闻资讯|Wired|https://www.wired.com/|Wired 杂志官网（Condé Nast 旗下），维基标注官方网站 www.wired.com
+阅读创作|豆瓣阅读|未找到|两次搜索未返回"豆瓣阅读"官方网站的明确地址（仅确认豆瓣主站为 douban.com），请人工确认
+阅读创作|七猫小说|未找到|两次搜索未返回"七猫小说"官方网站的明确地址（上海七猫文化传媒旗下免费网络文学平台，主要为 App，网站地址未确认），请人工确认
+阅读创作|阅文集团|https://www.yuewen.com/|阅文集团（腾讯旗下网络文学公司，港交所772），维基标注官方网站 www.yuewen.com
+阅读创作|Kindle|https://www.amazon.com/kindle/|Amazon Kindle 电子阅读器，维基标注其官方网站为 amazon.com/kindle（Amazon 主站 Kindle 专区）
+阅读创作|Kobo|https://www.kobo.com/|Rakuten Kobo 电子书/阅读器，维基标注官方网站 www.kobo.com
+阅读创作|Project Gutenberg|https://www.gutenberg.org/|公版电子书数字图书馆，维基标注网站 gutenberg.org，其官方电子书版权页亦注明主站 www.gutenberg.org
+阅读创作|Internet Archive|https://archive.org/|互联网档案馆（含 Wayback Machine），维基标注网站 archive.org
+阅读创作|简书|https://www.jianshu.com/|创作与阅读社区，维基标注网址 www.jianshu.com（上海佰集信息科技有限公司运营）
+阅读创作|Medium|https://medium.com/|在线写作与出版平台，维基标注网址 medium.com（Evan Williams 创立）
+阅读创作|Substack|https://substack.com/|新闻通讯与创作者平台，多来源明确官方网站为 substack.com
+阅读创作|WordPress|https://wordpress.org/|开源建站/CMS 平台，维基标注官方网站 wordpress.org（托管版另有 wordpress.com）
+阅读创作|Ghost|https://ghost.org/|开源博客与新闻通讯发布平台，维基标注官方网站 ghost.org
+阅读创作|Blogger|https://www.blogger.com/|Google 旗下博客平台；首页需登录后使用
+阅读创作|Tumblr|https://www.tumblr.com/|Automattic 旗下微博客平台
+阅读创作|Wattpad|https://www.wattpad.com/|全球最大在线故事平台；另有 company.wattpad.com（官方公司页）
+阅读创作|Grammarly|https://www.grammarly.com/|AI 写作和英文语法辅助工具
+阅读创作|LanguageTool|https://languagetool.org/|开源多语言语法和拼写检查工具
+阅读创作|Hemingway Editor|https://hemingwayapp.com/|改善英文可读性的写作工具
+阅读创作|QuillBot|https://quillbot.com/|AI 改写、总结和写作辅助工具
+阅读创作|Readwise|https://readwise.io/|阅读摘录整理工具
+阅读创作|Pocket|https://getpocket.com/|保存网页文章供稍后阅读（Mozilla旗下）
+阅读创作|Raindrop.io|https://raindrop.io|书签和网页收藏管理工具
+阅读创作|Zotero|https://www.zotero.org/|开源学术文献管理工具
+金融投资|Investing.com|https://www.investing.com/|全球市场行情和财经资讯平台
+金融投资|Yahoo Finance|https://finance.yahoo.com/|Yahoo旗下股票与财经数据服务
+金融投资|Google Finance|https://www.google.com/finance/|Google提供的金融市场信息服务
+金融投资|腾讯自选股|未找到|腾讯自选股主要以手机App和QQ/微信内嵌服务为主，两轮搜索均未找到明确的官方独立网址
+金融投资|富途|https://hk.futuhk.com/|富途证券官方站点；另有 futuholdings.com（集团官网）、moomoo.com（海外品牌）
+金融投资|老虎证券|https://www.itiger.com/|不确定，官方站点域名较分散：另有 laohu8.com（内地官网）、tigersecurities.com（美区）
+金融投资|中国人民银行|https://www.pbc.gov.cn/|中国中央银行，.gov.cn 官方域名
+金融投资|国家金融监督管理总局|https://www.nfra.gov.cn/|.gov.cn 官方域名
+金融投资|中国证监会|https://www.csrc.gov.cn/|.gov.cn 官方域名
+金融投资|上海证券交易所|https://www.sse.com.cn/|证券交易所官方域名
+金融投资|深圳证券交易所|https://www.szse.cn/|证券交易所官方域名
+金融投资|北京证券交易所|https://www.bse.cn/|证券交易所官方域名
+金融投资|中国结算|https://www.chinaclear.com.cn/|中国证券登记结算有限责任公司，注意后缀是 .com.cn
+金融投资|中国证券投资基金业协会|https://www.amac.org.cn/|基金行业自律组织官方域名
+金融投资|PayPal|https://www.paypal.com/|国际在线支付服务
+金融投资|Wise|https://www.wise.com/|国际汇款和多币种账户服务
+金融投资|Revolut|https://www.revolut.com/|多币种金融服务平台
+金融投资|Stripe|https://www.stripe.com/|面向商家的在线支付基础设施
+金融投资|微信支付|https://pay.weixin.qq.com/|腾讯微信支付商户平台官方站
+办公效率|Microsoft 365|https://www.microsoft365.com/|Word、Excel、PowerPoint 等办公套件
+办公效率|LibreOffice|https://www.libreoffice.org/|免费开源办公套件
+办公效率|ONLYOFFICE|https://www.onlyoffice.com/|开源在线办公套件，文档/表格/演示协作编辑
+办公效率|FreeOffice|https://www.freeoffice.com/|SoftMaker出品的免费办公套件
+办公效率|Google Workspace|https://workspace.google.com/|Google企业级云端办公协作套件
+办公效率|Apple iWork|https://www.apple.com/|不确定，iWork独立页面已下线（改推Apple Creator Studio），另有apple.com/pages/等各应用页
+办公效率|Obsidian|https://obsidian.md/|本地Markdown知识库与笔记应用
+办公效率|OneNote|https://www.onenote.com/|微软数字笔记本
+办公效率|Evernote|https://evernote.com/|云端笔记和任务管理平台
+办公效率|Joplin|https://joplinapp.org/|免费开源笔记应用，支持端到端同步
+办公效率|Simplenote|https://simplenote.com/|Automattic旗下极简跨平台笔记应用
+办公效率|语雀|https://www.yuque.com/|阿里旗下专业云端知识库和文档协作平台
+办公效率|Todoist|https://todoist.com/|跨平台待办事项与任务管理工具
+办公效率|Trello|https://trello.com/|Atlassian旗下看板式项目协作工具
+办公效率|Asana|https://www.asana.com/|团队工作管理与项目协作平台
+办公效率|ClickUp|https://clickup.com/|一体化项目管理和生产力平台
+办公效率|Slack|https://www.slack.com/|团队协作即时通讯平台，现属Salesforce
+办公效率|Microsoft Teams|https://www.microsoft.com/en-us/microsoft-teams/group-chat-software|微软团队协作与视频会议平台
+办公效率|Adobe Acrobat|https://acrobat.adobe.com/us/en/|Adobe官方PDF解决方案站，阅读/编辑/签署PDF
+办公效率|Foxit PDF|https://www.foxit.com/|福昕PDF阅读器与编辑器
+办公效率|PDFgear|https://www.pdfgear.com/|完全免费的PDF编辑转换工具
+办公效率|PDFsam|https://pdfsam.org/|免费开源PDF拆分合并工具
+办公效率|Gmail|https://mail.google.com/|Google免费邮箱服务
+办公效率|Outlook|https://outlook.live.com/owa/|微软免费网页邮箱服务
+办公效率|Yahoo Mail|https://mail.yahoo.com/|雅虎免费邮箱服务
+办公效率|Proton Mail|https://proton.me/mail|瑞士端到端加密邮箱
+办公效率|QQ 邮箱|https://mail.qq.com/|腾讯免费邮箱服务
+办公效率|163 邮箱|https://mail.163.com/|网易免费邮箱服务
+办公效率|126 邮箱|https://mail.126.com/|网易免费邮箱服务
+办公效率|Thunderbird|https://www.thunderbird.net/|Mozilla免费开源邮件客户端
+办公效率|Spark Mail|https://sparkmailapp.com/|Readdle出品的智能邮箱客户端
+社交社区|即刻|https://www.okjike.com/|基于兴趣同好的年轻人交友社区
+社交社区|V2EX|https://www.v2ex.com/|面向程序员和科技从业者的创意工作者社区
+社交社区|NGA|https://www.nga.cn/|不确定，官方域名分散，另有nga.178.com、bbs.nga.cn等多个入口
+社交社区|少数派|https://sspai.com/|高效工作生活类数字产品与方法内容社区
+社交社区|什么值得买|https://www.smzdm.com/|消费导购与购物分享社区
+社交社区|Reddit|https://www.reddit.com/|全球社区化讨论与内容聚合平台
+社交社区|Discord|https://discord.com/|面向玩家和社群的语音与即时通讯平台
+社交社区|Telegram|https://telegram.org/|云端即时通讯与社群工具
+社交社区|WhatsApp|https://www.whatsapp.com/|全球主流端到端加密即时通讯应用
+社交社区|Messenger|https://www.messenger.com/|Meta旗下即时通讯应用
+社交社区|Signal|https://signal.org/|开源端到端加密即时通讯应用
+社交社区|X|https://x.com|原 twitter.com，已迁移至 x.com
+社交社区|Bluesky|https://bsky.app|公司介绍站为 bsky.social
+社交社区|Mastodon|https://joinmastodon.org|去中心化联邦网络，官网为项目入口站
+社交社区|LinkedIn|https://www.linkedin.com|
+社交社区|Quora|https://www.quora.com|
+社交社区|Hacker News|https://news.ycombinator.com|Y Combinator 旗下技术社区
+购物消费|1688|https://www.1688.com|阿里巴巴旗下批发采购平台
+购物消费|闲鱼|https://www.goofish.com|阿里巴巴旗下二手交易平台
+购物消费|得物|未找到|两次搜索均未明确给出官网URL（网上冒名"得物购物"的投资诈骗网站众多，需警惕混淆），请人工核验
+购物消费|抖音商城|未找到|抖音商城以 App 为主入口（抖音 App 内/独立抖音商城 App），搜索未给出独立官网 URL，请人工核验
+购物消费|小红书商城|https://www.xiaohongshu.com|商城功能内嵌于小红书 App/网页端，无独立商城官网
+购物消费|Amazon|https://www.amazon.com|全球电商平台
+购物消费|eBay|https://www.ebay.com|在线拍卖与购物平台
+购物消费|AliExpress|https://www.aliexpress.com|阿里巴巴旗下跨境电商平台
+购物消费|Walmart|https://www.walmart.com|沃尔玛，美国连锁零售商
+购物消费|Costco|https://www.costco.com|会员制仓储式超市
+购物消费|Etsy|https://www.etsy.com|手工艺品与创意商品市场
+购物消费|Temu|https://www.temu.com|拼多多旗下跨境电商平台
+购物消费|Rakuten|https://www.rakuten.com|日本乐天集团官网；日本乐天市场另见 rakuten.co.jp
+购物消费|Apple|https://www.apple.com|另有中国官网 apple.com.cn
+购物消费|华为|https://www.huawei.com|
+购物消费|小米|https://www.mi.com|
+购物消费|OPPO|https://www.oppo.com|
+购物消费|vivo|https://www.vivo.com|
+购物消费|荣耀|https://www.honor.com|
+购物消费|联想|https://www.lenovo.com|另有中国站 lenovo.com.cn
+购物消费|戴尔|https://www.dell.com|
+购物消费|惠普|https://www.hp.com|
+购物消费|三星|https://www.samsung.com|
+购物消费|索尼|https://www.sony.com|另有日本站 sony.co.jp
+购物消费|任天堂|https://www.nintendo.com|
+购物消费|Steam|https://store.steampowered.com|Valve 游戏发行平台
+生活服务|腾讯地图|https://map.qq.com|地图和导航服务
+生活服务|携程|https://www.ctrip.com|酒店、机票、火车票和旅游服务
+生活服务|飞猪|未找到|两次搜索均未明确给出官网URL（阿里旗下旅行平台，入口主要在淘宝App内及飞猪App），请人工核验
+生活服务|同程旅行|https://www.ly.com|官网写于官方App介绍页；酒店、机票、火车票和旅游服务
+生活服务|去哪儿|https://www.qunar.com|旅游产品搜索和预订平台
+生活服务|航旅纵横|未找到|两次搜索均未明确给出官网URL（中航信旗下航班信息服务，主要入口为App/微信小程序），请人工核验
+生活服务|中国民航信息网|https://www.travelsky.cn|不确定：另有候选项 travelsky.com.cn / travelsky.com，请人工核验
+生活服务|顺丰速运|https://www.sf-express.com|快递寄件与物流查询
+生活服务|中通快递|https://www.zto.com|快递查件与寄件服务
+生活服务|圆通速递|https://www.yto.net.cn|快递查件与寄件服务
+生活服务|申通快递|https://www.sto.cn|快递查件与寄件服务；公司官网域名载于申通快递证券发行文件
+生活服务|韵达快递|https://www.yundaex.com|快递查件与寄件服务
+生活服务|极兔速递|https://www.jtexpress.com|快递查件与寄件服务；IR域名为 ir.jtexpress.com
+生活服务|京东物流|https://www.jdl.com|京东集团旗下物流公司；IR域名为 ir.jdl.com
+生活服务|中国邮政|https://www.chinapost.com.cn|中央企业，中国邮政集团有限公司；英文站 english.chinapost.com.cn
+生活服务|中国政府网|https://www.gov.cn|中央人民政府门户网站；英文站 english.www.gov.cn
+生活服务|个人所得税|https://etax.chinatax.gov.cn|国家税务总局自然人电子税务局，个税申报与查询；也可通过"个人所得税"App办理
+生活服务|国家移民管理局|https://www.nia.gov.cn|出入境证件办理与查询；政务服务平台 s.nia.gov.cn
+生活服务|全国住房公积金|未找到|两次搜索均未明确给出全国统一官网域名（公积金业务归各省市住房公积金管理中心，主管部门为住房城乡建设部 mohurd.gov.cn；有"全国住房公积金公共服务"微信小程序/跨省通办渠道），请人工核验
+生活服务|国家市场监督管理总局|https://www.samr.gov.cn|市场监管、反垄断、食品安全、产品质量等
+生活服务|国家知识产权局|https://www.cnipa.gov.cn|专利、商标、地理标志等知识产权业务
+生活服务|中国消费者协会|https://www.cca.org.cn|消费投诉、维权与消费警示
+生活服务|12315|https://www.12315.cn|全国12315互联网平台，消费者投诉举报；电话12315
+生活服务|全国企业信用信息公示系统|https://www.gsxt.gov.cn|市场监管总局主办，企业注册与信用信息查询
+生活服务|中国执行信息公开网|http://zxgk.court.gov.cn|最高人民法院主办，失信被执行人、执行案件信息查询
+生活服务|中国裁判文书网|http://wenshu.court.gov.cn|最高人民法院主办，全国法院裁判文书查询
+生活服务|中国政府采购网|http://www.ccgp.gov.cn|财政部指定全国性政府采购信息发布平台，政府采购信息和政策
+生活服务|国家标准全文公开系统|https://openstd.samr.gov.cn|市场监管总局主办，国家标准免费查询与下载
+生活服务|全国组织机构统一社会信用代码查询|https://www.cods.org.cn|全国组织机构统一社会信用代码数据服务中心，组织机构代码/信用代码查询
+生活服务|国家药品监督管理局|https://www.nmpa.gov.cn|药品、医疗器械、化妆品监管；英文站 english.nmpa.gov.cn
+开发工具|Visual Studio|https://visualstudio.microsoft.com|微软的集成开发环境IDE
+开发工具|Zed|https://zed.dev|Rust 编写的开源代码编辑器，支持多人协作
+开发工具|Sublime Text|https://www.sublimetext.com|跨平台文本编辑器，代码/标记/散文编辑
+开发工具|JetBrains|https://www.jetbrains.com|开发者工具公司，IntelliJ IDEA、PyCharm、WebStorm 等
+开发工具|Android Studio|https://developer.android.com/studio|谷歌官方 Android 应用开发 IDE
+开发工具|Xcode|https://developer.apple.com/xcode|苹果官方开发工具，构建 iOS/macOS 应用
+开发工具|Eclipse|https://www.eclipse.org|不确定：另有候选项 eclipseide.org（Eclipse 基金会主域名为 eclipse.org，请人工核验）
+开发工具|IntelliJ IDEA|https://www.jetbrains.com/idea/|JetBrains 的 Java/Kotlin 集成开发环境
+开发工具|PyCharm|https://www.jetbrains.com/pycharm/|JetBrains 的 Python 集成开发环境
+开发工具|WebStorm|https://www.jetbrains.com/webstorm|JetBrains 的 JavaScript/TypeScript 集成开发环境
+开发工具|CLion|https://www.jetbrains.com/clion/|JetBrains 出品
+开发工具|Git|https://git-scm.com/|开源版本控制系统官网
+开发工具|GitLab|https://about.gitlab.com/|GitLab 公司官网
+开发工具|Bitbucket|https://bitbucket.org/|Atlassian 出品，另有介绍页 atlassian.com/software/bitbucket
+开发工具|Podman|https://podman.io/|开源容器引擎官网，另有 github.com/containers/podman
+开发工具|Java|http://oracle.com/java/|Oracle Java 官网，另有 java.com / dev.java
+开发工具|Go|https://go.dev/|Go 语言官网（旧域名 golang.org 已重定向到此）
+开发工具|Rust|https://www.rust-lang.org/|Rust 语言官网
+开发工具|PHP|https://www.php.net/|PHP 项目官方站点
+开发工具|Ruby|https://www.ruby-lang.org/|Ruby 语言官网
+开发工具|.NET|https://dotnet.microsoft.com/|微软 .NET 官网
+开发工具|Deno|https://deno.com/|安全的 JS/TS 运行时，另有 deno.land / github.com/denoland/deno
+开发工具|Bun|https://bun.sh|快速 JS 运行时/包管理器/打包器，另有 github.com/oven-sh/bun
+开发工具|Insomnia|https://insomnia.rest/|Kong 出品的开源 API 客户端
+开发工具|Bruno|https://www.usebruno.com/|开源 Git 友好 API 客户端，另有 github.com/usebruno/bruno
+开发工具|Wireshark|https://www.wireshark.org/|开源网络抓包分析工具
+开发工具|PuTTY|https://www.chiark.greenend.org.uk/~sgtatham/putty/|PuTTY 作者个人主页为官网，注意市面有山寨 putty.org
+开发工具|WinSCP|https://winscp.net|免费的 SFTP/SCP/FTP 客户端（Windows）
+开发工具|FileZilla|https://filezilla-project.org/|开源 FTP 客户端官网
+开发工具|Termius|https://termius.com|跨平台现代 SSH 客户端
+开发工具|MySQL|https://www.mysql.com/|Oracle 旗下 MySQL 官网
+开发工具|PostgreSQL|https://www.postgresql.org/|PostgreSQL 官网
+开发工具|MongoDB|https://www.mongodb.com/|MongoDB Inc 官网
+开发工具|Redis|https://redis.io/|Redis 官网，另有 github.com/redis/redis
+开发工具|SQLite|https://sqlite.org/|嵌入式数据库官网
+开发工具|DBeaver|https://dbeaver.io/|通用数据库管理工具，另有 github.com/dbeaver/dbeaver
+开发工具|pgAdmin|https://www.pgadmin.org/|PostgreSQL 官方管理工具
+开发工具|npm|https://www.npmjs.com|Node.js 包管理器官网（npm, Inc.，GitHub 旗下）
+开发工具|PyPI|https://pypi.org|Python 官方包仓库（Python 软件基金会运营）
+开发工具|Chocolatey|https://chocolatey.org|Windows 包管理器
+开发工具|Scoop|https://scoop.sh/|Windows 命令行包管理器，另有 github.com/ScoopInstaller/Scoop
+开发工具|F-Droid|https://f-droid.org/|开源 Android 应用商店
+开发工具|GitHub Desktop|https://desktop.github.com/|GitHub 官方桌面客户端
+常用网站|Google|https://www.google.com/|Google 搜索官网
+常用网站|Bing|https://www.bing.com/|微软搜索引擎
+常用网站|百度|https://www.baidu.com/|百度搜索
+常用网站|DuckDuckGo|https://duckduckgo.com/|隐私搜索引擎
+常用网站|Yandex|https://yandex.com/|俄罗斯主流搜索引擎
+常用网站|Speedtest|https://www.speedtest.net/|Ookla 宽带测速
+常用网站|Fast.com|https://fast.com/|Netflix 官方的极简测速站
+常用网站|DNS Checker|https://dnschecker.org|DNS 全球传播检测工具
+常用网站|WhatIsMyIPAddress|https://whatismyipaddress.com/|公网 IP 查询与 IP 工具
+常用网站|IPinfo|https://ipinfo.io|IP 数据与地理位置 API
+常用网站|Cloudflare|https://www.cloudflare.com/|CDN 与网络安全平台
+常用网站|DownDetector|https://downdetector.com/|网站服务故障监测
+常用网站|Is It Down Right Now|https://www.isitdownrightnow.com/|网站状态检测工具
+常用网站|VirusTotal|https://www.virustotal.com/|多引擎文件与网址安全检测，Google 旗下
+常用网站|Have I Been Pwned|https://haveibeenpwned.com|Troy Hunt 创办的邮箱密码泄漏查询站
+常用网站|URLVoid|https://www.urlvoid.com/|网址信誉与黑名单检测（NoVirusThanks 出品）
+常用网站|Hybrid Analysis|https://www.hybrid-analysis.com/|免费在线恶意软件分析沙箱（CrowdStrike Falcon Sandbox 技术）
+常用网站|SecurityHeaders|https://securityheaders.com/|HTTP 安全响应头评分工具（Scott Helme 出品）
+常用网站|SSL Labs|https://www.ssllabs.com|Qualys SSL 服务器测试
+常用网站|Mozilla Observatory|https://observatory.mozilla.org/|Mozilla 网站安全配置检测工具
+常用网站|WeTransfer|https://www.wetransfer.com/|大文件在线传输服务
+常用网站|Wormhole|https://wormhole.app/|端到端加密大文件传输，Firefox Send 替代
+常用网站|SwissTransfer|https://www.swisstransfer.com/|Infomaniak 旗下免费大文件传输（最高50GB）
+常用网站|TinyWow|https://tinywow.com/|免费在线 PDF/图片/视频/AI 写作工具集合
+常用网站|123Apps|https://123apps.com|在线音频/视频/PDF 编辑转换工具集
+常用网站|Remove.bg|https://www.remove.bg/|AI 图片去背景（注：据第三方报道，服务将于2026年12月1日并入 Canva）
+常用网站|TinyPNG|https://tinypng.com|智能图片压缩（WebP/PNG/JPEG）
+常用网站|Squoosh|https://squoosh.app/|Google Chrome Labs 开源在线图片压缩
+常用网站|CloudConvert|https://cloudconvert.com|在线文件格式转换（200+ 格式）
+常用网站|Convertio|https://convertio.co|在线文件格式转换
+常用网站|WHOIS|https://www.whois.com|不确定；域名查询工具站，另有 who.is 亦是常用 Whois 查询站
+常用网站|ICANN Lookup|https://lookup.icann.org/|ICANN 官方域名注册数据查询（WHOIS/RDAP）
+常用网站|Wayback Machine|https://web.archive.org|Internet Archive 互联网网页时光机
+常用网站|Google Search Console|https://search.google.com/search-console|Google 站长工具
+常用网站|Google Analytics|https://analytics.google.com/|Google 网站流量分析平台
+常用网站|Bing Webmaster Tools|https://www.bing.com/webmasters/|微软必应站长工具
+常用网站|Cloudflare Dashboard|https://dash.cloudflare.com|Cloudflare 账户管理控制台
+常用网站|PageSpeed Insights|https://pagespeed.web.dev/|Google 网页性能检测工具
+常用网站|GTmetrix|https://gtmetrix.com/|网站性能测速与监控工具
+常用网站|Google Trends|https://trends.google.com/|Google 搜索热度趋势分析

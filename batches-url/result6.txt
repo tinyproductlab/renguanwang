@@ -1,0 +1,73 @@
+开发工具|CLion|https://www.jetbrains.com/clion/|JetBrains 出品
+开发工具|Git|https://git-scm.com/|开源版本控制系统官网
+开发工具|GitLab|https://about.gitlab.com/|GitLab 公司官网
+开发工具|Bitbucket|https://bitbucket.org/|Atlassian 出品，另有介绍页 atlassian.com/software/bitbucket
+开发工具|Podman|https://podman.io/|开源容器引擎官网，另有 github.com/containers/podman
+开发工具|Java|http://oracle.com/java/|Oracle Java 官网，另有 java.com / dev.java
+开发工具|Go|https://go.dev/|Go 语言官网（旧域名 golang.org 已重定向到此）
+开发工具|Rust|https://www.rust-lang.org/|Rust 语言官网
+开发工具|PHP|https://www.php.net/|PHP 项目官方站点
+开发工具|Ruby|https://www.ruby-lang.org/|Ruby 语言官网
+开发工具|.NET|https://dotnet.microsoft.com/|微软 .NET 官网
+开发工具|Deno|https://deno.com/|安全的 JS/TS 运行时，另有 deno.land / github.com/denoland/deno
+开发工具|Bun|https://bun.sh|快速 JS 运行时/包管理器/打包器，另有 github.com/oven-sh/bun
+开发工具|Insomnia|https://insomnia.rest/|Kong 出品的开源 API 客户端
+开发工具|Bruno|https://www.usebruno.com/|开源 Git 友好 API 客户端，另有 github.com/usebruno/bruno
+开发工具|Wireshark|https://www.wireshark.org/|开源网络抓包分析工具
+开发工具|PuTTY|https://www.chiark.greenend.org.uk/~sgtatham/putty/|PuTTY 作者个人主页为官网，注意市面有山寨 putty.org
+开发工具|WinSCP|https://winscp.net|免费的 SFTP/SCP/FTP 客户端（Windows）
+开发工具|FileZilla|https://filezilla-project.org/|开源 FTP 客户端官网
+开发工具|Termius|https://termius.com|跨平台现代 SSH 客户端
+开发工具|MySQL|https://www.mysql.com/|Oracle 旗下 MySQL 官网
+开发工具|PostgreSQL|https://www.postgresql.org/|PostgreSQL 官网
+开发工具|MongoDB|https://www.mongodb.com/|MongoDB Inc 官网
+开发工具|Redis|https://redis.io/|Redis 官网，另有 github.com/redis/redis
+开发工具|SQLite|https://sqlite.org/|嵌入式数据库官网
+开发工具|DBeaver|https://dbeaver.io/|通用数据库管理工具，另有 github.com/dbeaver/dbeaver
+开发工具|pgAdmin|https://www.pgadmin.org/|PostgreSQL 官方管理工具
+开发工具|npm|https://www.npmjs.com|Node.js 包管理器官网（npm, Inc.，GitHub 旗下）
+开发工具|PyPI|https://pypi.org|Python 官方包仓库（Python 软件基金会运营）
+开发工具|Chocolatey|https://chocolatey.org|Windows 包管理器
+开发工具|Scoop|https://scoop.sh/|Windows 命令行包管理器，另有 github.com/ScoopInstaller/Scoop
+开发工具|F-Droid|https://f-droid.org/|开源 Android 应用商店
+开发工具|GitHub Desktop|https://desktop.github.com/|GitHub 官方桌面客户端
+常用网站|Google|https://www.google.com/|Google 搜索官网
+常用网站|Bing|https://www.bing.com/|微软搜索引擎
+常用网站|百度|https://www.baidu.com/|百度搜索
+常用网站|DuckDuckGo|https://duckduckgo.com/|隐私搜索引擎
+常用网站|Yandex|https://yandex.com/|俄罗斯主流搜索引擎
+常用网站|Speedtest|https://www.speedtest.net/|Ookla 宽带测速
+常用网站|Fast.com|https://fast.com/|Netflix 官方的极简测速站
+常用网站|DNS Checker|https://dnschecker.org|DNS 全球传播检测工具
+常用网站|WhatIsMyIPAddress|https://whatismyipaddress.com/|公网 IP 查询与 IP 工具
+常用网站|IPinfo|https://ipinfo.io|IP 数据与地理位置 API
+常用网站|Cloudflare|https://www.cloudflare.com/|CDN 与网络安全平台
+常用网站|DownDetector|https://downdetector.com/|网站服务故障监测
+常用网站|Is It Down Right Now|https://www.isitdownrightnow.com/|网站状态检测工具
+常用网站|VirusTotal|https://www.virustotal.com/|多引擎文件与网址安全检测，Google 旗下
+常用网站|Have I Been Pwned|https://haveibeenpwned.com|Troy Hunt 创办的邮箱密码泄漏查询站
+常用网站|URLVoid|https://www.urlvoid.com/|网址信誉与黑名单检测（NoVirusThanks 出品）
+常用网站|Hybrid Analysis|https://www.hybrid-analysis.com/|免费在线恶意软件分析沙箱（CrowdStrike Falcon Sandbox 技术）
+常用网站|SecurityHeaders|https://securityheaders.com/|HTTP 安全响应头评分工具（Scott Helme 出品）
+常用网站|SSL Labs|https://www.ssllabs.com|Qualys SSL 服务器测试
+常用网站|Mozilla Observatory|https://observatory.mozilla.org/|Mozilla 网站安全配置检测工具
+常用网站|WeTransfer|https://www.wetransfer.com/|大文件在线传输服务
+常用网站|Wormhole|https://wormhole.app/|端到端加密大文件传输，Firefox Send 替代
+常用网站|SwissTransfer|https://www.swisstransfer.com/|Infomaniak 旗下免费大文件传输（最高50GB）
+常用网站|TinyWow|https://tinywow.com/|免费在线 PDF/图片/视频/AI 写作工具集合
+常用网站|123Apps|https://123apps.com|在线音频/视频/PDF 编辑转换工具集
+常用网站|Remove.bg|https://www.remove.bg/|AI 图片去背景（注：据第三方报道，服务将于2026年12月1日并入 Canva）
+常用网站|TinyPNG|https://tinypng.com|智能图片压缩（WebP/PNG/JPEG）
+常用网站|Squoosh|https://squoosh.app/|Google Chrome Labs 开源在线图片压缩
+常用网站|CloudConvert|https://cloudconvert.com|在线文件格式转换（200+ 格式）
+常用网站|Convertio|https://convertio.co|在线文件格式转换
+常用网站|WHOIS|https://www.whois.com|不确定；域名查询工具站，另有 who.is 亦是常用 Whois 查询站
+常用网站|ICANN Lookup|https://lookup.icann.org/|ICANN 官方域名注册数据查询（WHOIS/RDAP）
+常用网站|Wayback Machine|https://web.archive.org|Internet Archive 互联网网页时光机
+常用网站|Google Search Console|https://search.google.com/search-console|Google 站长工具
+常用网站|Google Analytics|https://analytics.google.com/|Google 网站流量分析平台
+常用网站|Bing Webmaster Tools|https://www.bing.com/webmasters/|微软必应站长工具
+常用网站|Cloudflare Dashboard|https://dash.cloudflare.com|Cloudflare 账户管理控制台
+常用网站|PageSpeed Insights|https://pagespeed.web.dev/|Google 网页性能检测工具
+常用网站|GTmetrix|https://gtmetrix.com/|网站性能测速与监控工具
+常用网站|Google Trends|https://trends.google.com/|Google 搜索热度趋势分析

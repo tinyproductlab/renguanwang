@@ -1,0 +1,71 @@
+设计创意|Final Cut Pro|https://www.apple.com/final-cut-pro/|
+设计创意|CapCut|https://www.capcut.com|字节跳动出品，搜索结果中明确标注为官方首页
+设计创意|Cavalry|https://cavalry.studio|2D 动效软件，官方视频描述中标注的官方域名（旧域名 cavalry.scenegroup.co 已迁移）
+设计创意|SketchUp|https://www.sketchup.com|Trimble 公司出品，多个来源标注的官方网站
+设计创意|Autodesk|https://www.autodesk.com|搜索结果明确标注为官方网站（autodesk.com）
+设计创意|Cinema 4D|https://www.maxon.net/en/cinema-4d/|德国 Maxon 公司出品，搜索结果中标注的官方产品页（Maxon 官网 maxon.net）
+设计创意|Unity|https://unity.com|Unity Technologies 官方网站，搜索结果明确标注
+设计创意|Unreal Engine|https://www.unrealengine.com/|Epic Games 出品，搜索结果明确标注为官方网站
+设计创意|Godot|https://godotengine.org|开源游戏引擎，GitHub 组织 godotengine 的官方仓库明确指向此域名为主页
+设计创意|Google Fonts|https://fonts.google.com/|Google官方字体服务
+设计创意|Adobe Fonts|https://fonts.adobe.com/|Adobe官方字体服务（原Typekit）
+设计创意|Font Awesome|https://fontawesome.com/|图标字体工具包，GitHub FortAwesome组织/维基均标注fontawesome.com为官方站
+设计创意|Unsplash|https://unsplash.com/|免费图片库，多个来源标注的官方域名
+设计创意|Pexels|https://www.pexels.com/|免费图库，官方帮助中心help.pexels.com与首页均归属pexels.com
+设计创意|Pixabay|https://www.pixabay.com/|免费图库/视频/音乐网站，维基标注官网为 pixabay.com
+设计创意|Freepik|https://www.freepik.com/|免费设计素材（矢量/照片/PSD），多个来源标注 freepik.com 为官方站
+设计创意|Flaticon|https://www.flaticon.com/|免费图标库，多个来源标注 flaticon.com 为官方站
+学习教育|Udemy|https://www.udemy.com/|在线课程平台，搜索结果明确标注 udemy.com 为官方站
+学习教育|国家智慧教育公共服务平台|https://www.smartedu.cn/|教育部主办的国家教育资源总入口，国务院官网新华报道明确域名 www.smartedu.cn
+学习教育|国家开放大学|https://www.ouchn.cn/|开放教育官方网站，学校学习网地址为 www.ouchn.cn
+学习教育|中国教育在线|未找到|两次搜索未返回其官方网站地址，教育资讯类商业门户（疑为 eol.cn，未核实），请人工确认
+学习教育|网易公开课|https://open.163.com/|不确定：搜索仅找到网易站内"网易公开课"频道及旧地址 v.163.com/open，open.163.com 为网易长期沿用的公开课独立域名，请人工打开确认
+学习教育|Duolingo|https://www.duolingo.com/|游戏化语言学习平台，Google Play 官方应用页标注"Use Duolingo on the Web at https://www.duolingo.com"
+学习教育|沪江网校|https://www.hujiang.com/|不确定：维基"沪江网"词条外部链接为其官方网站（hujiang.com），请人工打开确认
+学习教育|百词斩|未找到|两次搜索未返回官方网站地址，英语单词学习App（成都超有爱科技），主要提供App下载，网站地址未确认，请人工确认
+学习教育|扇贝|https://www.shanbay.com/|英语学习工具，APKPure 官方应用页标注开发者官网为 shanbay.com
+学习教育|有道词典|https://dict.youdao.com/|不确定：维基"有道词典"词条标注网站为 cidian.youdao.com（旧），dict.youdao.com 为当前在线词典常用入口，请人工确认
+学习教育|Cambridge Dictionary|https://dictionary.cambridge.org/|剑桥官方英语词典，官方 YouTube 账号标注的官网
+学习教育|Merriam-Webster|https://www.merriam-webster.com/|美国常用英语词典，官方 YouTube 账号标注的官网
+学习教育|DeepL|https://www.deepl.com/|AI 翻译工具，维基标注官网为 deepl.com
+学习教育|中国研究生招生信息网|https://yz.chsi.com.cn|教育部官方研招网（学信网旗下），多地教育考试院公告确认网址
+学习教育|中国高等教育学生信息网（学信网）|https://www.chsi.com.cn/|教育部指定学历学籍查询唯一网站，维基/澎湃报道均确认官方域名
+学习教育|全国征兵网|https://www.gfbzb.gov.cn/|官方 .gov.cn 域名，多家媒体（央视新闻转述）确认全国征兵网报名网址
+学习教育|中国人事考试网|https://www.cpta.com.cn/|各类专业技术资格考试官方网站，考试通知均明确域名 www.cpta.com.cn
+学习教育|国家医学考试网|https://www.nmec.org.cn/|国家医学考试中心主办，官方考试公告明确网址 www.nmec.org.cn
+学习教育|教师资格考试网|https://ntce.neea.edu.cn/|教育部教育考试院"中小学教师资格考试网"，各省教育考试院公告确认网址
+学习教育|国家职业资格相关查询平台|https://zscx.osta.org.cn/|技能人才评价证书全国联网查询系统（原国家职业资格证书全国联网查询系统）；主办单位主站为 http://osta.mohrss.gov.cn
+新闻资讯|央视新闻|https://news.cctv.com/|新闻频道_央视网（cctv.com 官方新闻频道）
+新闻资讯|中国新闻网|https://www.chinanews.com/|中国新闻社（中新社）主办，版权/备案信息均为 chinanews.com
+新闻资讯|财新|https://www.caixin.com/|财新传媒财经媒体，维基标注官方网站 caixin.com（英文版另有 caixinglobal.com）
+新闻资讯|第一财经|https://www.yicai.com/|不确定：第一财经的官方网站为"一财网"，其官方域名在媒体资料中常用 www.yicai.com，但两次搜索结果正文中未逐字出现该完整网址，请人工打开确认
+新闻资讯|36 氪|https://www.36kr.com/|36氪官方网站，36kr.com 为北京多氪信息科技有限公司运营域名（备案/版权信息均在搜索结果中）
+新闻资讯|IT之家|https://www.ithome.com/|科技资讯门户，维基/其官方简介均标注官方网址 www.ithome.com（青岛软媒旗下）
+新闻资讯|极客公园|未找到|两次搜索均未返回官网地址（结果多为大会新闻及无关 YouTube 账号），请人工确认
+新闻资讯|虎嗅|https://www.huxiu.com/|科技商业资讯网站，维基标注其官方网站，其站内文章均归属 huxiu.com 域名
+新闻资讯|钛媒体|https://www.tmtpost.com/|科技商业媒体，文章自称"钛媒体官方网站"归属 tmtpost.com（英文版另有 en.tmtpost.com）
+新闻资讯|Reuters|https://www.reuters.com/|路透社全球新闻官网，维基标注网站 reuters.com，官方 YouTube 账号亦指向该域名
+新闻资讯|AP News|https://apnews.com/|美联社新闻官网，维基标注网站 apnews.com（公司站另有 ap.org）
+新闻资讯|BBC|https://www.bbc.com/|英国广播公司国际版官网（维基 BBC Online 标注：国际版 bbc.com、英国版 bbc.co.uk）
+新闻资讯|CNN|https://www.cnn.com/|美国有线电视新闻网官网，多来源明确官方网站为 cnn.com（另有国际版 edition.cnn.com）
+新闻资讯|The New York Times|https://www.nytimes.com/|纽约时报官网，维基标注官方网站 nytimes.com
+新闻资讯|The Guardian|https://www.theguardian.com/|英国卫报官网，维基标注网站 theguardian.com，官方 YouTube 账号亦标注此域名
+新闻资讯|Bloomberg|https://www.bloomberg.com/|彭博社官网，维基 Bloomberg L.P. 标注网站 bloomberg.com，官方 YouTube 账号亦标注此域名
+新闻资讯|CNBC|https://www.cnbc.com/|CNBC 财经媒体官网，官方 LinkedIn/YouTube 账号及第三方公司资料均确认官网为 cnbc.com
+新闻资讯|Financial Times|https://www.ft.com/|英国金融时报官网，维基标注官方网站 www.ft.com（日经旗下）
+新闻资讯|The Verge|https://www.theverge.com/|科技媒体 The Verge 官网，维基标注网站 theverge.com
+新闻资讯|Ars Technica|https://arstechnica.com/|科技深度媒体，维基标注网站 arstechnica.com，官方 YouTube/Vimeo 账号亦标注此域名
+新闻资讯|TechCrunch|https://techcrunch.com/|科技创投媒体，官方网站为 techcrunch.com（多来源确认）
+新闻资讯|Wired|https://www.wired.com/|Wired 杂志官网（Condé Nast 旗下），维基标注官方网站 www.wired.com
+阅读创作|豆瓣阅读|未找到|两次搜索未返回"豆瓣阅读"官方网站的明确地址（仅确认豆瓣主站为 douban.com），请人工确认
+阅读创作|七猫小说|未找到|两次搜索未返回"七猫小说"官方网站的明确地址（上海七猫文化传媒旗下免费网络文学平台，主要为 App，网站地址未确认），请人工确认
+阅读创作|阅文集团|https://www.yuewen.com/|阅文集团（腾讯旗下网络文学公司，港交所772），维基标注官方网站 www.yuewen.com
+阅读创作|Kindle|https://www.amazon.com/kindle/|Amazon Kindle 电子阅读器，维基标注其官方网站为 amazon.com/kindle（Amazon 主站 Kindle 专区）
+阅读创作|Kobo|https://www.kobo.com/|Rakuten Kobo 电子书/阅读器，维基标注官方网站 www.kobo.com
+阅读创作|Project Gutenberg|https://www.gutenberg.org/|公版电子书数字图书馆，维基标注网站 gutenberg.org，其官方电子书版权页亦注明主站 www.gutenberg.org
+阅读创作|Internet Archive|https://archive.org/|互联网档案馆（含 Wayback Machine），维基标注网站 archive.org
+阅读创作|简书|https://www.jianshu.com/|创作与阅读社区，维基标注网址 www.jianshu.com（上海佰集信息科技有限公司运营）
+阅读创作|Medium|https://medium.com/|在线写作与出版平台，维基标注网址 medium.com（Evan Williams 创立）
+阅读创作|Substack|https://substack.com/|新闻通讯与创作者平台，多来源明确官方网站为 substack.com
+阅读创作|WordPress|https://wordpress.org/|开源建站/CMS 平台，维基标注官方网站 wordpress.org（托管版另有 wordpress.com）
+阅读创作|Ghost|https://ghost.org/|开源博客与新闻通讯发布平台，维基标注官方网站 ghost.org

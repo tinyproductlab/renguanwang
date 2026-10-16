@@ -1,0 +1,71 @@
+常用软件|Flameshot|https://flameshot.org|
+常用软件|CleanShot X|https://cleanshot.com|
+常用软件|ImageGlass|https://imageglass.org|
+常用软件|IrfanView|https://www.irfanview.com|
+常用软件|XnView|https://www.xnview.com|
+常用软件|FastStone Image Viewer|https://www.faststone.org|
+AI 工具|Gemini|https://gemini.google.com|Google 的 AI 助手。
+AI 工具|Grok|https://grok.com|xAI 的 AI 助手。公司官网另有 x.ai。
+AI 工具|腾讯元宝|https://yuanbao.tencent.com|腾讯推出的 AI 助手。
+AI 工具|百川智能|https://www.baichuan-ai.com|提供大模型及 AI 服务。
+AI 工具|Adobe Firefly|https://firefly.adobe.com|Adobe 的生成式 AI 创作平台。
+AI 工具|Leonardo AI|https://leonardo.ai|AI 图像生成和创作平台。
+AI 工具|Ideogram|https://ideogram.ai|擅长生成带文字内容的 AI 图像。
+AI 工具|Flux|https://blackforestlabs.ai|一系列 AI 图像生成模型，由 Black Forest Labs 开发。
+AI 工具|Stable Diffusion|https://stability.ai|开源生态中的 AI 图像生成模型，开发者为 Stability AI。
+AI 工具|ComfyUI|https://www.comfy.org|节点式 AI 图像和视频生成工作流工具。
+AI 工具|Civitai|https://civitai.com|AI 模型和生成资源社区。另有成人内容姊妹站 civitai.red。
+AI 工具|Runway|https://runway.com|AI 视频生成和创作平台。
+AI 工具|Kling AI / 可灵 AI|https://kling.ai|AI 视频和图像生成平台，快手出品。另有国内站 klingai.com。
+AI 工具|海螺 AI|https://hailuoai.video|AI 视频生成工具，MiniMax 出品。另有 hailuoai.com。
+AI 工具|Vidu|https://www.vidu.com|AI 视频生成平台，生数科技出品。
+AI 工具|Pika|https://pika.art|AI 视频生成和编辑工具，Pika Labs 出品。
+AI 工具|Luma|https://lumalabs.ai|AI 视频、图像和 3D 创作平台。
+AI 工具|NotebookLM|https://notebooklm.google|基于用户资料进行阅读、总结和研究的 AI 工具，Google 出品。
+AI 工具|Cursor|https://www.cursor.com|集成 AI 能力的代码编辑器。
+AI 工具|GitHub Copilot|https://github.com/features/copilot|AI 编程辅助工具。
+AI 工具|Windsurf|https://windsurf.com|不确定：有资料称 windsurf.com 现跳转至 devin.ai/desktop（已被 Cognition 收购改名 Devin Desktop），请人工打开确认。AI 编程开发环境。
+AI 工具|Ollama|https://ollama.com|在本地运行大语言模型的工具。
+AI 工具|LM Studio|https://lmstudio.ai|图形化运行本地 AI 模型的软件。
+AI 工具|Open WebUI|https://openwebui.com|本地或自托管 AI 模型的 Web 界面。
+AI 工具|Hugging Face|https://huggingface.co|AI 模型、数据集和应用共享平台。
+AI 工具|Replicate|https://replicate.com|提供 AI 模型 API 和在线运行服务的平台。
+AI 工具|ElevenLabs|https://elevenlabs.io|AI 语音生成和语音处理平台。
+AI 工具|Udio|https://www.udio.com|AI 音乐创作平台。
+AI 工具|Gamma|https://gamma.app|AI 生成演示文稿和文档的工具。
+AI 工具|Napkin AI|https://www.napkin.ai|将文字内容转换成视觉图表的 AI 工具。
+AI 工具|Otter.ai|https://otter.ai|AI 会议记录和语音转文字工具。
+影音娱乐|mpv|https://mpv.io|轻量级开源媒体播放器。
+影音娱乐|MPC-BE|https://mpcbe.sourceforge.io|Windows 开源媒体播放器。源码在 github.com/Aleksoid1978/MPC-BE。
+影音娱乐|IINA|https://iina.io|macOS 原生风格的开源播放器。
+影音娱乐|Kodi|https://kodi.tv|开源家庭影音媒体中心。
+影音娱乐|FFmpeg|https://ffmpeg.org|音视频处理与转码工具。
+影音娱乐|Shotcut|https://shotcut.org|开源跨平台视频剪辑软件。
+影音娱乐|Kdenlive|https://kdenlive.org|KDE 社区的开源非线性视频剪辑。
+影音娱乐|DaVinci Resolve|https://www.blackmagicdesign.com/products/davinciresolve|Blackmagic 出品的专业剪辑调色软件。
+影音娱乐|Adobe Premiere Pro|https://www.adobe.com/products/premiere.html|Adobe 专业视频剪辑软件。
+影音娱乐|Adobe After Effects|https://www.adobe.com/products/aftereffects.html|Adobe 动态图形与特效制作软件。
+影音娱乐|Audacity|https://www.audacityteam.org|开源跨平台音频录制与编辑工具。
+影音娱乐|Spotify|https://spotify.com|全球流媒体音乐平台。
+影音娱乐|Apple Music|https://www.apple.com/apple-music/|苹果出品的流媒体音乐平台。另有网页版 music.apple.com。
+影音娱乐|YouTube Music|https://music.youtube.com/|Google/YouTube 出品的流媒体音乐服务。
+影音娱乐|YouTube|https://www.youtube.com|全球最大的视频分享平台。
+影音娱乐|Netflix|https://www.netflix.com|全球最大的流媒体视频平台。
+影音娱乐|Disney+|https://www.disneyplus.com|迪士尼出品的流媒体视频平台。
+影音娱乐|Twitch|https://www.twitch.tv|亚马逊旗下的游戏与综合直播平台。
+设计创意|Photoshop|https://www.adobe.com/products/photoshop.html|Adobe 专业图像处理软件。
+设计创意|Illustrator|https://www.adobe.com/products/illustrator.html|Adobe 矢量图形设计软件。
+设计创意|Sketch|https://www.sketch.com|Mac 平台的 UI/UX 矢量设计工具。
+设计创意|Affinity|https://www.affinity.studio|Serif（现归 Canva）出品的专业设计软件。旧官网 affinity.serif.com 已停用。
+设计创意|GIMP|https://www.gimp.org|开源免费的图像处理软件。
+设计创意|Krita|https://www.krita.org|开源免费的数字绘画软件。
+设计创意|Inkscape|https://inkscape.org|开源免费的矢量图形编辑软件。
+设计创意|Canva|https://www.canva.com/|免费在线平面设计工具。
+设计创意|Photopea|https://www.photopea.com|免费在线修图工具。
+设计创意|Pixlr|https://pixlr.com/|在线 AI 照片编辑器。
+设计创意|Penpot|https://penpot.app|开源在线 UI 设计工具。
+设计创意|Excalidraw|https://excalidraw.com|开源手绘风在线白板与作图工具。
+设计创意|draw.io|https://app.diagrams.net|免费开源的流程图/图表绘制工具。项目主页 drawio.com。
+设计创意|Blender|https://www.blender.org|免费开源的 3D 建模渲染软件。
+设计创意|After Effects|https://www.adobe.com/products/aftereffects.html|同 Adobe After Effects。Adobe 动态图形与特效制作软件。
+设计创意|Premiere Pro|https://www.adobe.com/products/premiere.html|同 Adobe Premiere Pro。Adobe 专业视频剪辑软件。
