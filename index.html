@@ -19,6 +19,22 @@
   .topbar b { color:#1a1a1a; }
   .topbar .brand { display:flex; align-items:center; gap:8px; }
   .topbar .brand img { width:24px; height:24px; }
+  .topnav { display:flex; gap:2px; }
+  .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
+  .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
+  @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
+  .warnsec { max-width:760px; margin:44px auto; padding:0 20px; }
+  .warnsec h2 { font-size:18px; margin-bottom:6px; }
+  .warnsec .sub { font-size:13px; color:#999; margin-bottom:16px; }
+  .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
+  .warn-row.good { border-left:4px solid #16a34a; }
+  .warn-row.mid { border-left:4px solid #f59e0b; background:#fffdf5; }
+  .warn-row.bad { border-left:4px solid #dc2626; background:#fff7f7; }
+  .warn-row .wi { font-size:20px; }
+  .warn-row .wb { flex:1; }
+  .warn-row .wb b { display:block; font-size:15px; margin-bottom:4px; }
+  .warn-row .wd { font-size:13px; color:#666; }
+  .warn-tip { font-size:13px; color:#999; margin-top:12px; }
   .hero { text-align:center; padding:64px 20px 28px; }
   .hero h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
   .hero p { color:#666; font-size:15px; margin-bottom:28px; }
@@ -96,7 +112,16 @@
 </style>
 </head>
 <body>
-<div class="topbar"><span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> · 小产品实验室</span></span><span>认准官网，访问不迷路</span></div>
+<div class="topbar">
+  <span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> · 小产品实验室</span></span>
+  <nav class="topnav" id="topnav">
+    <a href="#" data-nav="home">首页</a>
+    <a href="#" data-nav="hot">热门软件</a>
+    <a href="#" data-nav="ai">AI工具</a>
+    <a href="#" data-nav="nav">网站导航</a>
+    <a href="#" data-nav="about">关于我们</a>
+  </nav>
+</div>
 <div class="hero">
   <h1>搜工具，不踩坑</h1>
   <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
@@ -124,7 +149,25 @@
   </div>
 </div>
 <div class="results" id="results"></div>
-<div class="navsec">
+<div class="warnsec">
+  <h2>⚠️ 你可能搜错了</h2>
+  <p class="sub">以「向日葵」为例：搜出来的第一条，不一定是官网</p>
+  <div class="warn-row good">
+    <span class="wi">✅</span>
+    <div class="wb"><b>向日葵远程控制</b><span class="wd">oray.com · 官网，已人工验证</span></div>
+    <a class="go" href="https://www.oray.com" target="_blank" rel="noopener">直达 →</a>
+  </div>
+  <div class="warn-row mid">
+    <span class="wi">⚠️</span>
+    <div class="wb"><b>向日葵下载站</b><span class="wd">非官网 · 搜"向日葵下载"排前面的多是这类，下载器常带捆绑</span></div>
+  </div>
+  <div class="warn-row bad">
+    <span class="wi">⛔</span>
+    <div class="wb"><b>向日葵破解版</b><span class="wd">不安全 · 来路不明，常捆绑木马、有盗号风险</span></div>
+  </div>
+  <p class="warn-tip">认官网建议：直接访问官方网站，不要从搜索广告和下载站装软件。</p>
+</div>
+<div class="navsec" id="navsec">
   <h2>分类导航</h2>
   <div class="sub">全部人工验过的站 · 点分类跳转 · ✓ 为官网认证</div>
   <div class="nav-anchors" id="navAnchors"></div>
@@ -210,6 +253,28 @@ dlBtn.onclick = () => {
   doSearch();
 };
 regionWrap.appendChild(dlBtn);
+// 顶导航
+document.getElementById("topnav").addEventListener("click", e => {
+  const a = e.target.closest("a"); if(!a) return; e.preventDefault();
+  const k = a.dataset.nav, qEl = document.getElementById("q");
+  if(k === "home"){
+    qEl.value = ""; activeRegion = ""; activePlat = "";
+    if(onlyDownloadable) dlBtn.click();
+    regionWrap.querySelectorAll("span").forEach(x => { x.style.borderColor = ""; x.style.background = ""; x.style.color = ""; });
+    history.replaceState(null, "", location.pathname);
+    render([], ""); window.scrollTo({top:0, behavior:"smooth"});
+  } else if(k === "hot"){
+    qEl.value = ""; if(!onlyDownloadable) dlBtn.click();
+    doSearch(); document.getElementById("results").scrollIntoView({behavior:"smooth"});
+  } else if(k === "ai"){
+    qEl.value = "AI"; doSearch();
+    document.getElementById("results").scrollIntoView({behavior:"smooth"});
+  } else if(k === "nav"){
+    document.getElementById("navsec").scrollIntoView({behavior:"smooth"});
+  } else if(k === "about"){
+    document.querySelector(".footer").scrollIntoView({behavior:"smooth"});
+  }
+});
 
 function stars(n){ return "★".repeat(n)+"☆".repeat(5-n); }
 function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return ""; } }
