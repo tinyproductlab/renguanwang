@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-hk" class="zh-hk">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>中國銀行(香港)有限公司</title>
+		<script type="text/javascript" src="/common/scripts/clientlibs.prod.js"></script>
+		<script type="text/javascript" src="/common/scripts/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="/common/scripts/clientlibs_desktop.js"></script>
+		<link rel="stylesheet" href="/common/styles/error-message.css" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			<div id="header-top">
+				<a id="logo" href="/tc/home.html" title="中國銀行(香港)有限公司"><img src="/common/images/logo.png" alt="中國銀行(香港)有限公司"></a>
+				<ul id="nav-top"> 
+					<li><a href="/tc/contact.html" title="聯絡我們">聯絡我們</a></li>
+					<li>
+						<div id="fontsize">
+							<a href="#" title="字體大小：原設定 (A)" class="selected" style="font-size: 80%;"><span class="access">字體大小：原設定 (</span>A<span class="access">)</span></a>
+							<a href="#" title="字體大小：較大 (A)" style="font-size: 100%;"><span class="access">字體大小：較大 (</span>A<span class="access">)</span></a>
+							<a href="#" title="字體大小：最大 (A)" style="font-size: 130%;"><span class="access">字體大小：最大 (</span>A<span class="access">)</span></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="separator"><div id="separator-red" style="margin-left: 85px;"></div></div>
+		</div>
+		<div id="content" style="font-size: 100%;">
+			<div id="form-div" class="error-page-banner">
+				<div id="top-bar" class="no-small-text"><h2><span class="tc-text">找不到網頁<br>找不到网页</span><br><span class="en-text">Page not found</span></h2></div>
+				<div class="form_area error-table">
+					<table class="form_table greenarrow">
+						<tbody><tr>
+							<td>
+								<div class="checkSpan-45">
+									<span class="tc-text">您查詢的網頁不存在，可能已被移除、變更名稱或者暫時無法使用。<br>如果您在網址列輸入網址，請確定輸入正確。<br>如果您由中國銀行(香港)有限公司網頁連結至此，請記下該頁名稱並聯絡我們。<br><br>您查询的网页不存在，可能已被移除、变更名称或者暂时无法使用。<br>如果您在网址列输入网址，请确定输入准确。<br>如果您由中国银行(香港)有限公司网页连结至此，请记下该页名称并联络我们。</span><br><br>
+									<span class="en-text">This page you attempted to access does not exist on our servers. If you typed in the URL, please check to see if you typed the address correctly. If you are linked from somewhere within Bank of China (Hong Kong) Limited website, please make a note of which page contained the erroneous link and contact us.</span><br><br>
+									<span class="red-color">
+									<span class="tc-text">請於網址列輸入銀行網址 (<span class="en-text"><a href="/" title="https://www.bochk.com">https://www.bochk.com</a></span>) 直達本行網站。<br>
+									请於网址列输入银行网址 (<span class="en-text"><a href="/" title="https://www.bochk.com">https://www.bochk.com</a></span>) 直达本行网站。</span><br>
+									<span class="en-text">Please type in the Bank’s URL (<a href="/" title="https://www.bochk.com">https://www.bochk.com</a>) to gain direct access to our website.</span></span><br>
+									<div id="remarks">
+										<span class="tc-text">如需進入交易網，請直接連結：<br>如需进入交易网，请直接链接：</span><br>
+										<span class="en-text">Please enter online banking sites via the links below:</span><br><br>
+										<ul class="remarks-ul">
+											<li><span class="tc-text text-bold">個人客戶</span>&nbsp;&nbsp;&nbsp;<span class="sc-text text-bold">个人客户</span>&nbsp;&nbsp;&nbsp;<span class="en-text text-bold">Personal Customers</span>
+												<ul class="remarks-ul-inside">
+													<li><span><span class="tc-text"><a onclick="goOnlineService('login_its','tw');return false;" title="網上銀行">網上銀行</a></span>&nbsp;&nbsp;&nbsp;<span class="sc-text"><a onclick="goOnlineService('login_its','cn');return false;" title="网上银行">网上银行</a></span>&nbsp;&nbsp;&nbsp;<span class="en-text"><a onclick="goOnlineService('login_its', 'en');return false;" title="Internet Banking">Internet Banking</a></span></span></li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="remarks-ul">
+											<li><span class="tc-text text-bold">公司客戶</span>&nbsp;&nbsp;&nbsp;<span class="sc-text text-bold">公司客户</span>&nbsp;&nbsp;&nbsp;<span class="en-text text-bold">Business Customers</span>
+												<ul class="remarks-ul-inside">
+													<li><span><span class="en-text"><a href="https://igtb.bochk.com/" title="iGTB NET" target="_blank">iGTB NET</a></span></span></li>
+													<li><span><span class="tc-text"><a onclick="goOnlineService('login_bocnet','tw');return false;" title="中銀網銀(香港)">中行網銀<span class="sc-text">(</span>香港<span class="sc-text">)</span></a></span>&nbsp;&nbsp;&nbsp;<span class="sc-text"><a onclick="goOnlineService('login_bocnet','cn');return false;" title="中银网银(香港)">中行网银(香港)</a></span>&nbsp;&nbsp;&nbsp;<span class="en-text"><a onclick="goOnlineService('login_bocnet','en');return false;" title="BOCNET HK">BOCNET HK</a></span></span></li>
+													<li><span><span class="tc-text"><a onclick="goOnlineService('login_fio','tw');return false;" title="金融機構網上銀行">金融機構網上銀行</a></span>&nbsp;&nbsp;&nbsp;<span class="sc-text"><a onclick="goOnlineService('login_fio','cn');return false;" title="金融机构网上银行">金融机构网上银行</a></span>&nbsp;&nbsp;&nbsp;<span class="en-text"><a onclick="goOnlineService('login_fio','en');return false;" title="FI Online">FI Online</a></span></span></li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="remarks-ul">
+											<li><span class="tc-text text-bold"><a onclick="goOnlineService('login_its-private','tw');return false;" title="私人银行">私人銀行</a></span>&nbsp;&nbsp;&nbsp;<span class="sc-text text-bold"><a onclick="goOnlineService('login_its-private','cn');return false;" title="私人银行">私人银行</a></span>&nbsp;&nbsp;&nbsp;<span class="en-text text-bold"><a onclick="goOnlineService('login_its-private','en');return false;" title="Private Banking">Private Banking</a></span></li>
+										</ul>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody></table>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footer-nav">
+				<img src="/common/images/best-choice-icon.png" alt="">
+				<span>© 
+					<script type="text/javascript">
+						var d = new Date();
+						var n = d.getFullYear();
+						document.write(n);
+					</script> 中國銀行(香港)有限公司。版權所有。
+				</span>
+			</div>
+		</div>
+	</body>
+</html>
