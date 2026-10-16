@@ -182,7 +182,7 @@ const SITES = [
 {name:"去哪儿",url:"https://www.qunar.com",cat:"生活服务",rating:4,price:"免费",kw:"去哪儿 旅行 机票 酒店 qunar",desc:"老牌旅行比价平台，机票酒店火车票全。",official:true,region:"国内",icon:"www.qunar.com.ico"},
 {name:"饿了么",url:"https://www.ele.me",cat:"生活服务",rating:4,price:"免费",kw:"饿了么 外卖 eleme 点餐",desc:"阿里旗下外卖平台，蓝骑士准时达。",official:true,region:"国内",icon:"www.ele.me.ico"},
 {name:"大众点评",url:"https://www.dianping.com",cat:"生活服务",rating:4,price:"免费",kw:"大众点评 美食 团购 dianping",desc:"吃喝玩乐先看评价，团购优惠也在这。",official:true,region:"国内",icon:"www.dianping.com.ico"},
-{name:"Boss直聘",url:"https://www.zhipin.com",cat:"生活服务",rating:4,price:"免费",kw:"boss直聘 招聘 找工作 zhipin",desc:"找工作直接跟BOSS谈，招聘界头牌。",official:true,region:"国内",icon:"www.zhipin.com.ico"},
+{name:"BOSS直聘",url:"https://www.zhipin.com",cat:"生活服务",rating:4,price:"免费",kw:"boss直聘 招聘 找工作 zhipin",desc:"找工作直接跟BOSS谈，招聘界头牌。",official:true,region:"国内",icon:"www.zhipin.com.ico"},
 {name:"QQ邮箱",url:"https://mail.qq.com",cat:"办公效率",rating:4,price:"免费",kw:"qq邮箱 mail 邮箱",desc:"腾讯官方邮箱，QQ号直接登录。",official:true,region:"国内",icon:"mail.qq.com.ico"},
 {name:"163邮箱",url:"https://mail.163.com",cat:"办公效率",rating:4,price:"免费",kw:"163邮箱 网易邮箱 mail 邮箱",desc:"网易官方邮箱，老牌稳定垃圾少。",official:true,region:"国内",icon:"mail.163.com.ico"},
 {name:"Typora",url:"https://typora.io",cat:"开发工具",rating:4,price:"付费",kw:"typora markdown 编辑器",desc:"所见即所得的Markdown编辑器，写文档神器。",official:true,region:"国外",dl:true,plat:"双平台",icon:"typora.io.ico"},
