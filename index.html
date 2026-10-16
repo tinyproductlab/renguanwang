@@ -123,6 +123,21 @@
   .foot-links a { color:#555; text-decoration:none; display:block; margin-bottom:6px; }
   .foot-links a:hover { color:#1a1a1a; text-decoration:underline; }
   .foot-base { text-align:center; color:#bbb; font-size:12px; padding-top:20px; border-top:1px solid #f3f3f3; max-width:1400px; margin:0 auto; }
+  .foot-base a { color:#888; text-decoration:none; }
+  .foot-base a:hover { color:#1a1a1a; }
+  .feedback { max-width:760px; margin:20px auto 60px; padding:0 20px; }
+  .feedback h2 { font-size:18px; margin-bottom:6px; }
+  .feedback .sub { font-size:13px; color:#999; margin-bottom:18px; }
+  .fb-form { background:#fff; border:1px solid #eee; border-radius:16px; padding:24px; }
+  .fb-form label { display:block; font-size:13px; color:#555; margin-bottom:14px; }
+  .fb-form input, .fb-form textarea { display:block; width:100%; box-sizing:border-box; margin-top:6px; border:1px solid #e2e2e2; border-radius:10px; padding:12px 14px; font-size:14px; outline:none; }
+  .fb-form input:focus, .fb-form textarea:focus { border-color:#1a1a1a; }
+  .fb-form textarea { resize:vertical; }
+  .fb-actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-top:4px; }
+  .fb-btn { border:none; background:#1a1a1a; color:#fff; border-radius:10px; padding:10px 20px; font-size:14px; cursor:pointer; text-decoration:none; display:inline-block; }
+  .fb-btn.ghost { background:#f3f4f6; color:#1a1a1a; }
+  .fb-hint { font-size:13px; color:#999; }
+  .fb-ok { display:none; font-size:13px; color:#16a34a; margin-top:12px; }
 </style>
 </head>
 <body>
@@ -193,6 +208,22 @@
   <div class="nav-anchors" id="navAnchors"></div>
   <div id="navCats"></div>
 </div>
+<div class="feedback" id="feedback">
+  <h2>🙋 发现假网站？</h2>
+  <p class="sub">遇到冒充官网的假网站、钓鱼页面，在下面告诉我们，核实后会处理。</p>
+  <div class="fb-form">
+    <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
+    <label>它冒充的是哪个官网 / 软件<input id="fbReal" placeholder="例如：向日葵远程控制"></label>
+    <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
+    <div class="fb-actions">
+      <button class="fb-btn" onclick="copyFeedback()">复制反馈内容</button>
+      <span class="fb-hint">复制后发到 →</span>
+      <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
+      <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
+    </div>
+    <p class="fb-ok" id="fbOk">✅ 已复制，去群里粘贴发送就行，我们看到会处理。</p>
+  </div>
+</div>
 <div class="footer">
   <div class="foot-inner">
     <div class="foot-brand">
@@ -222,7 +253,7 @@
       <a href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室官网</a>
     </div>
   </div>
-  <div class="foot-base">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注</div>
+  <div class="foot-base">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注 &nbsp;·&nbsp; <a href="#feedback">反馈假网站</a> &nbsp;·&nbsp; <a href="./privacy.html">隐私协议</a></div>
 </div>
 
 <script src="./fuse.min.js"></script>
@@ -328,6 +359,22 @@ function doSearch(){
   if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
 }
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
+// 反馈：复制反馈内容 / 复制QQ群号
+function copyFeedback(){
+  const fake = document.getElementById("fbFake").value.trim();
+  const real = document.getElementById("fbReal").value.trim();
+  const note = document.getElementById("fbNote").value.trim();
+  if(!fake && !real){ alert("请至少填写假网站网址或被冒充的官网"); return; }
+  const txt = "【认官网-假网站反馈】\n假网站：" + (fake||"未填") + "\n冒充对象：" + (real||"未填") + "\n补充说明：" + (note||"无");
+  const done = () => { document.getElementById("fbOk").style.display = "block"; };
+  if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert("复制失败，请手动复制")); }
+  else alert("当前浏览器不支持一键复制，请手动复制");
+}
+function copyQQNum2(){
+  const done = () => alert("QQ群号 1039287882 已复制，去 QQ 搜索加群后粘贴反馈内容即可");
+  if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText("1039287882").then(done).catch(done); }
+  else done();
+}
 (function init(){
   const q = new URLSearchParams(location.search).get("q");
   if(q){ document.getElementById("q").value=q; doSearch(); }
