@@ -41,6 +41,9 @@
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
   .searchbox input { flex:1; border:none; outline:none; padding:16px 20px; font-size:16px; }
   .searchbox button { border:none; background:#1a1a1a; color:#fff; padding:0 32px; font-size:16px; cursor:pointer; }
+  .searchbox select { border:none; outline:none; background:#f5f5f5; padding:0 6px 0 14px; font-size:14px; color:#333; cursor:pointer; border-right:1px solid #e2e2e2; max-width:120px; }
+  .dl-toggle { background:#f5f5f5 !important; color:#666 !important; padding:0 12px !important; font-size:15px; border-right:1px solid #e2e2e2; }
+  .dl-toggle.on { background:#1a1a1a !important; color:#fff !important; }
   .chips { max-width:1150px; margin:20px auto 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
   .chips span { background:#fff; border:1px solid #e2e2e2; border-radius:20px; padding:5px 13px; font-size:13px; color:#555; cursor:pointer; }
   .chips span:hover { border-color:#1a1a1a; color:#1a1a1a; }
@@ -180,6 +183,12 @@
     <h1>搜工具，不踩坑</h1>
     <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
     <div class="searchbox">
+      <select id="platSel" title="按平台筛选">
+        <option value="">全部平台</option>
+        <option value="Windows">🪟 Windows</option>
+        <option value="macOS">🍎 macOS</option>
+      </select>
+      <button id="dlToggle" class="dl-toggle" title="只看可下载">💾</button>
       <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
       <button onclick="doSearch()">搜索</button>
     </div>
@@ -302,61 +311,32 @@
 <script>
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
-const REGIONS = ["国内","国外"];
-let activeRegion = "";
 let activePlat = "";
 let onlyDownloadable = false;
 const fuse = new Fuse(SITES, { keys:[{name:"name",weight:.4},{name:"kw",weight:.35},{name:"desc",weight:.15},{name:"cat",weight:.1}], threshold:.45, ignoreLocation:true });
 
 const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
-// 筛选 chips 并入分类 chips 同一容器（桌面端共两行）
-const sepEl = document.createElement("span");
-sepEl.className = "chip-sep"; sepEl.textContent = "|";
-chipsEl.appendChild(sepEl);
-// 地区筛选
-REGIONS.forEach(r => {
-  const s = document.createElement("span"); s.textContent = (r==="国内"?"🇨🇳 ":"🌍 ") + r; s.dataset.region = r;
-  s.onclick = () => {
-    activeRegion = (activeRegion === r) ? "" : r;
-    chipsEl.querySelectorAll("span[data-region]").forEach(x => x.style.borderColor = (x.dataset.region === activeRegion) ? "#1a1a1a" : "");
-    doSearch();
-  };
-  chipsEl.appendChild(s);
-});
-// 平台筛选
-["Windows","macOS"].forEach(p => {
-  const s = document.createElement("span"); s.textContent = (p==="Windows"?"🪟 ":"🍎 ") + p; s.dataset.plat = p;
-  s.onclick = () => {
-    activePlat = (activePlat === p) ? "" : p;
-    chipsEl.querySelectorAll("span[data-plat]").forEach(x => x.style.borderColor = (x.dataset.plat === activePlat) ? "#1a1a1a" : "");
-    doSearch();
-  };
-  chipsEl.appendChild(s);
-});
-// 可下载筛选
-const dlBtn = document.createElement("span");
-dlBtn.textContent = "💾 可下载";
-dlBtn.onclick = () => {
+// 搜索框前置筛选：平台下拉 + 可下载开关
+const platSel = document.getElementById("platSel");
+platSel.onchange = () => { activePlat = platSel.value; doSearch(); };
+const dlToggle = document.getElementById("dlToggle");
+dlToggle.onclick = () => {
   onlyDownloadable = !onlyDownloadable;
-  dlBtn.style.borderColor = onlyDownloadable ? "#1a1a1a" : "";
-  dlBtn.style.background = onlyDownloadable ? "#1a1a1a" : "";
-  dlBtn.style.color = onlyDownloadable ? "#fff" : "";
+  dlToggle.classList.toggle("on", onlyDownloadable);
   doSearch();
 };
-chipsEl.appendChild(dlBtn);
 // 顶导航
 document.getElementById("topnav").addEventListener("click", e => {
   const a = e.target.closest("a"); if(!a) return; e.preventDefault();
   const k = a.dataset.nav, qEl = document.getElementById("q");
   if(k === "home"){
-    qEl.value = ""; activeRegion = ""; activePlat = "";
-    if(onlyDownloadable) dlBtn.click();
-    chipsEl.querySelectorAll("span[data-region],span[data-plat]").forEach(x => { x.style.borderColor = ""; }); dlBtn.style.borderColor = ""; dlBtn.style.background = ""; dlBtn.style.color = "";
+    qEl.value = ""; activePlat = ""; platSel.value = "";
+    if(onlyDownloadable) dlToggle.click();
     history.replaceState(null, "", location.pathname);
     render([], ""); window.scrollTo({top:0, behavior:"smooth"});
   } else if(k === "hot"){
-    qEl.value = ""; if(!onlyDownloadable) dlBtn.click();
+    qEl.value = ""; if(!onlyDownloadable) dlToggle.click();
     doSearch(); document.getElementById("results").scrollIntoView({behavior:"smooth"});
   } else if(k === "ai"){
     qEl.value = "AI"; doSearch();
@@ -391,9 +371,8 @@ function render(list, q){
 }
 function doSearch(){
   const q = document.getElementById("q").value.trim();
-  if(!q && !activeRegion && !onlyDownloadable && !activePlat){ render([], ""); return; }
+  if(!q && !onlyDownloadable && !activePlat){ render([], ""); return; }
   let res = q ? fuse.search(q).map(r=>r.item) : [...SITES];
-  if(activeRegion){ res = res.filter(s => s.region === activeRegion); }
   if(activePlat){ res = res.filter(s => s.plat === activePlat || s.plat === "双平台" || s.plat === "网页"); }
   if(onlyDownloadable){ res = res.filter(s => s.dl); }
   render(res, q || "筛选");
