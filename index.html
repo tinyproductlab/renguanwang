@@ -144,6 +144,8 @@
   .fb-actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-top:4px; }
   .fb-actions2 { display:flex; gap:10px; margin-top:10px; }
   .fb-actions2 .fb-btn { flex:1; text-align:center; }
+  .fb-join { margin-top:18px; padding-top:16px; border-top:1px solid #f3f3f3; }
+  .fb-join .fb-hint { display:block; margin-bottom:10px; }
   .fb-btn { border:none; background:#1a1a1a; color:#fff; border-radius:10px; padding:10px 20px; font-size:14px; cursor:pointer; text-decoration:none; display:inline-block; }
   .fb-btn.ghost { background:#f3f4f6; color:#1a1a1a; }
   .fb-hint { font-size:13px; color:#999; }
@@ -294,12 +296,8 @@
       <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
       <div class="fb-actions">
         <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
-        <span class="fb-hint">或复制后发到 →</span>
       </div>
-      <div class="fb-actions2">
-        <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
-        <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
-      </div>
+
       <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
     </div>
   </div>
@@ -316,6 +314,13 @@
     </div>
   </div>
 </div>
+    <div class="fb-join">
+      <span class="fb-hint">或复制后发到 →</span>
+      <div class="fb-actions2">
+        <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
+        <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
+      </div>
+    </div>
   </div>
 </div>
 <script src="./fuse.min.js"></script>
