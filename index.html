@@ -33,11 +33,11 @@
   .warn-row .wd { font-size:13px; color:#666; }
   .warn-tip { font-size:13px; color:#999; margin-top:12px; }
   .hero-wrap { max-width:1400px; margin:0 auto; padding:48px 20px 36px; }
-  .hero-title { text-align:center; margin-bottom:32px; }
+  .hero-title { text-align:center; margin-bottom:36px; }
   .hero-title h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
-  .hero-title p { color:#666; font-size:15px; }
-  .hero-cols { display:grid; grid-template-columns:1.15fr 1fr; gap:56px; align-items:start; }
-  .hero-search { text-align:center; }
+  .hero-title p { color:#666; font-size:15px; margin-bottom:26px; }
+  .hero-cols { display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:start; max-width:1200px; margin:0 auto; }
+  .hero-chips .chips { margin-top:0; }
   @media (max-width:900px){ .hero-cols { grid-template-columns:1fr; gap:28px; } .hero-wrap { padding:40px 20px 24px; } }
   .warnside { background:#fff; border:1px solid #eee; border-radius:16px; padding:24px 24px 20px; box-shadow:0 4px 16px rgba(0,0,0,.04); }
   .warnside h2 { font-size:17px; margin-bottom:4px; }
@@ -140,13 +140,13 @@
   <div class="hero-title">
     <h1>搜工具，不踩坑</h1>
     <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
+    <div class="searchbox">
+      <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
+      <button onclick="doSearch()">搜索</button>
+    </div>
   </div>
   <div class="hero-cols">
-    <div class="hero-search">
-      <div class="searchbox">
-        <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
-        <button onclick="doSearch()">搜索</button>
-      </div>
+    <div class="hero-chips">
       <div class="chips" id="chips"></div>
     </div>
     <div class="warnside">
