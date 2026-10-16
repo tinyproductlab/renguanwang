@@ -57,7 +57,7 @@
   .quick-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:14px 4px; text-align:center; text-decoration:none; color:#1a1a1a; font-size:13px; display:block; }
   .quick-grid a:hover { border-color:#1a1a1a; }
   .quick-grid a .cat { display:block; font-size:11px; color:#999; margin-top:4px; }
-  @media (max-width:640px) { .site-grid { grid-template-columns:repeat(auto-fill, minmax(130px, 1fr)); } #navCats { grid-template-columns:1fr; } }
+  @media (max-width:640px) { .site-grid { grid-template-columns:repeat(auto-fill, minmax(130px, 1fr)); } }
   .results { max-width:1000px; margin:32px auto 60px; padding:0 20px; }
   .meta { font-size:13px; color:#999; margin-bottom:12px; }
   .card { background:#fff; border-radius:12px; padding:18px 20px; margin-bottom:12px; border:1px solid #eee; display:flex; gap:14px; align-items:flex-start; }
@@ -85,9 +85,8 @@
   .nav-anchors { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:26px; }
   .nav-anchors a { font-size:13px; color:#555; background:#fff; border:1px solid #e2e2e2; border-radius:16px; padding:5px 14px; text-decoration:none; }
   .nav-anchors a:hover { border-color:#1a1a1a; color:#1a1a1a; }
-  .cat-block { margin-bottom:30px; scroll-margin-top:12px; }
-  #navCats { display:grid; grid-template-columns:repeat(3, 1fr); gap:0 28px; align-items:start; }
-  @media (max-width:1100px){ #navCats { grid-template-columns:repeat(2, 1fr); } }
+  .cat-block { margin-bottom:36px; scroll-margin-top:12px; }
+  #navCats { display:block; }
   .cat-block h3 { font-size:15px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
   .cat-block h3 .cnt { font-size:12px; color:#999; font-weight:400; }
   .site-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; }
