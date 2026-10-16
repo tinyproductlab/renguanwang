@@ -159,6 +159,10 @@
   .fb-sug:hover { background:#f6f6f6; }
   .fb-sug img { width:20px; height:20px; border-radius:4px; }
   .fb-sug em { margin-left:auto; font-style:normal; font-size:11px; color:#999; font-family:ui-monospace,Menlo,monospace; }
+  .modal-mask { position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:200; display:flex; align-items:center; justify-content:center; padding:20px; }
+  .modal { background:#fff; border-radius:16px; padding:28px; max-width:560px; width:100%; max-height:88vh; overflow-y:auto; position:relative; }
+  .modal-x { position:absolute; top:10px; right:14px; border:none; background:none; font-size:20px; cursor:pointer; color:#999; }
+  .modal .fb-form { border:none; padding:0; }
 </style>
 </head>
 <body>
@@ -226,7 +230,7 @@
 <div class="results" id="results"></div>
 <div class="navsec" id="navsec">
   <h2>分类导航</h2>
-  <div class="sub">全部人工验过的站 · 点分类跳转 · ✓ 为官网认证</div>
+  <div class="sub">全部人工验过的站 · 点分类跳转</div>
   <div class="nav-anchors" id="navAnchors"></div>
   <div id="navCats"></div>
 </div>
@@ -250,7 +254,7 @@
           <span class="qq-num-sm" id="qqNum" title="点击复制群号">1039287882</span>
         </div>
         <div class="join-item">
-          <img src="./tg-qrcode.png" alt="认官网Telegram群二维码">
+          <a href="https://t.me/renguanwang" target="_blank" rel="noopener" title="加入 Telegram 群"><img src="./tg-qrcode.png" alt="认官网Telegram群二维码"></a>
           <span>Telegram 群</span>
         </div>
       </div>
@@ -260,51 +264,56 @@
       <a href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室官网</a>
     </div>
 <div class="feedback" id="feedback">
-  <button class="fb-toggle" onclick="toggleFeedback()">
+  <button class="fb-toggle" onclick="openFbModal('fake')">
     <span>🙋 发现假网站？想推荐新网站？</span>
-    <span class="fb-arrow" id="fbToggleArrow">展开 ▾</span>
   </button>
-  <div id="fbBody" style="display:none; margin-top:16px;">
-    <div class="fb-tabs">
-      <button class="fb-tab active" data-tab="fake" onclick="switchFbTab('fake')">🚨 举报假网站</button>
-      <button class="fb-tab" data-tab="new" onclick="switchFbTab('new')">✨ 推荐新网站</button>
-    </div>
-    <div class="fb-pane" id="fbPaneFake">
-      <div class="fb-form">
-        <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
-        <label>它冒充的是哪个官网 / 软件
-          <span class="fb-rel"><input id="fbReal" placeholder="输入关键词搜索，如：向日葵" autocomplete="off"><span class="fb-suggest" id="fbSuggest"></span></span>
-        </label>
-        <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
-        <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
-        <div class="fb-actions">
-          <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
-          <span class="fb-hint">或复制后发到 →</span>
-          <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
-          <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
-        </div>
-        <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
-      </div>
-    </div>
-    <div class="fb-pane" id="fbPaneNew" style="display:none">
-      <div class="fb-form">
-        <p class="fb-newtip">推荐你觉得值得收录的官网，我们人工核验后会加入。</p>
-        <label>网站 / 软件名称<input id="fbNewName" placeholder="例如：XX输入法"></label>
-        <label>官网网址<input id="fbNewUrl" placeholder="例如：https://www.xxx.com"></label>
-        <label>一句话介绍（选填）<textarea id="fbNewDesc" rows="3" placeholder="例如：语音输入很强的输入法"></textarea></label>
-        <div class="fb-actions">
-          <button class="fb-btn" id="fbSubmitNew" onclick="submitNewSite()">提交推荐</button>
-        </div>
-        <p class="fb-ok" id="fbOkNew">✅ 已提交，我们核验后会收录。</p>
-      </div>
-    </div>
-  </div>
 </div>
 
   </div>
   <div class="foot-base">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注 &nbsp;·&nbsp; <a href="#feedback">反馈假网站</a> &nbsp;·&nbsp; <a href="./privacy.html">隐私协议</a></div>
 </div>
 
+
+<div class="modal-mask" id="fbModal" style="display:none">
+  <div class="modal" role="dialog" aria-label="反馈">
+    <button class="modal-x" onclick="closeFbModal()" aria-label="关闭">✕</button>
+<div id="fbBody">
+  <div class="fb-tabs">
+    <button class="fb-tab active" data-tab="fake" onclick="switchFbTab('fake')">🚨 举报假网站</button>
+    <button class="fb-tab" data-tab="new" onclick="switchFbTab('new')">✨ 推荐新网站</button>
+  </div>
+  <div class="fb-pane" id="fbPaneFake">
+    <div class="fb-form">
+      <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
+      <label>它冒充的是哪个官网 / 软件
+        <span class="fb-rel"><input id="fbReal" placeholder="输入关键词搜索，如：向日葵" autocomplete="off"><span class="fb-suggest" id="fbSuggest"></span></span>
+      </label>
+      <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
+      <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="fb-actions">
+        <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
+        <span class="fb-hint">或复制后发到 →</span>
+        <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
+        <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
+      </div>
+      <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
+    </div>
+  </div>
+  <div class="fb-pane" id="fbPaneNew" style="display:none">
+    <div class="fb-form">
+      <p class="fb-newtip">推荐你觉得值得收录的官网，我们人工核验后会加入。</p>
+      <label>网站 / 软件名称<input id="fbNewName" placeholder="例如：XX输入法"></label>
+      <label>官网网址<input id="fbNewUrl" placeholder="例如：https://www.xxx.com"></label>
+      <label>一句话介绍（选填）<textarea id="fbNewDesc" rows="3" placeholder="例如：语音输入很强的输入法"></textarea></label>
+      <div class="fb-actions">
+        <button class="fb-btn" id="fbSubmitNew" onclick="submitNewSite()">提交推荐</button>
+      </div>
+      <p class="fb-ok" id="fbOkNew">✅ 已提交，我们核验后会收录。</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
 <script src="./fuse.min.js"></script>
 <script src="./sites.js?v=20261016-169"></script>
 <script>
@@ -391,7 +400,7 @@ function render(list, q){
       <div class="body">
         <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="globe">🌍</span>`}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
         <div class="domain">${host(s.url)}</div>
-        <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">✓ 官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
+        <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
         <p>${s.desc}</p>
       </div>
       <a class="go" href="${s.url}" target="_blank" rel="noopener">直达 →</a>
@@ -408,13 +417,19 @@ function doSearch(){
   if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
 }
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
-// 反馈区：折叠 / Tab 切换
-function toggleFeedback(){
-  const b = document.getElementById("fbBody");
-  const open = b.style.display !== "none";
-  b.style.display = open ? "none" : "block";
-  document.getElementById("fbToggleArrow").textContent = open ? "展开 ▾" : "收起 ▴";
+// 反馈弹窗
+function openFbModal(tab){
+  document.getElementById("fbModal").style.display = "flex";
+  document.body.style.overflow = "hidden";
+  if(tab) switchFbTab(tab);
 }
+function closeFbModal(){
+  document.getElementById("fbModal").style.display = "none";
+  document.body.style.overflow = "";
+}
+document.addEventListener("keydown", e => { if(e.key === "Escape") closeFbModal(); });
+document.getElementById("fbModal").addEventListener("click", e => { if(e.target.id === "fbModal") closeFbModal(); });
+// 反馈区：折叠 / Tab 切换
 function switchFbTab(t){
   document.querySelectorAll(".fb-tab").forEach(x => x.classList.toggle("active", x.dataset.tab === t));
   document.getElementById("fbPaneFake").style.display = t === "fake" ? "block" : "none";
@@ -453,7 +468,7 @@ async function submitNewSite(){
   try{
     const r = await fetch("/api/feedback", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ type:"new", name, url, desc }) });
     const j = await r.json().catch(()=>({ok:false}));
-    if(j.ok){ okEl.style.display = "block"; btn.textContent = "已提交"; return; }
+    if(j.ok){ okEl.style.display = "block"; btn.textContent = "已提交"; setTimeout(closeFbModal, 1500); return; }
     alert("提交失败，请稍后重试");
   }catch(e){ alert("提交失败，请检查网络后重试"); }
   btn.disabled = false; btn.textContent = "提交推荐";
@@ -477,7 +492,7 @@ async function submitFeedback(){
   try{
     const r = await fetch("/api/feedback", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ fake, real, note, website: honey }) });
     const j = await r.json().catch(()=>({ok:false}));
-    if(j.ok){ okEl.textContent = "✅ 已提交，我们核实后会处理。"; okEl.style.display = "block"; btn.textContent = "已提交"; return; }
+    if(j.ok){ okEl.textContent = "✅ 已提交，我们核实后会处理。"; okEl.style.display = "block"; btn.textContent = "已提交"; setTimeout(closeFbModal, 1500); return; }
     fallbackCopy();
   }catch(e){ fallbackCopy(); }
 }
@@ -522,7 +537,7 @@ function copyQQNum2(){
     const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
     div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
-      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
+      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
   // 快捷直达也补上图标、域名和平台
