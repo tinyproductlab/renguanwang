@@ -11,11 +11,14 @@
 <meta property="og:image" content="https://renguanwang.com/og-image.png">
 <meta property="og:url" content="https://renguanwang.com/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./logo.svg" type="image/svg+xml">
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:#f7f8fa; color:#1a1a1a; }
-  .topbar { background:#fff; border-bottom:1px solid #eee; padding:10px 24px; font-size:13px; color:#888; display:flex; justify-content:space-between; }
+  .topbar { background:#fff; border-bottom:1px solid #eee; padding:10px 24px; font-size:13px; color:#888; display:flex; justify-content:space-between; align-items:center; }
   .topbar b { color:#1a1a1a; }
+  .topbar .brand { display:flex; align-items:center; gap:8px; }
+  .topbar .brand img { width:24px; height:24px; }
   .hero { text-align:center; padding:64px 20px 28px; }
   .hero h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
   .hero p { color:#666; font-size:15px; margin-bottom:28px; }
@@ -70,11 +73,23 @@
   .site-grid a .sdomain, .quick-grid a .dom { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11px; color:#999; }
   .quick-grid a .dom { display:block; margin-top:3px; }
   .card .domain { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; color:#888; margin:2px 0 8px; }
-  .footer { text-align:center; color:#bbb; font-size:12px; padding:24px; border-top:1px solid #eee; background:#fff; }
+  .footer { color:#888; font-size:13px; padding:36px 20px 24px; border-top:1px solid #eee; background:#fff; }
+  .foot-inner { max-width:1100px; margin:0 auto 20px; display:flex; gap:56px; flex-wrap:wrap; align-items:flex-start; }
+  .foot-brand .brand { display:flex; align-items:center; gap:8px; margin-bottom:10px; }
+  .foot-brand .brand img { width:28px; height:28px; }
+  .foot-brand .brand b { color:#1a1a1a; font-size:16px; }
+  .foot-brand p { margin-bottom:6px; }
+  .foot-brand .dim { color:#bbb; font-size:12px; }
+  .foot-gzh img { width:110px; height:110px; border:1px solid #eee; border-radius:8px; display:block; margin-bottom:8px; }
+  .foot-gzh p { font-size:12px; color:#999; }
+  .foot-links .ft { color:#1a1a1a; font-weight:600; margin-bottom:10px; }
+  .foot-links a { color:#555; text-decoration:none; display:block; margin-bottom:6px; }
+  .foot-links a:hover { color:#1a1a1a; text-decoration:underline; }
+  .foot-base { text-align:center; color:#bbb; font-size:12px; padding-top:20px; border-top:1px solid #f3f3f3; max-width:1100px; margin:0 auto; }
 </style>
 </head>
 <body>
-<div class="topbar"><span><b>认官网</b> · 小产品实验室</span><span>认准官网，访问不迷路</span></div>
+<div class="topbar"><span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> · 小产品实验室</span></span><span>认准官网，访问不迷路</span></div>
 <div class="hero">
   <h1>搜工具，不踩坑</h1>
   <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
@@ -108,7 +123,24 @@
   <div class="nav-anchors" id="navAnchors"></div>
   <div id="navCats"></div>
 </div>
-<div class="footer">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注</div>
+<div class="footer">
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <div class="brand"><img src="./logo.svg" alt="认官网"> <b>认官网</b></div>
+      <p>认准官网，访问不迷路</p>
+      <p class="dim">开发者：小产品实验室</p>
+    </div>
+    <div class="foot-gzh">
+      <img src="./gzh-qrcode.jpg" alt="小产品实验室公众号二维码">
+      <p>微信扫码关注公众号</p>
+    </div>
+    <div class="foot-links">
+      <p class="ft">相关链接</p>
+      <a href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室官网</a>
+    </div>
+  </div>
+  <div class="foot-base">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注</div>
+</div>
 
 <script src="./fuse.min.js"></script>
 <script src="./sites.js"></script>
