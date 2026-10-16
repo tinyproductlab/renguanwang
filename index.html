@@ -178,9 +178,23 @@
     <a href="#" data-nav="about">关于我们</a>
   </nav>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
-    <option value="">🌍 全部地区</option>
-    <option value="国内">🇨🇳 中国</option>
-    <option value="国外">🌐 国外</option>
+    <option value="">🌍 全部</option>
+    <option value="CN">🇨🇳 中国</option>
+    <option value="US">🇺🇸 美国</option>
+    <option value="GB">🇬🇧 英国</option>
+    <option value="KR">🇰🇷 韩国</option>
+    <option value="JP">🇯🇵 日本</option>
+    <option value="SG">🇸🇬 新加坡</option>
+    <option value="HK">🇭🇰 香港</option>
+    <option value="DE">🇩🇪 德国</option>
+    <option value="FR">🇫🇷 法国</option>
+    <option value="NL">🇳🇱 荷兰</option>
+    <option value="CZ">🇨🇿 捷克</option>
+    <option value="SE">🇸🇪 瑞典</option>
+    <option value="AE">🇦🇪 阿联酋</option>
+    <option value="RU">🇷🇺 俄罗斯</option>
+    <option value="NO">🇳🇴 挪威</option>
+    <option value="CH">🇨🇭 瑞士</option>
   </select>
 </div>
 <div class="hero-wrap">
@@ -315,6 +329,7 @@
 <script>
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
+const COUNTRY_NAMES = {CN:"中国",US:"美国",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",DE:"德国",FR:"法国",NL:"荷兰",CZ:"捷克",SE:"瑞典",AE:"阿联酋",RU:"俄罗斯",NO:"挪威",CH:"瑞士"};
 let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";
@@ -370,7 +385,7 @@ function render(list, q){
       <div class="body">
         <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="globe">🌍</span>`}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
         <div class="domain">${host(s.url)}</div>
-        <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
+        <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="CN"?"region-dom":"region-for"}">${COUNTRY_NAMES[s.region]||s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
         <p>${s.desc}</p>
       </div>
       <a class="go" href="${s.url}" target="_blank" rel="noopener">直达 →</a>
