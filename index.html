@@ -82,13 +82,17 @@
   .cat-block h3 { font-size:15px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
   .cat-block h3 .cnt { font-size:12px; color:#999; font-weight:400; }
   .site-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; }
-  .site-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:12px 10px; text-decoration:none; display:flex; flex-direction:column; align-items:flex-start; gap:3px; }
+  .site-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:10px 12px; text-decoration:none; display:flex; flex-direction:row; align-items:center; gap:10px; }
   .site-grid a:hover { border-color:#1a1a1a; }
+  .site-grid a .sic { width:30px; height:30px; border-radius:7px; flex-shrink:0; }
+  .site-grid a .stext { display:flex; flex-direction:column; gap:3px; min-width:0; }
   .site-grid a .sname { font-size:14px; color:#1a1a1a; display:flex; align-items:center; gap:6px; }
   .site-grid a .off { color:#0369a1; font-size:12px; font-style:normal; }
   .site-grid a .sdomain, .quick-grid a .dom { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11px; color:#999; }
   .quick-grid a .dom { display:block; margin-top:3px; }
   .card .domain { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; color:#888; margin:2px 0 8px; }
+  .card h3 .cic { width:22px; height:22px; border-radius:5px; vertical-align:-4px; margin-right:8px; }
+  .quick-grid a .qic { width:28px; height:28px; border-radius:6px; margin:0 auto 8px; display:block; }
   .footer { color:#888; font-size:13px; padding:36px 20px 24px; border-top:1px solid #eee; background:#fff; }
   .foot-inner { max-width:1400px; margin:0 auto 20px; display:flex; gap:56px; flex-wrap:wrap; align-items:flex-start; }
   .foot-brand .brand { display:flex; align-items:center; gap:8px; margin-bottom:10px; }
@@ -289,7 +293,7 @@ function render(list, q){
     <div class="card${s.sponsored?" sponsored":""}">
       <div class="rank">${i+1}</div>
       <div class="body">
-        <h3>${s.name}<span class="stars">${stars(s.rating)}</span></h3>
+        <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:''}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
         <div class="domain">${host(s.url)}</div>
         <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">✓ 官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
         <p>${s.desc}</p>
@@ -334,15 +338,21 @@ document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter"
     const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
     div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
-      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></a>`).join("") + `</div>`;
+      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:''}<span class="stext"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
-  // 快捷直达也补上域名和平台
+  // 快捷直达也补上图标、域名和平台
   document.querySelectorAll(".quick-grid a").forEach(a => {
     const href = a.getAttribute("href");
     const d = host(href);
     const site = SITES.find(s => s.url === href);
     const suffix = site ? platShort(site) : "";
+    if(site && site.icon){
+      const img = document.createElement("img");
+      img.className = "qic"; img.src = "./icons/" + site.icon; img.alt = ""; img.loading = "lazy";
+      img.onerror = () => img.remove();
+      a.prepend(img);
+    }
     if(d){ const s = document.createElement("span"); s.className = "dom"; s.textContent = d + suffix; a.appendChild(s); }
   });
 })();
