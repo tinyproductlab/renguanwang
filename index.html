@@ -119,7 +119,7 @@
   .join-item span { font-size:12px; color:#999; display:block; }
   .join-tip { font-size:11px !important; color:#bbb !important; margin-top:4px !important; line-height:1.5; }
   .qq-num-sm { font-family:ui-monospace,Menlo,monospace !important; font-size:12px !important; color:#1a1a1a !important; cursor:pointer; margin-top:2px; }
-  .foot-join .join-item:nth-child(2), .foot-join .join-item:nth-child(3) { display:none; } /* 2026-10-16 暂藏QQ/TG群二维码，公众号保留 */
+  .foot-join .join-item:nth-child(2) { display:none; } /* 2026-10-16 QQ群不放，只留TG群 */
   .qq-num { width:104px; height:104px; border:1px solid #eee; border-radius:8px; margin:0 auto 8px; background:#f7f8fa; display:flex; align-items:center; justify-content:center; font-family:ui-monospace,Menlo,monospace; font-size:14px; font-weight:700; color:#1a1a1a; cursor:pointer; }
   .tg-box { width:104px; height:104px; border:1px solid #eee; border-radius:8px; margin:0 auto 8px; background:#f7f8fa; display:flex; align-items:center; justify-content:center; font-size:38px; text-decoration:none; }
   .foot-links .ft { color:#1a1a1a; font-weight:600; margin-bottom:10px; }
@@ -228,7 +228,7 @@
       <p class="dim">开发者：小产品实验室</p>
     </div>
     <div class="foot-join">
-      <p class="ft">微信公众号</p>
+      <p class="ft">关注我们</p>
       <div class="join-row">
         <div class="join-item">
           <img src="./gzh-qrcode.jpg" alt="小产品实验室公众号二维码">
@@ -299,7 +299,6 @@
     <div class="fb-join">
       <span class="fb-hint">或复制后发到 →</span>
       <div class="fb-actions2">
-        <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
         <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
       </div>
     </div>
@@ -445,7 +444,7 @@ async function submitFeedback(){
   btn.disabled = true; btn.textContent = "提交中…";
   const fallbackCopy = () => {
     const txt = "【认官网-假网站反馈】\n假网站：" + (fake||"未填") + "\n冒充对象：" + (real||"未填") + "\n补充说明：" + (note||"无");
-    const done = () => { okEl.textContent = "⚠️ 直接提交失败，已复制反馈内容，请发到 QQ 群或 Telegram 群。"; okEl.style.display = "block"; };
+    const done = () => { okEl.textContent = "⚠️ 直接提交失败，已复制反馈内容，请发到 Telegram 群。"; okEl.style.display = "block"; };
     if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert("提交失败，请手动复制")); }
     else alert("提交失败，请手动复制");
     btn.disabled = false; btn.textContent = "提交反馈";
