@@ -138,6 +138,19 @@
   .fb-btn.ghost { background:#f3f4f6; color:#1a1a1a; }
   .fb-hint { font-size:13px; color:#999; }
   .fb-ok { display:none; font-size:13px; color:#16a34a; margin-top:12px; }
+  .fb-toggle { width:100%; background:#fff; border:1px solid #eee; border-radius:14px; padding:16px 20px; font-size:15px; font-weight:600; cursor:pointer; display:flex; justify-content:space-between; align-items:center; color:#1a1a1a; }
+  .fb-toggle:hover { border-color:#1a1a1a; }
+  .fb-arrow { font-size:13px; color:#999; font-weight:400; }
+  .fb-tabs { display:flex; gap:8px; margin-bottom:16px; }
+  .fb-tab { border:1px solid #e2e2e2; background:#fff; border-radius:20px; padding:8px 18px; font-size:13px; cursor:pointer; color:#555; }
+  .fb-tab.active { background:#1a1a1a; color:#fff; border-color:#1a1a1a; }
+  .fb-newtip { font-size:13px; color:#999; margin-bottom:16px; }
+  .fb-rel { position:relative; display:block; }
+  .fb-suggest { display:none; position:absolute; top:100%; left:0; right:0; background:#fff; border:1px solid #e2e2e2; border-radius:10px; margin-top:4px; box-shadow:0 8px 24px rgba(0,0,0,.08); z-index:50; overflow:hidden; }
+  .fb-sug { display:flex; align-items:center; gap:10px; padding:9px 14px; cursor:pointer; font-size:14px; }
+  .fb-sug:hover { background:#f6f6f6; }
+  .fb-sug img { width:20px; height:20px; border-radius:4px; }
+  .fb-sug em { margin-left:auto; font-style:normal; font-size:11px; color:#999; font-family:ui-monospace,Menlo,monospace; }
 </style>
 </head>
 <body>
@@ -209,20 +222,44 @@
   <div id="navCats"></div>
 </div>
 <div class="feedback" id="feedback">
-  <h2>🙋 发现假网站？</h2>
-  <p class="sub">遇到冒充官网的假网站、钓鱼页面，在下面告诉我们，核实后会处理。</p>
-  <div class="fb-form">
-    <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
-    <label>它冒充的是哪个官网 / 软件<input id="fbReal" placeholder="例如：向日葵远程控制"></label>
-    <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
-    <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
-    <div class="fb-actions">
-      <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
-      <span class="fb-hint">或复制后发到 →</span>
-      <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
-      <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
+  <button class="fb-toggle" onclick="toggleFeedback()">
+    <span>🙋 发现假网站？想推荐新网站？</span>
+    <span class="fb-arrow" id="fbToggleArrow">展开 ▾</span>
+  </button>
+  <div id="fbBody" style="display:none; margin-top:16px;">
+    <div class="fb-tabs">
+      <button class="fb-tab active" data-tab="fake" onclick="switchFbTab('fake')">🚨 举报假网站</button>
+      <button class="fb-tab" data-tab="new" onclick="switchFbTab('new')">✨ 推荐新网站</button>
     </div>
-    <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
+    <div class="fb-pane" id="fbPaneFake">
+      <div class="fb-form">
+        <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
+        <label>它冒充的是哪个官网 / 软件
+          <span class="fb-rel"><input id="fbReal" placeholder="输入关键词搜索，如：向日葵" autocomplete="off"><span class="fb-suggest" id="fbSuggest"></span></span>
+        </label>
+        <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
+        <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="fb-actions">
+          <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
+          <span class="fb-hint">或复制后发到 →</span>
+          <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
+          <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
+        </div>
+        <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
+      </div>
+    </div>
+    <div class="fb-pane" id="fbPaneNew" style="display:none">
+      <div class="fb-form">
+        <p class="fb-newtip">推荐你觉得值得收录的官网，我们人工核验后会加入。</p>
+        <label>网站 / 软件名称<input id="fbNewName" placeholder="例如：XX输入法"></label>
+        <label>官网网址<input id="fbNewUrl" placeholder="例如：https://www.xxx.com"></label>
+        <label>一句话介绍（选填）<textarea id="fbNewDesc" rows="3" placeholder="例如：语音输入很强的输入法"></textarea></label>
+        <div class="fb-actions">
+          <button class="fb-btn" id="fbSubmitNew" onclick="submitNewSite()">提交推荐</button>
+        </div>
+        <p class="fb-ok" id="fbOkNew">✅ 已提交，我们核验后会收录。</p>
+      </div>
+    </div>
   </div>
 </div>
 <div class="footer">
@@ -360,7 +397,56 @@ function doSearch(){
   if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
 }
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
-// 反馈：优先直接提交到 /api/feedback，失败则回退为复制
+// 反馈区：折叠 / Tab 切换
+function toggleFeedback(){
+  const b = document.getElementById("fbBody");
+  const open = b.style.display !== "none";
+  b.style.display = open ? "none" : "block";
+  document.getElementById("fbToggleArrow").textContent = open ? "展开 ▾" : "收起 ▴";
+}
+function switchFbTab(t){
+  document.querySelectorAll(".fb-tab").forEach(x => x.classList.toggle("active", x.dataset.tab === t));
+  document.getElementById("fbPaneFake").style.display = t === "fake" ? "block" : "none";
+  document.getElementById("fbPaneNew").style.display = t === "new" ? "block" : "none";
+}
+// 冒充对象：搜索本站自动填充
+(function(){
+  const inp = document.getElementById("fbReal");
+  const box = document.getElementById("fbSuggest");
+  if(!inp) return;
+  inp.addEventListener("input", () => {
+    const q = inp.value.trim().toLowerCase();
+    if(q.length < 1){ box.style.display = "none"; return; }
+    const hits = SITES.filter(s => (s.name + " " + (s.kw||"")).toLowerCase().includes(q)).slice(0, 6);
+    if(!hits.length){ box.style.display = "none"; return; }
+    box.innerHTML = hits.map(s => {
+      const i = SITES.indexOf(s);
+      return `<div class="fb-sug" data-i="${i}">${s.icon?`<img src="./icons/${s.icon}" alt="" onerror="this.remove()">`:""}<span>${s.name}</span><em>${host(s.url)}</em></div>`;
+    }).join("");
+    box.style.display = "block";
+    box.querySelectorAll(".fb-sug").forEach(el => {
+      el.onmousedown = (e) => { e.preventDefault(); inp.value = SITES[+el.dataset.i].name; box.style.display = "none"; };
+    });
+  });
+  inp.addEventListener("blur", () => setTimeout(() => box.style.display = "none", 200));
+})();
+// 推荐新网站提交
+async function submitNewSite(){
+  const name = document.getElementById("fbNewName").value.trim();
+  const url = document.getElementById("fbNewUrl").value.trim();
+  const desc = document.getElementById("fbNewDesc").value.trim();
+  if(!name){ alert("请填写网站 / 软件名称"); return; }
+  const btn = document.getElementById("fbSubmitNew");
+  const okEl = document.getElementById("fbOkNew");
+  btn.disabled = true; btn.textContent = "提交中…";
+  try{
+    const r = await fetch("/api/feedback", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ type:"new", name, url, desc }) });
+    const j = await r.json().catch(()=>({ok:false}));
+    if(j.ok){ okEl.style.display = "block"; btn.textContent = "已提交"; return; }
+    alert("提交失败，请稍后重试");
+  }catch(e){ alert("提交失败，请检查网络后重试"); }
+  btn.disabled = false; btn.textContent = "提交推荐";
+}
 async function submitFeedback(){
   const fake = document.getElementById("fbFake").value.trim();
   const real = document.getElementById("fbReal").value.trim();
