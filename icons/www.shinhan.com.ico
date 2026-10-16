@@ -1,0 +1,20 @@
+<!doctype html> 
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<title>Shinhan Bank</title>
+<link href="/comcss/template.css" type="text/css" rel="stylesheet" />
+<link href="/comcss/layout.css" type="text/css" rel="stylesheet" />
+<link href="/comcss/contents.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+	(function() {
+		//임시테스트
+		location.href = "/error/error1.jsp";
+		return; 
+	}());
+</script>
+</head>
+<body>
+</body>
+</html>

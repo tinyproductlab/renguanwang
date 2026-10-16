@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>요청하신 페이지에 오류가 발생 하였습니다.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta property="og:image" content="http://www.gov.kr/images/etc/og_image_600.png"/>
+    
+<link rel="apple-touch-icon" href="/images/etc/icon.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/etc/icon72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/etc/icon144.png" />
+<link rel="shortcut icon" type="image/x-icon" href="/images/etc/favicon.png" />
+<link type="text/css" rel="stylesheet" href="/2017/lib/css/default.css?dt=20170724"/>
+<link type="text/css" rel="stylesheet" href="/2017/lib/css/page1.css?dt=20170724"/>
+<link type="text/css" rel="stylesheet" href="/2017/lib/css/page2.css?dt=20170724"/>
+<link type="text/css" rel="stylesheet" href="/2017/lib/css/page3.css?dt=20170724"/>
+<style type="text/css">
+input[type=text] {ime-mode:active;}
+.page-util .fa {vertical-align:middle;}
+.ui-datepicker-title select {width:44% !important;}
+::-ms-reveal {
+    display:none;
+}
+</style>
+
+</head>
+<body>
+    <div class="contentsWrap" id="pageCont">
+        <div class="contents">
+            <div class="cont-inner error-inner">
+                <div class="error-wrap">
+                    <h2>죄송합니다.<br>요청하신 페이지를 찾을 수 없습니다.</h2>
+                    <p class="desc">방문하려는 페이지의 주소가 잘못 입력되었거나, 페이지의 주소가 변경 혹은 삭제되어 요청하신 페이지를 찾을 수 없습니다.</p>
+                    <p class="desc">입력하신 주소가 정확한지 다시 한 번 확인해 주시기 바랍니다.</p>
+                    <p class="desc">감사합니다.</p>
+                </div>
+                <p class="btns center type1">
+                    <span class="ibtn large dark line">
+                        <a href="#none" onclick="history.back(); return false;">이전화면</a>
+                    </span>
+                    <span class="ibtn large dark">
+                        <a href="/portal/main">정부24</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
