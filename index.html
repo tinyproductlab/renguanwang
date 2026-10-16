@@ -23,9 +23,6 @@
   .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
   @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
-  .warnsec { max-width:1000px; margin:44px auto; padding:0 20px; }
-  .warnsec h2 { font-size:18px; margin-bottom:6px; }
-  .warnsec .sub { font-size:13px; color:#999; margin-bottom:16px; }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
   .warn-row.mid { border-left:4px solid #f59e0b; background:#fffdf5; }
@@ -35,7 +32,14 @@
   .warn-row .wb b { display:block; font-size:15px; margin-bottom:4px; }
   .warn-row .wd { font-size:13px; color:#666; }
   .warn-tip { font-size:13px; color:#999; margin-top:12px; }
-  .hero { text-align:center; padding:64px 20px 28px; }
+  .hero-wrap { max-width:1400px; margin:0 auto; padding:56px 20px 36px; display:grid; grid-template-columns:1.15fr 1fr; gap:56px; align-items:center; }
+  .hero { text-align:center; }
+  .warnside { background:#fff; border:1px solid #eee; border-radius:16px; padding:24px 24px 20px; box-shadow:0 4px 16px rgba(0,0,0,.04); }
+  .warnside h2 { font-size:17px; margin-bottom:4px; }
+  .warnside .sub { font-size:13px; color:#999; margin-bottom:14px; }
+  .warnside .warn-row { padding:12px 14px; }
+  .warnside .warn-tip { margin-top:10px; }
+  @media (max-width:900px){ .hero-wrap { grid-template-columns:1fr; gap:28px; padding:40px 20px 24px; } }
   .hero h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
   .hero p { color:#666; font-size:15px; margin-bottom:28px; }
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
@@ -129,14 +133,34 @@
     <a href="#" data-nav="about">关于我们</a>
   </nav>
 </div>
-<div class="hero">
-  <h1>搜工具，不踩坑</h1>
-  <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
-  <div class="searchbox">
-    <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
-    <button onclick="doSearch()">搜索</button>
+<div class="hero-wrap">
+  <div class="hero">
+    <h1>搜工具，不踩坑</h1>
+    <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
+    <div class="searchbox">
+      <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
+      <button onclick="doSearch()">搜索</button>
+    </div>
+    <div class="chips" id="chips"></div>
   </div>
-  <div class="chips" id="chips"></div>
+  <div class="warnside">
+    <h2>⚠️ 你可能搜错了</h2>
+    <p class="sub">以「向日葵」为例：搜出来的第一条，不一定是官网</p>
+    <div class="warn-row good">
+      <span class="wi">✅</span>
+      <div class="wb"><b>向日葵远程控制</b><span class="wd">sunlogin.oray.com · 官网，已人工验证</span></div>
+      <a class="go" href="https://sunlogin.oray.com" target="_blank" rel="noopener">直达 →</a>
+    </div>
+    <div class="warn-row mid">
+      <span class="wi">⚠️</span>
+      <div class="wb"><b>向日葵下载站</b><span class="wd">非官网 · 下载器常带捆绑</span></div>
+    </div>
+    <div class="warn-row bad">
+      <span class="wi">⛔</span>
+      <div class="wb"><b>向日葵破解版</b><span class="wd">不安全 · 常捆绑木马</span></div>
+    </div>
+    <p class="warn-tip">认官网建议：直接访问官方网站，不要从搜索广告和下载站装软件。</p>
+  </div>
 </div>
 <div class="quick">
   <h2>⚡ 快捷直达</h2>
@@ -156,24 +180,6 @@
   </div>
 </div>
 <div class="results" id="results"></div>
-<div class="warnsec">
-  <h2>⚠️ 你可能搜错了</h2>
-  <p class="sub">以「向日葵」为例：搜出来的第一条，不一定是官网</p>
-  <div class="warn-row good">
-    <span class="wi">✅</span>
-    <div class="wb"><b>向日葵远程控制</b><span class="wd">sunlogin.oray.com · 官网，已人工验证</span></div>
-    <a class="go" href="https://sunlogin.oray.com" target="_blank" rel="noopener">直达 →</a>
-  </div>
-  <div class="warn-row mid">
-    <span class="wi">⚠️</span>
-    <div class="wb"><b>向日葵下载站</b><span class="wd">非官网 · 搜"向日葵下载"排前面的多是这类，下载器常带捆绑</span></div>
-  </div>
-  <div class="warn-row bad">
-    <span class="wi">⛔</span>
-    <div class="wb"><b>向日葵破解版</b><span class="wd">不安全 · 来路不明，常捆绑木马、有盗号风险</span></div>
-  </div>
-  <p class="warn-tip">认官网建议：直接访问官方网站，不要从搜索广告和下载站装软件。</p>
-</div>
 <div class="navsec" id="navsec">
   <h2>分类导航</h2>
   <div class="sub">全部人工验过的站 · 点分类跳转 · ✓ 为官网认证</div>
