@@ -41,9 +41,10 @@
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
   .searchbox input { flex:1; border:none; outline:none; padding:16px 20px; font-size:16px; }
   .searchbox button { border:none; background:#1a1a1a; color:#fff; padding:0 32px; font-size:16px; cursor:pointer; }
-  .chips { max-width:720px; margin:20px auto 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
-  .chips span { background:#fff; border:1px solid #e2e2e2; border-radius:20px; padding:6px 16px; font-size:13px; color:#555; cursor:pointer; }
+  .chips { max-width:1150px; margin:20px auto 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+  .chips span { background:#fff; border:1px solid #e2e2e2; border-radius:20px; padding:5px 13px; font-size:13px; color:#555; cursor:pointer; }
   .chips span:hover { border-color:#1a1a1a; color:#1a1a1a; }
+  .chip-sep { border:none !important; background:none !important; cursor:default !important; padding:5px 2px !important; color:#ccc !important; }
   .quick { max-width:1400px; margin:0 auto; padding:0 20px; }
   .quick h2 { font-size:15px; color:#1a1a1a; margin-bottom:12px; font-weight:600; }
   .quick-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:10px; }
@@ -309,33 +310,33 @@ const fuse = new Fuse(SITES, { keys:[{name:"name",weight:.4},{name:"kw",weight:.
 
 const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
+// 筛选 chips 并入分类 chips 同一容器（桌面端共两行）
+const sepEl = document.createElement("span");
+sepEl.className = "chip-sep"; sepEl.textContent = "|";
+chipsEl.appendChild(sepEl);
 // 地区筛选
-const regionWrap = document.createElement("div");
-regionWrap.className = "chips"; regionWrap.style.marginTop = "10px";
 REGIONS.forEach(r => {
   const s = document.createElement("span"); s.textContent = (r==="国内"?"🇨🇳 ":"🌍 ") + r; s.dataset.region = r;
   s.onclick = () => {
     activeRegion = (activeRegion === r) ? "" : r;
-    regionWrap.querySelectorAll("span[data-region]").forEach(x => x.style.borderColor = (x.dataset.region === activeRegion) ? "#1a1a1a" : "");
+    chipsEl.querySelectorAll("span[data-region]").forEach(x => x.style.borderColor = (x.dataset.region === activeRegion) ? "#1a1a1a" : "");
     doSearch();
   };
-  regionWrap.appendChild(s);
+  chipsEl.appendChild(s);
 });
 // 平台筛选
 ["Windows","macOS"].forEach(p => {
   const s = document.createElement("span"); s.textContent = (p==="Windows"?"🪟 ":"🍎 ") + p; s.dataset.plat = p;
   s.onclick = () => {
     activePlat = (activePlat === p) ? "" : p;
-    regionWrap.querySelectorAll("span[data-plat]").forEach(x => x.style.borderColor = (x.dataset.plat === activePlat) ? "#1a1a1a" : "");
+    chipsEl.querySelectorAll("span[data-plat]").forEach(x => x.style.borderColor = (x.dataset.plat === activePlat) ? "#1a1a1a" : "");
     doSearch();
   };
-  regionWrap.appendChild(s);
+  chipsEl.appendChild(s);
 });
-chipsEl.after(regionWrap);
 // 可下载筛选
 const dlBtn = document.createElement("span");
 dlBtn.textContent = "💾 可下载";
-dlBtn.style.marginLeft = "10px";
 dlBtn.onclick = () => {
   onlyDownloadable = !onlyDownloadable;
   dlBtn.style.borderColor = onlyDownloadable ? "#1a1a1a" : "";
@@ -343,7 +344,7 @@ dlBtn.onclick = () => {
   dlBtn.style.color = onlyDownloadable ? "#fff" : "";
   doSearch();
 };
-regionWrap.appendChild(dlBtn);
+chipsEl.appendChild(dlBtn);
 // 顶导航
 document.getElementById("topnav").addEventListener("click", e => {
   const a = e.target.closest("a"); if(!a) return; e.preventDefault();
@@ -351,7 +352,7 @@ document.getElementById("topnav").addEventListener("click", e => {
   if(k === "home"){
     qEl.value = ""; activeRegion = ""; activePlat = "";
     if(onlyDownloadable) dlBtn.click();
-    regionWrap.querySelectorAll("span").forEach(x => { x.style.borderColor = ""; x.style.background = ""; x.style.color = ""; });
+    chipsEl.querySelectorAll("span[data-region],span[data-plat]").forEach(x => { x.style.borderColor = ""; }); dlBtn.style.borderColor = ""; dlBtn.style.background = ""; dlBtn.style.color = "";
     history.replaceState(null, "", location.pathname);
     render([], ""); window.scrollTo({top:0, behavior:"smooth"});
   } else if(k === "hot"){
