@@ -22,6 +22,7 @@
   .topnav { display:flex; gap:2px; }
   .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
+  .region-sel { margin-left:auto; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
   @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
@@ -176,17 +177,17 @@
     <a href="#" data-nav="nav">网站导航</a>
     <a href="#" data-nav="about">关于我们</a>
   </nav>
+  <select id="regionSel" class="region-sel" title="选择国家或地区">
+    <option value="">🌍 全部地区</option>
+    <option value="国内">🇨🇳 中国</option>
+    <option value="国外">🌐 国外</option>
+  </select>
 </div>
 <div class="hero-wrap">
     <div class="hero-title">
     <h1>搜工具，不踩坑</h1>
     <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
     <div class="searchbox">
-      <select id="regionSel" title="按地区筛选">
-        <option value="">🌍 全部地区</option>
-        <option value="国内">🇨🇳 中国</option>
-        <option value="国外">🌐 国外</option>
-      </select>
       <select id="platSel" title="按平台筛选">
         <option value="">全部平台</option>
         <option value="Windows">🪟 Windows</option>
@@ -317,16 +318,11 @@ const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交�
 let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";
-// 地区排序加权：选中地区排前面
-function regionBoost(a, b){
-  if(!activeRegion) return 0;
-  return ((b.region === activeRegion) ? 1 : 0) - ((a.region === activeRegion) ? 1 : 0);
-}
 const fuse = new Fuse(SITES, { keys:[{name:"name",weight:.4},{name:"kw",weight:.35},{name:"desc",weight:.15},{name:"cat",weight:.1}], threshold:.45, ignoreLocation:true });
 
 const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
-// 搜索框前置筛选：地区下拉 + 平台下拉 + 可下载开关
+// 搜索框前置筛选：平台下拉 + 可下载开关；右上角地区选择
 const regionSel = document.getElementById("regionSel");
 regionSel.onchange = () => { activeRegion = regionSel.value; doSearch(); buildNav(); };
 const platSel = document.getElementById("platSel");
@@ -366,8 +362,8 @@ function render(list, q){
   const box = document.getElementById("results");
   if(!q){ box.innerHTML = `<div class="meta">⬆ 在上面输入需求，或点分类看看收录了什么</div>`; return; }
   if(!list.length){ box.innerHTML = `<div class="empty">没搜到"${q}"相关的站<br><br>我们只收录人工验过的站，覆盖面还在扩充中</div>`; return; }
-  // 赞助位置顶并标注，其余按推荐指数排序；选中地区时该地区优先
-  list.sort((a,b)=>((b.sponsored?1:0)-(a.sponsored?1:0)) || regionBoost(a,b) || ((b.official?1:0)-(a.official?1:0)) || (b.rating-a.rating));
+  // 赞助位置顶并标注，其余按推荐指数排序
+  list.sort((a,b)=>((b.sponsored?1:0)-(a.sponsored?1:0)) || ((b.official?1:0)-(a.official?1:0)) || (b.rating-a.rating));
   box.innerHTML = `<div class="meta">找到 ${list.length} 个亲测过的站（推广位已标注）</div>` + list.map((s,i)=>`
     <div class="card${s.sponsored?" sponsored":""}">
       <div class="rank">${i+1}</div>
@@ -384,9 +380,9 @@ function doSearch(){
   const q = document.getElementById("q").value.trim();
   if(!q && !onlyDownloadable && !activePlat && !activeRegion){ render([], ""); return; }
   let res = q ? fuse.search(q).map(r=>r.item) : [...SITES];
+  if(activeRegion){ res = res.filter(s => s.region === activeRegion); }
   if(activePlat){ res = res.filter(s => s.plat === activePlat || s.plat === "双平台" || s.plat === "网页"); }
   if(onlyDownloadable){ res = res.filter(s => s.dl); }
-  // 地区：不硬过滤，选中地区的排前面（主要显示）
   render(res, q || "筛选");
   if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
 }
@@ -506,9 +502,9 @@ function buildNav(){
   const cats = document.getElementById("navCats");
   anchors.innerHTML = ""; cats.innerHTML = "";
   CATS.forEach((c, idx) => {
-    const list = SITES.filter(s => s.cat === c);
+    let list = SITES.filter(s => s.cat === c);
+    if(activeRegion){ list = list.filter(s => s.region === activeRegion); }
     if(!list.length) return;
-    list.sort(regionBoost);
     const aid = "cat-" + idx;
     const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
