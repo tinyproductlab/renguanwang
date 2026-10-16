@@ -215,13 +215,14 @@
     <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
     <label>它冒充的是哪个官网 / 软件<input id="fbReal" placeholder="例如：向日葵远程控制"></label>
     <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
+    <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
     <div class="fb-actions">
-      <button class="fb-btn" onclick="copyFeedback()">复制反馈内容</button>
-      <span class="fb-hint">复制后发到 →</span>
+      <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
+      <span class="fb-hint">或复制后发到 →</span>
       <button class="fb-btn ghost" onclick="copyQQNum2()">QQ群 1039287882（复制群号）</button>
       <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
     </div>
-    <p class="fb-ok" id="fbOk">✅ 已复制，去群里粘贴发送就行，我们看到会处理。</p>
+    <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
   </div>
 </div>
 <div class="footer">
@@ -359,14 +360,37 @@ function doSearch(){
   if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
 }
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
-// 反馈：复制反馈内容 / 复制QQ群号
+// 反馈：优先直接提交到 /api/feedback，失败则回退为复制
+async function submitFeedback(){
+  const fake = document.getElementById("fbFake").value.trim();
+  const real = document.getElementById("fbReal").value.trim();
+  const note = document.getElementById("fbNote").value.trim();
+  const honey = document.getElementById("fbWeb").value;
+  if(!fake && !real){ alert("请至少填写假网站网址或被冒充的官网"); return; }
+  const btn = document.getElementById("fbSubmit");
+  const okEl = document.getElementById("fbOk");
+  btn.disabled = true; btn.textContent = "提交中…";
+  const fallbackCopy = () => {
+    const txt = "【认官网-假网站反馈】\n假网站：" + (fake||"未填") + "\n冒充对象：" + (real||"未填") + "\n补充说明：" + (note||"无");
+    const done = () => { okEl.textContent = "⚠️ 直接提交失败，已复制反馈内容，请发到 QQ 群或 Telegram 群。"; okEl.style.display = "block"; };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert("提交失败，请手动复制")); }
+    else alert("提交失败，请手动复制");
+    btn.disabled = false; btn.textContent = "提交反馈";
+  };
+  try{
+    const r = await fetch("/api/feedback", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ fake, real, note, website: honey }) });
+    const j = await r.json().catch(()=>({ok:false}));
+    if(j.ok){ okEl.textContent = "✅ 已提交，我们核实后会处理。"; okEl.style.display = "block"; btn.textContent = "已提交"; return; }
+    fallbackCopy();
+  }catch(e){ fallbackCopy(); }
+}
 function copyFeedback(){
   const fake = document.getElementById("fbFake").value.trim();
   const real = document.getElementById("fbReal").value.trim();
   const note = document.getElementById("fbNote").value.trim();
   if(!fake && !real){ alert("请至少填写假网站网址或被冒充的官网"); return; }
   const txt = "【认官网-假网站反馈】\n假网站：" + (fake||"未填") + "\n冒充对象：" + (real||"未填") + "\n补充说明：" + (note||"无");
-  const done = () => { document.getElementById("fbOk").style.display = "block"; };
+  const done = () => { document.getElementById("fbOk").textContent = "✅ 已复制，去群里粘贴发送就行，我们看到会处理。"; document.getElementById("fbOk").style.display = "block"; };
   if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert("复制失败，请手动复制")); }
   else alert("当前浏览器不支持一键复制，请手动复制");
 }
