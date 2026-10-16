@@ -57,7 +57,7 @@
   .quick-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:14px 4px; text-align:center; text-decoration:none; color:#1a1a1a; font-size:13px; display:block; }
   .quick-grid a:hover { border-color:#1a1a1a; }
   .quick-grid a .cat { display:block; font-size:11px; color:#999; margin-top:4px; }
-  @media (max-width:640px) { .site-grid { grid-template-columns:repeat(auto-fill, minmax(130px, 1fr)); } #navCats { columns:1; } }
+  @media (max-width:640px) { .site-grid { grid-template-columns:repeat(auto-fill, minmax(130px, 1fr)); } #navCats { grid-template-columns:1fr; } }
   .results { max-width:1000px; margin:32px auto 60px; padding:0 20px; }
   .meta { font-size:13px; color:#999; margin-bottom:12px; }
   .card { background:#fff; border-radius:12px; padding:18px 20px; margin-bottom:12px; border:1px solid #eee; display:flex; gap:14px; align-items:flex-start; }
@@ -86,15 +86,20 @@
   .nav-anchors a { font-size:13px; color:#555; background:#fff; border:1px solid #e2e2e2; border-radius:16px; padding:5px 14px; text-decoration:none; }
   .nav-anchors a:hover { border-color:#1a1a1a; color:#1a1a1a; }
   .cat-block { margin-bottom:30px; scroll-margin-top:12px; }
-  #navCats { columns:3; column-gap:28px; }
-  #navCats .cat-block { break-inside:avoid; }
-  @media (max-width:1100px){ #navCats { columns:2; } }
+  #navCats { display:grid; grid-template-columns:repeat(3, 1fr); gap:0 28px; align-items:start; }
+  @media (max-width:1100px){ #navCats { grid-template-columns:repeat(2, 1fr); } }
   .cat-block h3 { font-size:15px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
   .cat-block h3 .cnt { font-size:12px; color:#999; font-weight:400; }
   .site-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; }
   .site-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:10px 12px; text-decoration:none; display:flex; flex-direction:row; align-items:center; gap:10px; }
   .site-grid a:hover { border-color:#1a1a1a; }
   .site-grid a .sic { width:30px; height:30px; border-radius:7px; flex-shrink:0; }
+  .globe { display:inline-flex; align-items:center; justify-content:center; background:#f3f4f6; border-radius:7px; flex-shrink:0; }
+  .site-grid a .globe { width:30px; height:30px; font-size:17px; }
+  .card h3 .globe { width:22px; height:22px; font-size:13px; border-radius:5px; vertical-align:-4px; margin-right:8px; }
+  .quick-grid a .globe { width:28px; height:28px; font-size:16px; margin:0 auto 8px; }
+  .quick-grid a .qic.globe { display:flex; }
+  .fb-sug .globe { width:20px; height:20px; font-size:12px; border-radius:4px; }
   .site-grid a .stext { display:flex; flex-direction:column; gap:3px; min-width:0; }
   .site-grid a .sname { font-size:14px; color:#1a1a1a; display:flex; align-items:center; gap:6px; }
   .site-grid a .off { color:#0369a1; font-size:12px; font-style:normal; }
@@ -295,7 +300,7 @@
 </div>
 
 <script src="./fuse.min.js"></script>
-<script src="./sites.js"></script>
+<script src="./sites.js?v=20261016-169"></script>
 <script>
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
@@ -378,7 +383,7 @@ function render(list, q){
     <div class="card${s.sponsored?" sponsored":""}">
       <div class="rank">${i+1}</div>
       <div class="body">
-        <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:''}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
+        <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="globe">🌍</span>`}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
         <div class="domain">${host(s.url)}</div>
         <div class="tags"><i class="cat">${s.cat}</i><i class="price">${s.price}</i>${s.region?`<i class="${s.region==="国内"?"region-dom":"region-for"}">${s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?'<i class="dl">💾 可下载</i>':''}${s.official?'<i class="off">✓ 官网认证</i>':''}${s.sponsored?'<i class="ad">推广</i>':''}</div>
         <p>${s.desc}</p>
@@ -421,7 +426,7 @@ function switchFbTab(t){
     if(!hits.length){ box.style.display = "none"; return; }
     box.innerHTML = hits.map(s => {
       const i = SITES.indexOf(s);
-      return `<div class="fb-sug" data-i="${i}">${s.icon?`<img src="./icons/${s.icon}" alt="" onerror="this.remove()">`:""}<span>${s.name}</span><em>${host(s.url)}</em></div>`;
+      return `<div class="fb-sug" data-i="${i}">${s.icon?`<img src="./icons/${s.icon}" alt="" onerror="this.remove()">`:`<span class="globe">🌍</span>`}<span>${s.name}</span><em>${host(s.url)}</em></div>`;
     }).join("");
     box.style.display = "block";
     box.querySelectorAll(".fb-sug").forEach(el => {
@@ -511,7 +516,7 @@ function copyQQNum2(){
     const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
     div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
-      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:''}<span class="stext"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
+      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}${s.official?'<i class="off">✓</i>':''}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
   // 快捷直达也补上图标、域名和平台
@@ -520,11 +525,17 @@ function copyQQNum2(){
     const d = host(href);
     const site = SITES.find(s => s.url === href);
     const suffix = site ? platShort(site) : "";
-    if(site && site.icon){
-      const img = document.createElement("img");
-      img.className = "qic"; img.src = "./icons/" + site.icon; img.alt = ""; img.loading = "lazy";
-      img.onerror = () => img.remove();
-      a.prepend(img);
+    if(site){
+      if(site.icon){
+        const img = document.createElement("img");
+        img.className = "qic"; img.src = "./icons/" + site.icon; img.alt = ""; img.loading = "lazy";
+        img.onerror = () => img.remove();
+        a.prepend(img);
+      } else {
+        const g = document.createElement("span");
+        g.className = "qic globe"; g.textContent = "🌍";
+        a.prepend(g);
+      }
     }
     if(d){ const s = document.createElement("span"); s.className = "dom"; s.textContent = d + suffix; a.appendChild(s); }
   });
