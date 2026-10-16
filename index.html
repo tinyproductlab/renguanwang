@@ -32,16 +32,19 @@
   .warn-row .wb b { display:block; font-size:15px; margin-bottom:4px; }
   .warn-row .wd { font-size:13px; color:#666; }
   .warn-tip { font-size:13px; color:#999; margin-top:12px; }
-  .hero-wrap { max-width:1400px; margin:0 auto; padding:56px 20px 36px; display:grid; grid-template-columns:1.15fr 1fr; gap:56px; align-items:center; }
-  .hero { text-align:center; }
+  .hero-wrap { max-width:1400px; margin:0 auto; padding:48px 20px 36px; }
+  .hero-title { text-align:center; margin-bottom:32px; }
+  .hero-title h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
+  .hero-title p { color:#666; font-size:15px; }
+  .hero-cols { display:grid; grid-template-columns:1.15fr 1fr; gap:56px; align-items:start; }
+  .hero-search { text-align:center; }
+  @media (max-width:900px){ .hero-cols { grid-template-columns:1fr; gap:28px; } .hero-wrap { padding:40px 20px 24px; } }
   .warnside { background:#fff; border:1px solid #eee; border-radius:16px; padding:24px 24px 20px; box-shadow:0 4px 16px rgba(0,0,0,.04); }
   .warnside h2 { font-size:17px; margin-bottom:4px; }
   .warnside .sub { font-size:13px; color:#999; margin-bottom:14px; }
   .warnside .warn-row { padding:12px 14px; }
   .warnside .warn-tip { margin-top:10px; }
-  @media (max-width:900px){ .hero-wrap { grid-template-columns:1fr; gap:28px; padding:40px 20px 24px; } }
-  .hero h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
-  .hero p { color:#666; font-size:15px; margin-bottom:28px; }
+  @media (max-width:900px){ .hero-cols { grid-template-columns:1fr; gap:28px; } .hero-wrap { padding:40px 20px 24px; } }
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
   .searchbox input { flex:1; border:none; outline:none; padding:16px 20px; font-size:16px; }
   .searchbox button { border:none; background:#1a1a1a; color:#fff; padding:0 32px; font-size:16px; cursor:pointer; }
@@ -134,16 +137,19 @@
   </nav>
 </div>
 <div class="hero-wrap">
-  <div class="hero">
+  <div class="hero-title">
     <h1>搜工具，不踩坑</h1>
     <p>不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
-    <div class="searchbox">
-      <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
-      <button onclick="doSearch()">搜索</button>
-    </div>
-    <div class="chips" id="chips"></div>
   </div>
-  <div class="warnside">
+  <div class="hero-cols">
+    <div class="hero-search">
+      <div class="searchbox">
+        <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
+        <button onclick="doSearch()">搜索</button>
+      </div>
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="warnside">
     <h2>⚠️ 你可能搜错了</h2>
     <p class="sub">以「向日葵」为例：搜出来的第一条，不一定是官网</p>
     <div class="warn-row good">
@@ -160,6 +166,7 @@
       <div class="wb"><b>向日葵破解版</b><span class="wd">不安全 · 常捆绑木马</span></div>
     </div>
     <p class="warn-tip">认官网建议：直接访问官方网站，不要从搜索广告和下载站装软件。</p>
+  </div>
   </div>
 </div>
 <div class="quick">
