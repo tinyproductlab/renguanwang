@@ -23,8 +23,6 @@
   .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
   .region-sel { margin-left:auto; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
-  .fb-top-btn { margin-left:8px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 14px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
-  .fb-top-btn:hover { background:#f3f4f6; }
   @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
@@ -182,6 +180,7 @@
     <a href="#" data-nav="hot">热门软件</a>
     <a href="#" data-nav="ai">AI工具</a>
     <a href="#" data-nav="nav">网站导航</a>
+    <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;">反馈</a>
     <a href="#" data-nav="about">关于我们</a>
   </nav>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
@@ -231,7 +230,6 @@
     <option value="ZA">🇿🇦 南非</option>
     <option value="EG">🇪🇬 埃及</option>
   </select>
-  <button id="fbTopBtn" class="fb-top-btn" onclick="openFbModal('fake')">反馈</button>
 </div>
 <div class="hero-wrap">
     <div class="hero-title">
@@ -340,10 +338,6 @@
   </div>
 </div>
     <div class="fb-join">
-      <span class="fb-hint">或复制后发到 →</span>
-      <div class="fb-actions2">
-        <a class="fb-btn ghost" href="https://t.me/renguanwang" target="_blank" rel="noopener">Telegram 群 ✈️</a>
-      </div>
     </div>
   </div>
 </div>
@@ -540,7 +534,7 @@ async function submitFeedback(){
   btn.disabled = true; btn.textContent = "提交中…";
   const fallbackCopy = () => {
     const txt = "【认官网-假网站反馈】\n假网站：" + (fake||"未填") + "\n冒充对象：" + (real||"未填") + "\n补充说明：" + (note||"无");
-    const done = () => { okEl.textContent = "⚠️ 直接提交失败，已复制反馈内容，请发到 Telegram 群。"; okEl.style.display = "block"; };
+    const done = () => { okEl.textContent = "⚠️ 直接提交失败，已复制反馈内容，请稍后重试。"; okEl.style.display = "block"; };
     if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert("提交失败，请手动复制")); }
     else alert("提交失败，请手动复制");
     btn.disabled = false; btn.textContent = "提交反馈";
