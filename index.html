@@ -23,6 +23,8 @@
   .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
   .region-sel { margin-left:auto; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
+  .fb-top-btn { margin-left:8px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 14px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
+  .fb-top-btn:hover { background:#f3f4f6; }
   @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
@@ -229,6 +231,7 @@
     <option value="ZA">🇿🇦 南非</option>
     <option value="EG">🇪🇬 埃及</option>
   </select>
+  <button id="fbTopBtn" class="fb-top-btn" onclick="openFbModal('fake')">反馈</button>
 </div>
 <div class="hero-wrap">
     <div class="hero-title">
@@ -251,20 +254,7 @@
 </div>
 <div class="quick">
     <h2>⚡ 快捷直达</h2>
-    <div class="quick-grid">
-      <a href="https://pc.weixin.qq.com" target="_blank" rel="noopener">微信 PC 版<span class="cat">装机必备</span></a>
-      <a href="https://www.google.cn/chrome" target="_blank" rel="noopener">Chrome<span class="cat">装机必备</span></a>
-      <a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT<span class="cat">AI 工具</span></a>
-      <a href="https://www.deepseek.com" target="_blank" rel="noopener">DeepSeek<span class="cat">AI 工具</span></a>
-      <a href="https://www.bilibili.com" target="_blank" rel="noopener">哔哩哔哩<span class="cat">常用网站</span></a>
-      <a href="https://www.douyin.com" target="_blank" rel="noopener">抖音<span class="cat">生活娱乐</span></a>
-      <a href="https://www.xiaohongshu.com" target="_blank" rel="noopener">小红书<span class="cat">生活娱乐</span></a>
-      <a href="https://www.jd.com" target="_blank" rel="noopener">京东<span class="cat">常用网站</span></a>
-      <a href="https://www.12306.cn" target="_blank" rel="noopener">12306<span class="cat">常用网站</span></a>
-      <a href="https://sunlogin.oray.com" target="_blank" rel="noopener">向日葵远程<span class="cat">常用软件</span></a>
-      <a href="https://www.huorong.cn" target="_blank" rel="noopener">火绒安全<span class="cat">装机必备</span></a>
-      <a href="https://github.com" target="_blank" rel="noopener">GitHub<span class="cat">常用网站</span></a>
-    </div>
+    <div class="quick-grid" id="quickGrid"></div>
     </div>
 <div class="results" id="results"></div>
 <div class="navsec" id="navsec">
@@ -292,17 +282,17 @@
           <span>QQ 交流群</span>
           <span class="qq-num-sm" id="qqNum" title="点击复制群号">1039287882</span>
         </div>
-        <div class="join-item">
+        <div class="join-item" style="display:none">
           <a href="https://t.me/renguanwang" target="_blank" rel="noopener" title="加入 Telegram 群"><img src="./tg-qrcode.png" alt="认官网Telegram群二维码"></a>
           <span>Telegram 群</span>
         </div>
       </div>
     </div>
-    <div class="foot-links">
+    <div class="foot-links" style="display:none">
       <p class="ft">相关链接</p>
       <a href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室官网</a>
     </div>
-<div class="feedback" id="feedback">
+<div class="feedback" id="feedback" style="display:none">
   <button class="fb-toggle" onclick="openFbModal('fake')">
     <span>🙋 发现假网站？想推荐新网站？</span>
   </button>
@@ -363,6 +353,19 @@
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
 const COUNTRY_NAMES = {CN:"中国",US:"美国",CA:"加拿大",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",TW:"台湾",DE:"德国",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",NL:"荷兰",BE:"比利时",AT:"奥地利",PL:"波兰",CZ:"捷克",DK:"丹麦",SE:"瑞典",FI:"芬兰",IE:"爱尔兰",AE:"阿联酋",SA:"沙特",RU:"俄罗斯",TR:"土耳其",IL:"以色列",NO:"挪威",CH:"瑞士",IN:"印度",TH:"泰国",VN:"越南",MY:"马来西亚",PH:"菲律宾",ID:"印尼",AU:"澳大利亚",NZ:"新西兰",BR:"巴西",MX:"墨西哥",AR:"阿根廷",ZA:"南非",EG:"埃及",GR:"希腊"};
+// 各国快捷直达（按名称匹配SITES，未列出的国家取该国rating最高的12个）
+const QUICK = {
+CN:["微信 PC 版","Chrome 浏览器","ChatGPT","DeepSeek","哔哩哔哩","抖音","小红书","京东","12306","向日葵远程","火绒安全","GitHub"],
+US:["Google","YouTube","Facebook","亚马逊","X","Instagram","Netflix","Reddit","Gmail","ChatGPT","GitHub","Google Scholar"],
+GB:["BBC","Google","Amazon UK","Facebook","YouTube","X","Instagram","Netflix","Tesco","Rightmove","BBC News","The Guardian"],
+JP:["Yahoo! Japan","LINE","Rakuten","YouTube","X","Amazon Japan","Niconico","Mercari","NHK","朝日新聞","JR东日本","日本邮政"],
+KR:["Naver","Kakao","YouTube","Coupang","X","Instagram","11번가","Gmarket","Melon","韩联社","Korail","KakaoBank"],
+DE:["Google","YouTube","Amazon DE","Facebook","Instagram","Otto","Zalando","ARD","ZDF","Spiegel","Deutsche Bahn","Sparkasse"],
+FR:["Google","YouTube","Facebook","亚马逊","Fnac","Cdiscount","Canal+","Deezer","Le Monde","SNCF","La Poste","BNP Paribas"],
+TW:["Google","YouTube","Facebook","PChome","momo","Shopee TW","PTT","Dcard","中央社","台铁","台湾高铁","中华电信"],
+HK:["Google","YouTube","Facebook","HKTVmall","OpenRice","ViuTV","TVB","HK01","SCMP","MTR","HSBC HK","HK Gov"],
+SG:["Google","YouTube","Facebook","Shopee SG","Lazada SG","Grab","Mediacorp","Straits Times","DBS","Singapore Airlines","Singapore Gov","FairPrice"],
+};
 let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";
@@ -595,27 +598,19 @@ function buildNav(){
       list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
-  // 快捷直达也补上图标、域名和平台（先清掉旧的，防止重复添加）
-  document.querySelectorAll(".quick-grid a").forEach(a => {
-    a.querySelectorAll(".qic, .dom").forEach(el => el.remove());
-    const href = a.getAttribute("href");
-    const d = host(href);
-    const site = SITES.find(s => s.url === href);
-    const suffix = site ? platShort(site) : "";
-    if(site){
-      if(site.icon){
-        const img = document.createElement("img");
-        img.className = "qic"; img.src = "./icons/" + site.icon; img.alt = ""; img.loading = "lazy";
-        img.onerror = () => img.remove();
-        a.prepend(img);
-      } else {
-        const g = document.createElement("span");
-        g.className = "qic globe"; g.textContent = "🌍";
-        a.prepend(g);
-      }
+  // 快捷直达：按地区动态显示（未选地区时显示中国版）
+  const qg = document.getElementById("quickGrid");
+  if(qg){
+    const rc = activeRegion || "CN";
+    let list = [];
+    const names = QUICK[rc];
+    if(names){
+      list = names.map(n => SITES.find(s => s.name === n)).filter(Boolean);
+    } else {
+      list = SITES.filter(s => s.region === rc).sort((a,b) => b.rating - a.rating).slice(0,12);
     }
-    if(d){ const s = document.createElement("span"); s.className = "dom"; s.textContent = d + suffix; a.appendChild(s); }
-  });
+    qg.innerHTML = list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${s.name}<span class="cat">${s.cat}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`).join("");
+  }
 }
 buildNav();
 </script>
