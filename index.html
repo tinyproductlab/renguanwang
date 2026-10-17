@@ -366,13 +366,34 @@ const COUNTRY_NAMES = {CN:"中国",US:"美国",CA:"加拿大",GB:"英国",KR:"�
 let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";
+// 浏览器语言 -> 国家代码
+function langToCountry(){
+  const lang = (navigator.language || "en").toLowerCase();
+  const map = {
+    "zh-cn":"CN","zh-sg":"SG","zh-hk":"HK","zh-tw":"TW","zh":"CN",
+    "en-us":"US","en-gb":"GB","en-ca":"CA","en-au":"AU","en-nz":"NZ","en-ie":"IE","en":"US",
+    "ja":"JP","ko":"KR","de":"DE","fr":"FR","it":"IT","es-mx":"MX","es-ar":"AR","es":"ES",
+    "pt-br":"BR","pt":"PT","nl-be":"BE","nl":"NL","ru":"RU","th":"TH","vi":"VN","id":"ID","ms":"MY",
+    "tr":"TR","ar-sa":"SA","ar-ae":"AE","ar-eg":"EG","ar":"SA","he":"IL","pl":"PL","cs":"CZ",
+    "da":"DK","sv":"SE","fi":"FI","no":"NO","el":"GR"
+  };
+  if(map[lang]) return map[lang];
+  const base = lang.split("-")[0];
+  return map[base] || "";
+}
 const fuse = new Fuse(SITES, { keys:[{name:"name",weight:.4},{name:"kw",weight:.35},{name:"desc",weight:.15},{name:"cat",weight:.1}], threshold:.45, ignoreLocation:true });
 
 const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
 // 搜索框前置筛选：平台下拉 + 可下载开关；右上角地区选择
 const regionSel = document.getElementById("regionSel");
-regionSel.onchange = () => { activeRegion = regionSel.value; doSearch(); buildNav(); };
+regionSel.onchange = () => { activeRegion = regionSel.value; try{ localStorage.setItem("rg_region", activeRegion); }catch(e){} doSearch(); buildNav(); };
+// 首次访问：按浏览器语言自动选国家（用户手动选过则记住选择）
+try{
+  const saved = localStorage.getItem("rg_region");
+  if(saved !== null){ activeRegion = saved; regionSel.value = saved; }
+  else { const auto = langToCountry(); if(auto && regionSel.querySelector(`option[value="${auto}"]`)){ activeRegion = auto; regionSel.value = auto; } }
+}catch(e){}
 const platSel = document.getElementById("platSel");
 platSel.onchange = () => { activePlat = platSel.value; doSearch(); };
 const dlToggle = document.getElementById("dlToggle");
