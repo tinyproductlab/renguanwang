@@ -721,12 +721,14 @@ const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
 // 搜索框前置筛选：平台下拉 + 可下载开关；右上角地区选择
 const regionSel = document.getElementById("regionSel");
+// 快捷直达站名的英文映射
+const SITE_EN = {"亚马逊":"Amazon","微信 PC 版":"WeChat PC","Chrome 浏览器":"Chrome","哔哩哔哩":"Bilibili","抖音":"TikTok","小红书":"Xiaohongshu","京东":"JD.com","向日葵远程":"Sunlogin","火绒安全":"Huorong"};
 // 分类名翻译
 function catT(cat){
   const lang = COUNTRY_LANG[activeRegion] || "zh";
   const t = I18N[lang] || I18N.zh;
   const en = I18N.en;
-  const map = {"装机必备":"cat_essentials","AI工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
+  const map = {"装机必备":"cat_essentials","AI 工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
   const k = map[cat];
   return k ? (t[k] || en[k] || cat) : cat;
 }
@@ -750,7 +752,7 @@ function applyLang(){
   document.querySelectorAll("#chips span").forEach(chip => {
     const c = chip.textContent.trim();
     // 匹配中文分类名
-    const zhCats = {"装机必备":"cat_essentials","AI工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
+    const zhCats = {"装机必备":"cat_essentials","AI 工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
     const key = zhCats[c];
     if(key){ const v = get(key); if(v) chip.textContent = v; }
   });
@@ -985,7 +987,11 @@ function buildNav(){
     } else {
       list = SITES.filter(s => s.region === rc).sort((a,b) => b.rating - a.rating).slice(0,12);
     }
-    qg.innerHTML = list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${s.name}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`).join("");
+    const lang4 = COUNTRY_LANG[activeRegion] || "zh";
+    qg.innerHTML = list.map(s => {
+      const dname = (lang4 !== "zh" && lang4 !== "zht" && SITE_EN[s.name]) ? SITE_EN[s.name] : s.name;
+      return `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`;
+    }).join("");
   }
 }
 applyLang();
