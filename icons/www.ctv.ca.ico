@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-CA" dir="ltr">
+  <head>
+    <title>Crave | Watch HBO and STARZ Movies and TV Shows Online</title>
+    <link rel="preconnect" href="https://cdn.cookielaw.org" crossorigin />
+    <link rel="preconnect" href="https://js-agent.newrelic.com" crossorigin />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+    <link rel="preload" as="script" href="/9540/assets/config.js" />
+    <link rel="preload" href="/9540/assets/fonts/ProximaNova-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/9540/assets/fonts/ProximaNova-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/9540/assets/fonts/ProximaNova-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/x-icon" href="/9540/assets/logos/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/9540/assets/logos/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/9540/assets/logos/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/9540/assets/logos/craveLogo.png" />
+    <link rel="android-touch-icon" href="/9540/assets/logos/craveLogo.png" />
+    <meta name="app-config" data-app-version="9540" />
+    <script src="/9540/assets/config.js"></script>
+    <script src="/9540/assets/js/one-trust.js"></script>
+    <script src="/9540/assets/js/nr-loader-spa.js"></script>
+    <script type="module" crossorigin src="/9540/assets/index-DCygGwXN.js"></script>
+    <link rel="modulepreload" crossorigin href="/9540/assets/vendor-react-zE7Vx2pd.js">
+    <link rel="stylesheet" crossorigin href="/9540/assets/index-DoAdKdDT.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

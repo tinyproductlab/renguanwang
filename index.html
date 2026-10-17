@@ -186,6 +186,12 @@
     <option value="">🌍 全部</option>
     <option value="CN">🇨🇳 中国</option>
     <option value="US">🇺🇸 美国</option>
+    <option value="CA">🇨🇦 加拿大</option>
+    <option value="BR">🇧🇷 巴西</option>
+    <option value="MX">🇲🇽 墨西哥</option>
+    <option value="AR">🇦🇷 阿根廷</option>
+    <option value="AU">🇦🇺 澳大利亚</option>
+    <option value="NZ">🇳🇿 新西兰</option>
     <option value="GB">🇬🇧 英国</option>
     <option value="KR">🇰🇷 韩国</option>
     <option value="JP">🇯🇵 日本</option>
@@ -193,8 +199,11 @@
     <option value="HK">🇭🇰 香港</option>
     <option value="TW">🇹🇼 台湾</option>
     <option value="TH">🇹🇭 泰国</option>
+    <option value="VN">🇻🇳 越南</option>
     <option value="MY">🇲🇾 马来西亚</option>
+    <option value="PH">🇵🇭 菲律宾</option>
     <option value="ID">🇮🇩 印尼</option>
+    <option value="IN">🇮🇳 印度</option>
     <option value="DE">🇩🇪 德国</option>
     <option value="FR">🇫🇷 法国</option>
     <option value="IT">🇮🇹 意大利</option>
@@ -210,6 +219,9 @@
     <option value="FI">🇫🇮 芬兰</option>
     <option value="IE">🇮🇪 爱尔兰</option>
     <option value="AE">🇦🇪 阿联酋</option>
+    <option value="SA">🇸🇦 沙特</option>
+    <option value="TR">🇹🇷 土耳其</option>
+    <option value="IL">🇮🇱 以色列</option>
     <option value="RU">🇷🇺 俄罗斯</option>
     <option value="NO">🇳🇴 挪威</option>
     <option value="CH">🇨🇭 瑞士</option>
@@ -343,11 +355,11 @@
   </div>
 </div>
 <script src="./fuse.min.js"></script>
-<script src="./sites.js?v=20261017-1042"></script>
+<script src="./sites.js?v=20261017-1147"></script>
 <script>
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
-const COUNTRY_NAMES = {CN:"中国",US:"美国",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",TW:"台湾",DE:"德国",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",NL:"荷兰",BE:"比利时",AT:"奥地利",PL:"波兰",CZ:"捷克",DK:"丹麦",SE:"瑞典",FI:"芬兰",IE:"爱尔兰",AE:"阿联酋",RU:"俄罗斯",NO:"挪威",CH:"瑞士",TH:"泰国",MY:"马来西亚",ID:"印尼"};
+const COUNTRY_NAMES = {CN:"中国",US:"美国",CA:"加拿大",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",TW:"台湾",DE:"德国",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",NL:"荷兰",BE:"比利时",AT:"奥地利",PL:"波兰",CZ:"捷克",DK:"丹麦",SE:"瑞典",FI:"芬兰",IE:"爱尔兰",AE:"阿联酋",SA:"沙特",RU:"俄罗斯",TR:"土耳其",IL:"以色列",NO:"挪威",CH:"瑞士",IN:"印度",TH:"泰国",VN:"越南",MY:"马来西亚",PH:"菲律宾",ID:"印尼",AU:"澳大利亚",NZ:"新西兰",BR:"巴西",MX:"墨西哥",AR:"阿根廷"};
 let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";

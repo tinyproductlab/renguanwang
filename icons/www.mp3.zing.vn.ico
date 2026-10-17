@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <script type="text/javascript">
+            const queryString = "";
+            const isPreventRedirect = "true" === "true";
+            if (queryString) {
+                const link = "https://www.google.com/search?q=" + encodeURIComponent(queryString + " site:zingmp3.vn" )
+                window.location.href = link;
+            } else if (!isPreventRedirect) {
+                window.location.href = "https://www.google.com/search?q=site%3Azingmp3.vn";
+            }
+        </script>
+    </head>
+    <body>
+        <p style="font-size: 40px;">Page Not Found</p>
+    </body>    
+</html>

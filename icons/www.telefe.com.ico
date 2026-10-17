@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head >
+    <title> </title>
+    <meta name="description" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+<meta name="theme-color" />
+<meta name="background-color" />
+<meta name="msapplication-TileColor" />
+<meta property="fb:pages" />
+<meta property="og:title" />
+<meta property="og:site_name" />
+<meta property="og:description" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_AR" />
+<meta property="og:url" />
+<meta property="og:image" />
+<meta property="og:image:alt" />
+<meta property="twitter:title" />
+<meta property="twitter:description" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" />
+<meta property="twitter:creator" />
+<meta property="twitter:image" />
+<meta property="twitter:image:alt" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8" />
+
+    
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="Telefe" href="https://www.mitelefe.com/rss.xml">
+    <meta name="jwplayer-token" content="gzzqnKyQTFkwSoR8PosRrlHvwPIIu1ETj7OXlgl3lVZzZvSw">
+    <meta name="jwplayer-vast" content="https://pubads.g.doubleclick.net/gampad/ads?iu=/23303336001/mitelefe_home/vast_home&amp;description_url=https%3A%2F%2Fwww.mitelefe.com%2F&amp;tfcd=0&amp;npa=0&amp;sz=400x300%7C640x480&amp;max_ad_duration=60000&amp;gdfp_req=1&amp;unviewed_position_start=1&amp;output=vast&amp;env=vp&amp;impl=s&amp;correlator=&amp;cust_params=page%3D%26portal%3D%26id%3D">
+    <meta name="jwplayer-id" content="00qhVpJS">
+    <meta name="video-providers-enabled" content="dailymotion,vimeo,youtube">
+    <meta name="stream-player-engine" content="jwplayer">
+
+        
+    <!-- Google Tag Manager -->
+                    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-MN4RG3B');</script>
+                    <!-- End Google Tag Manager -->
+    
+          <script async src="https://s1.adzonestatic.com/c/10038_telefe.2025.1.js"></script> <style>   div[class^="ad-slot-"]{ min-width: 100%; text-align:center; margin-bottom: 1rem; }   #ad-slot-mobilesticky {margin-bottom: 0}   .ad-slot-topdesktop {height:auto;min-height:90px; }   .ad-slot-topresponsive {height:auto;min-height:90px; }   .ad-slot-horizontal {height:auto;min-height:90px; }   .ad-slot-billboard {height:auto;min-height:250px; }   .ad-slot-box,.ad-slot-mobile_box,.ad-slot-desktop_box {height:auto;min-height:250px; }   .ad-slot-bigbox, .ad-slot-mobile_bigbox, .ad-slot-desktop_bigbox {height:auto;min-height:600px; } </style>
+  <meta name="google-site-verification" content="n79OcSSSiEvPgeMjujjbc9cxz_d5B2dUzU56UxsHlUo">
+<meta name="google-site-verification" content="M7EcY-XC9I35_RkhbuwgtAm1x21QQiO82FsComm8MIQ" />
+  <meta name="facebook-domain-verification" content="qg3quh3ddixwekictyreu8rrf5eb8g">
+
+
+    <link rel="icon"
+          href="https://www.mitelefe.com/media/cache/favicon_32/favicon-6931328b9dab6.png"
+          sizes="32x32"
+          type="image/png">
+
+    <link rel="alternate icon"
+          href="https://www.mitelefe.com/media/cache/favicon_16/favicon-6931328b9dab6.png"
+          sizes="16x16"
+          type="image/png">
+
+    <link rel="apple-touch-icon"
+          href="https://www.mitelefe.com/media/cache/apple_touch/favicon-6931328b9dab6.png">
+
+        <link rel="manifest" href="/manifest.json">
+    
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+
+            <link rel="stylesheet" href="/build/7233.f42d66d9.css" crossorigin="anonymous" data-turbo-track="reload" integrity="sha384-ciAg9K1AGwp1iFn/Bjps2gcn1fBPM2nls5I4kCAFtqqvijdfcQDJrq8jZZRZNZxk">
+        <link rel="stylesheet" href="/build/frontend.26f7d418.css" crossorigin="anonymous" data-turbo-track="reload" integrity="sha384-QK5CprNqiA0eAoAiMSMuRq7YWbStTGyGACMZEpuiLOANM8xYWQ7XmBXFjHKDXtOv">
+    
+            <script src="/build/runtime.0efbfbfd.js" crossorigin="anonymous" defer integrity="sha384-sErdlzCJA7kyxjWTkpZ+G81I8zQXaIrmW/Z3GhBN4f/M5whSMwmm4eZcswRhgHaC"></script><script src="/build/8310.07958c62.js" crossorigin="anonymous" defer integrity="sha384-ip0i9SxoMzdDcaUCVhNo8FCM9UXw25+ejuqKg7vpA+0Y2tAoeb6+47Sq0l+EGG6b"></script><script src="/build/9304.bc10af53.js" crossorigin="anonymous" defer integrity="sha384-dBbUH7YRoOYyliXputT1D2tg8YoziFB967Ingg9ZfAQkap4cTHmXRUBoV0fzER/p"></script><script src="/build/frontend.1e2f5cad.js" crossorigin="anonymous" defer integrity="sha384-RsC9N87DMEbiUSUH7Kd/A4cmCIiTcGEaKZOWSoFt8wjBM6ssiSO11ijNl71vZG28"></script>
+      </head>
+
+  <body data-turbo="false">
+    <!-- Google Tag Manager (noscript) -->
+                    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-MN4RG3B'
+                    height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+                    <!-- End Google Tag Manager (noscript) -->
+    
+          
+  
+  
+
+     <header id="main-nav" class="sticky-top">
+  <nav class="navbar navbar-dark navbar-expand-lg bg-secondary py-3">
+    <div class="container d-flex">
+      <!-- BUTTON COLLAPSE -->
+      <button class="navbar-toggler btn-outline-info me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- LOGO -->
+      <div class="me-sm-auto">
+         <a class="navbar-brand" href="https://www.mitelefe.com/">
+          <img
+            src="https://www.mitelefe.com/media/cache/logo/logo-telefe-blanco-69286e9c2c776.png"
+            srcset="https://www.mitelefe.com/media/cache/logo_2x/logo-telefe-blanco-69286e9c2c776.png 2x"
+            alt="Programas completos, realities y TV en vivo"
+            decoding="async"
+            loading="eager"
+            width="130"
+            height="72">
+        </a>
+      </div>
+
+      <!-- NAVBAR BODY -->
+      <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+                        <ul class="navbar-nav my-3 px-3 px-md-0 mb-md-0 align-items-md-center w-100">
+            
+                    
+            <li class="nav-item mx-2 first">                    <a href="https://www.mitelefe.com/" class="nav-link text-white fw-bold fs-5 p-0 text-uppercase dropdown-toggle" target="_self" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Programas
+    </a>
+
+                                    <ul class="dropdown-menu flex-column flex-md-row list-unstyled rounded-0 start-0 end-0 row border-2 border-start-0 border-end-0 border-top-0 border-white border-opacity-50 justify-content-center py-4 bg-secondary menu_level_1">
+            
+                    
+            <li class="nav-item px-3 col border-end border-white border-opacity-50 mb-2 mb-md-0 first">                    <a href="https://www.mitelefe.com/programas/" class="nav-link text-white fw-bold p-0 text-uppercase" target="_self">
+                Tendencias
+    </a>
+
+                                    <ul class="list-unstyled mt-2 flex-column flex-md-row row row-cols-2 mx-0 menu_level_2">
+            
+        
+            <li class="nav-item px-0 mb-2 mb-md-0 first">                    <a href="https://mitelefe.com/popstars" class="nav-link text-white p-0" target="_self">
+                POPSTARS
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/masterchef-celebrity" class="nav-link text-white p-0" target="_self">
+                MasterChef Celebrity
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/avenida-brasil/" class="nav-link text-white p-0" target="_self">
+                Historias de Corazón: Avenida Brasil
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/pasapalabra/" class="nav-link text-white p-0" target="_self">
+                Pasapalabra
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/a-la-barbarossa/" class="nav-link text-white p-0" target="_self">
+                A la Barbarossa
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/bahar" class="nav-link text-white p-0" target="_self">
+                Bahar ¿estás lista para despertar?
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://mitelefe.com/tierras/" class="nav-link text-white p-0" target="_self">
+                Proyecto Tierras
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/ferne-con-grego/" class="nav-link text-white p-0" target="_self">
+                Ferné con Grego
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/corta-por-lozano/" class="nav-link text-white p-0" target="_self">
+                Cortá por Lozano
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/juego-chino/" class="nav-link text-white p-0" target="_self">
+                Juego Chino
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0 last">                    <a href="https://www.mitelefe.com/deportes/intuiciones" class="nav-link text-white p-0" target="_self">
+                Intuiciones
+    </a>
+
+                    </li>
+
+
+    </ul>
+    </li>
+
+    
+                    
+            <li class="nav-item px-3 col border-end border-white border-opacity-50 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/programas/" class="nav-link text-white fw-bold p-0 text-uppercase" target="_self">
+                Populares
+    </a>
+
+                                    <ul class="list-unstyled mt-2 flex-column flex-md-row row row-cols-2 mx-0 menu_level_2">
+            
+        
+            <li class="nav-item px-0 mb-2 mb-md-0 first">                    <a href="https://www.mitelefe.com/doctor-milagro" class="nav-link text-white p-0" target="_self">
+                Doctor Milagro
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/ariel-en-su-salsa/" class="nav-link text-white p-0" target="_self">
+                Ariel en su salsa
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/ph-podemos-hablar" class="nav-link text-white p-0" target="_self">
+                PH Podemos hablar
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/morfi-la-pena/" class="nav-link text-white p-0" target="_self">
+                La Peña de Morfi
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0 last">                    <a href="https://www.mitelefe.com/susana-gimenez/" class="nav-link text-white p-0" target="_self">
+                Susana Giménez
+    </a>
+
+                    </li>
+
+
+    </ul>
+    </li>
+
+    
+                    
+            <li class="nav-item px-3 col border-end border-white border-opacity-50 mb-2 mb-md-0 last">                    <a href="https://www.mitelefe.com/programas/" class="nav-link text-white fw-bold p-0 text-uppercase" target="_self">
+                Historias inolvidables
+    </a>
+
+                                    <ul class="list-unstyled mt-2 flex-column flex-md-row row row-cols-2 mx-0 menu_level_2">
+            
+        
+            <li class="nav-item px-0 mb-2 mb-md-0 first">                    <a href="https://www.mitelefe.com/adda/" class="nav-link text-white p-0" target="_self">
+                ADDA
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/100-dias-para-enamorarse/" class="nav-link text-white p-0" target="_self">
+                100 días para enamorarse
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0">                    <a href="https://www.mitelefe.com/verano-del-98/" class="nav-link text-white p-0" target="_self">
+                Verano del &#039;98
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item px-0 mb-2 mb-md-0 last">                    <a href="https://www.mitelefe.com/chiquititas/" class="nav-link text-white p-0" target="_self">
+                Chiquititas
+    </a>
+
+                    </li>
+
+
+    </ul>
+    </li>
+
+
+    </ul>
+    </li>
+
+    
+        
+            <li class="nav-item mx-2">                    <a href="https://www.mitelefe.com/vivo/" class="nav-link text-white fw-bold fs-5 p-0 text-uppercase" target="_self">
+                Vivo
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item mx-2">                    <a href="https://noticias.mitelefe.com/" class="nav-link text-white fw-bold fs-5 p-0 text-uppercase" target="_self">
+                Noticias
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item mx-2">                    <a href="https://www.mitelefe.com/convocatorias" class="nav-link text-white fw-bold fs-5 p-0 text-uppercase" target="_self">
+                Convocatorias
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="nav-item mx-2 last">                    <a href="https://www.mitelefe.com/horarios/" class="nav-link text-white fw-bold fs-5 p-0 text-uppercase" target="_self">
+                Qué ver
+    </a>
+
+                    </li>
+
+
+    </ul>
+
+
+        <div class="navbar-social col-md-2 col-12 mt-5 mt-sm-3 mb-3 mb-md-0 justify-content-md-end text-center">
+              
+  
+    <div class="d-flex justify-content-center justify-content-md-end align-items-center px-3 px-md-0 gap-2">
+        <a
+      aria-label="Ir a la cuenta de X de Telefe"
+      title="Ir a la cuenta de X de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://x.com/telefe/"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#twitter-x"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de YouTube de Telefe"
+      title="Ir a la cuenta de YouTube de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://www.youtube.com/telefe"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#youtube"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de TikTok de Telefe"
+      title="Ir a la cuenta de TikTok de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://www.tiktok.com/@telefe"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#tiktok"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de Twitch de Telefe"
+      title="Ir a la cuenta de Twitch de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://www.twitch.tv/telefe"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#twitch"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de Spotify de Telefe"
+      title="Ir a la cuenta de Spotify de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://open.spotify.com/user/bq3mt8705zx6m1pes2emfhifi"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#spotify"></use>
+      </svg>
+    </a>
+      </div>
+
+        </div>
+
+              </div>
+    </div>
+  </nav>
+
+  <!-- TEMAS DEL MOMENTO -->
+  <nav class="topics-menu border-bottom border-white border-opacity-25 d-flex justify-content-md-center py-2 bg-tertiary">
+                <ul class="m-0 p-0">
+            
+        
+            <li class="topic-item d-inline-flex text-white-50 mb-0 first">                    <a href="https://www.mitelefe.com/casting-gran-hermano" class="nav-link text-white fw-bold fs-small px-3" target="_blank">
+                Anotate en GH 5👁️
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="topic-item d-inline-flex text-white-50 mb-0">                    <a href="https://www.mitelefe.com/anotate-en-minuto-para-ganar" class="nav-link text-white-50 fs-small px-3" target="_self">
+                Minuto Para Ganar⏰
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="topic-item d-inline-flex text-white-50 mb-0">                    <a href="https://mitelefe.com/masterchef-celebrity/" class="nav-link text-white-50 fs-small px-3" target="_self">
+                MasterChef Celebrity
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="topic-item d-inline-flex text-white-50 mb-0">                    <a href="https://www.mitelefe.com/doctor-milagro/capitulos" class="nav-link text-white-50 fs-small px-3" target="_self">
+                Doctor Milagro
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="topic-item d-inline-flex text-white-50 mb-0">                    <a href="https://www.mitelefe.com/popstars/" class="nav-link text-white-50 fs-small px-3" target="_self">
+                Popstars
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="topic-item d-inline-flex text-white-50 mb-0 last">                    <a href="https://www.mitelefe.com/avenida-brasil/capitulos" class="nav-link text-white-50 fs-small px-3" target="_self">
+                Avenida Brasil
+    </a>
+
+                    </li>
+
+
+    </ul>
+
+  </nav>
+
+  
+</header>
+
+    <main>
+      
+
+      <meta http-equiv="refresh" content="3; url=/">
+<style>
+  @keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.icon {
+  animation: fadeUp 0.8s ease-out both;
+}
+</style>
+<section class="bg-secondary py-5">
+  <div class="container bg-secondary">
+    <div class="col-12 text-center">
+      <i class="icon bi bi-exclamation-triangle text-primary" style="font-size: 15rem;"></i>
+      <h1 class="mb-2 text-light">No pudimos encontrar esta página</h1>
+      <p class="text-light">El enlace puede estar mal escrito o el contenido ya no está disponible.</p>
+      <div class="mt-5">
+        <p class="text-light">Te invitamos a seguir informado</p>
+        <a href="/" class="btn btn-primary text-secondary">Ir al inicio</a>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="bg-secondary py-5">
+  <div class="container justify-content-between">
+    <!-- LOGO -->
+    <div class="row justify-content-center">
+      <div class="col-md-2 col-6 text-center mb-3">
+        <a class="navbar-brand" href="https://www.mitelefe.com/">
+          <img
+            src="https://www.mitelefe.com/media/cache/logo/logo-telefe-blanco-69286e9c2c776.png"
+            srcset="https://www.mitelefe.com/media/cache/logo_2x/logo-telefe-blanco-69286e9c2c776.png 2x"
+            alt="Programas completos, realities y TV en vivo"
+            loading="lazy"
+            width="130"
+            height="72">
+        </a>
+      </div>
+
+      <div class="col-md-8 col-12 d-flex justify-content-center flex-grow-1 px-1 px-md-5">
+                        <ul class="list-unstyled text-center px-md-5 px-4 row row-cols-2">
+            
+        
+            <li class="first">                    <a href="/convocatorias" class="text-white text-decoration-none text-uppercase fw-light">
+                Convocatorias
+    </a>
+
+                    </li>
+
+    
+        
+            <li>                    <a href="http://www.telefeinternacional.com.ar/" class="text-white text-decoration-none text-uppercase fw-light">
+                Telefe Internacional
+    </a>
+
+                    </li>
+
+    
+        
+            <li>                    <a href="/legales/terminos-de-uso" class="text-white text-decoration-none text-uppercase fw-light">
+                Términos de Uso
+    </a>
+
+                    </li>
+
+    
+        
+            <li>                    <a href="/legales/politica-de-privacidad" class="text-white text-decoration-none text-uppercase fw-light">
+                Política de Privacidad
+    </a>
+
+                    </li>
+
+    
+        
+            <li>                    <a href="https://applicants.selenios.com/c/telefe" class="text-white text-decoration-none text-uppercase fw-light">
+                Trabajá con nosotros
+    </a>
+
+                    </li>
+
+    
+        
+            <li class="last">                    <a href="https://www.mitelefe.com/tarifario" class="text-white text-decoration-none text-uppercase fw-light">
+                Programación y Tarifas
+    </a>
+
+                    </li>
+
+
+    </ul>
+
+      </div>
+
+      <div class="navbar-social col-md-2 col-10 justify-content-md-end text-center text-md-end">
+            
+      <div class="mb-3 text-white fw-bold h6">Seguí a Telefe</div>
+  
+    <div class="d-flex justify-content-center justify-content-md-end align-items-center px-3 px-md-0 gap-2">
+        <a
+      aria-label="Ir a la cuenta de X de Telefe"
+      title="Ir a la cuenta de X de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://x.com/telefe/"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#twitter-x"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de YouTube de Telefe"
+      title="Ir a la cuenta de YouTube de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://www.youtube.com/telefe"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#youtube"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de TikTok de Telefe"
+      title="Ir a la cuenta de TikTok de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://www.tiktok.com/@telefe"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#tiktok"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de Twitch de Telefe"
+      title="Ir a la cuenta de Twitch de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://www.twitch.tv/telefe"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#twitch"></use>
+      </svg>
+    </a>
+        <a
+      aria-label="Ir a la cuenta de Spotify de Telefe"
+      title="Ir a la cuenta de Spotify de Telefe"
+      target="_blank"
+      rel="nofollow"
+      href="https://open.spotify.com/user/bq3mt8705zx6m1pes2emfhifi"
+      data-size="large"
+      class="text-white-50">
+      <svg class="bi-svg-icon">
+          <use xlink:href="/build/images/frontend/icons-sprite.f4cc2577.svg#spotify"></use>
+      </svg>
+    </a>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+      
+  
+  
+
+
+          </body>
+</html>
