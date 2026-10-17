@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>大学生找实习求职招聘网站 | 实习僧</title>
+<meta name="description" content="实习僧专注于大学生实习求职就业，为大学生提供世界500强等优质公司海量实习岗位，投递方式简单，精准匹配实习和求职者，反馈迅速，是国内大学生找实习首选实习生招聘网站。">
+<meta name="keywords" content="实习生,找实习,求职招聘,实习僧,大学生">
+
+<meta name="sogou_site_verification" content="Xs9pZRBFow"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="Robots" content="all">
+<meta property="qc:admins" content="2040752403463010135676375"/>
+<meta name="baidu-site-verification" content="wTCpQ2cQYQ" />
+<meta name="applicable" concent="pc">
+<meta name="mobile-agent" content="format=html5;url=http://wap.shixiseng.com/">
+<link rel="icon" href="//sxsimg.xiaoyuanzhao.com/static/img/favicon.ico" type="image/x-icon" />
+<link rel="Shortcut Icon" href="//sxsimg.xiaoyuanzhao.com/static/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://sxsimg.xiaoyuanzhao.com/static/css/style.css?v=d812c7691105fad349399c8e7d048215"/>
+<link rel="stylesheet" href="https://sxsimg.xiaoyuanzhao.com/static/new_main/css/n_base2.css?v=b095466cc41c6fb6619b7a3a6aece07d"/>
+<link rel="stylesheet" href="https://sxsimg.xiaoyuanzhao.com/static/new_main/css/register_index.css?v=93952a51ee6e604bea5912c93b323ef3"/>
+
+<link rel="stylesheet" href="//sxsimg.xiaoyuanzhao.com/static_common/common-comp/common-comp.css"/>
+<link rel="stylesheet" href="https://sxsimg.xiaoyuanzhao.com/static/public/lib/point-code/point-code.css?v=dc80426c8a56304466702a0f618c77ac"/>
+<link rel="stylesheet" href="https://sxsimg.xiaoyuanzhao.com/static/public/lib/overseas-phone-code-pc/overseas-code.css?v=43c9af6eae321a056f68febf276f8ecd"/>
+<style>
+#MEIQIA-BTN-HOLDER{
+width: 50px!important;
+height: 52px!important;
+bottom: 40px!important;
+right: 20px!important;
+cursor: pointer!important;
+/*opacity: .3!important;*/
+/*filter: alpha(opacity=30)!important;*/
+}
+#MEIQIA-BTN-HOLDER #MEIQIA-BTN{
+border: none;
+background: none;
+box-shadow: none;
+width: 50px;
+height: 52px;
+}
+#MEIQIA-BTN-HOLDER #MEIQIA-BTN #MEIQIA-BTN-TEXT{
+font-size: 12px;
+width: 50px;
+height: 14px;
+display: inline-block;
+margin: 0;
+margin-top: 6px;
+color: #cbcbcb;
+float: none;
+line-height: 14px;
+}
+#MEIQIA-BTN-HOLDER #MEIQIA-BTN #MEIQIA-BTN-LINE{
+display: none;
+}
+#MEIQIA-BTN-HOLDER #MEIQIA-BTN #MEIQIA-BTN-ICON{
+/*background: url(//sxsimg.xiaoyuanzhao.com/static/new_main/img/right-pn.png) center no-repeat!important;*/
+background: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-pn.png?v=6442f322a100901fe0deb21f99339bd2) center no-repeat!important;
+width: 30px;
+height: 30px;
+margin: auto;
+float: none!important;
+}
+/*#MEIQIA-BTN-HOLDER:hover{*/
+/*opacity: 1!important;*/
+/*filter: alpha(opacity=100)!important;*/
+/*}*/
+#MEIQIA-BTN-HOLDER:hover #MEIQIA-BTN #MEIQIA-BTN-ICON{
+/*background-image: url(//sxsimg.xiaoyuanzhao.com/static/new_main/img/right-pa.png)!important;*/
+background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-pa.png?v=7ce9e56b62f825b12f7fb66106a9c40e)!important;
+}
+#MEIQIA-BTN-HOLDER:hover #MEIQIA-BTN #MEIQIA-BTN-TEXT {
+color: #6aa2e4;
+}
+#MEIQIA-PANEL-HOLDER{
+bottom: 10px!important;
+right: 35px!important;
+}
+#meiqia-container .duqGkC {
+visibility: hidden !important;
+position: fixed;
+left: -9999px;
+}
+.hideimg {
+width: 1px;
+height: 1px;
+display: none !important;
+}
+.resume-level {
+width: 100%;
+height: 34px;
+background: #E9EFFB;
+}
+.rank-pannel {
+width: 1080px;
+height: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.rank-pannel .label {
+color: #6AA2E4;
+font-size: 13px;
+}
+.rank-pannel .rank {
+display: flex;
+align-items: center;
+margin-right: 40px;
+}
+.rank-pannel img {
+width: 10px;
+}
+.rank-pannel .text {
+color: #6AA2E4;
+font-size: 13px;
+cursor: pointer;
+}
+.rank-pannel .close {
+flex: 1;
+display: flex;
+justify-content: flex-end;
+text-align: right;
+cursor: pointer;
+}
+.rank-pannel .close img {
+width: 14px;
+height: 14px;
+}
+</style>
+
+
+
+<script src="//sxsimg.xiaoyuanzhao.com/static_common/source-anchor/source-anchor.js"></script>
+<script src="//sxsimg.xiaoyuanzhao.com/static_common/common-comp/common-comp.js"></script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function () {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?03465902f492a43ee3eb3543d81eba55";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 451864395 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-451864395"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-451864395');
+</script>
+
+</head>
+<body>
+<div class="wrap">
+<div class="header">
+
+<div class="container">
+
+<h1>实习僧</h1>
+
+
+<a href="/">
+
+
+
+</a>
+
+<ul class="nav">
+<li><a  href="/" data-sa="click" data-sevent="menu_click" data-starget="/" data-desc="base-首页" data-sname="39" data-sinfo="{&quot;name&quot;: &quot;首页&quot;}">首页</a></li>
+
+<li><a class="xyz" href="/jumpto/aHR0cHM6Ly9yZXN1bWUuc2hpeGlzZW5nLmNvbS94aWFvemhhbw==?nocount=0" target="_blank" data-sa="click" data-starget="xiaoyuanzhao.com" data-sevent="menu_click" data-sinfo="{&quot;name&quot;: &quot;校园招&quot;}" data-sname="3" data-desc="base-校招">校招<i class="add_anim"></i></a></li>
+<li><a class="qb" href="/jumpto/aHR0cHM6Ly90di5zaGl4aXNlbmcuY29t?nocount=0" target="_blank" data-sa="click" data-starget="kongzhongtalk.com" data-sevent="menu_click" data-sinfo="{&quot;name&quot;: &quot;实习僧TV&quot;}" data-sname="5" data-desc="base-实习僧TV">实习僧TV<i class="add_anim"></i></a></li>
+<li><a class="qb1" href="https://edu.shixiseng.com" target="_blank" data-sa="click" data-starget="qianbei.im/main" data-sevent="menu_click" data-sinfo="{&quot;name&quot;: &quot;前辈学院&quot;}" data-sname="6" data-desc="base-前辈学院">实习僧教育<i class="add_anim1"></i></a></li>
+<li><a class="qb1" href="https://www.shixiseng.com/cheerstation" target="_blank" data-sa="click" data-sevent="menu_click" data-sinfo="{&quot;name&quot;: &quot;前辈学院&quot;}" data-sname="6" data-desc="base-求职快报">求职快报<i class="add_anim1"></i></a></li>
+
+</ul>
+<div class="links">
+
+<div class="login-nav-box f-l">
+<img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/icon_head.svg?v=9a7c6eb4c64d463e9f614eda72ef9446" alt="">
+<a class="nav_login">登录/注册</a>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="f-l header-message message-btn">消息</div>
+
+<a href="/app/download" target="_blank" title="APP下载" class="phone" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/icon_head_phonedown.svg?v=bbd869b8522df971042f9b05ef5b34a9)"
+data-sa="click" data-starget="" data-sevent="menu_click" data-sinfo="{&quot;name&quot;: &quot;app下载&quot;}"
+data-sname="21" data-desc="base-学生登录-APP下载">APP下载</a>
+
+<a href="https://hr.shixiseng.com" class="tobe" data-sa="click" data-starget="hr.shixiseng.com" data-sevent="menu_click" data-sinfo="{&quot;name&quot;: &quot;企业入口&quot;}" data-sname="16" data-desc="base-企业入口">企业入口</a>
+
+</div>
+
+</div>
+
+<div class="sub-header">
+
+
+</div>
+</div>
+
+
+
+
+<img src="https://sxsimg.xiaoyuanzhao.com/static/img/err404.png?v=01734d13af29299cc1b025456c4bb7a3" style="width: 100%;" alt="">
+
+<input type="hidden" value="404">
+
+<div id="shadow">
+<div class="register-wrap register-layer-wrap">
+<a href="/" class="logo" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new_logo.png?v=750679c94f67c9843d75ac71fb642bf7)"></a>
+<div class="left-box fl">
+<div class="login-nav clearfix">
+<div class="login-type type1 active">密码登录</div>
+<div class="login-type type2">验证码登录</div>
+<div class="line"></div>
+</div>
+<div class="form-box">
+<div class="type1-form">
+<div class="input-item">
+<input type="text" class="account" placeholder="请输入手机号/邮箱">
+</div>
+<div class="input-item">
+<input type="password" class="password" placeholder="请输入密码">
+</div>
+<div class="options">
+<div class="remember fl"><input type="checkbox" id="remember_btn" name="remember" value="1"
+checked="checked"><span>记住我</span></div>
+<a class="fr" target="_blank" href="/user/findpass">忘记密码</a>
+</div>
+</div>
+<div class="type2-form" style="display: none;">
+<div class="input-item overseas-phone-wrap">
+<input type="text" class="phoneNumber" placeholder="请输入手机号">
+<a href="/user/register" class="register-link2">该手机号未注册，直接注册为新账号 ></a>
+</div>
+<div class="input-item input-item3 point-word-code">
+<input type="text" class="phone-code-input" placeholder="请输入短信验证码">
+<div class="get-phone-code"><span class="btn">获取短信验证码</span><span class="count-down" style="display: none;"><span>60</span>s后重新获取</span></div>
+</div>
+</div>
+</div>
+<div class="login-btn">登录</div>
+</div>
+<div class="right-box fl">
+<div class="register-link">
+<div class="text">还没有实习僧账号？</div>
+
+<a href="/user/register?next=%2Ffavicon.ico">直接注册></a>
+</div>
+<div class="other-login">
+<div class="text">使用以下账号直接登录</div>
+<div class="link-box">
+<a href="/user/sso/wechat/auth"
+style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new-wx1.png?v=cf17bec84f2c34497418aa7eeaf4a642);" title="使用微信帐号登录"></a>
+<a href="/user/sso/qq/auth"
+style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new-qq1.png?v=7a736feb7e7d8563e8e51e0becc53161);" title="使用腾讯QQ帐号登录"></a>
+<a href="/user/sso/weibo/auth"
+style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new-wb1.png?v=a1658cb3dff8b1e50398eae0cc93bb62);" title="使用新浪微博帐号登录"></a>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="footer_bgc">
+<div class="container">
+<div class="nav_bottom">
+<div class="nav_item">
+<span class="nav_til">产品服务</span>
+<span class="a"><a href="//www.shixiseng.com" target="_blank">找实习</a></span>
+<span class="a"><a href="//resume.shixiseng.com/xiaozhao" target="_blank">找校招</a></span>
+<span class="a"><a href="//tv.shixiseng.com" target="_blank">看空宣</a></span>
+<span class="a"><a href="//edu.shixiseng.com" target="_blank">职前教育</a></span>
+<span class="a"><a href="//www.shixiseng.com/cheerstation" target="_blank">藏经阁</a></span>
+</div>
+<div class="nav_item">
+<span class="nav_til">旗下产品</span>
+<span class="a"><a href="//www.shixiseng.com" target="_blank">实习僧</a></span>
+<span class="a"><a href="//edu.shixiseng.com" target="_blank">实习僧教育</a></span>
+<span class="a"><a href="//tv.shixiseng.com" target="_blank">实习僧TV</a></span>
+<span class="a"><a href="//qianbei.shixiseng.com" target="_blank">前辈学院</a></span>
+</div>
+<div class="nav_item">
+<span class="nav_til">关于我们</span>
+<span class="a"><a href="/about" target="_blank">了解我们</a></span>
+<span class="a"><a href="https://www.shixiseng.com/tc/normal/mx2019" target="_blank">加入我们</a></span>
+</div>
+<div class="nav_item">
+<span class="nav_til">联系我们</span>
+<span class="a"><a href="http://weibo.com/345952499" target="_blank">实习僧微博</a></span>
+<span class="a"><a class="gzh">实习僧公众号</a><span class="mark mark_gzh" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/gzh.png?v=77b725c6affe635c1ea719900b621934)"></span></span>
+<span class="a"><a class="khfw">客户服务</a></span>
+<span class="a"><a href="/about">商务合作</a></span>
+</div>
+<div class="nav_item nav_r">
+<span class="nav_til">下载APP</span>
+<span class="a">
+<img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/footer_android.png?v=ed04b7c03f09a65b0737505967fbe594" alt="" class="android">
+<span class="mark" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/app.png?v=758bea4d154c5943199fd859b9a98e43)"></span>
+</span>
+<span class="a">
+<img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/footer_ios.png?v=2891e3ecd279b0231139582964458874" alt="" class="ios">
+<span class="mark" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/app.png?v=758bea4d154c5943199fd859b9a98e43)"></span>
+</span>
+</div>
+</div>
+<div class="text_bottom">
+<div class="text"><span class="copyright"></span>|<span><a style="color:#999" target="_blank" href="https://beian.miit.gov.cn">蜀ICP备13010980号-1</a></span>|<span>联系我们：<a class="a_link" href="Mailto:sxs@shixiseng.com" target="_blank">sxs@shixiseng.com</a></span></div>
+<div class="text special" style='margin-bottom: 5px;'>成都萌想科技有限责任公司版权所有 中国专注实习、校招垂直招聘平台</div>
+<a rel="nofollow" target="cyxyv" class="special_a" style='margin-right: 8px;' href="https://v.yunaq.com/certificate?domain=www.shixiseng.com&from=label&code=90020"> <img style='width: 75px;height: 26px; vertical-align: top;' class="special_img" src="https://aqyzmedia.yunaq.com/labels/label_sm_90020.png"></a>
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51019002001179" target="_blank" class="text special_a"><i style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/record-icon.png?v=d0289dc0a46fc5b15b3363ffa78cf6c7)"></i>川公网安备 51019002001179号</a>
+<a href="https://resume.shixiseng.com/credentials" target="_blank" class="text text2"><i style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/jyzz-icon.png?v=27d45d806409284df0fa164db6d7a03b);background-size: contain;"></i>经营资质</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!--反馈，回头部等-->
+<div class="fixed-box">
+<div id="resume" class="resume box-item" onclick="rightToResume()">
+<div class="resume_img">
+<img id="right-resume-icon" src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-resume.png?v=80f4b0d7eb4731fa16a453db4644415a" alt="">
+</div>
+<div class="text">简历</div>
+</div>
+<div id="deliver" class="deliver box-item">
+<div class="deliver_img">
+<img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-deliver.png?v=b18d502f4beeae03a095029bd58b2e9f" alt="">
+</div>
+<div class="text">投递</div>
+</div>
+<div id="kefu">
+<div class="kefu_img"><img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-kefu.png?v=cf192b71ff155ba06f0fe1548c6a2d89" alt=""></div>
+<div class="text">客服</div>
+</div>
+<div id="back_top">
+<div class="back_img"><img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-top.png?v=98e5b4fd056749910f03c9bca50db9da" alt=""></div>
+<div class="text">TOP</div>
+</div>
+</div>
+<input type="text" id="sswitch" value="1" name="" hidden="hidden" />
+<div class="modal">
+<div class="pannel">
+<div class="title">你是否有留学经历？</div>
+<div class="tip">一键选择，Get实习僧精准推荐</div>
+<div class="choise">
+<div class="choise-item">
+<input type="radio" name="isOversea" id="oversea" value="1"/>
+<label for="oversea">有or计划中</label>
+</div>
+<div class="choise-item second">
+<input type="radio" name="isOversea" id="notOversea" value="0"/>
+<label for="notOversea">没有</label>
+</div>
+</div>
+<div class="btn">选好了</div>
+</div>
+</div>
+<div class="message-modal">
+<div class="pannel">
+<img class="close" src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/recomintern/close-popup.png?v=b6a7a9fee10e89428fbb5928d6c1ffa3" alt="">
+<div class="qrcode">
+<img src="https://sxsimg.xiaoyuanzhao.com/static/new_main/img/download-qrcode.png?v=a59102c63a2531201e6ec309d488dd2d" alt="">
+</div>
+</div>
+</div>
+<script>
+var login_sdtoken = "";
+</script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/new_main/js/jquery-1.11.3.min.js?v=895323ed2f7258af4fae2c738c8aea49"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/cite/jquery-creatBox.js?v=c89a6c8373c99a65fb1de8529f28a316"></script>
+<!-- 可配置广告位 -->
+<script src="https://sxsimg.xiaoyuanzhao.com/static/new_main/js/ad_option.js?v=84021254801c905869ddb1c69087ce9b"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/utils.js?v=17ab16fc9e3fe4119a40ff324fd2aea4"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/cite/layer/layer.js?v=91b08e09ce3849b9f5f894670d83e9a9"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/jquery.cookie.js?v=d5528dde0006c78be04817327c2f9b6f"></script>
+
+<script>
+var resumeSummary = ''
+function renderLevel () {
+getScore()
+function getScore () {
+$.ajax({
+type:'get',
+url: getHost().newApiHost + '/api/resume/v2.0/resume/summary',
+xhrFields: {
+withCredentials: true // 发送Ajax时，Request header中会带上 Cookie 信息。
+},
+success: function (r) {
+var d = JSON.parse(r)
+if(d.code== 100) {
+resumeSummary = d.msg
+if (d.msg.online.length) {
+// 获取分数
+$.ajax({
+type: 'get',
+url: getHost().newApiHost + '/api/resume/v2.0/resume/detail',
+xhrFields: {
+withCredentials: true // 发送Ajax时，Request header中会带上 Cookie 信息。
+},
+data: {
+guuid: d.msg.online[0].guuid,
+lan: 'chinese'
+},
+success: function(j) {
+var res = JSON.parse(j)
+$('#myResume').html('我的简历 ('+res.msg.score+'%)')
+if (res.code == 100) {
+$.ajax({
+type: 'get',
+url: getHost().newApiHost + '/api/resume/v2.0/completion',
+xhrFields: {
+withCredentials: true // 发送Ajax时，Request header中会带上 Cookie 信息。
+},
+success: function(ii) {
+var i = JSON.parse(ii)
+if (!i.msg.canDelivered) {
+if (window.location.pathname !== '/cheerstation') {
+if (res.msg.score || res.msg.score == 0) {
+render(res.msg.score)
+}
+}
+// 侧边栏显示分数
+if (res.msg.score || res.msg.score == 0) {
+$('.resume_img').append('<div class="resume_text">'+res.msg.score+'%</div>')
+}
+} else {
+$('#resume').addClass('delivered')
+$('#right-resume-icon').attr('src', "https://sxsimg.xiaoyuanzhao.com/static/new_main/img/right-resume-default.png?v=b0249f1d8d38e166b86e38a4df0d522f")
+}
+}
+})
+}
+}
+})
+}
+}
+}
+})
+}
+function render (score) {
+var levelText = ''
+var level = getLevel(score)
+var rank = ''
+var star1 = "https://sxsimg.xiaoyuanzhao.com/static/new_main/img/icon_star1.png?v=c8c78a12d4b42c57acad32bfcc489c24"
+var star2 = "https://sxsimg.xiaoyuanzhao.com/static/new_main/img/icon_star2.png?v=dbfcbff598230e5edb5a7b84b6f9ccdc"
+var closeImg = "https://sxsimg.xiaoyuanzhao.com/static/new_main/img/icon_close.png?v=b771dd317e0fcfff45007241e1ee6c87"
+var star1_img = ''
+for (var i = 0; i < Math.floor(level); i++) {
+star1_img += '<img src="'+star1+'" />'
+}
+var star2_img = '<img src="'+star2+'" alt="">'
+if (level > Math.floor(level)) {
+rank += '<div class="rank">'+ star1_img + star2_img + '</div>'
+}
+if (level == Math.floor(level)) {
+rank += '<div class="rank">\
+' + star1_img +'\
+</div>'
+}
+var renderR = ''
+if (level) {
+renderR += '<div class="label">简历评级：</div>'+rank
+}
+var str = '<div class="rank-pannel">\
+'+renderR+'<div class="text" onclick="goToResume()">'+levelText+'>></div>\
+<div class="close" onclick="closeLevel()"><img src="'+closeImg+'"/>\
+</div>\
+</div>'
+
+if (level >= 0) {
+$('.header').append('<div class="resume-level">' + str + '</div>')
+}
+
+function getLevel (score) {
+if (!score) {
+levelText = '刚刚有HR看了看你，发现没简历走了，快完善简历吧骚年~'
+return 0
+} else {
+if (score > 0 && score <= 20) {
+levelText = '尽早完善简历，提前进入企业人才库，抢占先机，毕业时高薪机会主动找上门~'
+} else if (score > 20 && score <= 40) {
+levelText = '简历分数低于全国80%的学生，多花几分钟时间，超越他们吧~'
+} else if (score > 40 && score <= 60) {
+levelText = '再多填几项就能获取企业关注哦，加把劲儿！！！'
+} else if (score > 60 && score <= 80) {
+levelText = '简历已经及格了哟~可以继续优化'
+} else if (score > 80 && score < 100) {
+levelText = '简历已超过了80%的用户，再努力一把，让自己脱颖而出吧！'
+} else if (score === 100) {
+levelText = '恭喜！您的简历相当完整，快去投递吧！'
+}
+return score / 20
+}
+}
+}
+}
+function getHost() {
+var hostPrefix = location.host.split('.')[0]
+switch (hostPrefix) {
+case 'localhost:8700':
+return {
+frontendHost: 'http://sit1-sxs-frontend.mshare.cn',
+mainsite: 'http://sit1-sxs-web.mshare.cn',
+frontend: 'http://sit1-sxs-frontend.mshare.cn',
+newApiHost: 'http://istio-test-apigateway.mshare.cn',
+optionHost: 'http://sit1-ad-service.mshare.cn',
+hrFrontendHost: 'http://sit1-hr-frontend.mshare.cn'
+}
+case 'www':
+case 'tv':
+case 'resume':
+case 'wap':
+case 'tuiguang':
+return {
+frontendHost: 'https://resume.shixiseng.com',
+mainsite: 'https://www.shixiseng.com',
+frontend: 'https://resume.shixiseng.com',
+newApiHost: 'https://apigateway.shixiseng.com',
+optionHost: 'https://operation.shixiseng.com',
+hrFrontendHost: 'https://hr.shixiseng.com'
+}
+case 'wwwnew':
+case 'resumenew':
+return {
+frontendHost: 'https://resumenew.shixiseng.com',
+mainsite: 'https://wwwnew.shixiseng.com',
+frontend: 'https://resumenew.shixiseng.com',
+newApiHost: 'https://apigateway.shixiseng.com',
+optionHost: 'https://operation.shixiseng.com',
+hrFrontendHost: 'https://hr.shixiseng.com'
+}
+case 'dev':
+return {
+frontendHost: 'http://sit1-local.mshare.cn',
+mainsite: 'http://sit1-sxs-web.mshare.cn',
+frontend: 'http://sit1-sxs-frontend.mshare.cn',
+newApiHost: 'http://istio-dev-apigateway.mshare.cn',
+optionHost: 'http://sit1-ad-service.mshare.cn',
+hrFrontendHost: 'http://sit1-hr-frontend.mshare.cn'
+}
+default:
+var env = hostPrefix.split('-')[0]
+var istioEnv
+if (env !== 'dev' && env !== 'uat') {
+istioEnv = 'test'
+} else {
+istioEnv = env
+}
+return {
+frontendHost: 'http://sit1-sxs-frontend.mshare.cn',
+hrFrontendHost: 'http://sit1-hr-frontend.mshare.cn',
+mainsite: 'http://' + env + '-sxs-web.mshare.cn',
+frontend: 'http://' + env + '-sxs-frontend.mshare.cn',
+newApiHost: 'http://istio-' + istioEnv +'-apigateway.mshare.cn',
+optionHost: 'http://' + env + '-ad-service.mshare.cn'
+}
+}
+}
+function goToResume () {
+var host = getHost()
+if (resumeSummary.online && resumeSummary.online[0]) {
+window.open(host.frontendHost + '/resume/' + resumeSummary.online[0].guuid + '?lan=chinese&scroll=1')
+}
+}
+function closeLevel () {
+$('.resume-level').remove()
+}
+
+function rightToResume () {
+var host = getHost()
+
+
+window.open('/user/login?resume=1')
+
+}
+// 渲染广告
+var adBottom = '10px'
+
+adBottom = getCookie('bottom_banner') ? '10px' : '134px'
+
+var _adRender = new RenderAd({
+bottom: adBottom
+});
+window.footerLogin = new MxCommonComp.FooterLogin({
+hide: function() {
+_adRender.changeStyle({
+bottom: '10px'
+})
+}
+})
+window.loginDialog = new MxCommonComp.LoginDialog({
+loginSuccessCallBack: loginSuccessCallBack,
+guideType: 1
+})
+$('.message-btn').on('click', function() {
+
+$('.message-modal').show()
+document.body.style.overflow = 'hidden';
+document.body.style.position = 'fixed';
+
+})
+$('.message-modal .close').on('click', function() {
+$('.message-modal').hide()
+document.body.style.overflow = 'auto';
+document.body.style.position = 'static';
+})
+$('.message-modal').on('click', function(e) {
+$('.message-modal').hide()
+document.body.style.overflow = 'auto';
+document.body.style.position = 'static';
+})
+$('.message-modal .pannel').click(function(e) {e.stopPropagation()})
+function loginSuccessCallBack (callback) {
+window.xMethod.sendData({
+event_type: 'IStudents Label',
+event_id: 'web_1000057'
+})
+$('.modal').show()
+var choiseVal
+$('.modal .choise .choise-item input').on('change', function() {
+choiseVal = $(this).val()
+if (choiseVal == '1') {
+window.xMethod.sendData({
+event_type: 'IStudents Label',
+event_id: 'web_1000058'
+})
+} else if (choiseVal == '0') {
+window.xMethod.sendData({
+event_type: 'IStudents Label',
+event_id: 'web_1000059'
+})
+}
+$('.modal .btn').addClass('active')
+$(this).parent('.choise-item').siblings().removeClass('active')
+$(this).parent('.choise-item').addClass('active')
+})
+$('.modal .btn').on('click', function() {
+if (choiseVal == '0' || choiseVal == '1') {
+window.xMethod.sendData({
+event_type: 'IStudents Label',
+event_id: 'web_1000060'
+})
+$.ajax({
+type:'post',
+url: getHost().newApiHost + '/api/account/v3.0/study/abraod',
+xhrFields: {
+withCredentials: true // 发送Ajax时，Request header中会带上 Cookie 信息。
+},
+data: {'oversea': parseInt(choiseVal)},
+success: function (r) {
+var json = JSON.parse(r)
+if (json.code == 100) {
+$('.modal').hide()
+callback && callback()
+} else {
+new MxCommonComp.showAlert({
+type: 'error',
+message: json.msg
+})
+}
+}
+})
+}
+})
+}
+function getSummary(callback) {
+if (resumeSummary && resumeSummary.online) {
+if (resumeSummary.online[0]) {
+var url = getHost().frontendHost + '/resume/' + resumeSummary.online[0].guuid + '?lan=chinese'
+callback && callback(url)
+} else {
+var url = getHost().frontendHost + '/personal-center'
+callback && callback(url)
+}
+} else {
+$.ajax({
+type:'get',
+url: getHost().newApiHost + '/api/resume/v2.0/resume/summary',
+xhrFields: {
+withCredentials: true // 发送Ajax时，Request header中会带上 Cookie 信息。
+},
+success: function (r) {
+var resumeSummary = JSON.parse(r).msg
+if (resumeSummary.online) {
+if (resumeSummary.online[0]) {
+var url = getHost().frontendHost + '/resume/' + resumeSummary.online[0].guuid + '?lan=chinese'
+callback && callback(url)
+} else {
+var url = getHost().frontendHost + '/personal-center'
+callback && callback(url)
+}
+}
+}
+})
+}
+}
+</script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/public/lib/point-code/point-code.js?v=4f402b0d2984697ecce0e1d56b7fc829"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/public/lib/overseas-phone-code-pc/overseas-code.js?v=84067e5891d89101617c2b1ab292986b"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/new_main/js/main_base2.js?v=2315abc491af57f4a7c528a372f6e19f"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/sxs.jq.toast.js?v=1c93cd29841cd8426427c60528d11fe0"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/point_sdk.min.js?v=3c73103b0a0fda9556421eb50ae51f06"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/js/jq.cookie.js?v=08a2ea86b81f985a86509c613b433418"></script>
+<script src="https://sxsimg.xiaoyuanzhao.com/static/public/js/mxa.js?v=2d880315aeead463159ebbcbb8c1a0bf"></script>
+<script>
+
+if (!$.cookie("bottom_banner") && window.location.pathname !== "/") {
+footerLogin.show()
+}
+
+</script>
+
+<script>
+
+</script>
+
+<script>
+function anmit(obj,n_class,time){
+setTimeout(function () {
+$(obj).removeClass(n_class);
+},time)
+setInterval(function () {
+$(obj).addClass(n_class);
+setTimeout(function () {
+$(obj).removeClass(n_class);
+},2000)
+},30000)
+}
+$(function () {
+anmit(".qb i","add_anim",2000)
+anmit(".xyz i","add_anim",2000)
+})
+function getCurrentYear() {
+return new Date().getFullYear();
+}
+$('.footer .copyright').text('©2015-' + getCurrentYear() + ' 实习僧');
+</script>
+<script type='text/javascript'>
+(function(m, ei, q, i, a, j, s) {
+m[i] = m[i] || function() {
+(m[i].a = m[i].a || []).push(arguments)
+};
+j = ei.createElement(q),
+s = ei.getElementsByTagName(q)[0];
+j.async = true;
+j.charset = 'UTF-8';
+j.src = '//static.meiqia.com/dist/meiqia.js?_=t';
+s.parentNode.insertBefore(j, s);
+})(window, document, 'script', '_MEIQIA');
+_MEIQIA('entId', 57673);
+_MEIQIA('fallback', 1);
+_MEIQIA('assign', {
+agentToken: '0b0b1e8e3ee191fc1c42ed94d512aa45'
+});
+// 设置 fallback
+_MEIQIA('fallback', 1);
+// 传递顾客信息
+_MEIQIA('metadata', {
+"name": "",
+"email": "",
+"phone": "",
+//自定义用户信息
+"type": "学生"
+});
+var $deliver = $('#deliver');
+$deliver.on("click", function() {
+
+window.open(getHost().mainsite + '/my/delivered')
+
+})
+var $kefu = $('#kefu');
+$kefu.on("click", function() {
+// if (document.all) {
+// document.getElementsByClassName('jDKtMA')[0].click()
+// } else {
+// let e = document.createEvent('MouseEvents')
+// e.initEvent('click', true, true)
+// document.getElementsByClassName('jDKtMA')[0].dispatchEvent(e)
+// }
+$('.jDKtMA').click()
+})
+var interval = setInterval(function () {
+if($("#MEIQIA-BTN-TEXT").text()=="我要反馈"){
+clearInterval(interval);
+} else {
+$("#MEIQIA-BTN-TEXT").text("我要反馈");
+$(".khfw").on("click",function () {
+$('.jDKtMA').click();
+})
+}
+},100)
+var creatend = function() {
+var url = window.location.href
+if(url.indexOf('intern')<0 && url.indexOf('com_')<0){
+window.xMethod.globalEvent({})
+}
+}
+window.addEventListener("load",creatend(),false);
+</script>
+</body>
+</html>

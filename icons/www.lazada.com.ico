@@ -1,0 +1,12 @@
+
+
+<a id="a-link" href="https://g.alicdn.com/sd/punish/waf_block.html?wh_ttid=pc&qrcode=vxXc81s1ffQzXVWI69XDVQ|atNfvg|wpE0hg_0|AAAAZQ|0&uuid=bf15dcf35b357df4335d5588ebd5c355&origin=https%3A%2F%2Fwww.lazada.com%3A443%2Fen%2Ffavicon.ico"></a>
+<script>
+  document.getElementById("a-link").click();
+
+  window._config_ = {
+    "action": "block",
+    "url": "https://g.alicdn.com/sd/punish/block_h5.html?wh_ttid=pc&qrcode=vxXc81s1ffQzXVWI69XDVQ|atNfvg|wpE0hg_0|AAAAZQ|0&uuid=bf15dcf35b357df4335d5588ebd5c355&origin=https%3A%2F%2Fwww.lazada.com%3A443%2Fen%2Ffavicon.ico"
+  };
+</script>
+<!--rgv587_flag:sm-->

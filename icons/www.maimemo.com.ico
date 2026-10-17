@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>页面不存在</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="cleartype" content="on"/>
+    <meta content="no-cache" http-equiv="cache-control"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content="404 - 页面不存在">
+    <link rel="stylesheet" href="/res/style/site/default/css/public.css"/>
+    <link rel="stylesheet" href="/res/style/site/default/css/memo.css"/>
+    <link rel="Shortcut Icon" href="/res/style/site/default/css/images/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<div class="navbar navbar-momo">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="logo" href="https://www.maimemo.com/">
+                <img src="/res/images/site/logo4.png"/>
+            </a>
+            <a href="https://www.maimemo.com" class="navbar-brand">墨墨背单词</a>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <div id="errorPage">
+        <img src="https://www.maimemo.com/res/images/site/logo5.png" height="120"/>
+        <h4 class="text-center">&#10006;&nbsp;您访问的页面不存在……</h4>
+        <ul>
+            <li>1. 点击<a href="javascript:void(0);" onclick="javascript:history.go(-1);">这里</a>返回上一页</li>
+            <li>2. 点击<a href="https://www.maimemo.com">这里</a>返回首页</li>
+        </ul>
+    </div>
+</div>
+<div class="footer-border">
+    <div class="footer">
+			<span class="left">
+				<p>蜀ICP备14006345号</p>
+			</span>
+        <span class="right">
+				<p><a href="mailto:support@maimemo.com">联系我们</a></p>
+				<p>加入墨墨</p>
+				<p><a href="https://www.maimemo.com/terms" class="tk">使用条款</a></p>
+			</span>
+    </div>
+</div>
+</body>
+</html>

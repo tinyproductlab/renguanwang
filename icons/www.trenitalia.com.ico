@@ -1,10 +1,110 @@
-<HTML><HEAD>
-<TITLE>Access Denied</TITLE>
-</HEAD><BODY>
-<H1>Access Denied</H1>
- 
-You don't have permission to access "http&#58;&#47;&#47;www&#46;trenitalia&#46;com&#47;favicon&#46;ico" on this server.<P>
-Reference&#32;&#35;18&#46;14b01302&#46;1792233621&#46;7cad5a4d
-<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;14b01302&#46;1792233621&#46;7cad5a4d</P>
-</BODY>
-</HTML>
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>    
+    
+	    <title>Ferrovie dello Stato - Pagina non disponibile</title>
+	    <script defer="defer" type="text/javascript" src="https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js" data-routing="program=133664,environment=1313040,tier=publish" data-status="404"></script>
+<link rel="icon" type="image/vnd.microsoft.icon" href="/etc.clientlibs/settings/wcm/designs/fsifoundation/clientlib-all/resources/favicon.ico"/>
+	    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc.clientlibs/settings/wcm/designs/fsifoundation/clientlib-all/resources/favicon.ico"/>
+    
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/fsifoundation/clientlib-errorPage.lc-9a598f3fd2e3c2732245b07dcda1e03b-lc.min.css" type="text/css">
+
+
+
+</head>
+<body>
+
+<!-- CONTAINER -->
+<div id="container">
+    <!-- HEADER -->
+    <div id="headerGruppo">
+	  <h1 class="hidden"> Gruppo Ferrovie dello Stato</h1>
+        <div class="headerTop">
+            <div class="headerLeftNav"></div>
+            <div class="headerRightNav">
+                <div class="ricerca"><div></div></div>
+                <div class="headerRightNavLeft"></div>
+                <div class="clearDiv"></div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="headerBottomRight">
+            	
+            	
+                	<img src="/etc.clientlibs/settings/wcm/designs/fsifoundation/clientlib-errorPage/resources/logos/logo-trenitalia.jpg" alt="Logo Trenitalia"/>
+                
+            </div>
+            <div class="headerBottomLeft">
+                <div class="headerBottomLeftIn"></div>
+            </div>
+        </div>
+        <div class="clearDiv"></div>
+    </div>
+    <!-- /HEADER -->
+
+    <!-- CONTENUTI -->
+    <div id="content">
+
+        <div style="margin:15px 0 10px 0; padding:0;">
+
+            <!-- Box Contenuti -->
+            <h3 class="hidden">Contenuto della pagina</h3>
+            <div id="contentBox">
+                <div class="cbox">
+                    <div class="cboxLeftRow"><div class="cboxRightRow">
+                        <div class="cboxTopLeft"><div class="cboxTopRight">
+                            <div class="cboxBotLeft"><div class="cboxBotRight">
+                                <div class="cboxIntContArtic">
+                                    <div class="ContParag">
+                                        <div class="spazioTop10">&nbsp;</div>
+                                        <p style="line-height:1em; font-weight:bold; text-align:center; font-size:1.1em;">
+                                            La pagina non &egrave; disponibile.
+                                            
+                                        </p>
+                                        <p style="line-height:1em; font-weight:bold; text-align:center; font-size:1.1em;">
+                                            Torna alla homepage <a class="titoloredboldsmall" href="https://www.trenitalia.com" title="">cliccando qui</a>.
+                                        </p>
+                                    </div>
+                                    <div class="ContParag"><p></p><br/><br/></div>
+                                </div>
+                                <div class="clearDiv"></div>
+                            </div></div>
+                        </div></div>
+                    </div></div>
+                </div>
+            </div>
+            <p class="hidden">[ <a href="#top">Torna all'inizio della pagina</a> ]</p>
+            <!-- /Box Contenuti -->
+
+        </div>
+
+    </div>
+    <!-- /CONTENUTI -->
+</div>
+<!-- /CONTAINER -->
+
+<!-- FOOTER -->
+<div id="footerFS" class="box">
+    <div class="bgRight">
+        <div class="footerRightNavImg">
+        </div>
+		<div class="footerLeftNav"> 
+			
+	       	
+	           	 &copy; Gruppo Ferrovie 2026
+	        
+        </div>
+    </div>
+</div>
+<p class="hidden">[ <a href="#top">Torna all'inizio della pagina</a> ]</p>
+<!-- /FOOTER -->
+
+<!-- Analytics was here -->
+
+</body>
+</html>

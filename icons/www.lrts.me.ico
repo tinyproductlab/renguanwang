@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>404,懒人听书官方网站 - 懒人听书，知名有声阅读平台，身边的有声图书馆</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="懒人听书,听书,有声阅读,有声小说,播客,主播,网络电台,收藏,赞,演播,原著,有声书籍,下载,高清,数字音频,社区" />
+    <meta name="description" content="懒人听书是4.8亿用户选择的综合性有声阅读交流平台。热门IP入驻，知名主播云集，海量内容资源共筑有声阅读生态圈，出版物、儿童读物、电台等多种节目类型满足用户全内容收听需求。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="baidu-site-verification" content="code-cegtlYA1Sb" />
+    <link rel="Shortcut Icon" href="https://assets.lrts.me/fed-assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://assets.lrts.me/fed-assets/yyting/css/base.css?v=102" />
+    <link rel="stylesheet" href="https://assets.lrts.me/fed-assets/yyting/css/layout.css?v=102" />
+
+    <!--<link rel="stylesheet" href="https://assets.lrts.me/fed-assets/yyting/css/year.css?v=102" />-->
+    <!--[if lt IE 8]><script src="https://assets.lrts.me/fed-assets/plugins/js/json2.js?v=102" type="text/javascript"></script><![endif]-->
+    <!--[if lt IE 9]><script src="https://assets.lrts.me/fed-assets/plugins/js/html5.js?v=102" type="text/javascript"></script><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" href="https://assets.lrts.me/fed-assets/yyting/css/ie8-fix.css?v=102" /><![endif]-->
+    <!--[if lt IE 8]><link rel="stylesheet" href="https://assets.lrts.me/fed-assets/yyting/css/ie-fix.css?v=102" /><![endif]-->
+</head>
+	<body>
+		<header>
+<div class="g-top">
+	<div class="wrapper clearfix">
+		<div class="g-top-l">
+			<a href="https://mp.tencentmusic.com/home">主播招募</a>
+			<a href="/business">商务合作</a>
+		</div>
+		<div class="g-top-r">
+			<div class="g-top-ulogin hide"><a href="/login">登录</a><span class="split">|</span><a href="/signupByPhone">注册</a></div>
+			<div class="g-top-umenu hide">
+				<ul>
+					<li>
+						<a href="/user/" class="g-user-i" id="myhomecover">
+							<img src="https://bookpic.lrts.me/default_user_head.png" />
+						</a>
+						<div class="g-top-menu-l">
+							<a id="myhome" href="/user/">我的个人主页</a>
+							<a id="mycollection" href="/my/collect/book">我的收藏</a>
+							<a id="myfollowing" href="">我关注的主播</a>
+							<a id="myalbum" href="/my/album">我上传的节目</a>
+							<a id="mysetting" href="/setting"><i class="icon-config"></i><span class="f12">账号设置</span></a>
+							<a class="g-top-logout" href="/logout"><i class="icon-logout"></i><span class="f12">退出登录</span></a>
+						</div>
+					</li>
+					<li>
+						<span class="icon-notify-number" style="display:none">0</span>
+						<a href="/my/message/inbox" class="g-notify"><i class="icon-notify"></i></a>
+						<div class="g-top-menu-l">
+							<a href="/my/message/inbox">查看私信<span class="g-remind-num notify-remind-privateCount hide">(0)</span></a>
+						</div>
+					</li>
+					<li>
+						<a href="/uservip/vip" class="g-member"><i class="icon-member"></i></a>
+						<div class="g-top-menu-l">
+							<a href="/uservip/vip">成为VIP会员</a>
+							<a href="/userinfo/pay">账户充值</a>
+							<a href="/pay/paid">支付查询</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="g-main clearfix wrapper">
+	<div class="g-main-l">
+		<a href="/index">
+			<img style="width:212px;" src="https://assets.lrts.me/fed-assets/yyting/images/logo.png?v=102" alt="懒人听书" />
+		</a>
+	</div>
+	<div class="g-main-m">
+		<div class="g-search">
+			<div class="g-search-b clearfix">
+				<input type="text" placeholder="搜索书籍、节目、主播" maxlength="20" value=""/><a class="g-search-icon"><i class="icon-search"></i></a>
+			</div>
+			<div class="g-search-l g-auto-hide">
+				<ul>
+					<li class="active"><i class="icon-s-book"></i>搜索"<span></span>"相关的书籍</li>
+					<li><i class="icon-s-album"></i>搜索"<span></span>"相关的节目</li>
+					<li><i class="icon-s-user"></i>搜索"<span></span>"相关的主播</li>
+				</ul>
+			</div>
+		</div>
+		<div class="fl">
+			<a href="/rank/hot/week" class="g-ranking-icon">榜单</a>
+			<span class="split">|</span>
+			<a href="/book/category" class="g-category-icon">分类</a>
+		</div>
+	</div>
+	<div class="g-main-r">
+		<ul>
+			<li class="g-main-r-i g-main-listen">
+				<a href="/my/history" class="g-listen"><i class="icon-listen"></i>记录</a>
+				<div class="g-main-listen-l">
+					<div class="g-listen-login">
+						<a href="/login" class="btn-primary">登  录</a>
+					</div>
+				</div>
+				
+			</li>
+			<li class="g-main-r-i">
+				<a href="https://mp.tencentmusic.com/home" class="head-tooltip"><i class="icon-upload"></i>上传
+				</a>
+			</li>
+			<li class="g-main-r-i">
+				<a href="/down" class="g-main-r-i-l"><i class="icon-download"></i>APP软件</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="g-nav">
+	<nav class="g-nav-inner wrapper">
+		<ol class="g-nav-l">
+			<li class="active"><a href="/index">首页</a></li>
+			<li ><a href="/book/index">有声书城</a></li>
+			<li ><a href="/explore/album">主播节目</a></li>
+		</ol>
+		<div class="g-nav-m">
+			<a href="/book/category/1">小说</a>
+			<a href="/explore/album/category/3088/play_count">脱口秀</a>
+			<a href="/book/category/3">评书</a>
+			<a href="/book/category/4">戏曲</a>	
+			<a href="/book/category/78">名著</a>
+			<a href="/book/category/6">儿童</a>
+			<a href="/book/category/9070">红色足迹</a>
+		</div>
+		<div class="g-nav-r">
+			<span id="lanrentingshu-nav-links" style="display:none;">
+				<a target="_blank" style="margin-left:15px;" href="https://www.lrts.me/player_radio/wangluobiaoyan">剧目栏目</a>
+				<a style="margin-left:15px;" href="/userinfo/pay">账户充值</a><br />
+			</span>
+			<a style="margin-left:15px;" href="https://mp.tencentmusic.com/home">听书号</a>
+			<a style="margin-left:15px;" href="/uservip/vip">VIP会员</a>
+		</div>
+		<script>
+			(function () {
+				if (window.location.hostname === 'www.lanrentingshu.com') {
+					var navLinks = document.getElementById('lanrentingshu-nav-links');
+					if (navLinks) {
+						navLinks.style.display = 'inline-block';
+					}
+				}
+			})();
+		</script>
+		<div class="clear"></div>
+	</nav>
+</div>
+<div class="nav-round"></div>
+<div class="g-nav-c">
+		<ol class="wrapper">
+		<li class=""><a href="/explore/album">主播节目</a><span class="arrow-top"></span></li>
+		<li class=""><a href="/explore/anchor">热门主播</a><span class="arrow-top"></span></li>
+	</ol>
+
+	
+	<div class="clear"></div>
+</div>
+<script type="text/template" class="hide" id="login-template">
+	<div class="g-login fieldset">
+		<div class="g-login-l">
+			<h4 class="f16">登录懒人账户</h4>
+			<p>加入懒人听书，交流关注的书籍和主播</p>
+			<ul>
+				<li class="hide"><span class="field-error">登录邮箱或登录密码错误!</span></li>
+				<li><input type="text" placeholder="用户名/邮箱" /></li>
+				<li><input type="password" placeholder="密码"/></li>
+				<li class="tr">
+					<span class="fl"><input type="checkbox" checked="checked" id="reme"/><label for="reme">下次自动登录</label></span>
+					<a href="/findPassword">忘记密码？</a>
+				</li>
+				<li><button type="button" class="btn-primary">登录</button></li>
+			</ul>
+		</div>
+		<div class="g-login-r">
+			<p>
+			<span>还没有懒人听书账号？</span><br />
+			<a href="/signupByPhone" class="btn">免费注册账号></a>
+			</p>
+			<span>或使用合作账号登录：</span><br />
+			<div>
+				<a login="/sinaLogin.dosl" class="btn" id="thirdLogin"><i class="icon-l-wb-sina"></i>新浪微博账号登录</a>
+				<a login="/qqLogin.dosl" class="btn" id="thirdLogin"><i class="icon-l-wb-qq"></i>QQ账号登录</a>
+				<a login="/xiaomiLogin.dosl" class="btn" id="thirdLogin"><i class="icon-l-wb-xm"></i>小米账号登录</a>
+				<a login="/weixinLogin.dosl" class="btn" id="thirdLogin"><i class="icon-l-wb-wx"></i>微信账号登录</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</script>
+		</header>
+		<style>
+			.error404{
+				padding:114px 0;
+			}
+			h2{
+				font-size:22px;
+			}
+			.cry{
+				margin-top:15px;
+				margin-right:10px;
+			}
+			.error404 div{
+				padding-left:35px;
+				margin-top:-20px;
+			}
+			.error404 p{
+				text-indent:-86px;
+			}
+		</style>
+		<div  class="wrapper container">
+			<div class="error404 tc">
+				<img class="cry" src="https://assets.lrts.me/fed-assets/yyting/images/404/cry.png"/><img src="https://assets.lrts.me/fed-assets/yyting/images/404/error.png"/>
+				<div>
+					<h2>您访问的页面不存在或者已删除</h2>
+					<p>你可以选择<a class="blink" href="javascript:history.back()">返回上一页</a>,或者联系<a class="blink" href="/contact">懒人听书</a></p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer-simple">
+<input id="cToken" name="cToken" type="hidden" value="">
+<div class="wrapper tc">
+	<div><a href="/about">关于我们</a>·<a href="/contact">联系我们</a>·<a href="/contract/service.html">会员条款</a>·<a href="/business">商务合作</a>·<a href="/join/org">内容合作</a></div>
+	<p>Copyright © 2012 - 2019 深圳市懒人在线科技有限公司 All Rights Reserved.    </p>
+</div>
+<div class="hide">
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ada61571fd48bb3f905f5fd1d6ef0ec4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>		</footer>
+<script src="https://assets.lrts.me/fed-assets/plugins/jquery/jquery.min.js?v=102" type="text/javascript" crossorigin="anonymous"></script>
+<script src="https://assets.lrts.me/fed-assets/plugins/jquery/jquery-migrate.min.js?v=102" type="text/javascript" crossorigin="anonymous"></script>
+<script src="https://assets.lrts.me/fed-assets/plugins/jquery/jquery.lazyload.min.js?v=102" type="text/javascript" crossorigin="anonymous"></script>
+<!--[if lt IE 8]><script src="https://assets.lrts.me/fed-assets/plugins/jquery/jquery.cookie.js?v=102" type="text/javascript"></script><![endif]-->
+<!--[if lt IE 10]><script src="https://assets.lrts.me/fed-assets/plugins/jquery/jquery.placeholder.js?v=102" type="text/javascript"></script><![endif]-->
+<script src="https://assets.lrts.me/fed-assets/plugins/jquery/dialog/jquery.dialog.js?v=102" type="text/javascript" crossorigin="anonymous"></script>
+<script src="https://vm.gtimg.cn/tencentvideo/script/3.1.9/universal-report.min.js" type="text/javascript"></script>
+<script src="https://tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js" type="text/javascript"></script>
+<script src="https://assets.lrts.me/fed-assets/web/assets/javascript/common.js?v=102" type="text/javascript" crossorigin="anonymous"></script>
+<script>
+$(function (){
+  var useragent = navigator.userAgent
+  if (useragent.indexOf('Mac OS') > -1 || useragent.indexOf('iPhone') > -1) {
+    $('.privacy_ios').show()
+    $('.permission_ios').show()
+    $('.version_ios').show()
+
+    $('.privacy_android').hide()
+    $('.permission_android').hide()
+    $('.version_android').hide()
+  } else {
+    $('.privacy_android').show()
+    $('.permission_android').show()
+    $('.version_android').show()
+
+    $('.privacy_ios').hide()
+    $('.permission_ios').hide()
+    $('.version_ios').hide()
+  }
+})
+</script>
+<!-- hlp 2015-06-08 -->
+<!-- <script src='https://pw.cnzz.com/tongji_360.php?id=1254668430&pid=e360&l=2' language='JavaScript' charset='gb2312'></script>	 -->	</body>
+</html>

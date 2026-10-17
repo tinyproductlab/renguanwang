@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible">
+<meta name="keywords" content="市场,地产,房地产,房地产,经济,银行,银行,融资,行情,行情" />
+<meta name="description" content=">>>专家在线答疑>>>点击进入直播间中金在线微行情-随时随地简单快捷的查询到股票行情数据>>>轻松理财轻松生活10%-13%年化利率——中金在线168理财网多种优质投资项目>>>点击进入导读系统性风险不大看淡市场短期表现(本页)2000点存支撑短线反弹在" />
+<link type="text/css" rel="stylesheet" href="http://hs.cnfol.com/f=ub/Css/Modules/Basis.css,ub/Css/Modules/Ind.css,ud/Css/Cnfol/Style.css,uh/Css/ZhuTi/NewLogin.css,ua/css/Public/TopBarFoot.css,ub/Css/CnfolEdit/Edit.css?v=20180830" />
+<!--2018新广告-->
+<link rel="stylesheet" href="http://hsnew.cnfol.com/pc/Css/as/NewAs.css"/>
+<script charset="utf-8" src="http://hs.cnfol.com/f=Cm/Js/Base.js,Cm/Js/Menus.js,ua/js/Public/Base64.js,ua/js/Public/Login.js,Cm/Js/ShowInfo.js" type="text/javascript"></script>
+<title>出错页面</title>
+</head>
+
+<body>
+<!---New Login Bar-->
+<!-- 头部部分 -->
+
+<!--20180611增加财经号小程序入口 start-->
+<style>
+    .AFin{
+        width: 60px;
+        padding-left: 40px;
+        height: 40px;
+        vertical-align: middle;
+        border-right: 2px solid #e8e8e8;
+        line-height: 40px;
+        color: #000 !important;
+        display: inline-block;
+        float: left;
+        margin-bottom: 1px;
+        background:url('https://hs.cnfol.com/uk/Imgs/Reception/wxmini.png') no-repeat 10px center/25px 25px;
+    }
+
+</style>
+<!--20180611增加财经号小程序入口 end-->
+
+<!--新登录条 未登录 star-->
+<div class="LoginBox LeBg">
+    <div class="NewLoginBox ViLeBg">
+        <div class="FrArea">
+            <a href="javascript:;" id="LLG" class="NewLog"  onmouseover="mopen('LoginArea','LLG')" onmouseout="mclosetime()">登录</a><a target="_blank" href="http://help.cnfol.com/" class="AT">客服</a>
+            <!--2016-04-05,中金在线营销QQ运营-->
+            <!--2016-04-05，中金在线营销QQ运营end-->
+            <div class="LoginArea" id="LoginArea" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="javascript:;" class="LognCl" onClick="Close('LoginArea');"></a>
+                <div class="ErImg">
+                    使用财视扫码登陆
+                    <img  rel='nofollow'   id="qrImg" src="" alt="中金二维码"/>
+                    <span id="qrTxt" class="Tc"></span>
+                </div>
+                <div class="RghLog">
+                    <form id="top_login" class="LogForm" name="top_login" method="post" action="https://passport.cnfol.com/login/reglogin">
+                        <input id="UName" class="UName" type="text" name="username" tabindex="1" value="用户名/邮箱/手机">
+                        <input id="UPwdF" class="UPwd" tabindex="2" type="text" value="请输入密码" style="display: inline-block;">
+                        <input id="UPwd" class="UPwd DN" type="password" name="password" tabindex="3" style="display: none;">
+                        <input type="hidden" value="login" name="act">
+                        <input type="hidden" value="0" name="usertype">
+                        <input id="Type" type="hidden" value="0" name="type">
+                        <p><input id="Rmb" type="checkbox" name="auto" value="1" tabindex="3">下次自动登录</p>
+                        <span href="javascript:;" onclick="javascript:submitto();" class="ASubBtn">登录</span>
+                        <script>
+                            var url = document.location.href;
+                            document.writeln('<input type="hidden" name="return" value="'+url+'" />');
+                        </script>
+                    </form>
+                    <a href="https://passport.cnfol.com/forgetpassword" class="ACoR">忘记密码？</a><a href="https://passport.cnfol.com/accounts/Register" class="ACoR">立即注册</a>
+                    <p>其它账号登录：<a href="javascript:Tn.Sina();" title="新浪微博登录" class="ASina">新浪</a><a href="javascript:Tn.Qzone();" title="QQ登录" class="AQQ">QQ</a><a title="微信登录" href="javascript:Tn.Wechat();" class="AWxn">微信</a></p>
+                </div>
+            </div>
+        </div>
+
+        <a target="_blank" href="http://3g.cnfol.com/" class="APhn">手机网</a>
+        <!--<a target="_blank" style="position:relative" href="http://p.cnfol.com/index.php" onmouseout="document.getElementById('wxIcon').style.display='none'" onmousemove="document.getElementById('wxIcon').style.display='block'" class="AFin">财经号
+            <div id="wxIcon" style="position:absolute;left:0;top:40px;display:none;z-index:99999;" ><img src="https://hs.cnfol.com/uk/Imgs/Reception/wxminiqrcode.png" alt=""/></div>
+        </a>-->
+        <!--顶部广告条 start-->
+        <div>
+            <!--新广告系统首页导航文字链 start-->
+            <div id="as_144" class="Fl" style="">
+                <ins data-revive-zoneid="144"></ins>
+            </div>
+            <!--新广告系统首页导航文字链 end-->
+        </div>
+        <!--顶部广告条 end-->
+    </div>
+    <!--新登录条 end-->
+
+    <!--新登录条 已登录 star-->
+    <div class="NewLoginBox NoLEBg">
+        <div class="FrArea">
+
+            <a onclick="Tn.TopQuit();loadtmpuser();" href="javascript:;" class="AT">退出</a>
+            <a target="_blank" href=" http://4008888366.114.qq.com/?ADTAG=IM.BQQ.114.SPACE_CLICK" class="AT" rel='nofollow' >在线咨询</a>
+            <span class="SpanCW">|</span><a target="_blank" href="http://help.cnfol.com/" class="AT">客服帮助</a>
+        </div>
+        <a target="_blank" href="http://3g.cnfol.com/" class="APhn">手机网</a>
+        <!--<a target="_blank" style="position:relative" href="http://p.cnfol.com/index.php" onmouseout="document.getElementById('wxIcon2').style.display='none'" onmousemove="document.getElementById('wxIcon2').style.display='block'" class="AFin">财经号
+            <div id="wxIcon2" style="position:absolute;left:0;top:40px;display:none;z-index:99999;" ><img src="https://hs.cnfol.com/uk/Imgs/Reception/wxminiqrcode.png" alt=""/></div>
+        </a>-->
+        <div class="FrAreaA">
+            欢迎您，<a href="https://passport.cnfol.com/" id="NewLogEd"  target="_blank"></a><a href="https://passport.cnfol.com/v7/usercenter#contentview" target="_blank" id="GoldNum" class="GoldNum"></a>
+            <span class="ANum"><a href="https://passport.cnfol.com/v7/assistant/messageman?type=usermsg" target="_blank" class="EmNum" id="EmNum"></a><a href="https://passport.cnfol.com/v7/assistant/messageman?type=impmsg" id="ImpotA" target="_blank" class="ImpotA"></a></span>
+        </div>
+    </div>
+</div>
+<!--新登录条 end-->
+<script type="text/javascript" charset="utf-8">document.domain="cnfol.com"</script>
+
+
+<div class="allMenu">
+    <div class="fMenu">
+        <a href="http://www.cnfol.com/" target="_blank">首页</a>
+        <a href="http://news.cnfol.com/" target="_blank">财经</a>
+        <a href="http://stock.cnfol.com/" target="_blank">股票</a>
+        <a href="http://fund.cnfol.com/" target="_blank">基金</a>
+        <a href="http://gold.cnfol.com/" target="_blank">黄金</a>
+        <a href="http://forex.cnfol.com/" target="_blank">外汇</a>
+        <a href="http://futures.cnfol.com/" target="_blank">期货</a>
+        <a href="http://money.cnfol.com/" target="_blank">理财</a>
+        <a href="http://yc.stock.cnfol.com/" target="_blank">原创</a>
+        <a href="http://auto.cnfol.com/" target="_blank">汽车</a>
+        <a href="http://roadshow.cnfol.com/" target="_blank">路演</a>
+        <a href="http://blog.cnfol.com/" target="_blank">博客</a>
+        <a href="http://mp.cnfol.com/" target="_blank"><span style='color:red'>财经号</span></a>
+    </div>
+
+</div>
+
+<div class="ErrorBox">
+	<div class="ErrorInner Cf">
+    	<div class="ErrorBQ Fl"></div>
+        <div class="ErrorMsg Fl">
+        	<strong class="ErrorTit F30">出错啦！</strong>
+            <p class="EMsgDesc F14">很抱歉!您要访问的页面不存在！您还可以：<br />
+               <a class="Fb14" href="http://www.cnfol.com" target="_blank" />访问首页</a><br />
+               或查看以下精彩内容
+            </p>
+        </div>
+        <div class="CnfolZwm Fl style="display:none">
+        	<div class="CFlzwm"></div>
+            <p class="CFlzwmZi">中金在线</p>
+        </div>
+    </div>	
+</div>
+<div class="CeHua Cf">
+	<div class="CHTit Fl Fb16">特别策划</div>
+    <div class="CHCnt Fl Cf">
+  <script src="http://he.js.cnfol.com/index_new.php/id=1937&br=0"></script>
+    </div>
+</div>
+
+
+<!--footer-->
+﻿<div class="NFt Cf">
+	<ul class="Left Mt15 Fl">
+		<li>
+			<span class="ToBold ToF14">获取帮助</span>
+			<a href="http://www.cnfol.com/info/zg.shtml" target="_blank">征稿启事</a>
+		</li>
+		<li>
+			<span class="ToBold ToF14">移动中金</span>
+			<a href="http://3g.cnfol.com" target="_blank">手机网</a>
+			<a href="http://mp.cnfol.com" target="_blank">财经号</a>
+		</li>
+		<li>
+			<span class="ToBold ToF14">关于我们</span>
+			<a href="http://www.cnfol.com/info/corp.shtml" target="_blank">公司简介</a>
+			<a href="http://www.cnfol.com/info/contact.shtml" target="_blank">联系我们</a>
+		</li>
+                <li>
+                        <a href="http://www.cnfol.com/info/law.shtml" target="_blank">法律声明</a>
+                        <a href="http://www.cnfol.com/info/partner.shtml" target="_blank">合作伙伴</a>	
+		</li>
+	</ul>
+	<div class="Right Fr" style="display:none">
+		<a href="http://weixin.cnfol.com/" target="_blank"><img src="http://hs.cnfol.com/ud/Imgs/Cnfol/Ewm.jpg" alt="中金现在二维码"></a>
+	</div>    
+</div>
+<div class="Footer W">
+	<div> 本站所有文章、数据仅供参考，使用前务请仔细阅读<a  href="http://www.cnfol.com/info/law.shtml" target="_blank">法律声明</a>，风险自负 <br/>
+		违法和不良信息举报邮箱：<a href="mailto:zixun@cnfol.net" target="_blank" rel='nofollow' >zixun@cnfol.net</a><br/>
+		&#12288;&#12288;《电子公告服务许可证》编号：闽通信互联网 [2008]1 号 <br/>
+		<a href="http://news.cnfol.com/it/20170811/25147199.shtml" target="_blank">《网络文化经营许可证》编号：闽网文[2017]6399130号</a>&#12288;&#12288; <br/>
+		Copyright&nbsp;&copy;&nbsp;2003-2018 中金在线. All Right Reserved. <br/>
+		<a href="http://www.12321.cn" target="_blank" class="Labi" rel='nofollow' ></a> <a href="http://www.cyberpolice.cn" target="_blank" class="Police" rel='nofollow' >福州网络警察报警平台</a><a href="http://www.12377.cn" target="_blank" class="WfIcon" rel='nofollow' >违法和不良信息举报中心</a> </div>
+	<div style="width:300px;margin:0 auto;padding:20px 0;">
+		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010002000101" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" rel='nofollow' ><img  rel='nofollow'   src="http://www.beian.gov.cn/file/ghs.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">闽公网安备 35010002000101号</p></a>
+	</div>
+</div>
+ 
+<script>
+setTimeout(function(){window.location.href="http://www.cnfol.com";},4000);
+</script>
+
+	
+	<DIV style="DISPLAY: none"><!-- START AIYA Site Stat. -->
+	<SCRIPT language=JavaScript type="text/javascript" src="//s.cnfolimg.com/v5.0/js/stat01-min.js"></SCRIPT>
+	<NOSCRIPT><img src="//logs.cnfol.com/a?ci=cnfol" alt=""></NOSCRIPT><!-- END AIYA Site Stat. -->
+	</DIV> 
+
+	<!--数据中心某个表的访问量统计-->
+	<script>
+	function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return decodeURIComponent(decodeURIComponent(escape(r[2]))); return null;
+    }
+	if(getQueryString('tid') && getQueryString('cid'))
+	{
+	var clickurl = 'http://app.cnfol.com/dataapi/index.php/welcome/click/'+getQueryString('tid')+'/'+getQueryString('cid')+'/';
+	document.write(unescape("%3Cscript src='"+clickurl+"' type='text/javascript'%3E%3C/script%3E"));
+	}
+	</script>
+</div>
+
+<script type="text/javascript" src="http://hs.cnfol.com/f=uh/Js/ZhuanTi/Login/NewLogJs.js"></script>
+<script type="text/javascript" src="http://hs.cnfol.com/f=uh/Js/ZhuanTi/Login/https_login.js"></script>
+<script type="text/javascript" src="http://hs.cnfol.com/f=uh/Js/ZhuanTi/Login/https_qrlogin.js"></script>
+<script type="text/javascript" src="http://hsnew.cnfol.com/pc/Js/as/async3.js"></script>
+</body>
+</html>

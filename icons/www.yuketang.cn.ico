@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="keywords" content="雨课堂, 清华大学, 智慧教学, 翻转课堂, 混合式教学, 教学工具, 教学软件">
+	<meta name="Description" content="雨课堂是清华大学和学堂在线共同推出的新型智慧教学解决方案，是教育部在线教育研究中心的最新研究成果，致力于快捷免费的为所有教学过程提供数据化、智能化的信息支持。">
+	<!-- <meta name="apple-mobile-web-app-capable" content="yes" /> -->
+	<link type="image/x-icon" rel="shortcut icon"
+		  href="https://fe-static-yuketang.yuketang.cn/fe/static/vue_images/2.2.562/images/favicon.ico">
+	<title>雨课堂 - 免费的智慧教学解决方案</title>
+	<style>
+	/*样式清零*/
+	body,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,input {margin: 0; padding: 0;}
+	li {list-style: none;}
+	img {border: 0;}
+	a {text-decoration: none;}
+	.clearfix:after {display: block; content: ""; clear: both;}
+	body, button, input, optgroup, select, textarea {
+    font: 12px/1.5 arial,Helvetica Neue,tahoma,"Hiragino Sans GB",Microsoft YaHei,\5b8b\4f53;}
+	
+	html,body {height: 100%;}
+    .wrapper {min-height: 100%; height: auto!important; position: relative;}
+    .wrapper .page {padding-top: 90px; padding-bottom: 108px;}
+    .wrapper .copyright {position: absolute; width: 100%; height: 108px; background: #333333; z-index: 5; left: 0; bottom: 0;}
+    .wrapper .copyright .cont {margin: 0 auto; height: 60px;}
+	.wrapper .copyright .left {float: left; font-size: 16px; line-height: 26px; padding-top: 25px; color: #9fa399;}
+
+    /*导航条*/
+    .nav {position: fixed; z-index: 50; width: 100%; left: 0; top: 0; color: #fff;}
+    .nav .bg {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #333333;}
+	.nav .box {position: relative; margin: 0 auto; height: 90px;}
+	.nav .box .logo {float: left; width: 170px; margin-left: 25px; margin-top: 24px;}
+
+	/*.page {position: fixed; width: 300px; text-align: center; left: 50%; top: 50%; margin-left: -150px; margin-top: -50px;}*/
+
+	.page .cont {padding-top: 80px; margin: 0 auto; text-align: center; color: #646464;}
+	.page .cont h1 {margin-bottom: 40px;}
+	.page .cont p {font-size: 18px;}
+	.page .cont a {text-decoration: underline;}
+	</style>
+</head>
+<body>
+	<nav id="nav" class="nav">
+		<div id="navbg" class="bg"></div>
+		<div class="box clearfix">
+			<a href="/">
+				<img id="logo" class="logo" src="/static/images/home/logo.png" alt="logo">
+			</a>
+		</div>
+	</nav>
+	<div class="wrapper">
+	    <!-- 为底部留出50px的padding给版权信息来绝对定位到wrapper -->
+	    <div class="page">
+	    	<div class="cont">
+	    		<h1>页面走丢了</h1>
+	    		<p>未能找到您查找的页面。返回<a href="/">&lt;主页&gt;</a></p>
+	    	</div>
+	    </div>
+
+	    <!-- 底部版权 -->
+	    <div class="copyright">
+	    	<div class="cont clearfix">
+			<div class="left" id="copyrightfont">
+				Copyright 2013-2020 北京慕华信息科技有限公司<br>
+				<a target="_blank" href="https://beian.miit.gov.cn" style="display:inline-block;vertical-align: middle;color: #666;text-decoration: none;vertical-align: middle;">京ICP备14019655号</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802033052" style="display:inline-block;vertical-align: middle;color: #666;text-decoration: none;vertical-align: middle;"><img src="https://qn-sfe.yuketang.cn/o_1ek0bqrhrrj69vi1q681h091k069.png" style="vertical-align: middle;"/>&nbsp;<span style="vertical-align:middle;">京公网安备 11010802033052号</span></a>
+			</div>
+		</div>
+	    </div>
+	</div>
+	<script>
+	var logo = document.getElementById('logo');
+	var copyrightfont = document.getElementById('copyrightfont');
+	var ua = window.navigator.userAgent.toLowerCase();
+	if(ua.indexOf('mobile') != -1){
+		logo.style.width = '120px';
+		copyrightfont.style.fontSize = '12px';
+	}
+	</script>
+</body>
+</html>

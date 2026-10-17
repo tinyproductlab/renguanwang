@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="App-Config"
+      content="fullscreen=yes,useHistoryState=yes,transition=yes"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0"
+    />
+    <title></title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://sams-home-online-1302115363.file.myqcloud.com/umi.eeba8b51.css"
+    />
+    <script>
+      window.routerBase = "/";
+    </script>
+    <script>
+      window.publicPath =
+        window.resourceBaseUrl ||
+        "https://sams-home-online-1302115363.file.myqcloud.com/";
+    </script>
+    <script>
+      //! umi version: 3.5.43
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script src="https://sams-home-online-1302115363.file.myqcloud.com/umi.4a9fd0e3.js"></script>
+  </body>
+</html>

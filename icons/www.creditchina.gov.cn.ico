@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="信用中国,creditchina,个人信用,企业信用,信用动态,信用记录,信用搜索,政策法规,信用服务,信用知识,信用评价,联合惩戒,黑名单,失信黑名单,双公式,公式处罚" />
+    <meta name="description" content="“信用中国”网站由国家发展改革委、人民银行指导，国家信息中心主办，百度公司提供独家技术支持，是政府褒扬诚信、
+    惩戒失信的权威门户网站。信用,信用中国,信用动态,信用记录,信用搜索,政策法规,信用服务,信用知识,信用评价,联合惩戒,失信黑名单,双公式处罚,行政处罚,
+    行政许可,异常名录" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="shortcut icon" href="https://obs.negn.cn/creditchina-cms/pc/img/favicon.ico" type="/image/x-icon">
+    <title>信用信息详情-信用中国官网</title>
+    <link rel="stylesheet" href="/css/jquery.slideBox.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/temp.css">
+    <link rel="stylesheet" href="/css/alert.css">
+    <link rel="stylesheet" href="/css/creditServiceDetail.css">
+<link rel="stylesheet" href="/css/jquery.simplePagination.css">
+    <link rel="stylesheet" href="/images/404.css">
+<style>
+.nodata{
+text-align: center;
+    padding: 100px 0;}
+.pagination{
+margin: 30px auto;
+font-size:12px;
+}
+.company-showmessage-box .result-tab h3:before{
+background:none;}
+</style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main_header">
+            <!-- 头部搜索模块嵌套 -->
+          <script src="../js/headersearch_js/headersearch_js.js"></script>
+        </div>
+        <!-- 头部导航模块嵌套 -->
+        <div class="header_nav">
+	<script src="../js/headernav_js/headernav_js.js"></script>
+</div>
+        <div class="main_body">
+            <div class="main_body-content">
+                <div class="errorbg">
+                    <div class="errortext">
+                    <p>目前页面正在维护中，请稍后重试！</p>
+                    <div class="btngroup">
+                    <a href="/" class="backsy">访问首页</a>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        
+        
+<!-- 底部模板 -->
+<script src="../js/footer_js/footer_js.js"></script>
+    </div>
+    <script type="text/JavaScript" src="/js/jquery-1.9.1.min.js"></script>
+    <script src="../js/config/config.js"></script>
+    <script type="text/JavaScript" src="/js/jquery.slideBox.js"></script>
+    <script type="text/JavaScript" src="../images/common.js"></script>
+    <script type="text/javascript" src='/js/alert.js'></script>
+    <script type="text/JavaScript" src="/s/jquery.placeholder.min.js"></script>
+    <script type="text/javascript" src='/js/jquery.cookie.js'></script>
+    <script type="text/javascript" src='/js/utils.js'></script>
+    <script src="../js/temp/temp.js"></script>
+    <script type="text/JavaScript" src="/js/textarea.js"></script>
+    <script type="text/JavaScript" src="/js/jquery.simplePagination.js"></script>
+
+    
+    <!--[if gt IE]>
+<script type="text/JavaScript" src="../js/PIE.js"></script>
+<script type="text/javascript">
+    (function ($) {
+        $.pie = function (name, v) {
+            // 如果没有加载 PIE 则直接终止
+            if (!PIE) return false;
+            // 是否 jQuery 对象或者选择器名称
+            var obj = typeof name == 'object' ? name : $(name);
+            // 指定运行插件的 IE 浏览器版本
+            var version = 9;
+            // 未指定则默认使用 ie10 以下全兼容模式
+            if (typeof v != 'number' && v < 9) {
+                version = v;
+            }
+            obj.each(function () {
+                PIE.attach(this);
+            });
+        }
+    })(jQuery);
+    $(function () {
+        var objs = $('.pagination li .page-btn, .pagination li a, .pagination li span,.pagination  .page-input');
+        $.pie(objs, 8);
+    })
+</script>
+<![endif]-->
+<script>
+        $(function () {
+            $('.company-showmessage-box').each(function () {
+			var tab = $(this).find('.tab-title li');
+			var content = $(this).find(".result-tabs .result-tab");
+			//			var more = $(this).find(".more li");
+			tab.click(function () {
+				$(this).addClass("cur").siblings().removeClass("cur");
+				content.eq($(this).index()).show().siblings().hide();
+				//			more.eq($(this).index()).show().siblings().hide();
+			});
+		});
+        
+    
+        });
+        
+    </script>
+</body>
+
+</html>

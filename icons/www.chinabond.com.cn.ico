@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>错误页面</title>
+</head>
+<style type="text/css">
+body{
+	margin:0;
+	padding:0;
+}
+img { border:0;}
+#main {
+	width:693px;
+	height:288px;
+	margin:220px auto 0;
+	background:url(https://www.chinabond.com.cn/images/bjjjt.jpg) no-repeat center center;
+}
+.left {
+	width:440px;
+	height:200px;
+	float:left;
+	margin:40px 0 0 40px;
+	display:inline;
+}
+.logo img{
+	float:left;
+}
+.cwy {
+	width:359px;
+	height:26px;
+	float:left;
+	margin:45px 0 30px 8px;
+	display:inline;
+	font-size:18px;
+	line-height:28px;
+	font-weight:bold;
+	color:#474747;
+}
+.cwy a{
+	color:#474747;
+	text-decoration:underline;
+}
+.button1 {
+	float:left;
+	width:139px;
+	height:34px;
+	margin-top:30px;
+	margin-left:15px;
+	background:url(https://www.chinabond.com.cn/images/botton.jpg) no-repeat center center;
+	display:inline;
+	color:#fff;
+	font-size:16px;
+	line-height:34px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.button1 a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.right {
+	width:186px;
+	height:208px;
+	float:left;
+	margin:85px 0 0 55px;
+	display:inline;
+}
+</style>
+
+<body onload=timelimit()>
+<div id="main">
+	<div class="left">
+    	<img src="https://www.chinabond.com.cn/images/logogp.jpg" width="377" height="41" />
+    <div class="cwy" id="smwz">对不起！您访问的页面不存在，5秒钟之后将会带您进入首页!</div>
+        <div class="button1"><a><span id="sTime" style="color:#f00"></span></a></div>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    //去掉空格
+	function trim(s){
+	    return s.replace(/(^\s*)|(\s*$)/g, "");
+	}
+
+	var time = 5;
+	var limitime;
+	function timelimit(){
+		var lastUrl = location.href;
+		if(lastUrl!=undefined&&lastUrl!=null&&trim(lastUrl).length>0){
+		if(lastUrl.toLowerCase().indexOf("chinabond_en",0) > 0){
+			document.getElementById("smwz").innerHTML = "Sorry！The page you visited does not exist. It will take you to the home page in 5 seconds!";
+		}
+		}
+		document.getElementById("sTime").innerHTML = time+" "+"秒";
+		time = time-1;
+		if(time == 0){
+			if(lastUrl!=undefined&&lastUrl!=null&&trim(lastUrl).length>0&&(lastUrl.indexOf("chinaBond_en",0) > 0||lastUrl.toLowerCase().indexOf("chinabond_en",0) > 0)){
+				location.href = "/chinaBond_en";
+			}else{
+				location.href = "/";
+			}
+		}else{		
+			limitime = setTimeout("timelimit();",1000)
+		}
+	}
+</script>

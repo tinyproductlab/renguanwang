@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="publishid" content="" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <title>中国互联网联合辟谣平台</title>
+    <meta name="description" content=" " />
+    <link rel="stylesheet" href="https://www.piyao.org.cn/global/public/css/common.css" />
+    <!-- <link rel="stylesheet" href="https://www.piyao.org.cn/index/css/top.css" /> -->
+    <link rel="stylesheet" href="https://www.piyao.org.cn/common/lib2021/ej/ej.css">
+    <style>
+        #main {
+            width: 792px;
+            height: 323px;
+            margin: 0 auto;
+            background: url(https://www.piyao.org.cn/none/image/404.png) no-repeat;
+            margin-top: 10.7%;
+            overflow: hidden;
+            margin-bottom: 5%;
+        }
+
+        .zjd {
+            width: 263px;
+            margin: 0 auto;
+            overflow: hidden;
+            font-size: 12px;
+            color: #1e1e76;
+            text-align: center;
+            line-height: 21px;
+            margin-top: 200px;
+            font-weight: bold;
+        }
+
+        #xy {
+            color: #b62d03;
+            font-weight: bold;
+        }
+
+        .footer {
+    background: #2f3b49;
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 30px 0;
+    color: #77879b;
+    margin-top: 50px;
+}
+.footer a {
+    color: #77879b;
+}
+.footer img {
+    vertical-align: top;
+    margin-top: 6px;
+}
+    </style>
+    <script src="https://www.piyao.org.cn/global/lib/jq/jquery1.12.4/jquery1.12.4.min.js"></script>
+    <script src="https://www.piyao.org.cn/piyaogov/js/scrolltopcontrol.js"></script>
+    <script src="https://www.piyao.org.cn/global/lib/xpage/xpage.min.js"></script>
+</head>
+
+<body data-type="txt">
+    <div>
+        <script src="https://www.piyao.org.cn/common/lib2021/ej/tophead.js"></script>
+    </div>
+    <div class="content">
+
+        <div id="main">
+            <div class="zjd">
+                <p>对不起，您要访问的页面不存在或已被删除!<br>
+                    本页面<span id="xy">5</span>秒后将带您回到中国互联网联合</br>辟谣平台网首页</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="clearfix"></div>
+    <!-- footer -->
+    <script src="https://www.piyao.org.cn/js/footer.js"></script>
+    <!-- END -->
+    <script type="text/javascript">
+        var i = 4;
+        var intervalid;
+        var xy = document.getElementById("xy");
+        intervalid = setInterval("fun()", 1000);
+        function fun() {
+            if (i == 0) {
+                window.location.href = "https://www.piyao.org.cn/index.htm";
+                clearInterval(intervalid);
+            }
+            xy.innerHTML = i;
+            i--;
+        }
+
+        //导航
+        $(function () {
+            $('.nav__trigger').on('click', function (e) {
+                e.preventDefault();
+                $(this).parent().toggleClass('nav--active');
+            });
+        })
+        //返回顶部
+        $(".menu_list li").on("click", function () {
+            $("html,body").animate({ scrollTop: 0 }, 500);
+        });
+    </script>
+</body>
+
+</html>

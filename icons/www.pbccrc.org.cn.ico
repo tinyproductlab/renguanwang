@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc;mobile">
+    <meta name="SiteName" content="">
+    <meta name="SiteDomain" content="">
+    <meta name="SiteIDCode" content="">
+    <meta name="ColumnName" content="">
+    <meta name="ColumnType" content="">
+    <meta name="ArticleTitle" content="">
+    <meta name="PubDate" content="">
+    <meta name="ContentSource" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="location" content="province=上海;city=上海;coord=31.2363429624,121.4803295328">
+
+</head>
+<style>
+    .img404{
+        width: 300px;
+    margin: 0px auto 0px;
+    display: block;
+    }
+    .logo{
+        width: 200px;
+        margin: 30px;
+    }
+    p{
+        text-align: center;
+    font-size: 18px;
+    }
+    .red-color{
+        color: #d20105;
+    }
+    @media (max-width:767px) {
+        .logo{
+
+        }
+        .img404{
+            width: 80%;
+        }
+        p{
+            font-size: 14px;
+        }
+        
+    }
+</style>
+<body class="bg-color">
+    <div id="accessNull"></div>
+    <div id="container">
+      <img src="/assets/img/logo.png"  class="logo" />
+      <p class="red-color">很抱歉，您访问的页面地址有误，或者该页面不存在。</p>
+     <img src="/assets/img/404.png"  class="img404" />
+   
+     <p><span class="red-color"></span>秒后跳转到首页</p>
+    </div>
+    <!--Main JS-->
+    <script src="/assets/js/ETUI/jquery.min.js"></script>
+    <script>
+        $(function(){
+            var seconds = 5; 
+        
+    $("span").html(seconds);
+    setInterval(function () {
+      seconds--;
+      $("span").html(seconds);
+      if (seconds == 0) {
+       
+        window.location = "/";
+      }
+    }, 1000);
+  }, )
+     
+    </script>
+<!-- Code injected by live-server -->
+
+</body>
+</html>

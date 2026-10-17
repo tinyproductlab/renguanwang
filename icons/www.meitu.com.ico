@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+404-美图公司
+</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-select:0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
+        />
+        <meta
+            name="format-detection"
+            content="telephone=no,email=no,adress=no"
+        />
+        <meta name="keywords" content="" />
+        <meta name="description" content="美图公司是一家以美为内核，以人工智能为驱动的科技公司，致力打造世界级影像产品，让图像、视频、设计等影像创作简单高效。" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="美图公司" />
+        <meta property="og:title" content="
+404-美图公司
+" />
+        <meta property="og:description" content="美图公司是一家以美为内核，以人工智能为驱动的科技公司，致力打造世界级影像产品，让图像、视频、设计等影像创作简单高效。" />
+        
+        <meta property="og:image" content="https://corp-static.meitu.com/corp-new/94a2d9857e7b02938814152c0e4a3810_1587114474.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="
+404-美图公司
+" />
+        <meta name="twitter:description" content="美图公司是一家以美为内核，以人工智能为驱动的科技公司，致力打造世界级影像产品，让图像、视频、设计等影像创作简单高效。" />
+        <meta name="twitter:image" content="https://corp-static.meitu.com/corp-new/94a2d9857e7b02938814152c0e4a3810_1587114474.png" />
+
+        
+
+        
+        
+        
+        
+        
+
+        <link rel="shortcut icon" href="https://js.app.meitudata.com/corp-new/favicon.svg" />
+        <link rel="dns-prefetch" href="//img.app.meitudata.com" />
+        <link rel="dns-prefetch" href="//js.app.meitudata.com" />
+        <link rel="stylesheet" href="https://js.app.meitudata.com/corp-new/css/common.@54e80ff6.css" />
+        <link
+            rel="stylesheet"
+            href="https://js.app.meitudata.com/corp-new/css/component/header.@c515a01e.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://js.app.meitudata.com/corp-new/css/component/footer.@2bd25731.css"
+        />
+
+        <script src="//public.static.meitudata.com/meitu/mtstat-sdk/mtstat-sdk.min.js"></script>
+        
+<link href="https://js.app.meitudata.com/corp-new/css/error.@30c72d42.css" rel="stylesheet">
+
+        <script>
+            function changePageTitle () {
+                var __brandName__ = document.documentElement.lang === 'en'
+                    ? 'Meitu Inc.'
+                    : '\u7f8e\u56fe\u516c\u53f8';
+                var __brandPattern__ = new RegExp('\u7f8e\u56fe\u516c\u53f8|\u7f8e\u5716\u516c\u53f8|Meitu Inc\\.');
+                if (!__brandPattern__.test(document.title)) {
+                    document.title = document.title
+                        ? document.title + '-' + __brandName__
+                        : __brandName__;
+                }
+
+                var i = document.createElement('iframe');
+                i.style.display = 'none';
+
+                i.onload = function () {
+                    setTimeout(function () {
+                        i.remove();
+                    }, 50);
+                };
+
+                document.body.appendChild(i);
+            }
+
+            var __errorLogs__ = [];
+            var __clickCount__ = 0;
+            var __logContainer__;
+            window.onerror = function () {
+                if (__errorLogs__.length > 1000) {
+                    __errorLogs__ = [];
+                }
+                __errorLogs__.push([].slice.call(arguments, 0).join(','));
+            };
+            function logger() {
+                __errorLogs__.push([].slice.call(arguments, 0).join(','));
+            }
+            function closeLog() {
+                document.body.removeChild(__logContainer__);
+            }
+            function createLog() {
+                __logContainer__ = document.createElement('div');
+                __logContainer__.style.position = 'absolute';
+                __logContainer__.style.left = '0';
+                __logContainer__.style.right = '0';
+                __logContainer__.style.top = '0';
+                __logContainer__.style.zIndex = 9999;
+                __logContainer__.style.background = '#fff';
+                __logContainer__.style.minHeight = '100px';
+                var html = '';
+                if (__errorLogs__.length > 0) {
+                    __errorLogs__.forEach(function (item, index) {
+                        html += '<p>#' + index + ' ' + item + '</p>';
+                    });
+                } else {
+                    html += '<p>没有错误日志</p>';
+                }
+                html +=
+                    '<p onclick="closeLog()" style="background:red; line-height: 40px;text-align: center; margin: 20px;">关闭</p>';
+                __logContainer__.innerHTML = html;
+                document.body.appendChild(__logContainer__);
+            }
+            window.onload = function () {
+                document.body.addEventListener('click', function (e) {
+                    if (e.pageX < 50 && e.pageY < 50) {
+                        __clickCount__++;
+                    } else {
+                        __clickCount__ = 0;
+                    }
+                    if (__clickCount__ > 10) {
+                        __clickCount__ = 0;
+                        createLog();
+                    }
+                });
+
+                changePageTitle();
+            };
+        </script>
+        <script>
+            var setRem = function (baseWidth) {
+                var dpr = window.devicePixelRatio;
+                var currentWidth = document.documentElement.clientWidth;
+
+                var remSize = 0;
+                var scale = 0;
+                scale = currentWidth / baseWidth;
+                remSize = 100;
+                remSize = remSize * scale;
+                document.documentElement.style.fontSize = remSize + 'px';
+                document.documentElement.setAttribute('data-dpr', dpr);
+            };
+
+            var resizeWindow = function (callback) {
+                var reSetRem = true;
+                window.addEventListener('resize', function () {
+                    if (reSetRem) {
+                        reSetRem = false;
+                        setTimeout(function () {
+                            reSetRem = true;
+                            callback();
+                        }, 66);
+                    }
+                });
+            };
+
+            resizeWindow(function () {
+                setRem(1920);
+            });
+
+            setRem(1920);
+        </script>
+    </head>
+    <body class="lang-zh">
+        
+<div class="header_wrap js-header-page header_white" id="topAnchor">
+    <div class="header_content">
+        <a class="logo js-header-tab" data-header-tab="homepage" href="/zh"><img
+                src="https://js.app.meitudata.com/corp-new/image/logo-zh.@3f027871.png"
+                alt="MeituLogo" /></a>
+        
+        <ul class="menu js-menu-container">
+            
+            <li class="menu_item">
+                <a class="text js-header-tab" href="/zh/introduction"
+                    data-id="introduction" data-header-tab="introduction">简介</a>
+            </li>
+            
+            <li class="menu_item">
+                <a class="text js-header-tab" href="/zh/business"
+                    data-id="business" data-header-tab="business">产品</a>
+            </li>
+            
+            <li class="menu_item">
+                <a class="text js-header-tab" href="/zh/talents"
+                    data-id="talents" data-header-tab="talents">人才</a>
+            </li>
+            
+            <li class="menu_item">
+                <a class="text js-header-tab" href="/zh/sustainability"
+                    data-id="sustainability" data-header-tab="sustainability">可持续发展</a>
+            </li>
+            
+            <li class="menu_item">
+                <a class="text js-header-tab" href="/zh/investor"
+                    data-id="investor" data-header-tab="investor">投资者</a>
+            </li>
+            
+            <li class="menu_item">
+                <a class="text js-header-tab" href="/zh/media"
+                    data-id="media" data-header-tab="media">媒体</a>
+            </li>
+            
+
+            
+            <li class="menu_item">
+                <div class="lang_wrap">
+                    <span class="lang_logo">
+                        <div class="lang_select">
+                            <div class="lang_list">
+                                
+                                <a class="js-lang current" lang="zh"
+                                    data-lang="zh"
+                                    href="/zh/favicon.ico">中文</a>
+                                
+                                <a class="js-lang current" lang="en"
+                                    data-lang="en"
+                                    href="/en/favicon.ico">English</a>
+                                
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </li>
+            
+            
+        </ul>
+    </div>
+    <div class="side_menu_mask js-side-menu-mask"></div>
+    <div class="side_menu_container js-side-menu-container">
+        <i class="side_menu_close js-close-side-menu"></i>
+        <div class="mobile_menu_wrap">
+            <ul class="mobile_menu">
+                
+                <li class="menu_item">
+                    <a class="text js-header-tab" href="/zh/introduction"
+                        data-header-tab="introduction">简介</a>
+                </li>
+                
+                <li class="menu_item">
+                    <a class="text js-header-tab" href="/zh/business"
+                        data-header-tab="business">产品</a>
+                </li>
+                
+                <li class="menu_item">
+                    <a class="text js-header-tab" href="/zh/talents"
+                        data-header-tab="talents">人才</a>
+                </li>
+                
+                <li class="menu_item">
+                    <a class="text js-header-tab" href="/zh/sustainability"
+                        data-header-tab="sustainability">可持续发展</a>
+                </li>
+                
+                <li class="menu_item">
+                    <a class="text js-header-tab" href="/zh/investor"
+                        data-header-tab="investor">投资者</a>
+                </li>
+                
+                <li class="menu_item">
+                    <a class="text js-header-tab" href="/zh/media"
+                        data-header-tab="media">媒体</a>
+                </li>
+                
+            </ul>
+
+            
+            <a class="mobile_lang_wrap"
+                href="/en/favicon.ico">
+                <span class="lang_logo">
+                </span>
+                <span class="mobile_lang_text">English</span>
+            </a>
+            
+        </div>
+    </div>
+    <div class="mobile_menu_icon_wrap js-open-side-menu">
+        <i class="icon gray js-icon-gray"></i>
+    </div>
+</div>
+<div class="header-seat"></div>
+
+<div class="error-page">
+   <div class="error-content"></div>
+   <a class="error-home-link" href="/zh">返回首页</a>
+</div>
+<div class="footer_wrap">
+    <div class="footer_content">
+        <div class="clearfix">
+            
+                
+                    <div class="join_us">
+                        <div class="title_wrap js-menu-container">
+                            <h3 class="title">关于美图</h3>
+                            <i class="icon"></i>
+                        </div>
+                        <ul class="join_us_list list">
+                            
+                                <li>
+                                    <a href="/zh/introduction"
+                                        target="_blank">简介</a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="/zh/introduction#history"
+                                            target="_blank">发展历程</a>
+                                    </li>
+                                    
+                                        <li>
+                                            <a href="/zh/partner"
+                                                target="_blank">营销合作</a>
+                                        </li>
+                                        
+                                            <li>
+                                                <a href="/zh/contact"
+                                                    target="_blank">公司地址</a>
+                                            </li>
+                                            
+                                                <li>
+                                                    <a href="/zh/contact#contact"
+                                                        target="_blank">联系我们</a>
+                                                </li>
+                                                
+                                                    <li>
+                                                        <a href="/zh/report"
+                                                            target="_blank">廉政举报</a>
+                                                    </li>
+                        </ul>
+                    </div>
+                    
+                        <div class="footer_product">
+                            <div class="title_wrap js-menu-container">
+                                <h3 class="title">产品</h3>
+                                <i class="icon"></i>
+                            </div>
+                            <ul class="product_list list">
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="xiuxiu"
+                                        data-from-tab="footer"
+                                        href="https://www.meituxiuxiu.com/zh-Hans">美图秀秀</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="meiyan"
+                                        data-from-tab="footer"
+                                        href="https://www.meiyan.com/">美颜相机</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="wink"
+                                        data-from-tab="footer"
+                                        href="https://wink.cn/">Wink</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="picchi"
+                                        data-from-tab="footer"
+                                        href="https://picchi.cn">Picchi</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="designkit"
+                                        data-from-tab="footer"
+                                        href="https://www.designkit.com">美图设计室</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="kaipai"
+                                        data-from-tab="footer"
+                                        href="https://www.kaipai.com/">开拍</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="yunxiu"
+                                        data-from-tab="footer"
+                                        href="https://yunxiu.meitu.com/home">美图云修</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="zcool"
+                                        data-from-tab="footer"
+                                        href="https://www.zcool.com.cn">站酷</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="whee"
+                                        data-from-tab="footer"
+                                        href="https://www.whee.com">WHEE</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="artflo"
+                                        data-from-tab="footer"
+                                        href="https://artflo.cn">Artflo</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="roboneo"
+                                        data-from-tab="footer"
+                                        href="https://www.roboneo.com/home">RoboNeo</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="mvland"
+                                        data-from-tab="footer"
+                                        href="https://mvland.cn">MVLAND</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="meituhub"
+                                        data-from-tab="footer"
+                                        href="https://www.meituhub.cn">MeituHub</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="eve"
+                                        data-from-tab="footer"
+                                        href="https://eve.meitu.com">美图宜肤</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="miraclevision"
+                                        data-from-tab="footer"
+                                        href="https://www.miraclevision.com">美图开放平台</a>
+                                </li>
+                                
+                                
+                                
+                                <li>
+                                    <a target="_blank"
+                                        class="js-product-item"
+                                        data-product-key="mtlab"
+                                        data-from-tab="footer"
+                                        href="http://mtlab.meitu.com">美图影像研究院</a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        
+                            <div class="combo_box">
+                                <div class="esg_wrap">
+                                    <div class="title_wrap js-menu-container">
+                                        <h3 class="title">可持续发展</h3>
+                                        <i class="icon"></i>
+                                    </div>
+                                    <ul class="list">
+                                        <li>
+                                            <a href="/zh/sustainability"
+                                                target="_blank">理念与亮点</a>
+                                        </li>
+                                        <li>
+                                            <a href="/zh/sustainability#rate"
+                                                target="_blank">评级</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer_investor">
+                                    <div class="title_wrap js-menu-container">
+                                        <h3 class="title">投资者</h3>
+                                        <i class="icon"></i>
+                                    </div>
+                                    <ul class="list">
+                                        <li>
+                                            <a href="/zh/investor#business"
+                                                target="_blank">财务业绩与业务进展</a>
+                                        </li>
+                                        <li>
+                                            <a href="/zh/investor#public-circular"
+                                                target="_blank">公告与通函</a>
+                                        </li>
+                                        <li>
+                                            <a href="/zh/investor#activity-analyst"
+                                                target="_blank">投资者活动</a>
+                                        </li>
+                                        <li>
+                                            <a href="/zh/investor#analystsList"
+                                                target="_blank">分析师列表</a>
+                                        </li>
+                                        <li>
+                                            <a href="/zh/investor#governance"
+                                                target="_blank">企业管治</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            
+                                <div class="media_center">
+                                    <div class="title_wrap js-menu-container">
+                                        <h3 class="title">媒体</h3>
+                                        <i class="icon"></i>
+                                    </div>
+                                    <ul class="list">
+                                        <li>
+                                            <a href="/zh/media"
+                                                target="_blank">新闻动态</a>
+                                        </li>
+                                        <li>
+                                            <a href="/zh/media#database"
+                                                target="_blank">素材下载</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                    <div class="attention_us">
+                                        <div class="title_wrap js-menu-container">
+                                            <h3 class="title">人才</h3>
+                                            <i class="icon"></i>
+                                        </div>
+                                        <ul class="join_us_list list">
+                                            <li>
+                                                <a href="/zh/talents"
+                                                    target="_blank">美图之旅</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank"
+                                                    href="https://hr.meitu.com/zh">加入我们</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank"
+                                                    href="https://hr.meitu.com/zh/about/">应聘指南</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                    
+                                        <div class="contact_us">
+                                            <div class="title_wrap js-menu-container">
+                                                <h3 class="title">关注美图</h3>
+                                                <i class="icon"></i>
+                                            </div>
+                                            <ul class="attention_us_list list">
+                                                <li><a target="_blank"
+                                                        href="https://m.weibo.cn/u/3955704072">美图公司新浪微博</a>
+                                                </li>
+                                                <li>
+                                                    <span class="text js-code-item">美图公司微信公众号</span>
+                                                    <img src="https://js.app.meitudata.com/corp-new/image/weixin.@e77956e8.jpg"
+                                                        alt="美图公司微信公众号" />
+                                                </li>
+                                                <li>
+                                                    <a target="_blank"
+                                                        href="https://www.linkedin.com/company/meitu">美图公司官方领英</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+        </div>
+        
+
+</div>
+<div class="footer_divide"></div>
+<div class="footer_info">
+    <span class="copyright">
+        &copy;&nbsp;2008-2026&nbsp;美图公司 版权所有
+    </span>
+</div>
+<div class="archival_info js-copyright-container">
+    
+    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302000186" target="_blank"
+        rel="nofollow">闽公网安备 35020302000186号</a>
+    
+    
+    <a href="http://beian.miit.gov.cn" target="_blank" rel="nofollow">闽B2-20040192-1</a>
+    
+    <span>违法和不良信息举报电话
+硬件产品：400-990-9696</span>
+    <span>影像产品：400-009-3360</span>
+    <br class="wrap" />
+</div>
+</div>
+<a id="backUpTop" class="scroll_to_top js-scroll-container">回到顶部</a>
+
+
+    </body>
+    <script src="https://js.app.meitudata.com/corp-new/js/dll.@7ec82d3c.js"></script>
+    <script src="https://js.app.meitudata.com/corp-new/js/common.@e296481a.js"></script>
+    <script src="https://js.app.meitudata.com/corp-new/js/component/header.@60a3467b.js"></script>
+    <script src="https://js.app.meitudata.com/corp-new/js/component/footer.@66ab6c5d.js"></script>
+    
+<script src="https://js.app.meitudata.com/corp-new/js/error.@422ee7bb.js"></script>
+
+</html>

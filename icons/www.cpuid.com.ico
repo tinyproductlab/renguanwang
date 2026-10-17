@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="nojs mobile" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>NOT FOUND</title>
+	<meta name="description" content="Sorry ... can't find what you are looking for :(">
+	<meta http-equiv="Cache-control" content="public">
+
+	<link rel="stylesheet" type="text/css" href="https://www.cpuid.com/medias/css/globals-min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="https://www.cpuid.com/medias/css/globals-mobile-min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="https://www.cpuid.com/medias/css/server_error-min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.cpuid.com/medias/css/print-min.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="https://www.cpuid.com/medias/css/widgets.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="https://www.cpuid.com/medias/css/widget-mobile-min.css">
+
+    <!-- Google tag (gtag.js)  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2DG6LPM246"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2DG6LPM246');
+    </script>
+
+    <script type="text/javascript" src="https://www.cpuid.com/medias/scripts/hg.js"></script>
+    <script type="text/javascript" src="https://www.cpuid.com/medias/scripts/default.js"></script>
+
+    <link rel="shortcut icon" href="https://www.cpuid.com/medias/images/favicon.ico">
+	<link rel="icon" type="image/png" href="https://www.cpuid.com/medias/images/favicon.png">
+	<link rel="apple-touch-icon-precomposed" href="https://www.cpuid.com/medias/images/apple-touch-icon-precomposed.png">
+
+<!-- FOR WINDOWS PHONE & WINDOWS TABLETS -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#a62393">
+        <meta name="msapplication-TileImage" content="https://www.cpuid.com/medias/images/pinned-favicon.png">
+        <meta name="application-name" content="NOT FOUND">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="NOT FOUND">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.cpuid.com/favicon.ico">
+<meta property="og:description" content="Sorry ... can't find what you are looking for :(">
+<meta property="og:image" content="https://www.cpuid.com/medias/images/thumb.jpg">
+</head>
+
+<body>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3142849-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-3142849-1');
+    </script>
+	<section id="main__header">
+
+		<header class="main-wrapper">
+			<a class="logo" href="https://www.cpuid.com/" title="CPUID - System & hardware benchmark, monitoring, reporting"><h1><span class="hide">CPUID - System & hardware benchmark, monitoring, reporting</span></h1></a>
+
+				<a id="toggle-menu" onclick="app.toggleMenu()"></a>
+
+	
+		<nav class="main-wrapper">
+
+			<ul>
+				<li id="menu-soft">
+					<a href="https://www.cpuid.com/softwares.html" title="Softwares" class="">Software</a>
+					<div class="submenu">
+						<ul>
+							<li><a class="submenu__link soft-cpu-z" href="https://www.cpuid.com/softwares/cpu-z.html" title="CPU-Z - System information software">CPU-Z</a></li>
+							<li><a class="submenu__link soft-hwmonitor" href="https://www.cpuid.com/softwares/hwmonitor.html"  title="HWMonitor - Voltages, temperatures and fans speed monitoring">HWMonitor</a></li>
+							<li><a class="submenu__link soft-hwmonitor-pro" href="https://www.cpuid.com/softwares/hwmonitor-pro.html" title="HWMonitor PRO - Extended version of HWMonitor">HWMonitor PRO</a></li>
+							<li><a class="submenu__link soft-perfmonitor-2" href="https://www.cpuid.com/softwares/perfmonitor-2.html" title="Perfmonitor 2 - Processor performance and monitoring tool">Perfmonitor 2</a></li>
+							<li><a class="submenu__link soft-powermax" href="https://www.cpuid.com/softwares/powermax.html" title="powerMAX - CPU and GPU burn-in test">powerMAX</a></li>
+							                        </ul>
+					</div></li>
+				<li><a href="https://valid.x86.fr" target="_blank" title="CPU-Z Validator">Validation</a></li>
+				<li><a href="https://www.cpuid.com/news.html" title="News" class="">News</a></li>
+				<li><a href="http://www.cpuid-pro.com" title="CPUID Pro">Developers</a></li>
+				<li><a href="https://www.cpuid.com/goodies.html" title="Goodies" class="">Goodies</a></li>
+				<li><a href="https://www.cpuid.com/contact.html" title="Contact" class="">Contact</a></li>
+			</ul>
+
+			<div>
+
+				<form method="GET" action="https://www.cpuid.com/search.html">
+					<input type="search" name="query" placeholder="Search">
+					<input type="submit" class="hide">
+				</form>
+
+				<div>
+					<a class="icon-fb" href="http://www.facebook.com/sharer.php?u=https://www.cpuid.com/" target="_blank"></a>
+					<a class="icon-tw" href="http://www.facebook.com/sharer.php?u=https://www.cpuid.com/" target="_blank"></a>
+				</div>
+
+                <div class="desktop_version">
+                    <a onclick="return confirm('Are you sure you want to switch to the desktop layout of the website?');" href="https://www.cpuid.com/?force_layout=desktop&u=/favicon.ico">Switch to the dekstop version</a>
+                </div>
+
+			</div>
+
+		</nav>
+	  </header>
+	</section>
+	<section id="main__content">
+
+		<div class="main-wrapper" id="server_error">
+            <div class="block_100">
+				<h1>404 NOT FOUND</h1>
+				<h5>Sorry ... can't find what you are looking for :(</h5>
+            </div>
+
+            <div class="block_100">
+				<img src="/medias/images/server-error-404.jpg">
+            </div>
+
+		</div>
+
+	</section>
+
+
+		<section id="main__footer">
+
+			<footer class="main-wrapper">
+				<div id="footer-sitemap">
+					<div class="col1" onclick="app.toggleOpenClass(this)">
+						<h6>OUR PARTNERS</h6>
+                        <div>
+                            <ul>
+                                <li><a href="http://www.memtest.org" target="_blank" title="Memtest86+ - Advanced Memory Diagnostic Tool">MemTest86+</a></li>
+                                <li><a href="http://www.alcpu.com/CoreTemp" target="_blank" title="Core Temp - monitor processor temperature and other vital information">Core Temp</a></li>
+                                <li><a href="http://www.gtopala.com/" target="_blank" title="SIW - System Information for Windows">S I W</a></li>
+                                <li><a href="https://www.driverscloud.com/en/features" target="_blank" title="Easily explore your PC">DRIVERS CLOUD</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+					<div class="col2" onclick="app.toggleOpenClass(this)">
+						<h6>SOFTWARE</h6>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.cpuid.com/softwares/cpu-z-android.html" title="CPU-Z for Android - System information program">CPU-Z for Android</a></li>
+                                <li><a href="https://www.cpuid.com/softwares/hwmonitor-pro-android.html" title="HWMonitor PRO for Android - System information software">HWMonitor PRO for Android</a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+
+					<div class="col3" onclick="app.toggleOpenClass(this)">
+						<h6>NEWS</h6>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.cpuid.com/news.html" title="News">Latest news</a></li>
+                                <li><a href="https://www.cpuid.com/news.html" title="News">Latest validations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+					<div class="col4" onclick="app.toggleOpenClass(this)">
+						<h6>DEVELOPERS</h6>
+                        <div>
+                            <ul>
+                                <li><a href="http://www.cpuid-pro.com/products-system-information-kit.php" target="_blank" title="System Information SDK">System Information SDK (CPU-Z)</a></li>
+                                <li><a href="http://www.cpuid-pro.com/products-system-monitoring-kit.php" target="_blank" title="System Monitoring SDK">System Monitoring SDK (HWMonitor)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+					<div class="col5" onclick="app.toggleOpenClass(this)">
+						<h6>GOODIES</h6>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.cpuid.com/goodies.html" title="Goodies - Logos">Logos</a></li>
+                                <li><a href="https://www.cpuid.com/goodies.html" title="Goodies - Icons">Softwares icons</a></li>
+                                <li><a href="https://www.cpuid.com/goodies.html" title="Goodies - Wallpapers">Wallpapers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+					<div class="col6" onclick="app.toggleOpenClass(this)">
+						<h6>CONTACT</h6>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.cpuid.com/contact.html" title="Contact us">Contact us</a></li>
+                                <li><a href="https://www.cpuid.com/bug-report.html" title="Bug Report">Bug Report</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+				</div>
+
+			</footer>
+
+		</section>
+
+
+		<section id="main__legals">
+
+			<div id="footer-legals" class="main-wrapper">
+				<p><span class="hide">CPUID </span>&COPY;2001-2026 - All website content subjected to copyright</p>
+				<ul>
+					<li><a href="https://www.cpuid.com/terms-of-service.html">terms of service</a></li>
+					<li><a href="https://www.cpuid.com/privacy-policy.html">privacy policy</a></li>
+					<li><a href="https://www.cpuid.com/credits.html">credits</a></li>
+				</ul>
+									<a onclick="return confirm('Are you sure you want to switch to the desktop layout of the website?');" href="https://www.cpuid.com/?force_layout=desktop&u=/favicon.ico">View classic version website</a>
+							</div>
+
+		</section>
+
+	</div>	<!-- CLOSING WRAPPER --->
+
+<!-- GANA --->
+
+</body>
+</html>

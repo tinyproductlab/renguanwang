@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=yes">
+<meta name="SiteName" content="中华人民共和国外交部">
+<meta name="SiteDomain" content="www.mfa.gov.cn">
+<meta name="SiteIDCode" content="bm02000004">
+<meta name="ColumnName" content="系统维护">
+<meta name="ColumnType" content="系统维护">
+<meta name="ColumnDescription" content="系统维护">
+<meta name="ColumnKeywords" content="系统维护">
+<title>系统维护_中华人民共和国外交部</title>
+<link rel="stylesheet" type="text/css" href="../images/style_20210817.css" />
+<link rel="stylesheet" type="text/css" href="../images/responsive_20210817.css">
+<script type="text/javascript" src="../images/jquery1.42.min_20210817.js"></script>
+<script type="text/javascript" src="../images/jquery.Slide.2.1.1_20210817.js"></script>
+<script src="../images/TouchSlide.1.1_20210817.js"></script>
+<script type="text/javascript" src="../images/addons_20210817.js"></script>
+<!--[if lt IE 9]>
+<script src="images/html5.js"></script>
+<![endif]-->
+<style>
+.info_img{margin:100px 0  30px;}
+.newsList p{ text-align:center;}
+.info1{ font-size:36px; line-height:42px;margin-bottom:100px;}
+.info2{ font-size:16px; color:#333;}
+.info3{font-size:16px; color:#333;}
+.info3 a{ color:#00C}
+
+@media screen and (max-width:768px){
+.info1{font-size:24px;}
+}
+</style>
+</head>
+<body>
+<!--header end-->
+<!--#include virtual="/include/xbtb/index.html"-->
+<!--header end-->
+<div class="wrapper">
+  
+  <div class="main clearfix">
+    <div class="newsList news-line">
+    <!-- p class="info_img"><img src="./images/P020221031475449910271.jpg" /></p -->
+      <p class="info1">---您访问的页面不存在或已删除---</p>
+
+    </div>
+<script type="text/javascript">
+//var currentUrl = document.URL.match(/^(?:https?:\/\/)?(?:www\.)?([^/?#]+)/i)[1];
+//alert(document.URL.match(/^(?:https?:\/\/)?(?:www\.)?([^/?#]+)/i)[1]);
+
+setTimeout(function () { location.href = 'http://'+document.URL.match(/^(?:https?:\/\/)?(?:www\.)?([^/?#]+)/i)[1]; }, 5000);
+</script>
+  </div>
+</div>
+<!--footer begin-->
+<!--#include virtual="/include/xbwb/index.html"-->
+<!--footer end-->
+</body>
+</html>
