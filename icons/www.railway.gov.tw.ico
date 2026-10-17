@@ -1,0 +1,20 @@
+
+
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 國營臺灣鐵路股份有限公司 </title>
+</head>
+<body align="center">
+<div>
+    <a href="/tra-tip-web/tip"> <img
+            src="/tra-tip-web/static/images/logo-tra.png"></img>
+    </a> <br>
+    <H2>您輸入的網址有誤</H2>
+    <br> <a href="/tra-tip-web/tip">返回旅客入口網</a>
+</div>
+</body>
+</html>
+

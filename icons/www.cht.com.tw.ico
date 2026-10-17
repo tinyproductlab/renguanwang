@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="gb2312">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- og example tag-->
+    <meta property="og:site_name" content="中華電信網路門市">
+    <meta property="og:url" content="https://www.cht.com.tw/home/hint/404">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="。">
+    <meta property="og:image" content="">
+
+    <!-- 180903 -- 小網讓user不要放大縮小-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <!-- og example tag-->
+    <link rel="shortcut icon" type="image/x-icon" href="/home/WEB/images/favicon.ico">
+    <title>網頁過期囉 | 中華電信網路門市CHT.com.tw</title>
+    <link type="text/css" rel="stylesheet" href="/home/WEB/css/jquery.mmenu.all.css" />
+    <link href="/home/WEB/css/global.css?v=27" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="/home/WEB/css/swiper.min.css" />
+    <script src="/home/WEB/js/lib/jquery-latest.min.js"></script>
+    <script src="/home/WEB/js/main.js?v=27"></script>
+    <!-- InstanceBeginEditable name="head" -->
+    <link href="/home/WEB/css/index.css?v=27" rel="stylesheet" type="text/css">
+    <link href="/home/WEB/css/in.css?v=27" rel="stylesheet" />
+    <!-- custom -->
+    <!-- favicon-->
+    <!-- 匯入預設樣式 -->
+    <style type="text/css">
+        #cht-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 1001;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+            #cht-loader img {
+                margin: auto;
+            }
+    </style>
+
+    <!-- 匯入預設函數 -->
+    <script type="text/javascript">
+        (function ($) {
+            var w = window,
+                d = document,
+                e = d.documentElement,
+                g = d.getElementsByTagName('body')[0];
+
+            document.preDesktopSize = isDesktopSize();
+            function isDesktopSize() {
+                var x = w.innerWidth || e.clientWidth || g.clientWidth
+                console.log(x);
+                return x > 767;
+            }
+
+            $(window).resize(function () {
+                if (document.preDesktopSize == isDesktopSize()) {
+                } else {
+                    window.location.href = window.location.href;
+                }
+            });
+        })(jQuery);
+
+        ////--- Loading遮罩效果
+        function showLoading() {
+            $('#cht-loader').css("display", "");
+        }
+
+        function hideLoading() {
+            $('#cht-loader').css('display', 'none');
+        }
+
+    </script>
+
+    <!-- menu script -->
+</head>
+<body>
+    <div class="pagesize">
+        <h1 style="display:none"></h1>
+        <div id="cht-loader" style="display:none; z-index:200;">
+            <img src="https://web-eshop.cdn.hinet.net/eshop/img/loading.gif" alt="">
+        </div>
+        <section class="is-regular" id="header">
+            <!--breakNews  class="breakN_bar" 直接塞<a>-->
+            <div class="breakN_bar"></div>
+
+            <!-- 180817改版- header begin -->
+            <!-- 180817改版- header -->
+            <header class="nav-global-header desktop-only">
+                <nav class="nav-global">
+
+                    <div class="logo-section" alt="中華電信"><a class="logo" href="https://www.cht.com.tw/home/consumer" target="" title="中華電信"></a></div>
+
+                    <div class="neko-spacer desktop-only"></div>
+
+                    <!-- 180817改版- 搜尋列 -->
+                </nav>
+            </header>
+
+            <!-- header mobile begin-->
+            <!--小網選單start-->
+            <!--小網選單end-->
+        </section>
+        <section class="header-spacer"></section>
+        <!--Lset至頂基準線-->
+        <div class="ha-waypoint" data-animate-down="ha-header-scroll" data-animate-up="ha-header-normal"></div>
+        <section class="main">
+            <div id="bodyContainer" class="container oneBox">
+
+                <!--Lset至頂基準線-->
+                <div class="Lset-waypoint" data-animate-down="Lset-header-scroll" data-animate-up="Lset-header-normal"></div>
+
+                <div class="Rset">
+                    <div class="in">
+                        <div class="searchresult-no">
+                            <p>
+                                <img src="https://web-eshop.cdn.hinet.net/eShop%20Images/other/404/EXPIRED.png" width="360" alt="" class="hcenter" />
+                            </p>
+                            <div class="searchresult-no-title">Oops..活動已結束</div>
+                            <p>
+                                您尋找的網頁已過期或並不存在，可至<a href="https://www.cht.com.tw/home/consumer/other/sitemap"> 網站地圖 </a>或用搜尋功能查看相關頁面</br>
+                                將於  <span id='timer'>10</span> 秒後為您轉導至首頁</br>
+                                The page you are looking for no longer exists. We recommend using the <a href="https://www.cht.com.tw/en/home/cht/service/sitemap">SiteMap</a> or Search box.
+                            </p>
+
+                            <div id="sb-search2" class="sb-search2">
+                                <form>
+                                    <input class="sb-search-input" placeholder="請輸入查詢關鍵字" type="text" value="" name="search" id="search" />
+                                    <input id="btnQuery" class="sb-search-submit" value="查詢" />
+                                </form>
+                            </div>
+
+                            <div class="btnSet" style="margin-top:20px">
+
+                                <a href="https://www.cht.com.tw/home">回首頁</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </section>
+        <footer>
+            <div class="bar"></div>
+            <div class="in">
+
+                <ul class="underLink">
+                    <li><a href="https://www.cht.com.tw/home/consumer/other/sitemap">網站地圖</a></li>
+                    <li><a href="https://my.cht.com.tw">我的服務中心</a></li>
+
+                </ul>
+
+                <!-- 180817改版- official-links -->
+                <ul class="officialLink">
+                    <li>
+                        <a href="https://www.emome.net/" target="">
+                            <img src="/home/cht/-/media/Web/Images/Official-Websites/ft_emome.png"
+                                 alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hinet.net/" target="">
+                            <img src="/home/cht/-/media/Web/Images/Official-Websites/ft_hinet.png"
+                                 alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://mod.cht.com.tw/" target="">
+                            <img src="/home/cht/-/media/Web/Images/Official-Websites/ft_mod.png"
+                                 alt="">
+                        </a>
+                    </li>
+
+                </ul>
+                <p class="license">中華電信股份有限公司版權所有 &#169; Chunghwa Telecom Co., Ltd. All Rights Reserved.</p>
+                <div class="clr"></div>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+</html>
+<script type="text/javascript">
+    (function () {
+        var $srarchbar = $('#search');
+
+        $('#btnQuery').on('click', function () {
+            goSearch();
+        });
+
+        $srarchbar.on('click', function () {
+            if (window.sessionStorage["local"] != undefined)
+                $srarchbar.val(window.sessionStorage["local"]);
+        });
+        var key;
+        var favoriteTags = new Array();
+
+        var favoriteTitle = '';
+        var JSONfavoriteTags;
+        var jsonkword = '';
+
+        if (jsonkword != '') {
+            JSONfavoriteTags = JSON.parse((jsonkword).replace(/&quot;/g, '"'));
+            $.each(JSONfavoriteTags, function (key, value) {
+                favoriteTags.push(value["Word"]);
+            });
+        }
+
+        var searchStorage = window.sessionStorage["local"];
+        if (searchStorage != undefined)
+            $srarchbar.val(searchStorage);
+
+        $srarchbar.on('keypress', function (event) {
+            if (event.which == 13) {
+                goSearch();
+            }
+        });
+
+        function clickSearch(Value) {
+            getValue(Value);
+            goSearch();
+        }
+
+        function getValue(Value) {
+            $srarchbar.val(Value);
+        }
+
+        function goSearch() {
+            var user;
+            var searchurl = 'https://www.cht.com.tw/home/consumer/searchresult';
+            var query = $srarchbar.val();
+            var homeurl = searchurl.split('/');
+            let correctSearchResultId = "{19778477-E7C6-412D-8A14-A7B16927F414}";
+
+            let isRepeatedQuery = checkKeyWordStorage(query);
+
+            saveStorage(query);
+            window.location.assign(searchurl + "?text=" + query + "&pageswitch=" + true + "&pagecurrentitem=" + correctSearchResultId + "&repeatedquery=" + isRepeatedQuery);
+            showLoading();
+        }
+
+        function saveStorage(query) {
+            window.sessionStorage["local"] = query;
+        }
+
+        $(document).ready(function () {
+            if (searchStorage != null) {
+                $srarchbar.val(searchStorage);
+            }
+        });
+
+        $srarchbar.on('keydown', function (event) {
+            if (event.keyCode == 8) {
+                var ele = document.getElementById("recommend-results-2")
+                while (ele.firstChild) {
+                    ele.removeChild(ele.firstChild);
+                    ele.firstChild = ele.firstChild;
+                }
+                var li2 = document.createElement("li");
+                li2.setAttribute("class", "search-seperator");
+                var small = document.createElement("small");
+                small.innerHTML = favoriteTitle;
+                li2.appendChild(small);
+                ele.appendChild(li2);
+                if (favoriteTags != null && favoriteTags.length > 0) {
+                    favoriteTags.forEach(function (value) {
+                        var li = document.createElement("li");
+                        var a = document.createElement("a");
+                        a.innerHTML = value;
+                        a.classList.add("search-word");
+                        li.appendChild(a);
+                        ele.appendChild(li);
+                    });
+
+                    $('.search-word', ele).click(function () {
+                        clickSearch(this.innerHTML);
+                    });
+                }
+            }
+        });
+
+        var e = jQuery.Event('keydown');
+        e.keyCode = 8; // # Some key code value
+        $srarchbar.trigger(e);
+
+
+        function checkKeyWordStorage(query) {
+            let localKeyWord = window.sessionStorage["localKeyWord"];
+            let arry = localKeyWord ? JSON.parse(localKeyWord) : [];
+            let hasKeyWord = arry.indexOf(query) != -1;
+            if (!hasKeyWord) {
+                arry.push(query);
+                window.sessionStorage["localKeyWord"] = JSON.stringify(arry);
+            }
+            return hasKeyWord;
+        }
+
+    })();
+</script>
+<!-- 倒數轉址-->
+<script type='text/javascript'>
+    setTimeout('countdown()', 1000);
+
+    function countdown() {
+        var s = document.getElementById('timer');
+        s.innerHTML = s.innerHTML - 1;
+        if (s.innerHTML == 0)
+            window.location = 'https://www.cht.com.tw';
+        else
+            setTimeout('countdown()', 1000);
+    }
+</script>

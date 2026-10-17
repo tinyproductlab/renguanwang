@@ -1,0 +1,1135 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+    <script>
+    let cdnDate = '20261017183458';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <link rel="alternate" title="即時" href="https://news.ltn.com.tw/rss/all.xml" type="application/rss+xml" />
+<link rel="alternate" title="政治" href="https://news.ltn.com.tw/rss/politics.xml" type="application/rss+xml" />
+<link rel="alternate" title="社會" href="https://news.ltn.com.tw/rss/society.xml" type="application/rss+xml" />
+<link rel="alternate" title="生活" href="https://news.ltn.com.tw/rss/life.xml" type="application/rss+xml" />
+<link rel="alternate" title="評論" href="https://news.ltn.com.tw/rss/opinion.xml" type="application/rss+xml" />
+<link rel="alternate" title="國際" href="https://news.ltn.com.tw/rss/world.xml" type="application/rss+xml" />
+<link rel="alternate" title="財經" href="https://news.ltn.com.tw/rss/business.xml" type="application/rss+xml" />
+<link rel="alternate" title="體育" href="https://news.ltn.com.tw/rss/sports.xml" type="application/rss+xml" />
+<link rel="alternate" title="娛樂" href="https://news.ltn.com.tw/rss/entertainment.xml" type="application/rss+xml" />
+<link rel="alternate" title="地方" href="https://news.ltn.com.tw/rss/local.xml" type="application/rss+xml" />
+<link rel="alternate" title="人物" href="https://news.ltn.com.tw/rss/people.xml" type="application/rss+xml" />
+<link rel="alternate" title="蒐奇" href="https://news.ltn.com.tw/rss/novelty.xml" type="application/rss+xml" />    <base href="https://www.ltn.com.tw/">
+    <meta name="google-site-verification" content="sPp7Kk7Tqa6LK-wWblS9Fby069Wpy4DNTaMyjKHxveU" />
+    <meta name='ltn:device' content='R'/>
+    <title>自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="自由時報電子報" />
+<meta name="title" itemprop="headline" content="自由時報電子報" />
+<meta name="keywords" content="自由時報, 自由時報電子報, Liberty Times Net, LTN" />
+<meta name="news_keywords" itemprop="keywords" content="自由時報, 自由時報電子報, Liberty Times Net, LTN" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報，為網友提供重要的新聞訊息，提供第一手全球各地最即時的突發事件報導，為網友精準掌握新聞脈動，配合時事不定時推出各類新聞專區，服務廣大網友" />
+<meta property="og:description" itemprop="description" content="自由時報，為網友提供重要的新聞訊息，提供第一手全球各地最即時的突發事件報導，為網友精準掌握新聞脈動，配合時事不定時推出各類新聞專區，服務廣大網友" />
+<meta property="og:url" itemprop="url" content="https://www.ltn.com.tw/" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/01logo_LTN.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<link rel="canonical" itemprop="mainEntityOfPage" href="https://www.ltn.com.tw/" />
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <script>
+    var interstitial = 0;
+    var userAgent = navigator.userAgent;
+    var platform = navigator.platform;
+    var iOSDevice = ['iPhone', 'iPad'];
+
+    function isiPhone() {
+        return (userAgent.indexOf('iPhone') >= 0) ? true : false;
+    }
+
+    function isAndroid() {
+        return (userAgent.indexOf('Android') >= 0) ? true : false;
+    }
+
+    function isFB() {
+        return (userAgent.indexOf('FB') >= 0) ? true : false;
+    }
+
+    function isLine() {
+        return (userAgent.indexOf(' Line') >= 0) ? true : false;
+    }
+
+    function isChrome() {
+        return (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('CriOS') >= 0) ? true : false;
+    }
+
+    function isSimulator(device) {
+        var i;
+        var isDevice = true;
+        for (i = 0; i < device.length; i++) {
+            isDevice = (platform.indexOf(device[i]) >= 0) ? false : true;
+            if (!isDevice) {
+                break;
+            }
+        }
+        return isDevice;
+    }
+    if (isFB()) {
+        interstitial = 1;
+    } else if (isLine()) {
+        interstitial = 1;
+    } else if (isAndroid() && !isChrome()) {
+        interstitial = 1;
+    } else if (isiPhone() && !isSimulator(iOSDevice) && !isChrome()) {
+        interstitial = 1;
+    }
+
+    console.log('interstitial = ' + interstitial);
+    var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.pubads().setTargeting("ltn_interstitial", [interstitial.toString()]);
+
+    });
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/reset.css?20210928">
+    <link rel="stylesheet" href="assets/css/index_style.css?20250607">
+    <link rel="stylesheet" href="assets/css/rwd_style.css?20250607">
+     <script>
+        var pvServer = 'pv.ltn.com.tw';
+        var newsServer = 'news.ltn.com.tw';
+        var wwwServer = 'https://www.ltn.com.tw/';
+    </script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/rwd_all.js?20200602"></script>
+    <script src="assets/js/rtabs.js"></script>
+    <script src="https://cache.ltn.com.tw/js/isIE.js"></script>
+    <script src="assets/js/customApi.js"></script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <script>
+// GA 點擊事件統計
+$(function(){
+    ga_news_event();
+});
+
+function ga_news_event()
+{
+    var base_root_org = 'http://'+newsServer;
+
+    var deviceDesc = $("meta[name='ltn:device']").attr('content') || 'U';
+    /*取頁面說明*/
+    var _pageDesc = $('.page-name').attr('data-desc');
+
+    var pageDesc =deviceDesc+':'+_pageDesc;
+
+    $(document.body).on('click.ga', '.boxInput', function(){
+        var obj = $(this);
+        var objDesc = obj.attr('data-desc');
+
+        var par = obj.parents('.boxTitle');
+        var boxDesc = par.attr('data-desc');
+
+        var category = pageDesc;
+        var action = boxDesc;
+        var label = objDesc || ''; /*使用自定義說明*/
+
+        ga_send_event(category,action,label);
+
+    });
+
+    $('.boxTitle').on('click.count', 'a', function(e){
+        if(e.button!=0){return;}
+        if(getinfo($(this), false)) e.preventDefault();
+    }).on('mouseup.count', 'a', function(e){
+        if(e.button!=1){return;}
+        getinfo($(this), true);
+        e.preventDefault();
+    });
+
+    function setltncookies(area, item, elem){
+        var ov_sec = 30;
+        ltncookies_news("ltn_device", deviceDesc, ov_sec);
+        ltncookies_news("ltn_page", _pageDesc, ov_sec);
+        ltncookies_news("ltn_area", area, ov_sec);
+        ltncookies_news("ltn_item", item, ov_sec);
+        ltncookies_news("ltn_elem", elem, ov_sec);
+    }
+    function getinfo(obj, SendOnly){
+
+        var objText = obj.text();
+        var objDesc = obj.attr('data-desc');
+
+        var par = obj.parents('.boxTitle');
+        /*取區塊說明*/
+        var boxDesc = par.attr('data-desc');
+        /*是否用連結文字*/
+        var useText = par.hasClass('boxText');
+
+        var category = pageDesc;
+        var action = boxDesc;
+        var label = objDesc || ''; /*使用自定義說明*/
+        if(useText && label==''){
+            label = objText || ''; /*使用連結文字*/
+        }
+
+        var labelA = label;
+        var idx = $('a', par).index(obj);
+        if(label==''){
+            /*記錄該區塊第幾則*/
+            label = '第'+idx+'則';
+        }
+
+        var target = obj.attr('target');
+        var href = '';
+        var _href = obj.attr('href');
+
+        if(_href){
+            href = check_url(_href);
+        }
+
+        var send_type = 'send';
+
+        if(!target && href!=''){
+            send_type = 'redirect';
+        }
+
+        if(SendOnly) send_type = 'send';
+
+        setltncookies(action, idx, labelA);  // Add area, item,
+        if(send_type=='send'){
+            ga_send_event(category,action,label);
+            return false;
+        }else{
+            send2ga2page(category,action,label,href);
+            return true;
+        }
+    }
+
+    function check_url(_url){
+        if((/^http:/).test(_url)){
+            return _url;
+        }else if((/^https:/).test(_url)){
+            return _url;
+        }else if((/^\/\//).test(_url)){
+            return _url;
+        }else if((/^javascript/).test(_url)){
+            return '';
+        }else if((/^#/).test(_url)){
+            return '';
+        }else{
+            var base_root = $('base').attr('href') || base_root_org;
+            return base_root+_url;
+        }
+    }
+
+    /*GA事件追蹤:頁面不轉換*/
+    function ga_send_event(category, title, label){
+        ga_send_event_callback(category, title, label, function(){});
+    }
+
+    /*GTA事件追蹤:頁面轉換*/
+    function gta_send_event_callback(category, title, label){
+        gtag('event', title, {'category' : category, 'label' : label, 'send_to' : 'G-3MJGE7SCXJ', 'debug_mode':false });
+    }
+
+    /*GA事件追蹤:頁面轉換*/
+    function ga_send_event_callback(category, title, label, fn_callback){
+        gta_send_event_callback(category, title, label);
+        fn_callback();
+    }
+
+    /*GA事件追蹤:連結點擊*/
+    function send2ga2page(category, title, label, url) {
+        var redirectTriggered = false;
+
+        ga_send_event_callback(category, title, label, function(){
+            redirectTriggered = true;
+            document.location = url;
+        });
+
+        setTimeout(function() {
+            if (!redirectTriggered) {
+                document.location = url;
+            }
+        }, 1500);
+    }
+};
+</script>
+</head>
+<body id="ltnRWD">
+    <span class="page-name" data-desc="首頁"></span>
+    <div class="headerP_high"></div>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/ltn_header.css?20251117" />
+<script src="https://cache.ltn.com.tw/js/rwd_mobile_search.js?20200609"></script>
+
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="row1">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+
+        <!-- 手機側邊欄選單用 -->
+        <div class="ltnSearch"></div>
+        <div class="nav_bar"></div>
+
+
+        <!-- 關鍵字 -->
+        <ul class="header_kw">
+                    </ul>
+        <!-- 展開搜尋 -->
+        <div class="ltnsch_show boxTitle boxText" title="搜尋" data-desc="搜尋">
+            <form action="https://search.ltn.com.tw/list" method="get" name="search" onsubmit="return send();">
+                <input name="keyword" id="cacheSearch" type="text" placeholder="Search...">
+                <button type="submit" data-desc="Search" id="search_submit_btn"></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Header 選單 -->
+	<div class="row2">
+				<span class="slipR">〉</span>
+		<ul>
+			<!--<li class="h_kw"><a>關鍵字五字</a></li>-->
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="蒐奇" href="https://news.ltn.com.tw/list/breakingnews/novelty" data-desc="蒐奇">蒐奇</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li class="li_project"><a title="專區" href="https://features.ltn.com.tw/" data-desc="專區">專區</a></li>
+			<li class="li_TT"><a title="TAIPEI TIMES" href="http://www.taipeitimes.com/" data-desc="TAIPEI TIMES" target="_blank">TAIPEI TIMES</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+	</div>
+
+	<!-- 快訊 -->
+    <div id="marqueeHeader"></div>
+</div>
+
+<!-- 行動裝置：搜尋 -->
+<div class="M_LTN_Search">
+	<div class="mobileMask" style=""></div>
+	<div class="MSearch_con">
+		<div class="searchltn_close"></div>
+		<form class="formSearch" action="https://search.ltn.com.tw/list" method="get" onsubmit='return search_for_all_news();'>
+			<input placeholder="請輸入關鍵字" name="keyword" type="text" id="rwd_qs" value="">
+			<div class="sbox03"><button type="submit" class="formSearchbt" data-desc="Search" id="search_submit_btn">Search</button></div>
+		</form>
+	</div>
+</div>
+<!-- 行動裝置：搜尋 結束 -->
+
+<script>
+    var count = 0;
+    function send() {
+        if (count == 0) {
+            count++;
+            key = document.getElementById("cacheSearch").value.replace(/(　)+/g, ' ');
+            key = key.replace(/( )+/g, ' ');
+            key = key.replace(/^[\s]*/gi, ""); //去除左邊空白
+            key = key.replace(/[\s]*$/gi, ""); //去除右邊空白
+            document.getElementById("cacheSearch").value = key;
+
+            kw = key.split(" ");
+
+            if (key.length > 50) {
+                alert("關鍵字數過長");
+                count = 0;
+                return false;
+            }
+            else if (kw.length > 3) {
+                alert("超過三組關鍵字");
+                count = 0;
+                return false;
+            }
+            else if ((kw.length == 1 && kw[0].length < 2)) {
+                alert("關鍵字需兩個字以上");
+                count = 0;
+                return false;
+            }
+            else
+                return true;
+        }
+    }
+</script>
+
+<script>
+    /*滑動隱藏header*/
+    var startScroll = false;
+    var firstScrollTop = 0;
+    $(window).on('scroll', function() {
+        if (!startScroll || this.scrollY <= $('#marquee').find('li').outerHeight(true)) {
+            $('body').removeClass('hideUp');
+            return;
+        }
+        if (firstScrollTop == 0) {
+            firstScrollTop = this.scrollY;
+        }
+        firstScrollTop = hideUp(firstScrollTop, this.scrollY);
+    });
+    setTimeout(function () {
+       startScroll = true;
+    }, 3000);
+    function hideUp(startY,  endY) {
+        var moveY = endY - startY;
+        var targetUp = 0;
+        var targetDown = 0;
+        if ($(window).outerWidth(true) <= 800) {
+            //手機版條件
+            targetUp = 5;
+            targetDown = -80;
+        }
+        if (moveY > targetUp) {
+            // 往上滑
+            $('body').addClass('hideUp');
+            startY = 0;
+        } else if (moveY < targetDown) {
+            // 往下滑 body移除hideUp以顯示header
+            $('body').removeClass('hideUp');
+            startY = 0;
+        }
+        return startY;
+    }
+</script>
+<style>
+    /*滑動隱藏header*/
+    .ltnheader { transition: all 0.8s; }
+	.hideUp .ltnheader { top:-110px; }
+	@media screen and (max-width:800px){ /* 配合快訊轉 M 版 #marqueeHeader，高度撐開 */
+		.hideUp .ltnheader { top: -88px; }
+	}
+</style>
+<style>
+    @charset "utf-8";
+    
+/* CSS Document */
+#mobileMenu * { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+#mobileMenu{width:200px; /*width:100%;*/ height:100vh; overflow-y:scroll; overflow-x:hidden; transition:all 0.1s linear; font-size:16px; }
+	#mobileMenu::-webkit-scrollbar { display: none; /*Chorme*/}
+	#mobileMenu { scrollbar-width: none; /*FF*/}
+	#mobileMenu { -ms-overflow-style: none; /*IE*/}
+#mobileMenu a { color:#fff; cursor:pointer; }
+#mobileMenu .MM { width:200px; background-color:#5e5e5e; position:absolute; top:0; z-index:50; box-shadow:0px 0px 8px 3px rgba(0,0,0,0.3), -6px 0px 10px 0px rgba(0,0,0,0.3) inset; }
+.mobileMenu { display:none; height:100%; position:fixed; top:0; z-index:3001; }
+
+/* ----------- ltn 相關 ----------- */
+#mobileMenu div.MM div.ltn_home { display:block; width:100%; }
+#mobileMenu .ltn_home a {
+    display:block;
+    height:50px;
+    line-height:50px;
+    position:relative;
+    color:#fff;
+    padding:0px 0px 0px 40px;
+}
+#mobileMenu .ltn_home a.home { border-bottom:2px solid #7d7d7d; }
+#mobileMenu .ltn_home a.icon_item, #mobileMenu .ltn_home a.dot { border-top:1px solid #000; margin:0; }
+#mobileMenu .ltn_home a.home:before, #mobileMenu .ltn_home a.dot:before, #mobileMenu .ltn_home a.icon_item:before {
+    content:"";
+    display:block;
+    width:18px;
+    height:20px;
+    position:absolute;
+    left:13px;
+    top:15px;
+}
+#mobileMenu .ltn_home a.home:before, #mobileMenu .ltn_home a.icon_item:before { background-size: 18px; background-repeat: no-repeat; background-position: center 1px; }
+#mobileMenu .ltn_home a.home:before { background-image: url(https://cache.ltn.com.tw/images/icon/mobileBT_home.svg); }
+#mobileMenu .ltn_home a.app:before { background-image: url(https://cache.ltn.com.tw/images/icon/mobileBT_app.svg); }
+#mobileMenu .ltn_home a.fb:before { background-image: url(https://cache.ltn.com.tw/images/icon/mobileBT_fb.svg); }
+#mobileMenu .ltn_home a.line:before { background-image: url(https://cache.ltn.com.tw/images/icon/mobileBT_line.svg); }
+#mobileMenu .ltn_home a.twitter:before { background-image: url(https://cache.ltn.com.tw/images/icon/mobileBT_x.svg); }
+#mobileMenu .ltn_home a.dot:before {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 18px;
+    top: 20px;
+}
+
+/* --- 調整IOS用 --- */
+#mobileMenu .ltn_home .spacing { width:100%; height:120px; }
+#mobileMenu .ltn_home a.dot { border-bottom:1px solid #000; }
+/* --- 頻道調整用 --- */
+#mobileMenu .MM .ltn_home a.app { background-color:transparent; border:none; border-radius:0; }
+#mobileMenu .MM .ltn_home a.line { float:none; }
+
+/* ----------- 所有頻道選單 ----------- */
+#mobileMenu div.MM .mainM { background-color:#4a4947; border-bottom:4px solid #000; overflow:hidden; letter-spacing:4px; }
+#mobileMenu .mainM .ltnM { background-color:#625d5a; border-bottom:3px solid #000; overflow:hidden; float:left;}
+#mobileMenu .mainM a { display:block; float:left; width:50%; height:50px; line-height:50px; text-align:center; border-bottom:1px solid #000; border-right:1px solid #000; }
+#mobileMenu .mainM a.full { width:100%; float:left; text-align:left; padding-left:30px; border-bottom:1px solid #000; border-right:none; }
+#mobileMenu .mainM .ltnM a:nth-child(even) { border-right:none; }
+
+/* ----------- 側邊陰影 ----------- */
+#mobileMenu div.MM .channel, #mobileMenu div.MM .mainM, #mobileMenu div.MM .mainM .ltnM
+{ box-shadow:-6px 0px 10px 0px rgba(0,0,0,0.2) inset, 3px 0px 7px 0px rgba(0,0,0,0.2) inset; }
+
+/* ----------- 目前頻道選單 ----------- */
+#mobileMenu div.MM .channel { background-color:#888; border-bottom:10px solid #000; overflow:hidden; padding:0;margin:0; }
+#mobileMenu .channel .tit { height:25px; background-color:#000; color:#fff; font-size:0.85rem; line-height:25px; text-align:left; padding-left:10px; margin:0; }
+#mobileMenu .channel a { padding-left:10px; display:block; float:left; width:50%; height:50px; line-height:50px; border-bottom:1px solid #000; border-right:1px solid #000; }
+#mobileMenu .channel a.full { width:100%; float:left; border-bottom:1px solid #000; }
+#mobileMenu .channel a.half img, #mobileMenu .channel a.full img { width:16px; vertical-align:middle; margin:0px 4px 3px 0px; }
+#mobileMenu .channel a.half span, #mobileMenu .channel a.full span { letter-spacing:normal; }
+#mobileMenu .channel a.half { clear:none; }/*程式用*/
+#mobileMenu .channel a.word { line-height:1.3; padding-top:4px; }/*選項折行(5個字以上：廚房生活小知識)*/
+
+/* --- 左側選單 --- */
+.mobileMenu_left { left:-200px; }
+#mobileMenu .mobileMenu_left_close { left: 200px; }
+#mobileMenu .mobileMenu_left_MM { left: 0; }
+
+/* --- 右側選單 --- */
+.mobileMenu_right { right:-200px; }
+#mobileMenu .mobileMenu_right_close { right: 200px; }
+#mobileMenu .mobileMenu_right_MM { right:0; }
+
+/* --- 遮罩 --- */
+.maskMM { background:rgba(255,255,255,0.7); width:100vw; height:100vh; position:fixed; z-index:3000; top:0; left:0; right:0; overflow:hidden; transition:all 0.1s linear; display:none; }
+.opacity { overflow-y:hidden; }
+.VB { display:block; }
+/* --- 側邊欄bt ---*/
+.nav_bar { -webkit-tap-highlight-color:rgba(0,0,0,0); display:inline-block; vertical-align:middle; width:45px; height:45px; cursor:pointer; position:absolute; right:10px; top:0; background:url(https://cache.ltn.com.tw/images/icon/g_menu.svg) no-repeat center; background-size:20px; }
+#mobileMenu .close { display:inline-block; vertical-align:middle; width:50px; height:50px; cursor:pointer; position:absolute; top:0; left:150px; z-index:55; background:url(https://cache.ltn.com.tw/images/icon/g_close.svg) no-repeat center, #aaa; background-size:30px; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+/* --- rwd頻道需要 ---*/
+@media screen and (min-width:800px){
+    #estate .maskbg, #talk .maskbg, #partner .maskbg { display:none; }
+    #estate .nav_bar, #talk .nav_bar, #partner .nav_bar { display:none; }/*800以上隱藏手機版漢堡*/
+}
+
+/* --- google廣告 amp格式 修正 ---*/
+div[id^='google_ads_iframe'] {
+    margin: 0 auto;
+}
+
+    /* [MOBILE CSS] */
+</style>
+<script src="https://cache.ltn.com.tw/js/mobilemenu.js?20190708"></script>
+
+<div id="mobileMenu" class="mobileMenu mobileMenu_right">
+    <div class="close mobileMenu_right_close"></div>
+    <div class="MM mobileMenu_right_MM">
+        <!-- ltn首頁 -->
+        <div class="ltn_home boxTitle boxText" data-desc="側邊選單:自由時報電子報">
+            <a title="自由時報電子報" href="https://www.ltn.com.tw/" class="home">自由電子報</a>
+        </div>
+        <!-- 目前頻道選單 -->
+                <!-- 所有頻道選單 -->
+        <div class="mainM boxTitle boxText" data-desc="側邊選單:頻道選單">
+            <a title="自由影音" href="https://videos.ltn.com.tw" class="full">自由影音</a>
+            <!-- 即時 -->
+            <div class="ltnM boxText">
+                <a title="即時" href="https://news.ltn.com.tw/list/breakingnews">即時</a>
+                <a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular">熱門</a>
+                <a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics">政治</a>
+                <a title="軍武" href="https://def.ltn.com.tw">軍武</a>
+                <a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society">社會</a>
+                <a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life">生活</a>
+                <a title="健康" href="https://health.ltn.com.tw">健康</a>
+                <a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world">國際</a>
+                <a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local">地方</a>
+                <a title="蒐奇" href="https://news.ltn.com.tw/list/breakingnews/novelty">蒐奇</a>
+            </div>
+            <!-- 頻道 -->
+			<a title="財富自由" href="https://stock.ltn.com.tw" class="full" target="_blank">財富自由</a>
+            <a title="財經" href="https://ec.ltn.com.tw">財經</a>
+            <a title="娛樂" href="https://ent.ltn.com.tw">娛樂</a>
+            <a title="藝文" href="https://art.ltn.com.tw">藝文</a>
+            <a title="汽車" href="https://auto.ltn.com.tw">汽車</a>
+            <a title="時尚" href="https://istyle.ltn.com.tw">時尚</a>
+            <a title="體育" href="https://sports.ltn.com.tw">體育</a>
+            <a title="3C" href="https://3c.ltn.com.tw">3 C</a>
+            <a title="評論" href="https://talk.ltn.com.tw">評論</a>
+            <a title="玩咖" href="https://playing.ltn.com.tw">玩咖</a>
+            <a title="食譜" href="https://food.ltn.com.tw">食譜</a>
+            <a title="地產" href="https://estate.ltn.com.tw">地產</a>
+            <!--<a style="cursor: default;"></a>-->
+            <a title="專區" href="https://features.ltn.com.tw">專區</a>
+            <a title="服務" href="https://service.ltn.com.tw">服務</a>
+        </div>
+        <!-- 其他 -->
+        <div class="ltn_home boxTitle boxText" data-desc="側邊選單:其他選單">
+
+            <a title="自由時報電子報APP" href="https://service.ltn.com.tw/app" target="_blank" class="icon_item app">自由電子報 APP</a>
+
+            <a title="自由時報電子報粉絲團" href="https://www.facebook.com/m.ltn.tw" target="_blank" class="icon_item fb">自由電子報粉絲團</a>
+
+            <a title="自由時報電子報Line" href="https://line.me/R/ti/p/%40ltnnews" target="_blank" class="icon_item line">自由電子報 Line</a>
+
+            <a title="自由時報電子報Twitter" href="https://twitter.com/ltntw" target="_blank" class="icon_item twitter">自由電子報 X</a>
+
+            <a title="熱門新訊" href="https://market.ltn.com.tw/m" class="dot">熱門新訊</a>
+
+            <div class="spacing"></div>
+        </div>
+    </div>
+</div>
+<div id="maskMM" class="maskMM"></div>
+
+<!-- 
+主站用選單 ( ltwww3 + ltnews3 ) 相關檔案 ↓
+cache：
+css/ltn_header.css
+application/views/cache_ltn_header.php
+application/views/block/ltn_header.php
+-->
+    <div class="content">
+            <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_extra.css?202509">
+<div id="marqueeContent">
+    <div id="marquee" class="boxTitle" data-desc="快訊">
+        <div class="marqueebox">
+            <ul></ul>
+        </div>
+        <div class="arrow up" style="display: none"></div>
+        <div class="arrow down" style="display: none"></div>
+    </div>
+</div>
+<script>
+    $(function() {
+        // 新聞快訊
+        let protocol = document.location.protocol;
+
+        $.ajax({
+            type: "GET",
+            url: protocol + "//cache.ltn.com.tw/data/getExtra?" + new Date().getTime(),
+            dataType: "json",
+            success: function(data) {
+                insertMarqueeData(data); // 插入新聞快訊
+                runMarquee(); // 顯示快訊(包含廣告) + 啟動輪播
+            },
+            error: function(e) {
+                console.log('get extra failed!');
+                console.log(e);
+            }
+        });
+
+        function insertMarqueeData(data) {
+            let html = '';
+            let order = 0;
+            let time_now = new Date().getTime();
+
+            for (let type in data) {
+                if (!Object.prototype.hasOwnProperty.call(data, type)) continue;
+                let list = data[type] || [];
+
+                for (let i in list) {
+                    if (!Object.prototype.hasOwnProperty.call(list, i)) continue;
+                    let item = list[i];
+                    if (typeof item['title'] === "undefined") continue;
+
+                    switch (type) {
+                        case 'extra':
+                            html += '<li id="extra"><a href="' + item['src'] + '" data-desc="T:' + order + ':' + item['title'] + '" title="' + item['title'] + '">' + item['title'] + '</a></li>';
+                            order++;
+                            break;
+                        case 'ad_153':
+                            html += '<li class="extrads' + i + '" id="extra">';
+                            html += '<a href="https://pv6.ltn.com.tw/click?ano=' + item['no'] + '&device=' + adDevice + '&source=' + encodeURIComponent(document.URL) + '" data-no="' + item['no'] + '" target="_blank" data-desc="T:' + order + ':' + item['title'] + '" title="' + item['title'] + '">' + item['title'] + '<span>PR</span></a>';
+                            html += '<img style="display:none" src="https://pv6.ltn.com.tw/impression?ano=' + item['no'] + '&device=' + adDevice + '&' + time_now + '" alt="內廣曝光">';
+                            html += '</li>';
+                            order++;
+                            break;
+                        case 'ad_311':
+                            html += '<li class="extrads' + i + '" id="extra">';
+                            html += '<a href="https://pv6.ltn.com.tw/click?ano=' + item['no'] + '&device=' + adDevice + '&source=' + encodeURIComponent(document.URL) + '" data-no="' + item['no'] + '" target="_blank" data-desc="T:' + order + ':' + item['title'] + '" title="' + item['title'] + '">' + item['title'] + '</a>';
+                            html += '<img style="display:none" src="https://pv6.ltn.com.tw/impression?ano=' + item['no'] + '&device=' + adDevice + '&' + time_now + '" alt="內廣曝光">';
+                            html += '</li>';
+                            order++;
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+            if (html === '') {
+                return;
+            }
+            $('#marquee').find('ul').prepend(html);
+        }
+
+        function runMarquee() {
+            let $marquee = $('#marquee');
+            let $list = $marquee.find('ul');
+            let $items = $list.find('li');
+            let $btnUp = $marquee.find('.arrow.up');
+            let $btnDown = $marquee.find('.arrow.down');
+
+            if ($items.length < 1) {
+                return;
+            }
+
+            // 參數
+            let LINE = 1; // 每次滾動幾則
+            let SPEED = 500; // 動畫速度(ms)
+            let INTERVAL = 3000; // 間隔(ms) 以 setTimeout 實作
+
+            // 狀態
+            let tickerTimer = null;
+            let running = false;
+
+            // 避免重複初始化：先清既有事件（命名空間）
+            $(window).off('resize.marquee');
+            document.removeEventListener('visibilitychange', onVisibilityChange, true);
+            window.removeEventListener('blur', onBlur, true);
+            window.removeEventListener('focus', onFocus, true);
+            $btnUp.off('click mouseenter mouseleave');
+            $btnDown.off('click mouseenter mouseleave');
+            $list.off('mouseenter mouseleave');
+
+            // 兩則以上才啟動輪播並顯示箭頭
+            if ($items.length > 1) {
+                $marquee.find('.arrow').show();
+                startTicker();
+            }
+
+            // 顯示快訊
+            $marquee.stop(true, true).slideDown(400);
+
+            // 手機版置頂浮動
+            marqueePosition($items);
+            $(window).on('resize.marquee', function() {
+                marqueePosition($items);
+            });
+
+            // Page Visibility：背景停、回前景重啟（計時歸零）
+            document.addEventListener('visibilitychange', onVisibilityChange, true);
+            // 保險：視窗焦點
+            window.addEventListener('blur', onBlur, true);
+            window.addEventListener('focus', onFocus, true);
+
+            // 滑鼠懸停暫停/恢復
+            $list.add($btnUp).add($btnDown).on('mouseenter', stopTicker).on('mouseleave', startTicker);
+
+            // 箭頭控制
+            $btnUp.css('cursor', 'pointer').on('click', function() {
+                stopTicker(); // 點擊時暫停自動播放
+                tickOnce(); // 向上滾動
+                startTicker(); // 立即恢復自動播放
+            });
+
+            $btnDown.css('cursor', 'pointer').on('click', function() {
+                stopTicker(); // 點擊時暫停自動播放
+                tickDown(); // 向下滾動
+                startTicker(); // 立即恢復自動播放
+            });
+
+            function onVisibilityChange() {
+                if (document.hidden) {
+                    stopTicker(true);
+                } else {
+                    startTicker();
+                }
+            }
+
+            function onBlur() {
+                stopTicker(true);
+            }
+
+            function onFocus() {
+                startTicker();
+            }
+
+            // -------- 核心輪播：使用 setTimeout 控制 --------
+            function startTicker() {
+                if (running) return;
+                running = true;
+                scheduleNext();
+            }
+
+            function stopTicker(reset) {
+                running = false;
+                if (tickerTimer) {
+                    clearTimeout(tickerTimer);
+                    tickerTimer = null;
+                }
+            }
+
+            function scheduleNext() {
+                if (!running) return;
+                tickerTimer = setTimeout(function() {
+                    tickOnce();
+                    scheduleNext();
+                }, INTERVAL);
+            }
+
+            // 單次向上滾動：把前 LINE 個 li 上滑後接到尾巴
+            function tickOnce() {
+                if ($list.children('li').length <= 1) return;
+                if ($list.is(':animated')) return; // 防止動畫疊加
+
+                let $chunk = $list.children('li').slice(0, LINE);
+                let totalHeight = 0;
+                $chunk.each(function() {
+                    totalHeight += $(this).outerHeight(true);
+                });
+
+                $list.stop(true, true).animate({
+                    marginTop: -totalHeight + 'px'
+                }, SPEED, function() {
+                    $chunk.appendTo($list);
+                    $list.css('marginTop', 0);
+                });
+            }
+
+            // 單次向下滾動：把後 LINE 個 li 接到開頭後下拉
+            function tickDown() {
+                if ($list.children('li').length <= 1) return;
+                if ($list.is(':animated')) return; // 防止動畫疊加
+
+                let $chunk = $list.children('li').slice(-LINE);
+                let totalHeight = 0;
+                $chunk.each(function() {
+                    totalHeight += $(this).outerHeight(true);
+                });
+
+                $list.css('marginTop', -totalHeight + 'px');
+                $chunk.prependTo($list);
+                $list.stop(true, true).animate({
+                    marginTop: 0
+                }, SPEED);
+            }
+
+            function marqueePosition($extras) {
+                let HconHeight = $('div.ltnheader > .Hcon').outerHeight(true) ||
+                    ($('div.ltnheader > .row1').outerHeight(true) + $('div.ltnheader > .row2').outerHeight(true) || 0);
+
+                let marqueeHeight = $extras.outerHeight(true) || 0;
+                if ($(window).outerWidth(true) <= 800) {
+                    $('div#marquee').appendTo('div#marqueeHeader');
+                    $('div#marquee').css('margin-bottom', 0);
+                    $('div.headerP_high').css('height', HconHeight + marqueeHeight + 12);
+                } else {
+                    $('div#marquee').appendTo('div#marqueeContent');
+                    $('div.headerP_high').css('height', HconHeight);
+                }
+                $('div#marquee').css('display', 'flex');
+            }
+        }
+    });
+</script>
+    </div>
+
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_404page.css?20240801" />
+
+<!-- error404page -->
+<section class="error-box">
+    <div class="error-textbox">
+        <span class="error-text">Oops!</span>
+        <span class="error-info">Sorry,the page not found.<br>很抱歉！頁面被移除或者是不存在。</span>
+    </div>
+    <div class="error-picarea">
+        <img src="https://cache.ltn.com.tw/images/ltn_404.gif" alt="找不到網頁">
+
+        <div class="input-holder" role="search">
+        <input type="text" placeholder="請輸入關鍵字" aria-label="input-search" id="search404input">
+        <button class="go" id="search404btn"></button>
+        </div>
+    </div>
+</section>
+
+<script>
+    const search404input = document.querySelector('#search404input');
+    const search404btn = document.querySelector('#search404btn');
+
+    function performSearch() {
+        const keyword = search404input.value.trim();
+        if (keyword) {
+            window.location.href = `https://search.ltn.com.tw/list?keyword=${keyword}`;
+        }
+    }
+
+    search404input.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            performSearch();
+        }
+    });
+    search404btn.addEventListener('click', performSearch);
+</script>
+
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_ltnfooter.css?202511" />
+
+
+<footer class="ltnfooter boxTitle" data-desc="底部選單">
+    <div class="footermenu">
+        <div class="menu1">
+            <div class="bt">
+                <a title="Facebook" href="https://www.facebook.com/m.ltn.tw/?fref=ts" class="Facebook" target="_blank" data-desc="Facebook"></a>
+                <a title="Line" href="https://line.me/R/ti/p/%40ltnnews" class="Line" target="_blank" data-desc="Line"></a>
+                <a title="Twitter" href="https://twitter.com/ltntw" class="Twitter" target="_blank" data-desc="Twitter"></a>
+                <a title="YouTube" href="https://www.youtube.com/user/tvforltn" class="YouTube" target="_blank" data-desc="YouTube"></a>
+				<a title="我要爆料" href="https://service.ltn.com.tw/complain" class="Boom" data-desc="爆料"><p>爆</p></a>
+
+                <div class="weather" data-desc="天氣">
+                <img id="weather_img" src="" alt="" title="">
+                <p id="weather_text"></p>
+            </div>
+            </div>
+
+            <ul>
+                <li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews/all" data-desc="即時">即時</a></li>
+                <li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+                <li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+                <li><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+                <li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+                <li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+                <li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+                <li><a title="健康醫療" href="https://health.ltn.com.tw" data-desc="健康醫療">健康</a></li>
+                <li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+                <li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+                <li><a title="蒐奇" href="https://news.ltn.com.tw/list/breakingnews/novelty" data-desc="蒐奇">蒐奇</a></li>
+                <li><a title="自由影音" href="https://videos.ltn.com.tw" data-desc="自由影音">影音</a></li>
+                <li><a title="自由財經" href="https://ec.ltn.com.tw" data-desc="自由財經">財經</a></li>
+                <li><a title="自由娛樂" href="https://ent.ltn.com.tw" data-desc="自由娛樂">娛樂</a></li>
+                <li><a title="自由藝文" href="https://art.ltn.com.tw" data-desc="自由藝文">藝文</a></li>
+                <li><a title="汽車頻道" href="https://auto.ltn.com.tw" data-desc="汽車頻道">汽車</a></li>
+                <li><a title="iStyle時尚" href="https://istyle.ltn.com.tw" data-desc="iStyle時尚">時尚</a></li>
+                <li><a title="自由體育" href="https://sports.ltn.com.tw" data-desc="自由體育">體育</a></li>
+                <li><a title="3C科技" href="https://3c.ltn.com.tw" data-desc="3C科技">3C</a></li>
+                <li><a title="自由評論網" href="https://talk.ltn.com.tw" data-desc="自由評論網">評論</a></li>
+                <li><a title="玩咖Playing" href="https://playing.ltn.com.tw" data-desc="玩咖Playing">玩咖</a></li>
+                <li><a title="食譜自由配" href="https://food.ltn.com.tw" data-desc="食譜自由配">食譜</a></li>
+                <li><a title="地產天下" href="https://estate.ltn.com.tw" data-desc="地產天下">地產</a></li>
+                <li><a title="專區" href="https://features.ltn.com.tw" data-desc="專區">專區</a></li>
+                <li><a title="Taipei Times" href="http://www.taipeitimes.com/News" data-desc="TAIPEI TIMES" target="_blank">TAIPEI TIMES</a></li>
+            </ul>
+        </div>
+		<ul class="menu2">
+			<li><a title="廣告" href="https://service.ltn.com.tw/advertise" data-desc="廣告">．廣告</a></li>
+			<li><a title="熱門新訊" href="https://market.ltn.com.tw" data-desc="熱門新訊">．熱門新訊</a></li>
+			<li><a title="發票" href="http://invoice.etax.nat.gov.tw/" data-desc="發票" target="_blank">．發票</a></li>
+			<li><a title="樂透" href="http://www.taiwanlottery.com.tw/" data-desc="樂透" target="_blank">．樂透</a></li>
+			<li><a title="徵才" href="https://www.yes123.com.tw/admin/job_refer_comp_info.asp?p_id=5000225_52570683" data-desc="徵才" target="_blank">．徵才</a></li>
+			<li><a title="RSS" href="https://service.ltn.com.tw/RSS" data-desc="RSS">．RSS</a></li>
+			<li><a title="關於我們" href="https://service.ltn.com.tw/about" data-desc="關於我們">．關於我們</a></li>
+			<li><a title="聯絡我們" href="https://service.ltn.com.tw/complain" data-desc="聯絡我們">．聯絡我們</a></li>
+			<li><a title="著作權聲明" href="https://service.ltn.com.tw/copyright" data-desc="著作權聲明">．著作權聲明</a></li>
+			<li><a title="隱私權政策" href="https://service.ltn.com.tw/privacy-policy" data-desc="隱私權政策">．隱私權政策</a></li>
+			<li><a title="投稿" href="https://service.ltn.com.tw/contribute" data-desc="投稿">．投稿</a></li>
+			<li><a title="訂閱推播Q&A" href="https://service.ltn.com.tw/webpush" data-desc="訂閱推播Q&A">．訂閱推播Q&A</a></li>
+			<li><a title="訂報" href="https://service.ltn.com.tw/subscribe" data-desc="訂報">．訂報</a></li>
+			<li><a title="下載APP" href="https://service.ltn.com.tw/app" data-desc="下載APP">．下載APP</a></li>
+		</ul>
+		<ul class="menu3">
+			<li><a title="聯邦文教基金會" href="http://ubot.org.tw/" data-desc="聯邦文教基金會" target="_blank">．聯邦文教基金會</a></li>
+			<li><a title="林榮三文學獎" href="http://www.lrsf.org.tw/" data-desc="林榮三文學獎" target="_blank">．林榮三文學獎</a></li>
+			<li><a title="聯邦銀行" href="https://www.ubot.com.tw/" data-desc="聯邦銀行" target="_blank">．聯邦銀行</a></li>
+			<li><a title="瓏山林台北中和飯店" href="http://www.rslhotel.com/" data-desc="瓏山林台北中和飯店" target="_blank">．瓏山林台北中和飯店</a></li>
+			<li><a title="瓏山林蘇澳冷熱泉度假飯店" href="http://www.rslhotel.com/" data-desc="瓏山林蘇澳冷熱泉度假飯店" target="_blank">．瓏山林蘇澳冷熱泉度假飯店</a></li>
+			<li><a title="自由廣場會議中心" href="http://www.lscc.com.tw/" data-desc="自由廣場會議中心" target="_blank">．自由廣場會議中心</a></li>
+			<li><a title="yes123求職網" href="https://www.yes123.com.tw/" data-desc="yes123求職網" target="_blank">．yes123求職網</a></li>
+		</ul>
+    </div>
+    <div class="app_DL">
+        <a title="appstore" href="https://itunes.apple.com/tw/app/zi-you-shi-bao/id1060983848?l=zh&ls=1&mt=8">
+            <img src="https://cache.ltn.com.tw/images/appstore.png" alt="appstore" title="appstore">
+        </a>
+        <a title="googleplay" href="https://play.google.com/store/apps/details?id=com.ltnnews.news">
+            <img src="https://cache.ltn.com.tw/images/googleplay.png" alt="googleplay" title="googleplay">
+        </a>
+    </div>
+    <p class="copyright">自由時報版權所有不得轉載<span>© 2026 The Liberty Times. All Rights Reserved.<span></p>
+</footer>
+<script>
+    $(function() {
+        /* 手機版切換 */
+        $("#tom, #tomf").click(function() {
+            cookies_m.write('MOBILE');
+            setTimeout('gotoMobile_cache()', 800);
+        });
+    });
+
+    function gotoMobile_cache() {
+        $(window).scrollTop(0);
+        location.reload();
+    }
+</script>
+<!-- 天氣使用經緯度取資料 -->
+<script async src="https://cache.ltn.com.tw/js/weather.min.js"></script>
+
+<script>
+    var idleAds = {
+    // 'IB1':['/21202031/01-news-idle-B1', [300, 250], 'ad-IB1'],
+    'IC1':['/21202031/01-news-idle-C1', [300, 100], 'ad-IC1']
+};
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        scheduleIdleTask(() => {
+            setTimeout(() => {
+                loadNonCriticalScripts();    // 你的顯示函式
+            }, 60 * 1000);
+        }, { timeout: 1000 });
+    });
+    function loadNonCriticalScripts() {
+        // 1. 動態載入 mCustomScrollbar
+        const sc = document.createElement('script');
+        sc.src = 'https://cache.ltn.com.tw/js/jquery.mCustomScrollbar.concat.min.js';
+        // 2. 等它載完才載入 rwd_idlepage.js
+        sc.onload = () => {
+            const idle = document.createElement('script');
+            // 加上版本號 cache‑bust
+            idle.src = 'https://cache.ltn.com.tw/js/rwd_idlepage.js?20240801';
+            document.body.appendChild(idle);
+        };
+        document.body.appendChild(sc);
+
+        // 3. 同樣延後載入 ppnio.js
+        const p = document.createElement('script');
+        p.src = 'https://player.svc.litv.tv/v3/ppnio.js';
+        document.body.appendChild(p);
+
+        // 4. 再動態執行那段 inline 初始化
+        const inline = document.createElement('script');
+        inline.textContent = 'window.ppnio = window.ppnio || [];';
+        document.body.appendChild(inline);
+    }
+</script>
+<link rel="stylesheet" href="https://cache.ltn.com.tw/css/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_idlepage.css?20240801" />
+
+
+<div class="idle_lightbox_target" id="idle-notice">
+    <div class="content">
+        <div class="idcenter">此網頁已閒置超過5分鐘，請點擊透明黑底或右下角 Ｘ 鈕。</div>
+
+        <div class="idle_con boxTitle" data-desc="熱門推播">
+            <p>熱門推播</p>
+            <ul>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/life/breakingnews/5609661" class="idle_listpic" data-desc="P:0:薔琵颱風快速增強！下週五、六影響最劇烈 估2路徑侵台、北轉仍分歧" title="薔琵颱風快速增強！下週五、六影響最劇烈 估2路徑侵台、北轉仍分歧"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/5609661_3_1.jpg" src="assets/images/spacer.gif" alt="薔琵颱風快速增強！下週五、六影響最劇烈 估2路徑侵台、北轉仍分歧">
+                                </a><a href="https://news.ltn.com.tw/news/life/breakingnews/5609661" class="idle_pictitle" data-desc="T:0:薔琵颱風快速增強！下週五、六影響最劇烈 估2路徑侵台、北轉仍分歧" title="薔琵颱風快速增強！下週五、六影響最劇烈 估2路徑侵台、北轉仍分歧">薔琵颱風快速增強！下週五、六影響最劇烈 估2路徑侵台、北轉仍分歧</a>                    </li>
+                                    <li>
+                        <a href="https://ent.ltn.com.tw/news/breakingnews/5609614" class="idle_listpic" data-desc="P:1:蔡康永「現在只剩嘟嘟嘟」  沈伯洋秒接招超紅迷因來源曝光" title="蔡康永「現在只剩嘟嘟嘟」  沈伯洋秒接招超紅迷因來源曝光"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/10/17/phphnWJoY.jpg" src="assets/images/spacer.gif" alt="蔡康永「現在只剩嘟嘟嘟」  沈伯洋秒接招超紅迷因來源曝光">
+                                </a><a href="https://ent.ltn.com.tw/news/breakingnews/5609614" class="idle_pictitle" data-desc="T:1:蔡康永「現在只剩嘟嘟嘟」  沈伯洋秒接招超紅迷因來源曝光" title="蔡康永「現在只剩嘟嘟嘟」  沈伯洋秒接招超紅迷因來源曝光">蔡康永「現在只剩嘟嘟嘟」  沈伯洋秒接招超紅迷因來源曝光</a>                    </li>
+                                    <li>
+                        <a href="https://auto.ltn.com.tw/news/33190" class="idle_listpic" data-desc="P:2:Honda 新入門跨界 SUV 外觀全面升級！專屬套件上身展現豪華動感魅力" title="Honda 新入門跨界 SUV 外觀全面升級！專屬套件上身展現豪華動感魅力"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/auto/page/2026/10/17/261017-33190-10-JQzOP.jpg" src="assets/images/spacer.gif" alt="Honda 新入門跨界 SUV 外觀全面升級！專屬套件上身展現豪華動感魅力">
+                                </a><a href="https://auto.ltn.com.tw/news/33190" class="idle_pictitle" data-desc="T:2:Honda 新入門跨界 SUV 外觀全面升級！專屬套件上身展現豪華動感魅力" title="Honda 新入門跨界 SUV 外觀全面升級！專屬套件上身展現豪華動感魅力">Honda 新入門跨界 SUV 外觀全面升級！專屬套件上身展現豪華動感魅力</a>                    </li>
+                                    <li>
+                        <a href="https://ec.ltn.com.tw/article/breakingnews/5609548" class="idle_listpic" data-desc="P:3:台股週一慘了？他剛買1張台積電好剉  網笑：抱這檔才要哭" title="台股週一慘了？他剛買1張台積電好剉  網笑：抱這檔才要哭"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/business/page/400S/2026/10/17/php6mDbUZ.jpg" src="assets/images/spacer.gif" alt="台股週一慘了？他剛買1張台積電好剉  網笑：抱這檔才要哭">
+                                </a><a href="https://ec.ltn.com.tw/article/breakingnews/5609548" class="idle_pictitle" data-desc="T:3:台股週一慘了？他剛買1張台積電好剉  網笑：抱這檔才要哭" title="台股週一慘了？他剛買1張台積電好剉  網笑：抱這檔才要哭">台股週一慘了？他剛買1張台積電好剉  網笑：抱這檔才要哭</a>                    </li>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609459" class="idle_listpic" data-desc="P:4:蔣萬安專訪節目上線！開場荒唐「開會畫面」就被網轟爆：有夠假" title="蔣萬安專訪節目上線！開場荒唐「開會畫面」就被網轟爆：有夠假"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/phpwhbpFQ.jpg" src="assets/images/spacer.gif" alt="蔣萬安專訪節目上線！開場荒唐「開會畫面」就被網轟爆：有夠假">
+                                </a><a href="https://news.ltn.com.tw/news/politics/breakingnews/5609459" class="idle_pictitle" data-desc="T:4:蔣萬安專訪節目上線！開場荒唐「開會畫面」就被網轟爆：有夠假" title="蔣萬安專訪節目上線！開場荒唐「開會畫面」就被網轟爆：有夠假">蔣萬安專訪節目上線！開場荒唐「開會畫面」就被網轟爆：有夠假</a>                    </li>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/life/breakingnews/5609606" class="idle_listpic" data-desc="P:5:薔琵最快今晚轉強颱 22日抵台灣東部外海、路徑待觀察" title="薔琵最快今晚轉強颱 22日抵台灣東部外海、路徑待觀察"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/phpsGQpkt.png" src="assets/images/spacer.gif" alt="薔琵最快今晚轉強颱 22日抵台灣東部外海、路徑待觀察">
+                                </a><a href="https://news.ltn.com.tw/news/life/breakingnews/5609606" class="idle_pictitle" data-desc="T:5:薔琵最快今晚轉強颱 22日抵台灣東部外海、路徑待觀察" title="薔琵最快今晚轉強颱 22日抵台灣東部外海、路徑待觀察">薔琵最快今晚轉強颱 22日抵台灣東部外海、路徑待觀察</a>                    </li>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609535" class="idle_listpic" data-desc="P:6:黃國昌列綠營老人健保補助政見 律師提這些論點反駁" title="黃國昌列綠營老人健保補助政見 律師提這些論點反駁"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/phpgXCIIk.jpg" src="assets/images/spacer.gif" alt="黃國昌列綠營老人健保補助政見 律師提這些論點反駁">
+                                </a><a href="https://news.ltn.com.tw/news/politics/breakingnews/5609535" class="idle_pictitle" data-desc="T:6:黃國昌列綠營老人健保補助政見 律師提這些論點反駁" title="黃國昌列綠營老人健保補助政見 律師提這些論點反駁">黃國昌列綠營老人健保補助政見 律師提這些論點反駁</a>                    </li>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/world/breakingnews/5609547" class="idle_listpic" data-desc="P:7:近200輛比亞迪可進出南韓軍事基地！議員憂心被拍攝機密傳回中國" title="近200輛比亞迪可進出南韓軍事基地！議員憂心被拍攝機密傳回中國"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/phpM0PljE.jpg" src="assets/images/spacer.gif" alt="近200輛比亞迪可進出南韓軍事基地！議員憂心被拍攝機密傳回中國">
+                                </a><a href="https://news.ltn.com.tw/news/world/breakingnews/5609547" class="idle_pictitle" data-desc="T:7:近200輛比亞迪可進出南韓軍事基地！議員憂心被拍攝機密傳回中國" title="近200輛比亞迪可進出南韓軍事基地！議員憂心被拍攝機密傳回中國">近200輛比亞迪可進出南韓軍事基地！議員憂心被拍攝機密傳回中國</a>                    </li>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/def/breakingnews/5609534" class="idle_listpic" data-desc="P:8:海鯤潛艦逾期交艦罰款衝破6000萬  海軍最終是如何對台船計罰？" title="海鯤潛艦逾期交艦罰款衝破6000萬  海軍最終是如何對台船計罰？"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/php6cR1SR.jpg" src="assets/images/spacer.gif" alt="海鯤潛艦逾期交艦罰款衝破6000萬  海軍最終是如何對台船計罰？">
+                                </a><a href="https://news.ltn.com.tw/news/def/breakingnews/5609534" class="idle_pictitle" data-desc="T:8:海鯤潛艦逾期交艦罰款衝破6000萬  海軍最終是如何對台船計罰？" title="海鯤潛艦逾期交艦罰款衝破6000萬  海軍最終是如何對台船計罰？">海鯤潛艦逾期交艦罰款衝破6000萬  海軍最終是如何對台船計罰？</a>                    </li>
+                                    <li>
+                        <a href="https://news.ltn.com.tw/news/society/breakingnews/5609552" class="idle_listpic" data-desc="P:9:基隆七堵新建案工安意外 吊掛板材突墜落砸中30歲工人腦漿外溢當場死亡" title="基隆七堵新建案工安意外 吊掛板材突墜落砸中30歲工人腦漿外溢當場死亡"><img class="lazy_imgs_ltn" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/5609552_2_1.jpg" src="assets/images/spacer.gif" alt="基隆七堵新建案工安意外 吊掛板材突墜落砸中30歲工人腦漿外溢當場死亡">
+                                </a><a href="https://news.ltn.com.tw/news/society/breakingnews/5609552" class="idle_pictitle" data-desc="T:9:基隆七堵新建案工安意外 吊掛板材突墜落砸中30歲工人腦漿外溢當場死亡" title="基隆七堵新建案工安意外 吊掛板材突墜落砸中30歲工人腦漿外溢當場死亡">基隆七堵新建案工安意外 吊掛板材突墜落砸中30歲工人腦漿外溢當場死亡</a>                    </li>
+                            </ul>
+        </div>
+
+        <!-- LiTV -->
+        <div class="idle_ad03">
+            <div id="ppn-bHRu-0"></div>
+        </div>
+        <div id="ad-IC1" class="idle_ad02">
+        </div>
+
+        <div class="idle_button">
+            <div class="idle_a1 idle_lightbox_close" id="lightbox-close" title="關閉此視窗">
+                <img class="idle_times" src="https://cache.ltn.com.tw/images/idlepageback.png" alt="關閉此視窗" title="關閉此視窗">
+            </div>
+
+            <div class="idle_a1 idle_lightbox_repeat" id="lightbox-repeat" title="重新整理頁面">
+                <img class="idle_repeat" src="https://cache.ltn.com.tw/images/idlepagereturn.png" alt="重新整理頁面" title="重新整理頁面">
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+    $(function(){
+        try {
+            getScrNews(newsServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+
+</body>
+</html>

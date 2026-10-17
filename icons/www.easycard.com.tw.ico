@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie8" lang="zh-TW" class="no-js"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie9" lang="zh-TW" class="no-js"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html lang="zh-TW" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>悠遊卡股份有限公司</title>
+<meta name="author" content="">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<!-- Facebook Open Graph Meta
+================================================== -->
+<meta property="og:title" content="悠遊卡股份有限公司" />
+<meta property="og:url" content="https://www.easycard.com.tw%2F" />
+<meta property="og:site_name" content="悠遊卡股份有限公司" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://www.easycard.com.tw/styles/images/common/00.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link nonce="NZkefcIqioFn4nCjKJ5Ggw==" href="styles/style.css" rel="stylesheet" type="text/css">
+<link nonce="NZkefcIqioFn4nCjKJ5Ggw==" rel="shortcut icon" href="styles/images/common/favicon.ico" />
+<link nonce="NZkefcIqioFn4nCjKJ5Ggw==" rel="apple-touch-icon" href="styles/images/common/apple-touch-icon.png" />
+
+<link nonce="NZkefcIqioFn4nCjKJ5Ggw==" rel="preload" href="/styles/images/common/avatar_bot.svg" as="image" />
+
+
+
+<style nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+    #headerTitle1{
+        display:none;
+    }
+
+</style>
+
+<!--[if lt IE 9]>
+  <script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/html5shiv.js"></script>
+  <script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/respond.min.js"></script>
+  <script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/css3-mediaqueries.min.js"></script>
+<![endif]-->
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/modernizr-custom.js"></script>
+<!--[if lt IE 10]>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/matchMedia.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/matchMedia.addListener.js"></script>
+<![endif]-->
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw=="  async src="https://www.googletagmanager.com/gtag/js?id=UA-15159729-1" defer></script>
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+
+  window.dataLayer = window.dataLayer || [];
+ window.__nonce = 'NZkefcIqioFn4nCjKJ5Ggw==';
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'UA-15159729-1');
+
+</script>
+
+
+<!--line tag-->
+    <!--line tag-->
+
+</head>
+<body  class="home">
+  <a href="#main" class="sr-only sr-only-focusable" title="跳到主要內容區塊" tabindex="1">跳到主要內容區塊</a>
+  <div class="wrapper">
+    <header id="header">
+  <h1 class="text-hide">悠遊卡股份有限公司</h1>
+  <div class="header-top clearfix" id="header-top">
+    <div class="container">
+      <a accesskey="u" class="accesskey u" href="#header-top" title="上方主選單連結區(U)">:::</a>
+
+      <div class="header-top-left">
+        <!-- <a href="about" class="header-top-link">關於我們</a>
+        <a href="service" class="header-top-link">顧客服務</a>
+        <a href="news?page=1&cls=3" class="header-top-link">公益實績</a> -->
+        <ul class="links-nav">
+            <li><a href="/about" class="">關於我們</a></li><li><a href="/self_service" class="">客戶服務</a></li><li><a href="sustainableOperators" class="">永續專區</a></li><li><a href="investor_monthRevenue" class="">投資人專區</a></li>          </ul>
+      </div>
+      <div class="header-top-right">
+        <ul class="links-nav">
+            <li><a href="/business" class="">企業專區</a></li><li><a href="/easycard?cls=1514964214&id=1510819513" class="">北北基好玩卡</a></li><li>
+                                <div class="toggle">悠遊買</div> <!-- 大分類稱固定，不給改 -->
+                                <ul class="sub"><li><a href="https://easycard.suhul.com.tw/" title="悠遊買線上商城">悠遊買線上商城</a></li><li><a href="https://www.books.com.tw/web/easycard" title="博客來品牌旗艦館">博客來品牌旗艦館</a></li><li><a href="https://www.eslite.com/brand/37036" title="誠品線上品牌旗艦館">誠品線上品牌旗艦館</a></li><li><a href="https://www.momoshop.com.tw/category/LgrpCategory.jsp?l_code=2190700000" title="momo品牌旗艦館">momo品牌旗艦館</a></li><li><a href="https://shopee.tw/mall/search?keyword=%E6%82%A0%E9%81%8A%E5%8D%A1&shop=50662979" title="蝦皮購物 ">蝦皮購物 </a></li><li><a href="https://24h.pchome.com.tw/store/DEASRQ" title="PChome24h購物">PChome24h購物</a></li><li><a href="https://shopee.tw/easycard" title="蝦皮官方旗艦館">蝦皮官方旗艦館</a></li><li><a href="https://www.d1choice.com/" title="D1CHOICE客製卡訂製">D1CHOICE客製卡訂製</a></li> </ul>
+                              </li><li><a href="https://www.easycard.com.tw/new?cls=2&id=1656556190" class="">卡機停用說明 </a></li>        </ul>
+
+        <div class="header-group">
+          <div class="header-top-community">
+            <a href="https://www.facebook.com/easycard.tw/" class="icon fb iconM-fb" title="另開視窗" target="_blank"><span class="text-hide">facebook</span></a>
+            <a href="https://www.youtube.com/channel/UC8__MBsxK0VN0-WFHhnA3og" class="icon youtube iconM-youtube-s" title="另開視窗" target="_blank"><span class="text-hide">youtube</span></a>
+            <a href="https://goo.gl/SJdQtz" class="icon line" title="另開視窗或開啟line app" target="_blank">
+              <img src="styles/images/common/line-addFriend.png" alt="line 加入好友">
+            </a>
+          </div>
+         <div class="header-top-language">
+            <a href="#" class="current-language" title="繁體中文">繁體中文</a>
+            <ul class="language-select">
+              <li>
+                                <a href="./en/" title="跳轉悠遊卡English英文版網頁">ENGLISH</a>
+                              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <a href="./" class="logo" title="回首頁">
+        <img src="styles/images/common/logo.svg" alt="悠遊卡股份有限公司Logo"/>
+      </a>
+      <a href="javascript:;" id="hamburger" title="主選單按鈕">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <nav id="main-menu">
+        <a accesskey="a" class="accesskey m" href="#main-menu" title="回網站首頁的按鈕(A)">:::</a>
+        <h2 class="text-hide">主選單</h2>
+        <ul class="menu-group recordClick">
+          <li>
+            <a href="news" class="unit web-red has-content " data-title="最新動態"><i class="icon icon-news"></i>最新動態</a>
+            <div class="unit-content">
+
+              <a href="news?page=1&cls=1" data-title="新聞與活動">新聞與活動</a><a href="news?page=1&cls=2" data-title="重要公告">重要公告</a><a href="news?page=1&cls=3" data-title="公益實績">公益實績</a><a href="news?page=1&cls=4" data-title="影片觀賞">影片觀賞</a>            </div>
+          </li>
+          <li>
+            <a href="offers" class="unit web-yellow " data-title="好康特區"><i class="icon iconM-bargain"></i>好康特區</a>
+          </li>
+		  
+		  <!--悠遊卡介紹--> 	
+          <li>
+            <a href="easycards" class="unit web-blue has-content " data-title="悠遊卡介紹"><i class="icon icon-introduce"></i>悠遊卡介紹</a>
+            <div class="unit-content">
+              <a href="easycards?cls=1736413647" title="TPASS 2.0" data-title="TPASS 2.0">TPASS 2.0</a><a href="easycards?cls=1743402979" title=" 鮮奶週報" data-title=" 鮮奶週報"> 鮮奶週報</a><a href="easycards?cls=1662119407" title="SuperCard 超級悠遊卡" data-title="SuperCard 超級悠遊卡">SuperCard 超級悠遊卡</a><a href="easycards?cls=1664326685" title="悠遊卡加值機" data-title="悠遊卡加值機">悠遊卡加值機</a><a href="easycards?cls=1560149426" title="悠遊聯名卡" data-title="悠遊聯名卡">悠遊聯名卡</a><a href="easycards?cls=1515395053" title="悠遊卡" data-title="悠遊卡">悠遊卡</a><a href="easycards?cls=1608283169" title="帳戶連結" data-title="帳戶連結">帳戶連結</a><a href="easycards?cls=1682492497" title="全台定期票" data-title="全台定期票">全台定期票</a><a href="easycards?cls=1514964214" title="悠遊套票" data-title="悠遊套票">悠遊套票</a><a href="easycards?cls=1506477783" title="普通卡" data-title="普通卡">普通卡</a>            </div>
+          </li>
+		  
+
+            <li>
+                <a href="https://easywallet.easycard.com.tw/" class="unit web-yellow" target="_blank"><i class="icon icon-pay"></i>悠遊付介紹</a>
+            </li>
+			
+			
+			
+	      <!--行動悠遊--> 		
+          <li>
+            <a href="mobilecards" class="unit web-green has-content " data-title="行動悠遊卡"><i class="icon iconM-cards"></i>行動悠遊卡</a>
+            <div class="unit-content">
+                <a href="mobilecard?id=1583737566" title="Samsung Wallet悠遊卡／Samsung Pay悠遊卡" data-title="Samsung Wallet悠遊卡／Samsung Pay悠遊卡">Samsung Wallet悠遊卡／Samsung Pay悠遊卡</a><a href="mobilecard?id=1717472520" title="小米行動悠遊卡" data-title="小米行動悠遊卡">小米行動悠遊卡</a><a href="mobilecard?id=1583745771" title="電信悠遊卡" data-title="電信悠遊卡">電信悠遊卡</a><a href="mobilecard?id=1583896960" title="電信悠遊聯名卡" data-title="電信悠遊聯名卡">電信悠遊聯名卡</a>            </div>
+          </li>
+
+          
+          <li>
+            <a href="use-range" class="unit web-deepBlue " data-title="使用範圍"><i class="icon iconM-use"></i>使用範圍</a>
+          </li>
+          <li>
+            <a href="museum" class="unit web-deepYellow " data-title="悠遊典藏館"><i class="icon iconM-collections" data-title="悠遊典藏館"></i>悠遊典藏館</a>
+          </li>
+        </ul>
+
+        <div class="header-top-link">
+
+          <ul class="links-nav">
+
+
+
+
+          <li><a href="/about">關於我們</a></li><li><a href="/self_service">客戶服務</a></li><li><a href="sustainableOperators">永續專區</a></li><li><a href="investor_monthRevenue">投資人專區</a></li><li><a href="/business">企業專區</a></li><li><a href="/easycard?cls=1514964214&id=1510819513">北北基好玩卡</a></li><li>
+                                <div class="toggle">悠遊買</div> <!-- 大分類稱固定，不給改 -->
+                                <ul class="sub"><li><a href="https://easycard.suhul.com.tw/" title="悠遊買線上商城">悠遊買線上商城</a></li><li><a href="https://www.books.com.tw/web/easycard" title="博客來品牌旗艦館">博客來品牌旗艦館</a></li><li><a href="https://www.eslite.com/brand/37036" title="誠品線上品牌旗艦館">誠品線上品牌旗艦館</a></li><li><a href="https://www.momoshop.com.tw/category/LgrpCategory.jsp?l_code=2190700000" title="momo品牌旗艦館">momo品牌旗艦館</a></li><li><a href="https://shopee.tw/mall/search?keyword=%E6%82%A0%E9%81%8A%E5%8D%A1&shop=50662979" title="蝦皮購物 ">蝦皮購物 </a></li><li><a href="https://24h.pchome.com.tw/store/DEASRQ" title="PChome24h購物">PChome24h購物</a></li><li><a href="https://shopee.tw/easycard" title="蝦皮官方旗艦館">蝦皮官方旗艦館</a></li><li><a href="https://www.d1choice.com/" title="D1CHOICE客製卡訂製">D1CHOICE客製卡訂製</a></li> </ul>
+                              </li><li><a href="https://www.easycard.com.tw/new?cls=2&id=1656556190">卡機停用說明 </a></li>
+
+
+          </ul>
+        </div>
+        <div class="header-top-language">
+
+                        <a href="./en/" title="跳轉至悠遊卡English英文版網頁">ENGLISH</a>
+          
+          <a href="./" title="跳轉至悠遊卡CHINESE中文版網頁" class="actived">繁體中文</a>
+
+          <i class="icon iconM-earth"></i>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>  <style nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+        </style>
+    <main id="main">
+      <!-- banner start -->
+      <div id="homeBanner" class="banner">
+        <h2 class="text-hide">網站廣告</h2>
+        <div class="top-area">
+          <div class="slider arrows-default">
+                        <div class="item" data-title="「減塑 Easy Life｜集集樂挑戰賽!">
+                               <a href="https://link.easycard.tw/easylifeapp" target="_blank" class="bkdimg" id="index1">
+                              <picture>
+                  <source srcset="_upload/images/2606291514500.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2606291514400.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2606291514340.jpg" alt="「減塑 Easy Life｜集集樂挑戰賽!"/>
+                </picture>
+                <span class="text-hide">「減塑 Easy Life｜集集樂挑戰賽!</span>
+              </a>
+            </div>
+                        <div class="item" data-title="韓國旅遊｜悠遊付現金回饋最高12%">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473490,1506473503,1508721809,&id=1786529493" target="_blank" class="bkdimg" id="index2">
+                              <picture>
+                  <source srcset="_upload/images/2608121930560.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2608121930490.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2608121930430.jpg" alt="韓國旅遊｜悠遊付現金回饋最高12%"/>
+                </picture>
+                <span class="text-hide">韓國旅遊｜悠遊付現金回饋最高12%</span>
+              </a>
+            </div>
+                        <div class="item" data-title="悠遊付專屬連結申辦玉山Unicard並自動加值 最高回饋500元現金回饋券">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1508721809,1508721839,1508721884,1506473490,&id=1789695663" target="_blank" class="bkdimg" id="index3">
+                              <picture>
+                  <source srcset="_upload/images/2610021126260.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2610021126220.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2610021126180.jpg" alt="悠遊付專屬連結申辦玉山Unicard並自動加值 最高回饋500元現金回饋券"/>
+                </picture>
+                <span class="text-hide">悠遊付專屬連結申辦玉山Unicard並自動加值 最高回饋500元現金回饋券</span>
+              </a>
+            </div>
+                        <div class="item" data-title="悠遊卡公司反詐騙重要公告">
+                               <a href="https://www.easycard.com.tw/new?cls=2&id=1760950568" target="_blank" class="bkdimg" id="index4">
+                              <picture>
+                  <source srcset="_upload/images/2510221740490.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2510221740460.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2510221740370.jpg" alt="悠遊卡公司反詐騙重要公告"/>
+                </picture>
+                <span class="text-hide">悠遊卡公司反詐騙重要公告</span>
+              </a>
+            </div>
+                        <div class="item" data-title="樂天新戶綁定悠遊付好禮NT$ 1,000">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1506473490,&id=1784529379" target="_blank" class="bkdimg" id="index5">
+                              <picture>
+                  <source srcset="_upload/images/2607240944280.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2607240944240.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2607240944200.jpg" alt="樂天新戶綁定悠遊付好禮NT$ 1,000"/>
+                </picture>
+                <span class="text-hide">樂天新戶綁定悠遊付好禮NT$ 1,000</span>
+              </a>
+            </div>
+                        <div class="item" data-title="悠遊付綁定永豐現金回饋Green卡最高享5%現金回饋">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1508721839,1506473490,&id=1785726165" target="_blank" class="bkdimg" id="index6">
+                              <picture>
+                  <source srcset="_upload/images/2608061337180.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2608061337150.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2608061337110.jpg" alt="悠遊付綁定永豐現金回饋Green卡最高享5%現金回饋"/>
+                </picture>
+                <span class="text-hide">悠遊付綁定永豐現金回饋Green卡最高享5%現金回饋</span>
+              </a>
+            </div>
+                        <div class="item" data-title="元大悠遊聯名卡首次自動加值享最高20%回饋刷卡金">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1506473490,1508721809,&id=1787728059" target="_blank" class="bkdimg" id="index7">
+                              <picture>
+                  <source srcset="_upload/images/2609071627210.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2609071627170.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2609071627120.jpg" alt="元大悠遊聯名卡首次自動加值享最高20%回饋刷卡金"/>
+                </picture>
+                <span class="text-hide">元大悠遊聯名卡首次自動加值享最高20%回饋刷卡金</span>
+              </a>
+            </div>
+                        <div class="item" data-title="::: 悠遊付綁定元大信用卡消費單筆滿168元享5%刷卡金">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1506473490,&id=1791346423" target="_blank" class="bkdimg" id="index8">
+                              <picture>
+                  <source srcset="_upload/images/2610151008360.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2610151008310.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2610151008270.jpg" alt="::: 悠遊付綁定元大信用卡消費單筆滿168元享5%刷卡金"/>
+                </picture>
+                <span class="text-hide">::: 悠遊付綁定元大信用卡消費單筆滿168元享5%刷卡金</span>
+              </a>
+            </div>
+                        <div class="item" data-title="玉山悠遊聯名卡自動加值最高享6.6%回饋">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1508721809,1508721839,1508721884,1506473490,&id=1789695804" target="_blank" class="bkdimg" id="index9">
+                              <picture>
+                  <source srcset="_upload/images/2610121359330.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2610121359290.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2610121359220.jpg" alt="玉山悠遊聯名卡自動加值最高享6.6%回饋"/>
+                </picture>
+                <span class="text-hide">玉山悠遊聯名卡自動加值最高享6.6%回饋</span>
+              </a>
+            </div>
+                        <div class="item" data-title="基北北桃我的減碳存摺2.0">
+                               <a href="https://co2-passbook.com/" target="_blank" class="bkdimg" id="index10">
+                              <picture>
+                  <source srcset="_upload/images/2605261312370.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2605261312310.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2605261312270.jpg" alt="基北北桃我的減碳存摺2.0"/>
+                </picture>
+                <span class="text-hide">基北北桃我的減碳存摺2.0</span>
+              </a>
+            </div>
+                        <div class="item" data-title="跟Richart一起快樂悠遊付 完成指定任務享用戶禮回饋">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1506473490,&id=1768380568" target="_blank" class="bkdimg" id="index11">
+                              <picture>
+                  <source srcset="_upload/images/2601161033070.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2601161032480.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2601161032400.jpg" alt="跟Richart一起快樂悠遊付 完成指定任務享用戶禮回饋"/>
+                </picture>
+                <span class="text-hide">跟Richart一起快樂悠遊付 完成指定任務享用戶禮回饋</span>
+              </a>
+            </div>
+                        <div class="item" data-title="智慧e繳稅 悠遊付發票存雲端 悠遊卡載具歸戶 加碼拿好禮">
+                               <a href="https://link.easycard.tw/8wp3dg" target="_blank" class="bkdimg" id="index12">
+                              <picture>
+                  <source srcset="_upload/images/2604081445240.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2604081445210.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2604081445120.jpg" alt="智慧e繳稅 悠遊付發票存雲端 悠遊卡載具歸戶 加碼拿好禮"/>
+                </picture>
+                <span class="text-hide">智慧e繳稅 悠遊付發票存雲端 悠遊卡載具歸戶 加碼拿好禮</span>
+              </a>
+            </div>
+                        <div class="item" data-title="選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,&id=1774403633" target="_blank" class="bkdimg" id="index13">
+                              <picture>
+                  <source srcset="_upload/images/2604081448140.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2604081448100.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2604081448060.jpg" alt="選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！"/>
+                </picture>
+                <span class="text-hide">選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！</span>
+              </a>
+            </div>
+                        <div class="item" data-title="悠遊付繳學雜費最高10%回饋，綁定玉山信用卡滿額登錄享3期0利率">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473490,1506473503,&id=1785477114" target="_blank" class="bkdimg" id="index14">
+                              <picture>
+                  <source srcset="_upload/images/2608271635500.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2608271635430.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2608271635380.jpg" alt="悠遊付繳學雜費最高10%回饋，綁定玉山信用卡滿額登錄享3期0利率"/>
+                </picture>
+                <span class="text-hide">悠遊付繳學雜費最高10%回饋，綁定玉山信用卡滿額登錄享3期0利率</span>
+              </a>
+            </div>
+                        <div class="item" data-title="什麼？手機可以感應悠遊卡，隨時幫卡片加值？">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473519,1506473490,1506473503,&id=1739775992&utm_source=official&utm_medium=top&utm_campaign=app-add-value_2503&utm_content=0221" target="_blank" class="bkdimg" id="index15">
+                              <picture>
+                  <source srcset="_upload/images/2506270952260.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2506270952240.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2506270952210.jpg" alt="什麼？手機可以感應悠遊卡，隨時幫卡片加值？"/>
+                </picture>
+                <span class="text-hide">什麼？手機可以感應悠遊卡，隨時幫卡片加值？</span>
+              </a>
+            </div>
+                        <div class="item" data-title="全家便利商店 悠遊付錢包帳戶滿額最高回饋16% 首次消費加贈20%回饋券">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473490,1506473503,1508721809,&id=1789723546" target="_blank" class="bkdimg" id="index16">
+                              <picture>
+                  <source srcset="_upload/images/2609291401400.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2609291401360.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2609291401320.jpg" alt="全家便利商店 悠遊付錢包帳戶滿額最高回饋16% 首次消費加贈20%回饋券"/>
+                </picture>
+                <span class="text-hide">全家便利商店 悠遊付錢包帳戶滿額最高回饋16% 首次消費加贈20%回饋券</span>
+              </a>
+            </div>
+                        <div class="item" data-title="悠遊付逢1生活繳費享筆筆加碼2%回饋">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473490,&id=1789720786" target="_blank" class="bkdimg" id="index17">
+                              <picture>
+                  <source srcset="_upload/images/2609291403040.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2609291403000.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2609291402560.jpg" alt="悠遊付逢1生活繳費享筆筆加碼2%回饋"/>
+                </picture>
+                <span class="text-hide">悠遊付逢1生活繳費享筆筆加碼2%回饋</span>
+              </a>
+            </div>
+                        <div class="item" data-title="獨享禮遇JCB晶緻等級以上（含極緻）悠遊卡自動加值10%現金回饋優惠活動">
+                               <a href="https://ezweb.easycard.com.tw/Event01/JCBMainServlet" target="_blank" class="bkdimg" id="index18">
+                              <picture>
+                  <source srcset="_upload/images/2512101638030.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2512101637300.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2512101637150.jpg" alt="獨享禮遇JCB晶緻等級以上（含極緻）悠遊卡自動加值10%現金回饋優惠活動"/>
+                </picture>
+                <span class="text-hide">獨享禮遇JCB晶緻等級以上（含極緻）悠遊卡自動加值10%現金回饋優惠活動</span>
+              </a>
+            </div>
+                        <div class="item" data-title="週五會員日 最高回饋5%">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473490,1506473503,1508721809,1508721884,&id=1747884970" target="_blank" class="bkdimg" id="index19">
+                              <picture>
+                  <source srcset="_upload/images/2609291048180.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2609291048150.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2609291048060.jpg" alt="週五會員日 最高回饋5%"/>
+                </picture>
+                <span class="text-hide">週五會員日 最高回饋5%</span>
+              </a>
+            </div>
+                        <div class="item" data-title="Samsung Galaxy S26FE購機 悠遊卡回饋加值金">
+                               <a class="bkdimg" id="index20">
+                              <picture>
+                  <source srcset="_upload/images/2609141113100.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2609141112210.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2609141112150.jpg" alt="Samsung Galaxy S26FE購機 悠遊卡回饋加值金"/>
+                </picture>
+                <span class="text-hide">Samsung Galaxy S26FE購機 悠遊卡回饋加值金</span>
+              </a>
+            </div>
+                        <div class="item" data-title="【萊爾富】悠遊滿額贈商品兌換券">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1508721809,1506473490,&id=1791359075" target="_blank" class="bkdimg" id="index21">
+                              <picture>
+                  <source srcset="_upload/images/2610121416200.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2610121416170.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2610121416140.jpg" alt="【萊爾富】悠遊滿額贈商品兌換券"/>
+                </picture>
+                <span class="text-hide">【萊爾富】悠遊滿額贈商品兌換券</span>
+              </a>
+            </div>
+                        <div class="item" data-title="悠遊聯名卡在「統一超商」首次自動加值 贈50元悠遊付現金回饋券">
+                               <a href="https://www.easycard.com.tw/offer?cls=1506473503,1506473490,&id=1790061569" target="_blank" class="bkdimg" id="index22">
+                              <picture>
+                  <source srcset="_upload/images/2609291450050.jpg" media="(max-width: 768px)">
+                  <source srcset="_upload/images/2609291449580.jpg" media="(max-width: 1279px)">
+                  <img srcset="_upload/images/2609291449540.jpg" alt="悠遊聯名卡在「統一超商」首次自動加值 贈50元悠遊付現金回饋券"/>
+                </picture>
+                <span class="text-hide">悠遊聯名卡在「統一超商」首次自動加值 贈50元悠遊付現金回饋券</span>
+              </a>
+            </div>
+                      </div>
+          <div class="text container">
+            <div class="website-search">
+              <a accesskey="s" class="accesskey s" href="#searchForm" title="站內搜尋(S)">:::</a>
+
+              <!--results-->
+              <form action="results" method="get" accept-charset="utf-8" id="searchForm" name="searchForm" class="website-search-form">
+                <label for="keywords">
+                  <div class="text-hide">站內搜尋</div>
+                  <input type="text" name="keywords" id="keywords" placeholder="站內搜尋" alt="請輸入關鍵字" class="form-input">
+                </label>
+                <button class="form-button" type="submit" alt="送出搜尋"><i class="iconM-search"></i></button>
+              </form>
+              <ul class="website-link recordClick">
+
+                <li class="active"><a href="https://www.easycard.com.tw/integrity" target="_blank" data-id="1508739513" data-title="反詐騙專區">反詐騙專區</a></li><li class="active"><a href="https://ezweb.easycard.com.tw/Event01/JCBMainServlet" target="_blank" data-id="1508739496" data-title="JCB晶緻悠遊卡活動">JCB晶緻悠遊卡活動</a></li><li class="active"><a href="https://ezweb.easycard.com.tw/eccl2/apply.action" target="_blank" data-id="1508739505" data-title="悠遊卡記名設定與掛失">悠遊卡記名設定與掛失</a></li><li class="active"><a href="https://ezweb.easycard.com.tw/search/CardSearch.php" target="_blank" data-id="1508739535" data-title="悠遊卡查詢交易紀錄">悠遊卡查詢交易紀錄</a></li><li><a href="https://masweb.easycard.com.tw/ttECWeb/" target="_blank" data-id="1508739522" data-title="悠遊卡退費相關業務">悠遊卡退費相關業務</a></li><li><a href="https://www.easycard.com.tw/introduction?id=3" target="_blank" data-id="1508740538" data-title="如何辦理退卡">如何辦理退卡</a></li>              </ul>
+            </div>
+            <div class="exchange">
+              <div class="exchange__title">悠遊卡即時匯率</div>
+              <div class="exchange__ctr">
+                <div class="exchange__money exchange__money--other">
+                  <div class="exchange__number">1</div>
+                  <div class="exchange__flag">
+                    <img src="styles/images/icon/icon-jp.png" alt="">
+                    <span>JPY</span>
+                  </div>
+                </div>
+                <div class="exchange__change">
+                  <img src="styles/images/icon/icon-exchange-arrows.svg" alt="">
+                </div>
+                <div class="exchange__money exchange__money--twd">
+
+                  <div class="exchange__number">0.2108</div>
+                  <div class="exchange__flag">
+                    <img src="styles/images/icon/icon-tw.png" alt="">
+                    <span>TWD</span>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="exchange__toggle"></div> -->
+              <div class="exchange__info">
+                <div class="exchange__time">更新時間: 2026-10-17</div>
+                <div class="exchange__refer">參考匯率為琉球銀行與台新銀行交叉換算取得<br/>本匯率有10分鐘的誤差<br/>實際匯率以扣款時設備顯示的匯率為準</div>
+              </div>
+			  <!-- <a href="#1" class="exchange__more">更多 ></a> -->
+
+            </div>
+
+
+          </div>
+        </div>
+        <div class="understandMore">
+          <div class="container">
+
+            <div class="pic left">
+                            <img src="_upload/images/1711021219130.png" alt="">
+                          </div>
+            <div class="inner">
+              <span class="font-18"> </span>
+              <a href="easycards.php" class="btn btn-y radius-50" title="">了解悠遊卡<i class="icon icon-arrow ml"></i></a>
+            </div>
+            <div class="pic right">
+
+                          </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner end -->
+      <a id="LocationPoint_C" href="#LocationPoint_C" class="accesskey c" accesskey="C" title="主要內容區定位點(C)">:::</a>
+      <!-- news start -->
+      <div id="latestNews" class="latest-news">
+        <div class="news-nav container">
+          <h2 class="title">最新資訊</h2>
+          <div class="slider">
+                        <a href="new?cls=2&id=1791449226" class="item" title="公開遴選廠商參與競標「FortiWeb網站防火牆系統維護服務採購案」">
+              <div class="category">最新動態</div>
+              <time>2026-10-15</time>
+              <h3 class="title">公開遴選廠商參與競標「FortiWeb網站防火牆系統維護服務採購案」</h3>
+            </a>
+                        <a href="new?cls=2&id=1791448810" class="item" title="公開遴選廠商參與競標「資料外洩防護系統建置案」">
+              <div class="category">最新動態</div>
+              <time>2026-10-13</time>
+              <h3 class="title">公開遴選廠商參與競標「資料外洩防護系統建置案」</h3>
+            </a>
+                        <a href="new?cls=2&id=1791448380" class="item" title="公開遴選廠商參與競標「悠遊卡2026年入侵偵測防禦系統維護服務採購案」">
+              <div class="category">最新動態</div>
+              <time>2026-10-13</time>
+              <h3 class="title">公開遴選廠商參與競標「悠遊卡2026年入侵偵測防禦系統維護服務採購案」</h3>
+            </a>
+                        <a href="new?cls=1&id=1791859616" class="item" title="南門市場週年感謝祭熱鬧登場 最高30%回饋金等你拿">
+              <div class="category">最新動態</div>
+              <time>2026-10-13</time>
+              <h3 class="title">南門市場週年感謝祭熱鬧登場 最高30%回饋金等你拿</h3>
+            </a>
+                        <a href="new?cls=2&id=1791190627" class="item" title="公開遴選廠商參與競標「Acronis備份系統維護案」(第2次)">
+              <div class="category">最新動態</div>
+              <time>2026-10-07</time>
+              <h3 class="title">公開遴選廠商參與競標「Acronis備份系統維護案」(第2次)</h3>
+            </a>
+                        <a href="new?cls=2&id=1791191407" class="item" title="公開遴選廠商參與競標「悠遊卡系統趨勢科技Deep Security軟體產品維護案」">
+              <div class="category">最新動態</div>
+              <time>2026-10-06</time>
+              <h3 class="title">公開遴選廠商參與競標「悠遊卡系統趨勢科技Deep Security軟體產品維護案」</h3>
+            </a>
+                        <a href="new?cls=1&id=1790824358" class="item" title="三麗鷗灰白娃娃掛飾SuperCard悠遊卡盲盒搶先開賣 10/6起悠遊付會員限定搶購">
+              <div class="category">最新動態</div>
+              <time>2026-10-01</time>
+              <h3 class="title">三麗鷗灰白娃娃掛飾SuperCard悠遊卡盲盒搶先開賣 10/6起悠遊付會員限定搶購</h3>
+            </a>
+                        <a href="new?cls=2&id=1790669659" class="item" title="公開遴選廠商參與競標「IMPERVA資料庫稽核管理系統維護服務案」(第3次)">
+              <div class="category">最新動態</div>
+              <time>2026-09-30</time>
+              <h3 class="title">公開遴選廠商參與競標「IMPERVA資料庫稽核管理系統維護服務案」(第3次)</h3>
+            </a>
+                        <a href="new?cls=1&id=1790731582" class="item" title="媽祖迷必收 「跟著媽祖心旅行SuperCard平安悠遊卡」9月開賣">
+              <div class="category">最新動態</div>
+              <time>2026-09-30</time>
+              <h3 class="title">媽祖迷必收 「跟著媽祖心旅行SuperCard平安悠遊卡」9月開賣</h3>
+            </a>
+                        <a href="new?cls=2&id=1789550144" class="item" title="【基北北桃我的減碳存摺2.0】活動5加碼月月抽-8月得獎公告">
+              <div class="category">最新動態</div>
+              <time>2026-09-25</time>
+              <h3 class="title">【基北北桃我的減碳存摺2.0】活動5加碼月月抽-8月得獎公告</h3>
+            </a>
+                        <a href="new?cls=1&id=1790824605" class="item" title="悠遊卡公司一舉拿下國家品牌玉山獎！「減塑 Easy Life」讓減塑變得超簡單 ">
+              <div class="category">最新動態</div>
+              <time>2026-09-24</time>
+              <h3 class="title">悠遊卡公司一舉拿下國家品牌玉山獎！「減塑 Easy Life」讓減塑變得超簡單 </h3>
+            </a>
+                        <a href="new?cls=2&id=1790151658" class="item" title="新光銀行「電子支付帳戶連結服務終止」公告">
+              <div class="category">最新動態</div>
+              <time>2026-09-23</time>
+              <h3 class="title">新光銀行「電子支付帳戶連結服務終止」公告</h3>
+            </a>
+                        <a href="new?cls=2&id=1790039267" class="item" title="【反詐騙宣導】Threads平臺誘餌詐騙">
+              <div class="category">最新動態</div>
+              <time>2026-09-23</time>
+              <h3 class="title">【反詐騙宣導】Threads平臺誘餌詐騙</h3>
+            </a>
+                        <a href="new?cls=1&id=1790129374" class="item" title="「日常採買」優惠登場 悠遊付最高10%回饋金">
+              <div class="category">最新動態</div>
+              <time>2026-09-23</time>
+              <h3 class="title">「日常採買」優惠登場 悠遊付最高10%回饋金</h3>
+            </a>
+                        <a href="new?cls=2&id=1789625155" class="item" title="公開遴選廠商參與競標「Acronis備份系統維護案」">
+              <div class="category">最新動態</div>
+              <time>2026-09-21</time>
+              <h3 class="title">公開遴選廠商參與競標「Acronis備份系統維護案」</h3>
+            </a>
+            
+          </div>
+          <div class="slider-dots"></div>
+          <div class="text-center">
+            <a href="news" class="btn more radius-50">了解更多</a>
+          </div>
+        </div>
+        <div class="news-slider">
+          <h2 class="text-hide">最新動態</h2>
+          <div class="slider arrows-default">
+                       <a href="new?cls=1&id=1791859616" class="item" title="南門市場週年感謝祭熱鬧登場 最高30%回饋金等你拿">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2610131046030.jpg" alt="南門市場週年感謝祭熱鬧登場 最高30%回饋金等你拿">
+                              </div>
+              <div class="text">
+                <time>2026-10-13</time>
+                <h3 class="title">南門市場週年感謝祭熱鬧登場 最高30%回饋金等你拿</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1790824358" class="item" title="三麗鷗灰白娃娃掛飾SuperCard悠遊卡盲盒搶先開賣 10/6起悠遊付會員限定搶購">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2610011112330.jpg" alt="三麗鷗灰白娃娃掛飾SuperCard悠遊卡盲盒搶先開賣 10/6起悠遊付會員限定搶購">
+                              </div>
+              <div class="text">
+                <time>2026-10-01</time>
+                <h3 class="title">三麗鷗灰白娃娃掛飾SuperCard悠遊卡盲盒搶先開賣 10/6起悠遊付會員限定搶購</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1790731582" class="item" title="媽祖迷必收 「跟著媽祖心旅行SuperCard平安悠遊卡」9月開賣">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2609300925560.jpg" alt="媽祖迷必收 「跟著媽祖心旅行SuperCard平安悠遊卡」9月開賣">
+                              </div>
+              <div class="text">
+                <time>2026-09-30</time>
+                <h3 class="title">媽祖迷必收 「跟著媽祖心旅行SuperCard平安悠遊卡」9月開賣</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1790824605" class="item" title="悠遊卡公司一舉拿下國家品牌玉山獎！「減塑 Easy Life」讓減塑變得超簡單 ">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2610011116050.jpg" alt="悠遊卡公司一舉拿下國家品牌玉山獎！「減塑 Easy Life」讓減塑變得超簡單 ">
+                              </div>
+              <div class="text">
+                <time>2026-09-24</time>
+                <h3 class="title">悠遊卡公司一舉拿下國家品牌玉山獎！「減塑 Easy Life」讓減塑變得超簡單 </h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1790129374" class="item" title="「日常採買」優惠登場 悠遊付最高10%回饋金">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2609231009270.jpg" alt="「日常採買」優惠登場 悠遊付最高10%回饋金">
+                              </div>
+              <div class="text">
+                <time>2026-09-23</time>
+                <h3 class="title">「日常採買」優惠登場 悠遊付最高10%回饋金</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1788858109" class="item" title="日韓巨星來台再掀「悠遊卡熱潮」從支付神卡變身最夯台味伴手禮">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2609081701350.jpg" alt="日韓巨星來台再掀「悠遊卡熱潮」從支付神卡變身最夯台味伴手禮">
+                              </div>
+              <div class="text">
+                <time>2026-09-08</time>
+                <h3 class="title">日韓巨星來台再掀「悠遊卡熱潮」從支付神卡變身最夯台味伴手禮</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1788316318" class="item" title="國立大學數位轉型領航  北護大繳費機全面導入悠遊付TWQR 校務規費掃碼一機搞定">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2609021410440.jpg" alt="國立大學數位轉型領航  北護大繳費機全面導入悠遊付TWQR 校務規費掃碼一機搞定">
+                              </div>
+              <div class="text">
+                <time>2026-09-02</time>
+                <h3 class="title">國立大學數位轉型領航  北護大繳費機全面導入悠遊付TWQR 校務規費掃碼一機搞定</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1788231265" class="item" title="赴韓旅遊必備悠遊付  9/1起每筆最高送12%回饋">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2609011054160.JPG" alt="赴韓旅遊必備悠遊付  9/1起每筆最高送12%回饋">
+                              </div>
+              <div class="text">
+                <time>2026-09-01</time>
+                <h3 class="title">赴韓旅遊必備悠遊付  9/1起每筆最高送12%回饋</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1788145840" class="item" title="爸媽省錢神器！繳納學雜費悠遊付神助攻 最高賺10%  綁玉山信用卡滿額享3期0利率">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608311110120.jpeg" alt="爸媽省錢神器！繳納學雜費悠遊付神助攻 最高賺10%  綁玉山信用卡滿額享3期0利率">
+                              </div>
+              <div class="text">
+                <time>2026-08-31</time>
+                <h3 class="title">爸媽省錢神器！繳納學雜費悠遊付神助攻 最高賺10%  綁玉山信用卡滿額享3期0利率</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1787890089" class="item" title="8/31起！鮮奶福利擴大至國中生　悠遊卡學生證助攻 逾100萬學童免費喝鮮奶">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608281208020.jpg" alt="8/31起！鮮奶福利擴大至國中生　悠遊卡學生證助攻 逾100萬學童免費喝鮮奶">
+                              </div>
+              <div class="text">
+                <time>2026-08-28</time>
+                <h3 class="title">8/31起！鮮奶福利擴大至國中生　悠遊卡學生證助攻 逾100萬學童免費喝鮮奶</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1787722737" class="item" title="嗶！1秒即領敬老禮金  悠遊卡攜手15大通路 9/1起買一送一等好康登場">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608261338390.jpg" alt="嗶！1秒即領敬老禮金  悠遊卡攜手15大通路 9/1起買一送一等好康登場">
+                              </div>
+              <div class="text">
+                <time>2026-08-26</time>
+                <h3 class="title">嗶！1秒即領敬老禮金  悠遊卡攜手15大通路 9/1起買一送一等好康登場</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1787551964" class="item" title="歡慶捷運廣慈/奉天宮站盛大啟用！悠遊卡、悠遊付支付通通送$20">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608241412410.jpg" alt="歡慶捷運廣慈/奉天宮站盛大啟用！悠遊卡、悠遊付支付通通送$20">
+                              </div>
+              <div class="text">
+                <time>2026-08-24</time>
+                <h3 class="title">歡慶捷運廣慈/奉天宮站盛大啟用！悠遊卡、悠遊付支付通通送$20</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1787130923" class="item" title="悠遊卡公司x淡江大學打造全台首創TWQR智慧校園 線上線下支付全面啟用">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608191715170.jpeg" alt="悠遊卡公司x淡江大學打造全台首創TWQR智慧校園 線上線下支付全面啟用">
+                              </div>
+              <div class="text">
+                <time>2026-08-19</time>
+                <h3 class="title">悠遊卡公司x淡江大學打造全台首創TWQR智慧校園 線上線下支付全面啟用</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1786939254" class="item" title="基北北桃「我的減碳存摺」加碼登場！ 雙重活動齊發 減碳兌現金、抽筆電、機票超值好禮">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608171200410.jpeg" alt="基北北桃「我的減碳存摺」加碼登場！ 雙重活動齊發 減碳兌現金、抽筆電、機票超值好禮">
+                              </div>
+              <div class="text">
+                <time>2026-08-17</time>
+                <h3 class="title">基北北桃「我的減碳存摺」加碼登場！ 雙重活動齊發 減碳兌現金、抽筆電、機票超值好禮</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                        <a href="new?cls=1&id=1785999948" class="item" title="只需1步驟！ 1秒嗶卡即領敬老禮金 再享超低專屬優惠">
+              <div class="jqimgFill">
+                                <img src="_upload/images/2608061527340.jpg" alt="只需1步驟！ 1秒嗶卡即領敬老禮金 再享超低專屬優惠">
+                              </div>
+              <div class="text">
+                <time>2026-08-07</time>
+                <h3 class="title">只需1步驟！ 1秒嗶卡即領敬老禮金 再享超低專屬優惠</h3>
+                <span class="line"></span>
+                <p class="des">&nbsp;</p>
+              </div>
+            </a>
+                      </div>
+          <div class="text-center pb3">
+            <a class="btn btn-r radius-50 more" href="news">更多最新動態</a>
+          </div>
+        </div>
+      </div>
+      <!-- news end -->
+      <!-- cards start -->
+      <div id="homeCards" class="home-cards p3">
+        <div class="container">
+          <!-- <div class="cards-head clearfix pb3">
+            <h2 class="text-hide">悠遊卡種類</h2>
+            <div class="cards-classification top">
+              <a href="business" class="btn btn-b radius-50">企業訂製卡</a>
+              <a href="museum" class="btn btn-r radius-50">悠遊典藏館</a>
+            </div>
+
+            <div class="cards-series">
+                          </div>
+          </div> -->
+
+          <div class="slider arrows-default">
+
+                        <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151740590.jpg" alt="">
+                </div>
+                <h3 class="title">老屋顏鑲嵌玻璃系列SUPERCARD悠遊卡-臺灣原生種 帝雉</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151743020.jpg" alt="">
+                </div>
+                <h3 class="title">老屋顏鑲嵌玻璃系列SUPERCARD悠遊卡-臺灣原生種 櫻花鉤吻鮭</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231809260.jpg" alt="">
+                </div>
+                <h3 class="title">Monchhichi系列SuperCard悠遊卡-粉萌甜心</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231810590.jpg" alt="">
+                </div>
+                <h3 class="title">Monchhichi系列SuperCard悠遊卡-甜蜜相伴</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2610081151040.jpg" alt="">
+                </div>
+                <h3 class="title">Monchhichi 四格照片Supercard悠遊卡</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814251">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2610081157240.jpg" alt="">
+                </div>
+                <h3 class="title">三麗鷗灰白娃娃掛飾Supercard悠遊卡(隨機款)</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2610081154430.jpg" alt="">
+                </div>
+                <h3 class="title">哆啦A夢 甜甜圈系列Supercard造型悠遊卡-donut</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151631470.jpg" alt="">
+                </div>
+                <h3 class="title">吉伊卡哇御守Supercard悠遊卡-小八貓</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151634270.jpg" alt="">
+                </div>
+                <h3 class="title">吉伊卡哇御守Supercard悠遊卡-兔兔</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151639210.jpg" alt="">
+                </div>
+                <h3 class="title">手繪日常系列Supercard悠遊卡-MEOW</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151642320.jpg" alt="">
+                </div>
+                <h3 class="title">手繪日常系列Supercard悠遊卡-WOOF</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151644010.jpg" alt="">
+                </div>
+                <h3 class="title">手繪日常系列Supercard悠遊卡-喫茶店</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151645020.jpg" alt="">
+                </div>
+                <h3 class="title">手繪日常系列Supercard悠遊卡-綠手指</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151646280.jpg" alt="">
+                </div>
+                <h3 class="title">手繪日常系列Supercard悠遊卡-許願寶石</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151625510.jpg" alt="">
+                </div>
+                <h3 class="title">吉伊卡哇御守Supercard悠遊卡-吉伊卡哇</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231759290.jpg" alt="">
+                </div>
+                <h3 class="title">跟著媽祖心旅行SuperCard平安悠遊卡(桃紅)</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231802100.jpg" alt="">
+                </div>
+                <h3 class="title">跟著媽祖心旅行SuperCard平安悠遊卡(深紫)</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231804040.jpg" alt="">
+                </div>
+                <h3 class="title">跟著媽祖心旅行SuperCard平安悠遊卡(藍紫)  </h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231805240.jpg" alt="">
+                </div>
+                <h3 class="title">跟著媽祖心旅行SuperCard平安悠遊卡(橘紅)</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231806360.jpg" alt="">
+                </div>
+                <h3 class="title">跟著媽祖心旅行SuperCard平安悠遊卡(粉紫)</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609231807480.jpg" alt="">
+                </div>
+                <h3 class="title">跟著媽祖心旅行SuperCard平安悠遊卡(粉紅)</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2608111041120.jpg" alt="">
+                </div>
+                <h3 class="title">印花樂SUPERCARD悠遊卡_五路財神</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2608111042290.jpg" alt="">
+                </div>
+                <h3 class="title">印花樂SUPERCARD悠遊卡_月下老人</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151615320.jpg" alt="">
+                </div>
+                <h3 class="title">哆啦A夢 幾何Supercard悠遊卡-探頭看看</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151616570.jpg" alt="">
+                </div>
+                <h3 class="title">音速小子霓虹系列Supercard悠遊卡-LET'S ROLL</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151620470.jpg" alt="">
+                </div>
+                <h3 class="title">吉伊卡哇Supercard悠遊卡-靠在一起</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2609151622340.jpg" alt="">
+                </div>
+                <h3 class="title">《孤獨搖滾！》Supercard悠遊卡-Never Alone</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2608111008180.jpg" alt="">
+                </div>
+                <h3 class="title">醜白兔系列SUPERCARD悠遊卡_旅行小醜白-藍色</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2608111023360.jpg" alt="">
+                </div>
+                <h3 class="title">醜白兔系列SUPERCARD悠遊卡_旅行小醜咖-黃色</h3>
+              </a>
+            </div>
+			            <div class="item filter-style1508814237">
+              <a href="#1">
+                <div class="pic">
+                  <img src="_upload/images/2608111025280.jpg" alt="">
+                </div>
+                <h3 class="title">醜白兔系列SUPERCARD悠遊卡_渡假小醜白-椰子</h3>
+              </a>
+            </div>
+			
+
+
+
+
+
+          </div>
+          <div class="cards-classification pt3">
+            <!--<a href="business" class="btn btn-b radius-50">企業訂製卡</a>-->
+            <a href="museum" class="btn btn-r radius-50">悠遊典藏館</a>
+          </div>
+        </div>
+      </div>
+      <!-- cards end -->
+      <!-- bargain start -->
+      <div id="homeBargain" class="home-bargain p3">
+        <div class="container">
+          <div class="home-bargain-head">
+            <div class="inner">
+              <h2 class="title font-30">好康特區</h2>
+              <p class="des">悠遊卡專屬優惠<br />
+全台特約商店讓你好康享不完</p>
+              <a href="/offers?page=1" class="btn btn-y radius-50">更多優惠活動</a>
+            </div>
+          </div>
+          <div class="home-bargain-list">
+                        <a href="https://www.easycard.com.tw/offer?cls=1506473490,1506473503,1508721809,&id=1790062414" class="item first" title="悠遊卡生活購物嗶計畫 消費滿額享最高回饋8%">
+              <div class="pic">
+                <img src="_upload/images/2609301149590.jpg" alt="悠遊卡生活購物嗶計畫 消費滿額享最高回饋8%">
+              </div>
+              <!--<h3 class="text">悠遊卡生活購物嗶計畫 消費滿額享最高回饋8%</h3>-->
+            </a>
+                        <a href="https://www.easycard.com.tw/offer?cls=1506473490,1508721809,1506473503,&id=1789630483" class="item " title="【麥當勞APP手機點餐】悠遊付滿額最高回饋10%">
+              <div class="pic">
+                <img src="_upload/images/2609301152180.jpg" alt="【麥當勞APP手機點餐】悠遊付滿額最高回饋10%">
+              </div>
+              <!--<h3 class="text">【麥當勞APP手機點餐】悠遊付滿額最高回饋10%</h3>-->
+            </a>
+                        <a href="https://www.easycard.com.tw/offer?cls=1506473503,1508721809,1506473490,&id=1755075067" class="item " title="必勝客-悠遊卡獨家優惠">
+              <div class="pic">
+                <img src="_upload/images/2606091116090.jpg" alt="必勝客-悠遊卡獨家優惠">
+              </div>
+              <!--<h3 class="text">必勝客-悠遊卡獨家優惠</h3>-->
+            </a>
+                        <a href="https://www.easycard.com.tw/offer?cls=1506473503,1508721809,1506473490,&id=1789960541" class="item " title="頂呱呱_悠遊美味餐180元">
+              <div class="pic">
+                <img src="_upload/images/2609211528560.jpg" alt="頂呱呱_悠遊美味餐180元">
+              </div>
+              <!--<h3 class="text">頂呱呱_悠遊美味餐180元</h3>-->
+            </a>
+                        <a href="https://ezweb.easycard.com.tw/Event01/JCBMainServlet" class="item " title="JCB">
+              <div class="pic">
+                <img src="_upload/images/2512311510010.jpg" alt="JCB">
+              </div>
+              <!--<h3 class="text">JCB</h3>-->
+            </a>
+                      </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+  ﻿
+<div id="fb-root"></div>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10&appId=1952782831653448";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+document.addEventListener('DOMContentLoaded', function() {
+    var elements = document.querySelectorAll('[data-style]');
+    elements.forEach(function(el) {
+        el.style.cssText = el.getAttribute('data-style');
+        el.removeAttribute('data-style'); // 可選
+    });
+});
+</script>
+<style nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+  /* footer1：第一組【悠遊卡App安裝下載】 */
+  #footer1 { margin-bottom: 16px; }
+  /* footer2：悠遊卡App安裝下載內 app-qrCode 圖片 */
+  #footer2 { max-width: 83px; }
+  /* footer3：第二組【悠遊付店家App安裝下載】 */
+  #footer3 { margin-bottom: 16px; }
+  /* footer4：悠遊付店家App安裝下載內 app-qrCode 圖片 */
+  #footer4 { max-width: 83px; }
+  /* footer5：【悠遊卡Line官方帳號】 */
+  #footer5 { margin-bottom: 16px; }
+  /* footer6：悠遊卡Line內 line-qrCode 圖片 */
+  #footer6 { max-width: 83px; }
+  /* footer7：【小幫手嗶寶】 */
+  #footer7 { margin-bottom: 16px; }
+  /* footer8：小幫手嗶寶內 chatbot-img 外層 */
+  #footer8 { margin-right: -30px; padding-top: 4px; }
+  /* footer9：小幫手嗶寶內 chatbot-img 中圖片 */
+  #footer9 { max-width: 250px; }
+
+  .support-os {
+        font-size:14px;
+  }
+</style>
+
+<div id="footer">
+  <a accesskey="b" class="accesskey b" href="#footer" title="下方選單連結區(B)">:::</a>
+  <div class="footer-top container p3">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 videoWrap">
+        <a href="https://www.youtube.com/watch?v=sX5icR-oV7E" class="video fancybox-video" title="悠遊卡「無現生活 悠遊無限」動畫影片">
+          <img src="_upload/images/1812221340440.jpg" alt="" />
+          <div class="title">悠遊卡「無現生活 悠遊無限」動畫影片</div>
+        </a>
+      </div>
+      <div class="col-xs-6 col-md-3 lineQRcode">
+                  <a href="https://goo.gl/V4JnWt" target="_blank">
+            <img src="_upload/images/1801241614500.jpg" alt="悠遊卡LINE官方帳號 好友募集中" />
+          </a>
+                  <a href="https://goo.gl/V4JnWt" target="_blank">
+            <img src="_upload/images/1801241614500.jpg" alt="悠遊卡LINE官方帳號 好友募集中" />
+          </a>
+              </div>
+      <div class="col-xs-6 col-md-3 fb-wrap">
+        <div class="fb-page facebookFans" data-href="https://www.facebook.com/easycard.tw/" data-width="320" data-height="460" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+          <blockquote cite="https://www.facebook.com/easycard.tw/" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/easycard.tw/">悠遊卡 EasyCard</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-nav">
+    <div class="container">
+      <div class="footer-links">
+        <!-- <a href="csr">企業社會責任報告書</a> -->
+                        <a href="privacy">隱私權保護聲明</a>
+        <a href="personalized">個資告知事項</a>
+        <a href="policy">個資保護政策聲明</a>
+        <a href="term">約定條款使用說明</a>
+        <a href="special-terms">特約條款</a>
+        <a href="policy_security">資訊安全政策</a>
+        <a href="sitemap">網站導覽</a>
+        <a href="download">下載專區</a>
+        <a href="integrity">反詐騙專區</a>
+       <!--  <a href="shared">資料共享合作專區</a> -->
+      </div>
+      <a href="javascript:;" id="pageTop" class="scrollTop iconM-up-open-1 fr"><span class="text-hide">TOP</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom footer-plus">
+    <div class="container">
+      <div class="related-links">
+        <!-- 第1組：悠遊卡App安裝下載，id 設為 footer1 -->
+        <div class="linkBox appDownload" id="footer1">
+          <div class="title">
+              Easy Wallet 悠遊付App下載<br>
+              <p class="support-os">
+                  * 建議使用: iOS 15.6 / Android 9.0（含）以上
+              </p>
+          </div>
+          <div class="inner">
+            <div class="app-logo">
+              <img src="styles/images/common/easycard.png" alt="悠遊卡logo" />
+            </div>
+            <div class="app-qrCode">
+              <img id="footer2" src="styles/images/common/qrcode-app.PNG" alt="悠遊卡QRcode" />
+            </div>
+            <div class="app-links">
+              <a href="https://goo.gl/QMq1EA" target="_blank" class="appStore">
+                <img src="styles/images/common/appstore.png" alt="Available on the App Store" />
+              </a>
+              <a href="https://goo.gl/KyyCCQ" target="_blank" class="google-play">
+                <img src="styles/images/common/googleplay.png" alt="Get it on Google play" />
+              </a>
+            </div>
+          </div>
+          <div class="mobile-inner">
+            <a href="https://goo.gl/QMq1EA" target="_blank" class="btn radius-5">
+              <i class="icon iconM-apple mr"></i>Apple Store
+            </a>
+            <a href="https://goo.gl/KyyCCQ" target="_blank" class="btn radius-5">
+              <i class="icon icon-googlePlay mr"></i>Google Play
+            </a>
+          </div>
+        </div>
+        <!-- 第2組：悠遊付店家App安裝下載，id 設為 footer3 -->
+        <div class="linkBox appDownload" id="footer3">
+          <div class="title">
+              悠遊付店家管理後台 App安裝下載<br>
+              <p class="support-os">
+                               * 建議使用: iOS 15.6 / Android 9.0（含）以上
+                           </p>
+          </div>
+
+          <div class="inner">
+            <div class="app-logo">
+              <img src="styles/images/common/easywalletmerchant.png" alt="悠遊付logo" />
+            </div>
+            <div class="app-qrCode">
+              <img id="footer4" src="styles/images/common/qrcode-merchant.png" alt="悠遊付QRcode" />
+            </div>
+            <div class="app-links">
+              <a href="https://apps.apple.com/tw/app/%E6%82%A0%E9%81%8A%E4%BB%98%E7%89%B9%E5%BA%97/id1490223102" target="_blank" class="appStore">
+                <img src="styles/images/common/appstore.png" alt="Available on the App Store" />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=tw.com.easycard.easypayment&hl=zh_TW" target="_blank" class="google-play">
+                <img src="styles/images/common/googleplay.png" alt="Get it on Google play" />
+              </a>
+            </div>
+          </div>
+          <div class="mobile-inner">
+            <a href="https://apps.apple.com/tw/app/%E6%82%A0%E9%81%8A%E4%BB%98%E7%89%B9%E5%BA%97/id1490223102" target="_blank" class="btn radius-5">
+              <i class="icon iconM-apple mr"></i>Apple Store
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=tw.com.easycard.easypayment&hl=zh_TW" target="_blank" class="btn radius-5">
+              <i class="icon icon-googlePlay mr"></i>Google Play
+            </a>
+          </div>
+        </div>
+        <!-- 第3組：悠遊卡Line官方帳號，id 設為 footer5 -->
+        <div class="linkBox lineAccount" id="footer5">
+          <div class="title">悠遊卡Line官方帳號</div>
+          <div class="inner">
+            <div class="line-logo">
+              <img src="styles/images/common/line.png" alt="line logo" />
+            </div>
+            <div class="line-qrCode">
+              <img id="footer6" src="styles/images/common/qrcode-line.jpg" alt="Line-QRcode" />
+            </div>
+          </div>
+        </div>
+        <!-- 第4組：小幫手嗶寶，id 設為 footer7 -->
+        <div class="linkBox lineAccount chatbot" id="footer7">
+          <div class="title">小幫手嗶寶</div>
+          <div class="chatbot-img" id="footer8">
+            <img id="footer9" src="styles/images/common/chatbot.png" alt="chatbot-img" />
+          </div>
+        </div>
+        <div class="security-mobile-inner">【建議您可安裝資安防護軟體，來保障您的行動裝置安全】</div>
+        <div class="linkBox links">
+          <div class="title">悠遊卡官方連結</div>
+          <div class="inner">
+                          <a href="https://www.facebook.com/easycard.tw/" class="link-fb" title="另開新頁">
+                <i class="icon iconM-fb mr"></i>悠遊卡官方粉絲團
+              </a>
+                                      <a href="https://www.youtube.com/channel/UC8__MBsxK0VN0-WFHhnA3og" class="link-youtube" title="另開新頁">
+                <i class="icon iconM-youtube-horizontal mr"></i>悠遊卡影音專區
+              </a>
+                      </div>
+          <div class="mobile-inner">
+                          <a href="https://www.facebook.com/easycard.tw/" class="link-fb">
+                <i class="icon iconM-facebook mr"></i>
+              </a>
+                                      <a href="https://www.youtube.com/channel/UC8__MBsxK0VN0-WFHhnA3og" class="link-youtube">
+                <i class="icon iconM-youtube-play mr"></i>
+              </a>
+                        <a href="https://goo.gl/SJdQtz" class="link-lineat">
+              <i class="icon iconM-line mr"></i>
+            </a>
+          </div>
+        </div>
+        <div class="security-inner">【建議您可安裝資安防護軟體，來保障您的行動裝置安全】</div>
+      </div>
+      <div class="address">
+        <address>
+          <div class="title">悠遊卡股份有限公司</div>
+          <p class="info">
+            台北市南港區園區街3-1號13樓<br />
+            TEL：<a href="tel:02-2652-9988" title="撥打電話">02-2652-9988</a>　<span class="br-lg"></span>FAX：02-2652-9999<br />
+            24小時客服專線:412-8880(手機及金馬地區請加02)<br/>
+          </p>
+        </address>
+        <p class="copyright">©版權所有 2026 悠遊卡股份有限公司 All rights reserved.</p>
+                        <div id="smart_alpha" class="chabot">
+              <div class="welcome_word">我是客服小幫手嗶寶，<br>有問題都可以問我喲~</div>
+              <a href="https://chatbot.easycard.com.tw/Webhook/?eservice=web" target="smartAlpha"></a>
+            </div>
+                  </div>
+  </div>
+</div>
+</div>  <script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/jquery.min.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/plugin.js"></script>
+<!--<script src="script/plugin/slick.min.js"></script>-->
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/jquery.tinyMap.min.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/photoswipe.min.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/photoswipe-ui-default.min.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/dropkick.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/default/default.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/timeline.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/plugin/imgLiquid.js"></script>
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/jquery.validate.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/messages.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/java.js?v=1792228597"></script>
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/jquery-ui.js"></script>
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/sweetalert-master/dist/sweetalert.min.js"></script>
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/showdown.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/js-xss-master/dist/xss.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/showdown-xss-filter.js"></script>
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==" src="script/DOMPurify/dist/purify.min.js"></script>
+
+<script nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+    $(function(){
+
+        var head= document.getElementsByTagName('head')[0];
+        var script= document.createElement('script');
+        script.type= 'text/javascript';
+        script.src= 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDKMkjjIbWgVmqRfQ-ldY8gyP4WHppdvIM';
+        head.appendChild(script);
+    });
+</script>
+
+  <style nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+      #index1 {
+  background-image: url(_upload/images/2606291514340.jpg);
+}
+#index2 {
+  background-image: url(_upload/images/2608121930430.jpg);
+}
+#index3 {
+  background-image: url(_upload/images/2610021126180.jpg);
+}
+#index4 {
+  background-image: url(_upload/images/2510221740370.jpg);
+}
+#index5 {
+  background-image: url(_upload/images/2607240944200.jpg);
+}
+#index6 {
+  background-image: url(_upload/images/2608061337110.jpg);
+}
+#index7 {
+  background-image: url(_upload/images/2609071627120.jpg);
+}
+#index8 {
+  background-image: url(_upload/images/2610151008270.jpg);
+}
+#index9 {
+  background-image: url(_upload/images/2610121359220.jpg);
+}
+#index10 {
+  background-image: url(_upload/images/2605261312270.jpg);
+}
+#index11 {
+  background-image: url(_upload/images/2601161032400.jpg);
+}
+#index12 {
+  background-image: url(_upload/images/2604081445120.jpg);
+}
+#index13 {
+  background-image: url(_upload/images/2604081448060.jpg);
+}
+#index14 {
+  background-image: url(_upload/images/2608271635380.jpg);
+}
+#index15 {
+  background-image: url(_upload/images/2506270952210.jpg);
+}
+#index16 {
+  background-image: url(_upload/images/2609291401320.jpg);
+}
+#index17 {
+  background-image: url(_upload/images/2609291402560.jpg);
+}
+#index18 {
+  background-image: url(_upload/images/2512101637150.jpg);
+}
+#index19 {
+  background-image: url(_upload/images/2609291048060.jpg);
+}
+#index20 {
+  background-image: url(_upload/images/2609141112150.jpg);
+}
+#index21 {
+  background-image: url(_upload/images/2610121416140.jpg);
+}
+#index22 {
+  background-image: url(_upload/images/2609291449540.jpg);
+}
+  </style>
+
+  <script nonce="NZkefcIqioFn4nCjKJ5Ggw==">
+
+	  $(document).ready(function(){
+		  $('#searchForm').validate({
+				debug: true,
+				errorElement: 'em',
+
+				rules: {
+					keywords: 'required',
+
+				},
+				messages: {
+				},
+
+
+				success: function(element) {
+			  	},
+
+
+				errorPlacement: function (error, element) {
+				},
+
+				highlight: function(element) {
+					//$(element).closest('.form-group').css({'border': '1px dotted #ff0000'});
+					$(element).css({'border': '1px dotted #ff0000'});
+
+				},
+
+				unhighlight: function(element) {
+					//$(element).closest('.form-group').css({"border": ""});
+					$(element).css({"border": ""});
+				},
+
+				submitHandler: function() {
+					$(':input[type="submit"]').prop('disabled', true);
+					useAjax('saveKeywords',$('#keywords').val());
+				},
+			});
+	  })
+  </script>
+</body>
+</html>
