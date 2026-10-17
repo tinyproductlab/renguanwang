@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html class="no-js " lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta name="language" content="ko" />
+<meta id="viewport" name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1, minimum-scale=1" />
+<meta name="robots" content="noai, noimageai">
+<title>전 국민의 평생학교 EBS</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://static.ebs.co.kr/images/bhp/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="/common/css/core/common2021.css?v=20171229" />
+<link type="text/css" rel="stylesheet" href="/common/css/main2021.css?v=20240215" />
+<link type="text/css" rel="stylesheet" href="/common/css/core/service.css" />
+<script type="text/javascript" src="/common/js/lib/jquery-latest.min.js"></script>
+
+</head>
+<body class="noscript"> 
+<div id="Document" class="main">
+	<div id="error_area">
+		<!-- Header -->
+		<div class="error_header">
+			<h1><a href="/main"><img src="https://static.ebs.co.kr/www/common/img/category/main/img_login_logo.gif" alt="EBS" /></a></h1>
+		</div>
+
+
+	<script>
+var mainUrl = location.href
+if(mainUrl.startsWith('https://www.ebs.co.kr/https:/')){
+	location.href='https://www.ebs.co.kr';
+}
+</script>
+
+<!-- Content -->
+		<div class="error_content">			
+			<div class="error_desc">
+				<p class="bt01">페이지를 찾을 수 없습니다.</p>
+				<p class="bt02">죄송합니다. <br />요청하신 페이지를 찾을 수 없습니다.</p>
+				<p>동일한 문제가 지속적으로 발생될 경우 <br />고객센터로 문의하여 주시기 바랍니다.</p>
+				<dl>
+					<dt class="bt02"><a href="https://www.ebs.co.kr/customer">고객센터 바로가기</a></dt>
+					<dd>전화번호 : 1588-1580 (발신자 부담)</dd>
+					<dd>운영시간 : 월~금 08시~18시</dd>
+					<dd>휴무시간 : 점심시간 12~13시, 토·일요일·공휴일 휴무</dd>
+					<dd>E-mail : <a href="mailto:helpdesk@ebs.co.kr" target="_blank" title="새창">helpdesk@ebs.co.kr</a></dd>
+				</dl>
+				<ul class="btn">
+					<li><a href="#" onclick="history.back(-1); return false;"><span>이전페이지</span></a></li>
+					<li><a href="http://www.ebs.co.kr/main"><span>홈으로</span></a></li>
+					<li><a href="http://www.ebs.co.kr/customer/introduce/usage/sitemap"><span>사이트맵</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //Content -->
+</div>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.btn_family_link').toggle(function () {
+				$('.family_link_layer').show();
+				$("#Footer .container").css("z-index","3");
+			}, function () {
+				$('.family_link_layer').hide();
+				$("#Footer .container").css("z-index","2");
+		});
+	});
+</script>
+
+<script>
+	$( document ).ready( function() {
+		var $mobFooter = $( 'div#MobFooter > ul > li > a' );
+		$mobFooter.eq( 2 ).on( 'click', function() {
+			tab1();
+			return false;
+		} );
+		$mobFooter.eq( 3 ).on( 'click', function() {
+			tab2();
+			return false;
+		} );
+	} );
+	function tab1() {
+		window.open("https://sso.ebs.co.kr/policy/termsInfo", target="_blank");
+	}
+	function tab2() {
+		window.open("https://sso.ebs.co.kr/policy/privacy?fsdc=", target="_blank");
+	}
+</script>
+
+
+<!-- 푸터자동화 151208 -->
+<!-- 푸터자동화 151208 -->
+<script type="text/javascript" src="/common/js/jquery.form.js"></script>
+<!--  íì¤í¸ -->
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript">
+ctx = '';
+</script>
+<!-- 포탈 로그 user정보 -->
+<!-- Footer -->
+<!-- 공통 Footer -->
+<div id="Footer" class="footer">
+<div class="container">
+<div id="policy" class="policy">
+<ul>
+<li style="background: none;"><a href="https://about.ebs.co.kr/kor/main/index" style="border:none;">EBS소개</a></li>
+<li style="margin-left: 4px;"><a href="https://about.ebs.co.kr/kor/notice/announce">EBS공고</a></li>
+<li><a href="https://home.ebs.co.kr/green">EBS클린신고</a></li>
+<li><a href="https://about.ebs.co.kr/kor/business/concert"><strong>콘텐츠 구매/제휴 문의</strong></a></li><!-- 2024-03-20 -->
+<li><a href="https://about.ebs.co.kr/kor/business/sponsorship"><strong>협찬/광고문의</strong></a></li>
+<li><a href="https://sso.ebs.co.kr/policy/termsInfo">이용약관</a></li>
+<li class="privacy"><a href="https://sso.ebs.co.kr/policy/privacy?fsdc="><strong style="color:#205fbd;">개인정보처리방침</strong></a></li>
+<li><a href="https://sso.ebs.co.kr/policy/youthInfo?fsdc=">청소년 보호정책</a></li>
+<!-- <li><a href="https://www.ebs.co.kr/tax" target="_blank">원천징수 영수증 발급</a></li> 2024-03-20 -->
+</ul></div>
+<div class="area_link">
+<div class="family_link"><button title="FAMILY SITE" class="btn_family_link"><span class="blind">FAMILY SITE</span></button> 
+<ul class="family_link_layer">
+<li><a title="새창" href="https://primary.ebs.co.kr" target="_blank">EBS 초등</a></li>
+<li><a title="새창" href="https://mid.ebs.co.kr" target="_blank">EBS 중학프리미엄</a></li>
+<li><a title="새창" href="http://www.ebsi.co.kr" target="_blank">EBSi (고교)</a></li>
+<li><a title="새창" href="https://www.ebse.co.kr" target="_blank">EBSe (영어)</a></li>
+<li><a title="새창" href="https://www.ebsmath.co.kr" target="_blank">EBS Math (수학)</a></li>
+<li><a title="새창" href="https://ebssw.kr" target="_blank">이솦 (소프트웨어)</a></li>
+<li><a title="새창" href="https://book.ebs.co.kr" target="_blank">EBS eBook</a></li>
+<li><a title="새창" href="https://www.ebs.co.kr/space" target="_blank">스페이스공감 (공연)</a></li>
+<li><a title="새창" href="https://www.eidf.co.kr" target="_blank">EIDF (다큐영화제)</a></li>
+<li><a title="새창" href="https://www.togetherschool.go.kr" target="_blank">함께학교</a></li>
+<li><a title="새창" href="https://ebsmedia.kr" target="_blank">EBS 미디어</a></li>
+<li><a title="새창" href="https://about.ebs.co.kr/kor/social/main" target="_blank">사회공헌 홈페이지</a></li>
+</ul></div><a href="http://www.0302.co.kr " target="_blank"><img alt="원격지원" src="https://static.ebs.co.kr/www/common/img/category/main/btn_remote.gif"></a><a href="http://www.ebs.co.kr/customer/question/faq" target="_self"><img alt="FAQ" src="https://static.ebs.co.kr/www/common/img/category/main/btn_faq.gif"></a> 
+<div class="help"><a href="https://www.ebs.co.kr/customer" target="_self"><img alt="EBS 고객센터 홈페이지" src="https://static.ebs.co.kr/images/bhp/public/images/2021/09/6/15/55/12/cd24f793-1a76-4da8-9eb5-dc5887b8835f.jpg"></a></div></div>
+<div class="area_author">
+<address><strong>10393</strong> 경기도 고양시 일산동구 한류월드로 281 한국교육방송공사 <span>사업자등록번호 : 229-82-01343 (한국교육방송공사사장 김유열)</span><br>시청자불만전담 : <a href="mailto:hotline@ebs.co.kr" target="_blank">hotline@ebs.co.kr</a><span>부가통신사업신고 : 10077 통신판매업신고 : 2017-고양일산동-1415<a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2298201343" target="_blank" class="info">[사업자정보확인]</a></span><br><strong class="copyright">Copyright ⓒ EBS. All rights reserved. Unauthorized use & AI training prohibited. (무단 전재 및 재배포, AI 학습 이용 금지)</strong> </address></div>
+<div class="escrow">
+	<a onclick="window.open('https://www.ebs.co.kr/cp/escrow.html', '_blank', 'width=400,height=130,scrollbars=no'); return false;" href="javascript:void(0);" title="새창"><img alt="LG U+ escrow 안전거래" src="https://static.ebs.co.kr/www/common/img/category/main/img_escrow.jpg"></a>
+	<a href="https://www.ebs.co.kr/tax" target="_blank" title="새창"><img alt="원천징수 영수증 발급" src="https://static.ebs.co.kr/images/bhp/public/images/2024/03/22/13/51/53/f366a232-794d-4ea5-a55d-5f84310c0151.jpg"></a>
+</div><!-- 2024-03-20 -->
+<div class="bn_footer"><img title="정보보호 및 개인정보보호 관리체계 인증" style="MARGIN-LEFT: 6px" alt="정보보호 및 개인정보보호 관리체계 인증" src="https://static.ebs.co.kr/images/public/2020/05/19/16/34/40/d107ecd2-fb7b-4420-aac8-cd729a7b1531.gif"><img style="CLEAR: both; MARGIN-TOP: 2px; DISPLAY: block" alt="[인증범위] 교육 포털 웹서비스[유효기간] 2025.04.16~2028.04.15" src="https://static.ebs.co.kr/images/public/2025/05/7/16/23/18/32edee94-6df2-489d-9dee-7e2b2f45b43f.gif"> </div></div>
+</div>
+<!-- 모바일용 푸터 -->
+<div id="MobFooter">
+<ul>
+	<li><a href="https://about.ebs.co.kr/kor/organization/recruit?tabVal=system" >EBS채용</a></li><!-- 2022-05-25 -->
+	<li><a href="/customer">고객센터</a></li>
+	<li><a href="https://www.ebs.co.kr/login">로그인</a></li>
+		<li><a href="https://sso.ebs.co.kr/policy/termsInfo" target="_blank">이용약관</a></li>
+	<li><a href="https://sso.ebs.co.kr/policy/privacy?fsdc=" target="_blank">개인정보처리방침</a></li>
+	<li><a href="https://sso.ebs.co.kr/policy/youthInfo?fsdc=" target="_blank">청소년 보호정책</a></li>
+</ul>
+<div class="info_view">
+    <ul class="list_view">
+        <!-- // -->
+        <li>
+            <span class="tit">사장</span>
+            <span class="cot">김유열</span>
+        </li>
+        <!-- // -->
+        <li>
+            <span class="tit">주소</span>
+            <span class="cot">경기도 고양시 일산동구 한류월드로 281 (장항동 한국교육방송공사)</span>
+        </li>
+        <!-- // -->
+        <li>
+            <span class="tit">연락처</span>
+            <span class="cot">1588-1580(대표전화/고객센터) <br /><span class="mail">helpdesk@ebs.co.kr</span></span>
+        </li>
+        <!-- // -->
+        <li>
+            <span class="tit">사업자등록번호</span>
+            <span class="cot">229-82-01343</span>
+        </li>
+        <!-- // -->
+        <li>
+            <span class="tit">통신 판매업 신고번호</span>
+            <span class="cot">2017-고양일산동-1415<a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2298201343" target="_blank" class="info">[사업자정보확인]</a></span>
+        </li>
+        <!-- // -->
+    </ul>
+</div><script>
+	$( document ).ready( function() {
+		var $mobFooter = $( 'div#MobFooter > ul > li > a' );
+		$mobFooter.eq( 2 ).on( 'click', function() {
+			tab1();
+			return false;
+		} );
+		$mobFooter.eq( 3 ).on( 'click', function() {
+			tab2();
+			return false;
+		} );
+	} );
+</script>
+</div>
+<!-- //모바일용 푸터 -->
+<!-- ADN, 모비온, 아크로스 스크립트 삭제요청 / 2024.02.14 / EBSM20240214166095 -->
+	<!-- 카카오먼트 스크립트 시작 / 2023.05.15 /  EBSM20230512160427 -->
+	<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+	<script type="text/javascript">
+	      kakaoPixel('5796045570273949620').pageView();
+	      kakaoPixel('2196886758809647769').pageView();//클래스 E 추가
+	</script>
+	<!-- 카카오먼트 스크립트 끝 -->
+	
+	<!-- ADN, 모비온, 아크로스 스크립트 삭제요청 / 2024.02.14 / EBSM20240214166095 -->
+	<!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 / 2021.12.02 / EBBy20211201148690 --> 
+	<script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
+	<script type="text/javascript"> 
+		if (!wcs_add) var wcs_add={};
+		wcs_add["wa"] = "s_24868b5c33e6";
+		if (!_nasa) var _nasa={};
+		wcs.inflow('ebs.co.kr');
+		wcs_do(_nasa);
+	</script>
+
+<!-- //playApp 앱여부 체크 -->
+	
+<!-- 넷스루 전체로그 (데이타 스토리) / 2020.01.02 / EBSM20191211128194 -->
+<script type="text/javascript">
+	(function(){
+		var EBShostname = window.location.host;
+		var EBSparts = EBShostname.split('.')[0];
+		var nl = document.createElement('script');
+		nl.type = 'text/javascript';
+		nl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + EBShostname + '/common/js/wlo.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(nl, s);
+		var done = false;
+		nl.onload = nl.onreadystatechange = function() {
+			if ( !done && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
+				done = true;
+				if (EBSparts == 'yourliteracy'){
+					_n_sid = "literacy.ebs.co.kr";
+				} else if (EBSparts == 'www') {
+					_n_sid = "ebs.co.kr";
+				}else {
+					_n_sid = EBSparts + ".ebs.co.kr";
+				}
+				_n_uid_cookie = "DS_CIF";
+				n_logging();
+				nl.onload = nl.onreadystatechange = null;
+			}}})();
+</script>
+<!-- 넷스루 클릭 조회 수  확인용 (조회 확인용 메인페이지만 적용) / 2020.01.02 / EBSM20191211128194 -->
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja" class="c-font-fade">
+<head>
+<meta charset="UTF-8">
+<title>お探しのページは見つかりませんでした | 株式会社ベネッセコーポレーション</title>
+
+<meta name="description" content="ベネッセコーポレーショングループのコーポレートサイトです。パーパスや企業哲学、4つの学びのフィールド（お子さまの学び、大学・社会人の学び、学校での学びの支援、企業での学びの支援）で展開する多様な商品・サービス、社員インタビューなどをご紹介します。">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex">
+
+<!-- icon -->
+<link rel="icon" href="/assets_ren/images/common/icon/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.benesse.co.jp/assets_ren/images/common/icon/apple-touch-icon.png">
+<meta name="msapplication-square70x70logo" content="/assets_ren/images/common/icon/small.jpg">
+<meta name="msapplication-square150x150logo" content="/assets_ren/images/common/icon/medium.jpg">
+<meta name="msapplication-square310x310logo" content="/assets_ren/images/common/icon/large.jpg">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="application-name" content="Benesse">
+<!-- icon -->
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://morisawafonts.net/c/01M283QECYE0XZKG270Z8KD6NC/mf.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200..700;1,200..700&display=swap">
+<link rel="stylesheet" href="/assets_ren/css/cojp2.header.footer.std.css?20260914">
+<link rel="stylesheet" href="/assets_ren/css/cojp2.contents.std.css?20260914">
+<link rel="stylesheet" href="/css/not_found.css?20260701">
+
+<!-- JS -->
+<script src="/assets_ren/js/cojp2.header.footer.std.js?20260914"></script>
+<script src="/assets_ren/js/jquery-3.7.1.min.js"></script>
+<script src="/assets_ren/js/cojp2.contents.std.js?20260701"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M29LTP');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-M29LTP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<header id="l-header" class="cojp2" aria-label="Website Header">
+	<div class="l-header-inner">
+		<p class="l-header-logo"><a href="/"><img src="/assets_ren/images/benesse-logo.svg" alt="Benesse"></a></p>
+
+		<div class="lm-menu-tgl"><button type="button">MENU</button></div>
+
+		<div class="lh-nav">
+			<div class="lh-nav-inner">
+
+				<div class="lh-items">
+					<div class="lh-item lh-info">
+						<p class="lh-name lh-sub-menu-tgl"><span>企業情報</span><i class="lh-acd"></i></p>
+						<div class="lh-mega-acd">
+							<div class="lh-mega">
+								<div class="lh-mega-inner is-unwrap">
+									<div class="lh-mega-col1">
+										<p class="lh-mega-cate">企業情報</p>
+									</div>
+									<div class="lh-mega-col2">
+										<ul class="lh-mega-list">
+											<li class="lh-mega-item"><a href="/benesseinfo/data.html">会社概要</a></li>
+											<li class="lh-mega-item"><a href="/benesseinfo/executive_member.html">役員一覧</a></li>
+											<li class="lh-mega-item"><a href="/ism/">企業哲学</a></li>
+											<li class="lh-mega-item"><a href="/purpose/">パーパス</a></li>
+											<li class="lh-mega-item"><a href="/benesseinfo/group.html">グループ会社</a></li>
+											<li class="lh-mega-item"><a href="/benesseinfo/history.html">会社沿革</a></li>
+											<li class="lh-mega-item"><a href="/benesseinfo/sustainability/">サステナビリティ</a></li>
+											<li class="lh-mega-item wovn-hidden" data-wovn-ignore><a href="https://www.benesse.co.jp/digital/" target="_blank">DXの取組み</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lh-item wovn-hidden">
+						<p class="lh-name is-arw" data-wovn-ignore><a href="https://company.benesse.co.jp/newsrelease/">ニュース</a></p>
+					</div>
+					<div class="lh-item lh-service">
+						<p class="lh-name lh-sub-menu-tgl"><span>サービス</span><i class="lh-acd"></i></p>
+						<div class="lh-mega-acd">
+							<div class="lh-mega">
+								<div class="lh-mega-inner">
+									<div class="lh-mega-col1">
+										<p class="lh-mega-cate">サービス</p>
+									</div>
+									<div class="lh-mega-col2">
+										<p class="lh-mega-title"><a href="/service/children/">お子さまの学び</a></p>
+										<ul class="lh-mega-list">
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/children/#service01">妊娠・出産</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/children/#service02">家庭学習</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/children/#service03">塾・教室等</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/children/#service04">海外進学・留学</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/children/#service05">教育情報</a></li>
+										</ul>
+									</div>
+									<div class="lh-mega-col2">
+										<p class="lh-mega-title"><a href="/service/working_adult/">大学・社会人の学び</a></p>
+										<ul class="lh-mega-list">
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/working_adult/#service01">大学生教育</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/working_adult/#service02">社会人教育</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/working_adult/#service03">キャリア支援</a></li>
+										</ul>
+									</div>
+									<div class="lh-mega-col2">
+										<p class="lh-mega-title"><a href="/service/gakkou/">学校での学びの支援</a></p>
+										<ul class="lh-mega-list">
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/gakkou/#service01">アセスメント</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/gakkou/#service02">日常学習</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/gakkou/#service03">校務支援</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/gakkou/#service04">教育情報提供サイト</a></li>
+										</ul>
+									</div>
+									<div class="lh-mega-col2">
+										<p class="lh-mega-title"><a href="/service/business/">企業での学びの支援</a></p>
+										<ul class="lh-mega-list">
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/business/#service01">人材育成</a></li>
+											<li class="lh-mega-item"><a class="js-anchor" href="/service/business/#service02">採用支援</a></li>
+										</ul>
+									</div>
+								</div>
+								<p class="lh-mega-other wovn-hidden" data-wovn-ignore><a href="https://benesse-scg.co.jp/company/group" target="_blank">介護・保育、ペッツのサービス・商品</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="lh-item wovn-hidden">
+						<p class="lh-name is-arw" data-wovn-ignore><a href="https://www.benesse.co.jp/benesseinfo/saiyou.html" target="_blank">採用情報</a></p>
+					</div>
+					<div class="lh-item">
+						<p class="lh-name"><a href="/about/naoshima.html">ベネッセアートサイト直島</a></p>
+					</div>
+					<div class="lh-item wovn-languages-unit">
+						<div class="wovn-languages">
+							<div class="wovn-switch-unit" data-wovn-ignore>
+							  <span class="wovn-switch" data-value="ja">JP</span>
+							  <span class="wovn-switch-separater">/</span>
+							  <span class="wovn-switch" data-value="en">EN</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- / lh-nav -->
+	</div>
+</header>
+<!-- / l-header -->
+
+<nav class="l-menu cojp2">
+	<div class="l-menu-inner"></div>
+</nav>
+<!-- / l-menu -->
+
+
+	<main id="l-main" aria-label="本文">
+		<div class="alC">
+			<div class="p-notfound">
+				<div class="p-404 c-w-s">
+					<h2 class="c-secondaryHeading">お探しのページは見つかりませんでした。</h2>
+					<p class="p-404-text">申し訳ございません。<br>お客様がアクセスしようとしたページが見つかりませんでした。</p>
+					<div class="c-button-type3">
+						<a href="/">トップページへ戻る</a>
+					</div>
+				</div>
+				<div class="p-404 c-w-s">
+					<h2 class="c-secondaryHeading">The page you requested could not be found.</h2>
+					<p class="p-404-text">The page you are looking for may have been moved, deleted, or does not exist.</p>
+					<div class="c-button-type3">
+						<a href="https://en.www.benesse.co.jp/">Back to Home</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- / l-main-->
+
+	<div class="c-breadcrumb lower_type02">
+		<ul class="c-breadcrumb__items">
+			<li class="c-breadcrumb__item">
+				<a href="/"><span>ベネッセトップ</span></a>
+			</li>
+			<li class="c-breadcrumb__item">
+				<span>お探しのページは見つかりませんでした</span>
+			</li>
+		</ul>
+	</div>
+	<footer id="l-footer" class="cojp2" aria-label="Website Footer">
+	<div class="lf-pagetop"><p>ページトップへ</p></div>
+	<div class="lf-inner">
+		<div class="lf-upper">
+			<div class="lf-nav">
+				<div class="lf-items">
+					<div class="lf-item"><p class="lf-name">ベネッセコーポレーション企業情報</p></div>
+					<ul class="lf-sublist">
+						<li><a href="/benesseinfo/data.html">会社概要</a></li>
+						<li><a href="/benesseinfo/executive_member.html">役員一覧</a></li>
+						<li><a href="/ism/">企業哲学</a></li>
+						<li><a href="/purpose/">パーパス</a></li>
+						<li><a href="/benesseinfo/group.html">グループ会社</a></li>
+						<li><a href="/benesseinfo/history.html">会社沿革</a></li>
+						<li><a href="/benesseinfo/sustainability/">サステナビリティ</a></li>
+					</ul>
+				</div>
+
+				<div class="lf-items">
+					<div class="lf-item wovn-hidden"><p class="lf-name" data-wovn-ignore><a href="https://company.benesse.co.jp/newsrelease/">ニュース</a></p></div>
+					<div class="lf-item lf-service">
+						<p class="lf-name"><a href="/service/children/">サービス</a></p>
+						<ul class="lf-sub">
+							<li><a href="/service/children/">お子さまの学び</a></li>
+							<li><a href="/service/working_adult/">大学・社会人の学び</a></li>
+							<li><a href="/service/gakkou/">学校での学びの支援</a></li>
+							<li><a href="/service/business/">企業の学びの支援</a></li>
+						</ul>
+					</div>
+					<div class="lf-item wovn-hidden"><p class="lf-name" data-wovn-ignore><a href="https://www.benesse.co.jp/benesseinfo/saiyou.html" target="_blank">採用情報</a></p></div>
+					<div class="lf-item"><p class="lf-name"><a href="https://company.benesse.co.jp/episode/">社員インタビュー</a></p></div>
+					<div class="lf-item"><p class="lf-name"><a href="https://www.benesse.co.jp/brand/" target="_blank">サステナブルな社会へ</a></p></div>
+					<div class="lf-item wovn-hidden"><p class="lf-name" data-wovn-ignore><a href="https://www.benesse.co.jp/digital/" target="_blank">DXの取組み</a></p></div>
+					<div class="lf-item"><p class="lf-name"><a href="/about/naoshima.html">ベネッセアートサイト直島</a></p></div>
+				</div>
+
+				<div class="lf-items">
+					<div class="lf-item"><p class="lf-name"><a href="https://company.benesse.co.jp/cm/">CM一覧</a></p></div>
+					<div class="lf-item"><p class="lf-name"><a href="/anzen_katsudo/">商品の安全活動</a></p></div>
+					<div class="lf-item wovn-hidden"><p class="lf-name" data-wovn-ignore><a href="https://www.benesse.co.jp/customer/" target="_blank">お客様本部</a></p></div>
+					<div class="lf-item wovn-hidden"><p class="lf-name" data-wovn-ignore><a href="/notice/">大切なお知らせ</a></p></div>
+					<div class="lf-item"><p class="lf-name"><a href="/contact/">お問い合わせ</a></p></div>
+				</div>
+			</div>
+			<!-- / lf-nav -->
+
+			<div class="lf-other">
+				<div class="lf-search">
+					<div class="mt-site-search-container">
+						<div id="mt-site-search" class="mt-site-search"></div>
+					</div>
+				</div>
+
+				<div class="lf-banner is-home">
+					<a href="https://benesse-scg.co.jp/" target="_blank"><img src="/assets_ren/images/banner/bnr_benesse_stylecare2.png" alt="ベネッセスタイルケア"></a>
+				</div>
+			</div>
+		</div>
+		<!-- / lf-upper -->
+
+		<div class="lf-lower">
+			<ul class="lf-links">
+				<li class="lf-link"><a href="/about/utility/term.html">サイトのご利用にあたって</a></li>
+				<li class="lf-link"><a href="/privacy/">情報セキュリティ・個人情報</a></li>
+				<li class="lf-link"><a href="/zemi/privacy/zemi.html">利用者情報の取り扱い</a></li>
+				<li class="lf-link"><a href="/about/management/antisocial.html">反社会的勢力排除に関する基本方針</a></li>
+				<li class="lf-link"><a href="/about/management/taxpolicy.html">ベネッセコーポレーショングループ税務基本方針</a></li>
+				<li class="lf-link wovn-hidden" data-wovn-ignore><a href="/benesseinfo/data.html#notice">電子公告</a></li>
+			</ul>
+			<div class="lf-copy" data-wovn-ignore>
+				<p class="lf-logo"><a href="/"><img src="/assets_ren/images/benesse-logo3.svg" alt="Benesse"></a></p>
+				<small>Copyright &copy; Benesse Corporation. All rights reserved.</small>
+			</div>
+		</div>
+		<!-- / lf-lower -->
+	</div>
+</footer>
+<!-- / l-footer -->
+
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=742086546" async></script></body>
+</html>
