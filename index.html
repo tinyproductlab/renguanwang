@@ -527,8 +527,9 @@ function buildNav(){
       list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
-  // 快捷直达也补上图标、域名和平台
+  // 快捷直达也补上图标、域名和平台（先清掉旧的，防止重复添加）
   document.querySelectorAll(".quick-grid a").forEach(a => {
+    a.querySelectorAll(".qic, .dom").forEach(el => el.remove());
     const href = a.getAttribute("href");
     const d = host(href);
     const site = SITES.find(s => s.url === href);
