@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="hydrated">
+
+<head>
+	<title>Mantenimiento</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Estilos por defecto (variables, reset, etc) -->
+	<link rel="stylesheet" href="/mantenimiento/style/basic-style.css" />
+	<!-- Estilos de la página -->
+	<link rel="stylesheet" href="/mantenimiento/style/style.css" />
+</head>
+
+<body>
+	<div>
+		<div>
+			<!-- START - HEADER -->
+			<header class="cdk-core-header">
+				<div class="cdk-core-header__wrapper wrapper-main">
+					<!-- LOGO -->
+					<div class="cdk-core-header__lnk-logo" title="Ir a home" href="/example" aria-label="Ir a home"
+						target="_blank">
+						<figure class="cdk-core-header__figure">
+							<img src="/mantenimiento/resources/cornamusa.svg" alt="logo" class="cdk-core-header__img" />
+						</figure>
+					</div>
+				</div>
+			</header>
+			<!-- FIN HEADER -->
+
+			<!-- START - MAIN -->
+			<main class="cdk-main wrapper-main">
+				<!-- IMAGE -->
+				<figure class="cdk-main__figure">
+					<img src="/mantenimiento/resources/mantenimiento.svg" alt="Mantenimiento" class="cdk-main__img" />
+				</figure>
+				<!-- TEXT AROUND IMG -->
+				<div class="cdk-main__container-text">
+					<!-- TITLE -->
+					<h1 class="cdk-main__title">Página en mantenimiento</h1>
+					<!-- SUBTITLE -->
+					<p class="cdk-main__subtitle">
+						En estos momentos estamos realizando tareas de
+						mantenimiento, en breve volveras a tener la página
+						disponible.
+					</p>
+					<!-- LIST WITH LINK -->
+					<ul class="cdk-list">
+						<li class="cdk-list__item">
+							<a href="https://epostal.correos.es/" target="_blank" class="cdk-list__lnk"
+								title="Oficina Virtual">Oficina Virtual</a>
+							<p class="cdk-list__txt">
+								Para hacer o preparar tus envíos de forma
+								online
+							</p>
+						</li>
+						<li class="cdk-list__item">
+							<a href="https://play.google.com/store/apps/details?id=es.correos.widget&hl=es" target="_blank" class="cdk-list__lnk"
+								title="Sigue tu envío">Sigue tu envío</a>
+							<p class="cdk-list__txt">
+								Para localizar y seguir tus envíos,
+								descárgate la App
+							</p>
+						</li>
+					</ul>
+				</div>
+			</main>
+			<!-- FIN MAIN -->
+
+			<!-- START - FOOTER -->
+			<footer class="cdk-core-footer">
+				<div class="cdk-core-footer__container wrapper-main">
+					<!-- LOGO FOOTER -->
+					<figure class="cdk-core-footer__figure">
+						<img src="/mantenimiento/resources/ico-splash-blanco.svg" alt="logo" class="cdk-core-footer__img" />
+					</figure>
+					<!-- TEXT FOOTER -->
+					<p class="cdk-core-footer__txt">
+						SOCIEDAD ESTATAL CORREOS Y TELÉGRAFOS, S.A., S.M.E.
+						Todos los derechos reservados.
+					</p>
+				</div>
+			</footer>
+			<!-- FIN - FOOTER -->
+		</div>
+	</div>
+</body>
+
+</html>

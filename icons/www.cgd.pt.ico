@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<link rel="stylesheet" href="not-found.css">
+<title>Página não encontrada</title>
+
+
+</head>
+
+<body>
+
+<div class="logo">
+	<p class="logo-img"><img src="logo-CGD.png"></p>
+</div>
+<div class="mensagem">
+	<p class="txt-mensagem"><strong>ESTA PÁGINA NÃO EXISTE</strong><br>
+  </p>
+
+
+    <div style="clear:both"></div>
+<p>Voltar à homepage</p>
+</div>
+
+<div id="HPlink" style="width: 100%; text-align: center; float: left;">
+<a class="go" title="Ir para a homepage do site" href="/">Homepage</a>
+</div>
+<footer>
+<div class="info-footer">
+    <p class="txt-copy">© <span id="year">2020</span> Caixa Geral de Depósitos</p>
+</div>
+</footer>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>

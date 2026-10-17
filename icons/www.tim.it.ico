@@ -1,0 +1,2583 @@
+<!DOCTYPE HTML>
+
+
+
+
+
+<html lang="it">
+<head>
+    <meta charset="UTF-8"/>
+    
+    
+    
+	<title>404 | TIM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="language" content="it"/>
+    
+    
+    <meta name="description" content="404"/>
+    <meta name="template" content="home_page"/>
+    <!--OpenGraph -->
+    
+    <meta property="og:image" content="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/TIM_FB.png"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta property="fb:app_id" content="2173191582913434"/>
+    <meta property="og:url" content="https://www.tim.it/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/404"/>
+    <meta property="og:title" content="404"/>
+    <meta property="og:description" content="404"/>
+    <meta name="twitter:image" content="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/TIM_TW.png"/>
+    <meta name="twitter:creator" content="@TIM_Official"/>
+    <meta name="twitter:title" content="404"/>
+    <meta name="twitter:description" content="404"/>
+    <meta name="twitter:site" content="https://www.tim.it/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/404"/>
+    <meta name="twitter:image" content="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/TIM_TW.png"/>
+    <meta name="robots" content="noarchive,nofollow,noindex"/>
+    <!-- /OpenGraph -->
+    <link rel="canonical" href="https://www.tim.it/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/404"/>
+
+    <!-- Favicon -->
+<link rel="icon" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/favicon.ico"/>
+
+<link rel="shortcut icon" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/favicon.ico"/>
+<link rel="icon" sizes="192x192" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-192-248169.png"/>
+<link rel="apple-touch-icon" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-57-248169.png"/>
+<link rel="apple-touch-icon-precomposed" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-57-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-180-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-152-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-144-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-120-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-114-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-76-248169.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-72-248169.png"/>
+<!-- /Favicon -->
+
+
+    <!-- Alternate -->
+
+
+
+
+<link rel="alternate" href="https://www.tim.it/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/404" hreflang="it"/>
+<!-- /Alternate -->
+
+
+    <script>
+        window.frctl = {
+            env: 'static'
+        };
+    </script>
+
+    
+    <script type="application/javascript">
+        window.apiConfig = {};
+        window.currentPagePath = "/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/404";
+        window.currentPageTitle = "404";
+        window.currentPageName = "404";
+        window.baseContentPath = "/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/homepage";
+        window.disableSpinner = "false";
+        window.pathModelJson = "https://www.tim.it/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/404.model.json";
+    </script>
+    <script>window.apiConfig["apiNoovleOnTheMap"] = "https://api.onthemap.io/server/v1/api/tim"; window.apiConfig["cartUrl2"] = "https://cms.tim.it/content/flyco/web/e-commerce/funnel-fisso-nip-rientri.html"; window.apiConfig["abilitaAnagraficaLoginSSO"] = "true"; window.apiConfig["filterCertified"] = "false"; window.apiConfig["baseSearchEngineInfoconsumatoriUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timSearch"; window.apiConfig["productNotifyme"] = "https://api.tim.it/api/profile/product/notifyme"; window.apiConfig["baseSearchEngineAssistenzaSuggestUrl"] = "https://api.tim.it/search/flyco_area_pubblica/suggest"; window.apiConfig["urlGoogleApiMaps"] = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAWp3OimJin4GZVBpx_3YcZW2rywsWz5c4&libraries=places,geocoder&language=it&region=IT"; window.apiConfig["numeroMinimoCaf2"] = "5"; window.apiConfig["enableRetailAvailabilityCaf"] = "true"; window.apiConfig["installments"] = "https://api.tim.it/api/co/products/caf/public/getInstallments"; window.apiConfig["enableProductsAvailability"] = "true"; window.apiConfig["vcLandingDisambiguazione"] = "https://www.tim.it/fisso-e-mobile/fibra-e-adsl/fibra-internet-casa/disambiguazione"; window.apiConfig["abilitaNuovoFunnel"] = "true"; window.apiConfig["eshopUrl"] = "https://www.tim.it/content/dam/flytoco-areapubblica-aemfe/json"; window.apiConfig["coperturaBannerBasePath"] = "https://eshop.tim.it"; window.apiConfig["trovaNegozioInfoByAddress"] = "https://api.tim.it/search/flyco_area_pubblica/timTrovaNegozioSearch"; window.apiConfig["cartUrl"] = "https://cms.tim.it/content/flyco/web/e-commerce/funnelCho.html"; window.apiConfig["abilitaCookieOneTrust"] = "true"; window.apiConfig["trovaNegozioAllPoiUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timTrovaNegozio"; window.apiConfig["prenotaAppuntamento"] = "https://api.exagonplus.com/tim/partooCode="; window.apiConfig["retailAvailability"] = "https://negozi.tim.it/feeds/NegoziTim.csv"; window.apiConfig["baseSearchEngineSezioniUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timSearchSezioni"; window.apiConfig["baseSearchEngineUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timSearch"; window.apiConfig["enableProductsAvailabilityCaf"] = "true"; window.apiConfig["trovaNegozioInfoById"] = "https://api.tim.it/search/flyco_area_pubblica/timTrovaNegozioDetail"; window.apiConfig["enable_sticky_cookie"] = "false"; window.apiConfig["link_prodotto"] = "pagina_prodotto"; window.apiConfig["baseSearchEngineVetrinaProdottiUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timVetrinaSearch"; window.apiConfig["enableRetailAvailabilityCaf2"] = "true"; window.apiConfig["cdnBaseUrl"] = "https://risorsec.tim.it"; window.apiConfig["apiNoovleOnTheMapKey"] = "a4bee6c1-84c6-11ef-9f25-b93f41b19f18"; window.apiConfig["coperturaUrl"] = "https://cms.tim.it/content/dam/flytoco-areapubblica-aemfe/json/coperturanew.json"; window.apiConfig["vcEnableDisambiguazioneFromLanding"] = "true"; window.apiConfig["abilitaVerificaCoperturaGoogle"] = "false"; window.apiConfig["baseSearchEngineSuggestUrl"] = "https://api.tim.it/search/flyco_area_pubblica/suggest"; window.apiConfig["cookieExpiration"] = "30"; window.apiConfig["oneTrustCookieCategory"] = "optanon-category-C0004"; window.apiConfig["baseSearchEngineAssistenzaUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timSearch"; window.apiConfig["disableSecondStep"] = "true"; window.apiConfig["productsAvailability"] = "https://api.tim.it/api/co/products/availability/alert"; window.apiConfig["enableRetailAvailability"] = "true"; window.apiConfig["trovaNegozioInfoByAddressExtended"] = "https://api.tim.it/search/flyco_area_pubblica/timTrovaNegozioSearchExtended"; window.apiConfig["numeroMinimoCaf"] = "5"; window.apiConfig["baseApiUrl"] = "https://api.tim.it"; window.apiConfig["enableProductsAvailabilityCaf2"] = "true"; window.apiConfig["baseSearchEngineAssistenzaSezioniUrl"] = "https://api.tim.it/search/flyco_area_pubblica/timSearchSezioni"; window.apiConfig["numeroMinimo"] = "5"; window.apiConfig["disableSearchNotTrustedAddress"] = "true"; window.apiConfig["easyApiCoperturaMobile"] = "https://api.tim.it/api/util/public/verificaCopertura"; window.apiConfig["templatePage"] = "/content/flyco/web/area-pubblica/flytoco-areapubblica-aemfe/template/template-verifica-copertura-e-wcb"; window.apiConfig["abilitaCookie"] = "true"; </script>
+    <script type="text/javascript">
+        window.disableAdFormCTA = "false";
+    </script>
+
+    
+    
+        <script type="text/javascript">
+            window.getAdFormParametersVersion = "/api/v3/getAdformParameters";
+        </script>
+    
+
+
+
+
+    <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
+    
+
+    
+
+
+
+
+
+    
+<!--    <sly data-sly-include="author.html" />-->
+    
+    
+
+
+    <link rel="preload" as="font" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/font/tim-sans/TIMSans-MediumItalic/TIMSans-MediumItalic.woff" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" as="font" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/font/tim-sans/TIMSans-Medium/TIMSans-Medium.woff" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" as="font" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/font/tim-sans/TIMSans-LightItalic/TIMSans-LightItalic.woff" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" as="font" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/font/tim-sans/TIMSans-Light/TIMSans-Light.woff" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" as="font" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/font/tim-sans/TIMSans-HeavyItalic/TIMSans-HeavyItalic.woff" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" as="font" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/font/tim-sans/TIMSans-Heavy/TIMSans-Heavy.woff" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" as="style" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/css/main.css" crossorigin="anonymous"/>
+    <link media="all" rel="stylesheet" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/css/main.css"/>
+   	<link media="all" rel="stylesheet" href="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/css/other.css"/>
+    	 
+    
+
+
+
+
+    
+    
+
+    <style>
+        .verifica-copertura-banner img {
+            width: 100%;
+        }
+    </style>
+
+    
+    <style>.cover {background-size: cover;}</style>
+    
+    
+        
+    
+<script type="application/javascript">"use strict";var HeaderManager=function(){var a=!1,b=void 0,c=function(){return d().replace(/-/g,"").substring(0,24)},d=function(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(a){var b=0|16*Math.random(),c="x"==a?b:8|3&b;return c.toString(16)})},e=function(){return new Date().toISOString().substring(0,10)},f=function(){return new Date().toISOString().substring(11,23)},g=function(b,d,g,h){var i={SessionID:b||c(),BusinessID:d||c(),Channel:"MYTIMWEB",//stringa statica per garantire tracciamenti CRE,
+TransactionID:(g||c()).toUpperCase(),MessageID:c(),"InteractionDate-Date":e(),"InteractionDate-Time":f()};return h||(i.SourceSystem="WEB"),a=!0,i},h=function(c,d,e,f,h,i,j){return a||(console.log("initHeaders"),b=g(d,e,f,h)),j&&""!=j?b.DeviceType=j:delete b.DeviceType,"POST"==c&&(b["Content-Type"]="application/json;charset=UTF-8"),"PUT"==c&&(b["Content-Type"]="application/json;charset=UTF-8"),b.Accept="application/json",b};return{getHeaders:h,resetHeaders:function(){a=!1},getBusinessId:function(){return h().BusinessID}}}();
+"use strict";var ComponentManager=function(){var a={},b={};return{register:function(c,d){a[c]||(a[c]=[]);var e={id:d};if(a[c].push(e),b[c])for(var f=b[c],g=0;g<f.length;g++)f[g](e)},subscribe:function(a,c){return b[a]||(b[a]=[]),b[a].push(c),!0},getComponentList:function(b){var c=a[b];// controllo se per caso è stato scritto erroneamente il nome della componente con /apps
+if(!c)for(var d in a)if(0<=d.indexOf(b))return b[d];return c},getAll:function(){return a}}}();
+"use strict";var SpinnerManager=function(){return{show:function(){var a=document.getElementById("loader_spinner");a&&a.classList.remove("-hidden")},hide:function(){var a=document.getElementById("loader_spinner");a&&(a.classList.remove("-hidden"),a.classList.add("-hidden"))}}}();
+"use strict";var SpinnerManagerPersistent=function(){var a=0,b=function b(){var c=document.getElementById("loader_spinner");c&&(a++,c.classList.remove("-hidden"))},c=function b(){var c=document.getElementById("loader_spinner");c&&(a--,0>=a&&(c.classList.remove("-hidden"),c.classList.add("-hidden")))};return{show:b,hide:c}}();
+"use strict";window.sessionStorageUtil={_registry:{}},window.sessionStorageUtil._MD5=function(a){var b=M(V(Y(X(a),8*a.length)));return b.toLowerCase()};function M(a){for(var b,c="0123456789ABCDEF",d="",e=0;e<a.length;e++)b=a.charCodeAt(e),d+=c.charAt(15&b>>>4)+c.charAt(15&b);return d}function X(a){for(var b=Array(a.length>>2),c=0;c<b.length;c++)b[c]=0;for(c=0;c<8*a.length;c+=8)b[c>>5]|=(255&a.charCodeAt(c/8))<<c%32;return b}function V(a){for(var b="",c=0;c<32*a.length;c+=8)b+=String.fromCharCode(255&a[c>>5]>>>c%32);return b}function Y(a,b){a[b>>5]|=128<<b%32,a[14+(b+64>>>9<<4)]=b;for(var c=1732584193,d=-271733879,j=-1732584194,k=271733878,l=0;l<a.length;l+=16){var o=c,p=d,q=j,s=k;d=md5_ii(d=md5_ii(d=md5_ii(d=md5_ii(d=md5_hh(d=md5_hh(d=md5_hh(d=md5_hh(d=md5_gg(d=md5_gg(d=md5_gg(d=md5_gg(d=md5_ff(d=md5_ff(d=md5_ff(d=md5_ff(d,j=md5_ff(j,k=md5_ff(k,c=md5_ff(c,d,j,k,a[l+0],7,-680876936),d,j,a[l+1],12,-389564586),c,d,a[l+2],17,606105819),k,c,a[l+3],22,-1044525330),j=md5_ff(j,k=md5_ff(k,c=md5_ff(c,d,j,k,a[l+4],7,-176418897),d,j,a[l+5],12,1200080426),c,d,a[l+6],17,-1473231341),k,c,a[l+7],22,-45705983),j=md5_ff(j,k=md5_ff(k,c=md5_ff(c,d,j,k,a[l+8],7,1770035416),d,j,a[l+9],12,-1958414417),c,d,a[l+10],17,-42063),k,c,a[l+11],22,-1990404162),j=md5_ff(j,k=md5_ff(k,c=md5_ff(c,d,j,k,a[l+12],7,1804603682),d,j,a[l+13],12,-40341101),c,d,a[l+14],17,-1502002290),k,c,a[l+15],22,1236535329),j=md5_gg(j,k=md5_gg(k,c=md5_gg(c,d,j,k,a[l+1],5,-165796510),d,j,a[l+6],9,-1069501632),c,d,a[l+11],14,643717713),k,c,a[l+0],20,-373897302),j=md5_gg(j,k=md5_gg(k,c=md5_gg(c,d,j,k,a[l+5],5,-701558691),d,j,a[l+10],9,38016083),c,d,a[l+15],14,-660478335),k,c,a[l+4],20,-405537848),j=md5_gg(j,k=md5_gg(k,c=md5_gg(c,d,j,k,a[l+9],5,568446438),d,j,a[l+14],9,-1019803690),c,d,a[l+3],14,-187363961),k,c,a[l+8],20,1163531501),j=md5_gg(j,k=md5_gg(k,c=md5_gg(c,d,j,k,a[l+13],5,-1444681467),d,j,a[l+2],9,-51403784),c,d,a[l+7],14,1735328473),k,c,a[l+12],20,-1926607734),j=md5_hh(j,k=md5_hh(k,c=md5_hh(c,d,j,k,a[l+5],4,-378558),d,j,a[l+8],11,-2022574463),c,d,a[l+11],16,1839030562),k,c,a[l+14],23,-35309556),j=md5_hh(j,k=md5_hh(k,c=md5_hh(c,d,j,k,a[l+1],4,-1530992060),d,j,a[l+4],11,1272893353),c,d,a[l+7],16,-155497632),k,c,a[l+10],23,-1094730640),j=md5_hh(j,k=md5_hh(k,c=md5_hh(c,d,j,k,a[l+13],4,681279174),d,j,a[l+0],11,-358537222),c,d,a[l+3],16,-722521979),k,c,a[l+6],23,76029189),j=md5_hh(j,k=md5_hh(k,c=md5_hh(c,d,j,k,a[l+9],4,-640364487),d,j,a[l+12],11,-421815835),c,d,a[l+15],16,530742520),k,c,a[l+2],23,-995338651),j=md5_ii(j,k=md5_ii(k,c=md5_ii(c,d,j,k,a[l+0],6,-198630844),d,j,a[l+7],10,1126891415),c,d,a[l+14],15,-1416354905),k,c,a[l+5],21,-57434055),j=md5_ii(j,k=md5_ii(k,c=md5_ii(c,d,j,k,a[l+12],6,1700485571),d,j,a[l+3],10,-1894986606),c,d,a[l+10],15,-1051523),k,c,a[l+1],21,-2054922799),j=md5_ii(j,k=md5_ii(k,c=md5_ii(c,d,j,k,a[l+8],6,1873313359),d,j,a[l+15],10,-30611744),c,d,a[l+6],15,-1560198380),k,c,a[l+13],21,1309151649),j=md5_ii(j,k=md5_ii(k,c=md5_ii(c,d,j,k,a[l+4],6,-145523070),d,j,a[l+11],10,-1120210379),c,d,a[l+2],15,718787259),k,c,a[l+9],21,-343485551),c=safe_add(c,o),d=safe_add(d,p),j=safe_add(j,q),k=safe_add(k,s)}return[c,d,j,k]}function md5_cmn(a,b,c,d,e,f){return safe_add(bit_rol(safe_add(safe_add(b,a),safe_add(d,f)),e),c)}function md5_ff(a,b,c,d,e,f,g){return md5_cmn(b&c|~b&d,a,b,e,f,g)}function md5_gg(a,b,c,d,e,f,g){return md5_cmn(b&d|c&~d,a,b,e,f,g)}function md5_hh(a,b,c,d,e,f,g){return md5_cmn(b^c^d,a,b,e,f,g)}function md5_ii(a,b,c,d,e,f,g){return md5_cmn(c^(b|~d),a,b,e,f,g)}function safe_add(a,b){var c=(65535&a)+(65535&b);return(a>>16)+(b>>16)+(c>>16)<<16|65535&c}function bit_rol(a,b){return a<<b|a>>>32-b}// window.sessionStorageUtil._MD5 = function(d){return d;}
+window.sessionStorageUtil._getCookie=function(a){for(var b,d=a+"=",e=decodeURIComponent(document.cookie),f=e.split(";"),g=0;g<f.length;g++){for(b=f[g];" "==b.charAt(0);)b=b.substring(1);if(0==b.indexOf(d))return b.substring(d.length,b.length)}return""},window.sessionStorageUtil._getAuthToken=function(){var a=this._getCookie("authToken");return a||console.warn("ATTENZIONE! token non trovato",a),a},window.sessionStorageUtil.setItem=function(a,b){var c=this._getAuthToken();a=a.toUpperCase();var d=b;b instanceof Object&&(d=JSON.stringify(d)),window.sessionStorage.setItem(this._MD5(c+a),d),window.dispatchEvent(new CustomEvent("sessionStorage",{detail:{key:a,value:d}}))},window.sessionStorageUtil.getItem=function(a){var b=this._getAuthToken();a=a.toUpperCase();var c=window.sessionStorage.getItem(this._MD5(b+a));return c=this._getValue(c),c},window.sessionStorageUtil.removeItem=function(a){var b=this._getAuthToken();a=a.toUpperCase(),window.sessionStorage.removeItem(this._MD5(b+a))},window.sessionStorageUtil._getValue=function(a){try{a=JSON.parse(a)}catch(a){console.warn("Non \xE8 un json")}return a},window.sessionStorageUtil.register=function(a,b){a=a.toUpperCase(),window.sessionStorageUtil._registry[a]||(window.sessionStorageUtil._registry[a]=[]),window.sessionStorageUtil._registry[a].push(b)},window.addEventListener("sessionStorage",function(a){if(a.detail&&a.detail){var b=window.sessionStorageUtil._registry[a.detail.key];if(b)for(var c=0;c<b.length;c++)b[c](window.sessionStorageUtil._getValue(a.detail.value))}});
+"use strict";var TooltipManager=function(){return{initTooltip:function(a){var b=a.find("[js-tooltip]");// exit now if there are no components
+if(0!=b.length)for(var c={// breakpoints
+l:1280,m:768,s:320},d={// margin for balloon orientation
+l:250,m:180,s:50},e=0;e<b.length;e++)$(b[e]).on("mouseover",function(){// evaluate current breakpoint
+var a=window.innerWidth,b=a>=c.l?"l":a>=c.m?"m":"s";// positioning
+if(this.classList.contains("-full-width")||"s"==b&&this.classList.contains("-full-width-s")||"m"==b&&this.classList.contains("-full-width-m")||"l"==b&&this.classList.contains("-full-width-l"))this.classList.remove("-centered"),this.classList.remove("-to-left");else{// this.classList.remove('-to-left'); // clean up any unnecessary classes
+var e=this.getBoundingClientRect(),f=a>=c.l?d.l:a>=c.m?d.m:d.s;// tooltip current position and size
+// evaluate margin depending on current breakpoint
+a-parseInt(e.right)<f&&(this.classList.remove("-centered"),this.classList.add("-to-left"),console.log("aggiungo toleft")),e.x<f&&(this.classList.remove("-centered"),this.classList.remove("-to-left"))}})}}}();
+(function () {
+    if ( typeof window.CustomEvent === "function" ) return false;
+    function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: null };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+    }
+    window.CustomEvent = CustomEvent;
+})();
+
+</script>
+
+
+    
+
+    
+
+
+
+    
+        <!--  markup schema org - organization-->
+        <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "TIM",
+  "url": "https://www.tim.it/",
+  "logo": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/loghi/logo-white.svg", 
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+39119",
+    "contactType": "customer service",
+    "contactOption": "TollFree"
+  },
+  "sameAs": [
+    "https://www.facebook.com/TimOfficialPage/",
+    "https://twitter.com/TIM_Official",
+    "https://www.youtube.com/user/TimChannel",
+    "https://www.linkedin.com/company/tim/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": [
+        "Fisso",
+        "Mobile",
+        "TV e Calcio",
+        "Energia",
+        "Offerte Speciali",
+        "Smartphone",
+        "Tablet, PC e Modem",
+        "Home e Personal Care",
+        "Smartwatch, Wearable e Accessori",
+        "Tutti i prodotti",
+        "Servizii",
+        "TIM Star",
+        "Assistenza",
+        "Not logged Area Clienti MyTIM",
+        "Accedi alla PEC"        
+    ],
+    "url": [
+        "https://www.tim.it/fisso-e-mobile/fibra-e-adsl",
+        "https://www.tim.it/fisso-e-mobile/mobile",
+        "https://www.tim.it/offerte-tv",
+        "https://www.tim.it/luce-gas",
+        "https://www.tim.it/prodotti/offerte-speciali",
+        "https://www.tim.it/prodotti/smartphone",
+        "https://www.tim.it/prodotti/tablet-pc-modem",
+        "https://www.tim.it/prodotti/elettrodomestici",
+        "https://www.tim.it/prodotti/accessori-smartwatch",
+        "https://www.tim.it/prodotti",
+        "https://www.tim.it/fisso-e-mobile/servizi",
+        "https://timstar.tim.it/",
+        "https://www.tim.it/assistenza",
+        "https://mytim.tim.it/login-authorize.html",
+        "https://webmail.pectim.it/"
+    ]
+  }
+</script>
+        <!--  /markup schema org - organization-->
+    
+    
+    <script type="application/ld+json">{
+  "@context" : "http://schema.org",
+  "@type" : "BreadcrumbList",
+  "itemListElement" : [ ]
+}</script>
+
+    <!--  Schema.org Item List   -->
+    
+    <!--  Schema.org Item List   -->
+
+
+    
+        <!-- head redazionale-->
+        
+        <!-- /head redazionale-->
+    
+    
+        <!-- head redazionale-->
+        <link rel="preconnect" href="https://risorsec.tim.it"/>
+<link rel="preconnect" href="https://corporate.tim.ticdn.it"/>
+<link rel="preconnect" href="https://cdn.cookielaw.org"/>
+<link rel="preconnect" href="https://assets.adobedtm.com"/>
+<link rel="preconnect" href="https://s1.adform.net"/>
+<link rel="preconnect" href="https://track.adform.net"/>
+<link rel="preconnect" href="https://ssl-metrics.tim.it"/>
+<link rel="preconnect" href="https://telecomitalia.tt.omtrdc.net"/>
+<link rel="preconnect" href="https://api.tim.it"/>
+<link rel="preconnect" href="https://corporate.tim.ticdn.it"/>
+
+<script src="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/js/accessibility/accessibility-widget.js" defer></script>
+
+<script src="https://risorsec.tim.it/content/dam/flytoco-cvm/area-pubblica/CVM.js?v=1.0.2"></script>
+<meta name="google-site-verification" content="hexlV8AtJMXZbVn9s1s3Qj5Bt5vN0rZpi_f1quc4Pvc"/>
+
+
+
+<!-- Messo dal model di default -->
+        <!-- /head redazionale-->
+    
+    
+        
+    
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/libreria-jquery.min.js"></script>
+
+
+
+    
+    <!-- Omniture BEGIN -->
+    
+
+    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/19592410-edaf-48e3-8faa-9053afe70fee/OtAutoBlock.js"></script> <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-language="it" type="text/javascript" charset="UTF-8" data-domain-script="19592410-edaf-48e3-8faa-9053afe70fee"></script><script type="text/javascript">function OptanonWrapper() { }</script><script data-ot-ignore src="//assets.adobedtm.com/1eecba5bc341/de31c2d2f016/launch-908a44388c45.min.js" async onload="window.onOmnitureLoad ? onOmnitureLoad() : ''"></script>
+
+    <script type="text/javascript">
+        var digitalData = {};
+
+        if('{\x22page\x22:{\x22pageInfo\x22:{\x22pageName\x22:\x22404\x22},\x22attributes\x22:{\x22webSite\x22:\x22tim.it\x22,\x22siteArea\x22:\x22Area Pubblica\x22},\x22category\x22:{\x22pageType\x22:\x22\x22,\x22primaryCategory\x22:\x22404\x22}}}' != ""){
+            digitalData = JSON.parse(JSON.stringify('{\x22page\x22:{\x22pageInfo\x22:{\x22pageName\x22:\x22404\x22},\x22attributes\x22:{\x22webSite\x22:\x22tim.it\x22,\x22siteArea\x22:\x22Area Pubblica\x22},\x22category\x22:{\x22pageType\x22:\x22\x22,\x22primaryCategory\x22:\x22404\x22}}}'));
+            if (typeof digitalData == "string"){
+                digitalData = JSON.parse(digitalData);
+            }
+        }
+    </script>
+
+
+    <!-- Omniture END -->
+
+    <!-- Google Maps API  begin-->
+    
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWp3OimJin4GZVBpx_3YcZW2rywsWz5c4&libraries=places,geocoder&language=it&region=IT"></script>
+    
+    <!-- Google Maps API  begin-->
+
+    
+        <!--  Medallia disableSurvey-->
+        <script>
+            try{
+                window._c_medallia = window._c_medallia || {};
+                window._c_medallia.surveyDisabled = "false" == "true";
+            }catch(error){
+                console.error(error);
+            }
+        </script>
+        <!--  /Medallia disableSurvey-->
+    
+
+    <!-- RECAPTCHA begin -->
+    
+    <!-- RECAPTCHA end -->
+</head>
+<body class="page basicpage no-touch">
+<div id="loader_spinner" class="tm-loader -hidden">
+    <div class="tm-loader__spinner"></div>
+</div>
+<div class="svg-sprite" style="display: none;"><!--?xml version="1.0" encoding="UTF-8"?-->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol viewBox="0 0 14 14" id="Placeholder" xmlns="http://www.w3.org/2000/svg"><path d="M7 0a7 7 0 110 14A7 7 0 017 0zm0 7.66l-3.9 3.9A5.976 5.976 0 007 13a5.976 5.976 0 003.9-1.44L7 7.66zm4.56-4.56L7.66 7l3.9 3.9A5.976 5.976 0 0013 7a5.976 5.976 0 00-1.44-3.9zM1 7c0 1.489.542 2.851 1.44 3.9L6.339 7 2.44 3.1A5.976 5.976 0 001 7zm6-6a5.976 5.976 0 00-3.9 1.44L7 6.339l3.9-3.899A5.976 5.976 0 007 1z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="add_form" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#0088D9" d="M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z"></path><path fill="#FFF" fill-rule="nonzero" d="M11 13H8a1 1 0 010-2h3V8a1 1 0 012 0v3h3a1 1 0 010 2h-3v3a1 1 0 01-2 0v-3z"></path></g></symbol><symbol viewBox="0 0 24 24" id="airplane" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.39 5.118c2.155-2.155 6.063-5.48 8.017-3.525 1.955 1.954-1.37 5.862-3.525 8.017-.154.155-.285.281-.384.377l1.648 10.22a2.641 2.641 0 01-.738 2.283l-.356.356a.528.528 0 01-.814-.086l-5.272-8.083-3.454 2.825v4.226c0 .139-.056.273-.155.372l-.746.746a.528.528 0 01-.853-.155l-1.637-3.603-1.003.5a.527.527 0 01-.706-.706l.5-1.002L1.31 16.24a.527.527 0 01-.155-.852l.746-.746c.1-.1.233-.154.373-.155h4.224l2.826-3.453-8.084-5.272a.528.528 0 01-.085-.814l.357-.357a2.643 2.643 0 012.283-.738l10.22 1.648c.094-.1.222-.23.376-.384z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_down" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.707 8.293a1 1 0 10-1.414 1.414l7 7a.997.997 0 001.414 0l7-7a1 1 0 00-1.414-1.414L12 14.586 5.707 8.293z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_down_small" xmlns="http://www.w3.org/2000/svg"><style>.aest0{fill-rule:evenodd;clip-rule:evenodd}</style><path id="aeshape" class="aest0" d="M7.7 9.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l5 5c.2.2.5.3.7.3s.5-.1.7-.3l5-5c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0L12 13.6 7.7 9.3z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_left" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.429 14.834a4 4 0 0 1 0-5.669l4.895-4.874 1.41 1.417-4.894 4.875a2 2 0 0 0 0 2.834l4.895 4.874-1.411 1.418-4.895-4.875Z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_left_short" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 11h13v2H8v-2Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M3.692 14.126a3 3 0 0 1 0-4.252l4.602-4.583 1.411 1.417-4.602 4.583a1 1 0 0 0 0 1.418l4.602 4.582-1.41 1.418-4.603-4.583Z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_right" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.601 14.834a4 4 0 0 0 0-5.669L9.706 4.291 8.295 5.708l4.895 4.875a2 2 0 0 1 0 2.834l-4.895 4.874 1.411 1.418 4.895-4.875Z"></path></symbol><symbol viewBox="0 0 24 24" id="video-play" xmlns="http://www.w3.org/2000/svg"><path d="M18.0158 12.0498L6.02253 19.7254L6.02253 13.4669H3.03906L3.03906 19.7254C3.03906 22.0831 5.64496 23.5093 7.63078 22.2383L19.624 14.5627C21.4577 13.3891 21.4577 10.7104 19.624 9.53687L7.63079 1.86118C5.64496 0.590256 3.03906 2.01638 3.03906 4.37408V10.4834H6.02254L6.02254 4.37408L18.0158 12.0498Z"></path></symbol><symbol viewBox="0 0 24 24" id="video-pause" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="3" width="4" height="18" rx="1.5"></rect><rect x="14" y="3" width="4" height="18" rx="1.5"></rect></symbol><symbol viewBox="0 0 24 24" id="arrow_right_short" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.975 11h-13v2h13v-2Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M20.283 14.126a3 3 0 0 0 0-4.252L15.68 5.291 14.27 6.708l4.602 4.583a1 1 0 0 1 0 1.418L14.27 17.29l1.411 1.418 4.603-4.583Z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_up" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.707 15.707a1 1 0 11-1.414-1.414l7-7a.997.997 0 011.414 0l7 7a1 1 0 01-1.414 1.414L12 9.414l-6.293 6.293z"></path></symbol><symbol viewBox="0 0 24 24" id="arrow_up_small" xmlns="http://www.w3.org/2000/svg"><style>.akst0{fill-rule:evenodd;clip-rule:evenodd}</style><path id="akshape" class="akst0" d="M7.7 14.7c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l5-5c.2-.2.4-.3.7-.3s.5.1.7.3l5 5c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0L12 10.4l-4.3 4.3z"></path></symbol><symbol viewBox="0 0 24 24" id="audio_off" xmlns="http://www.w3.org/2000/svg"><path d="M3.68 7.266H1v9.958h2.68l7.951 4.213V2L3.68 7.266zm-1.68 1h1.982l.251-.167 6.399-4.238v15.914L4.149 16.34l-.22-.116H2V8.266zm15.8 2.745l-2.845-2.846-.707.708 2.846 2.845-2.846 2.846.707.707 2.845-2.846 2.846 2.846.707-.707-2.846-2.846 2.846-2.845-.707-.708-2.846 2.846z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="audio_on" xmlns="http://www.w3.org/2000/svg"><path d="M21.5 12.31c0-3.258-1.649-6.263-4.413-8.038l-.54.842c2.474 1.59 3.953 4.28 3.953 7.196 0 2.917-1.478 5.607-3.954 7.196l.541.842c2.764-1.774 4.413-4.78 4.413-8.038zm-3.904 0A6.036 6.036 0 0014.8 7.215l-.54.842a5.038 5.038 0 010 8.507l.54.842a6.042 6.042 0 002.797-5.096zM11.7 2L3.697 7.3H1v10.02h2.697l8.002 4.24V2zm-1 1.862v16.036l-6.533-3.461-.22-.116H2V8.3H4l.251-.167 6.45-4.271z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="back-to-top" xmlns="http://www.w3.org/2000/svg"><path d="M11.986 6.514l6.363 6.364-.707.708-5.157-5.156v14.056h-1V8.43l-5.156 5.155-.707-.708 6.364-6.364zM18 3v1H6V3h12z" fill="none" fill-rule="evenodd"></path></symbol><symbol id="bin" viewBox="0 0 18 20" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><style>.aost0{fill-rule:evenodd;clip-rule:evenodd}</style><path id="aoCombined-Shape" class="aost0" d="M11.3.8h.2c.8.1 1.4.7 1.4 1.5V3l.1.1h4.1v1.1h-.9l-.2.2v13.5c-.1.8-.7 1.4-1.5 1.4H3.3c-.7-.2-1.3-.8-1.3-1.6V4.4l-.2-.1H.9V3.2H5l.2-.2V2c.1-.8.7-1.4 1.5-1.4h4.6zm3.5 3.5H3.2l-.1.1v13.4c0 .2.2.3.4.3h11.2c.2 0 .3-.2.3-.4V4.4l-.2-.1zM9.6 8.1v6.1H8.5V8.1h1.1zM6.4 9v4.4H5.3V9h1.1zm6.3 0v4.4h-1.1V9h1.1zm-1.4-7.1H6.6c-.2.1-.3.2-.3.4v.8l.1.1h5.1l.1-.1v-.9c0-.1-.1-.3-.3-.3z"></path></symbol><symbol viewBox="0 0 24 24" id="calendar" xmlns="http://www.w3.org/2000/svg"><defs><path d="M4 11v9h16V6h-3v1a1 1 0 01-2 0V6H9v1a1 1 0 11-2 0V6H4v3h16v2H4zm13-7h4a1 1 0 011 1v16a1 1 0 01-1 1H3a1 1 0 01-1-1V5a1 1 0 011-1h4V3a1 1 0 112 0v1h6V3a1 1 0 012 0v1zM7 13h2v2H7v-2zm0 3h2v2H7v-2zm4-3h2v2h-2v-2zm0 3h2v2h-2v-2zm4-3h2v2h-2v-2zm0 3h2v2h-2v-2z" id="apa"></path></defs><use xlink:href="#apa" fill-rule="evenodd"></use></symbol><symbol viewBox="0 0 32 24" id="carrello" xmlns="http://www.w3.org/2000/svg"><defs><path d="M10.777 17.09l.137.005a1.843 1.843 0 01.278.044l.02.005.055.014a1.83 1.83 0 01.206.071l.072.032.046.022a2.228 2.228 0 01.255.154l.037.027.069.055.03.027c.026.022.051.045.075.068l.038.039.052.055a2.32 2.32 0 01.135.17l.028.042.04.063a1.483 1.483 0 01.066.119l.028.057c.012.025.023.05.033.076l.01.023.01.025a1.837 1.837 0 01.026 1.23l-.01.032c-.012.031-.023.062-.036.092l-.023.054c-.011.026-.023.05-.035.074l-.021.04-.048.085-.024.037-.044.067a2.2 2.2 0 01-.135.17l-.052.056-.037.037a1.65 1.65 0 01-.07.065l-.036.03a1.61 1.61 0 01-.069.056l-.038.027a1.644 1.644 0 01-.08.055l-.04.025-.063.037-.071.037a1.256 1.256 0 01-.117.053 1.522 1.522 0 01-.207.072l-.027.007-.048.012-.056.013-.08.014a1.84 1.84 0 01-1.542-.472l-.096-.096a1.839 1.839 0 01-.495-1.256c0-.921.678-1.686 1.562-1.824l.14-.017c.048-.003.096-.005.145-.005h.007zm7.993 0a1.852 1.852 0 01.422.049l.02.005.055.014a1.83 1.83 0 01.206.071l.072.032.046.022a2.178 2.178 0 01.255.154l.037.027.069.055.03.027c.026.022.051.045.075.068l.038.039.052.055a1.98 1.98 0 01.135.17l.028.042.04.063a1.677 1.677 0 01.066.119l.028.057c.012.025.023.05.033.076l.01.023.01.025a1.849 1.849 0 01-1.583 2.494l-.145.005a1.85 1.85 0 01-1.797-2.269l.005-.02a1.83 1.83 0 01.02-.074l.015-.048.03-.089.019-.045c.01-.028.023-.056.036-.083l.02-.04c.012-.026.026-.052.04-.078l.032-.054.039-.062.029-.042a1.54 1.54 0 01.055-.075l.036-.044a1.383 1.383 0 01.142-.153l.052-.048a1.495 1.495 0 01.108-.089l.05-.038a2.041 2.041 0 01.177-.11l.07-.038a1.717 1.717 0 01.123-.055l.05-.02a1.962 1.962 0 01.206-.064l.02-.005.066-.014a1.825 1.825 0 01.358-.035zm-8 1.23a.616.616 0 00-.517.95l.052.07c.079.09.183.157.302.19l.08.016.083.005.09-.007a.617.617 0 00.516-.508l.009-.1-.007-.091a.617.617 0 00-.35-.467l-.081-.031a.614.614 0 00-.177-.026zm8 0a.616.616 0 00-.517.95l.052.07a.62.62 0 00.373.204l.092.007.09-.007a.617.617 0 00.516-.508l.009-.1-.007-.091a.617.617 0 00-.35-.467l-.081-.031a.614.614 0 00-.177-.026zM3.998.476l.138.006L4.27.5c.045.008.088.018.131.03l.127.043a1.461 1.461 0 01.876.95l.286.951h5.386v.995l-4.912.005 2.502 8.334h11.02l.089-.009a.484.484 0 00.338-.252l.033-.083 2.41-8.003-5.326.004v-.991h5.33l.114.007.112.021a.963.963 0 01.212.08l.097.058a.974.974 0 01.39.525.995.995 0 01.03.472l-.028.119-2.409 8.004-.046.13c-.205.512-.669.86-1.21.911l-.136.007H8.803l.6 1.989c.018.057.046.11.083.156l.061.064c.067.058.15.1.24.116l.092.008h10.566v1H9.878a1.463 1.463 0 01-1.406-1.049l-4-13.273a.495.495 0 00-.475-.345H.308v-1h3.69zM14.654 0v6.867l1.942-1.627.635.797-3.078 2.578-3.076-2.578.635-.797 1.939 1.627V0h1.003z" id="aqa"></path></defs><use fill="#FFF" xlink:href="#aqa" transform="translate(4 2)" fill-rule="evenodd"></use></symbol><symbol viewBox="0 0 48 48" id="cellulare_mobile" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.625 48C12.966 48 10 44.968 10 41.25V6.75C10 3.032 12.966 0 16.625 0h14.75C35.034 0 38 3.032 38 6.75v34.5c0 3.718-2.966 6.75-6.625 6.75h-14.75zm0-2h14.75C33.919 46 36 43.873 36 41.25V6.75C36 4.127 33.919 2 31.375 2h-14.75C14.081 2 12 4.127 12 6.75v34.5c0 2.623 2.081 4.75 4.625 4.75zm2.875-2c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h9c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-9z"></path></symbol><symbol viewBox="0 0 24 24" id="check" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.793 7.793a1 1 0 111.414 1.414l-7 7a.997.997 0 01-1.414 0l-3-3a1 1 0 011.414-1.414l2.293 2.293 6.293-6.293z"></path></symbol><symbol viewBox="0 0 16 14" id="check_checkbox" xmlns="http://www.w3.org/2000/svg"><path d="M2.926 6.716a1.25 1.25 0 10-1.852 1.679l4.028 4.444a1.25 1.25 0 001.903-.06l7.972-10a1.25 1.25 0 10-1.954-1.558l-7.056 8.85-3.04-3.355z"></path></symbol><symbol viewBox="0 0 24 24" id="chevron-right" xmlns="http://www.w3.org/2000/svg"><path d="M7.598 3L7 3.7l9.594 8.3L7 20.302l.598.698L18 12z"></path></symbol><symbol viewBox="0 0 24 24" id="close" xmlns="http://www.w3.org/2000/svg"><path d="M18.718 5.99L12.708 12l6.01 6.01-.708.708-6.01-6.01-6.01 6.01-.708-.708 6.01-6.01-6.01-6.01.708-.708 6.01 6.01 6.01-6.01.708.708z" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="close-big" xmlns="http://www.w3.org/2000/svg"><path d="M20.839 3.868L12.707 12l8.132 8.132-.707.707L12 12.707 3.868 20.84l-.707-.707L11.293 12 3.16 3.868l.707-.707L12 11.293l8.132-8.132.707.707z"></path></symbol><symbol viewBox="0 0 24 24" id="close-search" xmlns="http://www.w3.org/2000/svg"><path d="M12 4a8 8 0 110 16 8 8 0 010-16zm3.189 4.118L12 11.307l-3.189-3.19-.693.694L11.307 12l-3.19 3.189.694.693L12 12.693l3.189 3.19.693-.694L12.693 12l3.19-3.189-.694-.693z" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="coins" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1 19.196c1.05 1.04 3.253 2.479 7.556 2.452 4.013 0 6.007-1.253 6.978-2.292v1.146a1.9 1.9 0 01-.289 1.013c-.63.906-2.308 2.453-6.69 2.453-4.407 0-6.374-1.547-7.161-2.48-.263-.293-.394-.693-.394-1.12v-1.172zm14.534-3.226v1.306a1.9 1.9 0 01-.289 1.013c-.63.907-2.308 2.453-6.69 2.453-4.407 0-6.374-1.546-7.161-2.48C1.13 17.97 1 17.57 1 17.142v-1.359c1.05 1.04 3.253 2.48 7.556 2.48 4.013 0 6.007-1.254 6.978-2.293zm-.079-8.158c-1.364-1.52-4.04-2.507-7.188-2.507-.315-.426-.499-.906-.499-1.386C7.768 1.786 11.1 0 15.035 0c3.936 0 7.267 1.786 7.241 3.92 0 2.025-3.07 3.758-6.82 3.892zM8.267 6.239c3.935 0 7.267 1.786 7.267 3.892 0 2.133-3.332 3.946-7.267 3.946-3.935 0-7.267-1.813-7.267-3.92C1 8.026 4.332 6.24 8.267 6.24zm8.185 5.758c3.253-.213 4.958-1.333 5.85-2.266v1.306a1.9 1.9 0 01-.288 1.014c-.551.826-2.02 2.186-5.562 2.426v-.374-2.106zm-.918.4v1.466a1.9 1.9 0 01-.289 1.014c-.63.906-2.308 2.452-6.69 2.452-4.407 0-6.374-1.546-7.161-2.48C1.13 14.558 1 14.158 1 13.73v-1.333c1.364 1.546 4.066 2.586 7.267 2.586 3.2 0 5.929-1.04 7.267-2.586zm.55-3.706c2.73-.186 5.012-1.146 6.192-2.532v1.466a1.9 1.9 0 01-.288 1.013c-.551.826-2.02 2.186-5.562 2.426v-.373h-.053a4.04 4.04 0 00.053-.56 3.06 3.06 0 00-.341-1.44zm.368 6.719c3.253-.214 4.958-1.307 5.85-2.293v1.146a1.9 1.9 0 01-.288 1.013c-.551.827-2.02 2.187-5.562 2.427v-.374-1.919z"></path></symbol><symbol viewBox="0 0 48 48" id="documents" xmlns="http://www.w3.org/2000/svg"><path class="azst0" d="M35.8 3C38.1 3 40 4.8 40 7v34c0 2.2-1.9 4-4.2 4H13.2C10.9 45 9 43.2 9 41V7c0-2.2 1.9-4 4.2-4h22.6zm0 2H13.2c-1.3 0-2.3.9-2.3 2v34c0 1.1 1 2 2.3 2h22.6c1.3 0 2.3-.9 2.3-2V7c0-1.1-1-2-2.3-2zM15.6 30h9.8c.3 0 .6.4.6 1 0 .5-.2.9-.5 1h-9.9c-.3 0-.6-.4-.6-1 0-.5.2-.9.6-1h9.8-9.8zM32 24c.6 0 1 .4 1 1 0 .5-.4.9-.9 1H16c-.6 0-1-.4-1-1 0-.5.4-.9.9-1H32zm0-6c.6 0 1 .4 1 1 0 .5-.4.9-.9 1H16c-.6 0-1-.4-1-1 0-.5.4-.9.9-1H32zm0-6c.6 0 1 .4 1 1 0 .5-.4.9-.9 1H16c-.6 0-1-.4-1-1 0-.5.4-.9.9-1H32z"></path></symbol><symbol viewBox="0 0 24 24" id="dots" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="18" r="2"></circle><circle cx="12" cy="6" r="2"></circle><circle cx="12" cy="12" r="2"></circle></symbol><symbol viewBox="0 0 24 24" id="edit" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 17.462v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15l10.92-10.91-3.75-3.75-10.91 10.91c-.1.1-.15.22-.15.36zm17.71-10.42a.996.996 0 000-1.41l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></symbol><symbol viewBox="0 0 24 24" id="eye" xmlns="http://www.w3.org/2000/svg"><path d="M12 5C7.797 5 3.985 7.455 1.172 11.443a.98.98 0 000 1.11C3.985 16.545 7.797 19 12 19c4.203 0 8.015-2.455 10.828-6.443a.98.98 0 000-1.11C20.015 7.455 16.203 5 12 5zm.319 11.657c-2.949.177-5.383-2.142-5.198-4.961.152-2.324 2.126-4.208 4.56-4.353 2.949-.177 5.383 2.142 5.198 4.961-.157 2.32-2.13 4.203-4.56 4.353zm-.16-2.33c-1.474.088-2.693-1.071-2.596-2.479.076-1.163 1.064-2.103 2.283-2.179 1.474-.088 2.693 1.07 2.596 2.478-.08 1.168-1.069 2.108-2.283 2.18zm-.095-1.329a.998.998 0 01-1.062-1.062c.03-.499.435-.901.934-.934a.998.998 0 011.062 1.062c-.033.5-.437.903-.934.934z" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="facebook" xmlns="http://www.w3.org/2000/svg"><path d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z"></path></symbol><symbol class="besvg-icon" viewBox="0 0 20 20" id="geolocation"><path d="M17.659 9.597h-1.224a6.456 6.456 0 00-6.032-6.033V2.341c0-.222-.182-.403-.403-.403s-.403.181-.403.403v1.223a6.458 6.458 0 00-6.033 6.033H2.341c-.222 0-.403.182-.403.403s.182.403.403.403h1.223a6.456 6.456 0 006.033 6.032v1.224c0 .222.182.403.403.403s.403-.182.403-.403v-1.224a6.455 6.455 0 006.032-6.032h1.224c.222 0 .403-.182.403-.403s-.181-.403-.403-.403m-3.224.806h1.193a5.652 5.652 0 01-5.225 5.225v-1.193c0-.222-.182-.403-.403-.403s-.403.182-.403.403v1.193a5.648 5.648 0 01-5.224-5.225h1.193c.222 0 .403-.182.403-.403s-.182-.403-.404-.403H4.373a5.646 5.646 0 015.224-5.224v1.193c0 .222.182.403.403.403s.403-.182.403-.403V4.373a5.65 5.65 0 015.225 5.224h-1.193c-.222 0-.403.182-.403.403s.181.403.403.403"></path></symbol><symbol viewBox="0 0 14 14" id="help" xmlns="http://www.w3.org/2000/svg"><path d="M7 0c3.9 0 7 3.1 7 7s-3.1 7-7 7-7-3.1-7-7 3.1-7 7-7zm0 1C3.7 1 1 3.7 1 7s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm-.2 7.5c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.8-.3-.8-.7 0-.4.4-.7.8-.7zM7 4c1 0 1.7.6 1.7 1.5 0 .7-.4 1.2-.8 1.5-.3.2-.5.5-.5.8 0 .2-.1.2-.6.2h-.2c-.3 0-.4 0-.4-.2 0-.7.4-1.1.7-1.4.2-.2.5-.5.5-.9 0-.3-.2-.5-.5-.5s-.6.2-.8.3c-.2.1-.2.1-.4-.2l-.1-.2c-.1-.2-.2-.3 0-.4.3-.3.8-.5 1.4-.5z"></path></symbol><symbol viewBox="0 0 60 60" id="ic-copertura" xmlns="http://www.w3.org/2000/svg"><path d="M30 10c-11 0-20 9-20 20s9 20 20 20 20-9 20-20-9-20-20-20zm18.462 19.23H40c-.077-3.23-.462-6.307-1.231-8.923 1.615-.769 3.154-1.846 4.538-3.076 3 3.153 4.924 7.384 5.154 12zM30.769 11.616c2.462.539 4.692 3.539 6.154 7.847-1.923.769-4 1.23-6.154 1.307v-9.154zm3.77.462c2.845.692 5.46 2.154 7.691 4.077-1.153 1.077-2.461 1.923-3.846 2.615-1-2.846-2.307-5.154-3.846-6.692zm-5.308-.462v9.154c-2.154-.077-4.154-.538-6.154-1.307 1.461-4.308 3.692-7.308 6.154-7.847zm-7.539 7.154c-1.384-.692-2.692-1.615-3.846-2.615 2.154-1.923 4.77-3.308 7.693-4.077-1.616 1.538-2.924 3.846-3.847 6.692zm7.539 3.538v6.923h-7.693c.077-3 .462-5.846 1.154-8.307a18.753 18.753 0 006.539 1.384zm0 8.462v6.923a18.752 18.752 0 00-6.539 1.385c-.692-2.462-1.077-5.308-1.154-8.308h7.693zm0 8.462v9.077c-2.462-.538-4.693-3.538-6.154-7.846 2-.692 4-1.077 6.154-1.231zm-3.77 8.692c-2.846-.692-5.461-2.154-7.692-4.077 1.154-1.077 2.462-1.923 3.846-2.615 1 2.846 2.308 5.154 3.846 6.692zm5.308.462V39.23c2.154.077 4.154.538 6.154 1.307-1.462 4.308-3.692 7.308-6.154 7.847zm7.538-7.154c1.385.692 2.693 1.615 3.846 2.615-2.153 1.923-4.769 3.308-7.692 4.077 1.615-1.538 2.923-3.846 3.846-6.692zm-7.538-3.538V30.77h7.692c-.077 3-.461 5.846-1.154 8.307a18.753 18.753 0 00-6.538-1.384zm0-8.462v-6.923a18.752 18.752 0 006.538-1.385c.693 2.462 1.077 5.308 1.154 8.308H30.77zm-14.077-12c1.385 1.23 2.923 2.23 4.538 3.077A39.658 39.658 0 0020 29.23h-8.462a18.796 18.796 0 015.154-12zm-5.154 13.538H20c.077 3.231.461 6.308 1.23 8.923-1.615.77-3.153 1.846-4.538 3.077a18.797 18.797 0 01-5.154-12zm31.77 12c-1.386-1.23-2.924-2.23-4.54-3.077A39.658 39.658 0 0040 30.77h8.462a18.796 18.796 0 01-5.154 12z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 16 16" id="ic-download" xmlns="http://www.w3.org/2000/svg"><path d="M12.919 13.9v1.433H3.103V13.9h9.816zM8.739.667V10.499l3.294-3.191.255-.247.255.247.535.519.255.247-5.078 4.923-.255.247-.255-.247L2.921 8.32l-.254-.247.254-.247.535-.52.255-.247.255.248 3.293 3.19.001-9.482v-.35h1.48z" fill="#0033A1" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 60 60" id="ic-pin" xmlns="http://www.w3.org/2000/svg"><path d="M30 17.7c-3.366 0-6.105 2.697-6.105 6.012 0 3.315 2.739 6.012 6.105 6.012 3.366 0 6.105-2.697 6.105-6.012 0-3.37-2.682-6.011-6.105-6.011zm0 12.574c-3.678 0-6.672-2.943-6.672-6.562 0-3.618 2.994-6.562 6.672-6.562 3.742 0 6.672 2.883 6.672 6.562 0 3.619-2.994 6.562-6.672 6.562zm0-18.843c-7.46 0-13.527 5.982-13.527 13.335 0 6.306 9.703 18.389 12.676 21.94l.851.985.871-1.123c3.805-4.52 12.656-15.695 12.656-21.802 0-7.353-6.068-13.335-13.527-13.335zM30.075 50l-2.061-2.382C24.095 42.938 15 31.36 15 24.766 15 16.624 21.728 10 30 10s15 6.624 15 14.766c0 6.567-9.083 18.068-12.99 22.708l-.159.19L30.075 50z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 60 60" id="ic-robot" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M30.518 10v2.334H41.07v4.786h3.12v1.155h-3.12v5.562H30.52v2.575h12.21v4.536h3.521v9.354h-1.207v-8.199h-2.314v12.891h-7.095V50h-1.207v-5.006h-8.445V50h-1.207v-5.006h-7.673V32.103h-2.146v8.199H13.75v-9.354h3.352v-4.536h12.21v-2.575H18.758v-5.043h-2.79v-1.156h2.79v-5.304h10.552V10h1.207zm11.064 17.569H18.665v16.27h22.917V27.57zm-1.638-14.08H20.3v9.194h19.643V13.49z" fill="#0164F2"></path><path d="M34.277 34.35h-8.562a.432.432 0 01-.323-.147.515.515 0 01-.133-.35v-.856c0-.137.05-.261.133-.35a.437.437 0 01.323-.147h8.562c.127 0 .241.056.324.147.081.09.132.214.132.35v.856c0 .136-.05.26-.132.35a.437.437 0 01-.324.147zm-5.228.925h-3.335a.434.434 0 00-.322.147.515.515 0 00-.133.351v.854c0 .137.05.26.133.351.082.09.196.147.322.147h3.335v-1.85zm5.552.148a.437.437 0 00-.323-.148h-3.335v1.85h3.335c.126 0 .24-.057.323-.148a.52.52 0 00.132-.35v-.854c0-.137-.05-.26-.132-.35zm0 2.774a.439.439 0 00-.323-.147h-3.335v1.85h3.335c.126 0 .24-.056.323-.148a.519.519 0 00.132-.35v-.855c0-.136-.05-.26-.132-.35zm-5.552-.147h-3.335a.438.438 0 00-.322.145.518.518 0 00-.133.352v.855c0 .138.05.262.133.35a.433.433 0 00.322.148h3.335v-1.85z" fill="#E60022"></path><g fill="#0164F2"><path d="M24.982 18.35c-.7 0-1.268.496-1.268 1.11 0 .612.568 1.11 1.268 1.11.7 0 1.266-.498 1.266-1.11 0-.614-.566-1.11-1.266-1.11M35.753 18.35c-.7 0-1.267.496-1.267 1.11 0 .612.567 1.11 1.267 1.11s1.267-.498 1.267-1.11c0-.614-.566-1.11-1.267-1.11"></path><path d="M35.753 18.35c-.7 0-1.267.496-1.267 1.11 0 .612.567 1.11 1.267 1.11s1.267-.498 1.267-1.11c0-.614-.566-1.11-1.267-1.11"></path></g></g></symbol><symbol viewBox="0 0 16 16" id="ic-upload" xmlns="http://www.w3.org/2000/svg"><path d="M8 3.035l.267.253 5.066 4.81-.266.252-.534.507-.266.253L12 8.857 8.753 5.776l.001 9.2v.357H7.246v-.358l-.001-9.199-3.246 3.08-.267.254-.267-.254-.798-.759.266-.253 4.8-4.556L8 3.035zM12.914.667v1.432H3.109V.667h9.805z" fill="#0033A1" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 101 91" id="iconInternetspeed" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100.59v90.3H0V0zm96.39 4.2H4.2v18.9h92.19V4.2zm-72.66 9.45c0 3.78-3.15 6.93-6.93 6.93s-6.93-3.15-6.93-6.93c0-3.99 3.15-6.93 6.93-6.93s6.93 3.15 6.93 6.93zm10.92 6.93c3.78 0 6.93-3.15 6.93-6.93s-3.15-6.93-6.93-6.93-6.93 3.15-6.93 6.93 3.15 6.93 6.93 6.93zm24.78-6.93c0 3.78-3.15 6.93-6.93 6.93s-6.93-3.15-6.93-6.93 3.15-6.93 6.93-6.93 6.93 3.15 6.93 6.93zm-39.9 0c0-1.47-1.26-2.73-2.73-2.73s-2.73 1.05-2.73 2.73c0 1.47 1.26 2.73 2.73 2.73s2.73-1.26 2.73-2.73zm15.12-2.73c1.47 0 2.73 1.26 2.73 2.73s-1.26 2.73-2.73 2.73-2.73-1.26-2.73-2.73c0-1.68 1.26-2.73 2.73-2.73zm20.58 2.73c0-1.47-1.26-2.73-2.73-2.73s-2.73 1.05-2.73 2.73c0 1.47 1.26 2.73 2.73 2.73s2.73-1.26 2.73-2.73zM96.6 86.1V27.3H4.2v58.8h92.4zM50.4 36.12c-21.84 0-39.48 17.22-40.11 39.06 0 1.26.84 2.1 2.1 2.1 1.05 0 2.1-.84 2.1-2.1.42-19.74 16.38-35.07 35.91-35.07 19.74 0 35.49 15.33 35.91 35.07 0 1.05 1.05 2.1 2.1 2.1 1.26 0 2.1-1.05 2.1-2.1-.63-21.84-18.06-39.06-40.11-39.06zm-1.05 32.55c.42-.21.63-.21 1.05-.21 3.78 0 6.72 3.15 6.72 6.93s-3.15 6.93-6.93 6.93-6.93-3.15-6.93-6.93c0-1.89.84-3.78 2.1-5.04L34.02 50.61c-.42-1.05-.21-2.31.84-2.94 1.05-.42 2.31-.21 2.94.84l11.55 20.16zm-1.68 6.72c0 1.47 1.26 2.73 2.73 2.73s2.73-1.26 2.73-2.73-1.26-2.73-2.73-2.73-2.73 1.26-2.73 2.73z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 102 108" id="iconmovies" xmlns="http://www.w3.org/2000/svg"><path d="M90.51 0L0 32.903l4.525 13.132c.24.724.602 1.206 1.085 1.809-.603.964-.844 1.928-.844 3.134v56.663H101.575V50.978 44.95h-77.52l73.262-26.977L90.51 0z" fill="#0164F2" fill-rule="evenodd"></path><path d="M61.308 26.143l3.979-12.177 10.73-3.978-3.979 12.176-10.73 3.979zM44.792 32.291l4.099-12.176 10.73-3.979-3.979 12.177-10.85 3.978zM28.275 38.32l3.978-12.177 10.73-3.979-3.978 12.177-10.73 3.978zM11.758 44.347l3.979-12.176 10.73-3.979-3.979 12.177-10.73 3.978zM28.637 49.773l15.07 11.453H29.239L14.17 49.773h14.468zM51.181 49.773l15.07 11.453H51.784l-15.07-11.453h14.467zM73.606 49.773l15.07 11.453H74.208l-15.07-11.453h14.468zM9.468 52.304l11.815 9.042H9.468v-9.042zM9.95 34.34l-2.17 6.752-1.887-4.94 4.057-1.811zM95.306 102.819H9.347v-36.77h87.165v36.77h-1.206zM96.512 49.773v11.332l-14.95-11.332h14.95zM90.243 15.533l-12.297 4.461 3.978-12.176 5.696-2.04.332.834 3.164 8.565-.873.356z" fill="#FFF"></path></symbol><symbol viewBox="0 0 118 114" id="iconsavemoney" xmlns="http://www.w3.org/2000/svg"><g fill="#0164F2"><path d="M47.333 15.43c0 8.37 6.81 15.18 15.18 15.18 8.37 0 15.18-6.81 15.18-15.18 0-8.37-6.81-15.18-15.18-15.18-8.37 0-15.18 6.81-15.18 15.18zm3.795 0c0-6.279 5.106-11.385 11.385-11.385 6.277 0 11.385 5.106 11.385 11.385s-5.106 11.385-11.385 11.385c-6.28 0-11.385-5.106-11.385-11.385zM.958 72.246a1.887 1.887 0 01-.226-.42l-.482-.9.666-.822c.035-.054.073-.106.114-.156l27.75-34.155.012-.012c.03-.036.06-.071.093-.105l1.37-1.531.003-.004.002.003 57.694-.072 1.333 1.634c.027.028.052.058.077.089l28.176 34.669-.002.001h.002v8.27h-1.897v34.155H9.383c-.042 0-.084-.001-.125-.004H7.485V77.531l-.317.37-.108.132a1.913 1.913 0 01-.133.148l-1.715 1.997-4.254-7.932zm78.954-27.693a1.913 1.913 0 01-.322.027H50.17v-.005h-.002l-5.14-6.388a1.915 1.915 0 01-.2-.3H33.428l25.48 31.36h52.724l-25.215-31.06a1.901 1.901 0 01-.2-.3h-8.079l5.42 6.666h-3.646zm-4.289-3.768l-2.133-2.598a1.915 1.915 0 01-.2-.3H49.658l2.332 2.898h23.633zM57.05 73.033L30.252 40 4.774 71.36 5.9 73.44l22.88-28.16 1.469-1.84 1.93 2.398L55.83 74.94h57.915v-1.897H57.049v-.01zm-19.204 36.062H49.23v-36.22L30.235 49.467 11.28 72.83v36.264h11.385V88.222h15.18v20.873zm-7.59-28.463c-4.186 0-7.59-3.404-7.59-7.59 0-4.185 3.404-7.59 7.59-7.59s7.59 3.405 7.59 7.59c0 4.186-3.404 7.59-7.59 7.59zm0-11.385a3.799 3.799 0 00-3.795 3.796 3.799 3.799 0 003.795 3.794 3.799 3.799 0 003.795-3.794 3.8 3.8 0 00-3.795-3.796zm81.593 9.488H53.991l-.004.003-.962-1.186v31.543h58.823v-30.36zm-53.13 22.77H79.59V84.427H58.718v17.078zm47.437 0H85.283V84.427h20.872v17.078zm-30.36-3.795H62.513v-9.487h13.282v9.487zm13.283 0h13.282v-9.487H89.078v9.487zM34.05 92.018v17.077h-7.59V92.017h7.59z" fill-rule="evenodd"></path><path d="M63.346 9.842c1.848 0 2.904.704 4.092 1.892a.85.85 0 001.232 0 .869.869 0 00.264-.616c0-.22-.088-.44-.264-.616-1.188-1.188-2.772-2.42-5.324-2.42-3.212 0-6.072 2.112-6.996 5.192h-1.188a.883.883 0 00-.88.88c0 .484.396.88.88.88h.88v.44c0 .264 0 .572.044.836h-.88a.883.883 0 00-.88.88c0 .484.396.88.88.88h1.32c1.056 2.86 3.784 4.752 6.864 4.752 2.596 0 4.136-1.232 5.368-2.42a.869.869 0 00.264-.616c0-.22-.088-.44-.264-.616a.869.869 0 00-.616-.264c-.22 0-.44.088-.616.264-1.188 1.188-2.244 1.892-4.092 1.892a5.572 5.572 0 01-4.972-2.992h5.368c.484 0 .88-.396.88-.88a.883.883 0 00-.88-.88h-6.028c-.044-.264-.044-.572-.044-.836v-.44h5.984c.484 0 .88-.396.88-.88a.883.883 0 00-.88-.88h-5.544c.88-2.068 2.904-3.432 5.148-3.432z" stroke="#015EE8" stroke-width=".5"></path></g></symbol><symbol viewBox="0 0 26 26" id="icontndettaglio" xmlns="http://www.w3.org/2000/svg"><g fill="#0061fb" fill-rule="evenodd"><path d="M18.76 8.6L16.2 6.25l-7.52.03v2.71c-1.13.54-1.92 1.69-1.92 3.02s.79 2.48 1.92 3.02v4.13h10.07V8.63zm-2.59-1.72l1.9 1.74h-1.9zm-8.98 5.13c0-1.61 1.31-2.92 2.92-2.92s2.92 1.31 2.92 2.92-1.31 2.92-2.92 2.92-2.92-1.31-2.92-2.92zm11.06 6.66H9.17v-3.45c.3.09.61.14.94.14 1.03 0 1.93-.48 2.54-1.21v.02h4.49v-.48H13c.28-.49.45-1.06.45-1.67 0-.04-.01-.09-.01-.13h3.7v-.49H13.4a3.35 3.35 0 00-3.29-2.73c-.33 0-.64.05-.94.14V6.77h6.5v2.35h2.58z"></path><path d="M10.11 11.59c.26 0 .5-.11.68-.29.18-.19.28-.43.27-.69a.965.965 0 00-.96-.95h-.02c-.53.01-.96.45-.95.98s.44.95.98.95m-.62-.95c0-.16.06-.31.17-.43.11-.11.26-.18.42-.18h.01a.6.6 0 01.43 1.02c-.11.12-.26.18-.43.18-.32 0-.59-.27-.6-.59"></path><path d="M12.76 25.51C5.73 25.51 0 19.79 0 12.75.01 5.72 5.73 0 12.76 0s12.76 5.72 12.76 12.76c0 7.03-5.72 12.75-12.76 12.75zm0-24.55C6.26.96.97 6.25.97 12.75s5.29 11.79 11.79 11.79 11.79-5.29 11.79-11.79C24.56 6.25 19.27.96 12.76.96z" fill-rule="nonzero"></path></g></symbol><symbol viewBox="0 0 26 26" id="icontnprenota" xmlns="http://www.w3.org/2000/svg"><g fill="#0061FB" fill-rule="evenodd"><path d="M15.73 9.69V8.31h-1.3v1.38h-3.55V8.31h-1.3v1.38H8.27v7.39h8.77V9.69h-1.31zm.84 6.92H8.73v-6.47h7.84v6.47z"></path><path d="M14.09 11.59h1v1h-1zm-1.95 0h1v1h-1zm-1.99 1.93h1v1h-1zm0-1.93h1v1h-1z"></path><path d="M12.78 25.51C5.75 25.51.02 19.79.02 12.75.02 5.72 5.74 0 12.78 0c7.03 0 12.76 5.72 12.76 12.76-.01 7.03-5.73 12.75-12.76 12.75zm0-24.55C6.28.96.99 6.25.99 12.75c0 6.5 5.29 11.79 11.79 11.79 6.5 0 11.79-5.29 11.79-11.79 0-6.5-5.29-11.79-11.79-11.79z" fill-rule="nonzero"></path></g></symbol><symbol viewBox="0 0 25.51 25.51" id="icontnraggiungi" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" fill="#0061fb" d="M13.98 8.3l-.34.34 3.3 3.3h-8.9v4.1h.48v-3.61h8.42l-3.3 3.3.34.34 3.89-3.89-3.89-3.88z"></path><path d="M12.76 25.51a12.76 12.76 0 1112.75-12.75 12.77 12.77 0 01-12.75 12.75zm0-24.51a11.8 11.8 0 1011.79 11.8A11.81 11.81 0 0012.76 1z" fill="#0061fb"></path></symbol><symbol viewBox="0 0 118 105" id="iconvideocall" xmlns="http://www.w3.org/2000/svg"><path d="M58.752 25.704c7.098 0 12.852-5.754 12.852-12.852C71.604 5.754 65.85 0 58.752 0 51.654 0 45.9 5.754 45.9 12.852c.008 7.095 5.757 12.844 12.852 12.852zm0-22.032a9.18 9.18 0 110 18.36 9.18 9.18 0 010-18.36zm5.738 9.18a5.738 5.738 0 01-5.738 5.738 5.744 5.744 0 01-5.738-5.738 5.738 5.738 0 0111.476 0zm-3.672 0a2.066 2.066 0 10-4.132 0 2.066 2.066 0 004.132 0zm14.35-1.836h42.336s-.005 3.29 0 7.344v78.948s-3.29-.005-7.344 0H74.358v3.672h9.18v3.672H33.966v-3.672h9.18v-3.672H0V11.016h42.336a15.617 15.617 0 000 3.672H3.672v78.948h67.932V51.408s2.467.003 5.508 0h36.72v-36.72H75.168c.144-1.22.144-2.452 0-3.672zM7.344 57.834c0-16.73 13.563-30.294 30.294-30.294 16.723.019 30.275 13.57 30.294 30.294 0 16.73-13.563 30.294-30.294 30.294-16.73 0-30.294-13.563-30.294-30.294zm50.49 10.098v7.236c9.239-10.757 8.424-26.868-1.853-36.639-10.277-9.77-26.409-9.77-36.686 0C9.018 48.3 8.203 64.411 17.442 75.17v-7.237a9.19 9.19 0 019.18-9.18h2.829a11.016 11.016 0 01.535-15.295 11.016 11.016 0 0115.304 0 11.016 11.016 0 01.535 15.295h2.829a9.19 9.19 0 019.18 9.18zM37.638 44.064a7.344 7.344 0 100 14.688 7.344 7.344 0 000-14.688zm72.522 49.502h3.672V55.08H75.276v38.556h3.672V82.62a9.19 9.19 0 018.312-9.136 9.18 9.18 0 1114.588 0 9.19 9.19 0 018.312 9.136v10.946zM21.114 78.7c9.679 7.676 23.37 7.676 33.048 0V67.932a5.508 5.508 0 00-5.508-5.508H26.622a5.508 5.508 0 00-5.508 5.508v10.767zm78.948-10.767a5.508 5.508 0 10-11.016 0 5.508 5.508 0 0011.016 0zm-11.934 9.18a5.508 5.508 0 00-5.508 5.508v11.016h23.868V82.62a5.508 5.508 0 00-5.508-5.508H88.128zM70.686 100.98v-3.672H46.818v3.672h23.868z" fill="#0164F2" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="info" xmlns="http://www.w3.org/2000/svg"><path d="M11.994 9.1a1.1 1.1 0 11.011-2.2 1.1 1.1 0 01-.01 2.2zm-.006 7.9c-.963 0-.988-.057-.988-.208v-5.584c0-.151.025-.208.988-.208h.061c.877 0 .951.057.951.208v5.584c0 .151-.074.208-.95.208z"></path></symbol><symbol viewBox="0 0 4 19" id="info-alert" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" transform="rotate(-180 1.75 9.25)"><circle cx="1.5" cy="1.5" r="1.5"></circle><rect width="2" height="12" x=".5" y="6.5" rx="1"></rect></g></symbol><symbol viewBox="0 0 14 14" id="info-circle" xmlns="http://www.w3.org/2000/svg"><path d="M7 0c3.9 0 7 3.1 7 7s-3.1 7-7 7-7-3.1-7-7 3.1-7 7-7zm0 1C3.7 1 1 3.7 1 7s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm.1 4.7H7.7v4.6H6.5c-.1 0 0 0 0-.1V5.8h.2c0-.1.1-.1.4-.1zM7 3.5c.2 0 .4.1.5.2s.3.3.3.5-.1.4-.2.5c-.2.2-.4.3-.6.3s-.4-.1-.5-.2c-.2-.2-.3-.4-.3-.6 0-.2.1-.4.2-.5s.4-.2.6-.2z"></path></symbol><symbol id="info-circle-blu" viewBox="0 0 14 14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><style>.bvst0{fill:#0033a1}</style><path class="bvst0" d="M7 0c3.9 0 7 3.1 7 7s-3.1 7-7 7-7-3.1-7-7 3.1-7 7-7zm0 1C3.7 1 1 3.7 1 7s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm.1 4.7H7.7v4.6H6.5c-.1 0 0 0 0-.1V5.8h.2c0-.1.1-.1.4-.1zM7 3.5c.2 0 .4.1.5.2s.3.3.3.5-.1.4-.2.5c-.2.2-.4.3-.6.3s-.4-.1-.5-.2c-.2-.2-.3-.4-.3-.6s.1-.4.2-.5.4-.2.6-.2z"></path></symbol><symbol viewBox="0 0 4 19" id="info-point" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" transform="translate(.5 .5)"><circle cx="1.5" cy="1.5" r="1.5"></circle><rect width="2" height="12" x=".5" y="6.5" rx="1"></rect></g></symbol><symbol viewBox="0 0 24 24" id="input_error" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#EB0028" fill-rule="nonzero" d="M12 20a8 8 0 110-16 8 8 0 010 16z"></path><path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 9l6 6M15 9l-6 6"></path></g></symbol><symbol viewBox="0 0 24 24" id="input_verified" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#82C85A" fill-rule="nonzero" d="M12 20a8 8 0 110-16 8 8 0 010 16z"></path><path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12.333L10.685 15 16 9"></path></g></symbol><symbol viewBox="0 0 24 24" id="instagram" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 001.384 2.126A5.868 5.868 0 004.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 002.126-1.384 5.86 5.86 0 001.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 00-1.384-2.126A5.847 5.847 0 0019.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 01-.899 1.382 3.744 3.744 0 01-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 01-1.379-.899 3.644 3.644 0 01-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 01-2.88 0 1.44 1.44 0 012.88 0z"></path></symbol><symbol viewBox="0 0 24 24" id="linkedin" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></symbol><symbol viewBox="0 0 32 24" id="logged" xmlns="http://www.w3.org/2000/svg"><defs><path d="M12 13.571c1.926 0 4.859.497 7.212 1.487a5.463 5.463 0 00-.987 1.88c-1.778-.677-4.114-1.24-6.225-1.24-4.132 0-9.124 2.155-9.124 3.1v2.557h15.922A5.53 5.53 0 0020.338 23H1v-4.04c0-3.584 7.329-5.389 11-5.389zM12 1a5.97 5.97 0 015.971 5.971A5.97 5.97 0 0112 12.943 5.97 5.97 0 016.029 6.97 5.97 5.97 0 0112 1zm0 1.886a4.085 4.085 0 10-.001 8.17A4.085 4.085 0 0012 2.886z" id="cba"></path></defs><g fill="none" fill-rule="evenodd"><use fill="#000" xlink:href="#cba"></use><path d="M21 18.5l1.987 2 3.96-4" stroke="#000" stroke-width="2" stroke-linecap="square"></path></g></symbol><symbol viewBox="0 0 24 24" id="logout" xmlns="http://www.w3.org/2000/svg"><path d="M14 2a1 1 0 010 2H6v16h8a1 1 0 010 2H5a1 1 0 01-1-1V3a1 1 0 011-1h9zm2.668 5.942l.095.083 3.535 3.536c.213.212.31.497.29.775a.998.998 0 01-.29.775l-3.535 3.535a1 1 0 11-1.415-1.414l1.987-1.988H10a1 1 0 010-2h7.153l-1.805-1.805a1 1 0 01-.083-1.32l.083-.094a1 1 0 011.32-.083z" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="mail" xmlns="http://www.w3.org/2000/svg"><defs><path d="M21.33 4c.92 0 1.67.749 1.67 1.67v12.66c0 .185-.033.369-.103.561l-.142.299c-.17.272-.66.588-.807.679l-.056.028a1.64 1.64 0 01-.562.103H2.67C1.75 20 1 19.25 1 18.33V5.67C1 4.75 1.75 4 2.67 4h18.66zm-5.948 9.17l-.46.482a4.015 4.015 0 01-5.844 0l-.457-.48-4.958 5.363h16.714l-4.995-5.365zM2.474 6.745v10.481l4.927-5.33-4.927-5.15zm19.052 0l-4.924 5.15 4.924 5.288V6.745zm-1.212-1.28H3.687l6.673 6.977c.88.922 2.396.924 3.28 0l6.674-6.977z" id="cda"></path></defs><use fill="#FFF" xlink:href="#cda" fill-rule="evenodd"></use></symbol><symbol viewBox="0 0 24 24" id="mms" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M17 6H4v.297l7.445 4.963a1 1 0 001.11 0L17 8.297V10c0 .226.019.448.055.664l-3.39 2.26a3 3 0 01-3.33 0L4 8.702V18h16v-4.126c.32.082.655.126 1 .126h1v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h13v2zm6 4V4a1.5 1.5 0 10-3 0v6a.5.5 0 001 0V5a.5.5 0 111 0v5a1.5 1.5 0 01-3 0V4a2.5 2.5 0 115 0v6a.5.5 0 11-1 0z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_assistenza" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 37h8.698c.229 0 .45.079.629.222A16.798 16.798 0 0026 41c9.374 0 17-7.626 17-17 0-9.374-7.626-17-17-17-9.374 0-17 7.626-17 17 0 2.231.432 4.409 1.284 6.473.134.326.087.699-.125.982L5.999 37zm20 6a19.04 19.04 0 01-11.65-4H4a1.001 1.001 0 01-.8-1.6l5.024-6.698A18.853 18.853 0 017 24C7 13.523 15.523 5 26 5s19 8.523 19 19-8.523 19-19 19z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_assistenza_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M26 5C15.523 5 7 13.523 7 24c0 2.302.41 4.554 1.224 6.702L3.2 37.4A1.001 1.001 0 004 39h10.35A19.04 19.04 0 0026 43c10.477 0 19-8.523 19-19S36.477 5 26 5"></path></symbol><symbol viewBox="0 0 48 48" id="nav_cornetta" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M42.999 38.368a4.615 4.615 0 01-5.054 4.61 36.854 36.854 0 01-16.048-5.695 36.271 36.271 0 01-11.165-11.139A36.733 36.733 0 015.019 10.03 4.607 4.607 0 016.209 6.5a4.62 4.62 0 013.408-1.5h5.42a4.618 4.618 0 014.621 3.974c.221 1.664.628 3.294 1.213 4.855a4.612 4.612 0 01-1.046 4.872l-1.75 1.747a27.918 27.918 0 009.446 9.427l1.757-1.753a4.623 4.623 0 014.87-1.04 22.23 22.23 0 004.877 1.211A4.618 4.618 0 0143 32.964v5.404zm-2-5.416v-.025a2.615 2.615 0 00-2.244-2.651 24.208 24.208 0 01-5.307-1.32 2.622 2.622 0 00-2.761.586l-2.3 2.294a1 1 0 01-1.2.162 29.919 29.919 0 01-11.235-11.215 1 1 0 01.162-1.203l2.295-2.29a2.61 2.61 0 00.59-2.757 24.105 24.105 0 01-1.322-5.287A2.618 2.618 0 0015.047 7h-5.43a2.62 2.62 0 00-1.932.851 2.6 2.6 0 00-.676 1.981 34.728 34.728 0 005.405 15.23A34.292 34.292 0 0022.976 35.6a34.848 34.848 0 0015.167 5.39 2.616 2.616 0 002.856-2.616v-5.42z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_cornetta_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M42.999 38.368a4.615 4.615 0 01-5.054 4.61 36.854 36.854 0 01-16.048-5.695 36.271 36.271 0 01-11.165-11.139A36.733 36.733 0 015.019 10.03 4.607 4.607 0 016.209 6.5a4.62 4.62 0 013.408-1.5h5.42a4.618 4.618 0 014.621 3.974c.221 1.664.628 3.294 1.213 4.855a4.612 4.612 0 01-1.046 4.872l-1.75 1.747a27.918 27.918 0 009.446 9.427l1.757-1.753a4.623 4.623 0 014.87-1.04 22.23 22.23 0 004.877 1.211A4.618 4.618 0 0143 32.964v5.404z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_home" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M20 32v11c0 .526-.372 1-.895 1H7.99A1.995 1.995 0 016 42V20.796c0-.56.233-1.094.643-1.473l16.01-14.795a1.981 1.981 0 012.693 0l16.01 14.795c.41.379.644.913.644 1.473V42c0 1.104-.901 2-2 2H29a.95.95 0 01-.947-.953L28 32h-8zm10 10l9.905.095A.095.095 0 0040 42l.105-21.204a.095.095 0 00-.03-.07L24.065 5.93a.094.094 0 00-.13 0L7.926 20.726a.095.095 0 00-.03.07l.01 21.109c0 .052.043.095.095.095h10l-.053-11.047a.95.95 0 01.948-.953H29a.95.95 0 01.947.953L30 42z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_home_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M29 44V31H19v13H7.1A1.1 1.1 0 016 42.9V20.642a1.1 1.1 0 01.356-.81L23.256 4.3a1.1 1.1 0 011.488 0l16.9 15.532a1.1 1.1 0 01.356.81V42.9a1.1 1.1 0 01-1.1 1.1H29z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_movimenti" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M19 36h22a1 1 0 010 2H19a1 1 0 010-2zm0-26h22a1 1 0 010 2H19a1 1 0 010-2zm-5 1c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm0 13c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm-2 0a2 2 0 10-3.999-.001A2 2 0 0012 24zm0-13a2 2 0 10-3.999-.001A2 2 0 0012 11zm2 26c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm-2 0a2 2 0 10-3.999-.001A2 2 0 0012 37zm29-14a1 1 0 010 2H19a1 1 0 010-2h22z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_movimenti_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M19 36h22a1 1 0 010 2H19a1 1 0 010-2zm0-26h22a1 1 0 010 2H19a1 1 0 010-2zm-5 1c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm0 13c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm0 13c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm27-14a1 1 0 010 2H19a1 1 0 010-2h22z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_offerte" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M38.585 23.02c-2.623 0-5.093-1.248-6.607-3.337-.006-.009-.014-.014-.02-.021V7h9.281l3.503 13.108c-1.577 2.424-3.472 2.912-6.157 2.912zM40 40c0 .551-.45 1-1.005 1H9a1.003 1.003 0 01-1.005-1V24.964c.476.039.788.056 1.264.056 2.829 0 5.505-1.181 7.271-3.15a10.225 10.225 0 007.392 3.15c2.829 0 5.505-1.181 7.271-3.15a10.225 10.225 0 007.392 3.15c.47 0 .944-.017 1.415-.055v15.034zM3.09 20.084L6.59 7h9.28v12.494a.99.99 0 00-.218.233c-1.315 2.03-3.765 3.293-6.394 3.293-2.611 0-4.574-.503-6.17-2.934zM30.11 20c-1.354 1.866-3.684 3.02-6.19 3.02A8.17 8.17 0 0117.576 20h.308V7h12.064v13h.164zM42.983 5.744A1.007 1.007 0 0042.011 5H5.818c-.455 0-.853.304-.972.742L1.033 19.99c-.068.26-.03.537.108.77C2.491 23.015 4.293 24.095 6 24.6V40c0 1.655 1.353 3 3.016 3h29.979a3.01 3.01 0 003.016-3V24.607c1.715-.502 3.339-1.576 4.68-3.832.136-.23.174-.506.106-.765L42.983 5.744z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_offerte_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M31.24 21.87a10.145 10.145 0 007.352 3.15c1.14 0 2.293-.085 3.408-.412V40c0 1.655-1.346 3-3 3H9c-1.655 0-3-1.345-3-3V24.6c1.12.334 2.278.42 3.422.42 2.813 0 5.475-1.181 7.233-3.15a10.145 10.145 0 007.352 3.15c2.813 0 5.475-1.181 7.233-3.15zm-15.458-2.144c-1.309 2.032-3.745 3.293-6.36 3.293C6.704 23.02 3.627 21.734 2 19L5.033 5.743C5.15 5.305 5.547 5 6 5h10v14.493a1.007 1.007 0 00-.218.233zM30 20.217c-1.366 1.737-3.599 2.802-5.993 2.802A8.13 8.13 0 0118 20.374V5h12v15.217zM42.967 5.743L46 19c-1.611 2.727-4.613 4.02-7.408 4.02-2.61 0-5.066-1.248-6.572-3.338l-.02-.02V5h10c.453 0 .85.305.967.743z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_ricariche" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M24 42c9.925 0 18-8.075 18-18S33.925 6 24 6 6 14.075 6 24s8.075 18 18 18zm0-38c11.046 0 20 8.954 20 20s-8.954 20-20 20S4 35.046 4 24 12.954 4 24 4zm6.364 13.636c-3.51-3.51-9.219-3.51-12.729 0A8.946 8.946 0 0015.526 21H22a1 1 0 010 2h-6.935a9.083 9.083 0 00.004 2.032H22a1 1 0 110 2h-6.463a8.95 8.95 0 002.098 3.333c3.51 3.507 9.22 3.508 12.73 0a.999.999 0 111.413 1.414A10.966 10.966 0 0124 34.995a10.968 10.968 0 01-10.568-7.963H11a1 1 0 110-2h2.054A11.123 11.123 0 0113.052 23H11a1 1 0 110-2h2.424a10.933 10.933 0 012.797-4.778c4.29-4.29 11.268-4.29 15.557 0a.999.999 0 11-1.414 1.414z"></path></symbol><symbol viewBox="0 0 48 48" id="nav_ricariche_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M22 21a1 1 0 110 2h-6.935a8.8 8.8 0 00.004 2H22a1 1 0 110 2h-6.463c.434 1.217 1.127 2.392 2.099 3.364 3.51 3.508 9.218 3.509 12.728 0a1 1 0 011.414 1.414A10.962 10.962 0 0124 34.995a10.962 10.962 0 01-7.778-3.217A11.032 11.032 0 0113.432 27H11a1 1 0 110-2h2.054a10.69 10.69 0 01-.001-2H11a1 1 0 110-2h2.425a10.918 10.918 0 012.797-4.778c4.289-4.289 11.267-4.289 15.556 0a.999.999 0 11-1.414 1.414c-3.51-3.509-9.218-3.509-12.728 0A8.929 8.929 0 0015.526 21H22zm2-17C12.954 4 4 12.954 4 24s8.954 20 20 20 20-8.954 20-20S35.046 4 24 4z"></path></symbol><symbol viewBox="0 0 24 24" id="notifiche" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.658 18C6.303 16.713 7 15.127 7 14.291V11c0-1.335.52-2.591 1.465-3.536A4.967 4.967 0 0112 6c1.335 0 2.59.52 3.535 1.464A4.972 4.972 0 0117 11v3.291c0 .836.697 2.422 1.342 3.709H5.658zm15.217.516c-.896-1.619-1.863-3.703-1.875-4.225V11c0-1.87-.73-3.628-2.051-4.95a6.94 6.94 0 00-3.95-1.971V3a1 1 0 00-2 0v1.079A6.936 6.936 0 007.052 6.05 6.951 6.951 0 005 11v3.29c-.013.522-.98 2.607-1.875 4.226-.171.31-.166.687.013.992.18.304.508.492.862.492h6a2 2 0 104 0h6a1.003 1.003 0 00.875-1.484z"></path></symbol><symbol viewBox="0 0 24 24" id="notifiche_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M20.875 18.516c-.896-1.619-1.863-3.703-1.875-4.225V11c0-1.87-.73-3.628-2.051-4.95a6.94 6.94 0 00-3.95-1.971V3a1 1 0 00-2 0v1.079A6.936 6.936 0 007.052 6.05 6.951 6.951 0 005 11v3.29c-.013.522-.98 2.607-1.875 4.226-.171.31-.166.687.013.992.18.304.508.492.862.492h6a2 2 0 104 0h6a1.003 1.003 0 00.875-1.484z"></path></symbol><symbol viewBox="0 0 32 24" id="pin" xmlns="http://www.w3.org/2000/svg"><path d="M16.075 1c4.463 0 8.075 3.666 8.075 8.194 0 4.384-7.367 13.153-7.65 13.512l-.425.575-.425-.503c-.283-.36-7.65-9.2-7.65-13.584C8 4.737 11.613 1 16.075 1zm0 1.078c-3.896 0-7.012 3.163-7.012 7.116 0 3.45 5.454 10.422 7.012 12.362 1.558-1.94 7.012-8.912 7.012-12.362 0-3.882-3.116-7.116-7.012-7.116zm0 2.875c1.983 0 3.542 1.581 3.542 3.594 0 2.012-1.63 3.594-3.542 3.594s-3.542-1.582-3.542-3.594c0-1.94 1.559-3.594 3.542-3.594zm0 1.15c-1.346 0-2.48 1.15-2.48 2.516 0 1.365 1.134 2.515 2.48 2.515s2.48-1.15 2.48-2.515c0-1.366-1.134-2.516-2.48-2.516z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 48 48" id="play-video" xmlns="http://www.w3.org/2000/svg"><path d="M16 33.5v-19L32 24l-16 9.5zm1-17.2v15.5l13-7.7-13-7.8z"></path></symbol><symbol viewBox="0 0 14 14" id="plus" xmlns="http://www.w3.org/2000/svg"><path d="M7 0a7 7 0 110 14A7 7 0 017 0zm0 1a6 6 0 100 12A6 6 0 007 1zm.5 3v2.5H10v1H7.5V10h-1V7.5H4v-1h2.5V4h1z"></path></symbol><symbol viewBox="0 0 24 24" id="preferito" xmlns="http://www.w3.org/2000/svg"><path d="M3.124 10.049C3.68 12.816 8.964 17.013 12 20c2.927-2.987 8.371-7.353 8.891-9.957.994-4.978-5.041-8.378-9.004-4.085-3.639-3.942-9.842-1.297-8.763 4.09zm7.941 7.69c-.126-.117-1.405-1.293-1.786-1.648a84.132 84.132 0 01-1.502-1.423c-2.222-2.168-3.46-3.76-3.672-4.816-.86-4.294 4.023-6.492 7.047-3.215a1 1 0 001.47 0c3.157-3.42 8.12-.95 7.288 3.21-.199 1-1.514 2.63-3.926 4.97-.339.33-.701.674-1.124 1.073-.305.287-1.567 1.467-1.881 1.764-.375.354-.7.664-.99.947-.271-.257-.573-.538-.924-.862z"></path></symbol><symbol viewBox="0 0 24 24" id="preferito_active" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.124 10.049C3.68 12.816 8.964 17.013 12 20c2.927-2.987 8.371-7.353 8.891-9.957.994-4.978-5.041-8.378-9.004-4.085-3.639-3.942-9.842-1.297-8.763 4.09z"></path></symbol><symbol viewBox="0 0 32 24" id="ricarica" xmlns="http://www.w3.org/2000/svg"><path d="M27 1a4 4 0 014 4v14a4 4 0 01-4 4H5a4 4 0 01-4-4V5a4 4 0 014-4h22zm0 1H5a3 3 0 00-2.995 2.824L2 5v14a3 3 0 002.824 2.995L5 22h22a3 3 0 002.995-2.824L30 19V5a3 3 0 00-2.824-2.995L27 2zm-9.5 15a.5.5 0 110 1h-12a.5.5 0 110-1h12zm9 0a.5.5 0 110 1h-4a.5.5 0 110-1h4zm-19-4a.5.5 0 110 1h-2a.5.5 0 110-1h2zm6 0a.5.5 0 110 1h-2a.5.5 0 110-1h2zm6 0a.5.5 0 110 1h-2a.5.5 0 110-1h2zm7 0a.5.5 0 110 1h-2a.5.5 0 110-1h2zm-1.808-9c1.28 0 2.389 1.204 2.303 2.5 0 1.389-1.023 2.5-2.303 2.5h-2.389C21.023 9 20 7.889 20 6.5S21.024 4 22.303 4zm.052 1h-2.496C21.535 5 21 5.643 21 6.5S21.535 8 22.248 8h2.496c.713 0 1.337-.75 1.247-1.5 0-.857-.534-1.5-1.247-1.5z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 240 159.9" id="risparmio" xmlns="http://www.w3.org/2000/svg"><path d="M198.5 133.9c7.3-13 11.5-28 11.5-44 0-49.6-40.4-90-90-90s-90 40.4-90 90c0 16 4.2 31 11.5 44-14.8-6.3-28.8-14.5-41.5-24.1v12.3c15.8 11.1 33.2 20 51.8 26.4 20.1 6.9 41.5 10.9 63.8 11.3h9c22.3-.5 43.7-4.4 63.8-11.3 18.6-6.4 36-15.3 51.8-26.4v-12.3c-12.9 9.7-26.9 17.8-41.7 24.1zM120 150c-14.7 0-29-1.6-42.8-4.6C60.6 132.6 50 112.5 50 90c0-38.6 31.4-70.1 70.1-70.1s70.1 31.4 70.1 70.1c0 22.5-10.7 42.6-27.2 55.4-14 3-28.3 4.6-43 4.6zm-12.5-73.4h22.1c.5 0 .9.2 1.1.7.2.5.3 1.7.3 3.8v.1c0 2-.1 3.3-.3 3.8-.2.5-.6.7-1.1.7h-23.8c-.1.7-.1 1.7-.1 3.1 0 1.3 0 2.3.1 2.9H128c.5 0 .9.2 1.1.7.2.5.3 1.7.3 3.8v.1c0 2.1-.1 3.3-.3 3.8-.2.5-.6.7-1.1.7h-20.6c2.8 8.2 8.9 12.4 18.4 12.4 4.3 0 9.1-1.1 14.5-3.3.4-.2.8-.3 1.1-.3.4 0 .7.2 1 .6.3.4.7 1.2 1.2 2.3l1.2 2.5c.1.3.4.9.7 1.7.4.8.6 1.5.6 1.9 0 .3-.1.6-.3.8-.2.2-.4.4-.8.6-3 1.6-6.4 2.9-10.3 3.9-3.9 1-7.7 1.5-11.4 1.5-8.3 0-15.2-2.1-20.6-6.4-5.4-4.3-9.1-10.3-10.9-18.2h-6.9c-.5 0-.9-.2-1.1-.7-.2-.5-.3-1.7-.3-3.8v-.1c0-2.1.1-3.3.3-3.8.2-.5.6-.7 1.1-.7h5.8c-.1-.5-.1-1.4-.1-2.5 0-1.6 0-2.8.1-3.5h-4.2c-.5 0-.9-.2-1.1-.7-.2-.5-.3-1.7-.3-3.8V81c0-2.1.1-3.3.3-3.8.2-.5.6-.7 1.1-.7h5.6c2-7.9 5.8-14.1 11.5-18.4 5.6-4.4 12.6-6.6 20.8-6.6 4.1 0 7.8.5 11.1 1.4 3.3.9 6.4 2.4 9.5 4.6.3.3.6.5.8.7.2.2.4.5.4.8 0 .6-.6 1.8-1.7 3.7l-1.4 2.3c-.7 1.1-1.3 1.9-1.6 2.3-.4.4-.7.6-1 .6-.1 0-.5-.1-1-.4-4.5-2.6-9.1-4-13.8-4-4.6 0-8.4 1.1-11.5 3.3-3.1 2.4-5.3 5.6-6.7 9.8z"></path></symbol><symbol viewBox="0 0 24 24" id="s_altro" xmlns="http://www.w3.org/2000/svg"><path d="M15 13h5c1.1 0 2 .9 2 2v5c0 1.1-.9 2-2 2h-5c-1.1 0-2-.9-2-2v-5c0-1.1.9-2 2-2zm0 2v5h5v-5h-5zM4 13h5c1.1 0 2 .9 2 2v5c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-5c0-1.1.9-2 2-2zm0 2v5h5v-5H4zM4 2h5c1.1 0 2 .9 2 2v5c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2zm0 2v5h5V4H4zm11-2h5c1.1 0 2 .9 2 2v5c0 1.1-.9 2-2 2h-5c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2zm0 2v5h5V4h-5z"></path></symbol><symbol viewBox="0 0 24 24" id="s_cornetta" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 4H4.8c-.2 0-.4.1-.6.3-.1.1-.2.4-.2.6.3 2.6 1.2 5.2 2.6 7.4 1.3 2.1 3.1 3.8 5.1 5.1 2.2 1.4 4.8 2.3 7.4 2.6.2 0 .4-.1.6-.2.2-.2.3-.4.3-.6v-2.7c0-.4-.3-.8-.7-.8-.9-.1-1.9-.4-2.8-.7-.3-.1-.6 0-.9.2l-1.1 1.1c-.3.3-.8.4-1.2.2-2.4-1.4-4.4-3.4-5.8-5.8-.2-.4-.2-.9.2-1.2l1.1-1.1c.3-.3.3-.7.2-1-.3-.8-.5-1.8-.7-2.7 0-.4-.4-.7-.8-.7m11.7 18H19c-2.9-.3-5.8-1.3-8.3-2.9-2.3-1.5-4.3-3.4-5.7-5.7C3.3 10.9 2.3 8 2 5.1c-.1-.8.2-1.6.7-2.2C3.3 2.3 4 2 4.8 2h2.7c1.4 0 2.6 1 2.8 2.4.1.8.3 1.6.6 2.3.4 1 .1 2.2-.6 3l-.6.6c1 1.6 2.4 3 4 4l.6-.6c.8-.8 1.9-1 3-.6.7.3 1.5.5 2.3.6 1.4.2 2.5 1.4 2.4 2.8v2.7c0 .8-.3 1.5-.9 2.1-.5.4-1.2.7-1.9.7"></path></symbol><symbol viewBox="0 0 24 24" id="s_dati" xmlns="http://www.w3.org/2000/svg"><path d="M10.3 15.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4 4c-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4-4c-.4-.4-.4-1 0-1.4s1-.4 1.4 0L6 17.6V4c0-.6.4-1 1-1s1 .4 1 1v13.6l2.3-2.3zm11.4-8c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3L18 6.4V20c0 .6-.4 1-1 1s-1-.4-1-1V6.4l-2.3 2.3c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l4-4c.4-.4 1-.4 1.4 0l4 4z"></path></symbol><symbol viewBox="0 0 24 24" id="s_fattura" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M4 0h16a2 2 0 012 2v20a2 2 0 01-2 2H4a2 2 0 01-2-2V2a2 2 0 012-2zm0 2v20h16V2H4z"></path><path d="M15.828 9.172a.999.999 0 101.414-1.414A5.957 5.957 0 0013 6a5.96 5.96 0 00-4.243 1.758A6.003 6.003 0 007.55 9.5H7.5a1 1 0 00-1 1 .99.99 0 00.534.87 5.985 5.985 0 000 1.26.99.99 0 00-.534.87 1 1 0 001 1h.05c.293.639.695 1.23 1.207 1.742A5.96 5.96 0 0013 18a5.957 5.957 0 004.242-1.758.999.999 0 10-1.414-1.414c-1.512 1.512-4.145 1.512-5.657 0-.1-.101-.18-.218-.269-.328H12.5a1 1 0 100-2H9.05c-.022-.166-.05-.33-.05-.5 0-.17.028-.334.05-.5h3.45a1 1 0 100-2H9.902c.09-.11.168-.226.27-.328 1.511-1.512 4.144-1.512 5.656 0"></path></g></symbol><symbol viewBox="0 0 24 24" id="s_movimenti" xmlns="http://www.w3.org/2000/svg"><path d="M6 20v-8H4v8h2zm-4 0v-8c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v8h1V4c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v16h1V10c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v10h1c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h1zm11 0V4h-2v16h2zm7 0V10h-2v10h2z"></path></symbol><symbol viewBox="0 0 24 24" id="s_restart" xmlns="http://www.w3.org/2000/svg"><path d="M19 11.6C18.8 7.9 15.7 5 12 5c-3.9 0-7 3.1-7 7s3.1 7 7 7c1.2 0 2.3-.3 3.3-.9.5-.3 1.1-.1 1.4.4.3.5.1 1.1-.4 1.4-1.3.7-2.8 1.1-4.3 1.1-5 0-9-4-9-9s4-9 9-9c4.8 0 8.8 3.8 9 8.6l1.3-1.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-3 3c-.4.4-1 .4-1.4 0l-3-3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l1.3 1.3z"></path></symbol><symbol viewBox="0 0 24 24" id="s_ricariche" xmlns="http://www.w3.org/2000/svg"><path d="M12 20c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8zm0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10S2 17.5 2 12 6.5 2 12 2zm2.8 7.2c-1.5-1.5-4.1-1.5-5.7 0 0 .1-.1.2-.2.3h2.6c.6 0 1 .4 1 1s-.4 1-1 1H8v1h3.5c.6 0 1 .4 1 1s-.4 1-1 1H8.9l.3.3c1.5 1.5 4.1 1.5 5.7 0 .4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4-1.2 1.2-2.7 1.8-4.3 1.8-1.6 0-3.1-.6-4.2-1.8-.5-.5-.9-1.1-1.2-1.7-.6 0-1-.4-1-1 0-.4.2-.7.5-.9V12v-.6c-.3-.2-.5-.5-.5-.9 0-.6.4-1 1-1 .3-.6.7-1.2 1.2-1.7C8.9 6.6 10.4 6 12 6s3.1.6 4.2 1.8c.4.4.4 1 0 1.4-.3.4-1 .4-1.4 0z"></path></symbol><symbol viewBox="0 0 24 24" id="s_sms" xmlns="http://www.w3.org/2000/svg"><path d="M20 6.3V6H4v.3l7.4 5c.3.2.8.2 1.1 0l7.5-5zm0 2.4l-6.3 4.2c-1 .7-2.3.7-3.3 0L4 8.7V18h16V8.7zM4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path></symbol><symbol viewBox="0 0 24 24" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M10.255 2.697a6.565 6.565 0 00-6.558 6.557 6.566 6.566 0 006.558 6.559 6.565 6.565 0 006.558-6.559 6.565 6.565 0 00-6.558-6.557zM20.509 23l-6.076-6.628a8.203 8.203 0 01-4.178 1.137C5.703 17.51 2 13.807 2 9.254 2 4.703 5.703 1 10.255 1c4.551 0 8.254 3.703 8.254 8.254a8.237 8.237 0 01-2.703 6.105l5.953 6.495z"></path></symbol><symbol id="store" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><style>.djst0{fill-rule:evenodd;clip-rule:evenodd;fill:#0033a1}</style><g id="djTIMRetail-0722"><g id="dj_x30_0_x5F_TIMRetail_x5F_SchedaProdotto" transform="translate(-738 -1063)"><g id="djGroup-2" transform="translate(720 1043)"><g id="djicone_x2F_UI_x2F_24x24_x2F_store" transform="translate(16 16)"><path id="djFill-1" class="djst0" d="M8.5 7h14.3l2.3 4.1v3.1h-1.2L24 25H7.5l-.7-.8-.2-.3-.5-.6-.4-.6c-1.7-2.2-2.9-4.2-2.9-5.6 0-2.1 1.4-3.8 3.3-4.4v-1.6L8.5 7zm14.6 7.3H11.3c.6.7 1 1.7 1 2.6v.2c0 .9-.5 2.1-1.4 3.5l-.3.5c-.2.3-.4.5-.6.8l-.4.5-.3.6c-.1.1-.1.2-.2.3l-.5.6-.2.2h5.8v-7.3h7.3v7.3h1.6v-9.8zm-2.3 3.2h-5.9v6.6h5.9v-6.6zm-13.2-4c-.3 0-.6 0-.8.1-.1 0-.2 0-.3.1-1.6.5-2.7 1.9-2.7 3.5 0 .8.5 1.9 1.3 3.1l.3.5c.1.1.1.2.2.2l.4.5.3.5.4.5.4.5.5.6.1-.2c.2-.2.3-.4.5-.6l.4-.5.4-.5c.1-.2.3-.3.4-.5l.4-.5c1-1.5 1.7-2.8 1.7-3.6 0-1.2-.6-2.3-1.6-3-.2-.1-.3-.2-.5-.3-.4-.2-.9-.4-1.4-.4h-.4zm0 1.1H8c1.1.2 1.9 1.1 1.9 2.2s-.8 2-1.9 2.2h-.4c-1.3 0-2.3-1-2.3-2.2 0-1.2.9-2.2 2.1-2.2h.2zm0 .8c-.9 0-1.6.6-1.6 1.5 0 .8.6 1.4 1.4 1.5h.5c.7-.1 1.3-.8 1.3-1.5s-.5-1.3-1.3-1.5H7.6zm16.7-3.6H7v.8H7.9c.8.1 1.6.3 2.3.8l.1.1h14v-1.7zm-2-3.9H9l-1.7 2.9H24l-1.7-2.9z"></path></g></g></g></g></symbol><symbol viewBox="0 0 8 48" id="swiper_left" xmlns="http://www.w3.org/2000/svg"><path d="M0 1.3C-.1.7.2.2.7 0S1.8.2 2 .7l6 23v.5l-6 23c-.1.5-.7.9-1.2.7s-.9-.7-.7-1.2L6 24 0 1.3z"></path></symbol><symbol viewBox="0 0 8 48" id="swiper_right" xmlns="http://www.w3.org/2000/svg"><path d="M7.968 46.748a1 1 0 11-1.936.505l-6-23a1 1 0 010-.505l6-23a1 1 0 111.936.505L2.033 24l5.935 22.748z"></path></symbol><symbol viewBox="0 0 24 24" id="timmusic" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18.604 7.3h-9.29a.53.53 0 01-.352-.142.488.488 0 01-.146-.344v-.828c0-.134.052-.252.146-.344a.513.513 0 01.352-.142h9.29a.53.53 0 01.352.142c.086.084.146.21.146.335v.829a.437.437 0 01-.146.335.447.447 0 01-.352.159zm-5.763 1.8v1.8H9.303a.462.462 0 01-.344-.142.474.474 0 01-.143-.344v-.828c0-.134.059-.26.143-.344a.475.475 0 01.344-.142h3.538zm6.118.143a.515.515 0 01.143.336v.842a.493.493 0 01-.143.336.51.51 0 01-.343.143h-3.539V9.1h3.539c.134 0 .26.05.343.143zm0 3.6a.52.52 0 01.143.345v.833a.493.493 0 01-.143.336.51.51 0 01-.343.143h-3.539v-1.8h3.539c.134 0 .26.05.343.143zm-6.118-.143v1.8H9.303a.462.462 0 01-.344-.142.474.474 0 01-.143-.344v-.828c0-.134.059-.26.143-.344a.475.475 0 01.344-.142h3.538zM22.033 1h.671C23.42 1 24 1.58 24 2.296v16.93A2.764 2.764 0 0121.246 22a2.764 2.764 0 01-2.754-2.774 2.764 2.764 0 012.754-2.773c.273 0 .537.04.787.115V2.98H5.508v16.245A2.764 2.764 0 012.754 22 2.764 2.764 0 010 19.226a2.764 2.764 0 012.754-2.773c.274 0 .538.04.787.115V2.296C3.541 1.58 4.121 1 4.837 1H22.033z"></path></symbol><symbol viewBox="0 0 48 48" id="timvision" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.852 10.455a.408.408 0 00-.408.409v21.272c0 .226.183.41.408.41h38.296a.408.408 0 00.408-.41V10.864a.408.408 0 00-.408-.41H4.852zm0-2.455h38.296A2.858 2.858 0 0146 10.864v21.272A2.858 2.858 0 0143.148 35H4.852A2.858 2.858 0 012 32.136V10.864A2.858 2.858 0 014.852 8zm26.326 9H15.822a.871.871 0 01-.581-.237.817.817 0 01-.241-.572v-1.382c0-.223.085-.418.241-.572a.844.844 0 01.581-.237h15.356c.227 0 .425.098.581.237a.81.81 0 01.241.558v1.382a.731.731 0 01-.241.558.736.736 0 01-.581.265zm-9.526 3v3h-5.848a.76.76 0 01-.568-.237.793.793 0 01-.236-.572v-1.382c0-.223.097-.432.236-.572a.782.782 0 01.568-.237h5.848zm10.112.238c.139.14.222.337.236.561v1.402c0 .21-.097.42-.236.56a.84.84 0 01-.568.239h-5.848v-3h5.848c.222 0 .43.084.568.238zm0 6a.87.87 0 01.236.575v1.388c0 .21-.097.42-.236.56a.84.84 0 01-.568.239h-5.848v-3h5.848c.222 0 .43.084.568.238zM21.652 26v3h-5.848a.76.76 0 01-.568-.237.793.793 0 01-.236-.572v-1.382c0-.223.097-.432.236-.572a.782.782 0 01.568-.237h5.848zm-6.425 16C14.55 42 14 41.552 14 41s.55-1 1.227-1h15.546c.678 0 1.227.448 1.227 1s-.55 1-1.227 1H15.227z"></path></symbol><symbol viewBox="0 0 48 48" id="track" xmlns="http://www.w3.org/2000/svg"><path class="dost0" d="M4.3 7h23.3c2.3 0 4.2 1.7 4.3 3.8v.2H38.3c1.5 0 3 .8 3.7 2l5.4 9.3c.3.6.5 1.2.5 1.8v5c0 2.2-1.9 3.9-4.2 3.9h.1c-.5 2.3-2.5 4-4.9 4s-4.4-1.7-4.9-4c-1.3 0-2.4-.6-3.1-1.4-.8.8-1.9 1.3-3.1 1.4h-13c-.5 2.3-2.5 4-4.9 4S5.5 35.3 5 33h-.8C2 33 .1 31.3 0 29.2V11c0-2.2 1.8-3.9 4.1-4h23.5H4.3zM10 29c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zm29 0c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zM27.7 9H4.3c-1.2 0-2.2.8-2.3 1.9V29c0 1 .9 1.9 2.2 2h1c.5-2.3 2.5-4 4.9-4s4.4 1.7 4.9 4h12.8c1.3 0 2.2-.8 2.3-1.9V11C30 9.9 29 9 27.7 9zm10.7 4h-5.8c-.4 0-.5 0-.5.1-.1.2-.1.5-.1 1.4V29.2c0 1 1 1.9 2.2 1.9h-.1c.5-2.3 2.5-4 4.9-4s4.4 1.7 4.9 4c1.2 0 2.1-.9 2.1-1.9v-5c0-.3-.1-.6-.2-.8L40.4 14c-.3-.6-1.1-1-2-1z"></path></symbol><symbol viewBox="0 0 24 24" id="twitter" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path></symbol><symbol viewBox="0 0 32 24" id="unlogged" xmlns="http://www.w3.org/2000/svg"><defs><path d="M16 13.571c-3.671 0-11 1.805-11 5.388V23h22v-4.04c0-3.584-7.329-5.389-11-5.389M16 1a5.97 5.97 0 00-5.971 5.971A5.97 5.97 0 0016 12.943a5.97 5.97 0 005.971-5.972A5.97 5.97 0 0016 1m9.122 17.798v2.557H6.876v-2.557c0-.945 4.992-3.1 9.124-3.1 4.132 0 9.122 2.155 9.122 3.1zM16 2.886a4.085 4.085 0 11.001 8.17A4.085 4.085 0 0116 2.886" id="dqa"></path></defs><use fill="#000" xlink:href="#dqa" fill-rule="evenodd"></use></symbol><symbol viewBox="0 0 24 24" id="x" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M13.414 12l6.293-6.293a.999.999 0 10-1.414-1.414L12 10.586 5.707 4.293a.999.999 0 10-1.414 1.414L10.586 12l-6.293 6.293a.999.999 0 101.414 1.414L12 13.414l6.293 6.293a.997.997 0 001.414 0 .999.999 0 000-1.414L13.414 12z"></path></symbol><symbol viewBox="0 0 24 24" id="youtube" xmlns="http://www.w3.org/2000/svg"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"></path></symbol>
+        <symbol viewBox="0 0 21 21" style="enable-background:new 0 0 21 21" xml:space="preserve" id="ic-arrow-sx" xmlns="http://www.w3.org/2000/svg"><path style="fill:#fff" d="m14.8 0 .7 1 .5.7.5.6-.6.5-7.5 7.7 7.5 7.7.6.5-.5.7-.5.6-.7 1-.8-.8-8.9-9-.6-.7.6-.7 8.9-9z"></path></symbol>
+        <symbol viewBox="0 0 21 21" style="enable-background:new 0 0 21 21" xml:space="preserve" id="ic-arrow-dx" xmlns="http://www.w3.org/2000/svg"><path style="fill:#fff" d="m6.2 0-.7 1-.5.7-.5.6.6.5 7.5 7.7-7.5 7.7-.6.5.5.7.5.6.7 1 .8-.8 8.9-9 .6-.7-.6-.7L7 .8z"></path></symbol>
+        <symbol fill="none" viewBox="0 0 24 24" id="error" xmlns="http://www.w3.org/2000/svg">
+            <path d="m14.207 11.164 4.5-4.5-1.414-1.414-4.5 4.5a1.121 1.121 0 0 1-1.586 0l-4.5-4.5-1.414 1.414 4.5 4.5a1.121 1.121 0 0 1 0 1.586l-4.5 4.5 1.414 1.414 4.5-4.5a1.121 1.121 0 0 1 1.586 0l4.5 4.5 1.414-1.414-4.5-4.5a1.121 1.121 0 0 1 0-1.586Z" fill="#122AC2"/>
+        </symbol>
+        <symbol fill="none" viewBox="0 0 24 24" id="error-white" xmlns="http://www.w3.org/2000/svg">
+            <path d="m14.207 11.164 4.5-4.5-1.414-1.414-4.5 4.5a1.121 1.121 0 0 1-1.586 0l-4.5-4.5-1.414 1.414 4.5 4.5a1.121 1.121 0 0 1 0 1.586l-4.5 4.5 1.414 1.414 4.5-4.5a1.121 1.121 0 0 1 1.586 0l4.5 4.5 1.414-1.414-4.5-4.5a1.121 1.121 0 0 1 0-1.586Z" fill="#fff"/>
+        </symbol>
+    </svg>
+</div>
+
+<script>
+    const bs = new CustomEvent('bodyStart');
+    // Dispatch the event.
+    window.dispatchEvent(bs);
+</script>
+<div class="tl-page">
+    
+    
+    
+
+
+
+
+
+
+
+ <!-- RIMOSSO IN ATTESA DI JS PER SPOSTARE L'HEADER -->
+
+    
+
+
+
+
+
+
+
+
+
+<div class="to-header to-header--accessible to-header--accessible-v25">
+	
+
+	
+
+<!--    <div class="to-header__pre-header">-->
+<!--        <div class="to-pre-header">-->
+            
+
+
+
+<link rel="stylesheet" href=" "/>
+
+
+    <div class="to-header__pre-header">
+
+<nav id="global-navigation" data-lang="it" class="to-pre-header to-pre-header--superheader to-pre-header--rd25" aria-label="Siti Gruppo TIM">
+  <ul id="menu-0">
+    <li id="item-1">
+      <button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="menu-1" class="to-superhero-root" tabindex="0">
+        Gruppo TIM
+      </button>
+      <ul id="menu-1" class="to-pre-header--superheader-menu" aria-label="Gruppo TIM"></ul>
+    </li>
+    <li id="item-2">
+      <span class="to-pre-header__link -active" aria-current="page">PRIVATI</span>
+    </li>
+    <li id="item-3">
+      <a href="https://timbusiness.tim.it" class="to-pre-header__link" title="Vai a P.IVA e PMI" tabindex="0">P.IVA e PMI</a>
+    </li>
+    <li id="item-4">
+      <a href="https://www.timenterprise.it" class="to-pre-header__link" title="Vai a AZIENDE E PA" tabindex="0" rel="nofollow">AZIENDE E PA</a>
+    </li>
+  </ul>
+  <span class="to-pre-header--superheader-overlay"></span>
+</nav>
+
+</div>
+
+
+
+
+<script type="text/javascript" src=" "></script>
+
+<!-- http://localhost:4502/system/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter e rimuovere il filtro sui mimetype non consentiti-->
+
+
+<!--        </div>-->
+<!--    </div>-->
+    <!-- http://localhost:4502/system/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter e rimuovere il filtro sui mimetype non consentiti-->
+
+
+
+	
+
+	
+	<header class="to-header__main-header">
+		<div class="to-main-header">
+			<ul class="to-main-header__wrapper">
+				<li class="to-main-header__logo">
+					<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" omniturecta="header_Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile" omnitureposition="1" href="https://www.tim.it" target="_self" title="logo">
+						<img class="ta-image -logo" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/logo_0033A1.png" title="Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile" height="24" width="88" alt="Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile"/>
+					</a>
+				</li>
+
+				<li class="to-menu-mobile">
+					<div class="to-menu-mobile__header">
+						<div class="to-menu-mobile__logo">
+							<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" omniturecta="header_Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile" omnitureposition="1" href="https://www.tim.it" target="_self">
+								<img class="ta-image -logo" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/logo_0033A1.png" height="24" width="88" title="Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile" alt="Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile"/>
+							</a>
+						</div>
+						<div class="to-menu-mobile__close" js-headerNav-mobile-menu-close omnitureposition="1" omniturecta="menu-mobile__close"></div>
+					</div>
+
+					<div class="to-menu-mobile__wrapper">
+
+						<nav class="to-menu-mobile__first" aria-label="Menu Principale">
+							<ul aria-label="Tim Navigation">
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://www.tim.it/fisso-e-mobile/fibra-e-adsl" target="_self" title="Fisso" omniturecta="header_Fisso" omnitureposition="1">
+											Fisso
+										</a>
+									
+								</li>
+							
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://www.tim.it/fisso-e-mobile/mobile" target="_self" title="Mobile" omniturecta="header_Mobile" omnitureposition="1">
+											Mobile
+										</a>
+									
+								</li>
+							
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://www.tim.it/offerte-tv" target="_self" title="TV e Calcio" omniturecta="header_TV e Calcio" omnitureposition="1">
+											TV e Calcio
+										</a>
+									
+								</li>
+							
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://www.tim.it/luce-gas" target="_self" title="Energia" omniturecta="header_Energia" omnitureposition="1">
+											Energia
+										</a>
+									
+								</li>
+							
+								<li>
+									
+										
+										
+										<button tabindex="0" class="menu-trigger-lv-2 " js-headerNav-menu-level-1 title="Prodotti" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" aria-expanded="false" aria-haspopup="true" id="prodotti" aria-controls="prodotti_DropdownMenu" x-cq-linkchecker="valid" omniturecta="header_Prodotti" omnitureposition="1">
+											Prodotti
+										</button>
+
+										
+										
+
+										
+
+										
+
+										<div class="to-menu-mobile__second-wrapper menu-lv-2">
+<!--MENU SECONDO LIVELLO - Prodotti-->
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+<div class="menu-back" js-headerNav-mobile-menu-back>indietro</div>
+
+<ul aria-label="Prodotti">
+    
+    
+
+    
+       
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti/offerte-speciali" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="Offerte speciali" omniturecta="header_Prodotti_Offerte speciali" omnitureposition="1">
+             	Offerte speciali
+             </a>
+             
+             
+    	</li>
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti/smartphone" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="Smartphone" omniturecta="header_Prodotti_Smartphone" omnitureposition="1">
+             	Smartphone
+             </a>
+             
+             
+    	</li>
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti/tv-console" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="TV e Console" omniturecta="header_Prodotti_TV e Console" omnitureposition="1">
+             	TV e Console
+             </a>
+             
+             
+    	</li>
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti/tablet-pc-modem" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="Tablet, PC e Modem" omniturecta="header_Prodotti_Tablet, PC e Modem" omnitureposition="1">
+             	Tablet, PC e Modem
+             </a>
+             
+             
+    	</li>
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti/elettrodomestici" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="Home e Personal Care" omniturecta="header_Prodotti_Home e Personal Care" omnitureposition="1">
+             	Home e Personal Care
+             </a>
+             
+             
+    	</li>
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti/accessori-smartwatch" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="Smartwatch, Wearable e Accessori" omniturecta="header_Prodotti_Smartwatch, Wearable e Accessori" omnitureposition="1">
+             	Smartwatch, Wearable e Accessori
+             </a>
+             
+             
+    	</li>
+    
+    	
+        
+    	<li> 
+	    	
+             <a href="https://www.tim.it/prodotti" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" tabindex="0" title="Tutti i prodotti" omniturecta="header_Prodotti_Tutti i prodotti" omnitureposition="1">
+             	Tutti i prodotti
+             </a>
+             
+             
+    	</li>
+     
+    
+    
+</ul>
+<div class="to-menu__level-2__main">
+    <div class="to-menu__level-2__main__title">
+        PlayStation®5 1TB Marvel's Wolverine
+
+
+    </div>
+    <div class="to-menu__level-2__main__description">
+        Scatena la furia con Sony Marvel's Wolverine e prova il massimo del realismo di gioco con la grafica Ray Tracing
+
+
+        
+        <div class="to-menu__level-2__main__image">
+ 
+     <img src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" class="lazy" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/menu-2026/ps5-1T-wolverine-bannermenu-720x360-20260910.webp" alt="Console PlayStation®5 1TB Marvel's Wolverine" title="Scatena la furia con Sony Marvel's Wolverine e prova il massimo del realismo di gioco con la grafica Ray Tracing"/>
+ </div>
+        
+        
+
+
+
+    <a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" class="to-menu__level-2__main__wrap-link" href="https://www.tim.it/prodotti/tv-console/sony-ps5-wolverine" target="_self" omniturecta="header_img_Prodotti" omnitureposition="1">
+
+    </a>
+
+
+
+
+        
+    </div>
+</div>
+</div>
+
+									
+									<!--  Solo link -->
+									
+								</li>
+							
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://www.tim.it/fisso-e-mobile/servizi" target="_self" title="Servizi" omniturecta="header_Servizi" omnitureposition="1">
+											Servizi
+										</a>
+									
+								</li>
+							
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://timstar.tim.it/" target="_blank" title="TIM Star" omniturecta="header_TIM Star" omnitureposition="1">
+											TIM Star
+										</a>
+									
+								</li>
+							
+								<li>
+									
+									<!--  Solo link -->
+									
+										
+										<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" tabindex="0" href="https://www.tim.it/assistenza" target="_self" title="Assistenza" omniturecta="header_Assistenza" omnitureposition="1">
+											Assistenza
+										</a>
+									
+								</li>
+							</ul>
+						</nav>
+
+
+						<ul class="to-menu-mobile__secondary" aria-label="Menu secondario">
+							
+								
+								
+								
+								<li>
+									<button tabindex="0" class="secondary-menu-button menu-trigger-lv-2" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" target="_self" x-cq-linkchecker="valid" js-headernav-menu-level-1="" aria-expanded="false" omniturecta="header_Accesso webmail per mail tim.it, alice.it e tin.it." omnitureposition="1">
+										<span class="secondary-menu-button__icon">
+                                        	<img class="lazy" height="24" width="24" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/mail-icon-blu.svg" alt="Accesso webmail per mail tim.it, alice.it e tin.it." title="Mail/Pec"/>
+                                        </span>
+										<span class="secondary-menu-button__label">Mail/Pec</span>
+									</button>
+									<div class="to-menu-mobile__second-wrapper menu-lv-2 menu-lv-2--mini">
+										<ul aria-label="Mail/Pec">
+											
+											<li>
+												<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://mail.tim.it/" target="_blank" tabindex="0" omniturecta="header_Accesso webmail per mail tim.it, alice.it e tin.it." omnitureposition="1">
+													Accedi alla tua email
+												</a>
+											</li>
+										
+											
+											<li>
+												<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://webmail.pectim.it/" target="_blank" tabindex="0" omniturecta="header_Accesso webmail per mail tim.it, alice.it e tin.it." omnitureposition="1">
+													Accedi a TIM PEC
+												</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+							
+
+							
+								
+								
+								<li class="--display-side-menu">
+									<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/trova-negozio" target="_blank" omniturecta="header_Negozi" omnitureposition="1">
+									<span class="secondary-menu-button__icon">
+		                     				<img class="lazy" height="24" width="24" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/trova_negozio-icon-blu.svg" alt="Negozi" title="Negozi"/>
+		                   			</span>
+										<span class="secondary-menu-button__label">Negozi</span>
+									</a>
+								</li>
+							
+								
+								
+								<li class="--display-side-menu">
+									<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/ricarica" target="_blank" omniturecta="header_Ricarica" omnitureposition="1">
+									<span class="secondary-menu-button__icon">
+		                     				<img class="lazy" height="24" width="24" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/ricarica-icon-blu.svg" alt="Ricarica" title="Ricarica"/>
+		                   			</span>
+										<span class="secondary-menu-button__label">Ricarica</span>
+									</a>
+								</li>
+							
+								
+								
+								<li class="--display-side-menu">
+									<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://app.tim.it/mytim-footer" target="_blank" omniturecta="header_App MyTIM" omnitureposition="1">
+									<span class="secondary-menu-button__icon">
+		                     				<img class="lazy" height="24" width="24" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/app-icon-blu.svg" alt="App MyTIM" title="App MyTIM"/>
+		                   			</span>
+										<span class="secondary-menu-button__label">App MyTIM</span>
+									</a>
+								</li>
+							
+						</ul>
+
+					</div>
+
+				</li>
+
+
+				<!-- PC -->
+				<li class="to-main-header__buttons">
+					<div>
+						<a onclick="SearchController.searchOpen(); trackController.track(this)" omniturecta="header_search" omnitureposition="1" class="ta-button -search -search-rd25" href="#searchPage" target="_self" title="Cerca" tabindex="0" aria-controls="searchOverlay">
+                            <span class="ta-button__icon">
+                                <img class="ta-image" height="24" width="24" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/svg/search-rd25.svg" alt="CERCA"/>
+                            </span>
+						</a>
+					</div>
+
+					<div>
+						<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" omniturecta="header_Not logged Area Clienti MyTIM" omnitureposition="1" id="user-unlogged" class="ta-button -mytim -mytim-rd25" href="https://mytim.tim.it/login-authorize.html" target="_blank" rel="noopener" title="MyTIM">
+							<span class="ta-button__txt">MyTIM</span>
+							<span class="ta-button__icon">
+                            	<img class="ta-image lazy" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/icon-non-loggato-24x24-blu.svg" width="24" height="24" alt="Not logged Area Clienti MyTIM" title="MyTIM"/>
+                    			
+                    			<img class="ta-image --display-desk lazy" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/icon-non-loggato-24x24-white.svg" width="24" height="24" alt="Not logged Area Clienti MyTIM" title="MyTIM"/>
+                    		</span>
+						</a>
+
+						<a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" omniturecta="header_Logged Area Clienti MyTIM" omnitureposition="1" id="user-logged" class="ta-button -mytim -mytim-rd25 -hidden" href="https://mytim.tim.it/login-authorize.html" target="_blank" rel="noopener">
+							<span class="ta-button__txt">MyTIM</span>
+							<span class="ta-button__icon">
+                                	<img class="lazy ta-image" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/icon-loggato-24x24-blu.svg" width="24" height="24" alt="Logged Area Clienti MyTIM" title="MyTIM"/>
+                            		
+                            		<img class="lazy ta-image --display-desk" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/icon-loggato-24x24-white.svg" width="24" height="24" alt="Logged Area Clienti MyTIM" title="MyTIM"/>
+                            	
+                            	</span>
+						</a>
+					</div>
+
+					<div class="to-main-header__hamburger" aria-controls="mobile-navigation" aria-expanded="false" aria-haspopup="true" js-headerNav-mobile-menu-open>
+						<a role="button" class="a-hamburger-menu a-hamburger-menu--rd25 -hidden-desktop-from" aria-label="menu" js-mobile-menu-trigger omnitureposition="1" omniturecta="hamburger-menu_open">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+		<div class="close-menu" js-headerNav-close-menu></div>
+	</header>
+</div>
+
+
+
+
+
+
+
+    <div class="tl-wrapper-rows ">
+        
+        
+            
+<div class="tl-row section">
+
+<div class="tl-col-12 " id="c--1610740788">
+    
+
+    
+
+    
+
+
+
+
+    
+    
+    <div class="to-hero-text-full">
+    <div class="to-hero-text-full__body">
+
+        <div class="to-hero-text-full__title">
+            <h1 class="ta-heading ta-heading--h1-big"><span style="font-size: 0.6em;line-height: 30.0px;display: block;">Pagina non trovata</span>
+
+</h1>
+
+
+            <div class="ta-heading ta-heading--h1-hp">
+
+
+
+
+    <span style="font-size: 0.7em;">Stiamo lavorando per migliorare il nuovo sito TIM</span>
+
+</div>
+
+        </div>
+
+        <div class="to-hero-text-full__text">
+            <p>Per trovare il contenuto che stai cercando, clicca sulla lente per accedere alla ricerca oppure naviga nel menù del sito<br />
+<br />
+ </p>
+
+
+
+        </div>
+
+        <div class="to-hero-text-full__buttons">
+
+            
+
+
+<a class="ta-button -primary -hidden-mobile -lowercase  " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="javascript:history.back();" target="_self" omniturecta="hero_text_full_1_1_TORNA INDIETRO" omnitureposition="1">
+    <span class="ta-button__txt">TORNA INDIETRO</span>
+    <span class="ta-button__icon">
+        <svg class="ta-icon-svg ta-icon-svg__arrow_right" viewBox="0 0 35 35">
+            <use xlink:href="#arrow_right"></use>
+        </svg>
+        
+    </span>
+</a>
+
+<a class="ta-button -primary -hidden-tablet-from -lowercase  " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="javascript:history.back();" target="_self" omniturecta="hero_text_full_1_1_TORNA INDIETRO" omnitureposition="1">
+    <span class="ta-button__txt">INDIETRO</span>
+    <span class="ta-button__icon">
+        <svg class="ta-icon-svg ta-icon-svg__arrow_right" viewBox="0 0 35 35">
+            <use xlink:href="#arrow_right"></use>
+        </svg>
+        
+    </span>
+</a>
+
+
+
+
+            
+
+
+<a class="ta-button -secondary -hidden-mobile   " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/" target="_self" omniturecta="hero_text_full_1_1_Torna alla homepage" omnitureposition="1">
+    <span class="ta-button__txt">Torna alla homepage</span>
+    <span class="ta-button__icon">
+        <svg class="ta-icon-svg ta-icon-svg__arrow_right" viewBox="0 0 35 35">
+            <use xlink:href="#arrow_right"></use>
+        </svg>
+        
+    </span>
+</a>
+
+<a class="ta-button -secondary -hidden-tablet-from   " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/" target="_self" omniturecta="hero_text_full_1_1_Torna alla homepage" omnitureposition="1">
+    <span class="ta-button__txt">home</span>
+    <span class="ta-button__icon">
+        <svg class="ta-icon-svg ta-icon-svg__arrow_right" viewBox="0 0 35 35">
+            <use xlink:href="#arrow_right"></use>
+        </svg>
+        
+    </span>
+</a>
+
+
+        </div>
+
+        <div class="to-hero-text-full__cards ">
+
+            <div class="to-hero-text-full__cards__title">
+                <div class="ta-heading ta-heading--h1-small">Scopri il fantastico mondo delle offerte TIM
+</div>
+
+            </div>
+
+            <div class="to-hero-text-full__cards__wrapper">
+
+                
+                
+
+
+
+
+    
+    
+    <div class="to-hero-text-full__card"><div class="tm-tile  tm-tile--soluzioni-digitali tm-tile--theme-light-soluzioni-digitali">
+    <div class="tm-tile__body">
+        <div>
+            <div class="tm-tile__img">
+                <div>
+                    
+
+<picture>
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/mass-market-sliderHP-m-620x466-20260527.webp" media="(min-width: 1280px)"/>
+    
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/mass-market-sliderHP-m-620x466-20260527.webp" media="(min-width: 768px)"/>
+    
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/mass-market-sliderHP-m-620x466-20260527.webp" media="(min-width: 1px)"/>
+    
+
+    
+    
+        <img class="lazy" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/mass-market-sliderHP-m-620x466-20260527.webp" alt="Il massimo della rete TIM per la tua casa" title="Il massimo della rete TIM per la tua casa"/>
+    
+
+</picture>
+
+                </div>
+            </div>
+
+            <div class="tm-tile__title">
+                <h3 class="ta-heading ta-heading--h3">Il nuovo WiFi di TIM ti porta oltre<br />
+ 
+</h3>
+
+            </div>
+
+            <div class="tm-tile__text">
+                <p class="ta-paragraph ta-paragraph--body">Le migliori <strong>prestazioni </strong>possibili per navigare al massimo della <strong>velocità</strong>.<br />
+ 
+</p>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="tm-tile__button">
+
+                
+
+<a class="ta-button -secondary -spaced-between  -lowercase " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/fisso-e-mobile/fibra-e-adsl" target="_self" omniturecta="hero_text_full_1_1_1_SCOPRI" omnitureposition="1">
+    <span class="ta-button__txt">SCOPRI</span>
+</a>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    
+    
+    <div class="to-hero-text-full__card"><div class="tm-tile  tm-tile--soluzioni-digitali tm-tile--theme-light-soluzioni-digitali">
+    <div class="tm-tile__body">
+        <div>
+            <div class="tm-tile__img">
+                <div>
+                    
+
+<picture>
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/timmobile-SLIDER-mbl-banner-20260221.webp" media="(min-width: 1280px)"/>
+    
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/timmobile-SLIDER-mbl-banner-20260221.webp" media="(min-width: 768px)"/>
+    
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/timmobile-SLIDER-mbl-banner-20260221.webp" media="(min-width: 1px)"/>
+    
+
+    
+    
+        <img class="lazy" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/timmobile-SLIDER-mbl-banner-20260221.webp" alt="La migliore rete mobile TIM" title="La migliore rete mobile TIM"/>
+    
+
+</picture>
+
+                </div>
+            </div>
+
+            <div class="tm-tile__title">
+                <h3 class="ta-heading ta-heading--h3">La migliore rete mobile TIM<br />
+ 
+</h3>
+
+            </div>
+
+            <div class="tm-tile__text">
+                <p class="ta-paragraph ta-paragraph--body"><strong>Minuti</strong>, <strong>SMS </strong>e <strong>Giga </strong>con la potenza del <strong>5G ULTRA</strong><br />
+ 
+</p>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="tm-tile__button">
+
+                
+
+<a class="ta-button -secondary -spaced-between  -lowercase " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/fisso-e-mobile/mobile" target="_self" omniturecta="hero_text_full_1_1_2_SCOPRI" omnitureposition="2">
+    <span class="ta-button__txt">SCOPRI</span>
+</a>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    
+    
+    <div class="to-hero-text-full__card"><div class="tm-tile  tm-tile--soluzioni-digitali tm-tile--theme-light-soluzioni-digitali">
+    <div class="tm-tile__body">
+        <div>
+            <div class="tm-tile__img">
+                <div>
+                    
+
+<picture>
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/fibra-tv-sliderHP-m-620x466-20260604.webp" media="(min-width: 1280px)"/>
+    
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/fibra-tv-sliderHP-m-620x466-20260604.webp" media="(min-width: 768px)"/>
+    
+
+    
+    
+        <source data-srcset="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/fibra-tv-sliderHP-m-620x466-20260604.webp" media="(min-width: 1px)"/>
+    
+
+    
+    
+        <img class="lazy" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/img/blank.png" data-src="/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/slider-2026/fibra-tv-sliderHP-m-620x466-20260604.webp" alt="Tutto l’Intrattenimento di TIMVISION" title="Tutto l’Intrattenimento di TIMVISION"/>
+    
+
+</picture>
+
+                </div>
+            </div>
+
+            <div class="tm-tile__title">
+                <h3 class="ta-heading ta-heading--h3">Scopri le offerte TV e Intrattenimento di TIM<br />
+<br />
+
+</h3>
+
+            </div>
+
+            <div class="tm-tile__text">
+                <p class="ta-paragraph ta-paragraph--body">Tutto l'intrattenimento di <strong>Netflix</strong>, <strong>HBO Max,</strong> <strong>Disney+, Amazon Prime</strong>, <strong>Apple TV+</strong> e lo sport di <strong>DAZN</strong>.<br />
+ 
+</p>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="tm-tile__button">
+
+                
+
+<a class="ta-button -secondary -spaced-between  -lowercase " onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/offerte-tv" target="_self" omniturecta="hero_text_full_1_1_3_SCOPRI" omnitureposition="3">
+    <span class="ta-button__txt">SCOPRI</span>
+</a>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+</div>
+
+
+
+</div>
+<div class="html_libero section">
+
+<style>
+    .tm-tile__img { border-bottom: 1px solid; }
+
+.tm-tile__img>div>picture, .tm-tile__img>div>picture>img, .tm-tile__img>div>img, .tm-tile__img>div>svg {
+object-fit: cover;
+    object-position: top;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+        
+        <div class="tl-row">
+            <div class="tl-col-12">
+                <footer class="to-footer">
+    <section class="to-footer-accessibile__top" js-footer-top>
+    <div class="to-footer-accessibile__top__1 logo">
+        
+        
+
+
+
+
+
+    <a href="/" title="Immagine" target="_self" omniturecta="footer_top_" omnitureposition="1">
+        <img class="ta-image -logo" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/logo_0033A1_footer.png" alt="Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile" width="88" height="24" title="Logo TIM - Sito ufficiale di TIM - offerte Fibra e Mobile"/>
+    </a>
+
+
+
+
+
+          
+	
+
+  
+	
+
+  
+	
+
+  
+	
+
+
+
+<ul class="to-footer-accessibile__top--partners">
+	
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+	     
+	
+
+
+
+
+
+
+
+
+	     
+	
+
+
+
+
+<li>
+    <a class="to-footer__partner" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.reteclima.it/progetti/tim-misura-e-compensa-volontariamente-le-emissioni-di-gas-serra-dellhosting-dei-propri-siti-web-anno-2025-tramite-credit-di-carbonio-certificati/" target="_blank" rel="nofollow" omniturecta="footer_top_" omnitureposition="1">
+        <img class="ta-image" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/hp/1902-label_carbon-offset-website-2025.svg" alt="Decarbonizzazione ed emissioni zero TIM.it" title="Decarbonizzazione ed emissioni zero TIM.it" height="40" width="70"/>
+
+    </a>
+</li>
+
+
+
+</ul>
+    </div>
+
+    <div class="to-footer-accessibile__nav-multi-col">
+
+        
+        
+        
+        
+
+        <div class="to-footer-accessibile__nav-multi-col__column">
+            
+            <nav id="footer_top_section_1" class="to-footer-accessibile__nav-multi-col__panel">
+
+                
+
+
+<ul class="to-footer-accessibile__nav-multi-col__list">
+    
+
+    
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/fisso-e-mobile/fibra-e-adsl" target="_self" title="Offerte Fibra, ADSL e FWA" omniturecta="footer_top_Fisso" omnitureposition="1">
+                    Fisso
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/fisso-e-mobile/mobile" target="_self" title="Offerte telefonia mobile" omniturecta="footer_top_Mobile" omnitureposition="1">
+                    Mobile
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/offerte-tv" target="_self" title="Offerte TIMVISION" omniturecta="footer_top_TV e Calcio" omnitureposition="1">
+                    TV e Calcio
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/luce-gas" target="_self" title="Energia" omniturecta="footer_top_Energia" omnitureposition="1">
+                    Energia
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/prodotti" target="_self" title="Tutti i prodotti TIM" omniturecta="footer_top_Prodotti" omnitureposition="1">
+                    Prodotti
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/fisso-e-mobile/servizi" target="_self" title="Tutti i servizi TIM" omniturecta="footer_top_Servizi" omnitureposition="1">
+                    Servizi
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://timstar.tim.it/" target="_blank" title="TIM Star" omniturecta="footer_top_TIM Star" omnitureposition="1">
+                    TIM Star
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza" target="_self" title="Assistenza" omniturecta="footer_top_Assistenza" omnitureposition="1">
+                    Assistenza
+                </a>
+            </li>
+        
+    
+</ul>
+            </nav>
+        </div>
+
+        
+        
+        
+        
+
+        <div class="to-footer-accessibile__nav-multi-col__column">
+            <button class="to-footer-accessibile__nav-multi-col__trigger" aria-controls="footer_top_section_2" id="footer_top_col_2" type="button">
+           		<span class="ta-heading ta-heading--title-section">Informazioni utili
+</span>
+            </button>
+
+            <div id="footer_top_section_2" aria-labelledby="footer_top_col_2" class="to-footer-accessibile__nav-multi-col__panel">
+                
+
+
+<ul class="to-footer-accessibile__nav-multi-col__list">
+    
+
+    
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/assistenza/infoconsumatori/associazione-dei-consumatori-nuovo-protocollo" target="_self" title="TIM e le Associazioni dei Consumatori" omniturecta="footer_top_TIM e le Associazioni dei Consumatori" omnitureposition="1">
+                    TIM e le Associazioni dei Consumatori
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/fisso-e-mobile/agevolazioni-tim" target="_self" title="Agevolazioni TIM per utenti con disabilità" omniturecta="footer_top_Agevolazioni TIM per utenti con disabilità" omnitureposition="1">
+                    Agevolazioni TIM per utenti con disabilità
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/per-i-consumatori/info-consumatori-fisso/servizio-universale" target="_self" title="Servizio Universale ed Agevolazioni Economiche" omniturecta="footer_top_Servizio Universale ed Agevolazioni Economiche" omnitureposition="1">
+                    Servizio Universale ed Agevolazioni Economiche
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/assistenza/trasparenza-tariffaria" target="_self" title="Trasparenza Tariffaria" omniturecta="footer_top_Trasparenza Tariffaria" omnitureposition="1">
+                    Trasparenza Tariffaria
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/info-consumatori/fisso/pagina-di-trasparenza-tecnica" target="_self" title="Trasparenza Tecnica" omniturecta="footer_top_Trasparenza Tecnica" omnitureposition="1">
+                    Trasparenza Tecnica
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/info-consumatori/news" target="_self" title="News e Modifiche contrattuali" omniturecta="footer_top_News e Modifiche contrattuali" omnitureposition="1">
+                    News e Modifiche contrattuali
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/carta-dei-servizi" target="_self" title="Carta dei Servizi" omniturecta="footer_top_Carta dei Servizi" omnitureposition="1">
+                    Carta dei Servizi
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/info-consumatori/fisso/qualita-servizi" target="_self" title="Qualità dei servizi di rete fissa" omniturecta="footer_top_Qualità dei servizi di rete fissa" omnitureposition="1">
+                    Qualità dei servizi di rete fissa
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/info-consumatori/mobile/qualita-servizi" target="_self" title="Qualità dei servizi di rete mobile" omniturecta="footer_top_Qualità dei servizi di rete mobile" omnitureposition="1">
+                    Qualità dei servizi di rete mobile
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/digital-services-act" target="_self" title="Digital Services Act (Reg. UE 2022/2065)" omniturecta="footer_top_Digital Services Act (Reg. UE 2022/2065)" omnitureposition="1">
+                    Digital Services Act (Reg. UE 2022/2065)
+                </a>
+            </li>
+        
+    
+</ul>
+            </div>
+        </div>
+
+        
+        
+        
+        
+
+        <div class="to-footer-accessibile__nav-multi-col__column">
+            <button class="to-footer-accessibile__nav-multi-col__trigger" aria-controls="footer_top_section_3" id="footer_top_col_3" type="button">
+           		<span class="ta-heading ta-heading--title-section">Strumenti veloci
+</span>
+            </button>
+
+            <div id="footer_top_section_3" aria-labelledby="footer_top_col_3" class="to-footer-accessibile__nav-multi-col__panel">
+                
+
+
+<ul class="to-footer-accessibile__nav-multi-col__list">
+    
+
+    
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://app.tim.it/link-utili" rel="nofollow" target="_blank" title="Scarica l’app MyTIM" omniturecta="footer_top_Scarica l’app MyTIM" omnitureposition="1">
+                    Scarica l’app MyTIM
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/ricarica" target="_self" title="Ricarica Online" omniturecta="footer_top_Ricarica Online" omnitureposition="1">
+                    Ricarica Online
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://mail.tim.it/" rel="noopener" target="_blank" title="Accedi alla Mail" omniturecta="footer_top_Accedi alla Mail" omnitureposition="1">
+                    Accedi alla Mail
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/assistenza/assistenza-tecnica/servizi-online/apri-segnalazione" target="_self" title="Apri una segnalazione" omniturecta="footer_top_Apri una segnalazione" omnitureposition="1">
+                    Apri una segnalazione
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/fisso-e-mobile/fibra-e-adsl/verifica-copertura" target="_self" title="Verifica Copertura" omniturecta="footer_top_Verifica Copertura" omnitureposition="1">
+                    Verifica Copertura
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/fisso-e-mobile/servizi/coupon" target="_self" title="TIM Benefit" omniturecta="footer_top_TIM Benefit" omnitureposition="1">
+                    TIM Benefit
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/fisso-e-mobile/fibra-e-adsl/fattori-velocita" target="_self" title="Velocità di navigazione" omniturecta="footer_top_Velocità di navigazione" omnitureposition="1">
+                    Velocità di navigazione
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/trova-negozio" target="_self" title="Trova Negozio" omniturecta="footer_top_Trova Negozio" omnitureposition="1">
+                    Trova Negozio
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/supporto-tecnico-e-configurazione/guide-configurazione-dispositivi-mobili" target="_self" title="Configura Online" omniturecta="footer_top_Configura Online" omnitureposition="1">
+                    Configura Online
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/assistenza/per-la-tua-linea/TIM-al-tuo-fianco" target="_self" title="Come riconoscere le truffe" omniturecta="footer_top_Come riconoscere le truffe" omnitureposition="1">
+                    Come riconoscere le truffe
+                </a>
+            </li>
+        
+            
+            <li class="to-footer-accessibile__nav-multi-col__list-item">
+                <a class="to-footer-accessibile__nav-multi-col__link" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://community.tim.it/" target="_blank" title="Chiedi alla Community We TIM" omniturecta="footer_top_Chiedi alla Community We TIM" omnitureposition="1">
+                    Chiedi alla Community We TIM
+                </a>
+            </li>
+        
+    
+</ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="to-footer-accessibile__top__4 social">
+        
+        <span class="ta-heading ta-heading--title-section">Seguici su
+</span>
+
+        <ul class="to-footer-accessibile__top--socials">
+            
+            
+
+
+
+
+
+    
+        
+
+        
+        <li>
+            <a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://it-it.facebook.com/TimOfficialPage" rel="noopener" target="_blank" title="Facebook" omniturecta="footer_top_Facebook" omnitureposition="1">
+
+                
+                
+                    <img class="ta-image" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/Facebook_2020.svg" alt="Facebook TIMOfficialPage" width="24" height="24" title="Facebook TIMOfficialPage"/>
+                
+
+                <span>
+                Facebook
+            </span>
+            </a>
+        </li>
+    
+        
+
+        
+        <li>
+            <a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://x.com/tim_official" rel="noopener" target="_blank" title="X" omniturecta="modal_popup_13_" omnitureposition="1">
+
+                
+                
+                    <img class="ta-image" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/twitter_x_2023.svg" alt="X @TIM_Official" width="24" height="24" title="X @TIM_Official"/>
+                
+
+                <span>
+                X
+            </span>
+            </a>
+        </li>
+    
+        
+
+        
+        <li>
+            <a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.instagram.com/timofficial" rel="noopener" target="_blank" title="Instagram" omniturecta="footer_top_Instagram" omnitureposition="1">
+
+                
+                
+                    <img class="ta-image" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/Instagram.svg" alt="Instagram @timofficial" width="24" height="24" title="Instagram @timofficial"/>
+                
+
+                <span>
+                Instagram
+            </span>
+            </a>
+        </li>
+    
+        
+
+        
+        <li>
+            <a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.youtube.com/user/TimChannel" rel="noopener" target="_blank" title="Youtube" omniturecta="footer_top_Youtube" omnitureposition="1">
+
+                
+                
+                    <img class="ta-image" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/Youtube.svg" alt="Youtube TimChannel" width="24" height="24" title="Youtube TimChannel"/>
+                
+
+                <span>
+                Youtube
+            </span>
+            </a>
+        </li>
+    
+        
+
+        
+        <li>
+            <a onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.linkedin.com/company/tim/?originalSubdomain=it" rel="noopener" target="_blank" title="LinkedIn" omniturecta="footer_top_LinkedIn" omnitureposition="1">
+
+                
+                
+                    <img class="ta-image" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/Linkedin.svg" alt="LinkedIn TIM" width="24" height="24" title="LinkedIn TIM"/>
+                
+
+                <span>
+                LinkedIn
+            </span>
+            </a>
+        </li>
+    
+
+
+        </ul>
+    </div>
+</section>
+
+
+    
+<section class="to-footer__bottom">
+
+    <div class="to-footer__bottom__links">
+        
+
+
+
+
+
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/web-privacy-policy?hidebanner=true" target="_self" title="Privacy &amp; Cookie" omniturecta="footer_bottom_Privacy &amp; Cookie" omnitureposition="1">
+            Privacy &amp; Cookie
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="#" target="_self" title="Preferenze cookie" omniturecta="footer_bottom_Preferenze cookie" omnitureposition="1">
+            Preferenze cookie
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/note-legali" target="_self" title="Note Legali" omniturecta="footer_bottom_Note Legali" omnitureposition="1">
+            Note Legali
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/dichiarazione-di-accessibilita" target="_self" title="Dichiarazione di accessibilità" omniturecta="footer_bottom_Dichiarazione di accessibilità" omnitureposition="1">
+            Dichiarazione di accessibilità
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/assistenza/per-la-tua-linea/come-contattare-tim" target="_self" title="Contatti" omniturecta="footer_bottom_Contatti" omnitureposition="1">
+            Contatti
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.tim.it/assistenza/per-i-consumatori" target="_self" title="Per i Consumatori" omniturecta="footer_bottom_Per i Consumatori" omnitureposition="1">
+            Per i Consumatori
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="/assistenza/per-la-tua-linea/tutela-dei-minori" target="_self" title="Tutela Minori" omniturecta="footer_bottom_Tutela Minori" omnitureposition="1">
+            Tutela Minori
+        </a>
+    
+        
+        <a class="ta-link -white" onclick="trackController.track(this); ModaliPopupController && ModaliPopupController.open(this)" href="https://www.gruppotim.it/it/gruppo/governance/strumenti-governance/whistleblowing.html" rel="nofollow" target="_blank" title="Whistleblowing" omniturecta="footer_bottom_Whistleblowing" omnitureposition="1">
+            Whistleblowing
+        </a>
+    
+
+
+    </div>
+
+    <div class="to-footer__bottom__copyright">
+        <p class="ta-paragraph ta-paragraph--small-text">©2026 Telecom Italia - Partita IVA: 00488410010<span class="cpi"></span>
+</p>
+
+    </div>
+
+</section>
+</footer>
+            </div>
+        </div>
+
+        <div class="tl-row">
+    <div class="tl-col-12">
+        
+
+
+    </div>
+</div>
+
+        <div class="tl-row">
+    <div class="tl-col-12">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+        <div class="tl-row">
+    <div class="tl-col-12">
+        
+
+        
+
+        
+
+    </div>
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+<!--Modal Search-->
+
+
+
+
+<div class="to-overlaysearch" id="searchOverlay">
+
+    <div class="to-overlaysearch__wrapper">
+
+        <div class="to-overlaysearch__header">
+            <div class="tm-overlayheader tm-overlayheader--theme-light">
+
+                <div class="tm-overlayheader__logo">
+                    <a href="https://www.tim.it" target="_self"><img class="ta-image -logo" src="//risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/img/temi/2025/logo-white.svg" alt="TIM"/></a>
+                </div>
+
+                <div class="tm-overlayheader__close">
+                    <button onclick="SearchController.searchClose()" type="button" class="tm-overlayheader__closebtt" aria-label="Close"><svg class="ta-icon-svg ta-icon-svg__close-big" viewBox="0 0 24 24"><use xlink:href="#close-big"></use></svg></button>
+                </div>
+
+            </div>
+            <div class="to-overlaysearch__search tl-col-6">
+                <form action="javascript:void(0)" class="tm-search-form" autocomplete="off" onsubmit="SearchController.search(); return false;">
+
+                    <input type="search" placeholder="Cosa stai cercando?" class="tm-search-form__input hide-placeholder-onfocus" id="_search-box_"/>
+
+                    <div class="tm-search-form__reset" onclick="SearchController.search()">
+                        <button type="reset" class="tm-search-form__resetbtt" aria-label="Reset search">
+                            <svg class="ta-icon-svg ta-icon-svg__search" viewBox="0 0 24 24"><use xlink:href="#search"></use></svg>
+                            <svg class="ta-icon-svg ta-icon-svg__close-search" viewBox="0 0 24 24"><use xlink:href="#close-search"></use></svg>
+                        </button>
+                    </div>
+                    <div class="tm-search-form__submit">
+                        <button id="_submit-search_" type="submit" class="tm-search-form__submitbtt" aria-label="Submit search">
+                            CERCA
+                            <svg class="ta-icon-svg ta-icon-svg__search" viewBox="0 0 24 24"><use xlink:href="#search"></use></svg>
+                        </button>
+                    </div>
+
+                    <button class="ta-button -annulla" type="button">
+
+                        <span class="ta-button__txt">Annulla</span>
+
+
+                    </button>
+
+                </form>
+
+                
+
+
+                <p class="to-overlaysearch__noresults" id="_no-result_">
+                    <b>Nessun risultato trovato</b><br/> Controlla il testo inserito o utilizza i suggerimenti che trovi qui in basso
+                </p>
+            </div>
+        </div>
+        <div class="tm-search-autocomplete" id="_search-autocomplete_">
+            <!-- _search-autocomplete_ -->
+        </div>
+
+        <div class="to-overlaysearch__body -first-search" id="to-overlaysearch-top">
+
+            <div class="to-overlaysearch__result tl-col-8" id="_vai-alla-sezione_">
+                <a class="ta-link -sectionlink" href="#" target="_self" id="">
+                    <span class="ta-link__label">Ricerche suggerite</span>
+                    <span class="ta-link__icon"><svg class="ta-icon-svg ta-icon-svg__chevron-right" viewBox="0 0 24 24"><use xlink:href="#chevron-right"></use></svg></span>
+                </a>
+            </div>
+            <div class="to-overlaysearch__result tl-col-8" id="_search-ricerche-suggerite_">
+                <h3 class="to-overlaysearch__subtitle">RICERCHE SUGGERITE</h3>
+                <ul class="to-overlaysearch__list">
+                    <li>
+                        <a class="ta-link -blue -icon_search -underline-hover" href="#" target="_self">
+                            <span class="ta-link__icon">
+                                <svg class="ta-icon-svg ta-icon-svg__search" viewBox="0 0 24 24"><use xlink:href="#search"></use></svg>
+                            </span>
+                            <span class="ta-link__label">Link testuale</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="to-overlaysearch__result tl-col-8" style="padding-bottom: 0" id="_search-results-suggeriti_">
+                <h3 class="to-overlaysearch__subtitle">RISULTATI SUGGERITI</h3>
+            </div>
+            <div class="to-overlaysearch__result tl-col-8" id="_search-results_">
+
+            </div>
+            <p class="to-overlaysearch__moreresult" id="_ulteriori_risultati_">
+                <a href="javascript:void(0)" class="ta-link -black" target="_self" onclick="SearchController.nextPage()">
+                    Mostra altri risultati
+                </a>
+            </p>
+        </div>
+
+        <p class="to-overlaysearch__backtotop" id="_back-to-top_">
+            <a class="ta-button -primary -backtotop" href="#to-overlaysearch-top" target="_self" aria-label="Back to top">
+    <span class="ta-button__icon">
+      <svg class="ta-icon-svg ta-icon-svg__back-to-top" viewBox="0 0 24 24"><use xlink:href="#back-to-top"></use></svg>
+    </span>
+</a>
+
+        </p>
+    </div>
+</div>
+<script id="_search-result_" type="text/x-handlebars-template">
+    <div class="tm-search-result">
+
+        {{#if searchEngineMetadata_thumbnail_s}}
+            <div class="tm-search-result__image">
+                <img src="{{cdnBaseUrl}}{{searchEngineMetadata_thumbnail_s}}" alt="{{searchEngineMetadata_titolo_s}}" />
+            </div>
+        {{/if}}
+
+        <div class="tm-search-result__content">
+            <div class="tm-search-result__tags">
+            </div>
+            <h2 class="tm-search-result__title">
+                {{searchEngineMetadata_titolo_s}}
+            </h2>
+
+            <p class="tm-search-result__paragraph">
+                {{searchEngineMetadata_descrizione_s}}
+            </p>
+
+            <div class="tm-search-result__footer">
+                <div class="tm-search-result__footer-left">
+                    <div class="tm-search-result__price-box">
+                        {{#if searchEngineMetadata_prezzo1_intero_s}}
+                            <div class="ta-price ta-price--nota-bottom ta-price--left-aligned ta-price--small">
+                                <div class="ta-price__top">
+                                    {{#if (eq searchEngineMetadata_prezzo1_notatopevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>{{searchEngineMetadata_prezzo1_notatop_s}}</span>
+                                        </div>
+                                    {{else}}
+                                            {{searchEngineMetadata_prezzo1_notatop_s}}
+                                    {{/if}}
+                                    {{#if searchEngineMetadata_prezzo1_notatopbarrata_s}}
+                                        <span class="ta-price__top--strike">{{searchEngineMetadata_prezzo1_notatopbarrata_s}}</span>
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__center">
+
+                                    <strong>{{searchEngineMetadata_prezzo1_intero_s}}</strong>
+                                    {{#if searchEngineMetadata_prezzo1_decimale_s}}
+                                        <div>
+                                            <span>,{{searchEngineMetadata_prezzo1_decimale_s}}€</span>{{searchEngineMetadata_prezzo1_notacenter_s}}
+                                        </div>
+                                    {{else if searchEngineMetadata_prezzo1_intero_s}}
+                                        {{searchEngineMetadata_prezzo1_notacenter_s}}
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__bottom">
+                                    {{#if (eq searchEngineMetadata_prezzo1_notabottomevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>
+                                                {{searchEngineMetadata_prezzo1_notabottom_s}}
+                                            </span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo1_notabottom_s}}
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/if}}
+                        {{#if searchEngineMetadata_prezzo2_intero_s}}
+                            <div class="ta-price ta-price--nota-bottom ta-price--left-aligned ta-price--small">
+                                <div class="ta-price__top">
+                                    {{#if (eq searchEngineMetadata_prezzo2_notatopevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>{{searchEngineMetadata_prezzo2_notatop_s}}</span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo2_notatop_s}}
+                                    {{/if}}
+                                    {{#if searchEngineMetadata_prezzo2_notatopbarrata_s}}
+                                        <span class="ta-price__top--strike">{{searchEngineMetadata_prezzo2_notatopbarrata_s}}</span>
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__center">
+
+                                    <strong>{{searchEngineMetadata_prezzo2_intero_s}}</strong>
+                                    {{#if searchEngineMetadata_prezzo2_decimale_s}}
+                                        <div>
+                                            <span>,{{searchEngineMetadata_prezzo2_decimale_s}}€</span>{{searchEngineMetadata_prezzo2_notacenter_s}}
+                                        </div>
+                                    {{else if searchEngineMetadata_prezzo2_intero_s}}
+                                        {{searchEngineMetadata_prezzo2_notacenter_s}}
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__bottom">
+                                    {{#if (eq searchEngineMetadata_prezzo2_notabottomevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>
+                                                {{searchEngineMetadata_prezzo2_notabottom_s}}
+                                            </span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo2_notabottom_s}}
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="tm-search-result__footer-more-info">
+                        {{searchEngineMetadata_prezzo_altre_opzioni_s}}
+                    </div>
+                </div>
+                <div class="tm-search-result__footer-right">
+                    <a class="ta-button -primary" href="{{ url.[0] }}" onclick="trackController.track(this)" omniturecta="search_result_{{searchEngineMetadata_titolo_s}}" omnitureposition="{{resultIndex}}" target="_self">
+                        <span class="ta-button__txt">{{searchEngineMetadata_testoCTA_s}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="_search-result-bordo_" type="text/x-handlebars-template">
+    <div class="tm-search-result -bordered">
+        {{#if searchEngineMetadata_thumbnail_s}}
+        <div class="tm-search-result__image">
+            <img src="{{cdnBaseUrl}}{{searchEngineMetadata_thumbnail_s}}" alt="{{searchEngineMetadata_titolo_s}}" />
+        </div>
+        {{/if}}
+        <div class="tm-search-result__content">
+
+            <h2 class="tm-search-result__title">
+                {{searchEngineMetadata_titolo_s}}
+            </h2>
+
+            <p class="tm-search-result__paragraph">
+                {{searchEngineMetadata_descrizione_s}}
+            </p>
+
+            <div class="tm-search-result__footer">
+                <div class="tm-search-result__footer-left">
+                    <div class="tm-search-result__price-box">
+                        {{#if searchEngineMetadata_prezzo1_intero_s}}
+                            <div class="ta-price ta-price--nota-bottom ta-price--left-aligned ta-price--small">
+                                <div class="ta-price__top">
+                                    {{#if (eq searchEngineMetadata_prezzo1_notatopevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>{{searchEngineMetadata_prezzo1_notatop_s}}</span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo1_notatop_s}}
+                                    {{/if}}
+                                    {{#if searchEngineMetadata_prezzo1_notatopbarrata_s}}
+                                        <span class="ta-price__top--strike">{{searchEngineMetadata_prezzo1_notatopbarrata_s}}</span>
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__center">
+
+                                    <strong>{{searchEngineMetadata_prezzo1_intero_s}}</strong>
+                                    {{#if searchEngineMetadata_prezzo1_decimale_s}}
+                                        <div>
+                                            <span>,{{searchEngineMetadata_prezzo1_decimale_s}}€</span>{{searchEngineMetadata_prezzo1_notacenter_s}}
+                                        </div>
+                                    {{else if searchEngineMetadata_prezzo1_intero_s}}
+                                        {{searchEngineMetadata_prezzo1_notacenter_s}}
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__bottom">
+                                    {{#if (eq searchEngineMetadata_prezzo1_notabottomevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>
+                                                {{searchEngineMetadata_prezzo1_notabottom_s}}
+                                            </span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo1_notabottom_s}}
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/if}}
+                        {{#if searchEngineMetadata_prezzo2_intero_s}}
+                            <div class="ta-price ta-price--nota-bottom ta-price--left-aligned ta-price--small">
+                                <div class="ta-price__top">
+                                    {{#if (eq searchEngineMetadata_prezzo2_notatopevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>{{searchEngineMetadata_prezzo2_notatop_s}}</span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo2_notatop_s}}
+                                    {{/if}}
+                                    {{#if searchEngineMetadata_prezzo2_notatopbarrata_s}}
+                                        <span class="ta-price__top--strike">{{searchEngineMetadata_prezzo2_notatopbarrata_s}}</span>
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__center">
+
+                                    <strong>{{searchEngineMetadata_prezzo2_intero_s}}</strong>
+                                    {{#if searchEngineMetadata_prezzo2_decimale_s}}
+                                        <div>
+                                            <span>,{{searchEngineMetadata_prezzo2_decimale_s}}€</span>{{searchEngineMetadata_prezzo2_notacenter_s}}
+                                        </div>
+                                    {{else if searchEngineMetadata_prezzo2_intero_s}}
+                                        {{searchEngineMetadata_prezzo2_notacenter_s}}
+                                    {{/if}}
+                                </div>
+                                <div class="ta-price__bottom">
+                                    {{#if (eq searchEngineMetadata_prezzo2_notabottomevidenziata_s "true")}}
+                                        <div class="ta-tag ta-tag--editoriale ta-tag--txt-nero ta-tag--bg-azzurro-fluo">
+                                            <span>
+                                                {{searchEngineMetadata_prezzo2_notabottom_s}}
+                                            </span>
+                                        </div>
+                                    {{else}}
+                                        {{searchEngineMetadata_prezzo2_notabottom_s}}
+                                    {{/if}}
+                                </div>
+                            </div>
+                        {{/if}}
+                    </div>
+                    <div class="tm-search-result__footer-more-info">
+                        {{searchEngineMetadata_prezzo_altre_opzioni_s}}
+                    </div>
+                </div>
+                <div class="tm-search-result__footer-right">
+                    <a class="ta-button -primary" href="{{ url.[0] }}" onclick="trackController.track(this)" omniturecta="search_result_{{searchEngineMetadata_titolo_s}}" omnitureposition="{{resultIndex}}" target="_self">
+                        <span class="ta-button__txt">{{searchEngineMetadata_testoCTA_s}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="_search-autocomplete_-template" type="text/x-handlebars-template">
+    <ul class="tl-col-6">
+        {{#each this.suggestions}}
+            <li>
+                <a class="ta-link -autocomplete -underline-hover" href="javascript:void(0)" onclick="{{../functionName}}('{{escape plain}}')">{{{term}}}</a>
+            </li>
+        {{/each}}
+    </ul>
+</script>
+
+<script id="_tab-navigation-js-indicatore-numero_" type="text/x-handlebars-template">
+    {{#if this}}
+        <div class="tm-tab-navigation swiper-container tm-tab-navigation--theme-light-lightblue" js-tab-navigation>
+            <div class="swiper-wrapper">
+                {{#each this}}
+                    {{#gt count 0}}
+                        <div class="swiper-slide" >
+                            <div class="tm-tab-navigation__item {{#if active}} tm-tab-navigation__item--active{{/if}}" data-category="{{category}}" js-tab-item>
+                                {{#if active}}
+                                <a href="#tab{{@index}}"
+                                   id="tab-{{{increaseValue @index 1}}}" aria-selected="true" role="tab" tabindex="0" aria-controls="panel-{{{increaseValue @index 1}}}"
+                                   title="{{label}}" data-track-search-tab="track" class="tm-tab-navigation__link" js-tab-trigger data-search-type="{{searchType}}" data-keyword="{{keyword}}" data-count={{count}}>{{label}}<small class="tm-tab-navigation__counter">{{count}}</small></a>
+                                {{else}}
+                                <a href="#tab{{@index}}"
+                                   id="tab-{{{increaseValue @index 1}}}" aria-selected="false" role="tab" tabindex="-1" aria-controls="panel-{{{increaseValue @index 1}}}"
+                                   title="{{label}}" data-track-search-tab="track" class="tm-tab-navigation__link" js-tab-trigger data-search-type="{{searchType}}" data-keyword="{{keyword}}" data-count={{count}}>{{label}}<small class="tm-tab-navigation__counter">{{count}}</small></a>
+                                {{/if}}
+                            </div>
+                        </div>
+                    {{/gt}}
+                {{/each}}
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="tm-tab-navigation__item" js-tab-item>-->
+<!--                        <a href="#tab2" title="tab2" class="tm-tab-navigation__link" js-tab-trigger>tab2<small class="tm-tab-navigation__counter">123</small></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="tm-tab-navigation__item" js-tab-item>-->
+<!--                        <a href="#tab3" title="tab3" class="tm-tab-navigation__link" js-tab-trigger>tab3<small class="tm-tab-navigation__counter">123</small></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    <div class="tm-tab-navigation__item" js-tab-item>-->
+<!--                        <a href="#tab3" title="tab3" class="tm-tab-navigation__link" js-tab-trigger>tab3<small class="tm-tab-navigation__counter">123</small></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+            <div class="tm-tab-navigation__arrows">
+                <div class="ta-carousel-arrows">
+                    <div class="ta-carousel-arrows__arrow-prev" js-carousel-arrow-prev>
+                        <svg class="ta-icon-svg ta-icon-svg__arrow_left" viewBox="0 0 35 35"><use xlink:href="#arrow_left"></use></svg>
+                    </div>
+                    <div class="ta-carousel-arrows__arrow-next" js-carousel-arrow-next>
+                        <svg class="ta-icon-svg ta-icon-svg__arrow_right" viewBox="0 0 35 35"><use xlink:href="#arrow_right"></use></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</script>
+
+<script id="_section-links_" type="text/x-handlebars-template">
+    <a class="ta-link -sectionlink" onclick="trackController.track(this)" omniturecta="{{trackPrefix}}_section_link_{{searchEngineMetadata_titolo_s}}" omnitureposition="{{resultIndex}}" href="{{ url.[0] }}" target="_self" style="display: block;">
+        <span class="ta-link__label">Vai alla sezione {{searchEngineMetadata_titolo_s}}</span>
+        <span class="ta-link__icon"><svg class="ta-icon-svg ta-icon-svg__chevron-right" viewBox="0 0 24 24"><use xlink:href="#chevron-right"></use></svg></span>
+    </a>
+</script>
+
+<script type="text/x-handlebars-template" id="_search-ricerche-suggerite_-template">
+    <h3 class="to-overlaysearch__subtitle">RICERCHE SUGGERITE</h3>
+    <ul class="to-overlaysearch__list">
+        {{#each suggestionItems}}
+            <li>
+                <a class="ta-link -blue -icon_search -underline-hover" target="_self" href="javascript:void(0);" onclick="{{../functionName}}('{{escape word}}')">
+                                <span class="ta-link__icon">
+                                    <svg class="ta-icon-svg ta-icon-svg__search" viewBox="0 0 24 24"><use xlink:href="#search"></use></svg>
+                                </span>
+                    <span class="ta-link__label">{{word}}</span>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</script>
+
+
+
+
+    
+    
+    <script type="text/plain" class="optanon-category-C0004" src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base/resources/js/clientlib-cookie-onetrust.js"></script>
+    
+    
+    
+<!--        <sly data-sly-call="org.apache.sling.scripting.sightly.libs.granite.sightly.templates.clientlib__002e__html$3@6bf6b14f" data-sly-unwrap></sly>-->
+        
+    
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/libreria-rxjs.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/libreria-handlebars.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/libreria-yall.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-pre-header.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-search-overlay.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-tracciamenti.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-modali-popup.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-header.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-header-accessibile.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/libreria-swiper.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/common-search.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-snack-bar.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-angie.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/component-snack-bar-assistenza-tecnica.min.js"></script>
+<script src="//risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.3/clientlib-base.min.js"></script>
+
+
+
+    
+    
+        
+        
+        
+            
+            
+            
+            
+    
+
+
+
+            
+            
+            
+            
+    
+
+    
+
+    <!-- GoogleTagManager BEGIN -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PZM6TM');</script>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZM6TM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- GoogleTagManager END -->
+
+    <!-- Adform Tracking Code BEGIN -->
+    
+
+
+
+    <script type="text/javascript">
+        var pm = parseInt("307530");
+    </script>
+
+    <script type="text/javascript" src="https://track.adform.net/serving/scripts/trackpoint/" onload="window.onAdFormLoad ? onAdFormLoad() : ''"></script>
+
+    <script type="text/javascript">
+        window.disableGetAdFormParameters = false;
+        window.enableAdFormTrackForHash = '';
+    </script>
+
+
+
+    <script type="text/javascript">
+        var sessionExpirationTime = 1440;
+    </script>
+
+
+<script>
+    window.disableGetAdFormParametersCDP = false;
+</script>
+
+    
+
+
+
+
+    <script type="text/javascript">
+        var isAdformDisabled = false || false || false || false;
+
+        function trueHashFooter() {
+            if(window.location.hash){
+                if(window.location.hash.indexOf('#/') == 0 || window.location.hash.indexOf("=") > -1) {
+                    return '';
+                }else{
+                    return window.location.hash;
+                }
+            }else{
+                return '';
+            }
+        }
+
+        function setOmnitureUser(sv5,tiid) {
+            var versionRegex = new RegExp("\\/v(\\d+)\\/");
+            var version = window.getAdFormParametersVersion.match(versionRegex);
+            if(version && version[1] && parseInt(version[1])> 1 && window.digitalData){
+                console.log("ADFORM PARAMETERS VERSION", version[1]);
+                if(!digitalData.user){
+                    digitalData["user"]={}
+                }
+
+                if(sv5 && sv5 != ''){
+                    digitalData.user["cli"] = sv5;
+                }
+
+                if(tiid && tiid != ''){
+                    digitalData.user["tiid"] = tiid;
+                }
+            }
+        }
+
+        function setDataLayerCDP(response) {
+            if (!window.zeoTapDataLayer) {
+                window.zeoTapDataLayer = {};
+            }
+            window.zeoTapDataLayer.pageName = window.currentPageTitle;
+
+            if(response){
+                if(response.sv58){
+                    window.zeoTapDataLayer.ip = response.sv58;
+                }
+                if(response.navigationLineCDP){
+                    window.zeoTapDataLayer.navigationLineCDP = response.navigationLineCDP;
+                }
+            }
+        }
+
+        if ((!window.disableGetAdFormParameters && window.disableGetAdFormParameters == false) || (!window.disableGetAdFormParametersCDP && window.disableGetAdFormParametersCDP == false)) {
+            var orderForAdFormFooter = {};
+            var dateNew = window.performance.now();
+
+            var diffMs = Math.abs(dateNew - window.sessionStorage.getItem('dateForAdFormParameters'));
+            var minutes = Math.floor(((diffMs % 86400000) %  3600000) / 60000);
+            var diffMinutesTime = minutes ? minutes : 0;
+
+            if (!window.sessionStorage.getItem('dateForAdFormParameters') || diffMinutesTime >= sessionExpirationTime) {
+                getOrderIp2CliFooter(dateNew);
+            } else {
+                getAdFormSessionStorageItemFooter();
+            }
+
+        } else {
+            if(!isAdformDisabled){
+                if(window.getAdFormLocation){
+                    trackPage(pm, getAdFormLocation(window.enableAdFormTrackForHash) );
+                }else{
+                    console.warn("getAdFormLocation not found");
+                }
+            }
+        }
+
+        function getAdFormLocation(hashParameter) {
+            var adFormLocation = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ":" + window.location.port : "") + window.location.pathname;
+            if(hashParameter && hashParameter !== '' && window.location.hash.indexOf("#"+hashParameter) === 0){
+                return adFormLocation = encodeURIComponent(adFormLocation + window.location.hash);
+            }
+            return adFormLocation;
+        }
+
+        function trackPage(pm, location, order) {
+            window._adftrack = Array.isArray(window._adftrack) ? window._adftrack : (window._adftrack ? [window._adftrack] : []);
+            if (order) {
+                window._adftrack.push({
+                    pm: pm,
+                    divider: encodeURIComponent('|'),
+                    pagename: encodeURIComponent(location),
+                    order: order
+                });
+            } else {
+                window._adftrack.push({
+                    pm: pm,
+                    divider: encodeURIComponent('|'),
+                    pagename: encodeURIComponent(location)
+                });
+            }
+            (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://track.adform.net/serving/scripts/trackpoint/async/'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+            console.log("AdForm Tracciamento pagina: ", getAdFormLocation(window.enableAdFormTrackForHash) )
+        }
+
+        function getAdFormSessionStorageItemFooter () {
+            var adFormParameters = window.sessionStorage.getItem('AdFormParameters');
+            if(window.getAdFormLocation) {
+                if (adFormParameters) {
+                    adFormParameters = JSON.parse(adFormParameters);
+                    if(!isAdformDisabled){
+                        setOmnitureUser(adFormParameters.sv5, adFormParameters.tiid);
+                        trackPage(pm, getAdFormLocation(window.enableAdFormTrackForHash), adFormParameters);
+                    }
+
+                    if(!window.disableGetAdFormParametersCDP){
+                        setDataLayerCDP(adFormParameters);
+                        trackZeoTapPage();
+                    }
+                } else {
+                    if(!isAdformDisabled){
+                        trackPage(pm, getAdFormLocation(window.enableAdFormTrackForHash));
+                    }
+                }
+            }else{
+                console.warn("getAdFormLocation not found");
+            }
+        }
+
+        
+        
+        function whenSatelliteReady(callback, timeoutMs, intervalMs) {
+            const start = Date.now();
+            let attempts = 0;
+            let maxAttempts = Math.ceil(timeoutMs / intervalMs);
+            (function check() {
+                if (window._satellite && typeof window._satellite.track === "function") {
+                    callback(window._satellite);
+                    return;
+                }
+
+                attempts++;
+                console.log("ZeoTapPageLoad - Waiting for _satellite to be ready... Attempt number", attempts);
+                const timedOut = (Date.now() - start) >= timeoutMs;
+                const attemptsExceeded = attempts >= maxAttempts;
+
+                if (timedOut || attemptsExceeded) {
+                    console.warn(`ZeoTapPageLoad - Launch non available - Skip`);
+                    return;
+                }
+
+                setTimeout(check, intervalMs);
+            })();
+        }
+
+
+        function trackZeoTapPage() {
+            whenSatelliteReady(function (_satellite) {               
+                _satellite.track("zeotap_pageLoad");    
+                console.log("ZeoTapPageLoad track with zeoTapDataLayer pagename: ", window.zeoTapDataLayer.pageName);         
+            }, 1000, 200 );
+        }
+
+        function getOrderIp2CliFooter (dateNew) {
+            var responseObservable = Ip2CliService.getAdFormParameters();
+            responseObservable.subscribe({
+                next:function(response){
+                    if(response){
+                        window.sessionStorage.setItem('dateForAdFormParameters', dateNew);
+                        orderForAdFormFooter = getMappedParameters(response.response);
+
+                        window.sessionStorage.setItem('AdFormParameters', JSON.stringify(orderForAdFormFooter));
+                        if(!isAdformDisabled){
+                            setOmnitureUser(orderForAdFormFooter.sv5, orderForAdFormFooter.tiid);
+                            if(window.getAdFormLocation) {
+                                trackPage(pm, getAdFormLocation(window.enableAdFormTrackForHash), orderForAdFormFooter);
+                            }else{
+                                console.warn("getAdFormLocation not found");
+                            }
+                        }
+
+                        if(!window.disableGetAdFormParametersCDP){
+                            setDataLayerCDP(orderForAdFormFooter);
+                            trackZeoTapPage();
+                        }
+                    }
+                },error: function(response) {
+                    console.log('Error Ip2CliService');
+
+                    if(!window.disableGetAdFormParametersCDP){
+                        setDataLayerCDP();
+                        trackZeoTapPage();                          
+                    }
+                    if(!isAdformDisabled){
+                        if(window.getAdFormLocation){
+                            trackPage(pm, getAdFormLocation(window.enableAdFormTrackForHash));
+                        }else{
+                            console.warn("getAdFormLocation not found");
+                        }
+                    }
+                }
+            });
+        }
+
+    </script>
+    <noscript>
+        <p style="margin:0;padding:0;border:0;">
+            <img id="noScriptTAG" src="https://track.adform.net/Serving/TrackPoint/?pm=307530&ADFPageName=WebsiteName|SectionName|SubSection|PageName&ADFdivider=|" width="1" height="1" alt=""/>
+        </p>
+    </noscript>
+    <script>
+        if(document.getElementById("noScriptTAG")){
+            document.getElementById("noScriptTAG").src = "https://track.adform.net/Serving/TrackPoint/?pm="+pm+"&ADFPageName="+getAdFormLocation(window.enableAdFormTrackForHash) +"&ADFdivider=|";
+        }
+    </script>
+
+
+
+
+    <!-- Adform Tracking Code END -->
+
+    
+        <!-- footer redazionale-->
+        <script type="text/javascript">var isLoggedIn = !document.getElementById("user-logged").classList.contains("-hidden");</script>
+
+<script>
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+    const link_preferenze = document.querySelector(
+      "div.to-footer__bottom__links>a:nth-child(2)"
+    );
+    link_preferenze.className += " ot-sdk-show-settings";
+  },
+  false
+);
+</script>
+
+<!-- SUPER HEADER V2 -->
+<link rel="stylesheet" href="https://corporate.tim.ticdn.it/superheader/style.css">
+<script src="https://corporate.tim.ticdn.it/superheader/script.js"></script>
+<script src="https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/js/hp/superheader_addon_v2.js"></script>
+<!-- SUPER HEADER V2 -->
+
+<!-- OneTrust Mod -->
+<script>
+const i=setInterval(()=>{const p=document.querySelector('.ot-dpd-content .ot-dpd-desc');if(p){p.innerHTML='I partner terzi possono utilizzare i dati raccolti per pubblicità personalizzata, misurazione delle performance di contenuti e annunci, analisi del pubblico, sviluppo di prodotti e identificazione del dispositivo. <a href="#" class="ot-link-btn onetrust-vendors-list-handler">Elenco Terze Parti</a>';clearInterval(i)}},500);
+</script>
+<!-- OneTrust Mod -->
+
+<!-- Carousel Pagination Fix -->
+<style>
+.swiper-pagination-bullet {  background: #e8e8e8; }
+.swiper-pagination-bullet.swiper-pagination-bullet-active {   background-image: linear-gradient(45deg, #122AC2 0%, #0088D9 100%); }
+</style>
+<!-- Carousel Pagination Fix -->
+
+<!-- Price Fix -->
+<style>
+.ta-price--left-aligned .ta-price__center div {
+margin-bottom: 0;
+}
+</style>
+<!-- Price Fix -->
+
+
+        <!-- /footer redazionale-->
+    
+
+
+
+
+
+
+    <!-- closure redazionale-->
+    
+    <!-- /closure redazionale-->
+
+
+</body>
+</html>
