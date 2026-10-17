@@ -176,12 +176,12 @@
 <div class="topbar">
   <span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> · 小产品实验室</span></span>
   <nav class="topnav" id="topnav">
-    <a href="#" data-nav="home">首页</a>
-    <a href="#" data-nav="hot">热门软件</a>
-    <a href="#" data-nav="ai">AI工具</a>
-    <a href="#" data-nav="nav">网站导航</a>
-    <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;">反馈</a>
-    <a href="#" data-nav="about">关于我们</a>
+    <a href="#" data-nav="home" data-i18n="nav_home">首页</a>
+    <a href="#" data-nav="hot" data-i18n="nav_hot">热门软件</a>
+    <a href="#" data-nav="ai" data-i18n="nav_ai">AI工具</a>
+    <a href="#" data-nav="nav" data-i18n="nav_sites">网站导航</a>
+    <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;" data-i18n="nav_feedback">反馈</a>
+    <a href="#" data-nav="about" data-i18n="nav_about">关于我们</a>
   </nav>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
     <option value="">🌍 全部</option>
@@ -233,17 +233,17 @@
 </div>
 <div class="hero-wrap">
     <div class="hero-title">
-    <h1>搜官网，不踩坑</h1>
-    <p>认准官网，访问不迷路 &nbsp;·&nbsp; 不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
+    <h1 data-i18n="hero_h1">搜官网，不踩坑</h1>
+    <p data-i18n="hero_p">认准官网，访问不迷路 &nbsp;·&nbsp; 不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
     <div class="searchbox">
       <select id="platSel" title="按平台筛选">
-        <option value="">全部平台</option>
+        <option value="" data-i18n="plat_all">全部平台</option>
         <option value="Windows">🪟 Windows</option>
         <option value="macOS">🍎 macOS</option>
       </select>
       <button id="dlToggle" class="dl-toggle" title="只看可下载">💾</button>
-      <input id="q" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
-      <button onclick="doSearch()">搜索</button>
+      <input id="q" data-i18n-ph="search_ph" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
+      <button onclick="doSearch()" data-i18n="search_btn">搜索</button>
     </div>
   </div>
   <div class="hero-chips">
@@ -251,20 +251,20 @@
   </div>
 </div>
 <div class="quick">
-    <h2>⚡ 快捷直达</h2>
+    <h2>⚡ <span data-i18n="quick">快捷直达</span></h2>
     <div class="quick-grid" id="quickGrid"></div>
     </div>
 <div class="results" id="results"></div>
 <div class="navsec" id="navsec">
-  <h2>分类导航</h2>
-  <div class="sub">全部人工验过的站 · 点分类跳转</div>
+  <h2 data-i18n="cats_title">分类导航</h2>
+  <div class="sub" data-i18n="cats_sub">全部人工验过的站 · 点分类跳转</div>
   <div class="nav-anchors" id="navAnchors"></div>
   <div id="navCats"></div>
 </div>
 <div class="footer">
   <div class="foot-inner" style="justify-content:center">
     <div class="foot-join">
-      <p class="ft">关注我们</p>
+      <p class="ft" data-i18n="follow">关注我们</p>
       <div class="join-row">
         <div class="join-item">
           <img src="./gzh-qrcode.jpg" alt="小产品实验室公众号二维码">
@@ -272,7 +272,7 @@
         </div>
         <div class="join-item">
           <img src="./qq-qrcode.jpg" alt="认官网QQ交流群二维码">
-          <span>QQ 交流群</span>
+          <span data-i18n="qq_group">QQ 交流群</span>
           <span class="qq-num-sm" id="qqNum" title="点击复制群号">1039287882</span>
         </div>
         <div class="join-item" style="display:none">
@@ -301,32 +301,32 @@
     <button class="modal-x" onclick="closeFbModal()" aria-label="关闭">✕</button>
 <div id="fbBody">
   <div class="fb-tabs">
-    <button class="fb-tab active" data-tab="fake" onclick="switchFbTab('fake')">🚨 举报假网站</button>
-    <button class="fb-tab" data-tab="new" onclick="switchFbTab('new')">✨ 推荐新网站</button>
+    <button class="fb-tab active" data-tab="fake" onclick="switchFbTab('fake')" data-i18n="fb_report">🚨 举报假网站</button>
+    <button class="fb-tab" data-tab="new" onclick="switchFbTab('new')" data-i18n="fb_suggest">✨ 推荐新网站</button>
   </div>
   <div class="fb-pane" id="fbPaneFake">
     <div class="fb-form">
-      <label>假网站网址<input id="fbFake" placeholder="例如：sunlogin-download.com"></label>
-      <label>它冒充的是哪个官网 / 软件
-        <span class="fb-rel"><input id="fbReal" placeholder="输入关键词搜索，如：向日葵" autocomplete="off"><span class="fb-suggest" id="fbSuggest"></span></span>
+      <label><span data-i18n="fb_fake_url">假网站网址</span><input id="fbFake" data-i18n-ph="fb_fake_ph" placeholder="例如：sunlogin-download.com"></label>
+      <label><span data-i18n="fb_impersonate">它冒充的是哪个官网 / 软件</span>
+        <span class="fb-rel"><input id="fbReal" data-i18n-ph="fb_search_ph" placeholder="输入关键词搜索，如：向日葵" autocomplete="off"><span class="fb-suggest" id="fbSuggest"></span></span>
       </label>
-      <label>补充说明（选填）<textarea id="fbNote" rows="3" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
+      <label><span data-i18n="fb_note">补充说明（选填）</span><textarea id="fbNote" rows="3" data-i18n-ph="fb_note_ph" placeholder="例如：在哪里看到的、哪里可疑"></textarea></label>
       <input id="fbWeb" style="display:none" tabindex="-1" autocomplete="off">
       <div class="fb-actions">
-        <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()">提交反馈</button>
+        <button class="fb-btn" id="fbSubmit" onclick="submitFeedback()" data-i18n="fb_submit">提交反馈</button>
       </div>
 
-      <p class="fb-ok" id="fbOk">✅ 已提交，我们核实后会处理。</p>
+      <p class="fb-ok" id="fbOk" data-i18n="fb_done">✅ 已提交，我们核实后会处理。</p>
     </div>
   </div>
   <div class="fb-pane" id="fbPaneNew" style="display:none">
     <div class="fb-form">
-      <p class="fb-newtip">推荐你觉得值得收录的官网，我们人工核验后会加入。</p>
-      <label>网站 / 软件名称<input id="fbNewName" placeholder="例如：XX输入法"></label>
-      <label>官网网址<input id="fbNewUrl" placeholder="例如：https://www.xxx.com"></label>
-      <label>一句话介绍（选填）<textarea id="fbNewDesc" rows="3" placeholder="例如：语音输入很强的输入法"></textarea></label>
+      <p class="fb-newtip" data-i18n="fb_newtip">推荐你觉得值得收录的官网，我们人工核验后会加入。</p>
+      <label><span data-i18n="fb_name">网站 / 软件名称</span><input id="fbNewName" data-i18n-ph="fb_name_ph" placeholder="例如：XX输入法"></label>
+      <label><span data-i18n="fb_url">官网网址</span><input id="fbNewUrl" placeholder="例如：https://www.xxx.com"></label>
+      <label><span data-i18n="fb_desc">一句话介绍（选填）</span><textarea id="fbNewDesc" rows="3" data-i18n-ph="fb_desc_ph" placeholder="例如：语音输入很强的输入法"></textarea></label>
       <div class="fb-actions">
-        <button class="fb-btn" id="fbSubmitNew" onclick="submitNewSite()">提交推荐</button>
+        <button class="fb-btn" id="fbSubmitNew" onclick="submitNewSite()" data-i18n="fb_submit_new">提交推荐</button>
       </div>
       <p class="fb-ok" id="fbOkNew">✅ 已提交，我们核验后会收录。</p>
     </div>
@@ -342,6 +342,348 @@
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
 const COUNTRY_NAMES = {CN:"中国",US:"美国",CA:"加拿大",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",TW:"台湾",DE:"德国",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",NL:"荷兰",BE:"比利时",AT:"奥地利",PL:"波兰",CZ:"捷克",DK:"丹麦",SE:"瑞典",FI:"芬兰",IE:"爱尔兰",AE:"阿联酋",SA:"沙特",RU:"俄罗斯",TR:"土耳其",IL:"以色列",NO:"挪威",CH:"瑞士",IN:"印度",TH:"泰国",VN:"越南",MY:"马来西亚",PH:"菲律宾",ID:"印尼",AU:"澳大利亚",NZ:"新西兰",BR:"巴西",MX:"墨西哥",AR:"阿根廷",ZA:"南非",EG:"埃及",GR:"希腊"};
+
+// 国家 -> 语言映射
+const COUNTRY_LANG = {CN:"zh",TW:"zht",HK:"zht",US:"en",GB:"en",CA:"en",AU:"en",NZ:"en",IE:"en",SG:"en",PH:"en",IN:"en",MY:"en",ZA:"en",JP:"ja",KR:"ko",DE:"de",AT:"de",CH:"de",FR:"fr",IT:"it",ES:"es",MX:"es",AR:"es",PT:"pt",BR:"pt",NL:"nl",BE:"nl",RU:"ru",TH:"th",VN:"vi",ID:"id",TR:"tr",SA:"ar",AE:"ar",EG:"ar",IL:"he",PL:"pl",CZ:"cs",DK:"da",SE:"sv",FI:"fi",NO:"no",GR:"el"};
+
+const I18N = {
+zh: {
+  nav_home:"首页", nav_hot:"热门软件", nav_ai:"AI工具", nav_sites:"网站导航", nav_feedback:"反馈", nav_about:"关于我们",
+  hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
+  plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
+  quick:"快捷直达", cats_title:"分类导航",
+  cats_sub:"全部人工验过的站 · 点分类跳转",
+  cat_essentials:"装机必备", cat_ai:"AI工具", cat_office:"办公效率", cat_dev:"开发工具", cat_design:"设计创意",
+  cat_edu:"学习教育", cat_finance:"金融投资", cat_media:"影音娱乐", cat_software:"常用软件", cat_social:"社交社区",
+  cat_shop:"购物消费", cat_life:"生活服务", cat_read:"阅读创作", cat_web:"常用网站", cat_news:"新闻资讯",
+  follow:"关注我们", qq_group:"QQ 交流群",
+  foot_note:"本站仅做网址导航，收录标准：人工打开验过 · 推广位会明确标注",
+  privacy:"隐私协议",
+},
+zht: {
+  nav_home:"首頁", nav_hot:"熱門軟件", nav_ai:"AI工具", nav_sites:"網站導航", nav_feedback:"反饋", nav_about:"關於我們",
+  hero_h1:"搜官網，不踩坑", hero_p:"認準官網，訪問不迷路 · 不收錄沒驗過的站 · 搜出來直接告訴你選哪個",
+  plat_all:"全部平台", search_ph:"輸入軟件/網站名稱…", search_btn:"搜索",
+  quick:"快捷直達", cats_title:"分類導航",
+  cats_sub:"全部人工驗過的站 · 點分類跳轉",
+  cat_essentials:"裝機必備", cat_ai:"AI工具", cat_office:"辦公效率", cat_dev:"開發工具", cat_design:"設計創意",
+  cat_edu:"學習教育", cat_finance:"金融投資", cat_media:"影音娛樂", cat_software:"常用軟件", cat_social:"社交社區",
+  cat_shop:"購物消費", cat_life:"生活服務", cat_read:"閱讀創作", cat_web:"常用網站", cat_news:"新聞資訊",
+  follow:"關注我們", qq_group:"QQ 交流群",
+  foot_note:"本站僅做網址導航，收錄標準：人工打開驗過 · 推廣位會明確標註",
+  privacy:"隱私協議",
+},
+en: {
+  nav_home:"Home", nav_hot:"Hot Software", nav_ai:"AI Tools", nav_sites:"Websites", nav_feedback:"Feedback", nav_about:"About",
+  hero_h1:"Find Official Sites", hero_p:"Verified official websites only · We tell you which one to pick",
+  plat_all:"All Platforms", search_ph:"Search software or website…", search_btn:"Search",
+  quick:"Quick Access", cats_title:"Categories",
+  cats_sub:"All manually verified sites · Click a category",
+  cat_essentials:"Essentials", cat_ai:"AI Tools", cat_office:"Productivity", cat_dev:"Dev Tools", cat_design:"Design",
+  cat_edu:"Education", cat_finance:"Finance", cat_media:"Entertainment", cat_software:"Software", cat_social:"Social",
+  cat_shop:"Shopping", cat_life:"Services", cat_read:"Reading", cat_web:"Websites", cat_news:"News",
+  follow:"Follow Us", qq_group:"QQ Group",
+  foot_note:"We only list manually verified official websites · Sponsored slots are labeled",
+  privacy:"Privacy",
+  fb_report:"🚨 Report Fake Site", fb_suggest:"✨ Suggest a Site",
+  fb_fake_url:"Fake site URL", fb_fake_ph:"e.g. sunlogin-download.com",
+  fb_impersonate:"Which official site/software does it impersonate",
+  fb_search_ph:"Type to search, e.g. Sunlogin",
+  fb_note:"Notes (optional)", fb_note_ph:"e.g. where you saw it, what's suspicious",
+  fb_submit:"Submit", fb_done:"✅ Submitted, we'll verify it.",
+  fb_newtip:"Suggest an official site worth listing. We'll verify and add it.",
+  fb_name:"Site / Software Name", fb_name_ph:"e.g. XX Input",
+  fb_url:"Official URL", fb_desc:"One-line intro (optional)", fb_desc_ph:"e.g. great voice input",
+  fb_submit_new:"Submit Suggestion",
+},
+ja: {
+  nav_home:"ホーム", nav_hot:"人気ソフト", nav_ai:"AIツール", nav_sites:"サイト", nav_feedback:"フィードバック", nav_about:"概要",
+  hero_h1:"公式サイトを検索", hero_p:"検証済み公式サイトのみ · どれを選ぶべきか教えます",
+  plat_all:"全プラットフォーム", search_ph:"ソフト・サイト名を入力…", search_btn:"検索",
+  quick:"クイックアクセス", cats_title:"カテゴリー",
+  cats_sub:"全て手動検証済みサイト · カテゴリーをクリック",
+  cat_essentials:"必須アプリ", cat_ai:"AIツール", cat_office:"仕事効率", cat_dev:"開発ツール", cat_design:"デザイン",
+  cat_edu:"学習", cat_finance:"金融", cat_media:"エンタメ", cat_software:"ソフト", cat_social:"SNS",
+  cat_shop:"ショッピング", cat_life:"生活", cat_read:"読書", cat_web:"サイト", cat_news:"ニュース",
+  follow:"フォロー", qq_group:"QQグループ",
+  foot_note:"手動検証済み公式サイトのみ掲載 · 広告枠は明示します",
+  privacy:"プライバシー",
+},
+ko: {
+  nav_home:"홈", nav_hot:"인기 소프트웨어", nav_ai:"AI 도구", nav_sites:"웹사이트", nav_feedback:"피드백", nav_about:"소개",
+  hero_h1:"공식 사이트 검색", hero_p:"검증된 공식 사이트만 · 어떤 걸 선택할지 알려드립니다",
+  plat_all:"전체 플랫폼", search_ph:"소프트웨어/사이트 이름 입력…", search_btn:"검색",
+  quick:"바로가기", cats_title:"카테고리",
+  cats_sub:"모두 수동 검증된 사이트 · 카테고리 클릭",
+  cat_essentials:"필수 앱", cat_ai:"AI 도구", cat_office:"업무 효율", cat_dev:"개발 도구", cat_design:"디자인",
+  cat_edu:"교육", cat_finance:"금융", cat_media:"엔터테인먼트", cat_software:"소프트웨어", cat_social:"소셜",
+  cat_shop:"쇼핑", cat_life:"생활 서비스", cat_read:"독서", cat_web:"웹사이트", cat_news:"뉴스",
+  follow:"팔로우", qq_group:"QQ 그룹",
+  foot_note:"수동 검증된 공식 사이트만 수록 · 광고는 명시합니다",
+  privacy:"개인정보",
+},
+de: {
+  nav_home:"Start", nav_hot:"Top-Software", nav_ai:"KI-Tools", nav_sites:"Webseiten", nav_feedback:"Feedback", nav_about:"Über uns",
+  hero_h1:"Offizielle Seiten finden", hero_p:"Nur manuell geprüfte offizielle Webseiten · Wir sagen dir, welche du wählen sollst",
+  plat_all:"Alle Plattformen", search_ph:"Software oder Webseite suchen…", search_btn:"Suchen",
+  quick:"Schnellzugriff", cats_title:"Kategorien",
+  cats_sub:"Alle manuell geprüften Seiten · Kategorie anklicken",
+  cat_essentials:"Essentials", cat_ai:"KI-Tools", cat_office:"Produktivität", cat_dev:"Entwicklertools", cat_design:"Design",
+  cat_edu:"Bildung", cat_finance:"Finanzen", cat_media:"Unterhaltung", cat_software:"Software", cat_social:"Soziale Netzwerke",
+  cat_shop:"Shopping", cat_life:"Dienste", cat_read:"Lesen", cat_web:"Webseiten", cat_news:"Nachrichten",
+  follow:"Folgen", qq_group:"QQ-Gruppe",
+  foot_note:"Nur manuell geprüfte offizielle Webseiten · Werbung wird gekennzeichnet",
+  privacy:"Datenschutz",
+},
+fr: {
+  nav_home:"Accueil", nav_hot:"Logiciels", nav_ai:"Outils IA", nav_sites:"Sites web", nav_feedback:"Avis", nav_about:"À propos",
+  hero_h1:"Trouver les sites officiels", hero_p:"Sites officiels vérifiés manuellement uniquement · On vous dit lequel choisir",
+  plat_all:"Toutes plateformes", search_ph:"Rechercher un logiciel ou site…", search_btn:"Rechercher",
+  quick:"Accès rapide", cats_title:"Catégories",
+  cats_sub:"Tous les sites vérifiés manuellement · Cliquez sur une catégorie",
+  cat_essentials:"Essentiels", cat_ai:"Outils IA", cat_office:"Productivité", cat_dev:"Dév", cat_design:"Design",
+  cat_edu:"Éducation", cat_finance:"Finance", cat_media:"Divertissement", cat_software:"Logiciels", cat_social:"Réseaux sociaux",
+  cat_shop:"Shopping", cat_life:"Services", cat_read:"Lecture", cat_web:"Sites web", cat_news:"Actualités",
+  follow:"Suivez-nous", qq_group:"Groupe QQ",
+  foot_note:"Sites officiels vérifiés manuellement uniquement · Publicités signalées",
+  privacy:"Confidentialité",
+},
+es: {
+  nav_home:"Inicio", nav_hot:"Software", nav_ai:"Herramientas IA", nav_sites:"Sitios web", nav_feedback:"Opinión", nav_about:"Nosotros",
+  hero_h1:"Encuentra sitios oficiales", hero_p:"Solo sitios oficiales verificados manualmente · Te decimos cuál elegir",
+  plat_all:"Todas las plataformas", search_ph:"Buscar software o sitio…", search_btn:"Buscar",
+  quick:"Acceso rápido", cats_title:"Categorías",
+  cats_sub:"Todos los sitios verificados manualmente · Haz clic en una categoría",
+  cat_essentials:"Esenciales", cat_ai:"Herramientas IA", cat_office:"Productividad", cat_dev:"Desarrollo", cat_design:"Diseño",
+  cat_edu:"Educación", cat_finance:"Finanzas", cat_media:"Entretenimiento", cat_software:"Software", cat_social:"Redes sociales",
+  cat_shop:"Compras", cat_life:"Servicios", cat_read:"Lectura", cat_web:"Sitios web", cat_news:"Noticias",
+  follow:"Síguenos", qq_group:"Grupo QQ",
+  foot_note:"Solo sitios oficiales verificados manualmente · Anuncios etiquetados",
+  privacy:"Privacidad",
+},
+pt: {
+  nav_home:"Início", nav_hot:"Software", nav_ai:"Ferramentas IA", nav_sites:"Sites", nav_feedback:"Feedback", nav_about:"Sobre",
+  hero_h1:"Encontre sites oficiais", hero_p:"Apenas sites oficiais verificados manualmente · Dizemos qual escolher",
+  plat_all:"Todas as plataformas", search_ph:"Pesquisar software ou site…", search_btn:"Pesquisar",
+  quick:"Acesso rápido", cats_title:"Categorias",
+  cats_sub:"Todos os sites verificados manualmente · Clique numa categoria",
+  cat_essentials:"Essenciais", cat_ai:"Ferramentas IA", cat_office:"Produtividade", cat_dev:"Desenvolvimento", cat_design:"Design",
+  cat_edu:"Educação", cat_finance:"Finanças", cat_media:"Entretenimento", cat_software:"Software", cat_social:"Redes sociais",
+  cat_shop:"Compras", cat_life:"Serviços", cat_read:"Leitura", cat_web:"Sites", cat_news:"Notícias",
+  follow:"Siga-nos", qq_group:"Grupo QQ",
+  foot_note:"Apenas sites oficiais verificados manualmente · Anúncios sinalizados",
+  privacy:"Privacidade",
+},
+it: {
+  nav_home:"Home", nav_hot:"Software", nav_ai:"Strumenti IA", nav_sites:"Siti web", nav_feedback:"Feedback", nav_about:"Chi siamo",
+  hero_h1:"Trova i siti ufficiali", hero_p:"Solo siti ufficiali verificati manualmente · Ti diciamo quale scegliere",
+  plat_all:"Tutte le piattaforme", search_ph:"Cerca software o sito…", search_btn:"Cerca",
+  quick:"Accesso rapido", cats_title:"Categorie",
+  cats_sub:"Tutti i siti verificati manualmente · Clicca una categoria",
+  cat_essentials:"Essenziali", cat_ai:"Strumenti IA", cat_office:"Produttività", cat_dev:"Sviluppo", cat_design:"Design",
+  cat_edu:"Istruzione", cat_finance:"Finanza", cat_media:"Intrattenimento", cat_software:"Software", cat_social:"Social",
+  cat_shop:"Shopping", cat_life:"Servizi", cat_read:"Lettura", cat_web:"Siti web", cat_news:"Notizie",
+  follow:"Seguici", qq_group:"Gruppo QQ",
+  foot_note:"Solo siti ufficiali verificati manualmente · Annunci segnalati",
+  privacy:"Privacy",
+},
+nl: {
+  nav_home:"Home", nav_hot:"Software", nav_ai:"AI-tools", nav_sites:"Websites", nav_feedback:"Feedback", nav_about:"Over ons",
+  hero_h1:"Vind officiële sites", hero_p:"Alleen handmatig geverifieerde officiële websites · Wij vertellen je welke te kiezen",
+  plat_all:"Alle platforms", search_ph:"Zoek software of website…", search_btn:"Zoeken",
+  quick:"Snelle toegang", cats_title:"Categorieën",
+  cats_sub:"Alle handmatig geverifieerde sites · Klik op een categorie",
+  cat_essentials:"Essentials", cat_ai:"AI-tools", cat_office:"Productiviteit", cat_dev:"Dev-tools", cat_design:"Design",
+  cat_edu:"Onderwijs", cat_finance:"Financiën", cat_media:"Entertainment", cat_software:"Software", cat_social:"Sociaal",
+  cat_shop:"Winkelen", cat_life:"Diensten", cat_read:"Lezen", cat_web:"Websites", cat_news:"Nieuws",
+  follow:"Volg ons", qq_group:"QQ-groep",
+  foot_note:"Alleen handmatig geverifieerde officiële websites · Advertenties gemarkeerd",
+  privacy:"Privacy",
+},
+ru: {
+  nav_home:"Главная", nav_hot:"Программы", nav_ai:"ИИ-инструменты", nav_sites:"Сайты", nav_feedback:"Отзыв", nav_about:"О нас",
+  hero_h1:"Найти официальные сайты", hero_p:"Только проверенные вручную официальные сайты · Подскажем, какой выбрать",
+  plat_all:"Все платформы", search_ph:"Поиск программы или сайта…", search_btn:"Найти",
+  quick:"Быстрый доступ", cats_title:"Категории",
+  cats_sub:"Все проверенные вручную сайты · Нажмите на категорию",
+  cat_essentials:"Основное", cat_ai:"ИИ-инструменты", cat_office:"Продуктивность", cat_dev:"Разработка", cat_design:"Дизайн",
+  cat_edu:"Образование", cat_finance:"Финансы", cat_media:"Развлечения", cat_software:"Софт", cat_social:"Соцсети",
+  cat_shop:"Покупки", cat_life:"Услуги", cat_read:"Чтение", cat_web:"Сайты", cat_news:"Новости",
+  follow:"Подписаться", qq_group:"QQ-группа",
+  foot_note:"Только проверенные вручную официальные сайты · Реклама помечена",
+  privacy:"Конфиденциальность",
+},
+th: {
+  nav_home:"หน้าแรก", nav_hot:"ซอฟต์แวร์ยอดนิยม", nav_ai:"เครื่องมือ AI", nav_sites:"เว็บไซต์", nav_feedback:"ข้อเสนอแนะ", nav_about:"เกี่ยวกับเรา",
+  hero_h1:"ค้นหาเว็บไซต์ทางการ", hero_p:"เฉพาะเว็บทางการที่ผ่านการตรวจสอบ · บอกคุณว่าควรเลือกเว็บไหน",
+  plat_all:"ทุกแพลตฟอร์ม", search_ph:"ค้นหาซอฟต์แวร์หรือเว็บไซต์…", search_btn:"ค้นหา",
+  quick:"ทางลัด", cats_title:"หมวดหมู่",
+  cats_sub:"เว็บทั้งหมดที่ผ่านการตรวจสอบ · คลิกหมวดหมู่",
+  cat_essentials:"จำเป็น", cat_ai:"เครื่องมือ AI", cat_office:"ประสิทธิภาพ", cat_dev:"เครื่องมือนักพัฒนา", cat_design:"ออกแบบ",
+  cat_edu:"การศึกษา", cat_finance:"การเงิน", cat_media:"บันเทิง", cat_software:"ซอฟต์แวร์", cat_social:"โซเชียล",
+  cat_shop:"ช้อปปิ้ง", cat_life:"บริการ", cat_read:"การอ่าน", cat_web:"เว็บไซต์", cat_news:"ข่าว",
+  follow:"ติดตามเรา", qq_group:"กลุ่ม QQ",
+  foot_note:"เฉพาะเว็บทางการที่ผ่านการตรวจสอบด้วยมือ · โฆษณามีป้ายกำกับ",
+  privacy:"ความเป็นส่วนตัว",
+},
+vi: {
+  nav_home:"Trang chủ", nav_hot:"Phần mềm", nav_ai:"Công cụ AI", nav_sites:"Trang web", nav_feedback:"Góp ý", nav_about:"Về chúng tôi",
+  hero_h1:"Tìm trang web chính thức", hero_p:"Chỉ trang chính thức đã xác minh thủ công · Cho bạn biết nên chọn trang nào",
+  plat_all:"Mọi nền tảng", search_ph:"Tìm phần mềm hoặc trang web…", search_btn:"Tìm",
+  quick:"Truy cập nhanh", cats_title:"Danh mục",
+  cats_sub:"Tất cả trang đã xác minh thủ công · Nhấp vào danh mục",
+  cat_essentials:"Thiết yếu", cat_ai:"Công cụ AI", cat_office:"Năng suất", cat_dev:"Lập trình", cat_design:"Thiết kế",
+  cat_edu:"Giáo dục", cat_finance:"Tài chính", cat_media:"Giải trí", cat_software:"Phần mềm", cat_social:"Mạng xã hội",
+  cat_shop:"Mua sắm", cat_life:"Dịch vụ", cat_read:"Đọc", cat_web:"Trang web", cat_news:"Tin tức",
+  follow:"Theo dõi", qq_group:"Nhóm QQ",
+  foot_note:"Chỉ trang chính thức đã xác minh thủ công · Quảng cáo được gắn nhãn",
+  privacy:"Riêng tư",
+},
+id: {
+  nav_home:"Beranda", nav_hot:"Perangkat Lunak", nav_ai:"Alat AI", nav_sites:"Situs Web", nav_feedback:"Umpan Balik", nav_about:"Tentang",
+  hero_h1:"Temukan Situs Resmi", hero_p:"Hanya situs resmi yang diverifikasi manual · Kami beri tahu mana yang dipilih",
+  plat_all:"Semua Platform", search_ph:"Cari perangkat lunak atau situs…", search_btn:"Cari",
+  quick:"Akses Cepat", cats_title:"Kategori",
+  cats_sub:"Semua situs terverifikasi manual · Klik kategori",
+  cat_essentials:"Esensial", cat_ai:"Alat AI", cat_office:"Produktivitas", cat_dev:"Pengembangan", cat_design:"Desain",
+  cat_edu:"Pendidikan", cat_finance:"Keuangan", cat_media:"Hiburan", cat_software:"Perangkat Lunak", cat_social:"Sosial",
+  cat_shop:"Belanja", cat_life:"Layanan", cat_read:"Bacaan", cat_web:"Situs Web", cat_news:"Berita",
+  follow:"Ikuti Kami", qq_group:"Grup QQ",
+  foot_note:"Hanya situs resmi yang diverifikasi manual · Iklan diberi label",
+  privacy:"Privasi",
+},
+tr: {
+  nav_home:"Ana Sayfa", nav_hot:"Yazılımlar", nav_ai:"YZ Araçları", nav_sites:"Siteler", nav_feedback:"Geri Bildirim", nav_about:"Hakkında",
+  hero_h1:"Resmi Siteleri Bul", hero_p:"Yalnızca manuel doğrulamalı resmi siteler · Hangisini seçeceğini söylüyoruz",
+  plat_all:"Tüm Platformlar", search_ph:"Yazılım veya site ara…", search_btn:"Ara",
+  quick:"Hızlı Erişim", cats_title:"Kategoriler",
+  cats_sub:"Tümü manuel doğrulamalı siteler · Kategoriye tıkla",
+  cat_essentials:"Temel", cat_ai:"YZ Araçları", cat_office:"Verimlilik", cat_dev:"Geliştirme", cat_design:"Tasarım",
+  cat_edu:"Eğitim", cat_finance:"Finans", cat_media:"Eğlence", cat_software:"Yazılım", cat_social:"Sosyal",
+  cat_shop:"Alışveriş", cat_life:"Hizmetler", cat_read:"Okuma", cat_web:"Siteler", cat_news:"Haberler",
+  follow:"Takip Et", qq_group:"QQ Grubu",
+  foot_note:"Yalnızca manuel doğrulamalı resmi siteler · Reklamlar etiketlenir",
+  privacy:"Gizlilik",
+},
+ar: {
+  nav_home:"الرئيسية", nav_hot:"برامج", nav_ai:"أدوات الذكاء", nav_sites:"مواقع", nav_feedback:"ملاحظات", nav_about:"من نحن",
+  hero_h1:"ابحث عن المواقع الرسمية", hero_p:"مواقع رسمية تم التحقق منها يدويًا فقط · نخبرك أيها تختار",
+  plat_all:"كل المنصات", search_ph:"ابحث عن برنامج أو موقع…", search_btn:"بحث",
+  quick:"وصول سريع", cats_title:"التصنيفات",
+  cats_sub:"جميع المواقع التي تم التحقق منها يدويًا · انقر على التصنيف",
+  cat_essentials:"أساسيات", cat_ai:"أدوات الذكاء", cat_office:"إنتاجية", cat_dev:"تطوير", cat_design:"تصميم",
+  cat_edu:"تعليم", cat_finance:"مالية", cat_media:"ترفيه", cat_software:"برامج", cat_social:"تواصل",
+  cat_shop:"تسوق", cat_life:"خدمات", cat_read:"قراءة", cat_web:"مواقع", cat_news:"أخبار",
+  follow:"تابعنا", qq_group:"مجموعة QQ",
+  foot_note:"مواقع رسمية تم التحقق منها يدويًا فقط · الإعلانات موسومة",
+  privacy:"الخصوصية",
+},
+he: {
+  nav_home:"בית", nav_hot:"תוכנות", nav_ai:"כלי AI", nav_sites:"אתרים", nav_feedback:"משוב", nav_about:"אודות",
+  hero_h1:"מצא אתרים רשמיים", hero_p:"רק אתרים רשמיים מאומתים ידנית · נגיד לך איזה לבחור",
+  plat_all:"כל הפלטפורמות", search_ph:"חפש תוכנה או אתר…", search_btn:"חפש",
+  quick:"גישה מהירה", cats_title:"קטגוריות",
+  cats_sub:"כל האתרים מאומתים ידנית · לחץ על קטגוריה",
+  cat_essentials:"חיוני", cat_ai:"כלי AI", cat_office:"פרודוקטיביות", cat_dev:"פיתוח", cat_design:"עיצוב",
+  cat_edu:"חינוך", cat_finance:"פיננסים", cat_media:"בידור", cat_software:"תוכנה", cat_social:"חברתי",
+  cat_shop:"קניות", cat_life:"שירותים", cat_read:"קריאה", cat_web:"אתרים", cat_news:"חדשות",
+  follow:"עקבו", qq_group:"קבוצת QQ",
+  foot_note:"רק אתרים רשמיים מאומתים ידנית · פרסומות מסומנות",
+  privacy:"פרטיות",
+},
+pl: {
+  nav_home:"Start", nav_hot:"Oprogramowanie", nav_ai:"Narzędzia AI", nav_sites:"Strony", nav_feedback:"Opinia", nav_about:"O nas",
+  hero_h1:"Znajdź oficjalne strony", hero_p:"Tylko ręcznie zweryfikowane oficjalne strony · Powiemy ci, którą wybrać",
+  plat_all:"Wszystkie platformy", search_ph:"Szukaj oprogramowania lub strony…", search_btn:"Szukaj",
+  quick:"Szybki dostęp", cats_title:"Kategorie",
+  cats_sub:"Wszystkie ręcznie zweryfikowane strony · Kliknij kategorię",
+  cat_essentials:"Podstawowe", cat_ai:"Narzędzia AI", cat_office:"Produktywność", cat_dev:"Programowanie", cat_design:"Design",
+  cat_edu:"Edukacja", cat_finance:"Finanse", cat_media:"Rozrywka", cat_software:"Oprogramowanie", cat_social:"Społeczność",
+  cat_shop:"Zakupy", cat_life:"Usługi", cat_read:"Czytanie", cat_web:"Strony", cat_news:"Wiadomości",
+  follow:"Obserwuj", qq_group:"Grupa QQ",
+  foot_note:"Tylko ręcznie zweryfikowane oficjalne strony · Reklamy oznaczone",
+  privacy:"Prywatność",
+},
+cs: {
+  nav_home:"Domů", nav_hot:"Software", nav_ai:"AI nástroje", nav_sites:"Weby", nav_feedback:"Zpětná vazba", nav_about:"O nás",
+  hero_h1:"Najít oficiální weby", hero_p:"Pouze ručně ověřené oficiální weby · Řekneme ti, který vybrat",
+  plat_all:"Všechny platformy", search_ph:"Hledat software nebo web…", search_btn:"Hledat",
+  quick:"Rychlý přístup", cats_title:"Kategorie",
+  cats_sub:"Všechny ručně ověřené weby · Klikni na kategorii",
+  cat_essentials:"Základní", cat_ai:"AI nástroje", cat_office:"Produktivita", cat_dev:"Vývoj", cat_design:"Design",
+  cat_edu:"Vzdělávání", cat_finance:"Finance", cat_media:"Zábava", cat_software:"Software", cat_social:"Sociální sítě",
+  cat_shop:"Nákupy", cat_life:"Služby", cat_read:"Čtení", cat_web:"Weby", cat_news:"Zprávy",
+  follow:"Sledujte", qq_group:"QQ skupina",
+  foot_note:"Pouze ručně ověřené oficiální weby · Reklamy označeny",
+  privacy:"Soukromí",
+},
+da: {
+  nav_home:"Hjem", nav_hot:"Software", nav_ai:"AI-værktøjer", nav_sites:"Websteder", nav_feedback:"Feedback", nav_about:"Om os",
+  hero_h1:"Find officielle sider", hero_p:"Kun manuelt verificerede officielle sider · Vi fortæller dig hvilken du skal vælge",
+  plat_all:"Alle platforme", search_ph:"Søg software eller side…", search_btn:"Søg",
+  quick:"Hurtig adgang", cats_title:"Kategorier",
+  cats_sub:"Alle manuelt verificerede sider · Klik på en kategori",
+  cat_essentials:"Essentielt", cat_ai:"AI-værktøjer", cat_office:"Produktivitet", cat_dev:"Udvikling", cat_design:"Design",
+  cat_edu:"Uddannelse", cat_finance:"Finans", cat_media:"Underholdning", cat_software:"Software", cat_social:"Sociale",
+  cat_shop:"Shopping", cat_life:"Tjenester", cat_read:"Læsning", cat_web:"Websteder", cat_news:"Nyheder",
+  follow:"Følg os", qq_group:"QQ-gruppe",
+  foot_note:"Kun manuelt verificerede officielle sider · Annoncer markeres",
+  privacy:"Privatliv",
+},
+sv: {
+  nav_home:"Hem", nav_hot:"Programvara", nav_ai:"AI-verktyg", nav_sites:"Webbplatser", nav_feedback:"Feedback", nav_about:"Om oss",
+  hero_h1:"Hitta officiella sidor", hero_p:"Endast manuellt verifierade officiella sidor · Vi berättar vilken du ska välja",
+  plat_all:"Alla plattformar", search_ph:"Sök programvara eller sida…", search_btn:"Sök",
+  quick:"Snabbåtkomst", cats_title:"Kategorier",
+  cats_sub:"Alla manuellt verifierade sidor · Klicka på en kategori",
+  cat_essentials:"Viktigt", cat_ai:"AI-verktyg", cat_office:"Produktivitet", cat_dev:"Utveckling", cat_design:"Design",
+  cat_edu:"Utbildning", cat_finance:"Finans", cat_media:"Underhållning", cat_software:"Programvara", cat_social:"Socialt",
+  cat_shop:"Shopping", cat_life:"Tjänster", cat_read:"Läsning", cat_web:"Webbplatser", cat_news:"Nyheter",
+  follow:"Följ oss", qq_group:"QQ-grupp",
+  foot_note:"Endast manuellt verifierade officiella sidor · Annonser markeras",
+  privacy:"Integritet",
+},
+fi: {
+  nav_home:"Etusivu", nav_hot:"Ohjelmistot", nav_ai:"Tekoälytyökalut", nav_sites:"Sivustot", nav_feedback:"Palaute", nav_about:"Meistä",
+  hero_h1:"Löydä viralliset sivut", hero_p:"Vain manuaalisesti vahvistetut viralliset sivut · Kerromme minkä valita",
+  plat_all:"Kaikki alustat", search_ph:"Hae ohjelmistoa tai sivua…", search_btn:"Hae",
+  quick:"Pikavalinta", cats_title:"Luokat",
+  cats_sub:"Kaikki manuaalisesti vahvistetut sivut · Klikkaa luokkaa",
+  cat_essentials:"Välttämätön", cat_ai:"Tekoälytyökalut", cat_office:"Tuottavuus", cat_dev:"Kehitys", cat_design:"Muotoilu",
+  cat_edu:"Koulutus", cat_finance:"Rahoitus", cat_media:"Viihde", cat_software:"Ohjelmisto", cat_social:"Sosiaalinen",
+  cat_shop:"Ostokset", cat_life:"Palvelut", cat_read:"Lukeminen", cat_web:"Sivustot", cat_news:"Uutiset",
+  follow:"Seuraa", qq_group:"QQ-ryhmä",
+  foot_note:"Vain manuaalisesti vahvistetut viralliset sivut · Mainokset merkitty",
+  privacy:"Yksityisyys",
+},
+no: {
+  nav_home:"Hjem", nav_hot:"Programvare", nav_ai:"AI-verktøy", nav_sites:"Nettsteder", nav_feedback:"Tilbakemelding", nav_about:"Om oss",
+  hero_h1:"Finn offisielle sider", hero_p:"Kun manuelt verifiserte offisielle sider · Vi forteller deg hvilken du skal velge",
+  plat_all:"Alle plattformer", search_ph:"Søk programvare eller side…", search_btn:"Søk",
+  quick:"Hurtigtilgang", cats_title:"Kategorier",
+  cats_sub:"Alle manuelt verifiserte sider · Klikk på en kategori",
+  cat_essentials:"Viktig", cat_ai:"AI-verktøy", cat_office:"Produktivitet", cat_dev:"Utvikling", cat_design:"Design",
+  cat_edu:"Utdanning", cat_finance:"Finans", cat_media:"Underholdning", cat_software:"Programvare", cat_social:"Sosialt",
+  cat_shop:"Shopping", cat_life:"Tjenester", cat_read:"Lesing", cat_web:"Nettsteder", cat_news:"Nyheter",
+  follow:"Følg oss", qq_group:"QQ-gruppe",
+  foot_note:"Kun manuelt verifiserte offisielle sider · Annonser merkes",
+  privacy:"Personvern",
+},
+el: {
+  nav_home:"Αρχική", nav_hot:"Λογισμικό", nav_ai:"Εργαλεία AI", nav_sites:"Ιστότοποι", nav_feedback:"Σχόλια", nav_about:"Σχετικά",
+  hero_h1:"Βρες επίσημους ιστότοπους", hero_p:"Μόνο χειροκίνητα επαληθευμένοι επίσημοι ιστότοποι · Σου λέμε ποιον να διαλέξεις",
+  plat_all:"Όλες οι πλατφόρμες", search_ph:"Αναζήτηση λογισμικού ή ιστότοπου…", search_btn:"Αναζήτηση",
+  quick:"Γρήγορη πρόσβαση", cats_title:"Κατηγορίες",
+  cats_sub:"Όλοι οι χειροκίνητα επαληθευμένοι ιστότοποι · Κάντε κλικ σε κατηγορία",
+  cat_essentials:"Βασικά", cat_ai:"Εργαλεία AI", cat_office:"Παραγωγικότητα", cat_dev:"Ανάπτυξη", cat_design:"Σχεδίαση",
+  cat_edu:"Εκπαίδευση", cat_finance:"Χρηματοοικονομικά", cat_media:"Ψυχαγωγία", cat_software:"Λογισμικό", cat_social:"Κοινωνικά",
+  cat_shop:"Αγορές", cat_life:"Υπηρεσίες", cat_read:"Ανάγνωση", cat_web:"Ιστότοποι", cat_news:"Ειδήσεις",
+  follow:"Ακολούθησέ μας", qq_group:"Ομάδα QQ",
+  foot_note:"Μόνο χειροκίνητα επαληθευμένοι επίσημοι ιστότοποι · Οι διαφημίσεις επισημαίνονται",
+  privacy:"Απόρρητο",
+},
+};
+
 // 各国快捷直达（按名称匹配SITES，未列出的国家取该国rating最高的12个）
 const QUICK = {
 CN:["微信 PC 版","Chrome 浏览器","ChatGPT","DeepSeek","哔哩哔哩","抖音","小红书","京东","12306","向日葵远程","火绒安全","GitHub"],
@@ -379,7 +721,38 @@ const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
 // 搜索框前置筛选：平台下拉 + 可下载开关；右上角地区选择
 const regionSel = document.getElementById("regionSel");
-regionSel.onchange = () => { activeRegion = regionSel.value; try{ localStorage.setItem("rg_region", activeRegion); }catch(e){} doSearch(); buildNav(); };
+// 应用语言
+function applyLang(){
+  const lang = COUNTRY_LANG[activeRegion] || "zh";
+  const t = I18N[lang] || I18N.zh;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const k = el.getAttribute("data-i18n");
+    if(t[k]) el.textContent = t[k];
+  });
+  document.querySelectorAll("[data-i18n-ph]").forEach(el => {
+    const k = el.getAttribute("data-i18n-ph");
+    if(t[k]) el.placeholder = t[k];
+  });
+  // 分类chips
+  const catMap = {cat_essentials:t.cat_essentials, cat_ai:t.cat_ai, cat_office:t.cat_office, cat_dev:t.cat_dev, cat_design:t.cat_design, cat_edu:t.cat_edu, cat_finance:t.cat_finance, cat_media:t.cat_media, cat_software:t.cat_software, cat_social:t.cat_social, cat_shop:t.cat_shop, cat_life:t.cat_life, cat_read:t.cat_read, cat_web:t.cat_web, cat_news:t.cat_news};
+  document.querySelectorAll("#chips .chip").forEach(chip => {
+    const c = chip.textContent.trim();
+    // 匹配中文分类名
+    const zhCats = {"装机必备":"cat_essentials","AI工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
+    const key = zhCats[c];
+    if(key && t[key]) chip.textContent = t[key];
+  });
+  // 页脚
+  const footNote = document.querySelector(".foot-base");
+  if(footNote){
+    const privacyLink = footNote.querySelector('a[href="./privacy.html"]');
+    const privacyText = privacyLink ? privacyLink.outerHTML.replace(/>[^<]*</, `>${t.privacy}<`) : "";
+    footNote.innerHTML = t.foot_note + ' &nbsp;·&nbsp; ' + privacyText;
+  }
+  // html lang属性
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
+}
+regionSel.onchange = () => { activeRegion = regionSel.value; try{ localStorage.setItem("rg_region", activeRegion); }catch(e){} applyLang(); doSearch(); buildNav(); };
 // 首次访问：按浏览器语言自动选国家（用户手动选过则记住选择）
 try{
   const saved = localStorage.getItem("rg_region");
@@ -601,6 +974,7 @@ function buildNav(){
     qg.innerHTML = list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${s.name}<span class="cat">${s.cat}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`).join("");
   }
 }
+applyLang();
 buildNav();
 </script>
 </body>
