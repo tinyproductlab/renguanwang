@@ -1,0 +1,317 @@
+
+
+
+
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="description" content="MOOV 隨時帶給你高清音樂享受！無論你在路上或安在家中，都能輕易地享受到你最愛的音樂，演唱會。">
+	<meta name="keywords" content="MOOV, 音樂, 數碼音樂, 串流音樂服務, 新歌, 最新派台歌, 專輯, 新碟, 廣東歌, 華語歌, K-POP, 音樂下載, 免費下載, mp3下載, 排行榜, 音樂試聽, 音樂App, 歌手, 320k, 演唱會, MV, LyricSnap, 歌詞快拍, 歌單, playlist">
+	
+	<meta property="fb:app_id" content="368226243299890" />
+	<meta property="og:title"  content="音樂很簡單 - MOOV"/>
+	<meta property="og:image"  content="https://moov.hk/images/icon/appicon.png"/>
+	<meta property="og:site_name"  content="MOOV"/>
+	<meta property="og:url"  content="https://moov.hk/"/>
+	<meta property="og:description"  content="MOOV 隨時帶給你高清音樂享受！無論你在路上或安在家中，都能輕易地享受到你最愛的音樂，演唱會。"/>
+	<meta name="google-site-verification" content="dcAb7A0KG7f3rYsRUCJwQsA_A-1QgJbAF6nz6ZHjQro" />
+	<title>MOOV</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js" integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js" integrity="sha512-lbwH47l/tPXJYG9AcFNoJaTMhGvYWhVM9YI43CT+uteTRRaiLCui8snIgyAN8XWgNjNhCqlAUdzZptso6OCoFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" integrity="sha512-6S2HWzVFxruDlZxI3sXOZZ4/eJ8AcxkQH1+JjSe/ONCEqR9L4Ysq5JdT5ipqtzU7WHalNwzwBv+iE51gNHJNqQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js" integrity="sha512-eviLb3jW7+OaVLz5N3B5F0hpluwkLb8wTXHOTy0CyNaZM5IlShxX1nEbODak/C0k9UdsrWjqIBKOFY0ELCCArw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.plugins.min.js" integrity="sha512-znjTNYfgassLWnpEDIaGRNLUMuKUtaSz9UV76RFu/peUr8x+mCqEH3jRCJWVRf1ujF2TmT0CoiZOTF+EDoZfEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.3.0/ZeroClipboard.min.js" integrity="sha512-QaZihFSTOXD+hb2HCS3SxXktGNiUPvHD1r9/+QUEmXX1YwXaCdA+ZbEhKQS9FOLGMdqXtgslsscA4GJjB1NBJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/cropit/0.5.1/jquery.cropit.min.js" integrity="sha512-oxw7AXlZ9xgLKJT1tlNLSV4FFuSqn2hlwhBv4LqmcMznx5tRHyIV9dUxI7H6c37uXPK0eA8abHBHOsOjsW09Dw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.23.4/video.min.js" integrity="sha512-frQAbRblLAB27W72seJtP+PijHuCtSfQ+k+LS7M4v27gjKb5doigt4khTLCwILnWz8sd+MPu3Qzkaduq4dwitA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  
+    <script> var env = 'production'; </script>
+    <script src="js/moov.js?v=1792233017627"></script>
+  
+
+	<script type="text/javascript" src="js/ga.js"></script>
+
+	<script language="javascript" src="js/landing.js?v=1792233017627"></script>
+	<script language="javascript" src="js/musictherapy.js?v=1792233017627"></script>
+	<script language="javascript" src="js/puapl.js?v=1792233017627"></script>
+	<script language="javascript" src="js/mycollection.js?v=1792233017627"></script>
+	<script language="javascript" src="js/search.js?v=1792233017627"></script>
+	
+	<script language="javascript" src="js/lib/sweetalert2.all.min.js?v=1792233017627"></script>
+	<script language="javascript" src="js/lib/sweetalert2.min.js?v=1792233017627"></script>
+
+	
+
+
+		
+		 <script language="javascript" src="js/moovplayerHLS.js?v="></script>
+		<script language="javascript" src="js/videoplayerHLS.js?v=1792233017627"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js" integrity="sha512-kfs3Dt9u9YcOiIt4rNcPUzdyNNO9sVGQPiZsub7ywg6lRW5KuK1m145ImrFHe3LMWXHndoKo2YRXWy8rnOcSKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/Math.uuid.js"></script>
+	<script language="javascript" src="flash/music_common_player.js?v1"></script>
+	<script language="javascript" src="flash/create_flash_player.js?v1"></script>
+	<script language="javascript" src="flash/swfobject.js"></script>
+	<script language="javascript" src="js/simple-slider.js"></script>
+	<!--<script language="javascript" src="js/bootstrap.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.3.1/jquery.placeholder.min.js" integrity="sha512-iGsoQ13Qj6qYWj02Un9ZyHJwocDoBDRA8eAYrSlZ98C7kwBkAqW7AUFv0g99NFp3xW9Gr1qaTqjMWBzXswydOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" integrity="sha512-QoJS4DOhdmG8kbbHkxmB/rtPdN62cGWXAdAFWWJPvUFF1/zxcPSdAnn4HhYZSIlVoLVEJ0LesfNlusgm2bPfnA==" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios@1.13.6/dist/axios.min.js" integrity="sha512-qWzIuJ3QIcQU4VWFbby96s3vU90kjcMjN7EY/6BSxLhpusU3iyInFgojMOGLrJLvtPsdi8AmXgqxzo8jxBmdMA==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<script src="js/lib/jquerysession.js"></script>
+	<link href="https://moov.hk/css/toastr.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://moov.hk/css/standardize.css?v=3">
+	<link rel="stylesheet" href="https://moov.hk/css/index-grid.css?v=1792233017627">
+	<link rel="stylesheet" href="https://moov.hk/css/index.css?v=1792233017627">
+	<link rel="stylesheet" type="text/css" href="https://moov.hk/css/form.css?v=1792233017627">
+	<link rel="stylesheet" href="https://moov.hk/css/slick.css">
+	<link rel="stylesheet" href="https://moov.hk/css/slick-theme.css">
+	<link rel="stylesheet" href="https://moov.hk/css/search.css?v=1792233017627">
+	<link rel="stylesheet" href="https://moov.hk/css/mycollection.css?v=1792233017627">
+	<!--<link href="//vjs.zencdn.net/5.11/video-js.min.css" rel="stylesheet">-->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.23.4/video-js.min.css" integrity="sha512-7wMpNCbZmQmUPa3OOvqZo2TbK4n4xy4hdSWvxXKaJH8tR/9+7YFS0qyiKK3FV3tE6ANeSAdd3xfFQbf71P5Dfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<link rel="stylesheet" href="https://moov.hk/css/videojs-resolution-switcher.css">
+
+	<link rel="stylesheet" href="https://moov.hk/css/family_plan.css?v=1792233017627">
+
+	<link rel="stylesheet" href="https://moov.hk/css/sweetalert2.css?v=1792233017627">
+	<link rel="stylesheet" href="https://moov.hk/css/sweetalert2.min.css?v=1792233017627">
+
+	<script>
+
+		var lastTop=0;
+		var scrollHeight;
+</script>
+<script>
+
+  !function(f,b,e,v,n,t,s)
+
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+  n.queue=[];t=b.createElement(e);t.async=!0;
+
+  t.src=v;s=b.getElementsByTagName(e)[0];
+
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1774427742851638');
+
+  fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+  src="https://www.facebook.com/tr?id=1774427742851638&ev=PageView&noscript=1"
+
+/></noscript>
+
+
+    <script> var env = 'production'; </script>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=0bVGJ5Sgu_ClwclFatGeRw&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQN9R8K');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+    var baseURL = "https://moov.hk";
+</script>
+
+</head>
+<body class="body page-index clearfix">
+
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQN9R8K&gtm_auth=0bVGJ5Sgu_ClwclFatGeRw&gtm_preview=env-1&gtm_cookies_win=x"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	
+
+
+        <video id="audioHLSPlayer" width=600 height=300 class="video-js" >
+		<source src="js/silence-1sec.mp3" type="application/x-mpegURL"/>
+		</video>
+
+
+
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '368226243299890',
+      xfbml            : true,
+      cookie            : true,
+      version          : 'v22.0'
+    });
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+	<div id="searchLayer">
+
+		<input id="search_box" class="_input" name="search" type="text"  onkeyup="predictiveSearch(this.value)" >
+		<div id="searchBox"></div>
+
+	</div>
+
+	<div id="loading"></div>
+	<div id="bg"></div>
+
+	<div id="top">
+		<div class="banner" ></div>
+		<div id="info"></div>
+
+	<div id="submenu" class="submenu">
+		<div>
+			<ul class="list"></ul>
+		</div>
+	</div>
+	</div>
+	<div id="submenu2" class="submenu">
+		<div>
+			<ul class="list"></ul>
+		</div>
+	</div>
+
+	<div id="contentArea" >
+
+
+	</div>
+	<div class="container clearfix">
+		<div class="h_c">
+			<div id="header" class="header clearfix">
+				<div class="left"></div>
+				<div class="right">	</div>
+
+					<div id="searchIcon"><img src="images/nav_search.png" /></div>
+			</div>
+		</div>
+		<div id="menu-c">
+			<div class="logo">
+				<a href="#/"><img src="images/logo.svg" ></a>
+			</div>
+			<div id="menu"></div>
+		</div>
+	</div>
+	<div id="player_wrapper">
+		<div id="player_bg"></div>
+		<div class="shadow"></div>
+		<div id="player_info">
+
+			<img id="close" src="images/icon/close.png" />
+			<div class="left">
+				<div class="cover" ><img src="images/default_cover.png" width="100%"></div>
+				<div class="song"></div>
+				<div class="artist"></div>
+				<div class="btn">
+					<div id="player_add" ><img src="images/icon/player_add.png"/></div>
+					<div id="player_shuffle" class="off"></div>
+					<div id="player_repeat" class="off"></div>
+					<div id="player_share" ><img src="images/icon/player_share.png"  /></div>
+				</div>
+			</div>
+			<div class="right">
+				<div id="currentProfile">
+					<div class="cover"></div>
+					<div class="name"></div>
+				</div>
+				<div id="player_list" class="moduleList">
+				</div>
+				<div id="lyric"></div>
+			</div>
+
+		</div>
+		<div id="player">
+			<div id="player_ext"></div>
+			<div id="lyrics" class="btn off"><img src="images/icon/lyrics_chi.png"/></div>
+			<div id="prev" class="btn" onclick="playPrev();"><img src="images/icon/back_off.png"  width="30"/></div>
+			<div id="pause" class="btn"><img src="images/icon/play_off.png"  onclick="playItem();" width="30"/></div>
+			<div id="next" class="btn" onclick="playNext();"><img src="images/icon/next_off.png" width="30" /></div>
+			<div id="thumbnail"><img src="images/default_cover.png" /></div>
+			<div id="mute" class="btn" onclick="mute();"><img src="images/icon/volume_off.png" width="25" /></div>
+			<div id="volume"><input type="text" data-slider="true" value="0.5" data-slider-highlight="true" style="display: none;"></div>
+			<div id="timer">00:00</div>
+			<div id="progressBar">
+				<div id="title"></div>
+				<input type="text" data-slider="true" value="0" data-slider-highlight="true" style="display: none;">
+			</div>
+			<div id="duration">00:00</div>
+		</div>
+	</div>
+
+
+	<div id="videoplayer_wrapper" >
+		<div id="videoplayer">
+			<img id="close" src="images/icon/close.png" />
+			<div class ="left">
+				<div id="playingItem">
+					<div class="name">
+						<span class="title"></span><br />
+						<span class="artist"></span>
+					</div>
+
+					<div class="fnc">
+						<div class="share"></div>	<div class="add"></div>
+					</div>
+
+				</div>
+				<div id="MOOVVideoPlayer">
+
+					
+							<video id="videoHLSPlayer" width="672" height="397" class="video-js" controls >
+							<!--<source src="https://mtgstreamuat.moov.now.com/10s.m3u8" type="application/x-mpegURL">
+							<source src="https://mtgstreamuat.moov.now.com/httpstreamer/getM3U8/TOKEN/VAUN00027728-SD.m3u8" type="application/x-mpegURL">-->
+							</video>
+					
+				</div>
+			</div>
+			<div id="videoList">
+				<div id="currentProfile">
+					<div class="cover"></div>
+					<div class="name"></div>
+				</div>
+				<div id="player_list" class="moduleList">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<div style="z-index:1; position:absolute;" id="audioplayer"></div>
+	<script>
+
+
+
+  </script>
+
+</body>
+</html>
