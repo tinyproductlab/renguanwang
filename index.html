@@ -721,6 +721,15 @@ const chipsEl = document.getElementById("chips");
 CATS.forEach(c => { const s=document.createElement("span"); s.textContent=c; s.onclick=()=>{document.getElementById("q").value=c; doSearch();}; chipsEl.appendChild(s); });
 // 搜索框前置筛选：平台下拉 + 可下载开关；右上角地区选择
 const regionSel = document.getElementById("regionSel");
+// 分类名翻译
+function catT(cat){
+  const lang = COUNTRY_LANG[activeRegion] || "zh";
+  const t = I18N[lang] || I18N.zh;
+  const en = I18N.en;
+  const map = {"装机必备":"cat_essentials","AI工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
+  const k = map[cat];
+  return k ? (t[k] || en[k] || cat) : cat;
+}
 // 应用语言（小语种缺翻译时 fallback 英文）
 function applyLang(){
   const lang = COUNTRY_LANG[activeRegion] || "zh";
@@ -738,7 +747,7 @@ function applyLang(){
     if(v) el.placeholder = v;
   });
   // 分类chips
-  document.querySelectorAll("#chips .chip").forEach(chip => {
+  document.querySelectorAll("#chips span").forEach(chip => {
     const c = chip.textContent.trim();
     // 匹配中文分类名
     const zhCats = {"装机必备":"cat_essentials","AI工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
@@ -797,7 +806,7 @@ function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e
 function platShort(s){ return s.plat==="Windows"?" · Win":s.plat==="macOS"?" · Mac":""; }
 function render(list, q){
   const box = document.getElementById("results");
-  if(!q){ box.innerHTML = `<div class="meta">⬆ 在上面输入需求，或点分类看看收录了什么</div>`; return; }
+  if(!q){ const lang3 = COUNTRY_LANG[activeRegion] || "zh"; const hintT = {zh:"⬆ 在上面输入需求，或点分类看看收录了什么",zht:"⬆ 在上面輸入需求，或點分類看看收錄了什麼",en:"⬆ Search above, or browse categories",ja:"⬆ 上で検索、またはカテゴリーを見る",ko:"⬆ 위에서 검색하거나 카테고리 보기",de:"⬆ Oben suchen oder Kategorien ansehen",fr:"⬆ Recherchez ci-dessus ou parcourez les catégories",es:"⬆ Busca arriba o explora las categorías",pt:"⬆ Pesquise acima ou explore as categorias"}[lang3] || "⬆ Search above, or browse categories"; box.innerHTML = `<div class="meta">${hintT}</div>`; return; }
   if(!list.length){ box.innerHTML = `<div class="empty">没搜到"${q}"相关的站<br><br>我们只收录人工验过的站，覆盖面还在扩充中</div>`; return; }
   // 赞助位置顶并标注，其余按推荐指数排序
   list.sort((a,b)=>((b.sponsored?1:0)-(a.sponsored?1:0)) || ((b.official?1:0)-(a.official?1:0)) || (b.rating-a.rating));
@@ -957,9 +966,11 @@ function buildNav(){
     if(activeRegion){ list = list.filter(s => s.region === activeRegion); }
     if(!list.length) return;
     const aid = "cat-" + idx;
-    const a = document.createElement("a"); a.href = "#"+aid; a.textContent = c + " " + list.length; anchors.appendChild(a);
+    const a = document.createElement("a"); a.href = "#"+aid; a.textContent = catT(c) + " " + list.length; anchors.appendChild(a);
     const div = document.createElement("div"); div.className = "cat-block"; div.id = aid;
-    div.innerHTML = `<h3>${c}<span class="cnt">${list.length} 个站</span></h3><div class="site-grid">` +
+    const lang2 = COUNTRY_LANG[activeRegion] || "zh";
+    const cntT = {zh:"个站",zht:"個站",en:"sites",ja:"サイト",ko:"개 사이트",de:"Seiten",fr:"sites",es:"sitios",pt:"sites",it:"siti",nl:"sites",ru:"сайтов",th:"เว็บ",vi:"trang",id:"situs",tr:"site",ar:"موقع",he:"אתרים",pl:"stron",cs:"webů",da:"sider",sv:"sidor",fi:"sivua",no:"sider",el:"ιστότοποι"}[lang2] || "sites";
+    div.innerHTML = `<h3>${catT(c)}<span class="cnt">${list.length} ${cntT}</span></h3><div class="site-grid">` +
       list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
     cats.appendChild(div);
   });
@@ -974,7 +985,7 @@ function buildNav(){
     } else {
       list = SITES.filter(s => s.region === rc).sort((a,b) => b.rating - a.rating).slice(0,12);
     }
-    qg.innerHTML = list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${s.name}<span class="cat">${s.cat}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`).join("");
+    qg.innerHTML = list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${s.name}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`).join("");
   }
 }
 applyLang();
