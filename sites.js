@@ -1502,5 +1502,14 @@ const SITES = [
 {name:"Blocket",url:"https://www.blocket.se",desc:"瑞典最大二手交易平台，Schibsted 旗下。认准 blocket.se。",cat:"购物消费",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"blocket blocket",icon:"www.blocket.se.ico"},
 {name:"Hemnet",url:"https://www.hemnet.se",desc:"瑞典最大房产网站，找房看房价。认准 hemnet.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"hemnet hemnet",icon:"www.hemnet.se.ico"},
 {name:"IKEA",url:"https://www.ikea.se",desc:"宜家官网，查目录在线购物，总部瑞典。认准 ikea.se。",cat:"购物消费",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"ikea ikea",icon:"www.ikea.se.ico"},
-{name:"Apotea",url:"https://www.apotea.se",desc:"瑞典最大网上药房，买药保健品。认准 apotea.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"apotea apotea",icon:"www.apotea.se.ico"}
+{name:"Apotea",url:"https://www.apotea.se",desc:"瑞典最大网上药房，买药保健品。认准 apotea.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"apotea apotea",icon:"www.apotea.se.ico"},
+{name:"台北捷运",url:"https://www.metro.taipei",desc:"台北捷运官网，查路线票价时刻。认准 metro.taipei。",cat:"生活服务",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"台北捷运 metro",icon:"www.metro.taipei.ico"},
+{name:"台湾大哥大",url:"https://www.taiwanmobile.com",desc:"台湾大哥大电信官网，查账单办门号。认准 taiwanmobile.com。",cat:"生活服务",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"台湾大哥大 taiwanmobile",icon:"www.taiwanmobile.com.ico"},
+{name:"远传电信",url:"https://www.fetnet.net",desc:"远传电信官网，手机宽带门号服务。认准 fetnet.net。",cat:"生活服务",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"远传电信 fetnet",icon:"www.fetnet.net.ico"},
+{name:"104人力银行",url:"https://www.104.com.tw",desc:"台湾最大求职网站，104 找工作投履历。认准 104.com.tw。",cat:"办公效率",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"104人力银行 104",icon:"www.104.com.tw.ico"},
+{name:"露天拍卖",url:"https://www.ruten.com.tw",desc:"台湾最大拍卖电商，露天买二手挖宝。认准 ruten.com.tw。",cat:"购物消费",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"露天拍卖 ruten",icon:"www.ruten.com.tw.ico"},
+{name:"中华邮政",url:"https://www.post.gov.tw",desc:"中华邮政官网，查包裹邮资据点。认准 post.gov.tw。",cat:"生活服务",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"中华邮政 post",icon:"www.post.gov.tw.ico"},
+{name:"公视",url:"https://www.pts.org.tw",desc:"台湾公共电视，看优质台剧纪录片。认准 pts.org.tw。",cat:"影音娱乐",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"公视 pts",icon:"www.pts.org.tw.ico"},
+{name:"ETtoday",url:"https://www.ettoday.net",desc:"台湾最大网络媒体之一 ETtoday，看即时新闻。认准 ettoday.net。",cat:"新闻资讯",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"ettoday ettoday",icon:"www.ettoday.net.ico"},
+{name:"MyVideo",url:"https://www.myvideo.net.tw",desc:"台湾本土影音平台 MyVideo，看电影追剧。认准 myvideo.net.tw。",cat:"影音娱乐",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"myvideo myvideo",icon:"www.myvideo.net.tw.ico"}
 ];
