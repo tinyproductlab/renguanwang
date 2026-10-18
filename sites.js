@@ -1247,5 +1247,16 @@ const SITES = [
 {name:"Daily Maverick",url:"https://www.dailymaverick.co.za",desc:"南非独立调查新闻媒体，深度报道见长。",cat:"新闻资讯",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"daily maverick dailymaverick",icon:"www.dailymaverick.co.za.ico"},
 {name:"IOL",url:"https://iol.co.za",desc:"南非老牌新闻门户 Independent Online。",cat:"新闻资讯",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"iol news iol 独立在线",icon:"www.iol.co.za.ico"},
 {name:"SABC",url:"https://www.sabc.co.za",desc:"南非国家广播公司，电视电台官方平台。",cat:"影音娱乐",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"sabc 广播 sabc",icon:"www.sabc.co.za.ico"},
-{name:"Eskom",url:"https://www.eskom.co.za",desc:"南非国家电力公司，查停电交电费。",cat:"生活服务",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"eskom 电力 eskom",icon:"www.eskom.co.za.ico"}
+{name:"Eskom",url:"https://www.eskom.co.za",desc:"南非国家电力公司，查停电交电费。",cat:"生活服务",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"eskom 电力 eskom",icon:"www.eskom.co.za.ico"},
+{name:"Mail.ru",url:"https://mail.ru",desc:"俄罗斯老牌门户与免费邮箱",cat:"常用网站",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"mail.ru mail",icon:"www.mail.ru.ico"},
+{name:"Wildberries",url:"https://www.wildberries.ru",desc:"俄罗斯最大电商平台，品类全价格低",cat:"购物消费",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"wildberries wildberries.ru",icon:"www.wildberries.ru.ico"},
+{name:"Ozon",url:"https://www.ozon.ru",desc:"俄罗斯综合电商平台，物流配送快",cat:"购物消费",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"ozon ozon.ru",icon:"www.ozon.ru.ico"},
+{name:"Avito",url:"https://www.avito.ru",desc:"俄罗斯最大分类广告与二手交易平台",cat:"购物消费",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"avito avito.ru",icon:"www.avito.ru.ico"},
+{name:"Rutube",url:"https://rutube.ru",desc:"俄罗斯本土视频平台，俄版 YouTube",cat:"影音娱乐",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"rutube rutube.ru",icon:"www.rutube.ru.ico"},
+{name:"俄新社",url:"https://ria.ru",desc:"俄罗斯国家通讯社，官方消息看这里",cat:"新闻资讯",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"俄新社 ria",icon:"www.ria.ru.ico"},
+{name:"今日俄罗斯",url:"https://www.rt.com",desc:"俄罗斯国际新闻电视台，多语种新闻",cat:"新闻资讯",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"今日俄罗斯 rt",icon:"www.rt.com.ico"},
+{name:"俄罗斯央行",url:"https://www.cbr.ru",desc:"俄罗斯中央银行官网，查汇率看政策",cat:"金融投资",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"俄罗斯央行 cbr",icon:"www.cbr.ru.ico"},
+{name:"Odnoklassniki",url:"https://ok.ru",desc:"俄罗斯老牌社交网站，国民级社交平台",cat:"社交社区",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"odnoklassniki ok",icon:"www.ok.ru.ico"},
+{name:"Dzen",url:"https://www.dzen.ru",desc:"俄罗斯热门内容资讯平台，文章视频都有",cat:"阅读创作",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"dzen dzen.ru",icon:"www.dzen.ru.ico"},
+{name:"HeadHunter",url:"https://hh.ru",desc:"俄罗斯最大招聘网站，找工作看职位",cat:"生活服务",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"headhunter hh",icon:"www.hh.ru.ico"}
 ];
