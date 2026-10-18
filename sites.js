@@ -1551,5 +1551,15 @@ const SITES = [
 {name:"Daum",url:"https://www.daum.net/",desc:"Daum 门户，韩国第二大门户",cat:"常用网站",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"daum daum",icon:"www.daum.net.ico"},
 {name:"Naver Webtoon",url:"https://comic.naver.com/",desc:"Naver Webtoon，韩国网漫平台",cat:"阅读创作",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"naver webtoon comic",icon:"www.comic.naver.com.ico"},
 {name:"Saramin",url:"https://www.saramin.co.kr/",desc:"Saramin 招聘，韩国求职",cat:"办公效率",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"saramin saramin",icon:"www.saramin.co.kr.ico"},
-{name:"Market Kurly",url:"https://www.kurly.com/",desc:"Market Kurly，生鲜电商",cat:"购物消费",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"market kurly kurly",icon:"www.kurly.com.ico"}
+{name:"Market Kurly",url:"https://www.kurly.com/",desc:"Market Kurly，生鲜电商",cat:"购物消费",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"market kurly kurly",icon:"www.kurly.com.ico"},
+{name:"SoftBank",url:"https://www.softbank.jp/",desc:"软银官网，手机套餐宽带",cat:"生活服务",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"softbank softbank",icon:"www.softbank.jp.ico"},
+{name:"docomo",url:"https://www.docomo.ne.jp/",desc:"NTT docomo，日本最大运营商",cat:"生活服务",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"docomo docomo",icon:"www.docomo.ne.jp.ico"},
+{name:"au",url:"https://www.au.com/",desc:"au KDDI，日本电信运营商",cat:"生活服务",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"au au",icon:"www.au.com.ico"},
+{name:"SMBC",url:"https://www.smbc.co.jp/",desc:"三井住友银行官网",cat:"金融投资",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"smbc smbc",icon:"www.smbc.co.jp.ico"},
+{name:"PayPay",url:"https://paypay.ne.jp/",desc:"PayPay，日本主流移动支付",cat:"金融投资",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"paypay paypay",icon:"www.paypay.ne.jp.ico"},
+{name:"ANA",url:"https://www.ana.co.jp/",desc:"全日空官网，订机票",cat:"生活服务",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"ana ana",icon:"www.ana.co.jp.ico"},
+{name:"Fuji TV",url:"https://www.fujitv.co.jp/",desc:"富士电视台官网",cat:"影音娱乐",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"fuji tv fujitv",icon:"www.fujitv.co.jp.ico"},
+{name:"TBS",url:"https://www.tbs.co.jp/",desc:"TBS 电视台官网",cat:"影音娱乐",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"tbs tbs",icon:"www.tbs.co.jp.ico"},
+{name:"TV Asahi",url:"https://www.tv-asahi.co.jp/",desc:"朝日电视台官网",cat:"影音娱乐",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"tv asahi tv-asahi",icon:"www.tv-asahi.co.jp.ico"},
+{name:"Hulu Japan",url:"https://www.hulu.jp/",desc:"Hulu Japan 流媒体",cat:"影音娱乐",region:"JP",rating:4,price:"免费",official:true,plat:"网页",kw:"hulu hulu",icon:"www.hulu.jp.ico"}
 ];

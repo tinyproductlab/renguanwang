@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://www.softbank.jp/site/error_404/">
+    <title>404 Application Error | ソフトバンク</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="ソフトバンク,SoftBank">
+    <link rel="shortcut icon" href="/site/set/common/p/img/favicon.ico">
+
+    <!-- /site/design/parts/area/pc/common-code-lv3-1column -->
+    <meta name="viewport" content="width=1024">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script>
+    <script type="text/javascript" src="//yjtag.yahoo.co.jp/tag?site=pqAkEhi&amp;referrer=https%3A%2F%2Fsoftbank.lyzondemo.com%2Fscsystem%2Ferror_404%2F&amp;H=3zezh3h"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="//s.yjtag.jp/tag.js#site=pqAkEhi&amp;referrer=https%3A%2F%2Fsoftbank.lyzondemo.com%2Fscsystem%2Ferror_404%2F"></script>
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-BMSW"></script>
+    <script>
+        !function (r) { var s = ' src="/site/set/common/src.js"', c = s.match(/^ src="(\/\/[^\/]+)/); Array.isArray(c) ? r.CDN_FQDN = c[1] : r.CDN_FQDN = "" }(window);
+    </script>
+    <link rel="stylesheet" href="/site/set/common/shared/css/reset/reset-v2.css">
+    <link rel="stylesheet" href="/site/set/common/sunshine/p/css/index.css?20200305" media="all">
+    <link rel="stylesheet" href="/site/set/common/sunshine/p/css/print.css" media="print">
+    <link rel="stylesheet" href="/site/set/common/info/v1/p/css/index.css">
+    <link rel="stylesheet" href="/site/set/common/p/css/rf2017-ph1-print.css" media="print">
+    <link rel="stylesheet" href="/site/set/common/jupiter/p/css/l3-common.css?20181016">
+    <noscript>
+        <link rel="stylesheet" href="/site/set/common/noscript/v1/p/css/index.css">
+        <link rel="stylesheet" href="/site/set/common/ticker/v2/p/css/noscript.css">
+    </noscript>
+    <script src="/site/set/common/sunshine/p/js/option.js" defer=""></script>
+    <script src="/site/set/common/sunshine/p/js/index.js?20200305" defer=""></script>
+    <script src="/site/set/common/jupiter/p/js/l3-vendor.js?20180927" defer=""></script>
+    <script src="/site/set/common/jupiter/p/js/l3-common.js?20180927" defer=""></script>
+    <!-- / /site/design/parts/area/pc/common-code-lv3-1column -->
+</head>
+<script type="text/javascript">
+    let current = window.location.href;
+    if (0 <= current.indexOf('/recruit/') && current.indexOf('-preview.') < 0) {
+        window.location.href = "/recruit/error_404";
+    }
+</script>
+<body>
+    <div id="sb-appshell-v1" class="sb-appshell-v1">
+        <noscript>
+            <aside id="sb-appshell-v1-header-info" class="sb-appshell-v1-header-info">
+                <div class="noscript-layout">
+                    <p class="noscript-layout_text">当ウェブサイトでは、JavaScriptを使用しています。ご使用のブラウザー設定においてJavaScriptをオン（有効）にしていただきますようお願いいたします。</p>
+                </div>
+            </aside>
+        </noscript>
+
+        <div id="sb-appshell-v1-header-fixed-area" class="sb-appshell-v1-header-fixed-area">
+            <div class="sb-appshell-v1-header-fixed-area_inner">
+                <header id="sb-appshell-v1-header" class="sb-appshell-v1-header _ga_area_header">
+                    <div class="sb-appshell-v1-header_inner">
+                        <div class="sb-appshell-v1-header_logo"><div class="sb-appshell-v1-header_logo-inner"><a href="/" class="sb-appshell-v1-header_logo-image">SoftBank</a></div></div>
+                    </div><!-- .sb-appshell-v1-header_inner -->
+
+                    <nav id="sb-appshell-v1-header-nav" class="sb-appshell-v1-header-nav" role="navigation">
+                        <div class="sb-appshell-v1-header-nav_globalnav _ga_area_category_nav">
+                            <ul class="sb-appshell-v1-header-nav_globalnav-list">
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/mobile/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">スマートフォン・携帯電話</span></a></li>
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/internet/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">インターネット・固定電話</span></a></li>
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/energy/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">でんき</span></a></li>
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/robot/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">ロボット</span></a></li>
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/biz/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">法人のお客さま</span></a></li>
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/corp/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">企業・IR</span></a></li>
+                                <li class="sb-appshell-v1-header-nav_globalnav-item"><a href="/mobile/special/softbank-5g/" class="sb-appshell-v1-header-nav_globalnav-link"><span class="sb-appshell-v1-header-nav_globalnav-link-inner">SoftBank 5G</span></a></li>
+                            </ul><!-- .sb-appshell-v1-header-nav_globalnav-list -->
+                        </div><!-- .sb-appshell-v1-header-nav_globalnav -->
+
+                    </nav><!-- .sb-appshell-v1-header-nav -->
+
+                    <div class="sb-appshell-v1-header_utility">
+                        <div class="sb-appshell-v1-header_utility-list">
+                            <div class="sb-appshell-v1-header_utility-item"><a href="/mysoftbank/" class="sb-appshell-v1-header_utility-link sb-appshell-v1-header_utility-link-mysoftbank"><span class="sb-appshell-v1-header_utility-link-inner">My SoftBank</span></a></div>
+                            <div class="sb-appshell-v1-header_utility-item"><a href="/support/" class="sb-appshell-v1-header_utility-link sb-appshell-v1-header_utility-link-support"><span class="sb-appshell-v1-header_utility-link-inner">サポート</span></a></div>
+                            <div class="sb-appshell-v1-header_utility-item"><a href="/shop/" class="sb-appshell-v1-header_utility-link sb-appshell-v1-header_utility-link-search"><span class="sb-appshell-v1-header_utility-link-inner">店舗を探す</span></a></div>
+                        </div>
+                    </div>
+                </header><!-- #sb-appshell-v1-header -->
+
+                <nav id="sb-appshell-v1-world-menu" class="sb-appshell-v1-world-menu _ga_area_world_nav">
+                    <div class="sb-appshell-v1-world-menu_view">
+                        <p class="sb-appshell-v1-world-menu_title">知りたいサービスを選んでください</p>
+                        <div class="sb-appshell-v1-world-menu_list">
+                            <ul class="sb-appshell-v1-world-menu_list-lv1">
+                                <li class="sb-appshell-v1-world-menu_list-lv1-item">
+                                    <a href="/mobile/" class="sb-appshell-v1-world-menu_list-lv1-link sb-appshell-v1-world-menu_list-lv1-link-mobile">
+                                        <span class="sb-appshell-v1-world-menu_list-lv1-link-text">スマートフォン<br>携帯電話</span>
+                                    </a>
+                                </li>
+                                <li class="sb-appshell-v1-world-menu_list-lv1-item">
+                                    <a href="/internet/" class="sb-appshell-v1-world-menu_list-lv1-link sb-appshell-v1-world-menu_list-lv1-link-internet">
+                                        <span class="sb-appshell-v1-world-menu_list-lv1-link-text">インターネット<br>固定電話</span>
+                                    </a>
+                                </li>
+                                <li class="sb-appshell-v1-world-menu_list-lv1-item">
+                                    <a href="/energy/" class="sb-appshell-v1-world-menu_list-lv1-link sb-appshell-v1-world-menu_list-lv1-link-energy">
+                                        <span class="sb-appshell-v1-world-menu_list-lv1-link-text">でんき</span>
+                                    </a>
+                                </li>
+                                <li class="sb-appshell-v1-world-menu_list-lv1-item">
+                                    <a href="/robot/" class="sb-appshell-v1-world-menu_list-lv1-link sb-appshell-v1-world-menu_list-lv1-link-robot">
+                                        <span class="sb-appshell-v1-world-menu_list-lv1-link-text">ロボット</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sb-appshell-v1-world-menu_list-lv1">
+                                <li class="sb-appshell-v1-world-menu_list-lv1-item">
+                                    <a href="/biz/" class="sb-appshell-v1-world-menu_list-lv1-link sb-appshell-v1-world-menu_list-lv1-link-biz">
+                                        <span class="sb-appshell-v1-world-menu_list-lv1-link-text">法人のお客さま</span>
+                                    </a>
+                                </li>
+                                <li class="sb-appshell-v1-world-menu_list-lv1-item">
+                                    <a href="/corp/" class="sb-appshell-v1-world-menu_list-lv1-link sb-appshell-v1-world-menu_list-lv1-link-corp">
+                                        <span class="sb-appshell-v1-world-menu_list-lv1-link-text">企業・IR</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div><!-- .sb-appshell-v1-header-fixed-area_inner -->
+        </div><!-- .sb-appshell-v1-header-fixed-area -->
+        <div id="sb-appshell-v1-container" class="sb-appshell-v1-container">
+            <div id="sb-appshell-v1-contents" class="sb-appshell-v1-contents">
+
+
+
+                <div id="sb-appshell-v1-header-breadcrumbs" class="sb-appshell-v1-header-breadcrumbs">
+                    <div class="sb-appshell-v1-header-breadcrumbs_inner">
+                        <ol class="sb-appshell-v1-header-breadcrumbs_list">
+                            <li class="sb-appshell-v1-header-breadcrumbs_item sb-appshell-v1-header-breadcrumbs_item-home"><a href="/" class="sb-appshell-v1-header-breadcrumbs_item-link">ホーム</a></li>
+                            <li class="sb-appshell-v1-header-breadcrumbs_item"><strong class="sb-appshell-v1-header-breadcrumbs_item-current">404 Not Found</strong></li>
+                        </ol>
+                    </div>
+                    <!-- /sb-appshell-v1-header-breadcrumbs -->
+                </div>
+
+                <div id="str-container">
+
+                    <main class="contents-area" role="main">
+                        <section class="section-container-01 section-container-01_first sp-pb-10">
+                            <div class="section-container-01_inner-w-950-pc section-container-01_inner-sp js-icon">
+                                <h1 class="title-invisible">404 Not Found</h1>
+                                <section class="section-lv2 pc-pt-0 sp-pt-0">
+                                    <div class="box-text-01">
+                                        <h2 class="title-lv2 sp-ta-left">ご利用ありがとうございます。<br />アクセスしたページが見つかりません。</h2>
+                                        <p class="text sp-ta-left">URLを再度ご確認の上、アクセスしてください。</p>
+                                        <p class="text sp-ta-left"><a href="/">ソフトバンク ホーム</a></p>
+                                    </div>
+                                </section>
+                                <section class="section-lv2">
+                                    <div class="box-text-01">
+                                        <h2 class="title-lv2 sp-ta-left">Not Found</h2>
+                                        <p class="text sp-ta-left">We're sorry but the requested URL is not found on this server.</p>
+                                        <p class="text sp-ta-left"><a href="/en/">SoftBank Home</a></p>
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+                    </main>
+
+                </div>
+
+                <div id="sb-appshell-v1-footer-breadcrumbs" class="sb-appshell-v1-footer-breadcrumbs">
+                    <div class="sb-appshell-v1-footer-breadcrumbs_inner">
+                        <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="sb-appshell-v1-footer-breadcrumbs_list">
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="sb-appshell-v1-footer-breadcrumbs_item sb-appshell-v1-footer-breadcrumbs_item-home">
+                                <a href="/" class="sb-appshell-v1-footer-breadcrumbs_item-link">ホーム</a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="sb-appshell-v1-footer-breadcrumbs_item">
+                                <span itemprop="name" class="sb-appshell-v1-footer-breadcrumbs_item-current">404 Not Found</span>
+                                <link itemprop="item" href="/assets/error_404/">
+                                <meta itemprop="position" content="2">
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- /sb-appshell-v1-footer-breadcrumbs -->
+                </div>
+
+                <!-- /#sb-appshell-v1-contents-->
+            </div>
+            <!-- /#sb-appshell-v1-container -->
+        </div>
+
+        <footer id="sb-appshell-v1-footer" class="sb-appshell-v1-footer" role="contentinfo">
+            <div class="sb-appshell-v1-footer_inner _ga_area_footer">
+                <div class="sb-appshell-v1-footer_contents-inner">
+
+                    <div class="sb-appshell-v1-footer_fontsize">
+                        <span class="sb-appshell-v1-footer_fontsize-title">文字サイズ</span>
+                        <ol class="sb-appshell-v1-footer_fontsize-list">
+                            <li class="sb-appshell-v1-footer_fontsize-item sb-appshell-v1-footer_fontsize-item-small"><button type="button" data-sb-fontsize="small" class="sb-appshell-v1-footer_fontsize-button sb-appshell-v1-footer_fontsize-button-small">A</button></li>
+                            <li class="sb-appshell-v1-footer_fontsize-item sb-appshell-v1-footer_fontsize-item-medium sb-appshell-v1-footer_fontsize-item--current"><button type="button" data-sb-fontsize="medium" class="sb-appshell-v1-footer_fontsize-button sb-appshell-v1-footer_fontsize-button-medium">A</button></li>
+                            <li class="sb-appshell-v1-footer_fontsize-item sb-appshell-v1-footer_fontsize-item-large"><button type="button" data-sb-fontsize="large" class="sb-appshell-v1-footer_fontsize-button sb-appshell-v1-footer_fontsize-button-large">A</button></li>
+                        </ol>
+                    </div>
+
+                    <div class="sb-appshell-v1-footer_logo">
+                        <a href="/" class="sb-appshell-v1-footer_logo-link">ソフトバンク</a>
+                    </div>
+
+                    <ul class="sb-appshell-v1-footer_utility">
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/help/sitepolicy/trademark/" class="sb-appshell-v1-footer_utility-link">商標について</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/corp/group/sbm/security/" class="sb-appshell-v1-footer_utility-link">情報セキュリティポリシー</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/corp/group/sbm/privacy/" class="sb-appshell-v1-footer_utility-link">個人情報の取り扱いについて</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/help/legal/" class="sb-appshell-v1-footer_utility-link">約款・重要事項</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/help/sitepolicy/" class="sb-appshell-v1-footer_utility-link">サイトポリシー</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/help/legalnotice/" class="sb-appshell-v1-footer_utility-link">免責事項</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/corp/aboutus/profile/#03" class="sb-appshell-v1-footer_utility-link">古物営業法に基づく表示</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/mobile/support/online-shop/tokutei/" class="sb-appshell-v1-footer_utility-link">特定商取引法に基づく表示</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/mobile/support/repair/trouble/return/" class="sb-appshell-v1-footer_utility-link">商品の返品・交換について</a></li>
+                        <li class="sb-appshell-v1-footer_utility-item"><a href="/sitemap/" class="sb-appshell-v1-footer_utility-link">サイトマップ</a></li>
+                    </ul>
+
+                    <p class="sb-appshell-v1-footer_registration">電気通信事業登録番号：第72号</p>
+
+                    <p class="sb-appshell-v1-footer_copyright"><small class="sb-appshell-v1-footer_copyright-small">© SoftBank Corp. All Rights Reserved.</small></p>
+
+                </div>
+                <!-- /sb-appshell-v1-footer-bottom -->
+            </div>
+        </footer>
+
+        <!-- /#sb-appshell-v1 -->
+    </div>
+
+
+    <!-- SDATE VALUE="2013/09/19" -->
+    <!-- created : 2018/07/24 18:49 -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-BMSW"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        try {
+            if (navigator.appVersion.toLowerCase().indexOf("msie 6.") == -1) {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-BMSW');
+            }
+        } catch (e) {
+        }
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Adobe Marketing Cloud Tag Management code
+    Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+    More info available at http://www.adobe.com -->
+    <script language="JavaScript" type="text/javascript" src="/assets/set/common/p/js/site_catalyst/s_code.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/assets/set/common/p/js/site_catalyst/s_code_signal.js"></script>
+    <!-- End Adobe Marketing Cloud Tag Management code -->
+    <!-- Y! Tag 2019/09/03 -->
+    <script type="text/javascript">
+        (function () {
+            window.addEventListener(
+                "load",
+                function () {
+                    var tagjs = document.createElement("script");
+                    var s = document.getElementsByTagName("script")[0];
+                    tagjs.src = "//s.yjtag.jp/tag.js#site=pqAkEhi&referrer=" + encodeURIComponent(document.location.href) + "";
+                    s.parentNode.insertBefore(tagjs, s);
+                },
+                false
+            );
+        })();
+    </script>
+    <noscript>
+        <iframe src="//b.yjtag.jp/iframe?c=pqAkEhi" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </noscript>
+    <!-- End Y! Tag -->
+
+</body>
+</html>

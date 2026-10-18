@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700">
+  <link rel="stylesheet" href="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/css/common_30.css?v=16">  <link rel="stylesheet" href="https://paypay.ne.jp/wp-content/themes/paypay/assets/consumer/css/consumer_common_02.css?v=1">
+  <link rel="stylesheet" href="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/css/header-new.css?v=24">
+  <link rel="stylesheet" href="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/css/footer.css?v=6">  <link rel="stylesheet" href="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/css/slick.css?v=1">  <link rel="stylesheet" href="https://paypay.ne.jp/wp-content/themes/paypay/assets/top/css/top_58.css?v=8">
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGGS3FG');</script>
+<!-- End Google Tag Manager -->
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.4 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>PayPay - QRコードで支払うキャッシュレス決済のスマホアプリ</title>
+	<meta name="description" content="PayPayは、スマホひとつでカンタン・おトクにお支払いができるアプリです。最短1分で登録完了！街のお店をはじめ、ネットサービスや請求書のお支払いなどにもご使用いただけます。" />
+	<link rel="canonical" href="https://paypay.ne.jp/" />
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="PayPay - QRコードで支払うキャッシュレス決済のスマホアプリ" />
+	<meta property="og:description" content="PayPayは、スマホひとつでカンタン・おトクにお支払いができるアプリです。最短1分で登録完了！街のお店をはじめ、ネットサービスや請求書のお支払いなどにもご使用いただけます。" />
+	<meta property="og:url" content="https://paypay.ne.jp/" />
+	<meta property="og:site_name" content="PayPay" />
+	<meta property="og:image" content="https://paypay.ne.jp/uploads/top/bnr_ogp_17.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1200" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"CollectionPage","@id":"https:\/\/paypay.ne.jp\/","url":"https:\/\/paypay.ne.jp\/","name":"PayPay - QRコードで支払うキャッシュレス決済のスマホアプリ","isPartOf":{"@id":"https:\/\/paypay.ne.jp\/#website"},"description":"PayPayは、スマホひとつでカンタン・おトクにお支払いができるアプリです。最短1分で登録完了！街のお店をはじめ、ネットサービスや請求書のお支払いなどにもご使用いただけます。","breadcrumb":{"@id":"https:\/\/paypay.ne.jp\/#breadcrumb"},"inLanguage":"ja"},{"@type":"BreadcrumbList","@id":"https:\/\/paypay.ne.jp\/#breadcrumb","itemListElement":[]},{"@type":"WebSite","@id":"https:\/\/paypay.ne.jp\/#website","url":"https:\/\/paypay.ne.jp\/","name":"PayPay","description":"QRコードで支払うキャッシュレス決済のスマホアプリ","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/paypay.ne.jp\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"ja"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//paypay.ne.jp' />
+<link rel="alternate" type="application/rss+xml" title="PayPay &raquo; フィード" href="https://paypay.ne.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PayPay &raquo; コメントフィード" href="https://paypay.ne.jp/comments/feed/" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='child-style-css' href='https://paypay.ne.jp/wp-content/themes/paypay/style.css?ver=6.9.5' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://paypay.ne.jp/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://paypay.ne.jp/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.5" />
+<link rel="icon" href="https://paypay.ne.jp/uploads/2022/03/cropped-cropped-paypay-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://paypay.ne.jp/uploads/2022/03/cropped-cropped-paypay-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://paypay.ne.jp/uploads/2022/03/cropped-cropped-paypay-180x180.png" />
+<meta name="msapplication-TileImage" content="https://paypay.ne.jp/uploads/2022/03/cropped-cropped-paypay-270x270.png" />
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGGS3FG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="pagetop" class="wrapper">
+  <header class="c-header c-header--service appView--hide js-header">
+    <div class="c-header__inner c-container switch">
+      <div class="c-header__logo">
+        <a href="https://paypay.ne.jp/" class="c-header__logo-link" data-eventcategory="website" data-eventaction="top_logo_clicked" data-eventLabel="c-header">
+          <img class="pc" src="https://image.paypay.ne.jp/page/common/images/ico_logo_paypay.svg" alt="PayPay">
+          <img class="sp" src="https://image.paypay.ne.jp/page/common/images/ico_logo_paypay_sp.svg" alt="PayPay">
+        </a>
+      </div>
+
+      <div class="c-header__menu" id="c-header__menu">
+        <ul class="c-header__menu-list">
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/start/" data-eventcategory="website" data-eventaction="start_clicked" data-eventLabel="c-header">はじめる</a>
+          </li>
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/useful/" data-eventcategory="website" data-eventaction="useful_clicked" data-eventLabel="c-header">便利に使う</a>
+          </li>
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/point/" data-eventcategory="website" data-eventaction="point_clicked" data-eventLabel="c-header">PayPayポイント</a>
+          </li>
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/shop/" data-eventcategory="website" data-eventaction="shop_clicked" data-eventLabel="c-header">使えるお店</a>
+          </li>
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/event/" data-eventcategory="website" data-eventaction="event_clicked" data-eventLabel="c-header">キャンペーン</a>
+          </li>
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/guide/" data-eventcategory="website" data-eventaction="guide_clicked" data-eventLabel="c-header">サービス・機能一覧</a>
+          </li>
+          <li class="c-header__menu-item">
+            <a class="c-header__menu-link" href="https://paypay.ne.jp/help/" data-eventcategory="website" data-eventaction="help_clicked" data-eventLabel="c-header">よくあるご質問</a>
+          </li>
+          <li class="c-header__menu-item--no-border-for-sp">
+            <div class="c-header__service-hovering">
+              <button
+                class="c-header__menu-link--subheading c-header__service-button gtm-click-event"
+                type="button"
+                aria-expanded="false"
+                aria-controls="header-service-menu"
+                data-eventcategory="website"
+                data-eventaction="paypay_financial_services_clicked"
+                data-eventLabel="c-header">
+                PayPayの金融サービス
+              </button>
+              <div class="c-header__service" id="header-service-menu">
+                <ul class="c-header__service-list">
+                  <li class="c-header__service-item">
+                    <a class="c-header__service-link" href="https://www.paypay-card.co.jp/" data-eventcategory="website" data-eventaction="paypay_card_clicked" data-eventLabel="c-header">
+                      <svg class="c-header__service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M3.3335 11.6666C3.3335 9.8257 4.82588 8.33331 6.66683 8.33331H33.3335C35.1744 8.33331 36.6668 9.8257 36.6668 11.6666V28.3333C36.6668 30.1743 35.1744 31.6666 33.3335 31.6666H6.66683C4.82588 31.6666 3.3335 30.1743 3.3335 28.3333V11.6666Z" fill="#606060"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.83291 31.5401H9.22365L10.2871 27.1039C17.3635 26.5649 21.6993 24.9065 22.6401 20.5531C23.6627 15.7436 17.0362 10.9342 3.3335 11.3073V15.3705C6.40126 15.0803 9.26452 15.0803 11.8006 15.329L7.83291 31.5401ZM13.0277 15.4949C18.7542 16.2826 22.3128 18.3556 21.7811 20.5946C21.2084 22.9993 15.7682 24.4504 10.9416 24.2431L13.0277 15.4949Z" fill="#DDDDDD"/>
+                      </svg>
+                      <span class="c-header__service-text">PayPayカード</span>
+                    </a>
+                  </li>
+                  <li class="c-header__service-item">
+                    <a class="c-header__service-link" href="https://www.paypay-bank.co.jp/" data-eventcategory="website" data-eventaction="paypay_bank_clicked" data-eventLabel="c-header">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.13496 10.8937C6.61114 10.8937 6.1865 10.4691 6.1865 9.94528V9.55473C6.1865 9.20079 6.38358 8.8763 6.69765 8.71311L15.5625 4.10684C15.8367 3.96439 16.163 3.96439 16.4372 4.10684L25.302 8.71311C25.6161 8.8763 25.8132 9.20079 25.8132 9.55473V9.94528C25.8132 10.4691 25.3885 10.8937 24.8647 10.8937H7.13496Z" fill="#002970"/>
+                        <path d="M6.61727 24.5895C5.90816 24.5895 5.33331 25.1643 5.33331 25.8734C5.33331 26.5825 5.90816 27.1574 6.61727 27.1574H25.3827C26.0918 27.1574 26.6666 26.5825 26.6666 25.8734C26.6666 25.1643 26.0918 24.5895 25.3827 24.5895H6.61727Z" fill="#002970"/>
+                        <path d="M8.49377 14.7691C8.49377 14.1145 9.0244 13.5839 9.67896 13.5839C10.3335 13.5839 10.8641 14.1145 10.8641 14.7691V21.3115C10.8641 21.966 10.3335 22.4967 9.67896 22.4967C9.0244 22.4967 8.49377 21.9661 8.49377 21.3115V14.7691Z" fill="#FD5C5C"/>
+                        <path d="M21.1359 14.7691C21.1359 14.1145 21.6665 13.5839 22.3211 13.5839C22.9756 13.5839 23.5062 14.1145 23.5062 14.7691V21.3115C23.5062 21.966 22.9756 22.4967 22.3211 22.4967C21.6665 22.4967 21.1359 21.9661 21.1359 21.3115V14.7691Z" fill="#FD5C5C"/>
+                        <path d="M15.9999 13.5839C15.3454 13.5839 14.8147 14.1145 14.8147 14.7691V21.3115C14.8147 21.9661 15.3454 22.4967 15.9999 22.4967C16.6545 22.4967 17.1851 21.966 17.1851 21.3115V14.7691C17.1851 14.1145 16.6545 13.5839 15.9999 13.5839Z" fill="#FD5C5C"/>
+                      </svg>
+                      <span class="c-header__service-text">PayPay銀行</span>
+                    </a>
+                  </li>
+                  <li class="c-header__service-item">
+                    <a class="c-header__service-link" href="https://www.paypay-sec.co.jp/" data-eventcategory="website" data-eventaction="paypay_sec_clicked" data-eventLabel="c-header">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M27.0528 8.0191V27.0513H8.02059C6.6643 27.0513 5.56482 25.9518 5.56482 24.5955V19.0701L12.3182 13.5446L19.6855 16.6143L27.0528 8.0191Z" fill="#3895FF"/>
+                        <path d="M26.6462 13.3704C26.7385 13.4068 26.837 13.4248 26.9362 13.4231C27.1397 13.4231 27.3349 13.3423 27.4788 13.1984C27.6227 13.0544 27.7036 12.8592 27.7036 12.6557V8.20462C27.696 7.99537 27.6095 7.79676 27.4614 7.6487C27.3133 7.50064 27.1147 7.41411 26.9055 7.40649H22.4851C22.2816 7.40649 22.0864 7.48735 21.9424 7.63127C21.7985 7.77519 21.7177 7.97039 21.7177 8.17392C21.7177 8.37746 21.7985 8.57265 21.9424 8.71658C22.0864 8.8605 22.2816 8.94135 22.4851 8.94135H25.2253L19.268 15.664L12.2199 12.2689L4.79252 18.4094C4.66129 18.5075 4.56492 18.6451 4.51751 18.8019C4.4701 18.9588 4.47413 19.1267 4.52903 19.2811C4.58392 19.4355 4.68679 19.5683 4.82258 19.66C4.95837 19.7517 5.11995 19.7975 5.28367 19.7908C5.46426 19.8 5.64239 19.7457 5.7871 19.6373L12.441 14.08L19.6855 17.5549L26.1687 10.2275V12.6803C26.1703 12.7794 26.1915 12.8773 26.2309 12.9683C26.2703 13.0593 26.3273 13.1417 26.3986 13.2107C26.4698 13.2796 26.554 13.3339 26.6462 13.3704Z" fill="#002970"/>
+                        <path d="M5.11051 4.34219C5.53434 4.34219 5.87793 4.68578 5.87793 5.10962V25.0569C5.87793 25.3418 5.99113 25.6151 6.19262 25.8166C6.39411 26.0181 6.66738 26.1313 6.95233 26.1313H26.9116C27.3354 26.1313 27.679 26.4749 27.679 26.8987C27.679 27.3226 27.3354 27.6661 26.9116 27.6661H6.95233C6.26031 27.6661 5.59664 27.3912 5.10731 26.9019C4.61798 26.4126 4.34308 25.7489 4.34308 25.0569V5.10962C4.34308 4.68578 4.68667 4.34219 5.11051 4.34219Z" fill="#002970"/>
+                      </svg>
+                      <span class="c-header__service-text">PayPay証券</span>
+                    </a>
+                  </li>
+                  <li class="c-header__service-item">
+                    <a class="c-header__service-link" href="https://www.paypay-insurance.co.jp/promotion/app/" data-eventcategory="website" data-eventaction="paypay_insurance_clicked" data-eventLabel="c-header">
+                      <svg class="c-header__service-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M28.1893 28.581C27.8815 28.581 27.5827 28.4542 27.3564 28.2188C26.9308 27.7571 26.958 27.0418 27.4197 26.6163L32.1278 22.2251C33.7394 20.6135 34.5633 18.3772 34.3822 16.0865C34.2011 13.805 33.0332 11.7135 31.1771 10.3554C28.1078 8.11908 23.6805 8.54462 20.8738 11.3604C20.4301 11.804 19.7149 11.804 19.2712 11.3604C18.8276 10.9167 18.8276 10.2015 19.2712 9.75785C22.8656 6.16343 28.5515 5.63831 32.5081 8.52651C34.8983 10.2739 36.4012 12.9629 36.6366 15.9055C36.863 18.857 35.8037 21.7453 33.7213 23.8277L33.178 24.3709L28.9499 28.2822C28.7416 28.4814 28.47 28.581 28.1893 28.581Z" fill="#41D9D9"/>
+                        <path d="M20.05 35.0274C19.3528 35.0274 18.6647 34.7829 18.1034 34.294L6.87649 24.4252L6.27893 23.8277C4.19653 21.7453 3.13722 18.8661 3.36357 15.9055C3.58991 12.9629 5.09287 10.2739 7.49216 8.52651C11.4487 5.63831 17.1436 6.16343 20.729 9.75785L23.6896 12.7819C24.1242 13.2255 24.1242 13.9408 23.6715 14.3844C23.2369 14.819 22.5126 14.819 22.078 14.3663L19.1265 11.3513C16.3197 8.55367 11.8924 8.11908 8.83214 10.3554C6.97608 11.7135 5.80813 13.805 5.62705 16.0865C5.44597 18.3772 6.26988 20.6135 7.88148 22.2251L8.42471 22.7683L19.6063 32.5919C19.8598 32.8092 20.222 32.8182 20.4846 32.61L24.2872 29.5045C24.7761 29.1061 25.4823 29.1785 25.8807 29.6674C26.2791 30.1473 26.2066 30.8626 25.7177 31.2609L21.9151 34.3664C21.3628 34.8101 20.7109 35.0274 20.05 35.0274Z" fill="#002970"/>
+                      </svg>
+                      <span class="c-header__service-text">PayPayほけん</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="c-header__service-note-parent">
+                  <p class="c-header__service-note">各社のTOPページに遷移します</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="c-header__menu-item sp tab-show">
+            <div class="c-header__rightmenu c-rightmenu">
+              <ul class="c-rightmenu__list">
+                <li class="c-rightmenu__item">
+                  <a class="c-rightmenu__link" href="https://paypay.ne.jp/notice/" data-eventcategory="website" data-eventaction="notice_clicked" data-eventLabel="c-header">お知らせ</a>
+                </li>
+                <li class="c-rightmenu__item">
+                  <a class="c-rightmenu__link" href="https://paypay.ne.jp/biz/" data-eventcategory="website" data-eventaction="biz_clicked" data-eventLabel="c-header">法人のお客様</a>
+                </li>
+                <li class="c-rightmenu__item">
+                  <a class="c-rightmenu__link" href="https://paypay.ne.jp/local-governments/" data-eventcategory="website" data-eventaction="local-governments_clicked" data-eventLabel="c-header">自治体の担当者様</a>
+                </li>
+                <li class="c-rightmenu__item">
+                  <a class="c-rightmenu__link" href="https://paypay.ne.jp/store/" data-eventcategory="website" data-eventaction="store_clicked" data-eventLabel="c-header">お店に導入する</a>
+                </li>
+                <li class="c-rightmenu__item">
+                  <a class="c-rightmenu__link c-external c-external--black" href="https://about.paypay.ne.jp/" data-eventcategory="website" data-eventaction="about_paypay_clicked" data-eventLabel="c-header">会社概要</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="c-header__right">
+        <div class="c-header__rightmenu c-rightmenu pc tab-hide">
+          <ul class="c-rightmenu__list">
+            <li class="c-rightmenu__item">
+              <a class="c-rightmenu__link" href="https://paypay.ne.jp/notice/" data-eventcategory="website" data-eventaction="notice_clicked" data-eventLabel="c-header">お知らせ</a>
+            </li>
+            <li class="c-rightmenu__item">
+              <a class="c-rightmenu__link" href="https://paypay.ne.jp/store/" data-eventcategory="website" data-eventaction="store_clicked" data-eventLabel="c-header">お店に導入する</a>
+            </li>
+            <li class="c-rightmenu__item">
+              <a class="c-rightmenu__link c-external c-external--black" href="https://about.paypay.ne.jp/" data-eventcategory="website" data-eventaction="about_paypay_clicked" data-eventLabel="c-header">会社概要</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="c-header__open gtm-click-event"
+          type="button"
+          aria-expanded="false"
+          aria-controls="c-header__menu"
+          aria-label="メニューを開く"
+          data-eventcategory="website"
+          data-eventaction="header_menu_clicked"
+          data-eventlabel="globalHeader">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+<div class="contents">
+  <div class="mainVisual">
+    <div class="mainVisual__background">
+      <img src="/wp-content/uploads/top/img_top_mv_18.png" alt="" class="mainVisual__image">
+    </div>
+    <div class="mainVisual__inner">
+      <h1 class="mainVisual__title">スマホひとつで<br>かんたんに<br>お支払いはPayPayで</h1>
+
+    </div>
+  </div>
+  <!-- /mainVisual -->
+
+  <div class="download appView--hide">
+    <div class="download__container">
+      <div class="download__wrapper">
+        <p class="download__text">いますぐ<span class="download__text--emphasis">PayPayアプリ</span>をダウンロード<span class="download__text--emphasis switch__display--pc"> ＞＞</span></p>
+        <div class="download__contents">
+          <p class="download__device userDevice--ios">
+            <a class="download__link" href="https://apps.apple.com/jp/app/id1435783608?mt=8" data-eventcategory="website" data-eventaction="appbanner_ios_clicked" data-eventlabel="download">
+              <img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/common/images/btn_appstore_01.png" alt="App Store からダウンロード" class="download__image lazyload">
+            </a>
+          </p>
+          <p class="download__device userDevice--android">
+            <a class="download__link" href="https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app" data-eventcategory="website" data-eventaction="appbanner_android_clicked" data-eventlabel="download">
+              <img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/common/images/img_googleplay_01.png" alt="Google Play で手に入れよう" class="download__image lazyload">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /download -->
+
+  
+    <section class="campaign--top">
+    <div class="campaign__inner">
+      <div class="campaign__banner campaignBanner--top">
+        <ul class="campaignBanner__list--center">
+                              <li class="campaignBanner__item">
+            <a href="https://paypay.ne.jp/guide/coupon/" data-eventcategory="website" data-eventaction="guide_coupon_clicked" data-eventlabel="campaignBanner"  class="campaignBanner__link">
+              <img src="https://paypay.ne.jp/uploads/2023/04/bnr_top_paypay-coupon_02.png" alt="有名店やお近くのお店で使える！毎週更新 おトク！PayPayクーポン" class="campaignBanner__image">            </a>
+          </li>
+                              <li class="campaignBanner__item">
+            <a href="https://paypay.ne.jp/event/youth-20260303/" data-eventcategory="website" data-eventaction="event_youth-20260303_clicked" data-eventlabel="campaignBanner"  class="campaignBanner__link">
+              <img src="https://paypay.ne.jp/uploads/top/bnr_top_youth-20260303_01.png" alt="12〜18歳対象！おトクなキャンペーン開催中 ※条件・上限あり" class="campaignBanner__image">            </a>
+          </li>
+                              <li class="campaignBanner__item">
+            <a href="https://paypay.ne.jp/event/referral/" data-eventcategory="website" data-eventaction="event_referral_clicked" data-eventlabel="campaignBanner"  class="campaignBanner__link">
+              <img src="https://paypay.ne.jp/uploads/top/bnr_top_referral-program_20260529_01.png" alt="家族や知り合いにPayPayを紹介しよう！紹介した人紹介された人どちらも最大300ptもらえる※条件・上限あり" class="campaignBanner__image">            </a>
+          </li>
+                              <li class="campaignBanner__item">
+            <a href="/start/" data-eventcategory="website" data-eventaction="start_clicked" data-eventlabel="campaignBanner"  class="campaignBanner__link">
+              <img src="https://paypay.ne.jp/uploads/cp-banner/bnr_top_start_01.png" alt="アカウント登録・お金のチャージ方法・お店での支払い方などを紹介します。" class="campaignBanner__image">            </a>
+          </li>
+                  </ul>
+      </div>
+    </div><!-- /campaign__inner -->
+  </section>
+  <!-- /campaign -->
+  
+	<section id="service" class="foreword">
+		<div class="foreword__inner">
+			<h2 class="foreword__title switch"><span class="foreword__title--highlight">PayPay</span>って<br class="switch__display--sp">どんなサービス？</h2>
+			<!-- アニメーション-->
+			<div class="foreword__animation animation--scale">
+				<!-- 吹き出し -->
+				<div class="animation__circle--balloon forewordAnimation--balloon">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_forewordIllust_04.png" alt="" class="animation__image lazyload">
+				</div>
+				<!-- 人物イラスト -->
+				<div class="animation__circle--illust forewordAnimation--illust">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_forewordIllust_03.png" alt="" class="animation__image lazyload">
+				</div>
+				<!-- 左側 -->
+				<div class="animation__circle--pink forewordAnimation--pinkLeft"></div>
+				<div class="animation__circle--solid forewordAnimation--solid"></div>
+				<div class="animation__circle--yellow forewordAnimation--yellow"></div>
+				<div class="animation__circle--dots forewordAnimation--dotsLeft">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_dots_02.png" alt="" class="animation__image--rotate lazyload">
+				</div>
+				<!-- 右側 -->
+				<div class="animation__circle--dots forewordAnimation--dotsRight">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_dots_02.png" alt="" class="animation__image--rotate lazyload">
+				</div>
+				<div class="animation__circle--orange forewordAnimation--orange"></div>
+				<div class="animation__circle--pink forewordAnimation--pinkRight"></div>
+				<div class="animation__circle--red forewordAnimation--red"></div>
+			</div>
+			<!-- /アニメーション-->
+		</div>
+		<div class="foreword__scroll">
+			<p class="foreword__text">SCROLL</p>
+			<div class="foreword__arrow">
+				<a href="#about" class="foreword__button" data-eventcategory="website" data-eventaction="scroll_clicked" data-eventlabel="service">
+					<span class="foreword__text--hide">SCROLL</span>
+					<span class="foreword__icon animationTarget--float">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/ico_arrow_02.png" alt="" class="foreword__image lazyload">
+					</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- /foreword -->
+
+	<section id="about" class="about">
+		<div class="about__inner">
+			<h2 class="about__title switch">スマホひとつで<br class="switch__display--sp">お支払い</h2>
+			<p class="about__text switch">おサイフを持ち歩かなくても、<br class="switch__display--sp">スマホひとつで<br class="switch__display--sp">簡単・スマートにお支払いができます</p>
+			<ul class="about__list animation--fadein">
+				<li class="about__item">
+					<div class="about__canvas">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_about_03.png" alt="" class="about__image lazyload">
+					</div>
+					<p class="about__caption">バーコードを見せる</p>
+				</li>
+				<li class="about__item">
+					<div class="about__canvas">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_about_04.png" alt="" class="about__image lazyload">
+					</div>
+					<p class="about__caption">QRコードを読み取る</p>
+				</li>
+			</ul>
+			<!-- <p class="about__transition mainButton">
+				<a href="https://paypay.ne.jp/start/" class="mainButton__button" data-eventcategory="website" data-eventaction="start_btn_upper_clicked" data-eventlabel="about">PayPayの始め方</a>
+			</p> -->
+			<div class="about__noteContents noteContents">
+				<p class="noteContents__note">ご利用の際に、お支払い情報の登録が必要です。</p>
+				<p class="noteContents__note">ご利用の際に、通信量に応じたパケット通信料金が発生します。</p>
+			</div>
+		</div><!-- /about__inner -->
+	</section>
+	<!-- /about -->
+
+	<section class="charge">
+		<div class="charge__inner switch">
+			<!-- PCのみ：アニメーション-->
+			<div class="charge__animation animation--scale switch__display--pc">
+				<div class="animation__circle--border chargeAnimation--border"></div>
+				<div class="animation__circle--large chargeAnimation--large"></div>
+				<!-- 上部 -->
+				<div class="animation__circle--solid chargeAnimation--solid"></div>
+				<div class="animation__circle--pink chargeAnimation--pinkTop"></div>
+				<div class="animation__circle--dots chargeAnimation--dotsTop">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_dots_02.png" alt="" class="animation__image--rotate lazyload">
+				</div>
+				<!-- 下部 -->
+				<div class="animation__circle--dots chargeAnimation--dotsBottom">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_dots_02.png" alt="" class="animation__image--rotate lazyload">
+				</div>
+				<div class="animation__circle--pink chargeAnimation--pinkBottom"></div>
+				<!-- 人物イラスト -->
+				<div class="animation__circle--woman chargeAnimation--woman">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_chargeIllust_03.png" alt="" class="animation__image lazyload">
+				</div>
+				<div class="animation__circle--man chargeAnimation--man">
+					<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_chargeIllust_04.png" alt="" class="animation__image lazyload">
+				</div>
+			</div>
+			<!-- /PCのみ：アニメーション-->
+			<div class="charge__contents">
+				<h2 class="charge__title"><span class="charge__lead">登録は無料！最短1分</span>お支払い方法も<br class="switch__display--sp">選べます</h2>
+				<p class="charge__text">ご利用の登録は簡単な操作で<br class="switch__display--sp">最短1分で完了！<br>お支払い、チャージ方法も豊富です</p>
+				<!-- SPのみ：アニメーション-->
+				<div class="charge__animation animation--scale switch__display--sp">
+					<div class="animation__circle--border chargeAnimation--border"></div>
+					<div class="animation__circle--large chargeAnimation--large"></div>
+					<!-- 上部 -->
+					<div class="animation__circle--solid chargeAnimation--solid"></div>
+					<div class="animation__circle--pink chargeAnimation--pinkTop"></div>
+					<div class="animation__circle--dots chargeAnimation--dotsTop">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_dots_02.png" alt="" class="animation__image--rotate lazyload">
+					</div>
+					<!-- 下部 -->
+					<div class="animation__circle--dots chargeAnimation--dotsBottom">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_dots_02.png" alt="" class="animation__image--rotate lazyload">
+					</div>
+					<div class="animation__circle--pink chargeAnimation--pinkBottom"></div>
+					<!-- 人物イラスト -->
+					<div class="animation__circle--woman chargeAnimation--woman">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_chargeIllust_03.png" alt="" class="animation__image lazyload">
+					</div>
+					<div class="animation__circle--man chargeAnimation--man">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_chargeIllust_04.png" alt="" class="animation__image lazyload">
+					</div>
+				</div>
+				<!-- /SPのみ：アニメーション-->
+				<ul class="charge__list animation--fadein">
+					<li class="charge__item">
+						<a href="https://paypay.ne.jp/guide/bank/" class="charge__link" data-eventcategory="website" data-eventaction="guide_bank_clicked" data-eventlabel="charge">
+							<div class="charge__canvas">
+								<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_charge_01.png" alt="" class="charge__image lazyload">
+							</div>
+							<p class="charge__caption">銀行口座</p>
+						</a>
+					</li>
+					<li class="charge__item">
+						<a href="https://paypay.ne.jp/guide/paypay-card/" class="charge__link" data-eventcategory="website" data-eventaction="guide_paypay-card_clicked" data-eventlabel="charge">
+							<div class="charge__canvas--credit">
+								<img src="https://image.paypay.ne.jp/page/s.gif" data-original="/wp-content/uploads/top/img_paypay-card_01.png" alt="" class="charge__image lazyload">
+							</div>
+							<p class="charge__caption--credit">PayPayカード<br>（クレジットカード）</p>
+						</a>
+					</li>
+					<li class="charge__item">
+						<a href="https://paypay.ne.jp/help/c0087/" class="charge__link" data-eventcategory="website" data-eventaction="help_c0087_clicked" data-eventlabel="charge">
+							<div class="charge__canvas--atm">
+								<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_charge_04.png" alt="" class="charge__image--atm lazyload">
+							</div>
+							<p class="charge__caption">ATMから<br>現金チャージ</p>
+						</a>
+					</li>
+				</ul>
+				<p class="charge__transition mainButton">
+					<a href="https://paypay.ne.jp/guide/charge/" class="mainButton__button" data-eventcategory="website" data-eventaction="pay_btn_clicked" data-eventlabel="charge">その他のチャージ方法</a>
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- /charge -->
+
+	<section class="merit">
+		<div class="merit__inner">
+			<h2 class="merit__title">利用される理由</h2>
+			<h3 class="merit__subTitle switch">登録ユーザー <br class="switch__display--sp">ついに7,500万人到達！<span class="merit__subTitle--sup">※1</span></h3>
+			<ul class="merit__list animation--fadein">
+				<li class="merit__item">
+					<p class="merit__number">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/txt_number_01.png" alt="01" class="merit__image lazyload">
+					</p>
+					<div class="merit__canvas">
+						<a href="https://paypay.ne.jp/shop/" class="merit__link--thin" data-eventcategory="website" data-eventaction="reason_shop_clicked" data-eventlabel="merit">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_merit_08.png" alt="" class="merit__image lazyload">
+						</a>
+					</div>
+					<div class="merit__contents">
+						<h3 class="merit__lead">全国のお店で使える</h3>
+						<p class="merit__text">コンビニ、ドラッグストア、飲食店など様々なお店で利用できます。その他、ネットサービスや公共料金の支払いにも対応。</p>
+						<p class="merit__transition">
+							<a href="https://paypay.ne.jp/shop/" class="merit__link--main" data-eventcategory="website" data-eventaction="reason_shop_clicked" data-eventlabel="merit">使えるお店をみる</a>
+						</p>
+					</div>
+				</li>
+				<li class="merit__item">
+					<p class="merit__number">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/txt_number_02.png" alt="02" class="merit__image lazyload">
+					</p>
+					<div class="merit__canvas">
+						<a href="https://paypay.ne.jp/event/" class="merit__link--thin" data-eventcategory="website" data-eventaction="reason_event_clicked" data-eventlabel="merit">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_merit_09.png" alt="" class="merit__image lazyload">
+						</a>
+					</div>
+					<div class="merit__contents">
+						<h3 class="merit__lead">お買い物がおトクに</h3>
+						<p class="merit__text">お買い物で<a href="https://paypay.ne.jp/point/" class="merit__link" data-eventcategory="website" data-eventaction="reason_point_clicked" data-eventlabel="merit">PayPayポイント</a>が貯まります。おトクなキャンペーンや<a href="https://paypay.ne.jp/guide/coupon/" class="merit__link" data-eventcategory="website" data-eventaction="reason_event_coupon_clicked" data-eventlabel="merit">クーポン</a>もご用意！</p>
+						<p class="merit__transition">
+							<a href="https://paypay.ne.jp/event/" class="merit__link--main" data-eventcategory="website" data-eventaction="reason_event_clicked" data-eventlabel="merit">キャンペーンをみる</a>
+						</p>
+					</div>
+				</li>
+				<li class="merit__item">
+					<p class="merit__number">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/txt_number_03.png" alt="03" class="merit__image lazyload">
+					</p>
+					<div class="merit__canvas">
+						<a href="https://paypay.ne.jp/safe/" class="merit__link--thin" data-eventcategory="website" data-eventaction="reason_safe_clicked" data-eventlabel="merit">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_merit_10.png" alt="" class="merit__image lazyload">
+						</a>
+					</div>
+					<div class="merit__contents">
+						<h3 class="merit__lead">安全・安心に使える</h3>
+						<p class="merit__text">安心してご利用いただくために、情報保護や不正利用対策の実施のほか補償制度<span class="merit__text--sup">※2</span>もご用意しています。</p>
+						<p class="merit__transition">
+							<a href="https://paypay.ne.jp/safe/" class="merit__link--main" data-eventcategory="website" data-eventaction="reason_safe_clicked" data-eventlabel="merit">セキュリティについて</a>
+						</p>
+					</div>
+				</li>
+				<li class="merit__item">
+					<p class="merit__number">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/txt_number_04.png" alt="04" class="merit__image lazyload">
+					</p>
+					<div class="merit__canvas">
+						<a href="https://paypay.ne.jp/promo/p2p/" class="merit__link--thin" data-eventcategory="website" data-eventaction="reason_send_clicked" data-eventlabel="merit">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_merit_11.png" alt="" class="merit__image lazyload">
+						</a>
+					</div>
+					<div class="merit__contents switch">
+						<h3 class="merit__lead">友人・家族に<br class="switch__display--pc">残高が送れる</h3>
+						<p class="merit__text">遠方の相手にもかんたんに残高を送れます。<br class="switch__display--sp">面倒なお札や小銭も必要ありません。</p>
+						<p class="merit__transition">
+							<a href="https://paypay.ne.jp/promo/p2p/" class="merit__link--main" data-eventcategory="website" data-eventaction="reason_send_clicked" data-eventlabel="merit">残高を送る方法</a>
+						</p>
+					</div>
+				</li>
+				<li class="merit__item">
+					<p class="merit__number">
+						<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/txt_number_05.png" alt="05" class="merit__image lazyload">
+					</p>
+					<div class="merit__canvas">
+						<a href="https://paypay.ne.jp/guide/" class="merit__link--thin" data-eventcategory="website" data-eventaction="reason_function_clicked" data-eventlabel="merit">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_merit_12.png" alt="" class="merit__image lazyload">
+						</a>
+					</div>
+					<div class="merit__contents switch">
+						<h3 class="merit__lead">お買い物以外にも</h3>
+						<p class="merit__text">公共料金の支払い、デリバリーの注文から投資体験まで、PayPayアプリから様々な機能が利用できます！</p>
+						<p class="merit__transition">
+							<a href="https://paypay.ne.jp/guide/" class="merit__link--main" data-eventcategory="website" data-eventaction="reason_function_clicked" data-eventlabel="merit">利用可能な機能をみる</a>
+						</p>
+					</div>
+				</li>
+			</ul><!-- /merit__list -->
+      <div class="merit__noteContents noteContents">
+        <ol class="noteContents__list--noteNumber">
+          <li class="noteContents__item">2026年8月時点 当社調べ</li>
+          <li class="noteContents__item">被害に遭われた方に故意または重大な過失などがあった場合は、補償できない場合があります。</li>
+        </ol>
+      </div>
+		</div><!-- /merit__inner -->
+	</section>
+	<!-- /merit -->
+
+	<section class="stores">
+		<div class="stores__inner">
+			<h2 class="stores__title">使えるお店</h2>
+			<!--<h3 class="stores__subTitle">加盟店数374万カ所以上！<span class="stores__subTitle--sup">※</span></h3>-->
+			<h3 class="stores__subTitle">全国の様々な加盟店で使える！</h3>
+			<p class="stores__text">ネットストアや公共料金の支払いにも</p>
+			<ul class="stores__list animation--fadein">
+				<li class="stores__item">
+					<a href="https://paypay.ne.jp/shop/" class="stores__link" data-eventcategory="website" data-eventaction="shop_shop_clicked" data-eventlabel="stores">
+						<div class="stores__canvas">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_stores_04.png" alt="" class="stores__image lazyload">
+						</div>
+						<p class="stores__caption">全国のお店</p>
+					</a>
+				</li>
+				<li class="stores__item">
+					<a href="https://paypay.ne.jp/net-service/" class="stores__link" data-eventcategory="website" data-eventaction="shop_netservice_clicked" data-eventlabel="stores">
+						<div class="stores__canvas">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_stores_05.png" alt="" class="stores__image lazyload">
+						</div>
+						<p class="stores__caption">ネットサービス</p>
+					</a>
+				</li>
+				<li class="stores__item">
+					<a href="https://paypay.ne.jp/bill-payment/" class="stores__link" data-eventcategory="website" data-eventaction="shop_billpayment_clicked" data-eventlabel="stores">
+						<div class="stores__canvas">
+							<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_stores_06.png" alt="" class="stores__image lazyload">
+						</div>
+						<p class="stores__caption">公共料金の支払い</p>
+					</a>
+				</li>
+			</ul>
+			<p class="stores__transition mainButton">
+				<a href="https://paypay.ne.jp/shop/" class="mainButton__button" data-eventcategory="website" data-eventaction="shop_btn_clicked" data-eventlabel="stores">使えるお店を探す</a>
+			</p>
+			<!-- <div class="stores__noteContents noteContents">
+				<p class="noteContents__note">店舗やタクシーなど、「PayPay」への登録箇所数の累計です。2022年6月時点。</p>
+			</div> -->
+		</div>
+	</section>
+	<!-- /stores -->
+
+  <section class="ekyc">
+    <div class="ekyc__inner">
+      <h2 class="ekyc__title switch__display--sp">本人確認で<br>PayPayを<br>もっと便利に！<br>もっとおトクに！</h2>
+      <div class="ekyc__canvas animation--fadein">
+        <img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_ekyc_01.png" alt="本人確認（eKYC）のイラスト" class="ekyc__image lazyload">
+      </div>
+      <div class="ekyc__container">
+        <h2 class="ekyc__title switch__display--pc">本人確認でPayPayを<br>もっと便利に！もっとおトクに！</h2>
+        <p class="ekyc__text">本人確認をするとPayPayの全ての機能やサービスをご利用いただけます。</p>
+        <p class="ekyc__transition mainButton">
+          <a href="https://paypay.ne.jp/ekyc/" class="mainButton__button" data-eventcategory="website" data-eventaction="ekyc_clicked" eventlabel="ekyc">本人確認について</a>
+        </p>
+      </div>
+		</div>
+	</section>
+	<!-- /ekyc -->
+
+	<section class="scene">
+		<div class="scene__inner">
+			<h2 class="scene__title switch">いつもの生活が<br class="switch__display--sp">もっと便利でおトクに！</h2>
+			<div class="scene__container">
+				<ul class="scene__list js-carousel">
+					<li class="scene__item js-modalSliderOpen">
+						<div class="scene__contents">
+							<div class="scene__canvas">
+								<a href="javascript:void(0);" class="scene__link" data-eventcategory="website" data-eventaction="scene_1_clicked" data-eventlabel="scene">
+									<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/common/images/img_scene_10.png" alt="" class="scene__image lazyload">
+								</a>
+							</div>
+							<p class="scene__text">現金を触らずに<br>支払いできて衛生的！</p>
+						</div>
+					</li>
+					<li class="scene__item js-modalSliderOpen">
+						<div class="scene__contents">
+							<div class="scene__canvas">
+								<a href="javascript:void(0);" class="scene__link" data-eventcategory="website" data-eventaction="scene_2_clicked" data-eventlabel="scene">
+									<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/common/images/img_scene_11.png" alt="" class="scene__image lazyload">
+								</a>
+							</div>
+							<p class="scene__text">手がふさがっていても<br>片手でかんたん支払い！</p>
+						</div>
+					</li>
+					<li class="scene__item js-modalSliderOpen">
+						<div class="scene__contents">
+							<div class="scene__canvas">
+								<a href="javascript:void(0);" class="scene__link" data-eventcategory="website" data-eventaction="scene_3_clicked" data-eventlabel="scene">
+									<img src="https://image.paypay.ne.jp/page/common/images/img_scene_12.png" alt="" class="scene__image">
+								</a>
+							</div>
+							<p class="scene__text">離れていても<br>手軽にお祝いが送れる！</p>
+						</div>
+					</li>
+					<li class="scene__item js-modalSliderOpen">
+						<div class="scene__contents">
+							<div class="scene__canvas">
+								<a href="javascript:void(0);" class="scene__link" data-eventcategory="website" data-eventaction="scene_4_clicked" data-eventlabel="scene">
+									<img src="https://image.paypay.ne.jp/page/common/images/img_scene_13.png" alt="" class="scene__image">
+								</a>
+							</div>
+							<p class="scene__text">事前にクーポン取得すると<br>支払い時自動でおトクに！</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- モーダル部分 -->
+			<div class="scene__modal modalContents js-modalSlider">
+				<div class="modalContents__inner js-modalSliderInner">
+					<a href="javascript:void(0);" class="modalContents__close js-modalSliderClose">閉じる</a>
+					<div class="modalContents__list sceneContents js-modalSliderContents">
+						<div id="sceneContents01" class="sceneContents__item">
+							<div class="sceneContents__canvas">
+								<img src="https://image.paypay.ne.jp/page/common/images/img_scene_02.png" alt="" class="sceneContents__image">
+							</div>
+							<h3 class="sceneContents__title">現金を触らずに<br>支払いできて衛生的！</h3>
+							<p class="sceneContents__text">PayPayならスマホひとつで、現金を触らずに衛生的＆スマートなお支払いが可能です。 </p>
+							<p class="sceneContents__transition mainButton">
+								<a href="https://paypay.ne.jp/guide/store-payment/" class="mainButton__button" data-eventcategory="website" data-eventaction="scene_1_btn_clicked" data-eventlabel="scene">店頭で支払いをする</a>
+							</p>
+						</div>
+						<div id="sceneContents02" class="sceneContents__item">
+							<div class="sceneContents__canvas">
+								<img src="https://image.paypay.ne.jp/page/common/images/img_scene_04.png" alt="" class="sceneContents__image">
+							</div>
+							<h3 class="sceneContents__title">手がふさがっていても<br>片手でかんたん支払い！</h3>
+							<p class="sceneContents__text">荷物が多い時や子ども連れで手が離せない時も、PayPayなら片手でかんたんにお支払いできます。 </p>
+							<p class="sceneContents__transition mainButton">
+								<a href="https://paypay.ne.jp/guide/store-payment/" class="mainButton__button" data-eventcategory="website" data-eventaction="scene_2_btn_clicked" data-eventlabel="scene">店頭で支払いをする</a>
+							</p>
+						</div>
+						<div id="sceneContents03" class="sceneContents__item">
+							<div class="sceneContents__canvas">
+								<img src="https://image.paypay.ne.jp/page/common/images/img_scene_06.png" alt="" class="sceneContents__image">
+							</div>
+							<h3 class="sceneContents__title">離れていても<br>手軽にお祝いが送れる！</h3>
+							<p class="sceneContents__text">遠く離れた家族や友人に、手軽に残高が送れます。テーマやコメントも変えられるので気持ちも一緒に届きます。 </p>
+							<p class="sceneContents__transition mainButton">
+								<a href="https://paypay.ne.jp/promo/p2p/" class="mainButton__button" data-eventcategory="website" data-eventaction="scene_3_btn_clicked" data-eventlabel="scene">PayPayで送ろう</a>
+							</p>
+						</div>
+						<div id="sceneContents04" class="sceneContents__item">
+							<div class="sceneContents__canvas">
+								<img src="https://image.paypay.ne.jp/page/common/images/img_scene_08.png" alt="" class="sceneContents__image">
+							</div>
+							<h3 class="sceneContents__title switch">事前にクーポン取得すると<br class="switch__display--pc">支払い時自動でおトクに！</h3>
+							<p class="sceneContents__text">事前にクーポンを取得しておけば、支払い時に提示しなくても自動で特典が付与されます。 </p>
+							<p class="sceneContents__transition mainButton">
+								<a href="https://paypay.ne.jp/guide/coupon/" class="mainButton__button" data-eventcategory="website" data-eventaction="scene_4_btn_clicked" data-eventlabel="scene">クーポン</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /scene -->
+
+	<section class="start">
+		<div class="start__inner">
+			<h2 class="start__title switch">最短1分！<br class="switch__display--sp">今すぐ始めよう</h2>
+			<div class="start__flow flow">
+				<div class="flow__detail">
+					<ol class="flow__list">
+						<li id="step01" class="flow__item">
+							<div class="flow__contents">
+								<p class="flow__number">STEP 1</p>
+								<div class="flow__canvas">
+									<img src="https://image.paypay.ne.jp/page/s.gif" data-original="https://image.paypay.ne.jp/page/top/images/img_start_04.png" alt="" class="flow__image lazyload">
+								</div>
+								<p class="flow__lead">アプリをダウンロード</p>
+								<p class="flow__text">PayPayアプリを<a href="#appDownload" class="flow__link" data-eventcategory="website" data-eventaction="dl_anchor_clicked" data-eventlabel="start">ダウンロード</a>してログイン</p>
+							</div>
+						</li>
+						<li id="step02" class="flow__item">
+							<div class="flow__contents">
+								<p class="flow__number">STEP 2</p>
+								<div class="flow__canvas">
+									<img src="https://image.paypay.ne.jp/page/top/images/img_start_05.png" alt="" class="flow__image">
+								</div>
+								<p class="flow__lead">残高をチャージ</p>
+								<p class="flow__text">銀行口座やクレジットカードを登録。セブン銀行・ローソン銀行のATMから現金でのチャージも可能。</p>
+							</div>
+						</li>
+						<li id="step03" class="flow__item">
+							<div class="flow__contents">
+								<p class="flow__number">STEP 3</p>
+								<div class="flow__canvas">
+									<img src="https://image.paypay.ne.jp/page/top/images/img_start_06.png" alt="" class="flow__image">
+								</div>
+								<p class="flow__lead">お店で支払う</p>
+								<p class="flow__text">QRコードをお店で見せる。<br>またはお店のQRコードをスキャンして支払います。</p>
+							</div>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<p class="start__transition mainButton">
+				<a href="https://paypay.ne.jp/start/" class="mainButton__button--inversion" data-eventcategory="website" data-eventaction="start_btn_clicked" data-eventlabel="start">PayPayの始め方</a>
+			</p>
+		</div><!-- /start__inner -->
+	</section>
+	<!-- /start -->
+
+	<section class="faq">
+		<div class="faq__inner">
+			<h2 class="faq__title">よくある質問</h2>
+			<ul class="faq__container">
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_1_clicked" data-eventlabel="faq">アプリの登録は無料ですか？</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">PayPayアプリへのご登録は無料です。ただしPayPayアプリをご利用の際に通信量に応じたパケット通信料金が発生いたしますのでご注意ください。</p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_2_clicked" data-eventlabel="faq">利用に年齢制限はありますか？</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">利用者が未成年である場合、利用者は法定代理人の同意を得た上で残高を利用するものとします。</p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_3_clicked" data-eventlabel="faq">登録できる銀行を教えてください</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">現在、<a href="https://paypay.ne.jp/guide/bank-list/" class="faq__link">約1,000社（2026年9月現在）の金融機関</a>に対応しています。</p>
+						<p class="faq__text"><a href="https://paypay.ne.jp/guide/bank/" class="faq__link">銀行口座登録の手順</a></p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_4_clicked" data-eventlabel="faq">残高とは？</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">1円単位でお買い物にご利用いただけます。PayPay加盟店の店舗でのお買い物やPayPay公式ストアなどオンラインショッピングでも利用できます。</p>
+						<p class="faq__text"><a href="https://paypay.ne.jp/guide/charge/" class="faq__link">残高について</a></p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_5_clicked" data-eventlabel="faq">現金でチャージできますか？</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">セブン銀行ATMやローソン銀行ATMから現金で残高にチャージが可能です。</p>
+						<p class="faq__text"><a href="https://paypay.ne.jp/help/c0087/" class="faq__link">チャージ方法について</a></p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_6_clicked" data-eventlabel="faq">利用上限金額はありますか？</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">支払いや残高へのチャージ、残高を友だちに送る際にはご利用上限金額があります。また、支払いの上限金額は、支払い方法によって異なります。</p>
+						<p class="faq__text"><a href="https://paypay.ne.jp/help/c0043/" class="faq__link">利用上限金額について</a></p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_7_clicked" data-eventlabel="faq">推奨動作環境について教えてください</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">PayPayアプリをご利用いただくには、SMS認証コードを受信できる端末（スマートフォンのご契約）が必要です。</p>
+						<p class="faq__text"><a href="https://paypay.ne.jp/help/c0007/" class="faq__link">推奨動作環境について</a></p>
+					</div>
+				</li><!-- /.faq__detail -->
+				<li class="faq__detail js-AcorBox">
+					<button class="faq__question js-AcorBtn" type="button" data-eventcategory="website" data-eventaction="faq_8_clicked" data-eventlabel="faq">ログインできなくなりました</button>
+					<div class="faq__answer js-AcorDetail">
+						<p class="faq__text">パスワードを忘れたなどでログインできない場合は、パスワードの再設定が可能です。</p>
+						<p class="faq__text"><a href="https://paypay.ne.jp/help/c0016/" class="faq__link">ログインできない・パスワード再設定について</a></p>
+					</div>
+				</li><!-- /.faq__detail -->
+			</ul>
+			<p class="faq__transition mainButton">
+				<a href="https://paypay.ne.jp/help/" class="mainButton__button" data-eventcategory="website" data-eventaction="help_btn_clicked" data-eventlabel="faq">その他のよくある質問</a>
+			</p>
+		</div><!-- /faq__inner -->
+	</section>
+	<!-- /faq -->
+
+    <section class="campaign">
+    <div class="campaign__inner">
+      <h2 class="campaign__title">おトク情報</h2>
+      <div class="campaign__banner campaignBanner">
+        <ul class="campaignBanner__list--center">
+                              <li class="campaignBanner__item">
+            <a href="https://store.shopping.yahoo.co.jp/paypaystore/" data-eventcategory="website" data-eventaction="paypaystore_clicked" data-eventlabel="campaignBanner_otoku"  class="campaignBanner__link">
+              <img src="https://paypay.ne.jp/uploads/2022/10/bnr_top_paypaystore_01.png" alt="PayPay公式ストアでオリジナルグッズ送料無料" class="campaignBanner__image">            </a>
+          </li>
+                  </ul>
+      </div><!-- /campaignBanner -->
+      <div class="campaign__contents">
+        <p class="campaign__transition">
+          <a href="https://paypay.ne.jp/event/" class="campaign__link" data-eventcategory="website" data-eventaction="event_clicked" data-eventlabel="campaign">キャンペーン一覧</a>
+        </p>
+        <p class="campaign__transition">
+          <a href="https://paypay.ne.jp/notice/" class="campaign__link" data-eventcategory="website" data-eventaction="notice_clicked" data-eventlabel="campaign">お知らせ一覧</a>
+        </p>
+      </div>
+    </div><!-- /campaign__inner -->
+  </section>
+  <!-- /campaign -->
+  
+	<div class="top">
+	<a href="#pagetop" class="top__button">TOP</a>
+</div>
+	  <div class="stickyApp appView--hide userDevice--otherDisplayPc">
+    <div class="stickyApp__body">
+      <div class="stickyApp__container">
+        <a href="javascript:void(0);" class="stickyApp__close">閉じる</a>
+        <div class="stickyApp__wrapper">
+          <p class="stickyApp__text switch">いますぐ<span class="stickyApp__text--emphasis">PayPayアプリ</span>をダウンロード <span class="stickyApp__text--emphasis">＞＞</span></p>
+          <div class="stickyApp__contents">
+            <p class="userDevice--ios stickyApp__device">
+              <span class="stickyApp__button">
+                <a class="stickyApp__link" href="https://apps.apple.com/jp/app/id1435783608?mt=8" data-eventcategory="website" data-eventaction="appbanner_ios_fixed_clicked" data-eventlabel="stickyApp">
+                  <img src="https://image.paypay.ne.jp/page/common/images/btn_appstore_01.png" alt="App Store からダウンロード" class="stickyApp__image">
+                </a>
+              </span>
+            </p>
+            <p class="userDevice--android stickyApp__device">
+              <span class="stickyApp__button">
+                <a class="stickyApp__link" href="https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app" data-eventcategory="website" data-eventaction="appbanner_android_fixed_clicked" data-eventlabel="stickyApp">
+                  <img src="https://image.paypay.ne.jp/page/common/images/img_googleplay_01.png" alt="Google Play で手に入れよう" class="stickyApp__image">
+                </a>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- /stickyApp --></div><!-- /contents -->
+
+
+<footer class="c-footerWrap">
+  <div class="c-footerShare">
+    <p class="c-footerShare__text">このページをシェア</p>
+
+            
+    <!-- PC target -->
+    <ul class="c-footerShare__list switch__display--pc">
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://line.me/R/msg/text/?PayPay%E3%81%AF%E3%80%81%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%BB%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%99%E3%80%82%E6%9C%80%E7%9F%AD1%E5%88%86%E3%81%A7%E7%99%BB%E9%8C%B2%E5%AE%8C%E4%BA%86%EF%BC%81%E8%A1%97%E3%81%AE%E3%81%8A%E5%BA%97%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%84%E8%AB%8B%E6%B1%82%E6%9B%B8%E3%81%AE%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%AA%E3%81%A9%E3%81%AB%E3%82%82%E3%81%94%E4%BD%BF%E7%94%A8%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%99%E3%80%82%20-%20PayPay%0D%0Ahttps%3A%2F%2Fpaypay.ne.jp" target="_blank" rel="nofollow noopener" data-eventcategory="website" data-eventaction="footer_line_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_01.png" alt="LINE" width="34" height="34">
+        </a>
+      </li>
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://twitter.com/intent/tweet?text=PayPay%E3%81%AF%E3%80%81%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%BB%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%99%E3%80%82%E6%9C%80%E7%9F%AD1%E5%88%86%E3%81%A7%E7%99%BB%E9%8C%B2%E5%AE%8C%E4%BA%86%EF%BC%81%E8%A1%97%E3%81%AE%E3%81%8A%E5%BA%97%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%84%E8%AB%8B%E6%B1%82%E6%9B%B8%E3%81%AE%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%AA%E3%81%A9%E3%81%AB%E3%82%82%E3%81%94%E4%BD%BF%E7%94%A8%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%99%E3%80%82%20-%20PayPay&#038;url=https%3A%2F%2Fpaypay.ne.jp" target="_blank" rel="nofollow noopener" data-eventcategory="website" data-eventaction="footer_x_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_02.png" alt="X" width="34" height="34">
+        </a>
+      </li>
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fpaypay.ne.jp" target="_blank" rel="nofollow noopener" data-eventcategory="website" data-eventaction="footer_facebook_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_03.png" alt="Facebook" width="34" height="34">
+        </a>
+      </li>
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://b.hatena.ne.jp/add?mode=confirm&#038;url=https%3A%2F%2Fpaypay.ne.jp&#038;title=PayPay%E3%81%AF%E3%80%81%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%BB%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%99%E3%80%82%E6%9C%80%E7%9F%AD1%E5%88%86%E3%81%A7%E7%99%BB%E9%8C%B2%E5%AE%8C%E4%BA%86%EF%BC%81%E8%A1%97%E3%81%AE%E3%81%8A%E5%BA%97%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%84%E8%AB%8B%E6%B1%82%E6%9B%B8%E3%81%AE%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%AA%E3%81%A9%E3%81%AB%E3%82%82%E3%81%94%E4%BD%BF%E7%94%A8%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%99%E3%80%82" target="_blank" rel="nofollow noopener" data-eventcategory="website" data-eventaction="footer_hetena_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_04.png" alt="はてなブックマーク" width="34" height="34">
+        </a>
+      </li>
+    </ul>
+    <!-- SP no target -->
+    <ul class="c-footerShare__list switch__display--sp">
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://line.me/R/msg/text/?PayPay%E3%81%AF%E3%80%81%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%BB%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%99%E3%80%82%E6%9C%80%E7%9F%AD1%E5%88%86%E3%81%A7%E7%99%BB%E9%8C%B2%E5%AE%8C%E4%BA%86%EF%BC%81%E8%A1%97%E3%81%AE%E3%81%8A%E5%BA%97%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%84%E8%AB%8B%E6%B1%82%E6%9B%B8%E3%81%AE%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%AA%E3%81%A9%E3%81%AB%E3%82%82%E3%81%94%E4%BD%BF%E7%94%A8%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%99%E3%80%82%20-%20PayPay%0D%0Ahttps%3A%2F%2Fpaypay.ne.jp" rel="nofollow" data-eventcategory="website" data-eventaction="footer_line_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_01.png" alt="LINE" width="34" height="34">
+        </a>
+      </li>
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://twitter.com/intent/tweet?text=PayPay%E3%81%AF%E3%80%81%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%BB%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%99%E3%80%82%E6%9C%80%E7%9F%AD1%E5%88%86%E3%81%A7%E7%99%BB%E9%8C%B2%E5%AE%8C%E4%BA%86%EF%BC%81%E8%A1%97%E3%81%AE%E3%81%8A%E5%BA%97%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%84%E8%AB%8B%E6%B1%82%E6%9B%B8%E3%81%AE%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%AA%E3%81%A9%E3%81%AB%E3%82%82%E3%81%94%E4%BD%BF%E7%94%A8%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%99%E3%80%82%20-%20PayPay&#038;url=https%3A%2F%2Fpaypay.ne.jp" rel="nofollow" data-eventcategory="website" data-eventaction="footer_x_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_02.png" alt="X" width="34" height="34">
+        </a>
+      </li>
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fpaypay.ne.jp" rel="nofollow" data-eventcategory="website" data-eventaction="footer_facebook_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_03.png" alt="Facebook" width="34" height="34">
+        </a>
+      </li>
+      <li class="c-footerShare__item">
+        <a class="c-footerShare__button" href="https://b.hatena.ne.jp/add?mode=confirm&#038;url=https%3A%2F%2Fpaypay.ne.jp&#038;title=PayPay%E3%81%AF%E3%80%81%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E3%83%BB%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%81%99%E3%80%82%E6%9C%80%E7%9F%AD1%E5%88%86%E3%81%A7%E7%99%BB%E9%8C%B2%E5%AE%8C%E4%BA%86%EF%BC%81%E8%A1%97%E3%81%AE%E3%81%8A%E5%BA%97%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%84%E8%AB%8B%E6%B1%82%E6%9B%B8%E3%81%AE%E3%81%8A%E6%94%AF%E6%89%95%E3%81%84%E3%81%AA%E3%81%A9%E3%81%AB%E3%82%82%E3%81%94%E4%BD%BF%E7%94%A8%E3%81%84%E3%81%9F%E3%81%A0%E3%81%91%E3%81%BE%E3%81%99%E3%80%82" rel="nofollow" data-eventcategory="website" data-eventaction="footer_hetena_share_clicked" data-eventlabel="footer_share_top">
+          <img class="c-footerShare__image" src="/uploads/common/ico_footer_share_04.png" alt="はてなブックマーク" width="34" height="34">
+        </a>
+      </li>
+    </ul>
+  </div><!-- /c-footerShare -->
+
+    
+    <div id="appDownload" class="footer__footerDownload footerDownload appView--hide">
+    <p class="footerDownload__lead">いますぐ<span class="footerDownload__lead--accent">PayPayアプリ</span>を<br class="switch__display--sp">ダウンロード</p>
+    <div class="footerDownload__download">
+      <p class="footerDownload__qr">
+        <img src="/uploads/common/ico_footer_download_01.png" alt="QRコード" class="footerDownload__image--qr" width="80" height="80">
+      </p>
+      <p class="footerDownload__ios userDevice--ios">
+        <a class="footerDownload__link" href="https://apps.apple.com/jp/app/id1435783608?mt=8" data-eventcategory="website" data-eventaction="appbanner_ios_footer_clicked" data-eventlabel="footer">
+          <img src="/uploads/common/ico_footer_download_02.png" alt="App Store からダウンロード" class="footerDownload__image" width="130" height="48">
+        </a>
+      </p>
+      <p class="footerDownload__android userDevice--android">
+        <a class="footerDownload__link" href="https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app" data-eventcategory="website" data-eventaction="appbanner_android_footer_clicked" data-eventlabel="footer">
+          <img src="/uploads/common/ico_footer_download_03.png" alt="Google Play で手に入れよう" class="footerDownload__image" width="161" height="48">
+        </a>
+      </p>
+    </div>
+    <div class="footerDownload__inner">
+      <p class="footerDownload__note">Apple、Appleのロゴ、App Storeは、米国および他国のApple Inc.の登録商標です。</p>
+      <p class="footerDownload__note">Google Play は Google LLC の商標です。</p>
+      <p class="footerDownload__note">QRコードは（株）デンソーウェーブの登録商標です。</p>
+    </div>
+  </div><!-- /footerDownload -->
+
+
+  <div class="c-footer">
+    <div class="c-footer__inner c-container footerVer2__inner">
+      <div class="c-footer__top">
+        <div class="c-footer__sitemap c-sitemap">
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+              PayPayの金融サービス
+            </div>
+            <div class="c-sitemap__list c-sitemap__list--service">
+              <ul class="c-sitemap__list-inner">
+                <li class="c-sitemap__list-item">
+                  <a class="c-sitemap__link c-external c-external--black" href="https://www.paypay-card.co.jp/" data-eventcategory="website" data-eventaction="paypay_card_clicked" data-eventlabel="footer">PayPayカード</a>
+                </li>
+                <li class="c-sitemap__list-item">
+                  <a class="c-sitemap__link c-external c-external--black" href="https://www.paypay-bank.co.jp/" data-eventcategory="website" data-eventaction="paypay_bank_clicked" data-eventlabel="footer">PayPay銀行</a>
+                </li>
+                <li class="c-sitemap__list-item">
+                  <a class="c-sitemap__link c-external c-external--black" href="https://www.paypay-sec.co.jp/" data-eventcategory="website" data-eventaction="paypay_sec_clicked" data-eventlabel="footer">PayPay証券</a></li>
+                <li class="c-sitemap__list-item">
+                  <a class="c-sitemap__link c-external c-external--black" href="https://www.paypay-insurance.co.jp/promotion/app/" data-eventcategory="website" data-eventaction="paypay_insurance_clicked" data-eventlabel="footer">PayPayほけん</a>
+                </li>
+              </ul>
+              <p class="c-sitemap__list-note">各社のTOPページに遷移します</p>
+            </div>
+          </div>
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+              一般の利用者様
+            </div>
+            <ul class="c-sitemap__list">
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/" data-eventcategory="website" data-eventaction="top_clicked" data-eventlabel="footer">PayPayについて</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/shop/" data-eventcategory="website" data-eventaction="shop_clicked" data-eventlabel="footer">使えるお店</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/guide/" data-eventcategory="website" data-eventaction="guide_clicked" data-eventlabel="footer">サービス・機能一覧</a></li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/event/" data-eventcategory="website" data-eventaction="event_clicked" data-eventlabel="footer">キャンペーン</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/safe/" data-eventcategory="website" data-eventaction="safe_clicked" data-eventlabel="footer">安全への取り組み</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/help/" data-eventcategory="website" data-eventaction="help_clicked" data-eventlabel="footer">よくあるご質問</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/notice/" data-eventcategory="website" data-eventaction="notice_clicked" data-eventlabel="footer">お知らせ</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://store.shopping.yahoo.co.jp/paypaystore/" data-eventcategory="website" data-eventaction="paypaystore_clicked" data-eventlabel="footer">公式ストア</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/article/" data-eventcategory="website" data-eventaction="article_clicked" data-eventlabel="footer">特集記事</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+              店舗オーナー様
+            </div>
+            <ul class="c-sitemap__list">
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/store/" data-eventcategory="website" data-eventaction="store_clicked" data-eventlabel="footer">トップページ</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/store/paycas-mobile/" data-eventcategory="website" data-eventaction="store_paycas-mobile_clicked" data-eventlabel="footer">PayCAS Mobile（マルチ決済端末）の導入</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/store/user-scan/" data-eventcategory="website" data-eventaction="store_user-scan_clicked" data-eventlabel="footer">PayPay（QRコード決済）の導入</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/store-media/" data-eventcategory="website" data-eventaction="store_media_clicked" data-eventlabel="footer">キャッシュレス研究所</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/store-online/" data-eventcategory="website" data-eventaction="online_clicked" data-eventlabel="footer">オンライン決済の導入</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/store-selfpayment/" data-eventcategory="website" data-eventaction="self_clicked" data-eventlabel="footer">セルフ決済（自動販売機）への導入</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://developer.paypay.ne.jp/" data-eventcategory="website" data-eventaction="developer_paypay_clicked" data-eventlabel="footer">PayPay for Developers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+              PayPay加盟店様
+            </div>
+            <ul class="c-sitemap__list">
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://dashboard.paypay.ne.jp/login.html" data-eventcategory="website" data-eventaction="dashboardpaypay_login_clicked" data-eventlabel="footer">PayPay for Business ログイン</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/help-merchant/b0510/" data-eventcategory="website" data-eventaction="help-merchant_b0510_clicked" data-eventlabel="footer">店舗用アプリダウンロード</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/merchant/funding/" data-eventcategory="website" data-eventaction="merchant_funding_clicked" data-eventlabel="footer">PayPay資金調達</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+              法人のお客様
+            </div>
+            <ul class="c-sitemap__list">
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/biz/" data-eventcategory="website" data-eventaction="biz_clicked" data-eventlabel="footer">ソリューション・サービス一覧</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/biz/paycheck-employer/" data-eventcategory="website" data-eventaction="biz_paycheck-employer_clicked" data-eventlabel="footer">［事業者様向け］PayPay給与受取（賃金のデジタル払い）</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/biz/giftcard/" data-eventcategory="website" data-eventaction="giftcard_clicked" data-eventlabel="footer">PayPayポイントコード</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/biz/api/" data-eventcategory="website" data-eventaction="api_clicked" data-eventlabel="footer">PayPayポイントAPI</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/biz/sku/" data-eventcategory="website" data-eventaction="biz_sku_clicked" data-eventlabel="footer">PayPay商品特定クーポン/キャンペーン</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+            自治体の担当者様
+            </div>
+            <ul class="c-sitemap__list">
+            <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link" href="https://paypay.ne.jp/local-governments/" data-eventcategory="website" data-eventaction="local-governments_clicked" data-eventlabel="footer">ソリューション・サービス一覧</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="c-sitemap__item">
+            <div class="c-sitemap__heading c-arrow c-arrow--red c-arrow--down">
+              PayPay株式会社
+            </div>
+            <ul class="c-sitemap__list">
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link c-external c-external--black" href="https://about.paypay.ne.jp/" data-eventcategory="website" data-eventaction="about_paypay_clicked" data-eventlabel="footer">会社概要</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link c-external c-external--black" href="https://ir.paypay.ne.jp/jp/" target="_blank" rel="noopener" data-eventcategory="website" data-eventaction="ir_paypay_clicked" data-eventlabel="footer">株主・投資家情報</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link c-external c-external--black" href="https://about.paypay.ne.jp/pr/" data-eventcategory="website" data-eventaction="about_pressrelease_clicked" data-eventlabel="footer">プレスリリース</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link c-external c-external--black" href="https://paypay.ne.jp/career/" data-eventcategory="website" data-eventaction="about_career_clicked" data-eventlabel="footer">採用情報</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link c-external c-external--black" href="https://blog.paypay.ne.jp/" data-eventcategory="website" data-eventaction="about_productblog_clicked" data-eventlabel="footer">Product Blog</a>
+              </li>
+              <li class="c-sitemap__list-item">
+                <a class="c-sitemap__link c-external c-external--black" href="https://insideout.paypay.ne.jp/" data-eventcategory="website" data-eventaction="corporate-blog_clicked" data-eventlabel="footer">PayPay Inside-Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="c-footer__terms">
+          <div class="c-footer__sns c-footerSns">
+            <div class="c-footerSns__heading">
+              最新情報をチェック！
+            </div>
+            <ul class="c-footerSns__list">
+              <li class="c-footerSns__item">
+                <a class="c-footerSns__link" href="https://twitter.com/PayPayOfficial" data-eventcategory="website" data-eventaction="footer_x_official_clicked" data-eventlabel="footer_top">
+                  <span class="c-footerSns__icon">
+                    <img class="c-footerSns__image" src="/wp-content/uploads/2023/10/ico_footer_x_01.png" alt="X">
+                  </span>
+                  <span class="c-footerSns__text">お知らせ</span>
+                </a>
+              </li>
+              <li class="c-footerSns__item">
+                <a class="c-footerSns__link" href="https://twitter.com/PayPaysupport" data-eventcategory="website" data-eventaction="footer_x_support_clicked" data-eventlabel="footer_top">
+                  <span class="c-footerSns__icon">
+                    <img class="c-footerSns__image" src="/wp-content/uploads/2023/10/ico_footer_x_01.png" alt="X">
+                  </span>
+                  <span class="c-footerSns__text">サポート</span>
+                </a>
+              </li>
+              <li class="c-footerSns__item">
+                <a class="c-footerSns__link" href="https://www.facebook.com/paypay.official/" data-eventcategory="website" data-eventaction="footer_facebook_official_clicked" data-eventlabel="footer_top">
+                  <span class="c-footerSns__icon">
+                    <img class="c-footerSns__image" src="https://image.paypay.ne.jp/page/common/images/ico_facebook_02.png" alt="Facebook">
+                  </span>
+                </a>
+              </li>
+              <li class="c-footerSns__item">
+                <a class="c-footerSns__link" href="https://www.instagram.com/paypay_official_/" data-eventcategory="website" data-eventaction="footer_instagram_official_clicked" data-eventlabel="footer_top">
+                  <span class="c-footerSns__icon">
+                    <img class="c-footerSns__image" src="https://image.paypay.ne.jp/page/common/images/ico_instagram_02.png" alt="Instagram">
+                  </span>
+                </a>
+              </li>
+              <li class="c-footerSns__item">
+                <a class="c-footerSns__link" href="https://www.youtube.com/channel/UC1uAWQyJ8wuTJCuNntBO6MQ" data-eventcategory="website" data-eventaction="footer_youtube_official_clicked" data-eventlabel="footer_top">
+                  <span class="c-footerSns__icon">
+                    <img class="c-footerSns__image" src="https://image.paypay.ne.jp/page/common/images/ico_youtube_02.png" alt="YouTube">
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="c-footer__terms-list">
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://about.paypay.ne.jp/terms/">利用規約・ガイドライン</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link c-external c-external--black" href="https://about.paypay.ne.jp/intellectual-property/trademark/">商標・登録商標について</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link c-external c-external--black" href="https://www.softbank.jp/corp/aboutus/governance/human-rights/">ソフトバンク人権ポリシー</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link c-external c-external--black" href="https://about.paypay.ne.jp/code-of-ethics/" target="_blank" rel="noopener">PayPay Code of Ethics & Business Conduct</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://about.paypay.ne.jp/docs/terms/privacy/">プライバシーポリシー</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://paypay.ne.jp/privacy/">ユーザープライバシーについて</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://paypay.ne.jp/security/">ユーザーセキュリティについて</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://about.paypay.ne.jp/docs/terms/website/">ウェブサイト利用規約</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://about.paypay.ne.jp/docs/terms/antisocial/">反社会的勢力に対する方針</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://about.paypay.ne.jp/docs/terms/solicitation/">勧誘方針</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link" href="https://about.paypay.ne.jp/docs/terms/mlpolicy/">マネロン等基本方針</a>
+            </li>
+            <li class="c-footer__terms-item">
+              <a class="c-footer__terms-link c-external c-external--black" href="https://about.paypay.ne.jp/customer-harassment/">カスタマーハラスメントに関する当社の考え方</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="c-footer__bottom">
+        <a href="https://paypay.ne.jp/" class="c-footer__logo-link" data-eventcategory="website" data-eventaction="top_logo_clicked" data-eventlabel="footer">
+          <img class="c-footer__logo-image" src="https://image.paypay.ne.jp/page/common/images/ico_logo_paypay.svg" alt="">
+        </a>
+        <small class="c-footer__bottom-copy">&copy; PayPay Corporation</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/jquery-3.3.1.min.js?v=1"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/common_22.js?v=4"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/consumer/js/consumer_common_02.js?v=3"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/header-footer.min.js?v=2"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/header-new.js?v=10"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/footer.js?v=2"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/lazyload-1.9.3.min.js?v=1"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/jquery.cookie.js?v=1"></script>
+  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/common/js/slick.min.js?v=1"></script>  <script src="https://paypay.ne.jp/wp-content/themes/paypay/assets/top/js/top_15.js?v=2"></script>
+
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/paypay/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+</body>
+</html>
