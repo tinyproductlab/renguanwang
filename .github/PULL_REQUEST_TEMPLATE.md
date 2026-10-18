@@ -1,28 +1,28 @@
-## 提交类型
+## Type / 提交类型
 
-- [ ] 新增官网收录
-- [ ] 补翻译
-- [ ] 修 bug / 新功能
-- [ ] 其他
+- [ ] New site / 新增官网收录
+- [ ] Translation / 补翻译
+- [ ] Bug fix / feature / 修 bug / 新功能
+- [ ] Other / 其他
 
-## 新增官网（请逐项填写）
+## New site / 新增官网 (fill in / 逐项填写)
 
-- 站点名称：
-- 官网 URL：
-- 所属国家（代码）：
-- 分类：
-- 一句话说明：
-- 价格（免费/付费）：
+- Site name / 站点名称：
+- Official URL / 官网 URL：
+- Country (code) / 所属国家（代码）：
+- Category / 分类：
+- Description / 一句话说明：
+- Price (Free/Paid) / 价格：
 
-**官网证据**（请说明你是如何确认这是官网的，例如 Wikipedia 外链、官方社媒 bio 链接）：
+**Evidence / 官网证据** (how did you confirm it's official? 你是如何确认这是官网的？ e.g. Wikipedia link, official social bio):
 -
 
-**我已确认**：
-- [ ] 我亲自在浏览器打开过该网站，可正常访问
-- [ ] 这是官方网站，不是代理商/经销商/粉丝站/镜像站
-- [ ] 已在 sites.js 中搜索确认未收录
-- [ ] 不属于黑名单（下载站/破解站/盗版/成人/灰色）
+**Checklist / 我已确认**:
+- [ ] I opened it in a browser and it loads / 我亲自在浏览器打开过，可正常访问
+- [ ] It's the official site, not reseller/fan/mirror / 这是官网，不是代理/粉丝站/镜像站
+- [ ] Searched sites.js, not a duplicate / 已搜索确认未收录
+- [ ] Not blacklisted (download/crack/piracy/adult) / 不在黑名单
 
-## 补翻译 / 修 bug（请描述）
+## Translation / Bug fix (describe / 请描述)
 
 -

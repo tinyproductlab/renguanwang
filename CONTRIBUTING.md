@@ -1,4 +1,6 @@
-# 贡献指南
+# 贡献指南 | Contributing
+
+[English](./CONTRIBUTING.en.md)
 
 感谢你想为认官网添砖加瓦！在提交之前，请先读完这篇。
 
