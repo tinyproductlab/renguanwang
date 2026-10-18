@@ -1237,5 +1237,15 @@ const SITES = [
 {name:"Kiwibank",url:"https://kiwibank.co.nz",desc:"新西兰本土银行，网点依托邮局。",cat:"金融投资",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"kiwibank bank kiwibank",icon:"www.kiwibank.co.nz.ico"},
 {name:"New Zealand",url:"https://www.newzealand.com",desc:"新西兰旅游局官网，行程景点官方指南。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"new zealand newzealand 旅游",icon:"www.newzealand.com.ico"},
 {name:"Immigration NZ",url:"https://www.immigration.govt.nz",desc:"新西兰移民局官网，签证申请查进度。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"immigration 移民局 签证 immigration",icon:"www.immigration.govt.nz.ico"},
-{name:"KiwiRail",url:"https://www.kiwirail.co.nz",desc:"新西兰国家铁路，城际列车与观光火车。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"kiwirail 铁路 火车 kiwirail",icon:"www.kiwirail.co.nz.ico"}
+{name:"KiwiRail",url:"https://www.kiwirail.co.nz",desc:"新西兰国家铁路，城际列车与观光火车。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"kiwirail 铁路 火车 kiwirail",icon:"www.kiwirail.co.nz.ico"},
+{name:"FNB",url:"https://www.fnb.co.za",desc:"南非第一国民银行，四大银行之一。",cat:"金融投资",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"fnb bank fnb 第一国民银行",icon:"www.fnb.co.za.ico"},
+{name:"ABSA",url:"https://www.absa.co.za",desc:"南非联合银行 Absa，四大银行之一。",cat:"金融投资",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"absa bank absa",icon:"www.absa.co.za.ico"},
+{name:"Nedbank",url:"https://www.nedbank.co.za",desc:"南非 Nedbank 银行，四大银行之一。",cat:"金融投资",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"nedbank bank nedbank",icon:"www.nedbank.co.za.ico"},
+{name:"Capitec",url:"https://www.capitecbank.co.za",desc:"南非增长最快的零售银行，手续费低。",cat:"金融投资",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"capitec bank capitecbank",icon:"www.capitecbank.co.za.ico"},
+{name:"Vodacom",url:"https://www.vodacom.co.za",desc:"南非最大移动运营商，Vodafone 旗下。",cat:"生活服务",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"vodacom 电信 vodacom",icon:"www.vodacom.co.za.ico"},
+{name:"EWN",url:"https://www.ewn.co.za",desc:"Eyewitness News，南非知名新闻电台网站。",cat:"新闻资讯",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"ewn news ewn 目击新闻",icon:"www.ewn.co.za.ico"},
+{name:"Daily Maverick",url:"https://www.dailymaverick.co.za",desc:"南非独立调查新闻媒体，深度报道见长。",cat:"新闻资讯",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"daily maverick dailymaverick",icon:"www.dailymaverick.co.za.ico"},
+{name:"IOL",url:"https://iol.co.za",desc:"南非老牌新闻门户 Independent Online。",cat:"新闻资讯",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"iol news iol 独立在线",icon:"www.iol.co.za.ico"},
+{name:"SABC",url:"https://www.sabc.co.za",desc:"南非国家广播公司，电视电台官方平台。",cat:"影音娱乐",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"sabc 广播 sabc",icon:"www.sabc.co.za.ico"},
+{name:"Eskom",url:"https://www.eskom.co.za",desc:"南非国家电力公司，查停电交电费。",cat:"生活服务",region:"ZA",rating:4,price:"免费",official:true,plat:"网页",kw:"eskom 电力 eskom",icon:"www.eskom.co.za.ico"}
 ];
