@@ -1258,5 +1258,16 @@ const SITES = [
 {name:"俄罗斯央行",url:"https://www.cbr.ru",desc:"俄罗斯中央银行官网，查汇率看政策",cat:"金融投资",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"俄罗斯央行 cbr",icon:"www.cbr.ru.ico"},
 {name:"Odnoklassniki",url:"https://ok.ru",desc:"俄罗斯老牌社交网站，国民级社交平台",cat:"社交社区",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"odnoklassniki ok",icon:"www.ok.ru.ico"},
 {name:"Dzen",url:"https://www.dzen.ru",desc:"俄罗斯热门内容资讯平台，文章视频都有",cat:"阅读创作",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"dzen dzen.ru",icon:"www.dzen.ru.ico"},
-{name:"HeadHunter",url:"https://hh.ru",desc:"俄罗斯最大招聘网站，找工作看职位",cat:"生活服务",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"headhunter hh",icon:"www.hh.ru.ico"}
+{name:"HeadHunter",url:"https://hh.ru",desc:"俄罗斯最大招聘网站，找工作看职位",cat:"生活服务",region:"RU",rating:4,price:"免费",official:true,plat:"网页",kw:"headhunter hh",icon:"www.hh.ru.ico"},
+{name:"Finn.no",url:"https://www.finn.no",desc:"挪威最大分类广告网站，买房买车找工作",cat:"购物消费",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"finn.no finn",icon:"www.finn.no.ico"},
+{name:"Elkjøp",url:"https://www.elkjop.no",desc:"挪威最大电器连锁，线上线下通吃",cat:"购物消费",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"elkjop elkjop.no",icon:"www.elkjop.no.ico"},
+{name:"VG",url:"https://www.vg.no",desc:"挪威访问量最大的网络报纸",cat:"新闻资讯",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"vg vg.no",icon:"www.vg.no.ico"},
+{name:"Dagbladet",url:"https://www.dagbladet.no",desc:"挪威主流日报，新闻娱乐兼顾",cat:"新闻资讯",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"dagbladet dagbladet.no",icon:"www.dagbladet.no.ico"},
+{name:"Aftenposten",url:"https://www.aftenposten.no",desc:"挪威历史悠久的大报，深度报道见长",cat:"新闻资讯",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"aftenposten aftenposten.no",icon:"www.aftenposten.no.ico"},
+{name:"TV 2",url:"https://www.tv2.no",desc:"挪威最大商业电视台官网",cat:"影音娱乐",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"tv 2 tv2",icon:"www.tv2.no.ico"},
+{name:"Vy",url:"https://www.vy.no",desc:"挪威国家铁路，查车次订车票",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"vy vy.no",icon:"www.vy.no.ico"},
+{name:"Telenor",url:"https://www.telenor.no",desc:"挪威最大电信运营商",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"telenor telenor.no",icon:"www.telenor.no.ico"},
+{name:"Visit Norway",url:"https://www.visitnorway.com",desc:"挪威官方旅游门户，行程攻略一站式",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"visit norway visitnorway",icon:"www.visitnorway.com.ico"},
+{name:"Gule Sider",url:"https://www.gulesider.no",desc:"挪威黄页，查商家电话和地图",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"gule sider gulesider",icon:"www.gulesider.no.ico"},
+{name:"挪威税务局",url:"https://www.skatteetaten.no",desc:"挪威税务局官网，报税查税",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"挪威税务局 skatteetaten",icon:"www.skatteetaten.no.ico"}
 ];
