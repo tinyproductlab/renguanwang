@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+    <head prefix="og: http://ogp.me/ns#">
+        <title>Pagina niet gevonden - funda</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="NOODP" />
+        <meta name="google" content="nositelinkssearchbox" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="application-name" content="funda" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+            !function (e, t) { "use strict"; function i(e, i, n) { if ("undefined" == typeof useCookie) { i === !1 && (n = -1); var o; if (n) { var s = new Date; s.setTime(s.getTime() + 24 * n * 60 * 60 * 1e3), o = "; expires=" + s.toGMTString() } else o = ""; t.cookie = e + "=" + i + o + "; path=/" } } if ("querySelector" in t && "addEventListener" in e) { var n = " js"; "placeholder" in t.createElement("input") && (n += " supports-placeholder"), t.documentElement.className += n, i("html-classes", n) } }(window, window.document);
+        </script>
+
+        <link href="https://assets.fstatic.nl/master-206370/assets/tailwind.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="https://assets.fstatic.nl/master-206370/assets/index-fundawonen.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://assets.fstatic.nl/master-206370/assets/funda-apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="https://assets.fstatic.nl/master-206370/assets/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://assets.fstatic.nl/master-206370/assets/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="https://assets.fstatic.nl/master-206370/assets/manifest.funda.json">
+        <link rel="mask-icon" href="https://assets.fstatic.nl/master-206370/assets/safari-pinned-tab.svg" color="#FF9B21">
+        <link rel="shortcut icon" href="https://assets.fstatic.nl/master-206370/assets/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="funda">
+        <meta name="application-name" content="funda">
+        <meta name="msapplication-config" content="https://assets.fstatic.nl/master-206370/assets/browserconfig.xml">
+        <meta name="theme-color" content="#FFFFFF">
+    </head>
+
+    <body role="document">
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPB6HG&userId=81734ff2-fb58-4781-8d2b-1ca2d4280cf1&isAnonymous=true&language=nl"
+                    height="0" width="0" style="display: none; visibility: hidden">
+            </iframe>
+        </noscript>
+        <script>
+            function writeYear() {
+                document.write(new Date().getFullYear());
+            }
+
+            // Fill GtmDataLayer with data
+            gtmDataLayer = [];
+            gtmDataLayer.push({ 'language': 'nl', 'pagetype': 'error-404' });
+
+            // Initialize Google Tag Manager
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'gtmDataLayer', 'GTM-NPB6HG');
+        </script>
+
+        <header role="banner" class="app-header" data-app-header>
+            <div class="container">
+                <nav role="navigation"
+                    aria-labelledby="app-header-title"
+                    class="app-header-nav">
+                    <h2 id="app-header-title" class="a11y-sr-only">Hoofdmenu</h2>
+                    <a class="logo" rel="home" href="/" title="Naar home" data-component="logo">
+                        <img alt="funda logo"
+                             src="https://assets.fstatic.nl/master-206370/assets/components/logo/fundawonen-logo.svg"
+                             style="width:99px;height:36px;margin-top:4px">
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="content" role="main">
+            <div class="error-page">
+                <section class="app-error-hero" style="background: #E6F6FF" data-component="app-error-hero">
+                    <div class="container">
+                        <svg role="presentation" class="w-40 text-secondary-40 md:w-72" style="max-width: 288px; width: 80%; margin: auto; display: block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.6 57.5"><defs><linearGradient id="linear-gradient" x1="15.3" x2="15.3" y1="19.9" y2="62.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fcf1e8"></stop><stop offset=".3" stop-color="#fcefe5"></stop><stop offset=".5" stop-color="#fcebdd"></stop><stop offset=".6" stop-color="#fce3cf"></stop><stop offset=".8" stop-color="#fcd9bc"></stop><stop offset=".9" stop-color="#fccba2"></stop><stop offset="1" stop-color="#fcba83"></stop><stop offset="1" stop-color="#fcb67b"></stop></linearGradient><linearGradient id="linear-gradient-2" x1="21.3" x2="21.3" y1="36.8" y2="52.8" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00b8f0"></stop><stop offset=".4" stop-color="#00b5f1"></stop><stop offset=".6" stop-color="#00acf4"></stop><stop offset=".9" stop-color="#009dfa"></stop><stop offset="1" stop-color="#0091ff"></stop></linearGradient><linearGradient id="linear-gradient-3" x1="7.8" x2="7.8" y1="39.5" y2="61.9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff9800"></stop><stop offset=".2" stop-color="#ff9500"></stop><stop offset=".4" stop-color="#ff8b00"></stop><stop offset=".5" stop-color="#ff7c00"></stop><stop offset=".7" stop-color="#ff6500"></stop><stop offset=".8" stop-color="#ff4900"></stop><stop offset=".9" stop-color="#ff2600"></stop><stop offset="1" stop-color="#ff0800"></stop></linearGradient><linearGradient id="linear-gradient-4" x1="18.7" x2="20.2" y1="-.4" y2="24.8" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc400"></stop><stop offset=".2" stop-color="#ffc000"></stop><stop offset=".4" stop-color="#ffb500"></stop><stop offset=".5" stop-color="#ffa400"></stop><stop offset=".7" stop-color="#ff8b00"></stop><stop offset=".8" stop-color="#ff6b00"></stop><stop offset=".9" stop-color="#ff5100"></stop></linearGradient><linearGradient id="linear-gradient-5" xlink:href="#linear-gradient-2" x1="52.1" x2="52.1" y1="21.8" y2="56.9"></linearGradient><linearGradient id="linear-gradient-6" x1="84.6" x2="84.6" y1="22.7" y2="65.7" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9a1c17"></stop><stop offset="1" stop-color="#540000"></stop></linearGradient><linearGradient id="linear-gradient-7" xlink:href="#linear-gradient-2" x1="75.5" x2="75.5" y1="40.4" y2="58.4"></linearGradient><linearGradient id="linear-gradient-8" x1="90.6" x2="90.6" y1="38.8" y2="51.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#dcf1fa"></stop><stop offset=".3" stop-color="#d9f0fa"></stop><stop offset=".5" stop-color="#cfedfa"></stop><stop offset=".6" stop-color="#c0e8fa"></stop><stop offset=".8" stop-color="#a9e1fa"></stop><stop offset=".9" stop-color="#8dd9fa"></stop><stop offset="1" stop-color="#78d3fa"></stop></linearGradient><linearGradient id="linear-gradient-9" xlink:href="#linear-gradient-4" x1="86.9" x2="86.4" y1="2.3" y2="25.6"></linearGradient><linearGradient id="linear-gradient-10" xlink:href="#linear-gradient" x1="104.7" x2="104.7" y1="15.1" y2="58.9"></linearGradient><linearGradient id="linear-gradient-11" x1="92.4" x2="92.4" y1="45.1" y2="62.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00b18d"></stop><stop offset=".2" stop-color="#00aa8c"></stop><stop offset=".5" stop-color="#00998a"></stop><stop offset=".9" stop-color="#007d87"></stop><stop offset="1" stop-color="#007387"></stop></linearGradient></defs><g id="Layer_3"><path d="M0 19.5h30.5v38H0z" fill="#fdf0e6"></path><path d="M0 19.5h30.5v38H0z" style="fill:url(#linear-gradient);"></path><path d="M15.3 40.5h12v10.6h-12z" style="fill:url(#linear-gradient-2);"></path><path d="M7.8 40.5c2.3 0 4.3 2 4.3 4.3v12.7H3.5V44.8c0-2.4 2-4.3 4.3-4.3Z" fill="#ff9800"></path><path d="M7.8 40.5c2.3 0 4.3 2 4.3 4.3v12.7H3.5V44.8c0-2.4 2-4.3 4.3-4.3Z" style="fill:url(#linear-gradient-3);"></path><path d="M28.1 34H11.2V20.4h17V34Zm-16-.8h15.2v-12H12v12Z" fill="#9a1c17"></path><path d="M0 18.9h30.5v3.3H0z" fill="#ff9800"></path><path d="M30.5 18.9H0L8.3 0h30.3l-8 18.9z" style="fill:url(#linear-gradient-4);"></path><path d="m38.4 0-7.9 18.9v38.6H66V18.9L73.8 0H38.4z" fill="#00b8f0"></path><path d="m38.4 0-7.9 18.9v38.6H66V18.9L73.8 0H38.4z" style="fill:url(#linear-gradient-5);"></path><path d="M73.8 0v57.5h-7.9V18.9L73.8 0z" fill="#fdf0e6"></path><path d="M66 18.9h37.3v38.6H66z" fill="#9a1c17"></path><path d="M66 18.9h37.3v38.6H66z" style="fill:url(#linear-gradient-6);"></path><path d="M80.5 20.8h16v12.8h-16z" style="fill:#dcf1fa;"></path><path d="M75.5 40.5c2.4 0 4.3 2 4.3 4.3v12.7h-8.6V44.8c0-2.4 2-4.3 4.3-4.3Z" fill="#00b8f0"></path><path d="M75.5 40.5c2.4 0 4.3 2 4.3 4.3v12.7h-8.6V44.8c0-2.4 2-4.3 4.3-4.3Z" style="fill:url(#linear-gradient-7);"></path><path d="M84.6 40.5h12v10.6h-12z" style="fill:url(#linear-gradient-8);"></path><path d="M66 18.9h35.7v3.3H66z" fill="#ff9800"></path><path d="M101.7 18.9H66L73.8 0h33.8l-5.9 18.9z" style="fill:url(#linear-gradient-9);"></path><path d="M107.6 0v57.5h-5.9v-39L107.6 0z" fill="#fdf0e6"></path><path d="M107.6 0v57.5h-5.9v-39L107.6 0z" style="fill:url(#linear-gradient-10);"></path><path d="M56.5 47.5a.9.9 0 0 1-.7-.2L39.1 31a.9.9 0 0 1 0-1.3.9.9 0 0 1 1.2 0L57.1 46c.4.3.4.9 0 1.2a1 1 0 0 1-.6.3Z" fill="#fcf1e8"></path><path d="M40 47.8a.9.9 0 0 1-.6-.3.9.9 0 0 1 0-1.2l16.2-16.8a.9.9 0 0 1 1.2 0c.4.3.4.9 0 1.3L40.6 47.5a1 1 0 0 1-.6.3Zm-9.5-29H66v3.4H30.5z" fill="#fcf1e8"></path><path d="M94.1 44.7s4.2 1.2 4.3 7.2c0 0 0-4.5 3.3-5.8v11.4H85.3s-2-2-2.3-4.5c0 0 1.6-1 5.2.6 0 0-2-2-1.8-5.2 0 0 4.8-.3 7.3 4.2 0 0-1.4-4.4.4-8Z" style="fill:#00b18d;"></path><path d="M94.1 44.7s4.2 1.2 4.3 7.2c0 0 0-4.5 3.3-5.8v11.4H85.3s-2-2-2.3-4.5c0 0 1.6-1 5.2.6 0 0-2-2-1.8-5.2 0 0 4.8-.3 7.3 4.2 0 0-1.4-4.4.4-8Z" style="fill:url(#linear-gradient-11);"></path></g></svg>
+                        <h1 class="app-error-hero-title">Deze pagina kunnen we niet vinden</h1>
+                        <p class="app-error-hero-description">De door jou opgevraagde pagina is niet (langer) beschikbaar op Funda.</p>
+                    </div>
+                </section>
+
+                <div class="error-content">
+                    <div class="container">
+                        <p class="error-text">Je kunt <a href="/">teruggaan naar home</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="border-b-4 border-primary-50" style="background-color:#F2F2F2" role="contentinfo">
+            <!--[-->
+            <!--]-->
+            <div class="border-t border-neutral-20 px-4 py-6">
+                <div class="mx-auto flex max-w-screen-lg flex-col md:items-center lg:flex-row">
+                    <ul class="order-1 mt-6 mb-0 flex list-none gap-2 p-0 lg:order-2 lg:mt-0">
+                        <!--[-->
+                        <li>
+                            <a href="https://www.facebook.com/funda/" rel="noreferrer" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img" viewBox="0 0 48 48" aria-label="facebook" class="h-8 w-8 p-1 text-secondary-70 hover:text-secondary-70-darken-1">
+                                    <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.x.com/funda/" rel="noreferrer" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img" viewBox="0 0 24 24" aria-label="x" class="h-8 w-8 p-1 text-secondary-70 hover:text-secondary-70-darken-1">
+                                    <path d="M13.8878 10.6218L20.3857 3H18.8459L13.2038 9.61788L8.6975 3H3.5L10.3144 13.0074L3.5 21H5.03987L10.9981 14.0113L15.757 21H20.9545L13.8874 10.6218H13.8878ZM11.7788 13.0956L11.0883 12.0991L5.59471 4.16971H7.95985L12.3933 10.5689L13.0837 11.5655L18.8466 19.8835H16.4815L11.7788 13.096V13.0956Z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/funda.nl/" rel="noreferrer" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img" viewBox="0 0 48 48" aria-label="instagram" class="h-8 w-8 p-1 text-secondary-70 hover:text-secondary-70-darken-1">
+                                    <path d="M24 7.61c5.34 0 6 0 8.08.12 5.42.25 8 2.82 8.2 8.2.1 2.11.11 2.74.11 8.08s0 6-.11 8.08c-.25 5.37-2.77 8-8.2 8.2-2.11.1-2.74.12-8.08.12s-6 0-8.08-.12c-5.43-.25-8-2.83-8.2-8.2C7.62 30 7.6 29.34 7.6 24s0-6 .12-8.08c.25-5.38 2.77-8 8.2-8.2 2.08-.09 2.74-.11 8.08-.11zM24 4c-5.43 0-6.11 0-8.24.12-7.27.33-11.31 4.36-11.64 11.63C4 17.89 4 18.57 4 24s0 6.11.12 8.25c.33 7.26 4.36 11.3 11.63 11.63 2.13.1 2.81.12 8.25.12s6.11 0 8.25-.12c7.26-.33 11.3-4.36 11.63-11.63.12-2.14.12-2.82.12-8.25s0-6.11-.12-8.24c-.33-7.26-4.36-11.3-11.63-11.64C30.11 4 29.43 4 24 4zm0 9.73A10.27 10.27 0 1034.27 24 10.27 10.27 0 0024 13.73zm0 16.94A6.67 6.67 0 1130.67 24 6.67 6.67 0 0124 30.67zm10.68-19.74a2.4 2.4 0 102.4 2.4 2.4 2.4 0 00-2.4-2.4z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/funda/" rel="noreferrer" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img" viewBox="0 0 48 48" aria-label="youtube" class="h-8 w-8 p-1 text-secondary-70 hover:text-secondary-70-darken-1">
+                                    <path d="M36.69 9.31c-6-.41-19.38-.41-25.38 0C4.81 9.75 4 13.67 4 24s.81 14.25 7.31 14.69c6 .41 19.38.41 25.38 0C43.19 38.25 44 34.33 44 24s-.81-14.25-7.31-14.69zM19 30.67V17.33L32.33 24z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/funda/" rel="noreferrer" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img" viewBox="0 0 48 48" aria-label="linkedin" class="h-8 w-8 p-1 text-secondary-70 hover:text-secondary-70-darken-1">
+                                    <path d="M4.8 17.33h8.25V44H4.8z"></path>
+                                    <ellipse cx="8.89" cy="8.92" rx="4.88" ry="4.92"></ellipse>
+                                    <path d="M34.29 16.52a9.3 9.3 0 00-8 4.4v-3.59h-7.95V44h7.92V30c0-3.75 1.73-6 5-6 3 0 4.49 2.14 4.49 6v14H44V27.12c0-7.12-4.06-10.6-9.71-10.6z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <!--]-->
+                    </ul>
+                    <div class="order-3 my-6 flex flex-col md:items-center lg:order-1 lg:my-0 lg:flex-1 lg:flex-row">
+                        <p class="mt-0 mb-2 whitespace-nowrap lg:mb-0"> © 2001-2026 Funda</p>
+                        <ul class="m-0 flex list-none flex-wrap items-center p-0">
+                            <!--[-->
+                            <li>
+                                <span class="hidden lg:inline lg:mx-2">•</span>
+                                <a aria-label="Privacy" class="mr-2 text-secondary-70 hover:text-secondary-70-darken-1" href="https://www.acc.funda.nl/privacybeleid/">Privacy</a>
+                            </li>
+                            <li>
+                                <span class="mr-2">•</span>
+                                <a aria-label="Voorwaarden" class="mr-2 text-secondary-70 hover:text-secondary-70-darken-1" href="https://www.acc.funda.nl/gebruiksvoorwaarden/">Voorwaarden</a>
+                            </li>
+                            <li>
+                                <span class="mr-2">•</span>
+                                <a aria-label="Cookies" class="mr-2 text-secondary-70 hover:text-secondary-70-darken-1" href="https://www.acc.funda.nl/cookiebeleid/">Cookies</a>
+                            </li>
+                            <!--]-->
+                            <li>
+                                <span>•</span>
+                                <button class="mx-2 cursor-pointer appearance-none border-0 bg-transparent p-0 text-secondary-70 hover:text-secondary-70-darken-1">Cookievoorkeuren</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

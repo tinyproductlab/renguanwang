@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+    <head >
+        <script>
+    var LOCALE = 'en\u002DUS';
+    var BASE_URL = 'https\u003A\u002F\u002Fwww.olacabs.com\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Fwww.olacabs.com\u002Fstatic\u002Ffrontend\u002FOla\u002FCabs\u002Fen_US'
+    };</script>        <meta charset="utf-8"/>
+<meta name="title" content="Ola Email Unsubscribe"/>
+<meta name="description" content="Page description"/>
+<meta name="keywords" content="Page keywords"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Ola Email Unsubscribe</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/mage/calendar.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/css/styles-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/css/custom.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/jquery/uppy/dist/uppy-custom.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/styles.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/owlcarousel/owl.carousel.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/animate.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/fontawesome5.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/mgz_font.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/mgz_bootstrap.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Builder/css/openiconic.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Builder/css/styles.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Builder/css/common.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Newsletter/css/styles.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_Core/css/magnific.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_PageBuilder/css/styles.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_PageBuilder/vendor/photoswipe/photoswipe.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_PageBuilder/vendor/photoswipe/default-skin/default-skin.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_PageBuilder/vendor/blueimp/css/blueimp-gallery.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magezon_PageBuilderIconBox/css/styles.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/css/styles-l.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/css/print.css" />
+<link  rel="icon" type="image/x-icon" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magento_Theme/favicon.ico" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magento_Theme/favicon.ico" />
+<script  type="text/javascript"  src="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/requirejs-config.js"></script>
+<script  type="text/javascript"  async="defer" src="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/js/custom.js"></script>
+<script  type="text/javascript"  async="defer" src="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/js/newrelic.js"></script>
+<link  rel="shortcut icon" type="image/x-icon" href="https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/Magento_Theme/favicon_logo.png" />
+<meta name="google-site-verification" content="6F1KeDrZn1G7jvuy-PJzqbRoQbcRKzCRNgW0fjkL7dQ" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NKXVMZRD');</script>
+    <!-- End Google Tag Manager -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-20199135-12"></script>
+<script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-20199135-12');
+</script>
+<script>
+            (function(i,s,o,g,r,a,m){
+                i['GoogleAnalyticsObject']=r;
+                i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+                a=s.createElement(o), m=s.getElementsByTagName(o)[0];
+                a.async=1;
+                a.src=g;
+                m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-20199135-12', 'auto');
+            ga('send', 'pageview');
+        </script>
+<style>
+.mgz-element-raw_html.banner_info {
+    z-index: 3;
+}
+.login-container {
+    display: none !important;
+}
+#form-validate {
+    display: none !important;
+}
+.form-create-account {
+    display: none !important;
+}
+</style>        <style>
+	@media (min-width: 1260px) {
+		.magezon-builder .mgz-container {width: 1260px;}
+	}
+	</style>
+    <style>.nrpajlv>.mgz-element-inner{padding:0;margin:0}.header_menu_close .mgz-btn{background-image:url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/close.svg)}.rvm0drl>.mgz-element-inner{padding:0;margin:0}#unsubscribe_form #smsunsub_reason{flex:1;padding:0 36px 0 8px;color:#2c3e50;cursor:pointer;height:100%;font-size:14px;border:none;font-family:'gentonabook';appearance:none}footer.page-footer{display:none}#unsubscribe_form{padding:150px 0 50px}.header-top-menu nav ul{visibility:hidden}.hdrmobmenu{display:none}.header_top_content .logo{margin-left:0}header .header.content{max-width:1230px;padding:0 15px}#unsubscribe_form .unsub_label,#unsubscribe_form .unsub_highlighted_title{font-family:'gentonasemibold';line-height:1}#unsubscribe_form .unsub_highlighted_title{padding:11px 10px 10px}#unsubscribe_form .unsubscribe_header{padding-bottom:19px}@media (max-width:767px){#unsubscribe_form{padding-left:16px;padding-right:16px}}div.explore_more_btn .mgz-btn::after{content:"";background:url(https://assets.olacabs.com/ola-prod-website/green-arrow-right.svg);width:16px;height:11px;display:inline-block}.search_btn{margin:0 0 0 32px;height:56px;background:url(https://assets.olacabs.com/ola-prod-website/ola_cabs_back.svg) no-repeat bottom,radial-gradient(127.68% 2996.56% at 12.65% 127.68%,#000000 0,#222222 100%);color:#fff;border-radius:0;font-family:'gentonamedium';font-size:17px;text-align:left;padding:0 16px;box-shadow:-3px 3px 0 #32c86e;border:none;display:flex;align-items:center;flex:0 0 282px}.search_btn:hover,.search_btn:focus{background:url(https://assets.olacabs.com/ola-prod-website/ola_cabs_back.svg) no-repeat bottom,radial-gradient(127.68% 2996.56% at 12.65% 127.68%,#000000 0,#222222 100%);color:#fff;border:none;box-shadow:-3px 3px 0 #32c86e}.footer_bottom_country_selected a.mgz-btn::after{content:"";background:url("https://assets.olacabs.com/ola-prod-website/down-arrow.svg") no-repeat;width:10px;height:7px}</style></head>
+    <body data-container="body"
+          data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://www.olacabs.com/static/frontend/Ola/Cabs/en_US/images/loader-2.gif"}}'
+        id="html-body" class="cms-no-route cms-noroute-index page-layout-1column-fullwidth">
+        
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},
+                "breakpoints": {"desktop":{"label":"Desktop","stage":true,"default":true,"class":"desktop-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-desktop.svg","conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"label":"Mobile","stage":true,"class":"mobile-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-mobile.svg","media":"only screen and (max-width: 768px)","conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }
+</script>
+
+<div class="cookie-status-message" id="cookie-status">
+    The store will not work correctly when cookies are disabled.</div>
+<script type="text&#x2F;javascript">document.querySelector("#cookie-status").style.display = "none";</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "cookieStatus": {}
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".www.olacabs.com",
+                "secure": true,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>
+                        For the best experience on our site, be sure to turn on Javascript in your browser.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce5Adapter'
+            }
+        }
+    });</script><script>    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3.53\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: '',
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.olacabs.com\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.olacabs.com\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });</script><script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });</script><div class="page-wrapper"><header class="page-header"><div class="header content"><div class="header_top_content">
+    <div class="magezon-builder magezon-builder-preload"><div class="k5gjhxy mgz-element mgz-element-row full_width_row"><div class="mgz-element-inner k5gjhxy-s"><div class="inner-content mgz-container"><div class="rs6i00j mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner rs6i00j-s"><div class="eb3w2lp mgz-element mgz-child mgz-element-raw_js"><div class="mgz-element-inner eb3w2lp-s"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKXVMZRD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --></div></div></div></div></div></div></div><div class="ckhj9j2 mgz-element mgz-element-row full_width_row_content_no_paddings"><div class="mgz-element-inner ckhj9j2-s"><div class="inner-content "><div class="nrpajlv mgz-element mgz-element-column header_column mgz-col-xs-12"><div class="mgz-element-inner nrpajlv-s"><div class="mxu797e mgz-element mgz-child mgz-element-raw_html header_logo"><div class="mgz-element-inner mxu797e-s"><a class="logo" href="https://www.olacabs.com/" title="olacabs logo" aria-label="store logo"><img src="https://assets.olacabs.com/ola-prod-website/ola-white-logo.svg" title="olacabs logo" alt="olacabs" /></a></div></div><div class="t1p3rl1 mgz-element mgz-child mgz-element-raw_html header_top_menu"><div class="mgz-element-inner t1p3rl1-s"><div class="header-top-menu"><nav class=""><ul class="__list"><li class="__item "><a href="https://www.olaelectric.com/?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" event-name="desktop_top_menu_ola_electric" data-menu="menu-3" class="__link"> Ola Electric</a> </li> <li class="__item "><a href="https://olakrutrim.com/" event-name="desktop_top_menu_ola_krutrim" data-menu="menu-4" class="__link"> Krutrim</a> </li> <li class="__item "><a href="https://outstation.olacabs.com/" event-name="desktop_top_menu_ola_outstation" data-menu="menu-5" class="__link"> Outstation</a> </li> <li class="__item "><a href="https://business.olacabs.com/" event-name="desktop_top_menu_ola_business" data-menu="menu-5" class="__link"> Business</a> </li> </ul></nav><nav class="header_top_right_menu"><ul class="header_top_right_menu__list"><li class="header_top_right_menu__item top_right"><a href="https://book.olacabs.com/" event-name="desktop_top_menu_book_now" data-menu="menu-12" class="header_top_right_menu__link">Book an Ola Cab</a> </li> <li class="header_top_right_menu__item free_test_ride"><a href="https://www.olaelectric.com/experience-centres/book-appointment" event-name="desktop_top_menu_free_s1_test_ride_oc_header" data-menu="menu-13" class="header_top_right_menu__link">Book a Test Ride</a> </li> </ul></nav></div></div></div><div class="yeibgji mgz-element mgz-child mgz-element-raw_html header_humberger"><div class="mgz-element-inner yeibgji-s"><div class="hdrmobmenu"><div id="nav-container"><div class="bg"></div><div class="button header_menu_bar" tabindex="0" onclick="menu_func('header_menu')"><img class="humberger_web_img" src="/mediaimage/wysiwyg/hamburger.svg" alt="Menu Bar"><img class="humberger_mweb_img" src="/mediaimage/wysiwyg/humberger_mweb.svg" alt="Menu Bar"></div><div class="magezon-builder"><div id="header_menu" class="q5e95u7 mgz-element mgz-element-row side_bar_menu full_width_row_content_no_paddings"><div class="mgz-element-inner q5e95u7-s"><div class="inner-content "><div class="w1m72bj mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner w1m72bj-s"><div class="av4n90h mgz-element mgz-child mgz-element-button header_menu_close"><div class="mgz-element-inner av4n90h-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a href="javascript:;" class="mgz-link mgz-btn" title="" onclick="menu_close('header_menu')"></a> </div></div></div><div class="l2jafay mgz-element mgz-child mgz-element-raw_html"><div class="mgz-element-inner l2jafay-s"><div class="all_header_menu"><!--<div class="__mobile">--><!-- <svg--><!-- title="icon-arrow-down"--><!-- class="__mobile-icon"--><!-- >--><!-- <use xlink:href="http://dev.outstation_v2.com:8084/static/version1719464203/frontend/Ola/Cabs/en_US/images/icon-sprite.svg#icon-mobile-menu"></use>--><!-- </svg>--><!--</div>--><nav class=""><ul class="__list"><li class="__item "><a href="https://book.olacabs.com" data-menu="menu-6" class="__link" event-name="desktop_side_nav_book_now"> Book an Ola Cab</a> </li> <li class="__item "><a href="https://partners.olacabs.com/" data-menu="menu-7" class="__link" event-name="desktop_side_nav_drive_with_ola"> Drive with Ola</a> </li> <li class="__item "><a href="https://olaelectric.com/s1?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" data-menu="menu-8" class="__link" event-name="desktop_side_nav_ola_s1"> Ola S1</a> </li> <li class="__item "><a href="https://olaelectric.com?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" data-menu="menu-9" class="__link" event-name="desktop_side_nav_ola_electric"> Ola Electric</a> </li> <li class="__item "><a href="https://olakrutrim.com/" data-menu="menu-10" class="__link" event-name="desktop_side_nav_ola_krutrim"> Krutrim</a> </li> <li class="__item "><a href="https://outstation.olacabs.com/" data-menu="menu-10" class="__link" event-name="desktop_side_menu_ola_outstation"> Outstation</a> </li> <li class="__item "><a href="https://business.olacabs.com/" data-menu="menu-10" class="__link" event-name="desktop_side_menu_ola_business"> Ola for Business</a> </li> <li class="__item "><a href="https://olaelectric.com/future-factory?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" data-menu="menu-11" class="__link" event-name="desktop_side_menu_ola_outstation"> Ola FutureFactory</a> </li> <li class="__item "><a href="https://ola.foundation/" data-menu="menu-13" class="__link" event-name="desktop_side_nav_ola_foundation"> Ola Foundation</a> </li> <li class="__item "><a href="https://help.olacabs.com/support" data-menu="menu-14" class="__link" event-name="desktop_side_nav_support"> Support</a> </li> </ul><!--<div class="__mobile-bg"></div>--></nav><div class="fix-bottom"><a class="offers-banner-mb event-elem" event-name="desktop_feed_card_free_s1_test_ride" onclick="window.open('https://tr.olaelectric.com', '_blank');return false;"><img src="https://assets.olacabs.com/ola-prod-website/pink-banner-mob.png" class="cursor-pointer" height="100%" width="100%"></a> <div class="bottom-div"><a href="https://ola-desktop-magento-80a.corp.olacabs.com/careers" class="bottom-options event-elem" event-name="desktop_navbar_careers">Careers</a> <a href="https://ola-desktop-magento-80a.corp.olacabs.com/info/faqs#notices" class="bottom-options event-elem" event-name="desktop_navbar_notices">Notices</a> <a href="https://ola-desktop-magento-80a.corp.olacabs.com/info/faqs#privacyPolicy" class="bottom-options event-elem" event-name="desktop_navbar_privacy">Privacy</a> <a href="https://ola-desktop-magento-80a.corp.olacabs.com/info/faqs#termsAndConditions" class="bottom-options event-elem" event-name="desktop_navbar_tnc">T&amp;C</a> </div><div class="bottom-div"><div><a href="" class="event-elem" event-name="desktop_navbar_ola_logo"><img src="https://assets.olacabs.com/ola-prod-website/OLA-black.svg"></a> </div><div><a href="https://www.instagram.com/olacabs" target="_blank" class="event-elem" event-name="desktop_navbar_instagram"><img src="https://assets.olacabs.com/ola-prod-website/instagram-icon.svg" class="mL-26"></a> <a href="https://www.youtube.com/user/OfficialOlacabs" target="_blank" class="event-elem" event-name="desktop_navbar_youtube"><img src="https://assets.olacabs.com/ola-prod-website/youtube-icon.svg" class="mL-26"></a> <a href="https://twitter.com/Olacabs" target="_blank" class="event-elem" event-name="desktop_navbar_twitter"><img src="https://assets.olacabs.com/ola-prod-website/twitter-icon.svg" class="mL-26"></a> </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></header>    <div class="sections nav-sections">
+                <div class="section-items nav-sections-items"
+             data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                            <div class="section-item-title nav-sections-item-title"
+                     data-role="collapsible">
+                    <a class="nav-sections-item-switch"
+                       data-toggle="switch" href="#store.menu">
+                        Menu                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content"
+                     id="store.menu"
+                     data-role="content">
+                    
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+                    </ul>
+</nav>
+                </div>
+                                            <div class="section-item-title nav-sections-item-title"
+                     data-role="collapsible">
+                    <a class="nav-sections-item-switch"
+                       data-toggle="switch" href="#store.links">
+                        Account                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content"
+                     id="store.links"
+                     data-role="content">
+                    <!-- Account links -->                </div>
+                                    </div>
+    </div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessagesObservable() && cookieMessagesObservable().length > 0 -->
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: cookieMessagesObservable(), as: 'message'
+    }">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: messages().messages, as: 'message'
+    }, afterRender: purgeMessages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="dUO9JbaWdarfGYcn" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+        <script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.olacabs.com\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.olacabs.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.olacabs.com\/","customerLoginUrl":"https:\/\/www.olacabs.com\/customer\/ajax\/login\/"}</script>    <!-- ko template: getTemplate() --><!-- /ko -->
+        <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.olacabs.com\u002Fstatic\u002Ffrontend\u002FOla\u002FCabs\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+                            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"paymentservicespaypal\/smartbuttons\/placeorder":["cart","checkout-data"],"paymentservicespaypal\/smartbuttons\/cancel":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"braintree\/googlepay\/placeorder":["cart","checkout-data"]},
+                "clientSideSections": ["checkout-data","cart-data"],
+                "baseUrls": ["https:\/\/www.olacabs.com\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","payments","wishlist","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fwww.olacabs.com\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "3600",
+                "cookieDomain": "",
+                "updateSessionUrl": "https\u003A\u002F\u002Fwww.olacabs.com\u002Fcustomer\u002Faccount\u002FupdateSession\u002F",
+                "isLoggedIn": ""
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<div class="magezon-builder magezon-builder-preload"><div class="peux02n mgz-element mgz-element-row full_width_row_content_no_paddings"><div class="mgz-element-inner peux02n-s"><div class="inner-content "><div class="rvm0drl mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner rvm0drl-s"><div class="ns35bsw mgz-element mgz-child mgz-element-raw_html container_max_1200"><div class="mgz-element-inner ns35bsw-s"><script>
+    require(['jquery', 'jquery/ui'], function($){
+        jQuery(document).ready(function($){
+            const pathnamedata = window.location.pathname;
+            var emailunsubscribe1 = window.location.pathname.split("/")[1];
+            var emailunsubscribe2 = window.location.pathname.split("/")[2];
+
+            if (emailunsubscribe1 =='email-unsubscribe' || emailunsubscribe2 =='email-unsubscribe'){
+                $('#unsubscribe_form').show();
+                document.title = "Ola Email Unsubscribe";
+            } else if (emailunsubscribe1 =='sms-unsubscribe' || emailunsubscribe2 =='sms-unsubscribe'){
+                $('#unsubscribe_form').show();
+                $('.unsub_massage').html('is subscribed to our message list(s).');
+                document.title = "Ola SMS Unsubscribe";
+            } else {
+                window.location.href = "/";
+            }
+        });
+    });
+</script><div class="unsubscribe_main" id="unsubscribe_form" style="display:none"><div class="unsubscribe_header"><span id="unsubscribeMessage" style="display:none"> unsubscribeMessage -- Your message would be removed from the message list within 24 hrs.</span> <h2 id="emailLabel" class="unsub_label"></h2><h2 class="unsub_label" style="display:none">test.email@gm****com</h2><p class="unsub_massage">is subscribed to our mailing list(s).</p></div><div class="unsubscribe_body" id ="emailunsubscribe_body" style="display:none"><h2 class="unsub_highlighted_title">Unsubscribe from our mailing list</h2><p class="unsub_highlighted_description">To help us improve our services, we would be grateful if you could tell us why </p><div class="unsub_select"><select name="pets" id="unsub_reason"><option value="">Please select one reason</option><option value="Your emails are not relevant to me">Your emails are not relevant to me</option><option value="Your emails are too frequent">Your emails are too frequent</option><option value="I don't remember signing up for this">I don't remember signing up for this</option><option value="I no longer want to receive these emails">I no longer want to receive these emails</option><option value="The emails are spam and should be reported">The emails are spam and should be reported</option><option value="Others">Others</option></select> </div><div id="error-msg-show" style="color: red; display: none;">Please select an option</div><div class="unsub_action"><button type="button" class="unsubscribe_btn" id="unsubscribeButton">Unsubscribe</button> </div><p class="note_msg"><span id="unsub_head_note">Note</span> <span class="unsub_colon">:</span> <span id="unsub_head_note_massge">Your email address would be removed from the mailing list within 3 hrs.</span> </p></div><div class="unsubscribe_body" id ="smsunsubscribe_body" style="display:none"><h2 class="unsub_highlighted_title">Unsubscribe from our message list</h2><p class="unsub_highlighted_description">To help us improve our services, we would be grateful if you could tell us why </p><div class="unsub_select"><select name="pets" id="smsunsub_reason"><option value="">Please select one reason</option><option value="Your sms are not relevant to me">Your sms are not relevant to me</option><option value="Your sms are too frequent">Your sms are too frequent</option><option value="I don't remember signing up for this">I don't remember signing up for this</option><option value="I no longer want to receive these sms">I no longer want to receive these sms</option><option value="The sms are spam and should be reported">The sms are spam and should be reported</option><option value="Others">Others</option></select> </div><div id="error-msg-show" style="color: red; display: none;">Please select an option</div><div class="unsub_action"><button type="button" class="unsubscribe_btn" id="smsunsubscribeButton">Unsubscribe</button> </div><p class="note_msg"><span id="unsub_head_note">Note</span> <span class="unsub_colon">:</span> <span id="unsub_head_note_massge">Your message would be removed from the message list within 24 hrs.</span> </p></div><div class="unsub_msg" id="successmsg" style="display: none;"> You've successfully unsubscribed. Your phone number will be removed from the message list within 24 hrs. </div><div class="unsub_msg" id="errormsg"></div></div><script>
+    require(['jquery', 'jquery/ui'], function($){
+        jQuery(document).ready(function($){
+            const emailunsubscribe = window.location.pathname.split("/")[1];
+            const queryString = window.location.pathname.split("/")[2];
+
+            
+            if (window.location.pathname.indexOf('sms-unsubscribe') !== -1) {
+                if(queryString){
+                    var emaildata = '';
+                    var encodedSms = window.location.pathname.replace('/sms-unsubscribe/','');
+                    var datashow = null;
+                    $.ajax({
+                        type: "POST",
+                        data: { url: encodedSms },
+                        dataType: 'json',
+                        url: '/olacabs/api/usersms/',
+                        success: function(data) {
+                            GlobalPricingInfo = data;
+                            var datashow = GlobalPricingInfo.data;
+                            if(datashow === null){
+                                setTimeout(function() { $("#smsunsubscribe_body").hide();}, 100);
+                                setTimeout(function() { $("#emailLabel").hide();}, 100);
+                                $('.unsub_massage').html('Something went wrong. Please try after some time..');
+                            }else{
+                                var emaildata = datashow.phone;
+                                $('#emailLabel').html(datashow.phone);
+                                setTimeout(function() { $("#smsunsubscribe_body").show();}, 100);
+                            }             
+                        },
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            $('#smsunsubscribe_body').hide();
+                            console.log(xhr.statusText);
+                            console.log(xhr.status);
+                        }
+                    });
+
+                    $('#smsunsubscribeButton').click(function () {
+                        var selectedValue = $('#smsunsub_reason').val();
+                        var selectedText = $('#smsunsub_reason option:selected').text();
+                        if (selectedValue === '') {
+                            alert('Please select at least one reason');
+                            return false; 
+                        } else {
+                            console.log('Selected Value:', selectedValue);
+                            console.log('Selected Text:', selectedText);
+                            smsunsubscribe(selectedValue);
+                        }
+                    });
+
+                    function smsunsubscribe(selectedValue) {
+                        var token = "";
+                        var emailVendor = "amazonses";
+                        var currentDate = Math.round((new Date()).getTime() / 1000);
+                        var emailData = {
+                            "TRANSID": token,
+                            "PROVIDER": emailVendor,
+                            "URL": encodedSms,
+                            "TIMESTAMP": currentDate.toString(),
+                            "REASON": selectedValue
+                        }
+                        $.ajax({
+                            type: 'POST',
+                            url: '/olacabs/api/smsunsubscribedata/',
+                            data: emailData,
+                            dataType: 'json',
+                            success: function (data) {
+                                GlobalPricingInfo = data;
+                                var datashow = GlobalPricingInfo.data;
+                                if(datashow === null){
+                                }else{
+                                    var accepted = datashow.accepted;
+                                    console.log('return data:', data);
+                                    if(accepted == true){
+                                        window.location ="/unsubscribe-sms-success";
+                                    }
+                                }
+                            },
+                            error: function (xhr, status, error) {
+                                
+                                $('#successMsg').html('Something went wrong. Please try after some time.');
+                                console.log(xhr.statusText);
+                                console.log(xhr.status);
+                            }
+
+                        });
+                    }
+                }
+            }
+            
+            if (window.location.pathname.indexOf('email-unsubscribe') !== -1) {
+                if(queryString){
+                    var emaildata = '';
+                    var encodedEmail = window.location.pathname.replace('/email-unsubscribe/','');
+                    var datashow = null;
+                    $.ajax({
+                        type: "GET",
+                        data: { url: encodedEmail },
+                        dataType: 'json',
+                        url: '/olacabs/api/useremail/',
+                        success: function(data) {
+                            GlobalPricingInfo = data;
+                            var datashow = GlobalPricingInfo.data;
+                            if(datashow === null){
+                                setTimeout(function() { $("#unsubscribe_body").hide();}, 100);
+                                setTimeout(function() { $("#emailLabel").hide();}, 100);
+                                $('.unsub_massage').html('Something went wrong. Please try after some time..');
+                            }else{
+                                var emaildata = datashow.email;
+                                $('#emailLabel').html(datashow.email);
+                                setTimeout(function() { $("#emailunsubscribe_body").show();}, 100);
+                            }             
+                        },
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            $('#unsubscribe_body').hide();
+                            $('#successMsg').html('Something went wrong. Please try after some time.');
+                            console.log(xhr.statusText);
+                            console.log(xhr.status);
+                        }
+                    });
+                    
+
+                    $('#unsubscribeButton').click(function() {
+                        var selectedValue = $('#unsub_reason').val();
+                        var selectedText = $('#unsub_reason option:selected').text();
+                        if (selectedValue === '') {
+                            alert('Please select at least one reason');
+                            return false;
+                        }else {
+                            unsubscribe(selectedValue);
+                        }
+                    });
+
+                    function unsubscribe(selectedValue) {
+                        var token = ""; 
+                        var emailVendor = "amazonses"; 
+                        var currentDate = Math.round((new Date()).getTime() / 1000);
+                        var emailData = {
+                            "TRANSID": token,
+                            "PROVIDER": emailVendor,
+                            "URL": encodedEmail,
+                            "TIMESTAMP": currentDate.toString(),
+                            "REASON" : selectedValue
+                        }
+                        $.ajax({
+                            type: 'POST',
+                            url: '/olacabs/api/emailunsubscribedata/',
+                            data: emailData,
+                            dataType: 'json',
+                            success: function(data){
+                                GlobalPricingInfo = data;
+                                var datashow = GlobalPricingInfo.data;
+                                if(datashow === null){
+                                }else{
+                                    var accepted = datashow.accepted;
+                                    console.log('return data:', data);
+                                    if(accepted == true){
+                                        window.location ="/unsubscribe-success";
+                                    }
+                                }
+                            },
+                            error: function(xhr, status, error){
+                                
+                                $('#successMsg').html('Something went wrong. Please try after some time.');
+                                console.log(xhr.statusText);
+                                console.log(xhr.status);
+                            }
+                        });
+                    };
+                }
+            }
+
+        });
+    });
+</script></div></div></div></div></div></div></div></div></div></div></main><footer class="page-footer"><div class="footer content"><div class="footer_bottom_content"> 
+    <div class="magezon-builder magezon-builder-preload"><div class="u4m47ra mgz-element mgz-element-row full_width_row"><div class="mgz-element-inner u4m47ra-s"><div class="inner-content mgz-container"><div class="ktt3tt2 mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner ktt3tt2-s"><div class="wcqixx2 mgz-element mgz-child mgz-element-raw_html"><div class="mgz-element-inner wcqixx2-s"><div class="piiliri mgz-element mgz-element-row footer_bottom_block container_width_1246 footer_bottom_block_pre_prod full_width_row_content_no_paddings"><div class="mgz-element-inner piiliri-s"><div class="inner-content"><div class="slhj03e mgz-element mgz-element-column footer_content_menu mgz-col-md-8"><div class="mgz-element-inner slhj03e-s"><div class="brmdyf8 mgz-element mgz-element-section mgz-hidden-sm mgz-hidden-xs"><div class="mgz-element-inner brmdyf8-s"><div class="go56ujw mgz-element mgz-child mgz-element-single_image mgz-image-hovers"><div class="mgz-element-inner go56ujw-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner"><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/OLA.svg" alt="OLA" title="" /></div></div></div></div><div class="kon3ng6 mgz-element mgz-element-section footer_social_icons"><div class="mgz-element-inner kon3ng6-s"><div class="gr9d48y mgz-element mgz-child mgz-element-single_image footer_icons mgz-image-hovers"><div class="mgz-element-inner gr9d48y-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner mgz-image-link"><a class="" event-name="desktop_footer_instagram" href="https://www.instagram.com/olaelectric/" data-type="image" data-title="" data-zoom="1" ><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/insta.svg" alt="insta" title="" /></a> </div></div></div></div><div class="mw27ga0 mgz-element mgz-child mgz-element-single_image footer_icons mgz-image-hovers"><div class="mgz-element-inner mw27ga0-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner mgz-image-link"><a class="" event-name="desktop_footer_youtube" href="https://www.youtube.com/user/OfficialOlacabs" data-type="image" data-title="" data-zoom="1" ><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/youtube.svg" alt="youtube" title="" /></a> </div></div></div></div><div class="rd4o92f mgz-element mgz-child mgz-element-single_image footer_icons mgz-image-hovers"><div class="mgz-element-inner rd4o92f-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner mgz-image-link"><a class="" event-name="desktop_footer_twitter" href="https://twitter.com/Olacabs" data-type="image" data-title="" data-zoom="1" ><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/twitter.svg" alt="twitter" title="" /></a> </div></div></div></div></div></div></div></div><div class="jbiqi53 mgz-element mgz-element-section"><div class="mgz-element-inner jbiqi53-s"><div class="hhrkujw mgz-element mgz-element-section footer_menu_list"><div class="mgz-element-inner hhrkujw-s"><div id="desktop_footer_book_now" class="bd5u2rh mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner bd5u2rh-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_book_now" href="https://book.olacabs.com" class="mgz-link mgz-btn" title=""> Book a cab </a></div></div></div><div class="m4kqyb1 mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner m4kqyb1-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_drive_with_ola" href="https://partners.olacabs.com/" class="mgz-link mgz-btn" title=""> Drive with us </a></div></div></div><div class="ft8khdt mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner ft8khdt-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_outstation_ola" href="https://outstation.olacabs.com/" class="mgz-link mgz-btn" title="" > Outstation </a></div></div></div><div class="f6900u6 mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner f6900u6-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_rental" href="https://olacabs.com/" class="mgz-link mgz-btn" title=""> Rental </a></div></div></div><div class="d4sq4y0 mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner d4sq4y0-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_ola_money" href="https://www.olamoney.com/" class="mgz-link mgz-btn" title=""> Ola Money </a></div></div></div><div class="sf25j4k mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner sf25j4k-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_ola_corporate" href="https://corporate.olacabs.com/" class="mgz-link mgz-btn" title=""> Corporate </a></div></div></div></div></div></div></div><div class="emcrr4m mgz-element mgz-element-section"><div class="mgz-element-inner emcrr4m-s"><div class="dua2jya mgz-element mgz-element-section footer_menu_list"><div class="mgz-element-inner dua2jya-s"><div class="ytwuxvk mgz-element mgz-child mgz-element-button footer_hd_1 footer_menu_title"><div class="mgz-element-inner ytwuxvk-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_about_us" href="about/" class="mgz-link mgz-btn" title=""> About Us </a></div></div></div><div class="um8wnjm mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner um8wnjm-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_contact_us" href="/contact" class="mgz-link mgz-btn" title=""> Contact Us </a></div></div></div><div class="r8dc12j mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner r8dc12j-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_support" href="https://help.olacabs.com/support/home" class="mgz-link mgz-btn" title=""> Support </a></div></div></div><div class="nw9vpod mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner nw9vpod-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_careers" href="/careers" class="mgz-link mgz-btn" title=""> Careers </a></div></div></div><div class="yqv92af mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner yqv92af-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_media_centre" href="https://www.olacabs.com/media/in" class="mgz-link mgz-btn" title=""> Media Centre </a></div></div></div></div></div></div></div><div class="gnk08js mgz-element mgz-element-section"><div class="mgz-element-inner gnk08js-s"><div class="sk5axgc mgz-element mgz-element-section footer_menu_list"><div class="mgz-element-inner sk5axgc-s"><div class="cv8dmqu mgz-element mgz-child mgz-element-button footer_hd_1 footer_menu_title"><div class="mgz-element-inner cv8dmqu-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_ola_s1" href="https://olaelectric.com/s1?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" class="mgz-link mgz-btn" title=""> Ola S1 </a> </div></div></div><div class="jaq29i1 mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner jaq29i1-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_ola_future_factory" href="https://www.olaelectric.com/future-factory?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" class="mgz-link mgz-btn" title=""> Futurefactory </a> </div></div></div><div class="ho1ysja mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner ho1ysja-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_ola_electric" href="https://www.olaelectric.com/?utm_source=olacabs&utm_medium=olacabs_web&utm_campaign=olacabs_web_all" class="mgz-link mgz-btn" title=""> Electric </a> </div></div></div><div class="nx15fu1 mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner nx15fu1-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_ola_investor_relations" href="https://www.olacabs.com/investor-relations" class="mgz-link mgz-btn" title=""> Investor Relations </a> </div></div></div></div></div></div></div></div></div></div></div></div><div class="hi9n5sq mgz-element mgz-element-row footer_copyright full_width_row_content_no_paddings"><div class="mgz-element-inner hi9n5sq-s"><div class="inner-content"><div class="s0w2bco mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner s0w2bco-s"><div class="sct96lm mgz-element mgz-element-row footer_bottom_block full_width_row_content_no_paddings"><div class="mgz-element-inner sct96lm-s"><div class="inner-content"><div class="kd3988u mgz-element mgz-element-column copyright_text mgz-col-md-6"><div class="mgz-element-inner kd3988u-s"><div class="ii2evvc mgz-element mgz-child mgz-element-text"><div class="mgz-element-inner ii2evvc-s"><p>Copyright © 2024 Ola Electric Mobility Pvt Ltd. All Rights Reserved.</p></div></div></div></div><div class="a008wwo mgz-element mgz-element-column footer_bottom_content_right mgz-col-md-6"><div class="mgz-element-inner a008wwo-s"><div class="t3lq2gr mgz-element mgz-element-section footer_bottom_menu"><div class="mgz-element-inner t3lq2gr-s"><div class="m43etvi mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner m43etvi-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_notices" href="/info/faqs#notices" class="mgz-link mgz-btn" title=""> Notices </a></div></div></div><div class="fgb9q5j mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner fgb9q5j-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_privacy_policy" href="/info/faqs#privacyPolicy" class="mgz-link mgz-btn" title=""> Privacy Policy </a> </div></div></div><div class="isehj13 mgz-element mgz-child mgz-element-button"><div class="mgz-element-inner isehj13-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a event-name="desktop_footer_tncs" href="/info/faqs#termsAndConditions" class="mgz-link mgz-btn" title=""> Terms of Service </a> </div></div></div></div></div><div class="kvw58g1 mgz-element mgz-element-section footer_mobile_logos mgz-hidden-xl mgz-hidden-lg mgz-hidden-md"><div class="mgz-element-inner kvw58g1-s"><div class="oy27vad mgz-element mgz-child mgz-element-single_image mgz-image-hovers"><div class="mgz-element-inner oy27vad-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner"><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/OLA.svg" alt="OLA" title="" /></div></div></div></div><div class="a2pw97c mgz-element mgz-element-section footer_social_icons"><div class="mgz-element-inner a2pw97c-s"><div class="j09l257 mgz-element mgz-child mgz-element-single_image footer_icons mgz-image-hovers"><div class="mgz-element-inner j09l257-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner mgz-image-link"><a class="" href="https://www.instagram.com/olaelectric/" data-type="image" data-title="" data-zoom="1" ><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/insta.svg" alt="insta" title="" /></a> </div></div></div></div><div class="aybu2gf mgz-element mgz-child mgz-element-single_image footer_icons mgz-image-hovers"><div class="mgz-element-inner aybu2gf-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner mgz-image-link"><a class="" href="https://www.youtube.com/user/OfficialOlacabs" ><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/youtube.svg" alt="youtube" title="" /></a> </div></div></div></div><div class="qn7u9kj mgz-element mgz-child mgz-element-single_image footer_icons mgz-image-hovers"><div class="mgz-element-inner qn7u9kj-s"><div class="mgz-single-image-wrapper"><div class="mgz-single-image-inner mgz-image-link"><a class="" href="https://twitter.com/Olacabs" data-type="image" data-title="" data-zoom="1" ><img class="mgz-hover-main" src="https://assets.olacabs.com/ola-prod-website/twitter.svg" alt="twitter" title="" /></a> </div></div></div></div></div></div></div></div><div class="tu21u7i mgz-element mgz-element-section footer_bottom_country_option"><div class="mgz-element-inner tu21u7i-s"><div class="rok14lw mgz-element mgz-child mgz-element-button footer_bottom_country_selected"><div class="mgz-element-inner rok14lw-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a href="javascript:;" class="mgz-link mgz-btn" title="" onclick="country_select('footer_menu_country')"> India </a></div></div></div><div id="footer_menu_country" class="o9tx884 mgz-element mgz-element-section footer_bottom_countries"><div class="mgz-element-inner o9tx884-s"><div class="jvs6y0w mgz-element mgz-child mgz-element-button footer_bottom_country_list"><div class="mgz-element-inner jvs6y0w-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a href="https://olacabs.com/au-support" class="mgz-link mgz-btn" title=""> AU </a> </div></div></div><div class="bnnphtj mgz-element mgz-child mgz-element-button footer_bottom_country_list"><div class="mgz-element-inner bnnphtj-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a href="https://olacabs.com/gb-support" class="mgz-link mgz-btn" title=""> UK </a> </div></div></div><div class="ksjthhl mgz-element mgz-child mgz-element-button footer_bottom_country_list"><div class="mgz-element-inner ksjthhl-s"><div class="mgz-button mgz-btn-style-flat mgz-btn-size-md"><a href="https://olacabs.com/nz-support" class="mgz-link mgz-btn" title=""> NZ </a> </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.olacabs.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.olacabs.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.olacabs.com\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.olacabs.com\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+<script>require(['magezonBuilder']);</script><script>require(['Magezon_PageBuilder/js/common']);</script></div>    </body>
+</html>
