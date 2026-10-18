@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>Request Rejected</title>
+</head>
+<body class="balancer">
+<style>
+body.balancer {
+	margin: 0;
+	font: 18px/24px Arial, sans-serif;
+	color: #1a1a1a;
+}
+
+.balancer header {
+	margin: 12px 0;
+	text-align: center;
+}
+
+.balancer-container {
+	background: #F7F2ED;
+	padding: 16px;
+}
+
+.balancer-text {
+	padding: 24px;
+	margin: 0 auto;
+	max-width: 456px;
+	text-align: center;
+	background: #fff;
+}
+
+@media (min-width: 768px) {
+	.balancer header {
+		margin: 32px 0;
+	}
+	.balancer-container {
+		padding: 32px 16px;
+	}
+}
+
+.balancer h1 {
+	font: bold 24px/32px  Arial, sans-serif;
+	margin: 0 0 16px;
+}
+
+.balancer p {
+	margin: 8px 0 0;
+}
+
+.balancer-button {
+	display: inline-block;
+	color: #007AD0;
+	margin: 24px 0 0;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-right: 24px;
+	position: relative;
+}
+
+.balancer-button svg {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	right: 0;
+}
+
+.balancer-button:hover {
+	text-decoration: underline;
+}
+</style>
+<header>
+<svg width="54" height="50" viewBox="0 0 54 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M27.3345 15.242C28.0821 15.3621 28.2343 15.2103 28.3375 14.4969C28.506 13.4087 28.9032 11.5744 29.818 9.69711C30.8084 7.67272 32.3799 5.45104 34.569 3.96982C36.4127 2.73854 39.4308 1.38026 41.7641 0.894522C43.6729 0.491489 45.4596 0.422529 46.9915 0.574187C50.1396 0.877344 51.8768 1.79245 52.7448 2.96912C53.0667 3.40869 53.2411 3.94971 53.2464 4.29936C53.2681 4.88233 53.0115 5.6415 52.177 6.38351C51.3649 7.09824 49.6362 7.99857 47.2811 8.78225C44.8366 9.58758 41.4975 10.4338 38.1696 11.1862C35.3831 11.8169 33.7966 12.358 32.4719 12.8025C30.2686 13.5418 29.5934 15.7449 30.96 16.4265C32.9352 17.4115 34.1682 18.4368 35.2191 19.3084C36.7953 20.6268 38.6257 22.178 40.8934 24.9699C42.9477 27.5299 46.3045 32.4127 47.496 37.1407C48.815 42.3314 47.9451 47.2421 45.0294 48.5984C42.1708 49.9304 38.3823 47.964 35.7308 45.1598C33.2082 42.4984 31.4547 39.3705 29.8163 34.5517C28.3953 30.4096 27.8434 24.4118 27.8634 21.2759C27.8693 20.2312 27.8538 20.0082 27.9009 19.065C28.0023 18.2435 25.8084 17.5512 23.4377 19.0707C20.7399 20.7998 18.0887 23.9461 16.5237 25.7732C15.8428 26.5707 14.9194 27.7431 13.941 28.9726C12.6513 30.5854 11.2281 32.2645 9.9341 33.2004C7.98661 34.6153 4.86723 35.1873 2.69337 33.6049C1.485 32.7235 0.84841 31.0684 0.837537 29.3892C0.826074 28.2071 1.12268 27.1394 1.7138 26.0878C2.4522 24.7969 3.66374 23.4139 5.58101 21.833C7.56354 20.2085 10.7241 18.3763 13.8881 17.1151C18.7143 15.1872 23.9023 14.6012 27.3345 15.242Z" fill="#19AAF8"/>
+</svg>
+
+</header>
+<div class="balancer-container">
+	<div class="balancer-text">
+		<h1>The requested URL was rejected.</h1>
+		<p>Please consult with your administrator.</p>
+		<p>Your support ID is: 16878108957086894858</p>
+		<a class="balancer-button" href='javascript:history.back();'>Go Back <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.92469 0.33563C5.48483 -0.111877 4.77167 -0.111877 4.33181 0.33563C3.89195 0.783138 3.89195 1.50869 4.33181 1.9562L10.2771 7.99338L4.33181 14.0306C4.11945 14.2448 4 14.5365 4 14.8408C4 15.1451 4.11945 15.4368 4.33181 15.6511C4.54244 15.8672 4.82915 15.9887 5.12825 15.9887C5.42735 15.9887 5.71406 15.8672 5.92469 15.6511L12.6552 8.80366C12.8675 8.58937 12.987 8.29768 12.987 7.99338C12.987 7.68908 12.8675 7.39738 12.6552 7.1831L5.92469 0.33563Z" fill="#007AD0"/>
+</svg>
+</a>
+	</div>
+</div>
+</body>
+</html>

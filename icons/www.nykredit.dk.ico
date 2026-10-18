@@ -1,0 +1,1438 @@
+
+<!DOCTYPE html>
+<html class=" no-js" lang="da">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" data-gcm-version="2.0" data-culture="DA" type="text/javascript"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied',
+        'functionality_storage': 'denied',
+        'personalization_storage': 'denied',
+        'security_storage': 'granted',
+        'wait_for_update': 2000
+    });
+    gtag('set', 'ads_data_redaction', true);
+    dataLayer.push({'event': 'consentUpdate', 'consentmode': 'v2'});
+</script>
+
+    
+    <meta content="INDEX, FOLLOW" name="ROBOTS"></meta>
+    <title>404 side</title>
+<meta content="404 side" property="og:title"></meta>
+<meta content="" property="og:description"></meta>
+<meta content="https://www.nykredit.dk/globale-indstillinger/404-side/" property="og:url"></meta>
+<meta content="" property="og:image"></meta>
+<meta content="" property="og:video"></meta>
+<meta content="website" property="og:type"></meta>
+<meta content="da_DK" property="og:locale"></meta>
+<link href="https://www.nykredit.dk/globale-indstillinger/404-side/" rel="canonical"></link>
+
+    <script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=03e9d5ca-8927-475e-9760-8760de34c391;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=21982f2f-928e-4d31-9a61-f476b46770cc'
+}});</script>
+
+    
+    <link rel="stylesheet" href="/Content/common-css/v-639275665600000000/nykredit.css" type="text/css">
+
+<link rel="shortcut icon" href="/assets/images/v-639275665580000000/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/v-639275665580000000/favicon-16x16.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/images/v-639275665580000000/favicon-48x48.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/images/v-639275665580000000/favicon-192x192.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/images/v-639275665580000000/favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="icon" href="/assets/images/v-639275665580000000/favicon-48x48.png" type="image/png" sizes="48x48">
+<link rel="icon" href="/assets/images/v-639275665580000000/favicon-192x192.png" type="image/png" sizes="192x192">
+            <link rel="stylesheet" href="/Content/v-639275665600000000/app.min.css"/>
+
+    <link rel="stylesheet" href="/Content/common-css/v-639275665600000000/global-styling.css" type="text/css">
+    <script src="/Content/common-js/v-639275665600000000/app.js" defer></script>
+
+
+    <script>
+        function handleImageError(imageElement) {                      
+            const fallbackSrc = imageElement.getAttribute('data-fallback');
+            if (imageElement.src !== fallbackSrc) {                
+                imageElement.onerror = null;
+                imageElement.src = fallbackSrc;
+                const parentPicture = imageElement.closest('picture');
+                if (parentPicture) {
+                    const sources = parentPicture.querySelectorAll('source');
+                    sources.forEach(source => {
+                        const sourceFallback = source.getAttribute('data-fallback');
+                        if (source.srcset !== sourceFallback) {
+                            source.srcset = sourceFallback;
+                        }
+                    });
+                }
+            } 
+        }
+    </script>
+
+    
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({'gtm.start':new Date().getTime(), event: 'gtm.js'}); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N3NR82H');
+</script>    
+    
+ <script>
+    window.dataLayer = (typeof window.dataLayer != 'undefined' && window.dataLayer instanceof Array)? window.dataLayer: [];
+                  window.dataLayer.push({'page': 'NotFoundPage'});
+</script>
+
+    
+    
+
+    
+</head>
+<body class="mdc-typography ">
+
+    
+<noscript><iframe role="presentation" src=\"https://www.googletagmanager.com/ns.html?id = GTM-N3NR82H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    
+    <div class="hide-base-svg">
+<svg xmlns="http://www.w3.org/2000/svg" role="presentation"><defs><clipPath id="a"><path fill="#fff" d="M0 0h16v12H0z"/></clipPath><clipPath id="a"><path fill="#fff" d="M0 0h16v12H0z"/></clipPath><filter id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.058824 0 0 0 0 0.117647 0 0 0 0 0.509804 0 0 0 1.000000 0"/></filter><style>.cls-1{fill:#002781}.cls-2{fill:#e6e6e6}.cls-3{fill:#d10d24}</style><filter id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.058824 0 0 0 0 0.117647 0 0 0 0 0.509804 0 0 0 1.000000 0"/></filter><clipPath id="a"><path fill="#fff" transform="translate(8 8)" d="M0 0h48v48H0z"/></clipPath><clipPath id="a"><path fill="#fff" transform="translate(8 8)" d="M0 0h48v48H0z"/></clipPath><clipPath id="a"><path fill="#fff" transform="translate(8 8)" d="M0 0h48v48H0z"/></clipPath><clipPath id="b"><path fill="#fff" transform="translate(7.998 8)" d="M0 0h48v48H0z"/></clipPath><clipPath id="a"><path fill="#fff" transform="translate(8 8)" d="M0 0h48v48H0z"/></clipPath><clipPath id="b"><path fill="#fff" transform="translate(7.998 8)" d="M0 0h48v48H0z"/></clipPath><clipPath id="a"><path fill="#fff" transform="translate(8 8)" d="M0 0h48v48H0z"/></clipPath><filter id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.058824 0 0 0 0 0.117647 0 0 0 0 0.509804 0 0 0 1.000000 0"/></filter><filter id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.058824 0 0 0 0 0.117647 0 0 0 0 0.509804 0 0 0 1.000000 0"/></filter></defs><symbol id="a-security" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M30 36h16v10H30zm4 0v-6c0-2.2 1.8-4 4-4s4 1.8 4 4v6M22 26c-5.523 0-10-6.477-10-12v-2c0-5.523 4.477-10 10-10s10 4.477 10 10v2c0 5.523-4.477 12-10 12zm2 5.037A54.45 54.45 0 0 0 22 31c-6.288 0-11.477 1.098-14.993 2.144A6.997 6.997 0 0 0 2 39.856V44h21"/></g></symbol><symbol id="account2021" viewBox="0 0 26 26"><g stroke="var(--colortheme-icon)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M1 25c0-6.025 4.884-10.91 10.91-10.91h2.18C20.117 14.09 25 18.976 25 25"/><path d="M19.545 7.545a6.545 6.545 0 1 1-13.09.002 6.545 6.545 0 0 1 13.09-.002z"/></g></symbol><symbol id="alert-circle-i-new" viewBox="0 0 48 48"><circle cx="24" cy="24" r="17.6" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="square"/><path d="M24 16v9.6" stroke="#49BCA3" stroke-width="2" stroke-linecap="square"/><ellipse cx="24" cy="32" rx="1.6" ry="1.6" fill="#49BCA3"/></symbol><symbol id="alert-circle-i" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"/><circle cx="24" cy="15" r="1" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M20 22h4v12m-4 0h8" stroke-linecap="square"/><circle cx="24" cy="15" r="1" fill="currentColor" data-stroke="none"/></symbol><symbol id="alert-circle-que" viewBox="0 0 15 15"><g fill="none" fill-rule="evenodd"><circle cx="7.5" cy="7.5" r="7" stroke="var(--colortheme-icon)" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5"/><circle cx="7.5" cy="12" r="1" fill="#07094A" fill-opacity=".5" fill-rule="nonzero"/><path stroke="var(--colortheme-icon)" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5" d="M6 3.577c.953-.86 3.018-.845 3.423.635C9.95 6.134 7.5 6.142 7.5 9"/></g></symbol><symbol id="apple" viewBox="0 0 27 32"><path d="M22.922 19.65c-.515 1.148-.762 1.66-1.425 2.675-.925 1.416-2.229 3.18-3.845 3.195-1.436.013-1.805-.94-3.754-.928-1.95.01-2.356.946-3.792.932-1.616-.015-2.851-1.608-3.776-3.025-2.587-3.961-2.858-8.61-1.262-11.08 1.134-1.758 2.923-2.785 4.605-2.785 1.712 0 2.79.945 4.206.945 1.373 0 2.21-.946 4.19-.946 1.497 0 3.083.82 4.213 2.236-3.702 2.042-3.1 7.359.64 8.781zM16.777 6.154c.72-.928 1.265-2.24 1.067-3.58-1.175.081-2.55.833-3.352 1.814-.729.89-1.33 2.209-1.096 3.491 1.282.04 2.61-.73 3.38-1.725z" fill="#070936" fill-rule="evenodd"/></symbol><symbol id="arrow-down" viewBox="0 0 29 11"><path d="M26.709 2.26L14.5 9.553 2.291 2.26" stroke="var(--colortheme-icon)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="arrowBtn--grey"><circle cx="22" cy="22" r="22" fill="#EDE8E6"/><path fill="#07094A" d="M13 21.337v1.344h12.995l-4.456 4.628.767.691L29 21.99 22.306 16l-.767.69 4.456 4.647H13z"/></symbol><symbol id="arrowBtn--transparant-white"><g clip-path="url(#a)"><path fill="#fff" d="M0 5.337v1.344h12.995L8.539 11.31l.767.691L16 5.99 9.306 0l-.767.69 4.456 4.647H0z"/></g></symbol><symbol id="arrowBtn--transparant"><g clip-path="url(#a)"><path fill="#07094A" d="M0 5.337v1.344h12.995L8.539 11.31l.767.691L16 5.99 9.306 0l-.767.69 4.456 4.647H0z"/></g></symbol><symbol id="arrowBtn--white"><circle cx="22" cy="22" r="22" fill="#fff"/><path fill="#07094A" d="M13 21.337v1.344h12.995l-4.456 4.628.767.691L29 21.99 22.306 16l-.767.69 4.456 4.647H13z"/></symbol><symbol id="article-icon" viewBox="0 0 14 16"><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M.5.5h13v15H.5zm8 3h2m-2 3h2m-7 3h7m-7 3h7"/><path d="M3.5 3.5h3v3h-3z"/></g></symbol><symbol id="artikel-icon" viewBox="0 0 14 16"><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M.5.5h13v15H.5zm8 3h2m-2 3h2m-7 3h7m-7 3h7"/><path d="M3.5 3.5h3v3h-3z"/></g></symbol><symbol id="asterisk" viewBox="0 0 11 12"><text transform="translate(-1 -9)" fill="#68D2DF" fill-rule="evenodd" font-family="OpenSans-Light, Open Sans" font-size="24" font-weight="300"><tspan x="0" y="31">*</tspan></text></symbol><symbol id="audio-92" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M24 32c-5.523 0-10-4.477-10-10V12c0-5.523 4.477-10 10-10s10 4.477 10 10v10c0 5.523-4.477 10-10 10z"/><path d="M14 46h20m-10-8v8m16-24c0 8.837-7.163 16-16 16S8 30.837 8 22M14 14h5m-5 7h5m10-7h5m-5 7h5"/></g></symbol><symbol id="award-48" viewBox="0 0 27 29"><g fill="none" fill-rule="evenodd" stroke="#000" transform="translate(1 1)"><path d="M4.756 15.1L0 24.681l4.821-.95 2.893 3.797 4.044-8.574m8.558-3.854l4.755 9.582-4.821-.95-2.893 3.797-4.044-8.574"/><ellipse cx="12.536" cy="9.493" stroke-linecap="square" rx="9.643" ry="9.493"/><ellipse cx="12.536" cy="9.493" stroke-linecap="square" rx="3.857" ry="3.797"/></g></symbol><symbol id="award-49" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M25 40H2V2h35v14M9 12h17M9 21h11M9 30h11" stroke-linecap="square"/><path d="M43 31.708V45l-6-3-6 3V31.708"/><circle cx="37" cy="25" r="9" stroke-linecap="square"/></g></symbol><symbol id="b-meeting" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M46 2H22v21l9-7h15zM20 43.672c0-1.208-.53-2.357-1.476-3.108C17.078 39.416 14.57 38 11 38s-6.078 1.416-7.524 2.564A3.952 3.952 0 0 0 2 43.672V46h18v-2.328z"/><circle cx="11" cy="28" r="5"/><path d="M46 43.672c0-1.208-.53-2.357-1.476-3.108C43.078 39.416 40.57 38 37 38s-6.078 1.416-7.524 2.564c-.947.75-1.476 1.9-1.476 3.108V46h18v-2.328z"/><circle cx="37" cy="28" r="5"/></g></symbol><symbol id="bec-phone" viewBox="0 0 20 20"><path d="M13.017 12.117L11.55 13.95a15.478 15.478 0 0 1-5.501-5.5l1.834-1.468a1.247 1.247 0 0 0 .36-1.478L6.572 1.74a1.247 1.247 0 0 0-1.453-.701l-3.182.825a1.254 1.254 0 0 0-.925 1.385A18.49 18.49 0 0 0 16.75 18.988a1.254 1.254 0 0 0 1.384-.925l.825-3.182a1.247 1.247 0 0 0-.7-1.451l-3.764-1.672a1.246 1.246 0 0 0-1.478.359z" stroke="var(--colortheme-icon)" fill="none" stroke-linecap="square" stroke-width="1"/></symbol><symbol id="bec-question" viewBox="0 0 18 18"><title>c-question</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M17 9A8 8 0 1 1 1 9a8 8 0 0 1 16 0z" stroke="var(--colortheme-icon)" stroke-linecap="square"/><path d="M9.167 13.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0z" fill="#07094A"/><path d="M7.667 5.395c1.36-.618 3.12-.544 3.722.455.6 1 .186 2.163-.845 3.06-1.03.897-1.402 1.384-1.402 2.09" stroke="var(--colortheme-icon)" stroke-linecap="square"/></g></symbol><symbol id="beregnerhus" viewBox="0 0 164 156"><g fill="none" fill-rule="evenodd"><g stroke="var(--colortheme-icon)" stroke-width="4"><path d="M23.146 55.532V152h43.17v-40.157H98.69V152h43.164V55.532"/><path stroke-linecap="square" d="M66.226 60.308h33.506v28.654H66.226z"/><path stroke-linecap="square" d="M161 70.814L82.5 3 4 70.814"/></g><path stroke="#4192DC" stroke-width="4" d="M23.146 55.548v96.497h43.17v-40.17H98.69v40.17h43.164V55.548"/><path stroke="#4192DC" stroke-linecap="square" stroke-width="4" d="M66.226 60.325h33.506v28.662H66.226v-8.181z"/><path stroke="#4192DC" stroke-linecap="square" stroke-width="4" d="M161 70.834L82.5 3 4 70.834"/><path stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="4" d="M66.226 60.325V82m-43.08-27v27"/><path stroke="#4192DC" stroke-linecap="square" stroke-width="4" d="M66.226 112.583v39.505m32.548-39.505v39.505"/><path stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="4" d="M141.854 55v27M99.732 60.325V82M66.226 60.325h33.506"/><path stroke="#4192DC" stroke-linecap="square" stroke-width="4" d="M66.226 88.987h33.506m-33.506 22.93h32.548"/><path stroke="#4192DC" stroke-linecap="square" stroke-width="2" d="M24.104 152.045h42.122m32.548 0h42.122"/><path stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="4" d="M161 70.834L82.5 3M4 70.834L82.5 3"/></g></symbol><symbol id="building" viewBox="0 0 28 28"><path d="M20.067 9.74V3.622H7.933v9.614m4.334 13.984h3.413M14 1v2.622M1 16.732h11.267V27.22H1zm4.333 3.497h2.6m7.8-6.993H27V27.22H15.733zm4.334 6.993h2.6m-2.6-3.497h2.6M5.333 23.725h2.6m12.134 0h2.6" fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square"/></symbol><symbol id="c-question" viewBox="0 0 16 16"><title>c question</title><g stroke-width="1" stroke-linejoin="round" fill="none" stroke="var(--colortheme-icon)" stroke-linecap="round" class="nc-icon-wrapper"><circle cx="8" cy="8" r="7.5"/><circle cx="8.003" cy="12" r="1" stroke="none" fill="#07094a"/><path d="M6.5 3.577c.953-.86 3.018-.845 3.423.635C10.453 6.134 8 6.142 8 9"/></g></symbol><symbol id="cal-arrow-down" viewBox="0 0 23 13"><title>887625C2-7BF1-4000-B4A3-B26DC9267EA1@3x</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path fill="#FFF" d="M-1007-912H433v3878h-1440z"/><path d="M2 1.75l9.5 9.5 9.5-9.5" stroke="#68D2DF" stroke-linecap="square" stroke-width="2"/></g></symbol><symbol id="cal-checkmark" viewBox="0 0 25 18"><title>2F9E87B5-5CC3-4957-855A-0368FBC07B2C@1x</title><path d="M2.083 8.458l7.292 7.584L22.917 1.958" stroke="#68D2DF" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="calculator-outline-48" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M40 46H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h32a3 3 0 0 1 3 3v38a3 3 0 0 1-3 3z"/><path d="M11 8h26v8H11zm26 20v12h-6V28h6M11 22h4m6 0h4m7 0h4M11 40h4m6 0h4m-14-6h4m6 0h4m-14-6h4m6 0h4"/></g></symbol><symbol id="calendar-add" viewBox="0 0 46 46"><path fill="currentColor" stroke="none" d="M0 16h46v2H0z"/><path fill="currentColor" stroke="none" d="M46 46H0V4h46v42zM2 44h42V6H2v38z"/><path fill="currentColor" stroke="none" d="M22 0h2v10h-2zM10 0h2v10h-2zm24 0h2v10h-2z"/><path fill="#FB264E" stroke="none" d="M22 24h2v14h-2z"/><path fill="#FB264E" stroke="none" d="M16 30h14v2H16z"/></symbol><symbol id="car-front" viewBox="0 0 46 40"><g fill="none" fill-rule="evenodd" stroke="#F68628" stroke-width="2"><path d="M41 16L39.231 2.736A2 2 0 0 0 37.249 1H8.751a2 2 0 0 0-1.982 1.736L5 16"/><path stroke-linecap="square" d="M13 33v6H4v-6m38 0v6h-9v-6m12 0H1V22.403c0-.908.309-1.79.877-2.499L5 16h36l3.123 3.904A4 4 0 0 1 45 22.403V33z"/><path stroke-linecap="square" d="M40 25a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-28 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm8 0h6"/></g></symbol><symbol id="card-remove" viewBox="0 0 24 24"><g stroke="#FB2642" filter="url(#a)" transform="translate(-521 -930)" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M521.75 936.75h22.5m-16.5 12h-4.5a1.5 1.5 0 0 1-1.5-1.5v-15a1.5 1.5 0 0 1 1.5-1.5h19.5a1.5 1.5 0 0 1 1.5 1.5v7.5"/><path d="M544.25 947.25a6 6 0 1 1-12 0 6 6 0 0 1 12 0zm-9 0h6"/></g></symbol><symbol id="chat-46" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M38 10h8v26h-8v8l-12-8h-5"/><path d="M38 2H2v26h8v10l14-10h14z" stroke-linecap="square"/></g></symbol><symbol id="chat-content-phone" viewBox="0 0 64 64"><style type="text/css">.st0{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10}</style><path class="st0" d="M50 62C23.5 62 2 40.5 2 14L12 4l14 14-10 10 20 20 10-10 14 14-10 10z"/></symbol><symbol id="chat-content" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M46 4H2v30h14l8 10 8-10h14zM14 14h20M14 24h12"/></g></symbol><symbol id="checkmark-new" viewBox="0 0 16 12"><path fill="none" fill-rule="evenodd" stroke="#F68628" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 7l4 4L15 1"/></symbol><symbol id="checkmark-plain" viewBox="0 0 24 25"><g fill="none" fill-rule="evenodd"><path fill="#FC8100" d="M18.995 4.167L22 7.297 10.505 19.271 7.5 16.14z"/><path fill="#FD4C05" d="M2 10.44l3.02-3.148L10.5 13l-3.022 3.146z"/></g></symbol><symbol id="checkmark" viewBox="0 0 16 12"><path fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 7l4 4L15 1"/></symbol><symbol id="cheque" viewBox="0 0 62 62"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="2"><path d="M38 31h23v30H1V31h8"/><path d="M24 35l-10 3 3-10L43 2l7 7zM13 45h36m-36 8h16m12 0h8"/></g></symbol><symbol id="chevron-return" viewBox="0 0 9 22"><path fill-rule="evenodd" stroke="#696057" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.667 1L1 11l6.667 10"/></symbol><symbol id="circle-checkmark-blue" viewBox="0 0 82 82"><g fill="none"><g transform="translate(1 1)"><circle cx="40" cy="40" r="40" stroke="#68d2df" stroke-width="2"/><circle cx="40" cy="40" r="35" fill="#68d2df"/></g><path fill="#FFF" d="M27 41.385l2.8-2.693 7.2 6.923L52.2 31l2.8 2.692L37 51z"/></g></symbol><symbol id="circle-checkmark-red" viewBox="0 0 82 82"><g fill="none"><g transform="translate(1 1)"><circle cx="40" cy="40" r="40" stroke="#FB264E" stroke-width="2"/><circle cx="40" cy="40" r="35" fill="#FB264E"/></g><path fill="#FFF" d="M27 41.385l2.8-2.693 7.2 6.923L52.2 31l2.8 2.692L37 51z"/></g></symbol><symbol id="circle-fade_hide" viewBox="0 0 32 32"><path d="M22.818 16H9.182M31 16a15 15 0 1 1-30 0 15 15 0 0 1 30 0z" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="circle-fade_show" viewBox="0 0 32 32"><path stroke-width="2" d="M16 9v14m7-7H9m22 0a15 15 0 1 1-30 0 15 15 0 0 1 30 0z" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="circle-right-09" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><circle cx="24" cy="24" r="22"/><path d="M20 32V16l12 8z"/></g></symbol><symbol id="close-big" viewBox="0 0 48 48"><style type="text/css">.svg-closebig{fill:none;stroke-linecap:square;stroke-miterlimit:10}</style><path class="svg-closebig" stroke="currentColor" d="M9.9 9.9l28.3 28.3m-.1-28.3L9.9 38.1"/></symbol><symbol id="close" viewBox="0 0 18 18"><path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z" fill="currentColor" stroke="none"/></symbol><symbol id="cloud-download-93" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M24 20v25"/><path d="M31 38l-7 7-7-7M32 32h6a8 8 0 0 0 0-16c-.017 0-.033.005-.05.005C37.435 8.187 30.948 2 23 2 14.962 2 8.42 8.328 8.037 16.27 4.573 17.15 2 20.264 2 24a8 8 0 0 0 8 8h6" stroke-linecap="square"/></g></symbol><symbol id="coffin" viewBox="0 0 49 65"><g fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-width="2"><path stroke="#FB264E" d="M24.94 18.182v17.182M19.205 23.91h11.47"/><path stroke="var(--colortheme-icon)" d="M39.278 64H10.603L2 23.909 10.603 1h28.675l8.603 22.909z"/></g></symbol><symbol id="coins" viewBox="0 0 42 53"><g fill="none" fill-rule="evenodd" stroke="#F68628" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M41 10c0 3.215-3.812 6.187-10 7.794-6.188 1.608-13.812 1.608-20 0C4.812 16.187 1 13.215 1 10s3.812-6.187 10-7.794c6.188-1.608 13.812-1.608 20 0C37.188 3.813 41 6.785 41 10z"/><path d="M1 19v1.833C1 25.897 9.953 30 21 30s20-4.103 20-9.167V19M1 30v1.833C1 36.897 9.953 41 21 41s20-4.103 20-9.167V30M1 41v1.833C1 47.897 9.953 52 21 52s20-4.103 20-9.167V41"/></g></symbol><symbol id="credit-card-in" viewBox="0 0 28 27"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square"><path d="M8.8 25.632V4.284m4.333 21.348V4.284m10.4 0V23.99c0 .908-.775 1.643-1.733 1.643H6.2c-.958 0-1.733-.735-1.733-1.643V4.284h19.066zM19.2 21.526V16.6m0-8.21v1.642"/><path d="M1 5.926V1h26v4.926"/></g></symbol><symbol id="currency-exchange" viewBox="0 0 62 62"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-width="2" transform="translate(1 1)"><circle cx="12" cy="12" r="12" stroke-linecap="square"/><circle cx="12" cy="12" r="6" stroke-linecap="square"/><circle cx="48" cy="48" r="6" stroke-linecap="square"/><circle cx="48" cy="48" r="12" stroke-linecap="square"/><path d="M34 14h12a8 8 0 0 1 8 8v6M26 46H14a8 8 0 0 1-8-8v-6"/><path stroke-linecap="square" d="M42 6l-8 8 8 8M18 38l8 8-8 8"/></g></symbol><symbol id="curved-next" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M45 22L28 6v10C16.833 16 2 20.333 2 40c5.333-9.167 11-12 26-12v10l17-16z" stroke-linecap="square"/></symbol><symbol id="docx" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M15.55 31.907c0 1.31-.362 2.32-1.084 3.03-.722.71-1.736 1.063-3.042 1.063h-2.54v-7.853H11.6c1.262 0 2.234.322 2.92.967s1.03 1.575 1.03 2.793zm-2.204.075c0-.72-.142-1.253-.427-1.6-.29-.35-.72-.522-1.3-.522H11v4.398h.473c.645 0 1.117-.188 1.418-.562s.45-.944.45-1.714zm10.957.08c0 1.322-.324 2.326-.972 3.014s-1.59 1.03-2.84 1.03c-1.23 0-2.17-.345-2.83-1.036-.65-.69-.98-1.697-.98-3.018 0-1.308.33-2.306.98-2.995.65-.69 1.61-1.034 2.85-1.034 1.25 0 2.2.343 2.84 1.026s.97 1.68.97 3.01zm-5.403 0c0 1.52.527 2.277 1.584 2.277.537 0 .936-.19 1.195-.56s.38-.95.38-1.73c0-.79-.13-1.37-.4-1.74-.27-.38-.66-.56-1.18-.56-1.06 0-1.6.77-1.6 2.3zm10.318-2.287c-.505 0-.9.206-1.182.62-.282.413-.425.983-.425 1.71 0 1.512.58 2.268 1.73 2.268.35 0 .69-.05 1.01-.146s.66-.213.98-.35v1.794c-.65.3-1.39.44-2.22.44-1.18 0-2.09-.34-2.72-1.03s-.95-1.68-.95-2.98c0-.81.16-1.53.46-2.14s.75-1.09 1.32-1.42c.58-.33 1.26-.49 2.03-.49.85 0 1.66.19 2.44.56l-.65 1.67c-.29-.135-.58-.25-.87-.343-.29-.093-.6-.14-.93-.14zM39.934 36H37.48l-1.532-2.455L34.434 36h-2.4l2.603-4.018-2.45-3.835h2.355l1.418 2.428 1.363-2.428h2.423l-2.487 4L39.93 36z"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M29 2v12h12"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M41 23v-9L29 2H7v21m0 18v5h34v-5M2 23h44v18H2z" stroke-linecap="square"/></symbol><symbol id="email-85-solid" viewBox="0 0 48 48"><path fill="currentColor" d="M45 5H3a2 2 0 0 0-2 2v34a2 2 0 0 0 2 2h42a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zM17 28.414L8.414 37A.996.996 0 0 1 7 37a1 1 0 0 1 0-1.414L15.586 27A1 1 0 0 1 17 28.414zm24.06 8.647a.997.997 0 0 1-1.413.001L31 28.415a1 1 0 0 1 1.414-1.414l8.646 8.646c.39.39.39 1.024 0 1.415zM41 12.415L24.707 28.707a.996.996 0 0 1-1.414 0L7 12.414A1 1 0 0 1 8.414 11L24 26.586 39.586 11A1 1 0 0 1 41 12.414z"/></symbol><symbol id="email-85" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M38 14L24 28 10 14"/><path d="M2 6h44v36H2zM14 30l-4 4m24-4l4 4"/></g></symbol><symbol id="factory" viewBox="0 0 28 27"><path d="M18.333 15.779V9.21L8.8 15.779 6.2 9.21H1v16.42h26V9.212zm-5.2-13.958a4.433 4.433 0 0 0-2.862 1.045A5.3 5.3 0 0 0 6.2 1C3.328 1 1 3.205 1 5.926h16.467c0-2.267-1.94-4.105-4.334-4.105zm9.534 18.884h-1.734m-4.333 0h-1.733" fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square"/></symbol><symbol id="fade_hide" viewBox="0 0 38 38"><title>Group 13</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path stroke="#68D2DF" d="M1 1h36v36H1z"/><text font-family="OpenSans-SemiBold, Open Sans" font-size="18" font-weight="500" fill="#68D2DF" transform="translate(1 1)"><tspan x="15.104" y="25">-</tspan></text></g></symbol><symbol id="fade_hide_sparinvest" viewBox="0 0 38 38"><title>Group 13</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path stroke="#7fb3a7" d="M1 1h36v36H1z"/><text font-family="OpenSans-SemiBold, Open Sans" font-size="18" font-weight="500" fill="#7fb3a7" transform="translate(1 1)"><tspan x="15.104" y="25">-</tspan></text></g></symbol><symbol id="fade_show" viewBox="0 0 38 38"><title>Group 13</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path stroke="#68D2DF" d="M1 1h36v36H1z"/><text font-family="OpenSans-SemiBold, Open Sans" font-size="18" font-weight="500" fill="#68D2DF" transform="translate(1 1)"><tspan x="13.363" y="25">+</tspan></text></g></symbol><symbol id="fade_show_sparinvest" viewBox="0 0 38 38"><title>Group 13</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path stroke="#7fb3a7" d="M1 1h36v36H1z"/><text font-family="OpenSans-SemiBold, Open Sans" font-size="18" font-weight="500" fill="#7fb3a7" transform="translate(1 1)"><tspan x="13.363" y="25">+</tspan></text></g></symbol><symbol id="file-download-89" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M46 30H32v6H16v-6H2M24 2v19"/><path d="M38 12h2l6 18v16H2V30l6-18h2" stroke-linecap="square"/><path d="M31 14l-7 7-7-7" stroke-linecap="square"/></g></symbol><symbol id="findhelp" viewBox="0 0 62 62"><title>c-question</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M61 31a30 30 0 1 1-60 0 30 30 0 0 1 60 0z" stroke="#FFF" stroke-width="2" stroke-linecap="square"/><path d="M34 48a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="#FFF"/><path d="M24.816 14.58C30.4 12.11 37.64 12.4 40.11 16.4c2.47 4 .764 8.648-3.47 12.236C32.406 32.224 31 34.176 31 37" stroke="#FFF" stroke-width="2" stroke-linecap="square"/></g></symbol><symbol id="flag-dk" viewBox="0 0 24 18"><path fill="#D00C32" stroke="none" d="M24 17c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1V1c0-.6.4-1 1-1h22c.6 0 1 .4 1 1v16z"/><path fill="#E6E6E6" stroke="none" d="M6 0h4v18H6z"/><path fill="#E6E6E6" stroke="none" d="M0 7h24v4H0z"/></symbol><symbol id="flag-en" viewBox="0 0 48 36"><title>flag-en</title><path class="cls-1" d="M46 6H2a2 2 0 0 0-2 2v32a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z" transform="translate(0 -6)"/><path class="cls-2" d="M48 8a2 2 0 0 0-2-2h-5.16L28 15.88V6h-8v9.88L7.16 6H2a2 2 0 0 0-2 2v2.59L12.24 20H0v8h12.24L0 37.41V40a2 2 0 0 0 2 2h5.16L20 32.12V42h8v-9.88L40.84 42H46a2 2 0 0 0 2-2v-2.59L35.76 28H48v-8H35.76L48 10.59z" transform="translate(0 -6)"/><path class="cls-3" d="M48 16H26V0h-4v16H0v4h22v16h4V20h22v-4z"/><path class="cls-3" d="M47 6.31L29.2 20h3.28L48 8.06V8a2 2 0 0 0-1-1.69zM32.48 28H29.2L47 41.69A2 2 0 0 0 48 40v-.06zM15.52 28L0 39.94V40a2 2 0 0 0 1 1.69L18.8 28zM15.52 20h3.28L1 6.31A2 2 0 0 0 0 8v.06z" transform="translate(0 -6)"/></symbol><symbol id="flag-fr" viewBox="0 0 24 18"><path fill="#fff" d="M24 17a.945.945 0 0 1-1 1H1a.945.945 0 0 1-1-1V1a.945.945 0 0 1 1-1h22a.945.945 0 0 1 1 1z"/><path fill="#0050a4" d="M1 0h7v18H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z"/><path fill="#ef4135" d="M16 0h7a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-7V0z"/></symbol><symbol id="flag-ger" viewBox="0 0 24 18"><path fill="#d00" d="M24 16.671a.922.922 0 0 1-1 .95H1a.922.922 0 0 1-1-.95V1.467a.922.922 0 0 1 1-.95h22a.922.922 0 0 1 1 .95z"/><path fill="#000" d="M1 0h22a1 1 0 0 1 1 1v5H0V1a1 1 0 0 1 1-1z"/><path fill="#ffce00" d="M0 12h24v5a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-5z"/></symbol><symbol id="folder-16" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M40 44H8L3 18h42zM40 13v-3H26l-4-6H8v9"/></g></symbol><symbol id="funnel-39" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M8 18h32M2 6h44M14 30h20M20 42h8"/></g></symbol><symbol id="globe" viewBox="0 0 284 283"><path fill="#fff" d="M-338 797a142.513 142.513 0 0 1-28.416-2.854 140.627 140.627 0 0 1-26.467-8.187 141.183 141.183 0 0 1-23.951-12.954 141.912 141.912 0 0 1-20.867-17.156 141.612 141.612 0 0 1-17.217-20.794 140.353 140.353 0 0 1-13-23.866 139.429 139.429 0 0 1-8.216-26.373A141.055 141.055 0 0 1-479 656.5a141.061 141.061 0 0 1 2.865-28.316 139.432 139.432 0 0 1 8.216-26.373 140.35 140.35 0 0 1 13-23.866 141.627 141.627 0 0 1 17.217-20.794 141.913 141.913 0 0 1 20.867-17.156 141.166 141.166 0 0 1 23.951-12.954 140.636 140.636 0 0 1 26.467-8.187A142.53 142.53 0 0 1-338 516a142.533 142.533 0 0 1 28.417 2.854 140.639 140.639 0 0 1 26.467 8.187 141.173 141.173 0 0 1 23.951 12.954 141.911 141.911 0 0 1 20.868 17.156 141.623 141.623 0 0 1 17.217 20.794 140.364 140.364 0 0 1 13 23.866 139.433 139.433 0 0 1 8.216 26.373A141.061 141.061 0 0 1-197 656.5a141.055 141.055 0 0 1-2.865 28.315 139.428 139.428 0 0 1-8.216 26.373 140.359 140.359 0 0 1-13 23.866 141.613 141.613 0 0 1-17.217 20.794 141.909 141.909 0 0 1-20.868 17.156 141.173 141.173 0 0 1-23.951 12.954 140.629 140.629 0 0 1-26.467 8.187A142.516 142.516 0 0 1-338 797zm480-515a142.536 142.536 0 0 1-28.417-2.854 140.48 140.48 0 0 1 0-275.291 142.87 142.87 0 0 1 56.833 0 140.48 140.48 0 0 1 0 275.291A142.534 142.534 0 0 1 142 282zM32.057 85.173a121.708 121.708 0 0 0-9.657 26.291 122.254 122.254 0 0 0 71.064 141.265 121.4 121.4 0 0 0 22.857 7.11 122.992 122.992 0 0 0 24.6 2.487h.027a122.816 122.816 0 0 0 24.549-2.485 121.1 121.1 0 0 0 43.6-18.376A121.983 121.983 0 0 0 262.843 140.2a121.626 121.626 0 0 0-6.978-40.816 122.464 122.464 0 0 1-20.727 118.327c-4.883 2.5-9.579 3.828-13.582 3.828-3.366 0-5.975-.938-7.547-2.711-1.494-1.684-2-3.21-1.645-4.949a18.372 18.372 0 0 1 2.693-5.423 42.064 42.064 0 0 0 6.563-16.095c2.455-14.161-.232-20.132-2.831-25.906v-.005c-1.69-3.76-3.287-7.311-3.531-12.939-.116-2.692-.172-5.226-.222-7.462v-.038c-.29-13.218-.435-19.853-11.407-21.626a28.268 28.268 0 0 0-4.537-.37 45.042 45.042 0 0 0-7.426.769l-.285.047a50.762 50.762 0 0 1-8.371.815 43.023 43.023 0 0 1-8.246-.842c-7.011-1.363-12.766-7.532-14.828-12.923-1.28-3.349-1.14-6.307.394-8.331a23.386 23.386 0 0 0 4.153-8.368 36.3 36.3 0 0 0 .961-7.185c.2-3.308.372-6.164 2.3-8.582 2.088-2.617 6.146-4.476 12.769-5.851a49.833 49.833 0 0 1 10.024-1.12h.308a31.552 31.552 0 0 1 10.8 1.9c.715.255 1.384.515 1.974.745l.015.006.065.025a12.062 12.062 0 0 0 4 1.123h.02a3.352 3.352 0 0 0 .891-.121 2.9 2.9 0 0 0 2.223-1.827c.831-2.789-3.445-7.7-6-10.633l-.036-.041a16.483 16.483 0 0 1-4.016-13.04 18.284 18.284 0 0 1 7.044-12.49c2.727 1.8 5.41 3.72 7.976 5.718a123.432 123.432 0 0 0-11.992-8.256 120.441 120.441 0 0 0-38.841-15.1 120.07 120.07 0 0 1 8.99 2.166 16.151 16.151 0 0 1-.243 16.225c-3.534 5.893-10.254 9.411-17.975 9.411a26.236 26.236 0 0 1-3.27-.208c-6.577-.827-7.889-3.519-9.158-6.123a8.829 8.829 0 0 0-3.019-3.969c-1.819-1.212-4.508-1.777-8.462-1.777-1.111 0-2.341.047-3.656.141a31.743 31.743 0 0 0-18.719 7.815 29.568 29.568 0 0 0-5.581 6.507 18.659 18.659 0 0 0-2.632 6.438 7.955 7.955 0 0 0 .219 4.148 4.439 4.439 0 0 0 2.417 2.595c2.748 1.227 6.336 1.674 9.805 2.107h.027c4.678.586 9.1 1.14 10.415 3.6.7 1.31.487 3.062-.658 5.356-4.773 9.559-17.35 16.868-33.642 19.553a62.416 62.416 0 0 1-10.064.819h-.017a75.759 75.759 0 0 1-14.372-1.5c-.87-.164-1.69-.326-2.391-.464h-.024a41.487 41.487 0 0 0-7.132-1.035 5.255 5.255 0 0 0-.377-.014 4.426 4.426 0 0 0-4.663 4.275 12.373 12.373 0 0 0 1.035 6.941 47.349 47.349 0 0 0 3.492 6.482l.006.01c1.927 3.165 3.592 5.9 2.755 7.6-.484.977-1.775 1.566-3.948 1.8a23.208 23.208 0 0 1-19.256-11.279c-4.458-7.152-5.615-16.573-2.813-22.9zm126.71-65.8c1.245.183 2.463.38 3.639.589a129.4 129.4 0 0 0-3.639-.586zm-22.933 222.61c-7.234 0-14.985-5.08-23.038-15.1-8.2-10.2-14.433-22.771-17.421-29.357a37.192 37.192 0 0 0-7.294-11.288 33.944 33.944 0 0 0-7.434-5.363 38.235 38.235 0 0 1-11.934-9.848 27 27 0 0 1-5.793-19.379 31.978 31.978 0 0 1 2.19-9.546c4.318-8.205 10.7-8.915 18.1-9.737h.009c6.046-.673 12.9-1.435 19.694-6.6 2.953-2.242 5.481-3.332 7.727-3.332 4.689 0 7.463 4.857 10.4 10 2.534 4.446 5.154 9.043 9.269 11.311a11.19 11.19 0 0 0 5.45 1.42h.073a24.122 24.122 0 0 0 6.631-1.232l.212-.061a22.114 22.114 0 0 1 5.993-1.172c2.861 0 5.167 1.3 7.255 4.08a10.7 10.7 0 0 1 1.967 8.968c-1.188 5.425-6.035 10.686-13.647 14.812a37.18 37.18 0 0 0-13.2 11.671c-3.305 5.008-4.343 10.18-3 14.956 2.535 9.022 6.652 17.52 9.96 24.349 3.835 7.906 6.864 14.151 5.639 17.362a3.291 3.291 0 0 1-1.957 1.913 15.239 15.239 0 0 1-5.851 1.173zm11.5-173.4c-6.67 0-15.76-3.462-18.661-8.615a6.547 6.547 0 0 1 .194-6.991c1.7-2.813 3.868-4.3 6.257-4.3 3.194 0 6.6 2.7 9.111 7.213 2.084 3.752 5.54 4.847 8.063 5.647h.012c1.58.5 2.828.9 3.171 1.763a2.6 2.6 0 0 1-.447 2.155c-1.124 2.015-3.858 3.125-7.698 3.125z"/></symbol><symbol id="Group" viewBox="0 0 30 29"><path d="M15 0v22" stroke="#212121" stroke-width="2" stroke-miterlimit="10"/><path d="M7 14l8 8 8-8" stroke="#212121" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/><path d="M1 21v7h28v-7" stroke="#212121" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/></symbol><symbol id="hand-card" viewBox="0 0 62 48"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-width="2"><path d="M1 11h23.07M1 19h36.851"/><path stroke-linecap="square" d="M9 26h10"/><path d="M41 23.494V33H1V1h40v6"/><path d="M49 27c-6 0-12-6-12-12h-6a8 8 0 0 1-8-8h18c11.046 0 20 8.954 20 20s-8.954 20-20 20H19a6 6 0 0 1-6-6v-2h18m-18 0a6 6 0 0 1-6-6"/></g></symbol><symbol id="hierarchy-53" viewBox="0 0 23 23"><g fill="none" fill-rule="evenodd"><path fill="#FFF" d="M-521-766h1920v2905H-521z"/><path d="M-195-375h1268v682H-195z" fill="#F7F6F5"/><path stroke="#FB2642" d="M9.5 18.5h4v4h-4zm0-18h4v4h-4zm9 18h4v4h-4zm-18 0h4v4h-4zm11-10v6m-9 0v-3h18v3" stroke-linecap="square" filter="url(#a)"/></g></symbol><symbol id="home-52" viewBox="0 0 64 60"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"><path d="M9.528 22.337v36.08h16.975V44.269h11.316v14.15h16.975V22.337M9.528 21.68V4.625h8.529v10.092"/><path stroke-linecap="square" d="M26.585 21.681h11.152v11.152H26.585z"/><path d="M1 30.209L32.161 2l31.161 28.209"/></g></symbol><symbol id="home-minimal" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M24 4L6 20v26h12V32h12v14h12V20z" stroke-linecap="square"/></symbol><symbol id="ic_navigate_before_black_48px" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path d="M0 0h24v24H0z" fill="none"/></symbol><symbol id="ic_navigate_next_black_48px" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/><path d="M0 0h24v24H0z" fill="none"/></symbol><symbol id="Ikon_betalings-og-kreditkort" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#875BA3"/><g clip-path="url(#a)"><path d="M27.63 43a.833.833 0 0 1-.608-1.405 2.136 2.136 0 0 0 .027-3.032 3.819 3.819 0 0 1 .04-5.3.834.834 0 0 1 1.215 1.143 2.134 2.134 0 0 0-.027 3.032 3.819 3.819 0 0 1-.04 5.3.833.833 0 0 1-.607.262zM31.63 43a.833.833 0 0 1-.608-1.405 2.136 2.136 0 0 0 .027-3.032 3.819 3.819 0 0 1 .04-5.3.834.834 0 0 1 1.215 1.143 2.134 2.134 0 0 0-.027 3.032 3.819 3.819 0 0 1-.04 5.3.833.833 0 0 1-.607.262zM35.63 43a.833.833 0 0 1-.608-1.405 2.136 2.136 0 0 0 .027-3.032 3.819 3.819 0 0 1 .04-5.3.834.834 0 0 1 1.215 1.143 2.134 2.134 0 0 0-.027 3.032 3.819 3.819 0 0 1-.04 5.3.833.833 0 0 1-.607.262z" fill="#875BA3"/><path d="M43.79 42.393H19.8a1.8 1.8 0 0 1-1.8-1.8V23.8A1.8 1.8 0 0 1 19.8 22h23.99a1.8 1.8 0 0 1 1.8 1.8v16.793a1.8 1.8 0 0 1-1.8 1.8z" fill="#fff"/><path d="M32.395 38.194H22.198a.6.6 0 1 1 0-1.2h10.197a.6.6 0 1 1 0 1.2zM41.392 38.194h-4.199a.6.6 0 0 1 0-1.2h4.199a.6.6 0 1 1 0 1.2zM37.904 31.232a.6.6 0 0 1-.48-.96 1.762 1.762 0 0 0 0-2.148.6.6 0 0 1 .96-.72 2.955 2.955 0 0 1 0 3.59.6.6 0 0 1-.48.238zM34.794 30.397a1.2 1.2 0 1 0 0-2.399 1.2 1.2 0 0 0 0 2.4zM26.397 29.797h-4.199a.6.6 0 0 1-.6-.6v-2.999a.6.6 0 0 1 .6-.6h4.199a.6.6 0 0 1 .6.6v3a.6.6 0 0 1-.6.6zM40.306 33.037a.6.6 0 0 1-.48-.96 4.77 4.77 0 0 0 0-5.75.6.6 0 0 1 .96-.72 5.97 5.97 0 0 1 0 7.19.599.599 0 0 1-.48.24z" fill="#875BA3"/></g></symbol><symbol id="Ikon_bolig" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#875BA3"/><g clip-path="url(#a)" fill="#fff"><path d="M31.793 21.926l-10.8 8.834V44.2a1.2 1.2 0 0 0 1.2 1.2h6.6v-6.6a.6.6 0 0 1 .6-.6h4.8a.6.6 0 0 1 .6.6v6.6h6.6a1.2 1.2 0 0 0 1.2-1.2V30.76l-10.8-8.834zM33.593 34h-3.6a.6.6 0 0 1-.6-.6v-3.6a.6.6 0 0 1 .6-.6h3.6a.6.6 0 0 1 .6.6v3.6a.6.6 0 0 1-.6.6z"/><path d="M45.373 29.936l-13.2-10.8a.6.6 0 0 0-.76 0l-6.82 5.58V22a.6.6 0 0 0-.6-.6h-1.8a.6.6 0 0 0-.6.6v5.17l-3.38 2.765a.6.6 0 0 0 .76.93l12.82-10.49 12.82 10.49a.6.6 0 0 0 .76-.93z"/></g></symbol><symbol id="Ikon_daglig-&#xF8;konomi" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#875BA3"/><g clip-path="url(#a)"><g clip-path="url(#b)" fill="#fff"><path d="M30.541 20.195a1.567 1.567 0 1 0-3.135 0v2.194h3.135v-2.194zM39.32 20.195a1.567 1.567 0 1 0-3.136 0v2.194h3.136v-2.194zM34.93 19.568a1.567 1.567 0 1 0-3.135 0v2.821h3.135v-2.821zM31.168 33.676a3.135 3.135 0 1 0 0-6.27 3.135 3.135 0 0 0 0 6.27zM22.39 28.66h2.508a.627.627 0 1 0 0-1.255H22.39a.627.627 0 1 0 0 1.254zM26.152 20.822a1.567 1.567 0 1 0-3.136 0v1.567h3.136v-1.567z"/><path d="M44.963 23.644H18.627a.627.627 0 0 0-.627.627v12.54c0 .347.28.628.627.628h3.794a9.926 9.926 0 0 0 3.077 6.632 9.945 9.945 0 0 0 7.408 2.761c5.062-.238 9.082-4.291 9.506-9.394h2.551c.347 0 .627-.281.627-.627V24.27a.627.627 0 0 0-.627-.627zm-.627 12.54h-1.881V28.66a.627.627 0 0 0-.627-.627 3.766 3.766 0 0 0-3.762 3.762v3.166c-1.185.117-2.254.46-3.21 1.224-1.648 1.342-2.042 2.978-2.042 2.978s-.28-1.45.27-2.978h-13.83V24.898h25.082v11.287z"/></g></g></symbol><symbol id="Ikon_forsikringer" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#875BA3"/><g clip-path="url(#a)"><g clip-path="url(#b)"><path d="M31.795 18c-3.941 2.956-9.853 4.927-13.795 4.927 0 9.196 4.599 18.722 13.795 22.663 9.197-3.941 13.795-13.467 13.795-22.663-3.941 0-9.853-1.97-13.795-4.927z" fill="#fff"/><path d="M31.795 45.59V18M19.468 31.795h24.655" stroke="#875BA3" stroke-width="2" stroke-miterlimit="10"/><path d="M31.795 18c-3.941 2.956-9.853 4.927-13.795 4.927 0 9.196 4.599 18.722 13.795 22.663 9.197-3.941 13.795-13.467 13.795-22.663-3.941 0-9.853-1.97-13.795-4.927z" stroke="#875BA3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/></g></g></symbol><symbol id="Ikon_kontanter-og-valuta" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#875BA3"/><g clip-path="url(#a)" fill="#fff"><path d="M39.805 43.03c-2.537 0-4.653-.768-5.785-1.955v1.51c0 1.747 2.541 3.115 5.785 3.115s5.785-1.368 5.785-3.115v-1.51c-1.132 1.187-3.248 1.955-5.785 1.955z"/><path d="M39.805 39.47c-2.537 0-4.653-.768-5.785-1.954v1.51c0 1.746 2.541 3.114 5.785 3.114s5.785-1.368 5.785-3.114v-1.51c-1.132 1.186-3.248 1.955-5.785 1.955zM39.805 31.46c.46 0 .906.026 1.335.075v-4.548a3.949 3.949 0 0 1-3.537-3.537H25.986a3.948 3.948 0 0 1-3.536 3.537v4.496a3.948 3.948 0 0 1 3.536 3.537h7.183c.346-2.058 3.082-3.56 6.636-3.56zm-10.68-2.225a2.67 2.67 0 1 1 5.34 0 2.67 2.67 0 0 1-5.34 0z"/><path d="M39.805 32.35c-3.244 0-5.785 1.368-5.785 3.115 0 1.746 2.541 3.115 5.785 3.115s5.785-1.369 5.785-3.115c0-1.747-2.54-3.115-5.785-3.115z"/><path d="M33.13 35.91h-7.565a.445.445 0 0 1-.445-.445c0-1.776-1.339-3.115-3.115-3.115a.445.445 0 0 1-.445-.445v-5.34c0-.246.2-.445.445-.445 1.776 0 3.115-1.339 3.115-3.115 0-.246.2-.445.445-.445h12.46c.246 0 .445.2.445.445 0 1.776 1.339 3.115 3.115 3.115.246 0 .445.2.445.445v5.11c1.532.306 2.78.922 3.56 1.74v-13.97c0-.246-.2-.445-.445-.445h-26.7c-.246 0-.445.2-.445.445v19.58c0 .246.2.445.445.445H33.13v-3.56z"/></g></symbol><symbol id="Ikon_mitnykredit" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#875BA3"/><path d="M30.595 33.594c3.716 0 6.598-4.19 6.598-7.797v-1.2A6.605 6.605 0 0 0 30.595 18a6.605 6.605 0 0 0-6.597 6.598v1.2c0 3.605 2.882 7.796 6.597 7.796zM33.594 38.992c0-.992.808-1.8 1.8-1.8h.6v-1.35a32.899 32.899 0 0 0-5.399-.448c-3.93 0-7.153.712-9.163 1.31A4.77 4.77 0 0 0 18 41.305v2.486a.6.6 0 0 0 .6.6h14.994v-5.399z" fill="#fff"/><path d="M44.99 38.392h-1.8v-2.999a3.002 3.002 0 0 0-2.998-2.998 3.002 3.002 0 0 0-2.999 2.998v3h-1.8a.6.6 0 0 0-.6.6v5.997a.6.6 0 0 0 .6.6h9.597a.6.6 0 0 0 .6-.6v-5.998a.6.6 0 0 0-.6-.6zm-6.597-2.999c0-.992.807-1.799 1.799-1.799.992 0 1.8.807 1.8 1.8v2.998h-3.6v-2.999z" fill="#fff"/></symbol><symbol id="invest-chevron-down" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" fill="#07094A"/></symbol><symbol id="link-broken-70" viewBox="0 0 59 59"><path d="M30.979 38.883a11.56 11.56 0 0 1-3.373 8.896l-6.827 6.827c-4.525 4.525-11.86 4.525-16.385 0-4.525-4.525-4.525-11.86 0-16.385l6.827-6.827a11.56 11.56 0 0 1 8.896-3.373m18.766 2.958a11.56 11.56 0 0 0 8.896-3.373l6.827-6.827c4.525-4.525 4.525-11.86 0-16.385-4.525-4.525-11.86-4.525-16.385 0l-6.827 6.827a11.56 11.56 0 0 0-3.373 8.896M22 38l16-16M14 4l5 8M4 14l8 5m44 27l-8-5m-2 15l-5-8" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="square" stroke-width="2"/></symbol><symbol id="lock-2" viewBox="0 0 46 62"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="2" transform="translate(1 1)"><path d="M34 19v-7c0-6.627-5.373-12-12-12S10 5.373 10 12v7m30 41H4a4 4 0 0 1-4-4V28a4 4 0 0 1 4-4h36a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4zM22 45v6"/><circle cx="22" cy="39" r="6"/></g></symbol><symbol id="lock-open" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M34 12c0-5.5-4.5-10-10-10S14 6.5 14 12v6"/><circle cx="24" cy="30" r="4" stroke-linecap="square"/><path d="M24 34v4M8 18h32v28H8z" stroke-linecap="square"/></g></symbol><symbol id="lock" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="miter"><path d="M24 2c-5.5 0-10 4.5-10 10v6h20v-6c0-5.5-4.5-10-10-10zM8 18h32v28H8z"/><circle cx="24" cy="30" r="4"/><path d="M24 34v4"/></g></symbol><symbol id="lock2021" viewBox="0 0 22 26"><g stroke="var(--colortheme-icon)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M15.4 8.2V5.8A4.814 4.814 0 0 0 10.6 1a4.814 4.814 0 0 0-4.8 4.8v2.4m-2.4 3.2h14.4a2.4 2.4 0 0 1 2.4 2.4v8.8a2.4 2.4 0 0 1-2.4 2.4H3.4A2.4 2.4 0 0 1 1 22.6v-8.8a2.4 2.4 0 0 1 2.4-2.4zm7.2 8v2.4"/><path d="M13 17a2.398 2.398 0 0 1-3.6 2.078 2.397 2.397 0 0 1 0-4.156 2.394 2.394 0 0 1 2.4 0c.743.428 1.2 1.22 1.2 2.078z"/></g></symbol><symbol id="log-out-2" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M23 19h22M27 25v9H16"/><path d="M2 2l14 10.03V44L2 34V2h25v11"/><path d="M37 11l8 8-8 8" stroke-linecap="square"/></g></symbol><symbol id="logo-fb-simple" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M19.33 46V25.93h-6.755v-7.822h6.754v-5.77C19.33 5.646 23.416 2 29.39 2c2.86 0 5.318.213 6.035.308v6.996l-4.142.002c-3.248 0-3.876 1.543-3.876 3.808v4.994h7.745l-1.008 7.822h-6.737V46H19.33z"/></symbol><symbol id="logo-linkedin-simple" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M10.7 6.7c-2.3 0-4.1 1.8-4.1 4.1s1.8 4.1 4.1 4.1 4.1-1.9 4.1-4.1c0-2.3-1.8-4.1-4.1-4.1zM7.1 18h7.1v22.9H7.1zm25.2-.6c-3.4 0-5.8 1.9-6.7 3.7h-.1V18h-6.8v22.9h7.1V29.6c0-3 .6-5.9 4.3-5.9 3.7 0 3.7 3.4 3.7 6.1v11.1h7V28.3c0-6.2-1.3-10.9-8.5-10.9z"/></symbol><symbol id="logo-linkedin" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M44.45 0H3.54C1.59 0 0 1.55 0 3.46v41.076C0 46.448 1.59 48 3.54 48h40.91c1.956 0 3.55-1.552 3.55-3.464V3.46C48 1.55 46.405 0 44.45 0z"/><path fill="#FFF" stroke="none" d="M7.113 17.995h7.126V40.9H7.11V17.996zm3.565-11.387a4.13 4.13 0 0 1 0 8.258 4.127 4.127 0 0 1-4.13-4.13 4.126 4.126 0 0 1 4.13-4.128m8.027 11.387h6.824v3.13h.09c.95-1.8 3.272-3.7 6.736-3.7 7.21 0 8.54 4.744 8.54 10.914V40.9H33.78V29.763c0-2.657-.046-6.074-3.7-6.074-3.704 0-4.27 2.89-4.27 5.88V40.9H18.7V17.99z"/></symbol><symbol id="logo-twitter" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M48 9.1c-1.8.8-3.7 1.3-5.7 1.6 2-1.2 3.6-3.1 4.3-5.4-1.9 1.1-4 1.9-6.3 2.4-1.8-1.9-4.4-3.1-7.2-3.1-5.4 0-9.8 4.4-9.8 9.8 0 .8.1 1.5.3 2.2-8.1-.4-15.4-4.3-20.3-10.3C2.5 7.8 2 9.4 2 11.2c0 3.4 1.7 6.4 4.4 8.2-1.6-.1-3.1-.5-4.5-1.2v.1c0 4.8 3.4 8.8 7.9 9.7-.8.2-1.7.3-2.6.3-.6 0-1.3-.1-1.9-.2 1.3 3.9 4.9 6.8 9.2 6.8-3.4 2.6-7.6 4.2-12.2 4.2-.8 0-1.6 0-2.3-.1 4.4 2.8 9.5 4.4 15.1 4.4 18.1 0 28-15 28-28v-1.3c1.9-1.3 3.6-3 4.9-5z"/></symbol><symbol id="megaphone" viewBox="0 0 15 19"><path d="M6.075 13.6l1.405 2.791a1.38 1.38 0 0 1-.6 1.858 1.381 1.381 0 0 1-1.858-.6L2.91 13.56M14.2 11.8L8.229 9.4H4a3 3 0 0 1-3-3 3 3 0 0 1 3-3h4.229L14.2 1v10.8z" stroke="var(--colortheme-icon)" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-width="1" stroke-linejoin="round"/></symbol><symbol id="menu-34" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M2 24h44M2 10h44M2 38h44"/></g></symbol><symbol id="minimal-down" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M4 14l20 20 20-20" stroke-linecap="square"/></symbol><symbol id="minimal-left" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M34 4L14 24l20 20" stroke-linecap="square"/></symbol><symbol id="minimal-right" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M14 4l20 20-20 20" stroke-linecap="square"/></symbol><symbol id="money-bag" viewBox="0 0 42 52"><path d="M27.7 12.667l11.47 24.025C42.338 43.328 37.5 51 30.145 51h-18.29C4.5 51-.338 43.328 2.83 36.692L14.3 12.667M32.667 1H9.333l5 11.667h13.334zM21 12.667v-5" fill="none" fill-rule="evenodd" stroke="#F68628" stroke-linecap="square" stroke-width="2"/></symbol><symbol id="money-coins" viewBox="0 0 64 64"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2" transform="translate(1 1)"><path stroke-linecap="square" d="M28.182 39.455H0V0h56.364v18.318"/><ellipse cx="49.318" cy="31" stroke-linecap="square" rx="12.682" ry="5.636"/><path d="M36.636 31v8.455c0 3.112 5.678 5.636 12.682 5.636C56.323 45.09 62 42.567 62 39.455V31"/><path d="M36.636 39.455v8.454c0 3.113 5.678 5.636 12.682 5.636C56.323 53.545 62 51.022 62 47.91v-8.454"/><path d="M36.636 47.91v8.454c0 3.112 5.678 5.636 12.682 5.636C56.323 62 62 59.476 62 56.364v-8.455"/><circle cx="28.182" cy="19.727" r="5.636" stroke-linecap="square"/></g></symbol><symbol id="move-up" viewBox="0 0 17 18"><path stroke="#ff8300" stroke-width="2" d="M8.5 12.5v-11m5 5l-5-5-5 5m12 10h-14" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="nc-icons" viewBox="0 0 65 65"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="2" transform="translate(1 1)"><path d="M31.88 63V34.916M0 0h63v34.916H0z"/><circle cx="31.12" cy="15.94" r="5.313"/><path d="M9.867 9.867h5.314M47.06 24.29h5.313m.76 19.734h-5.668c-8.607 0-15.585 7.189-15.585 16.057V63h5.667c8.607 0 15.586-7.189 15.586-16.057v-2.919z"/></g></symbol><symbol id="new-construction" viewBox="0 0 23 23"><path stroke="#FB2642" d="M4.5 21.5h-4v-10h4m4 3h2m-2 3h2m-2-6h2m2-7v-4l10 3v18h-18v-14h10v14m4-4v-10" transform="translate(0 1)" filter="url(#a)" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="newsletter" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M10 16.2L2 22v24h44V22l-8-5.8"/><path d="M10 26.4V2h28v24.4M2 22l44 24m0-24L24 34"/><path d="M18 12h12m-12 8h12" stroke-linecap="square"/></g></symbol><symbol id="node" viewBox="0 0 62 62"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-width="2" transform="translate(1 1)"><path d="M30 20v14l-12.2 9.8M30 34l12.2 9.7"/><circle cx="30" cy="10" r="10" stroke-linecap="square"/><circle cx="10" cy="50" r="10" stroke-linecap="square"/><circle cx="50" cy="50" r="10" stroke-linecap="square"/></g></symbol><symbol id="notification" viewBox="0 0 24 24"><path stroke="none" fill="currentColor" d="M22.507 1.138a.996.996 0 0 0-.992-.012L12.74 6H6c-2.757 0-5 2.243-5 5 0 2.7 2.153 4.89 4.83 4.983l3.434 6.01a1.997 1.997 0 0 0 2.728.743 2 2 0 0 0 .744-2.73L10.446 16h2.295l8.774 4.874A1 1 0 0 0 23 20V2a1 1 0 0 0-.493-.862z"/></symbol><symbol id="open-to-close" viewBox="0 0 24 24"><path d="M2.101 2.101L21.9 21.899m0-19.798L2.101 21.899" fill="none" fill-rule="evenodd" stroke="#696057" stroke-linecap="square" stroke-width="2"/></symbol><symbol id="papers" viewBox="0 0 64 64"><g fill="none" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" stroke-opacity="1" stroke-miterlimit="10"><path d="M6 10h44v52H6zm0 0M16 24h24M16 36h24M16 48h8"/><path d="M12 2h46v54"/></g></symbol><symbol id="parent" viewBox="0 0 28 27"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)"><path stroke-linecap="square" d="M12.556 6.053A5.054 5.054 0 0 1 17.61 1a5.054 5.054 0 0 1 5.056 5.053c0 2.79-2.264 5.894-5.056 5.894-2.792 0-5.055-3.104-5.055-5.894z"/><path d="M15.444 15.046a15.097 15.097 0 0 1 3.302-.362c2.725 0 4.891.72 6.32 1.39A3.38 3.38 0 0 1 27 19.142v6.49h-8.254"/><path stroke-linecap="square" d="M3.889 13.565c0-2.405 1.94-4.354 4.333-4.354 2.393 0 4.334 1.95 4.334 4.354s-1.94 5.224-4.334 5.224c-2.393 0-4.333-2.82-4.333-5.224zM15.444 23.74a2.739 2.739 0 0 0-1.77-2.57c-1.294-.487-3.21-1.012-5.452-1.012-2.241 0-4.157.525-5.452 1.013A2.739 2.739 0 0 0 1 23.74v1.892h14.444V23.74z"/></g></symbol><symbol id="payment" viewBox="0 0 62 64"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2" transform="translate(1 1)"><path d="M9.864 12.682V7.045a4.227 4.227 0 1 1 8.454 0v5.637"/><path d="M18.318 12.682V5.636a4.227 4.227 0 1 1 8.455 0v7.046m8.454 0V5.636a4.227 4.227 0 1 1 8.455 0v7.046"/><path d="M26.773 12.682V4.227a4.227 4.227 0 1 1 8.454 0v8.455m-1.295 28.182H0V12.682h59.182v28.182h-7.046"/><circle cx="28.182" cy="26.773" r="5.636" stroke-linecap="square"/><path stroke-linecap="square" d="M14.09 21.136H8.456"/><path d="M9.864 40.864C9.864 52.537 19.327 62 31 62s21.136-9.463 21.136-21.136V22.545c-4.88 0-8.454 3.574-8.454 8.455v5.636C37.02 36.636 31 41.788 31 47.91"/></g></symbol><symbol id="pdf" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M20.07 30.645c0 .878-.258 1.556-.775 2.033-.518.48-1.252.717-2.205.717h-.596V36h-2.122v-7.853h2.718c.992 0 1.737.217 2.234.65.498.433.747 1.05.747 1.848zm-3.576 1.02h.387c.32 0 .575-.09.76-.27.19-.178.285-.425.285-.74 0-.53-.293-.794-.88-.794h-.55v1.808zm11.494.242c0 1.31-.36 2.32-1.083 3.03-.72.71-1.735 1.063-3.042 1.063h-2.54v-7.853h2.717c1.26 0 2.233.322 2.92.967.685.645 1.028 1.575 1.028 2.793zm-2.202.075c0-.72-.142-1.253-.427-1.6-.287-.35-.72-.522-1.3-.522h-.618v4.398h.473c.645 0 1.117-.188 1.418-.562s.45-.944.45-1.714zM31.484 36h-2.09v-7.853h4.642v1.702h-2.55v1.496h2.352v1.702h-2.353V36z"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M29 2v12h12"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M41 23v-9L29 2H7v21m0 18v5h34v-5M2 23h44v18H2z" stroke-linecap="square"/></symbol><symbol id="people" viewBox="0 0 64 64"><g fill="none" stroke-width="2" stroke-linejoin="miter" stroke-opacity="1" stroke-miterlimit="10"><path d="M38 19c0 4.973 4.027 11 9 11s9-6.027 9-11-4.027-9-9-9-9 4.027-9 9zm0 0" stroke-linecap="square"/><path d="M48 50h14v-4.324c0-2.446-1.469-4.656-3.742-5.563C55.656 39.078 51.8 38 47 38c-4.8 0-8.656 1.078-11.258 2.113a5.887 5.887 0 0 0-2.605 2.035" stroke-linecap="butt"/><path d="M40 56H2v-5.629c0-3.055 1.723-5.848 4.465-7.184C9.668 41.63 14.555 40 21 40s11.332 1.629 14.535 3.188C38.277 44.523 40 47.316 40 50.37zm0 0M32 19c0 6.074-4.926 13-11 13s-11-6.926-11-13S14.926 8 21 8s11 4.926 11 11zm0 0" stroke-linecap="square"/></g></symbol><symbol id="phone-solid" viewBox="0 0 48 48"><path fill="currentColor" d="M38 47C17.598 47 1 30.402 1 10c0-.265.105-.52.293-.707l6-6a1 1 0 0 1 1.414 0l10 10a1 1 0 0 1 0 1.414L13.414 20 28 34.586l5.293-5.293a1 1 0 0 1 1.414 0l10 10a1 1 0 0 1 0 1.414l-6 6A.997.997 0 0 1 38 47z"/></symbol><symbol id="phone" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M34 30l-6 6-16-16 6-6L8 4l-6 6c0 19.882 16.118 36 36 36l6-6-10-10z" stroke-linecap="square"/></symbol><symbol id="phone2021" viewBox="0 0 26 26"><path d="M17.023 15.823l-1.956 2.445a20.63 20.63 0 0 1-7.335-7.335l2.445-1.956a1.66 1.66 0 0 0 .48-1.971L8.43 1.987a1.66 1.66 0 0 0-1.937-.934l-4.243 1.1A1.68 1.68 0 0 0 1.015 4 24.649 24.649 0 0 0 22 24.984a1.667 1.667 0 0 0 1.845-1.233l1.101-4.243a1.661 1.661 0 0 0-.933-1.935l-5.019-2.229a1.659 1.659 0 0 0-1.971.479z" stroke="var(--colortheme-icon)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="pig-fat" viewBox="0 0 26 26"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="2" transform="translate(1 1)"><path d="M12.414 10.759h4.138"/><circle cx="14.483" cy="2.069" r="2.069"/><circle cx="7.034" cy="12.828" r="1"/><path d="M24 14.284c0-3.833-3.052-6.94-6.818-6.94H9.273c-1.368-3.26-4.364-2.22-4.364-2.22l.937 3.336a6.944 6.944 0 0 0-2.657 3.326H0v5.552h3.43c.837 1.732 2.358 3.059 4.206 3.608V24h3.819v-2.776h3.818V24h3.818v-3.057c2.835-.841 4.909-3.502 4.909-6.66z"/></g></symbol><symbol id="pig" viewBox="0 0 92 92"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="3" transform="translate(2 2)"><circle cx="24.4" cy="48.4" r="4.4"/><circle cx="43.8" cy="8.8" r="8.8"/><path d="M35 38h17.6m10.467-8.802H33.722c-7.017-12.045-19.055-8.8-19.055-8.8l4.507 13.52c-4.352 3.141-7.66 7.632-9.274 12.88H0V67.33h12.609c3.407 5.441 8.847 9.47 15.258 11.023v9.51h14.666v-8.8H57.2v8.8h14.667V77.436C81.289 73.876 88 64.8 88 54.131c0-13.77-11.163-24.933-24.933-24.933z"/></g></symbol><symbol id="podcast-icon" viewBox="0 0 16 16"><path fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" d="M2.5 9.5h3v6h-2a3 3 0 0 1-3-3V8a7.5 7.5 0 0 1 15 0v4.5a3 3 0 0 1-3 3h-2v-6h3"/></symbol><symbol id="print-solid" viewBox="0 0 48 48"><g fill="currentColor"><path d="M42 11H6c-2.76 0-5 2.24-5 5v20a1 1 0 0 0 1 1h6V23a1 1 0 0 1 1-1h30a1 1 0 0 1 1 1v14h6a1 1 0 0 0 1-1V16c0-2.76-2.24-5-5-5z"/><path d="M37 1H11a1 1 0 0 0-1 1v7h28V2a1 1 0 0 0-1-1zM10 24v22a1 1 0 0 0 1 1h26a1 1 0 0 0 1-1V24H10zm20 16H18a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-7H18a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2z"/></g></symbol><symbol id="print" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M10 36H2V16c0-2.21 1.79-4 4-4h36c2.21 0 4 1.79 4 4v20h-8"/><path d="M10 7V2h28v5M10 23h28v23H10zm8 8h12m-12 7h12"/></g></symbol><symbol id="question2021" viewBox="0 0 26 26"><g fill="none" fill-rule="evenodd"><path stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="2" d="M25 13A11.999 11.999 0 0 1 7 23.392 11.997 11.997 0 0 1 7 2.608 11.998 11.998 0 0 1 25 13z"/><path fill="#07094A" d="M14.2 19.8a1.202 1.202 0 0 1-1.8 1.04 1.202 1.202 0 0 1 0-2.08 1.202 1.202 0 0 1 1.8 1.04z"/><path stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-width="2" d="M10.526 6.432c2.234-.988 5.13-.872 6.118.728.988 1.6.306 3.46-1.388 4.894C13.562 13.49 13 14.27 13 15.4"/></g></symbol><symbol id="shape-oval" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="var(--colortheme-icon)" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter" class="nc-icon-wrapper"/></symbol><symbol id="shield" viewBox="0 0 20 20"><path d="M10 1a15.8 15.8 0 0 1-9 4.2S1 15.4 10 19c9-3.6 9-13.8 9-13.8A15.8 15.8 0 0 1 10 1z" stroke-width="1" stroke="var(--colortheme-icon)" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="simple-add" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M24 4v40m20-20H4" stroke-linecap="square"/></symbol><symbol id="simple-remove" viewBox="0 0 48 48"><path d="M38 10L10 38m28 0L10 10" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"/></symbol><symbol id="single-folded" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M30 2v12h12"/><path d="M30 2H6v44h36V14z" stroke-linecap="square"/></g></symbol><symbol id="small-add" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M24 14v20m10-10H14" stroke-linecap="square"/></symbol><symbol id="small-delete" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M34 24H14" stroke-linecap="square"/></symbol><symbol id="small-remove" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M32 16L16 32m16 0L16 16" stroke-linecap="square"/></symbol><symbol id="soundcloud" viewBox="0 0 31 15"><path d="M.561 7.433C.551 7.35.5 7.294.436 7.294s-.117.059-.126.139l-.297 3.086.297 3.018c.008.081.061.14.126.14.063 0 .115-.057.125-.14l.338-3.018L.56 7.433zm5.351-2.874c-.116 0-.211.105-.217.238l-.224 5.25.224 3.392c.006.133.101.237.217.237.115 0 .21-.104.217-.237l.253-3.392-.253-5.25c-.007-.133-.102-.238-.217-.238zM3.173 6.382c-.092 0-.167.08-.175.186l-.263 3.519.263 3.405c.007.105.083.184.175.184.092 0 .167-.079.175-.184l.3-3.405-.3-3.52c-.008-.105-.083-.185-.175-.185zm5.477 7.294c.138 0 .25-.128.256-.293l.212-3.345-.212-7.01c-.006-.164-.118-.293-.256-.293-.14 0-.252.13-.256.294l-.188 7.009.188 3.346c.004.164.117.292.256.292zm4.563.912c.177 0 .323-.19.326-.423v.003-.003l.137-3.413-.137-8.505c-.003-.233-.15-.423-.326-.423-.177 0-.323.19-.325.423l-.123 8.502.123 3.418c.002.232.149.421.325.421zm-2.737-.912c.16 0 .288-.151.292-.345v.003l.173-3.263-.173-6.99c-.005-.194-.133-.346-.292-.346-.16 0-.29.152-.292.345l-.155 6.992.155 3.261c.003.192.132.343.292.343zm16.529-7.352c-.547 0-1.07.115-1.545.32C25.142 2.922 22.123 0 18.44 0c-.901 0-1.78.184-2.555.494-.302.12-.382.245-.385.486v13.113a.494.494 0 0 0 .431.488l11.074.007c2.206 0 3.995-1.85 3.995-4.132 0-2.282-1.788-4.132-3.995-4.132z" fill="#070936" fill-rule="evenodd"/></symbol><symbol id="spotify" viewBox="0 0 32 32"><path fill="#070936" fill-rule="nonzero" d="M16 2C9.4 2 4 7.4 4 14s5.4 12 12 12 12-5.4 12-12S22.675 2 16 2zm5.55 17.325c-.225.375-.675.45-1.05.225-2.85-1.725-6.375-2.1-10.575-1.125-.45.15-.75-.15-.9-.525-.15-.45.15-.75.525-.9 4.575-1.05 8.55-.6 11.625 1.35.45.15.525.6.375.975zm1.425-3.3c-.3.45-.825.6-1.275.3-3.225-1.95-8.175-2.55-11.925-1.35-.45.15-1.05-.15-1.125-.6-.15-.525.075-1.05.6-1.125 4.35-1.35 9.75-.675 13.5 1.65.3.15.525.75.225 1.125zm.075-3.375C19.225 10.4 12.775 10.1 9.1 11.3c-.6.15-1.2-.15-1.35-.75-.15-.6.15-1.2.75-1.35 4.275-1.275 11.25-1.05 15.75 1.65.525.3.75 1.05.45 1.575-.375.375-1.05.525-1.65.225z"/></symbol><symbol id="square-download" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M24 2v31" data-cap="butt"/><path d="M13 22l11 11 11-11M2 36v10h44V36" stroke-linecap="square"/></g></symbol><symbol id="star-lightgrey" viewBox="0 0 16 16"><path fill="none" stroke="#ede8e6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" data-cap="butt" d="M8 .867l2.318 4.696 5.182.753-3.75 3.655.885 5.162L8 12.696l-4.635 2.437.885-5.162L.5 6.316l5.182-.753z"/></symbol><symbol id="star-red" viewBox="0 0 16 16"><path fill="none" stroke="#fb264e" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" data-cap="butt" d="M8 .867l2.318 4.696 5.182.753-3.75 3.655.885 5.162L8 12.696l-4.635 2.437.885-5.162L.5 6.316l5.182-.753z"/></symbol><symbol id="star-solid" viewBox="0 0 16 16"><path stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" data-cap="butt" d="M8 .867l2.318 4.696 5.182.753-3.75 3.655.885 5.162L8 12.696l-4.635 2.437.885-5.162L.5 6.316l5.182-.753z"/></symbol><symbol id="star" viewBox="0 0 16 16"><path fill="none" stroke="#444" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" data-cap="butt" d="M8 .867l2.318 4.696 5.182.753-3.75 3.655.885 5.162L8 12.696l-4.635 2.437.885-5.162L.5 6.316l5.182-.753z"/></symbol><symbol id="status-new" viewBox="0 0 16 16"><path fill="none" stroke="#07094a" stroke-linecap="round" stroke-linejoin="round" stroke-width=".888" d="M8 3.02L10.31.89l.62 3.08 3.12-.36-1.31 2.85L15.47 8l-2.73 1.54 1.31 2.85-3.12-.36-.62 3.08L8 12.98l-2.31 2.13-.62-3.08-3.12.36 1.31-2.85L.53 8l2.73-1.54-1.31-2.85 3.12.36.62-3.08L8 3.02z"/></symbol><symbol id="stroke-down" viewBox="0 0 14 9"><title>Stroke 1</title><path stroke="#68D2DF" stroke-width="2" d="M12 2L7 7 2 2" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="stroke-up" viewBox="0 0 14 9"><title>Stroke 1</title><path stroke="#68D2DF" stroke-width="2" d="M12 7L7 2 2 7" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="tablet-reader-31" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M13 20h22m-22-8h22M13 28h11M39 46H9c-2.21 0-4-1.79-4-4V6c0-2.21 1.79-4 4-4h30c2.21 0 4 1.79 4 4v36c0 2.21-1.79 4-4 4z" stroke-linecap="square"/><circle cx="24" cy="39" r="2" fill="currentColor"/></symbol><symbol id="tail-down" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M24 2v43"/><path d="M10 31l14 14 14-14" stroke-linecap="square"/></g></symbol><symbol id="tail-right" viewBox="0 0 48 48"><style type="text/css">.st0,.st1{fill:none;stroke:#000;stroke-miterlimit:10}.st1{stroke-linecap:square}</style><path class="st0" d="M2.5 24.5h43"/><path class="st1" d="M31.5 38.5l14-14-14-14"/></symbol><symbol id="tail-up" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10"><path d="M24 46V3"/><path d="M38 17L24 3 10 17" stroke-linecap="square"/></g></symbol><symbol id="tractor" viewBox="0 0 28 23"><g fill="none" fill-rule="evenodd" stroke="var(--colortheme-icon)" transform="translate(1 1)"><path d="M5.2 6.933V0h8.1l3.6 10.4"/><path stroke-linecap="square" d="M5.2 0H2.6m16.9 10.4V6.933c0-.953.78-1.733 1.733-1.733h.867"/><path d="M11.7 10.4h8.667c.953 0 1.733.877 1.733 1.95v1.95"/><path d="M1.3 7.14a9.282 9.282 0 0 1 3.363-.64c4.625 0 8.408 3.6 8.408 8a7.6 7.6 0 0 1-.42 2.4H18.2"/><circle cx="5.2" cy="15.6" r="5.2" stroke-linecap="square"/><circle cx="22.75" cy="16.25" r="3.25" stroke-linecap="square"/></g></symbol><symbol id="uk-colored-48" viewBox="0 0 48 48"><path fill="#002781" d="M46 6H2a2 2 0 0 0-2 2v32a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2z"/><path fill="#E6E6E6" d="M48 8a2 2 0 0 0-2-2h-5.161L28 15.876V6h-8v9.876L7.161 6H2a2 2 0 0 0-2 2v2.586L12.239 20H0v8h12.239L0 37.415V40a2 2 0 0 0 2 2h5.161L20 32.124V42h8v-9.876L40.839 42H46a2 2 0 0 0 2-2v-2.585L35.761 28H48v-8H35.761L48 10.586V8z"/><path fill="#D10D24" d="M48 22H26V6h-4v16H0v4h22v16h4V26h22z"/><path fill="#D10D24" d="M47.001 6.307L29.2 20h3.28L48 8.062V8c0-.732-.413-1.344-.999-1.693zM32.48 28H29.2l17.801 13.693c.586-.349.999-.961.999-1.693v-.062L32.48 28zM15.52 28L0 39.938V40c0 .732.413 1.344.999 1.693L18.8 28h-3.28zM15.52 20h3.28L.999 6.307C.413 6.656 0 7.268 0 8v.062L15.52 20z"/></symbol><symbol id="users-wm" viewBox="0 0 23 19"><path stroke="#FB2642" d="M18.5 18.5h4v-4.323a.997.997 0 0 0-.629-.928l-3.742-1.5a1 1 0 0 1-.629-.926v-.878a3.99 3.99 0 0 0 1.462-1.454A4 4 0 0 0 19.5 6.5v-2a4.003 4.003 0 0 0-6-3.465m.371 13.214l-3.742-1.5a1 1 0 0 1-.629-.926v-.451c3.27-.437 4-1.872 4-1.872s-2-2-2-4a3.998 3.998 0 1 0-8 0c0 2-2 4-2 4s.73 1.435 4 1.872v.451a.997.997 0 0 1-.629.928l-3.742 1.5a1 1 0 0 0-.629.926V18.5h14v-3.323a.997.997 0 0 0-.629-.928z" filter="url(#a)" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol><symbol id="video-66" viewBox="0 0 48 48"><g class="nc-icon-wrapper" fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="miter"><path stroke-linecap="square" d="M2 20h30v24H2z"/><circle data-color="color-2" stroke-linecap="square" cx="8" cy="8" r="6"/><circle data-color="color-2" stroke-linecap="square" cx="24" cy="10" r="4"/><path data-cap="butt" stroke-linecap="butt" d="M32 28l14-6v20l-14-6"/></g></symbol><symbol id="video-icon" viewBox="0 0 16 16"><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 15.5h7m-5-12l5 3-5 3z"/><path d="M.5.5h15v12H.5z"/></g></symbol><symbol id="warning-triangle" viewBox="0 0 576 512"><path fill="currentColor" d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="wheelchair" viewBox="0 0 65 65"><g fill="none" fill-rule="evenodd" stroke-width="2" transform="translate(1 1)"><path stroke="#FB264E" d="M29.98 34.588h24.373v-2.964c0-2.52-1.853-4.448-4.276-4.448H17.294"/><path stroke="var(--colortheme-icon)" stroke-linecap="square" d="M17.294 28.412V0H8.647m8.647 14.206h28.412"/><path stroke="var(--colortheme-icon)" d="M54.353 34.588v11.736"/><circle cx="54.353" cy="54.353" r="8.647" stroke="var(--colortheme-icon)" stroke-linecap="square"/><circle cx="17.294" cy="45.706" r="17.294" stroke="var(--colortheme-icon)" stroke-linecap="square"/></g></symbol><symbol id="xlsx" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M17.592 36h-2.455l-1.53-2.455L12.09 36h-2.4l2.604-4.018-2.45-3.835H12.2l1.418 2.428 1.364-2.428h2.422l-2.487 4L17.592 36zm.88 0v-7.853h2.123v6.14h3.024V36h-5.15zm11.538-2.385c0 .487-.124.92-.37 1.297s-.605.672-1.07.88c-.465.21-1.012.315-1.638.315-.523 0-.96-.037-1.316-.11s-.723-.2-1.106-.384v-1.89c.405.207.825.37 1.262.485s.838.174 1.203.174c.315 0 .546-.054.693-.163s.22-.25.22-.43c0-.107-.03-.2-.088-.28-.06-.08-.154-.16-.285-.245-.13-.08-.48-.25-1.044-.505-.51-.23-.89-.457-1.15-.676-.25-.22-.44-.47-.57-.754-.12-.28-.18-.615-.18-1.002 0-.724.264-1.288.79-1.692s1.25-.605 2.17-.605c.814 0 1.64.19 2.488.567l-.65 1.638c-.733-.336-1.367-.504-1.9-.504-.276 0-.476.048-.602.145s-.187.217-.187.36c0 .153.08.29.24.413.157.122.59.344 1.295.666.677.305 1.146.63 1.41.98.26.35.394.79.394 1.32zM38.298 36h-2.455l-1.53-2.455L32.797 36h-2.4L33 31.982l-2.45-3.835h2.354l1.418 2.428 1.364-2.428h2.422l-2.487 4L38.3 36z" data-color="color-2" data-stroke="none"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M29 2v12h12" data-cap="butt"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M41 23v-9L29 2H7v21m0 18v5h34v-5M2 23h44v18H2z" stroke-linecap="square"/></symbol><symbol id="xml" viewBox="0 0 48 48"><path fill="currentColor" stroke="none" d="M19.426 36H16.97l-1.53-2.455L13.926 36h-2.4l2.604-4.018-2.45-3.835h2.354l1.418 2.428 1.364-2.428h2.422l-2.487 4L19.43 36zm4.304 0l-1.607-5.656h-.048c.075.964.113 1.712.113 2.246V36h-1.88v-7.853h2.825l1.638 5.575h.048l1.606-5.575h2.83V36H27.3v-3.443c0-.18.003-.377.008-.596.006-.214.03-.75.073-1.6h-.043L25.747 36h-2.02zm7.212 0v-7.853h2.122v6.14h3.024V36h-5.146z"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M29 2v12h12"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M41 23v-9L29 2H7v21m0 18v5h34v-5M2 23h44v18H2z" stroke-linecap="square"/></symbol><symbol id="zoom" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="square"><path d="M44 44L32.7 32.7"/><circle cx="20" cy="20" r="18"/></g></symbol><symbol id="zoom2021" viewBox="0 0 23 23"><path d="M21 21l-6.344-6.344M17 9A7.999 7.999 0 1 1 1.002 9 7.999 7.999 0 0 1 17 9z" stroke="var(--colortheme-icon)" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square"/></symbol></svg>    </div>
+
+        <div data-pageid=175029></div>
+        <div data-currentpage=175029></div>
+
+
+<header class="nyk-component--menu" data-overlay-id="menuOverlay">
+    <div class="nyk-overlay" id="menuOverlay" v-on:click="toggleSubmenu"></div>
+
+    <div class="nyk-menu nyk-js--menu " :class="getMenuClasses">
+        
+        <div aria-hidden="true">
+            <input class="nyk-js--fake-focus-search-input nyk-fake-focus-search-input" tabindex="-1" />
+        </div>
+
+        <nav class="nyk-menu__top-menu" :class="{ 'nyk-menu__top-menu--dark': isLoginOverlayOpen }" aria-label="Hovedmenu">
+
+
+            
+            
+
+<!-- list of second level items -->
+<div class="nyk-menu__top-menu__bottom">
+    <div class="nyk-menu__top-menu__bottom__container">
+        
+<a v-on:keydown.prevent.left="navigateBackInMenu"
+   v-on:keydown.prevent.right="navigateForwardInMenu"
+   href="https://www.nykredit.dk/"
+   class="nyk-js--menu-item nyk-menu__top-menu__bottom__container__logo"
+   aria-label="Logo - g&#xE5; til start"
+   role="link">
+    
+    <img src="/globalassets/billeder/ikoner-logoer-flag-grafikker-og-diverse/logoer/nykredit_logo.svg" alt="G&#xE5; til forsiden" role="presentation">
+</a>
+
+
+        <ul class="nyk-menu__top-menu__bottom__container__menu-items">
+        </ul>
+
+        <div class="nyk-menu__top-menu__bottom__container__actions">
+
+            <button v-on:keydown.prevent.left="navigateBackInMenu"
+                    v-on:keydown.prevent.right="navigateForwardInMenu"
+                    v-on:keydown.prevent.space="navigateToSubmenu"
+                    v-on:keydown.prevent.enter="navigateToSubmenu"
+                    v-on:keydown.tab.exact="handleBurgerMenuTab"
+                    v-on:keydown.tab.shift="handleBurgerMenuShiftTab"
+                    v-on:keydown.prevent.down="handleBurgerMenuTab"
+                    v-on:keydown.prevent.up="handleBurgerMenuShiftTab"
+                    v-on:click="toggleMobileSubmenu"
+                    class="nyk-js--menu-item nyk-js--burgermenu nyk-menu__top-menu__bottom__container__actions__burgermenu"
+                    :class="burgermenuUpdatedState"
+                    :aria-expanded="submenuOpen"
+                    aria-controls="submenu"
+                    :aria-label="submenuOpen ? '' : ''">
+                <div class="nyk-menu__top-menu__bottom__container__actions__burgermenu__symbol">
+                    <div class="nyk-menu__top-menu__bottom__container__actions__burgermenu__symbol__line"></div>
+                    <div class="nyk-menu__top-menu__bottom__container__actions__burgermenu__symbol__line"></div>
+                    <div class="nyk-menu__top-menu__bottom__container__actions__burgermenu__symbol__line"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</div>
+
+        </nav>
+
+        <!-- submenu -->
+        <div role="dialog" aria-modal="true">
+            <nav class="nyk-menu__submenu nyk-js--submenu-container" :class="{ 'nyk-menu__submenu--search-overlay-shown': searchOverlayShown, 'nyk-menu__submenu--dark': isLoginOverlayOpen }" aria-label="Undermenu" aria-live="polite">
+                <div class="nyk-menu__submenu__content">
+                    <!-- desktop submenu close button -->
+                    <nyk-button
+                        shape="round"
+                        :variant="closeButtonVariant"
+                        :aria-label="submenuOpen ? '' : ''"
+                        custom-class="nyk-menu__submenu__content__close nyk-js--submenu-item"
+                        @click="closeSubmenu"
+                        @keydown.tab.prevent="navigateForwardInSubmenu"
+                        @keydown.tab.shift.prevent="navigateBackInSubmenu"
+                        @keydown.down.prevent="navigateForwardInSubmenu"
+                        @keydown.up.prevent="navigateBackInSubmenu"
+                        @keydown.left.prevent="navigateToPreviousListInSubmenu"
+                        @keydown.right.prevent="navigateToNextListInSubmenu"
+                        @keydown.esc.prevent="closeSubmenu"
+                    >
+                        <template #icon>
+                            <svg 
+                                role="presentation" 
+                                width="24" 
+                                height="24" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M17.5588 7.50011L7.49816 17.5608L6.4375 16.5001L16.4982 6.43945L17.5588 7.50011Z"
+                                    fill="var(--colortheme-primary-dark)"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M7.49816 6.43945L17.5588 16.5001L16.4982 17.5608L6.4375 7.50011L7.49816 6.43945Z"
+                                    fill="var(--colortheme-primary-dark)"
+                                />
+                            </svg>
+                        </template>
+                    </nyk-button>
+
+                    <!-- submenu (Desktop) -->
+                    
+
+
+                    <!-- submenu (Mobile) -->
+                    
+
+
+<div v-if="!isLoginOverlayOpen" class="nyk-menu__submenu__content__items-mobile nyk-js--mobile-submenu">    
+    <!-- language mobile -->
+    
+<ul class="nyk-menu__top-menu__top__menu-items">
+
+</ul>
+    
+    <!-- search bar mobile small -->
+
+    <!-- top level menu as a dropdown -->
+    
+<div class="nyk-js--mobile-selector nyk-menu__submenu__content__items-mobile__selector">
+    <div class="nyk-menu__submenu__content__items-mobile__selector__dropdown" :class="{ 'nyk-menu__submenu__content__items-mobile__selector__dropdown--shown': topLevelPagesDropdownShown }">
+        <ul class="nyk-menu__submenu__content__items-mobile__selector__dropdown__list" id="toplevelPagesDrown">
+        </ul>
+    </div>
+</div>
+    <!-- Overlay for dropdown selector -->
+    <div class="nyk-menu__submenu__content__items-mobile__overlay"
+         :class="{ 'nyk-menu__submenu__content__items-mobile__overlay--shown': topLevelPagesDropdownShown }"
+         v-on:click="toggleTopLevelPagesMobileDropdown"></div>
+    <!-- submenu header items -->
+
+    
+<ul class="nyk-js--mobile-first-level-list nyk-menu__submenu__content__items-mobile__list">
+</ul>
+
+    <!-- submenu first level -->
+    
+
+
+
+</div>
+
+                    <!-- search overlay -->
+                    
+<div class="nyk-js--search-overlay nyk-menu__submenu__content__search-overlay">
+    <search-overlay search-url=""
+                    suggestion-url=""
+                    search-result-title="Mest s&#xF8;gte sider"
+                    search-suggestions-json='[]'
+                    card-top-json='{"title":null,"description":"","actionText":null,"actionUrl":null}'
+                    card-bottom-json='{"title":null,"description":"","actionText":null,"actionUrl":null}'></search-overlay>
+</div>
+
+                    <!-- login overlay -->
+
+                    <!-- Cards rendering -->
+                    <div v-if="!isLoginOverlayOpen" class="nyk-menu__submenu__content__left">
+                        <!-- Language B-->
+
+                        
+                        
+
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <div class="body-wrapper mdc-typography">
+        
+<div class="nyk-not-found__body">
+    <h1 class="nyk-not-found__body__title">Siden findes ikke</h1>
+
+    <div class="nyk-not-found__body__404-graphic">
+        <svg
+            role="presentation"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 966 380">
+            <path
+                fill="#0F1E82"
+                d="M174.52 372v-86.84H.32v-60.32L123.56 8h74.88L66.88 233.16h107.64v-79.04h68.12v79.04h57.2v40.56l-57.2 11.44V372h-68.12Zm305.492 7.8c-85.28 0-145.6-62.4-145.6-188.76 0-126.36 60.32-190.32 145.6-190.32s145.6 63.96 145.6 190.32c0 126.36-60.32 188.76-145.6 188.76Zm-74.88-188.76c0 106.08 31.72 142.48 74.88 142.48s74.88-36.4 74.88-142.48c0-106.08-31.72-143.52-74.88-143.52s-74.88 37.44-74.88 143.52ZM840.262 372v-86.84h-174.2v-60.32L789.302 8h74.88l-131.56 225.16h107.64v-79.04h68.12v79.04h57.2v40.56l-57.2 11.44V372h-68.12Z"/>
+        </svg>
+    </div>
+
+    <div class="nyk-not-found__body__description nyk-richtext">
+        
+<p>Vi kan desværre ikke finde siden, du leder efter.</p>
+<div>Prøv at bruge søgefeltet nedenfor eller se nogle af vores mest populære sider.</div>
+    </div>
+        <div class="nyk-not-found__body__search">
+            <div
+                class="nyk-component--search-input-field"
+                data-placeholder="Hvad s&#xF8;ger du?"
+                data-redirect-url="/sog/"
+                data-aria-label="">
+            </div>
+        </div>
+    <div class="nyk-not-found__body__actions">
+                <a href="/dit-liv/" class="nyk-button nyk-button--link">
+                    G&#xE5; til forside
+                    <div class="nyk-button__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>
+                    </div>
+                </a>
+                <a href="/dit-liv/kundeservice-privat/" class="nyk-button nyk-button--link">
+                    Kundeservice
+                    <div class="nyk-button__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>
+                    </div>
+                </a>
+                <a href="/" class="nyk-button nyk-button--link">
+                    Log p&#xE5; MitNykredit
+                    <div class="nyk-button__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>
+                    </div>
+                </a>
+    </div>
+</div>
+    </div>
+
+<footer>
+    
+<div>
+
+<div class="nyk-component--footer-contact" data-search-url="/ai-sog/" >
+    <section class="nyk-footer-contact">
+
+        <h2 class="nyk-footer-contact__title">Vi hj&#xE6;lper dig videre</h2>
+
+        <div class="nyk-footer-contact__cards-group">
+
+            <article class="nyk-footer-contact__cards-group__card nyk-footer-contact__cards-group__card--search">
+                <h3 class="nyk-footer-contact__cards-group__card__title">Har du sp&#xF8;rgsm&#xE5;l eller brug for hj&#xE6;lp, s&#xE5; skriv endelig</h3>
+
+                <div class="nyk-footer-contact__cards-group__card__bottom">
+                    <label class="nyk-visually-hidden" for="nyk-footer-contact__cards-group__card__bottom__input">Skriv her</label>
+                    <input
+                        class="nyk-footer-contact__cards-group__card__bottom__input"
+                        id="nyk-footer-contact__cards-group__card__bottom__input"
+                        placeholder="Skriv her"
+                        v-model="searchInput"
+                        aria-label="Skriv her"
+                        v-on:keyup.enter="navigateToSearch"/>
+
+                    <button class="nyk-footer-contact__cards-group__card__bottom__action" v-on:click="navigateToSearch">
+                        <div class="nyk-footer-contact__cards-group__card__bottom__action__text">F&#xE5; svar p&#xE5; dit sp&#xF8;rgsm&#xE5;l</div>
+                        <div
+                            class="nyk-footer-contact__cards-group__card__bottom__action__button nyk-button nyk-button--link-circle-arrow right"
+                        >
+                            <div class="nyk-button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </article>
+
+            <article class="nyk-footer-contact__cards-group__card nyk-footer-contact__cards-group__card--find-us">
+                <h3 id="nyk-footer-contact__cards-group__card__title-5186-01" class="nyk-footer-contact__cards-group__card__title" >Find os</h3>
+
+                <div class="nyk-footer-contact__cards-group__card__bottom">
+
+                    <p class="nyk-footer-contact__cards-group__card__bottom__description">
+                        Vi har lokalbanker fordelt over hele landet. Find lokalbankerne, og se &#xE5;bningstider her.
+                    </p>
+
+                    <a href="/find-nykredit/" class="nyk-footer-contact__cards-group__card__bottom__action">
+                        <div id="nyk-footer-contact__cards-group__card__link-title-5186-01" class="nyk-footer-contact__cards-group__card__bottom__action__text">Se p&#xE5; kort</div>
+
+                        <div class="nyk-button nyk-button--link-circle-arrow right">
+                            <div class="nyk-button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </article>
+
+            <article class="nyk-footer-contact__cards-group__card nyk-footer-contact__cards-group__card--write-to-us">
+                <h3 id="nyk-footer-contact__cards-group__card__title-5186-02" class="nyk-footer-contact__cards-group__card__title">Skriv til os</h3>
+
+                <div class="nyk-footer-contact__cards-group__card__bottom">
+
+                    <p class="nyk-footer-contact__cards-group__card__bottom__description">
+                        Hvis du har behov for r&#xE5;dgivning, s&#xE5; udfyld vores kontaktformular.
+                    </p>
+
+                    <a href="/dit-liv/nykredit-bank/kontakt-boligbank/" class="nyk-footer-contact__cards-group__card__bottom__action">
+                        <div id="nyk-footer-contact__cards-group__card__link-title-5186-02" class="nyk-footer-contact__cards-group__card__bottom__action__text">Jeg vil gerne kontaktes</div>
+
+                        <div class="nyk-button nyk-button--link-circle-arrow right">
+                            <div class="nyk-button__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </article>
+
+            <article class="nyk-footer-contact__cards-group__card nyk-footer-contact__cards-group__card--call-us">
+                <h3 id="nyk-footer-contact__cards-group__card__title-5186-03" class="nyk-footer-contact__cards-group__card__title">Ring til os</h3>
+                <div class="nyk-footer-contact__cards-group__card__bottom">
+                    <p id="nyk-footer-contact__cards-group__card__bottom__description-small-5186" class="nyk-footer-contact__cards-group__card__bottom__description-small">
+                        Du kan ringe mandag-fredag: Kl. 08.00-20.00 og l&#xF8;rdag-s&#xF8;ndag: Kl. 10.00-16.00.
+                    </p>
+                    <a id="phone-link-5186" href="tel:&#x2B;4570109000" class="nyk-footer-contact__cards-group__card__bottom__link-call">
+                        (&#x2B;45) 70 10 90 00
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+</div>
+<section class="nyk-footer-newsletter">
+    <h2 class="nyk-footer-newsletter__title">Hold dig opdateret</h2>
+    <div class="nyk-footer-newsletter__content">
+        <p class="nyk-footer-newsletter__content__description">
+            Tilmeld dig vores nyhedsbreve. S&#xE5; f&#xE5;r du l&#xF8;bende aktuelle nyheder, videoer og podcasts om, hvad der sker p&#xE5; bolig- og finansmarkederne, og hvordan det kan p&#xE5;virke din bolig, &#xF8;konomi, formue og opsparing.
+        </p>
+        
+<a class="nyk-button nyk-button--outline-primary nyk-button--icon "
+    href="/nyhedsbreve/"
+    target="_self"
+    rel="noopener"
+    
+    title="Tilmeld nyhedsbrev">
+    Tilmeld nyhedsbrev
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+    </div>
+</section>
+<div class="nyk-component--footer-information">
+
+    <section class="nyk-footer-information">
+        <div class="nyk-footer-information__main">
+
+            <div class="nyk-footer-information__main__company-info">
+                <address class="nyk-footer-information__main__company-info__address">
+                    <span class="nyk-footer-information__main__company-info__name">Nykredit</span>
+                    <span class="nyk-footer-information__main__company-info__address__item">Nykredit Bank A/S CVR: 10519608</span>
+                    <span class="nyk-footer-information__main__company-info__address__item">Sundkrogsgade 25</span>
+                    <span class="nyk-footer-information__main__company-info__address__item">2150 Nordhavn</span>
+                    <a class="nyk-footer-information__main__company-info__phone" href="tel:&#x2B;4570109000">Ring 70 10 90 00</a>
+                        <div class="nyk-footer-information__main__company-info__chat nyk-component--chat-panel-trigger" data-chat-panel-action-id="">
+                            <button class="nyk-button nyk-button--outline" @click="initActionId">Chat med os</button>
+                        </div>
+                </address>
+            </div>
+
+            <div class="nyk-footer-information__main__group">
+                <h3 class="nyk-footer-information__main__group__title">Kundeservice</h3>
+                <ul class="nyk-footer-information__main__group__list">
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/dit-liv/kundeservice-privat/&amp;content=footer"
+    target="_self"
+    rel="noopener"
+    
+    title="Kundeservice - Privat">
+    Kundeservice - Privat
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/mulighed-for-at-fa-tilbagefort-betaling/"
+    target="_self"
+    rel="noopener"
+    
+    title="Indsigelse - tilbagef&#xF8;ring af betaling">
+    Indsigelse - tilbagef&#xF8;ring af betaling
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/din-virksomhed/kundeservice-erhverv/"
+    target="_self"
+    rel="noopener"
+    
+    title="Kundeservice - Erhverv">
+    Kundeservice - Erhverv
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/brugerpaneler/bliv-en-del-af-kundepanelet/"
+    target="_self"
+    rel="noopener"
+    
+    title="Kundepanel">
+    Kundepanel
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/ris-og-ros/"
+    target="_self"
+    rel="noopener"
+    
+    title="Klager, ros og ris">
+    Klager, ros og ris
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/nyhedsbreve/"
+    target="_self"
+    rel="noopener"
+    
+    title="Nyhedsbreve">
+    Nyhedsbreve
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/personoplysninger-og-cookies/"
+    target="_self"
+    rel="noopener"
+    
+    title="Personoplysninger og cookies">
+    Personoplysninger og cookies
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://mit.nykredit.dk/politik/cookie-oversigt/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Cookies - Nykredit Netbanken">
+    Cookies - Nykredit Netbanken
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/tilgangelighedserklaring/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Tilg&#xE6;ngelighedserkl&#xE6;ring">
+    Tilg&#xE6;ngelighedserkl&#xE6;ring
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/globalassets/dit-liv/pdf/priser-og-vilkar/vilkar/galdende-vilkar/ovrige-vilkar/forbrugerrettigheder_om_betalinger_i_eu.pdf"
+    target="_blank"
+    rel="noopener"
+    
+    title="Forbrugerrettigheder: Betalinger i Europa">
+    Forbrugerrettigheder: Betalinger i Europa
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/kare-kunde-derfor-stiller-vi-dig-sporgsmal/"
+    target="_self"
+    rel="noopener"
+    
+    title="Derfor stiller banken sp&#xF8;rgsm&#xE5;l">
+    Derfor stiller banken sp&#xF8;rgsm&#xE5;l
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/dit-liv/priser-og-vilkar-privat/"
+    target="_self"
+    rel="noopener"
+    
+    title="Priser og vilk&#xE5;r - Privat">
+    Priser og vilk&#xE5;r - Privat
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/din-virksomhed/vilkar/"
+    target="_self"
+    rel="noopener"
+    
+    title="Priser og vilk&#xE5;r - Erhverv">
+    Priser og vilk&#xE5;r - Erhverv
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="nyk-footer-information__main__group">
+                <h3 class="nyk-footer-information__main__group__title">Corporate</h3>
+                <ul class="nyk-footer-information__main__group__list">
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/en-gb/investor-relations/"
+    target="_blank"
+    rel="noopener"
+    lang=en-GB
+    title="Investor Relations">
+    Investor Relations (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/presse-og-nyheder/"
+    target="_self"
+    rel="noopener"
+    
+    title="Presse">
+    Presse
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/karriere/"
+    target="_self"
+    rel="noopener"
+    
+    title="Karriere">
+    Karriere
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/samfundsansvar/udviklingiheledk/"
+    target="_blank"
+    rel="noopener"
+    lang=da-DK
+    title="Samfundsansvar">
+    Samfundsansvar
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/globalassets/nykredit.com/samfundsansvar/pdf/code-of-conduct-da.pdf"
+    target="_blank"
+    rel="noopener"
+    
+    title="Code of Conduct">
+    Code of Conduct
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/om-os/"
+    target="_self"
+    rel="noopener"
+    
+    title="Om os">
+    Om os
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/en-gb/investor-relations/regulation/danish-fsa/"
+    target="_blank"
+    rel="noopener"
+    lang=en-GB
+    title="Finanstilsynet">
+    Finanstilsynet
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/om-os/lovpligtig-information/"
+    target="_self"
+    rel="noopener"
+    
+    title="Lovpligtig information">
+    Lovpligtig information
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="nyk-footer-information__main__group">
+                <h3 class="nyk-footer-information__main__group__title">Andre sites</h3>
+                <ul class="nyk-footer-information__main__group__list">
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykreditinvest.dk/"
+    target="_self"
+    rel="noopener"
+    
+    title="Nykredit Invest">
+    Nykredit Invest
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykreditleasing.dk/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Nykredit Leasing">
+    Nykredit Leasing
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/cib/nykredit-markets/"
+    target="_self"
+    rel="noopener"
+    
+    title="Markets">
+    Markets
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/en-gb/cib/nykredit-markets/"
+    target="_self"
+    rel="noopener"
+    lang=en-GB
+    title="Markets (English)">
+    Markets (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/en-gb/asset-management/AssetManagementUK/"
+    target="_self"
+    rel="noopener"
+    lang=en-GB
+    title="Asset Management (English)">
+    Asset Management (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://npa.nykredit.dk/"
+    target="_self"
+    rel="noopener"
+    
+    title="Nykredit Portef&#xF8;lje Administration">
+    Nykredit Portef&#xF8;lje Administration
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/en-gb/cib/international-lending/"
+    target="_blank"
+    rel="noopener"
+    lang=en-GB
+    title="International Lending (English)">
+    International Lending (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                        <li class="nyk-footer-information__main__group__list__item">
+                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="http://www.forenetkredit.dk/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Forenet Kredit">
+    Forenet Kredit
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                        </li>
+                </ul>
+            </div>
+
+
+            <div class="nyk-footer-information__main__mobile-groups">
+                <section class="nyk-accordion-group">
+
+                    <div class="nyk-accordion-group__content">
+                        <details class="nyk-accordion">
+                            <summary class="nyk-accordion__title">
+                                <h3>Kundeservice</h3>
+                                <span class="nyk-accordion__title__icon" aria-hidden="true">
+                                    <span class="nyk-accordion__title__icon__line"></span>
+                                    <span class="nyk-accordion__title__icon__line"></span>
+                                </span>
+                            </summary>
+                            <div class="nyk-accordion__content">
+                                <ul class="nyk-footer-information__main__group__list">
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/dit-liv/kundeservice-privat/&amp;content=footer"
+    target="_self"
+    rel="noopener"
+    
+    title="Kundeservice - Privat">
+    Kundeservice - Privat
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/mulighed-for-at-fa-tilbagefort-betaling/"
+    target="_self"
+    rel="noopener"
+    
+    title="Indsigelse - tilbagef&#xF8;ring af betaling">
+    Indsigelse - tilbagef&#xF8;ring af betaling
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/din-virksomhed/kundeservice-erhverv/"
+    target="_self"
+    rel="noopener"
+    
+    title="Kundeservice - Erhverv">
+    Kundeservice - Erhverv
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/brugerpaneler/bliv-en-del-af-kundepanelet/"
+    target="_self"
+    rel="noopener"
+    
+    title="Kundepanel">
+    Kundepanel
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/ris-og-ros/"
+    target="_self"
+    rel="noopener"
+    
+    title="Klager, ros og ris">
+    Klager, ros og ris
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/nyhedsbreve/"
+    target="_self"
+    rel="noopener"
+    
+    title="Nyhedsbreve">
+    Nyhedsbreve
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/personoplysninger-og-cookies/"
+    target="_self"
+    rel="noopener"
+    
+    title="Personoplysninger og cookies">
+    Personoplysninger og cookies
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://mit.nykredit.dk/politik/cookie-oversigt/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Cookies - Nykredit Netbanken">
+    Cookies - Nykredit Netbanken
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/tilgangelighedserklaring/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Tilg&#xE6;ngelighedserkl&#xE6;ring">
+    Tilg&#xE6;ngelighedserkl&#xE6;ring
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/globalassets/dit-liv/pdf/priser-og-vilkar/vilkar/galdende-vilkar/ovrige-vilkar/forbrugerrettigheder_om_betalinger_i_eu.pdf"
+    target="_blank"
+    rel="noopener"
+    
+    title="Forbrugerrettigheder: Betalinger i Europa">
+    Forbrugerrettigheder: Betalinger i Europa
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/kundeservice/kare-kunde-derfor-stiller-vi-dig-sporgsmal/"
+    target="_self"
+    rel="noopener"
+    
+    title="Derfor stiller banken sp&#xF8;rgsm&#xE5;l">
+    Derfor stiller banken sp&#xF8;rgsm&#xE5;l
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/dit-liv/priser-og-vilkar-privat/"
+    target="_self"
+    rel="noopener"
+    
+    title="Priser og vilk&#xE5;r - Privat">
+    Priser og vilk&#xE5;r - Privat
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/din-virksomhed/vilkar/"
+    target="_self"
+    rel="noopener"
+    
+    title="Priser og vilk&#xE5;r - Erhverv">
+    Priser og vilk&#xE5;r - Erhverv
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="nyk-accordion">
+                            <summary class="nyk-accordion__title">
+                                <h3>Andre sites</h3>
+                                <span class="nyk-accordion__title__icon" aria-hidden="true">
+                                    <span class="nyk-accordion__title__icon__line"></span>
+                                    <span class="nyk-accordion__title__icon__line"></span>
+                                </span>
+                            </summary>
+                            <div class="nyk-accordion__content">
+                                <ul class="nyk-footer-information__main__group__list">
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykreditinvest.dk/"
+    target="_self"
+    rel="noopener"
+    
+    title="Nykredit Invest">
+    Nykredit Invest
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykreditleasing.dk/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Nykredit Leasing">
+    Nykredit Leasing
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/cib/nykredit-markets/"
+    target="_self"
+    rel="noopener"
+    
+    title="Markets">
+    Markets
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/en-gb/cib/nykredit-markets/"
+    target="_self"
+    rel="noopener"
+    lang=en-GB
+    title="Markets (English)">
+    Markets (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/en-gb/asset-management/AssetManagementUK/"
+    target="_self"
+    rel="noopener"
+    lang=en-GB
+    title="Asset Management (English)">
+    Asset Management (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://npa.nykredit.dk/"
+    target="_self"
+    rel="noopener"
+    
+    title="Nykredit Portef&#xF8;lje Administration">
+    Nykredit Portef&#xF8;lje Administration
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/en-gb/cib/international-lending/"
+    target="_blank"
+    rel="noopener"
+    lang=en-GB
+    title="International Lending (English)">
+    International Lending (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="http://www.forenetkredit.dk/"
+    target="_blank"
+    rel="noopener"
+    
+    title="Forenet Kredit">
+    Forenet Kredit
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="nyk-accordion">
+                            <summary class="nyk-accordion__title">
+                                <h3>Corporate</h3>
+                                <span class="nyk-accordion__title__icon" aria-hidden="true">
+                                    <span class="nyk-accordion__title__icon__line"></span>
+                                    <span class="nyk-accordion__title__icon__line"></span>
+                                </span>
+                            </summary>
+                            <div class="nyk-accordion__content">
+                                <ul class="nyk-footer-information__main__group__list">
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/en-gb/investor-relations/"
+    target="_blank"
+    rel="noopener"
+    lang=en-GB
+    title="Investor Relations">
+    Investor Relations (English)
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/presse-og-nyheder/"
+    target="_self"
+    rel="noopener"
+    
+    title="Presse">
+    Presse
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/karriere/"
+    target="_self"
+    rel="noopener"
+    
+    title="Karriere">
+    Karriere
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/samfundsansvar/udviklingiheledk/"
+    target="_blank"
+    rel="noopener"
+    lang=da-DK
+    title="Samfundsansvar">
+    Samfundsansvar
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/globalassets/nykredit.com/samfundsansvar/pdf/code-of-conduct-da.pdf"
+    target="_blank"
+    rel="noopener"
+    
+    title="Code of Conduct">
+    Code of Conduct
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/om-os/"
+    target="_self"
+    rel="noopener"
+    
+    title="Om os">
+    Om os
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="https://www.nykredit.com/en-gb/investor-relations/regulation/danish-fsa/"
+    target="_blank"
+    rel="noopener"
+    lang=en-GB
+    title="Finanstilsynet">
+    Finanstilsynet
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                        <li class="nyk-footer-information__main__group__list__item">
+                                            
+<a class="nyk-button  nyk-button--icon nyk-button--link-menu nyk-button--link-menu--white"
+    href="/om-os/lovpligtig-information/"
+    target="_self"
+    rel="noopener"
+    
+    title="Lovpligtig information">
+    Lovpligtig information
+
+    <!-- Render icons -->
+        <div class="nyk-button__icon ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 12" role="presentation" aria-hidden="true"><path fill="#07094A" d="M0 5.393v1.231h11.37l-3.898 4.243.67.633L14 5.991 8.142.5l-.67.633 3.898 4.26H0Z"></path></svg>        </div>
+</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+
+       
+
+        <div class="nyk-footer-information__social">
+        </div>          
+    </section>
+
+</div></div>
+</footer>
+    
+
+        <section class="js-epi-form-mithril-init"></section>
+
+    <script src="/Content/v-639275665600000000/app.min.js"></script>
+    <script src="/Content/v-639275665620000000/tk-glide.min.js"></script>
+
+
+
+    
+
+
+
+
+</body>
+</html>

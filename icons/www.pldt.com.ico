@@ -1,0 +1,524 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>404 - Not Found - PLDT Home</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="//pldthome.com/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="//pldthome.com/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+    <link href="https://my.pldthome.com/assets/css/pdltcore.css?=v07112018" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+    <link href="/assets/css/pdltcore.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://pldthome.com/assets/js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="icon" type="image/ico" href="//pldthome.com/pldticon.ico?v2">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+    <link href="//pldthome.com/assets/css/responsive-slider.css" rel="stylesheet">
+    <link href="/assets/css/nav_style.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 8]>
+        <link href="http://pldthome.com/assets/css/homepage_ie7.css" rel="stylesheet">
+    <![endif]-->
+    <script src="//pldthome.com/assets/js/jquery.js"></script>
+    <style>
+
+        a.learnmore {
+            background: #d2272a;
+            border-radius: 14px;
+            padding: 6px 12px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        a:hover.learnmore {
+            background: #aaa;
+            text-decoration: none;
+        }
+
+        .span3 > h4 {
+            margin-top: 0;
+        }
+
+        .span3 > img {
+            margin: auto;
+        }
+
+        @media (max-width: 767px) {
+            .span3 > h1, .span3 > h4 {
+                text-align: center;
+                margin-top: 6px;
+            }
+
+            .span7 > h1, .span7 > h3 {
+                text-align: center;
+            }
+
+            .span3 > p {
+                text-align: center;
+                margin-bottom: 6px;
+            }
+
+            a.learnmore {
+                margin: auto;
+                margin-bottom: 12px;
+                display: inline-block;
+            }
+        }
+
+        .header_pldt .header_pldt-main-nav-mobile {
+            top: 14px !important;
+        }
+
+        ul.header_pldt-nav-list.active {
+            margin-left: 0px !important;
+        }
+
+        #uhw-revamp .header_pldt .header_pldt-main-nav ul {
+            list-style: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body id="uhw-revamp">
+  
+    <div class="wrapper-fluid main-wrap">
+        <div class=" container-fluid">
+            <div class="container-fluid">
+
+                <!-- START HEADER-->
+                <!-- Universal Header -->
+                <div id="universal_header" style="display:none;">
+                    <div id="uh_content">
+                        <ul>
+                            <li class="pldt_logo"><a href="/" class="active_white"><img src="/assets/images/newnav/pldt-color.png" height="19"></a></li>
+                            <li class="smart_logo"><a href="https://smart.com.ph/"><img src="/assets/images/newnav/smart-grey.png" height="19"></a></li>
+                            <li class="sun_logo"><a href="https://suncellular.com.ph/"><img src="/assets/images/newnav/sun-grey.png" height="19"></a></li>
+                            <li class="tnt_logo"><a href="https://tntph.com/"><img src="/assets/images/newnav/tnt-grey.png" height="19"></a></li>
+                            <li class="takatak_logo"><a href="https://www.takatack.com/"><img src="/assets/images/newnav/takatack-grey.png" height="19"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Universal Header -->
+                <section class="header_pldt">
+                    <div class="wrapper">
+                        <div class="header_pldt-logo">
+                            <a href="/">
+                                <img src="/images/default-source/navbar-update-072023/pldt-logo-at-2x.png">
+                            </a>
+                        </div>
+                        <div class="header_pldt-nav header_pldt-main-nav">
+                            <div id="user-icon-content-mobile">
+                                <a href="https://my.pldthome.com/">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="header_pldt-nav-mobile header_pldt-main-nav-mobile">
+                                <a href="#">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <ul class="header_pldt-nav-list" style="margin-top: 10px;">
+                                <li class="main-nav_option pad_right">
+                                    <a href="/internet" data-nav-target="sub-nav_internet" style="font-family:Montserrat !important;">INTERNET  <i class="fa fa-caret-down"></i></a>
+
+                                    <small>Home & Homebiz</small>
+                                    <div class="header_pldt-sub-nav">
+                                        <div class="sub-nav_content sub-nav_internet" style="padding-left: 10%;">
+                                            <div class="sub-nav_option" style="width:25%;">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/InternetFibr.svg">
+                                                    </div>
+                                                    <div class="sub-nav_option-content" style="*display: inline;">
+                                                        <label style="font-family:Montserrat !important;">HOME INTERNET<small>Best for the family</small></label>
+                                                        <a href="/fiber-unli-all" style="font-family:Montserrat !important;">Fiber Unli All Plans</a>
+                                                        <a href="/fiber" style="font-family:Montserrat !important;">Fiber Unli Plans</a>
+                                                        <a href="/fiberplus" style="font-family:Montserrat !important;">Fiber Plus Plans</a>
+                                                        <a href="/myownwifi" style="font-family:Montserrat !important;">MyOwnWiFi</a>
+                                                        <!--<a href="/bestbuybundle#bundleA">Best Buy Bundle</a>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sub-nav_option" style="width:25%;">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/HomeBizFibr.png">
+                                                    </div>
+                                                    <div class="sub-nav_option-content" style="*display: inline;">
+                                                        <label style="font-family:Montserrat !important;">HOMEBIZ INTERNET<small>Best for home-based businesses</small></label>
+                                                        <a href="/biz" style="font-family:Montserrat !important;">Home Biz Plans</a>
+                                                        <!--<a href="/homewifipostpaid" style="font-family:Montserrat !important;">Postpaid</a>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sub-nav_option" style="width:25%;">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/Connectivity.png">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;">CONNECTIVITY<small>Best for boosting WIFI</small></label>
+                                                        <a href="/wifimeshsystem" style="font-family:Montserrat !important;">WiFi Mesh System</a>
+                                                        <a href="/wifi6" style="font-family:Montserrat !important;">WiFi 6</a>
+                                                        <!--<a href="/landline" style="font-family:Montserrat !important;">Landline</a>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="sub-nav_option has-left-border" style="width:25%;">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;">Need an Upgrade?</label>
+                                                        <a href="/fiber-upgrade" style="color: #d2282b;">Check out Fiber Upgrade Plans</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="main-nav_option pad_right">
+                                    <a href="/smarthome" data-nav-target="sub-nav_smart-home" style="font-family:Montserrat !important;">SMART HOME  <i class="fa fa-caret-down"></i></a>
+
+                                    <small>Connected Lifestyle</small>
+                                    <div class="header_pldt-sub-nav">
+                                        <div class="sub-nav_content sub-nav_smart-home" style="padding-left: 10%;">
+                                            <div class="sub-nav_option" style="width:25%;">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/security.png">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;">SECURITY<small>Best for home safety</small></label>
+                                                        <a href="/eufy" style="font-family:Montserrat !important;">eufy</a>
+                                                        <!--<a href="/telpad/smartwatch">Smart Watch</a>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sub-nav_option" style="width:25%;">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="https://pldthome.com/images/default-source/navbar-update-072023/health-logo.png" style="width:63px;">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;">HEALTH<small>Digital support for health & wellness</small></label>
+                                                        <a href="/mwell" style="font-family:Montserrat !important;">mWell</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--<li class="main-nav_option">
+                            <a href="/biz" style="font-family:Montserrat !important;">
+                              HOME BIZ
+                            </a>
+                            </li>-->
+                                <li class="main-nav_option pad_right">
+                                    <a href="/entertainment" data-nav-target="sub-nav_entertainment" style="font-family:Montserrat !important;">ENTERTAINMENT   <i class="fa fa-caret-down"></i></a>
+
+                                    <small>TV, Movies, Sports</small>
+                                    <div class="header_pldt-sub-nav">
+                                        <div class="sub-nav_content sub-nav_entertainment" style="padding-left: 10%;">
+                                            <div class="sub-nav_option">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/Entertainment.png">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;"><a href="/entertainment" style="color: #000;font-weight: 900;">ENTERTAINMENT<small>Best for streaming</small></a></label>
+
+                                                        <div style="display:flex;">
+                                                            <div>
+                                                                <span class="spn-subnav1">
+                                                                    <a href="/cignal" style="font-family:Montserrat !important;">Cignal</a>
+                                                                    <a href="/nbaleaguepass" style="font-family:Montserrat !important;">NBA League Pass</a>
+                                                                    <a href="/viu" style="font-family:Montserrat !important;">Viu</a>
+                                                                </span>
+                                                                <span class="spn-subnav1 spn-subnav2">
+                                                                    <a href="/hbogo" style="font-family:Montserrat !important;">HBO GO</a>
+                                                                    <a href="/lionsgateplay" style="font-family:Montserrat !important;">Lionsgate Play</a>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="main-nav_option pad_right">
+                                    <a href="/landline" data-nav-target="sub-nav_landline" style="font-family:Montserrat !important;">LANDLINE   <i class="fa fa-caret-down"></i></a>
+
+                                    <small>Voice Calls</small>
+                                    <div class="header_pldt-sub-nav">
+                                        <div class="sub-nav_content sub-nav_landline" style="padding-left: 10%;">
+                                            <div class="sub-nav_option">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/landline-1.png" alt="landline">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;"><a style="color: #000;font-weight: 900;">PLANS<small>Best for unlimited calls</small></a></label>
+
+                                                        <div class="mobile-display-block" style="display:flex;">
+                                                            <div style="padding-right:20px;">
+                                                                <a href="/landline-wired" style="font-family:Montserrat !important;">Wired Landline</a>
+                                                                <a href="/landline-plus" style="font-family:Montserrat !important;">Wireless Landline</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="sub-nav_option">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/landline-2.png" alt="landline">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;"><a style="color: #000;font-weight: 900;">ADD ONS<small>Special call features</small></a></label>
+
+                                                        <div class="mobile-display-block" style="display:flex;">
+                                                            <div style="padding-right:20px;">
+                                                                <a href="/callall" style="font-family:Montserrat !important;">Call All</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="sub-nav_option">
+                                                <div class="sub-nav_option-wrapper">
+                                                    <div class="sub-nav_option-thumb">
+                                                        <img src="/assets/images/newnav/voice.png" alt="voice">
+                                                    </div>
+                                                    <div class="sub-nav_option-content">
+                                                        <label style="font-family:Montserrat !important;"><a style="color: #000;font-weight: 900;">DEVICES<small>Get the latest handsets</small></a></label>
+
+                                                        <div class="mobile-display-block" style="display:flex;">
+                                                            <div style="padding-right:20px;">
+                                                                <a href="/landline-telsets" style="font-family:Montserrat !important;">Telsets</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="main-nav_option">
+                                    <a href="/whatsnew" style="font-family:Montserrat !important;">
+                                        PROMOS <small>Best Deals</small>
+                                    </a>
+                                </li>
+
+                                <li class="main-nav_option">
+                                    <a href="/support" style="font-family:Montserrat !important;">
+                                        SUPPORT <small>Guide & Helpline</small>
+                                    </a>
+                                </li>
+
+                                <li class="main-nav_option" style="padding-bottom: 10px;padding-top: 10px;">
+                                    <div class="header_pldt-account-sub">
+                                        <div class="For-Mobile">
+                                            <a class="line-height-normal" href="/rewards" style="line-height:initial;padding-top:0px!important; padding-bottom:0px!important;display:flex;color: #d2282b !important;font-weight: 900;">
+                                                <img src="/assets/images/newnav/PLDTRewardsIcon.png" style="height: 20px; margin-right:10px;">
+                                                <span>REWARDS<small style="display:block; font-size:70%!important; font-weight: 600; margin-top:3px;color:#000 !important;">Loyalty Program</small></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--<div class="For-Mobile">
+                            <a href="https://my.pldthome.com" style="display: block;">
+                              <img src="/Assets/images/header/icons/LoginIcon.png" style="height: 32px;margin-top: 4px;" />
+                              </a>
+                            </div>-->
+                            </ul>
+                        </div>
+                        <div class="header_pldt-account">
+                            <div class="header_rewards">
+                                <a class="line-height-normal" href="/rewards" style="line-height:initial;padding-top:0px!important; padding-bottom:0px!important;display:flex;">
+                                    <img src="/assets/images/newnav/PLDTRewardsIcon.png" style="height: 20px;">
+                                    <span>REWARDS<small style="display:block; font-size:70%!important; font-weight: 600; margin-top:3px;color:#000 !important">Loyalty Program</small></span>
+                                </a>
+                            </div>
+                            <div class="header_login">
+                                <a href="https://my.pldthome.com/" class="header_login-btn">
+                                    <img src="/assets/images/newnav/noun_User_3807056.png">
+                                    ACCOUNT LOGIN
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Nav Bar -->
+                    <asp:ContentPlaceHolder ID="SecondaryNavOrig" runat="server"></asp:ContentPlaceHolder>
+                </section>
+                <!-- END HEADER-->
+
+                <div class="bg-gray">
+                    <div class="container-b1170" style="padding:20px 20px;">
+                        <div class="container-fluid">
+                            <div class="row-fluid" style="padding-top:20px;">
+                                <div class="span3 offset1">
+                                    <img src="assets/images/404_number.jpg" />
+                                </div>
+                                <div class="span7">
+                                    <h1 style="font-size:35px;">We’re sorry. The page you’re looking for <br /> isn’t here.</h1>
+                                    <h3>It may have been deleted, changed, or moved to a different directory.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="container-b1170" style="padding:20px 20px;">
+                        <div class="container-fluid">
+                            <div class="row-fluid">
+                                <div class="span3">
+                                    <img src="//pldthome.com/assets/images/page404-22014-img1.jpg" />
+                                </div>
+                                <div class="span3">
+                                    <h4 style="color:#900">Manage accounts easily</h4>
+                                    <p>Check your billing history and purchase fun family entertainment with ease when you sign up for PLDT myHome.</p>
+                                    <p><a href="https://my.pldthome.com" class="learnmore">Learn More</a></p>
+                                </div>
+                                <div class="span3">
+                                    <img src="//pldthome.com/assets/images/page404-22014-img2.jpg" />
+                                </div>
+                                <div class="span3">
+                                    <h4 style="color:#900">Something fun for everyone</h4>
+                                    <p>From music and movies to games and sports events; PLDT's value added services add great value to your PLDT subscription.</p>
+                                    <p><a href="http://pldthome.com/entertainment" class="learnmore">Learn More</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="row-fluid" style="padding-top:20px;">
+                                <div class="span3">
+                                    <img src="//pldthome.com/assets/images/page404-22014-img3.jpg" />
+                                </div>
+                                <div class="span3">
+                                    <h4 style="color:#900">Surf, call, and earn with PLDT</h4>
+                                    <p>Whether you're running a full-time business or simply keeping in touch with your loved ones abroad; PLDT has the right service for you.</p>
+                                    <p><a href="http://pldthome.com/biz" class="learnmore">Learn More</a></p>
+                                </div>
+                                <div class="span3">
+                                    <img src="//pldthome.com/assets/images/page404-22014-img4-rev1.jpg" />
+                                </div>
+                                <div class="span3">
+                                    <h4 style="color:#900">Shop from anywhere</h4>
+                                    <p>PLDT’s online Shop let’s you see every plan available. No need to shuffle through flyers and brochures. The best plan for you is just a click away!</p>
+                                    <p><a href="http://pldthome.com/internet" class="learnmore">Learn More</a></p>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- START FOOTER-->
+                <div class="footer-block">
+                    <div class="container-b1170">
+                        <div class="row-fluid">
+                            <div class="links">
+                                <a href="http://pldthome.com/about-us">ABOUT US</a>
+                                <a href="http://pldthome.com/news-media">NEWS</a>
+                                <a href="http://pldthome.com/loyalty-and-rewards">LOYALTY AND REWARDS</a>
+                                <a href="http://pldthome.com/store-locator">STORE LOCATOR</a>
+                                <a href="http://pldthome.com/contact">CONTACT US</a>
+                                <a href="http://pldthome.com/terms">TERMS OF USE</a>
+                                <a href="http://www.pldthome.com/privacypolicy">PRIVACY POLICY</a>
+                            </div>
+                            <div class="social-media">
+                                <a href="https://www.facebook.com/PLDTHome" class="facebook">Facebook</a>
+                                <a href="https://twitter.com/pldthome" class="twitter">Twitter</a>
+                                <a href="http://instagram.com/pldthome" class="instagram">Instagram</a>
+                                <a href="http://www.youtube.com/user/PLDTHome" class="youtube">Youtube</a>
+                            </div>
+                            <div class="copyright">
+                                <p>&copy; PLDT Inc.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END FOOTER-->
+            </div>
+        </div>
+    </div>
+                <!-- END MAIN WRAP-->
+                <!-- Le javascript
+    ================================================== -->
+                <!-- Placed at the end of the document so the pages load faster -->
+
+                <script src="//pldthome.com/assets/js/bootstrap-transition.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-alert.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-modal.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-dropdown.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-scrollspy.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-tab.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-tooltip.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-popover.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-button.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-collapse.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-carousel.js"></script>
+                <script src="//pldthome.com/assets/js/bootstrap-typeahead.js"></script>
+                <script src="//pldthome.com/assets/js/custom.js"></script>
+                <script src="//pldthome.com/assets/js/jquery.event.move.js"></script>
+                <script src="/assets/js/header_NewNav.js"></script>
+
+
+
+                <!-- Google Tag Manager -->
+                <noscript>
+                    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NX8XXG"
+                            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                </noscript>
+                <script>(function (w, d, s, l, i) {
+                        w[l] = w[l] || []; w[l].push({
+                            'gtm.start':
+                                new Date().getTime(), event: 'gtm.js'
+                        }); var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                                '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                    })(window, document, 'script', 'dataLayer', 'GTM-NX8XXG');</script>
+                <!-- End Google Tag Manager -->
+
+
+</body>
+</html>

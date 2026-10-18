@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <title>
+            Banco BPI - Página indisponível
+        </title>
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, minimal-ui" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no" />
+        <link type="image/x-icon" rel="shortcut icon" href="SandboxWeb/img/IconBPI.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+		<base href="/manutencao/">
+        <style>
+            .OSFillParent { 
+            display: block;
+            width: 100%;
+            }
+            table.OSFillParent {
+            display: table;
+            }
+            input.OSFillParent,
+            button.OSFillParent,
+            select.OSFillParent,
+            textarea.OSFillParent {
+            display: inline-block;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            }
+            .OSInline {
+            display: inline-block;
+            *zoom: 1;
+            *display: inline;
+            vertical-align: top;
+            }
+            table.OSInline {
+            display: inline-table;
+            }
+            .OSAutoMarginTop {
+            margin-top: 10px;
+            }
+            table[class*="ThemeGrid_Width"] {
+            display: inline-table;
+            vertical-align: top;
+            }
+            div[class*="ThemeGrid_Width"] {
+            vertical-align: top;
+            }
+            th[class*="ThemeGrid_Width"],
+            td[class*="ThemeGrid_Width"] {
+            display: table-cell;
+            }
+            [class*="ThemeGrid_Width"] {
+            display: inline-block;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            *zoom: 1;
+            *display: inline;
+            }
+            .ThemeGrid_Container {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            }
+        </style>
+		<link href="page.css?856459" type="text/css" rel="stylesheet" />
+		<link href="RichWidgets/Blocks/RichWidgets/RichWidgets/Icon.css?76593" type="text/css" rel="stylesheet">
+		<link href="LT_SitePublico/Theme.LT_SitePublico2021.css?76262" type="text/css" rel="stylesheet">
+		<link href="LT_SitePublico/Theme.LT_SitePublico2021.extra.css?76262" type="text/css" rel="stylesheet">
+		<script src="SitePublico_SiteBancoBPI/Blocks/OutSystemsUIWeb/Private/DeviceDetection.pt.js?45339" type="text/javascript" charset="UTF-8"></script>
+		<script src="SitePublico_SiteBancoBPI/Blocks/OutSystemsUIWeb/Private/CSSVarsPonyfill.pt.js?45339" type="text/javascript" charset="UTF-8"></script>
+		<script src="SitePublico_SiteBancoBPI/Blocks/OutSystemsUIWeb/Libraries/JSON5_2_1_0.pt.js?45339" type="text/javascript" charset="UTF-8"></script>
+		<script src="SitePublico_SiteBancoBPI/Blocks/OutSystemsUIWeb/Layouts/LayoutWidgets.pt.js?45339" type="text/javascript" charset="UTF-8"></script>
+		<script src="SitePublico_SiteBancoBPI/Blocks/LT_SitePublico/LayoutsSitePublico2021/LayoutSitePublico.js?76262" type="text/javascript" charset="UTF-8"></script>
+		<script src="SitePublico_SiteBancoBPI/Blocks/OutSystemsUIWeb/Controls/Dropdown.pt.js?45339" type="text/javascript" charset="UTF-8"></script>
+		<script src="SitePublico_SiteBancoBPI/Blocks/LT_SitePublico_Patterns/SitePublico2021/MenuItem.js?73909" type="text/javascript" charset="UTF-8"></script>
+		<script type="text/javascript">
+			function WebForm_OnSubmit() { return true; }
+			function __doPostBack(eventTarget, eventArgument) {}
+			function OsAjax() {}
+		</script>
+    </head>
+    <body data-os-cookie-policy="Secure" class="page">
+        <form method="post" action="PaginaIndisponiblidade503.aspx" id="WebForm1" name="WebForm1">
+			<script type="text/javascript">
+			var utag_data = {};
+			</script>
+			<!-- Loading script asynchronously -->
+			<script type="text/javascript">
+				(function(a, b, c, d) {
+				a = 'https://tags-eu.tiqcdn.com/utag/banco-bpi/main/prod/utag.js';
+				b = document;
+				c = 'script';
+				d = b.createElement(c);
+				d.src = a;
+				d.type = 'text/java' + c;
+				d.async = true;
+				a = b.getElementsByTagName(c)[0];
+				a.parentNode.insertBefore(d, a);
+				})();
+			</script> 
+            <script>
+                var deviceDetect = new deviceDetection();
+                
+                deviceDetect.init(428, 1280 , 
+                            1280, 1440 ,
+                            1920);
+            </script>
+            <div class="hidden"><span class="fa fa-fw fa-angellist"></span></div>
+            <div class="layout has-banner ">
+                <div id="wt29_wtHeader" class="header__container">
+                    <div id="wt29_wtHeaderTop" class="header__top unavailable-layout">
+                        <div id="wt29_wtMenuSegmentos" class="header__menu-segmentos">
+                            <span id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2" class="ListRecords">
+                                <div class="link active"><a id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2_ctl00_wt2"><span class=" active">Particulares</span></a></div>
+                                <div class="link"><a id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2_ctl02_wt2"><span class="">Premier</span></a></div>
+                                <div class="link"><a id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2_ctl04_wt2"><span class="">Private</span></a></div>
+                                <div class="link"><a id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2_ctl06_wt2"><span class="">AGE</span></a></div>
+                                <div class="link"><a id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2_ctl08_wt2"><span class="">Citzen</span></a></div>
+                                <div class="link"><a id="wt29_wtMenuSegmentos_wt15_wtListRecordsMenuAgregadoras2_ctl10_wt2" href="https://ext.desenv.gbpiweb.loc/SandboxWeb/HomeSitePublicoEmpresas.aspx"><span class="">Empresas</span></a></div>
+                            </span>
+                        </div>
+                        <div id="wt29_wtMenuBPI" class="header__menu-segmentos-bpi">
+                            <div class="link"><a id="wt29_wtMenuBPI_wt12_wt7" href="#!">O BPI</a></div>
+                            <div class="link"><a id="wt29_wtMenuBPI_wt12_wt3" href="#!">Sustentabilidade</a></div>
+                        </div>
+                        <div id="wt29_wtIdiomasInformacoes" class="header__top-actions">
+                            <div>
+                                <span class="icon icon-fw icon-icon_linkbpinet fa"></span>
+                                <span id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block">
+                                    <div id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtButtonDropdownWrapper" class="dropdown is--hidden OSInline">
+                                        <div class="dropdown-header select" role="combobox" tabindex="0" aria-expanded="false" aria-haspopup="true">
+                                            <div id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtPrompt" class="dropdown-header-text"><span id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtPrompt_wtCurrentLanguageInitials">PT</span></div>
+                                            <div class="dropdown-icon" aria-hidden="true"><span class="fa fa-fw fa-angle-down"></span></div>
+                                        </div>
+                                        <div class="dropdown-content">
+                                            <div id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList" class="dropdown-content-list" aria-labelledby="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtPrompt" aria-hidden="true">
+                                                <span id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2" class="ListRecords">
+                                                    <div class="link active"><a id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2_ctl00_wt9" onclick="OsAjax(arguments[0] || window.event,&#39;wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2_ctl00_wt9&#39;,&#39;wt29$wtIdiomasInformacoes$wt39$OutSystemsUIWeb_wtChangeLanguage$block$wtDropdownList$wtListRecords2$ctl00$wt9&#39;,&#39;&#39;,&#39;__OSVSTATE,&#39;,&#39;&#39;); return false;" href="#">Portuguese</a></div>
+                                                    <div class="link "><a id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2_ctl02_wt9" onclick="OsAjax(arguments[0] || window.event,&#39;wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2_ctl02_wt9&#39;,&#39;wt29$wtIdiomasInformacoes$wt39$OutSystemsUIWeb_wtChangeLanguage$block$wtDropdownList$wtListRecords2$ctl02$wt9&#39;,&#39;&#39;,&#39;__OSVSTATE,&#39;,&#39;&#39;); return false;" href="#">English</a></div>
+                                                    <div class="link "><a id="wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2_ctl04_wt9" onclick="OsAjax(arguments[0] || window.event,&#39;wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtDropdownList_wtListRecords2_ctl04_wt9&#39;,&#39;wt29$wtIdiomasInformacoes$wt39$OutSystemsUIWeb_wtChangeLanguage$block$wtDropdownList$wtListRecords2$ctl04$wt9&#39;,&#39;&#39;,&#39;__OSVSTATE,&#39;,&#39;&#39;); return false;" href="#">Spanish</a></div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script>// Waits elements render and inits the responsiveTables
+                                        var dropdownDOMReadyHandler = function() {
+                                        
+                                            var dropdown = new Dropdown();
+                                            dropdown.init('wt29_wtIdiomasInformacoes_wt39_OutSystemsUIWeb_wtChangeLanguage_block_wtButtonDropdownWrapper');
+                                        };
+                                        
+                                        if(document.readyState === 'loading') {
+                                            document.addEventListener('DOMContentLoaded', dropdownDOMReadyHandler);
+                                        } else {
+                                            dropdownDOMReadyHandler();
+                                        }
+                                    </script>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="icon icon-fw icon-icon_nota_unselected fa"></span>
+                                <div><a id="wt29_wtIdiomasInformacoes_wt39_wt16" href="#!">Ajuda</a></div>
+                            </div>
+                            <div><input type="submit" name="wt29$wtIdiomasInformacoes$wt39$wt1" value="Abrir Conta" id="wt29_wtIdiomasInformacoes_wt39_wt1" class="btn btn-small" /></div>
+                        </div>
+                        <div class="menu-mobile">
+                            <div class="menu-mobile-acesso">
+                                <span class="icon icon-fw icon-icon_home-menu fa-2x"></span>
+                                <div>Menu</div>
+                            </div>
+                            <div class="menu-mobile-fechar">
+                                <span class="icon icon-fw icon-icon_close_menu fa-2x"></span>
+                                <div>Fechar</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wt29_wtHeaderCenter" class="header__center">
+                        <div id="wt29_wtLogo" class="header__logo"><img alt="" src="SandboxWeb/img/x86_logo_bpi_caixabank.png?856459" /></div>
+						<div class="header__login_placeHolder">
+                            <div class="login-mobile">
+                                <div class="login-mobile-acesso">
+                                    <span class="icon icon-fw icon-icon_blockBloquear fa-2x"></span>
+                                    <div>Acesso</div>
+                                </div>
+                                <div class="login-mobile-fechar">
+                                    <span class="icon icon-fw icon-icon_close_menu fa-2x"></span>
+                                    <div>Fechar</div>
+                                </div>
+                            </div>
+                            <div id="wt29_wtLogin" class="header__login">
+                                <div id="wt29_wtLogin_wt4_OutSystemsUIWeb_wtIframeLogin_block_wtIframeWrapper" class="iframe" style="height: 315px; width: 365px; position: relative; margin-right: 40px;">
+									<iframe class="OSInline" frameborder="0"  src="/SitePublico_Login/Login_v3.aspx?LOCALE=PT&amp;SEGMENTO=Empresas" title="" style="height:100%; width:100%;" scrolling="no"></iframe>
+								</div>
+                                <div id="wt29_wtLogin_wt5_OutSystemsUIWeb_wtIframeLogin_block_wtIframeWrapper" class="iframe" style="height: 315px; width: 366px; position: relative;">
+									<iframe class="OSInline" frameborder="0" src="/SitePublico_Login/Login_v3.aspx?LOCALE=PT&amp;SEGMENTO=Particulares" title="" style="height:100%; width:100%;" scrolling="no"></iframe>
+								</div>								
+                                <script>
+                                    document.querySelectorAll('iframe').forEach(function(iframe) {
+                                        iframe.addEventListener('load', function() {
+                                            var parentBody = window.parent.document.body;
+                                            if (parentBody.classList.contains('tablet')) {
+                                                try { iframe.contentDocument.querySelector('.login').classList.add('tablet'); } catch(e) {}
+                                                iframe.parentElement.classList.add('tablet');
+                                            }
+                                            if (parentBody.classList.contains('phone')) {
+                                                try {
+                                                    iframe.contentDocument.querySelector('.login').classList.add('phone');
+                                                    iframe.contentDocument.querySelector('.ErrorBlock').classList.add('phone');
+                                                } catch(e) {}
+                                                iframe.parentElement.classList.add('phone');
+                                            }
+                                        });
+                                    });
+
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        var parentBody = window.parent.document.body;
+                                        if (parentBody.classList.contains('tablet') || parentBody.classList.contains('phone')) {
+                                            document.querySelectorAll('iframe').forEach(function(iframe) {
+                                                var sep = iframe.src.indexOf('?') !== -1 ? '&' : '?';
+                                                iframe.src = iframe.src + sep + 'DEVICE=phone';
+                                            });
+                                        }
+                                    });
+                                </script>
+                            </div>
+                            <div class="login__footer">
+                                <div id="wt29_wtActions" class="login__footer-actions">
+								<a id="wt29_wtActions_wt32_wt4" href="https://bpinet.bancobpi.pt/BPINET/RecuperacaoPassword.aspx">Recuperar Código</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wt29_wtHeaderBottom" class="header__bottom unavailable-layout">
+                        <div id="wt29_wtMenu" class="header__bottom__menu">
+                            <span id="wt29_wtMenu_wt33">
+                                <span id="wt29_wtMenu_wt33_wt49">
+                                    <div class="menu-Items  empresas">
+                                        <div class="menu-item">
+                                            <div id="wt29_wtMenu_wt33_wt49_wtTitle" class="menu-item__title">Dia-a-dia</div>
+                                        </div>
+									</div>
+								</span>	
+                                <span id="wt29_wtMenu_wt33_wt235">
+                                    <div class="menu-Items  empresas">
+                                        <div class="menu-item">
+                                            <div id="wt29_wtMenu_wt33_wt235_wtTitle" class="menu-item__title">Desfrutar a Vida</div>
+                                        </div>
+                                    </div>
+                                </span>
+                                <span id="wt29_wtMenu_wt33_wt65">
+                                    <div class="menu-Items  empresas">
+                                        <div class="menu-item">
+                                            <div id="wt29_wtMenu_wt33_wt65_wtTitle" class="menu-item__title">A Minha Casa</div>
+                                        </div>
+                                    </div>
+                                </span>
+                                <span id="wt29_wtMenu_wt33_wt65">
+                                    <div class="menu-Items  empresas">
+                                        <div class="menu-item">
+                                            <div id="wt29_wtMenu_wt33_wt65_wtTitle" class="menu-item__title">Dormir Tranquilo</div>
+                                        </div>
+                                    </div>
+                                </span>
+                                <span id="wt29_wtMenu_wt33_wt65">
+                                    <div class="menu-Items  empresas">
+                                        <div class="menu-item">
+                                            <div id="wt29_wtMenu_wt33_wt65_wtTitle" class="menu-item__title">Pensar no Futuro</div>
+                                        </div>
+                                    </div>
+                                </span>								
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="wt29_wtMainContentWrapper" class="main-content__wrapper main">
+                    <div id="wt29_wtMainContentBreadcrumbs">
+                        <div id="wt29_wtBreadcrumbs" class="main-content__breadcrumbs ph"></div>
+                    </div>
+                    <div id="wt29_wtTitlePage">
+                        <div id="wt29_wtTitle" class="main-content__title"></div>
+                    </div>
+                    <div id="wt29_wtMainContentBanner">
+                        <div id="wt29_wtBanner" class="main-content__banner"></div>
+                    </div>
+                    <div id="wt29_wtMainContent">
+						<div id="wt3_wtContent" class="main-content">
+						   <div class="content__block-layout ">
+							  <div class="main-content__title-container">
+								 <div id="wt3_wtContent_wt75_wtTitlePlaceholder" class="main-content__block-title"></div>
+								 <div id="wt3_wtContent_wt75_wtTitleActions" class="main-content__block-title_actions margin-bottom-l"></div>
+							  </div>
+							  <div id="wt3_wtContent_wt75_wtMainContent" class="main-content__block">
+								 <div class="half-margin-between--top">
+									<div class="area-scrolable splited error-pages">
+									   <div class="area-scrolable--container">
+										  <div class="area-scrolable--container_left">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtNote" class="area-scrolable__note ph"></div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtTitle" class="area-scrolable__description ph">
+												<div class="bold font-size-40 half-margin-between--bottom">A página que procura não se encontra disponível.</div>
+											 </div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtDescription" class="area-scrolable__description ph">
+												<div class="bold font-size-40"></div>
+											 </div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtAction" class="area-scrolable__action ph"></div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtCustomContent" class="ph"></div>
+										  </div>
+										  <div class="area-scrolable--container_right">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtImage" class="area-scrolable__image ph">
+												<img title="Página não encontrada" alt="Página não encontrada" src="/contentservice/getContent?documentName=PR_UCMS02068675">
+											 </div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtContent" class="area-scrolable__content ph"></div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt35_wtActions" class="area-scrolable__actions ph"></div>
+										  </div>
+									   </div>
+									</div>
+								 </div>
+								 <div class="half-margin-between--top">
+									<div class="headings-with-tags margin-bottom-l text-orange margin-top-xl">
+									   <h1 id="wt3_wtContent_wt75_wtMainContent_wt30_wtTextPlaceholder">
+										  <div class="color-secondary">Abaixo encontram-se diferentes opções de navegação do site</div>
+									   </h1>
+									</div>
+								 </div>
+								 <div class="half-margin-between--bottom">
+									<a id="wt3_wtContent_wt75_wtMainContent_wt55" tabindex="136" href="/particulares">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt39_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt39_wtcontent" class="list-item_content">Particulares</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt39_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt39_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt104" tabindex="137" href="/centros-investimento">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt95_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt95_wtcontent" class="list-item_content">Premier</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt95_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt95_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt54" tabindex="138" href="/private">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt86_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt86_wtcontent" class="list-item_content">Private</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt86_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt86_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt7" tabindex="139" href="https://www.bpiage.pt">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt67_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt67_wtcontent" class="list-item_content">AGE</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt67_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt67_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt99" tabindex="140" href="/citizen">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt15_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt15_wtcontent" class="list-item_content">Citizen</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt15_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt15_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt94" tabindex="141" href="/empresas">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtcontent" class="list-item_content">Empresas</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt94" tabindex="141" href="/negocios">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtcontent" class="list-item_content">Negócios</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt68_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>									
+									<a id="wt3_wtContent_wt75_wtMainContent_wt106" tabindex="142" href="/grupo-bpi">
+									   <div class="list-item ">
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt81_wtleft" class="list-item_left ph"></div>
+										  <div class="list-item_middle">
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt81_wtcontent" class="list-item_content">O BPI</div>
+											 <div id="wt3_wtContent_wt75_wtMainContent_wt81_wtdescription" class="list-item_description ph"></div>
+										  </div>
+										  <div id="wt3_wtContent_wt75_wtMainContent_wt81_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+									   </div>
+									</a>
+									<a id="wt3_wtContent_wt75_wtMainContent_wt106" tabindex="143" href="/sustentabilidade">
+                                        <div class="list-item ">
+                                           <div id="wt3_wtContent_wt75_wtMainContent_wt82_wtleft" class="list-item_left ph"></div>
+                                           <div class="list-item_middle">
+                                              <div id="wt3_wtContent_wt75_wtMainContent_wt83_wtcontent" class="list-item_content">Sustentabilidade</div>
+                                              <div id="wt3_wtContent_wt75_wtMainContent_wt83_wtdescription" class="list-item_description ph"></div>
+                                           </div>
+                                           <div id="wt3_wtContent_wt75_wtMainContent_wt83_wtaction" class="list-item_action ph"><span class="icon icon-fw icon-icon_forward fa"></span></div>
+                                        </div>
+                                     </a>                                    
+								 </div>
+							  </div>
+						   </div>
+						</div>
+					</div>
+                </div>
+                <div id="wt29_wtFloatingActions" class="floating-actions"></div>
+                <div id="wt29_wtFooter" class="footer unavailable-layout">
+                    <div id="wt29_wtFooterLinks" class="footer__links">
+                        <span id="wt29_wtFooterLinks_wt17_wtListRecords1" class="ListRecords">
+                            <div class="footer__links-column">
+                                <div>Contactos</div>
+                                <div class="ListRecords">
+                                    <span id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks" class="ListRecords">
+                                        <ul>
+                                            <li><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl00_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl00$wt5$wtListFooterLinks$ctl00$wt1&#39;,&#39;&#39;)">Redes Sociais BPI</a></li>
+                                            <li><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl02_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl00$wt5$wtListFooterLinks$ctl02$wt1&#39;,&#39;&#39;)">O BPI em Portugal</a></li>
+											<li>
+                                                <a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl04_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl00$wt5$wtListFooterLinks$ctl04$wt1&#39;,&#39;&#39;)">Contactos BPI</a>
+                                            </li>											
+											<li><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl03_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl00$wt5$wtListFooterLinks$ctl02$wt1&#39;,&#39;&#39;)">Trabalhar no BPI</a></li>                                            
+											<li>
+                                                <div class="footer__social-networking">
+                                                    <a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl04_wt6_wtlink_facebook" target="_blank" href="https://www.facebook.com/bancobpi/"><img alt="" src="SandboxWeb/img/icon_facebook.svg?856459" /></a><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl04_wt6_wtlink_twitter" target="_blank" href="https://twitter.com/banco_bpi"><img alt="" src="SandboxWeb/img/icon_twitter.svg?856459" /></a><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl04_wt6_wtlink_linkedin" target="_blank" href="https://www.linkedin.com/company/bancobpi/"><img alt="" src="SandboxWeb/img/icon_linkedin.svg?856459" /></a><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl04_wt6_wtlink_instagram" target="_blank" href="https://www.instagram.com/bancobpi/"><img alt="" src="SandboxWeb/img/icon_instagram.svg?856459" /></a><a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl00_wt5_wtListFooterLinks_ctl04_wt6_wtlink_youtube" target="_blank" href="https://www.youtube.com/c/bancobpi"><img alt="" src="SandboxWeb/img/icon_youtube.svg?856459" /></a>
+                                                </div>
+											</li>
+                                        </ul>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="footer__links-column">
+                                <div>Informa&#231;&#227;o &#218;til</div>
+                                <div class="ListRecords">
+                                    <span id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl02_wt5_wtListFooterLinks" class="ListRecords">
+                                        <ul>
+											  <li>
+												<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl02_wt5_wtListFooterLinks_ctl00_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl02$wt5$wtListFooterLinks$ctl00$wt1&#39;,&#39;&#39;)">Acessibilidade</a>
+											  </li>
+											  <li>
+												<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl02_wt5_wtListFooterLinks_ctl02_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl02$wt5$wtListFooterLinks$ctl02$wt1&#39;,&#39;&#39;)">Cota&#231;&#245;es</a>
+											  </li>
+											  <li>
+												<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl02_wt5_wtListFooterLinks_ctl04_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl02$wt5$wtListFooterLinks$ctl04$wt1&#39;,&#39;&#39;)">Informa&#231;&#227;o Financeira</a>
+											  </li>
+											  <li>
+												<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl02_wt5_wtListFooterLinks_ctl12_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl02$wt5$wtListFooterLinks$ctl12$wt1&#39;,&#39;&#39;)">Perguntas Frequentes</a>
+											  </li>
+											  <li>
+												<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl02_wt5_wtListFooterLinks_ctl08_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl02$wt5$wtListFooterLinks$ctl08$wt1&#39;,&#39;&#39;)">Gloss&#225;rio</a>
+											  </li>
+                                        </ul>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="footer__links-column">
+                                <div>Informa&#231;&#227;o Legal</div>
+                                <div class="ListRecords">
+                                    <span id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl04_wt5_wtListFooterLinks" class="ListRecords">
+                                        <ul>                       
+										  <li>
+											<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl04_wt5_wtListFooterLinks_ctl02_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl04$wt5$wtListFooterLinks$ctl02$wt1&#39;,&#39;&#39;)">Incumprimento de Contratos de Cr&#233;dito e Rede Extrajudicial de Apoio</a>
+										  </li>
+										  <li>
+											<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl04_wt5_wtListFooterLinks_ctl04_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl04$wt5$wtListFooterLinks$ctl04$wt1&#39;,&#39;&#39;)">Mediador do Cr&#233;dito</a>
+										  </li>
+										  <li>
+											<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl04_wt5_wtListFooterLinks_ctl06_wt12" target="_blank" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl04$wt5$wtListFooterLinks$ctl06$wt12&#39;,&#39;&#39;)">Livro de Reclamações e Resolução Alternativa de Litígios</a>
+										  </li>
+										  <li>
+											<a id="wt29_wtFooterLinks_wt17_wtListRecords1_ctl04_wt5_wtListFooterLinks_ctl12_wt1" href="javascript:__doPostBack(&#39;wt29$wtFooterLinks$wt17$wtListRecords1$ctl04$wt5$wtListFooterLinks$ctl12$wt1&#39;,&#39;&#39;)">Pol&#237;tica de Privacidade</a>
+										  </li>
+                                        </ul>
+                                    </span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div id="wt29_wtBottomText" class="footer__bottom-text">Banco BPI &#169;. Todos os direitos reservados. Website Acess&#237;vel. Este site encontra-se em processo de ado&#231;&#227;o do novo acordo ortogr&#225;fico.</div>
+                </div>
+                <div class="scroll-to_top"><span class="icon icon-fw icon-icon_forward_microsoft fa"></span></div>
+            </div>
+            <script>document.onreadystatechange = function () {
+                if (document.readyState === 'interactive') {
+                
+                  document.querySelector('.login-mobile').addEventListener('click', function( event ){
+                      document.querySelector('.Page').classList.toggle('login-mobile-open');
+                      
+                  if(document.querySelector('body').classList.contains('tablet')){
+                      var tablet = document.getElementsByClassName('tablet')[0];
+                      var tabletLandscape = tablet.classList.contains('landscape') ? true : false;
+                      var windowHeigth = window.innerHeight;
+                      var menu = document.getElementsByClassName('header__center')[0];
+                      var menuHeigth = menu.offsetHeight;
+                      var dif = windowHeigth - menuHeigth;
+                      var menuBottom = document.getElementsByClassName('header__bottom')[0];
+                
+                      if(tabletLandscape){
+                          var loginContainer = document.getElementsByClassName('header__login')[0];
+                      loginContainer.setAttribute('style', 'height:' + parseInt(dif - 66) + "px;");
+                          var loginFooter = document.getElementsByClassName('login__footer')[0];
+                      loginFooter.setAttribute('style', 'top:' + parseInt(dif + 34) + "px;");
+                     }
+                  }
+                  });
+                  
+                  document.querySelector('.menu-mobile').addEventListener('click', function( event ){
+                      document.querySelector('.Page').classList.toggle('menu-mobile-open');
+                      resizeMenuMobile();
+                  if(document.querySelector('body').classList.contains('tablet')){
+                      var tablet = document.getElementsByClassName('tablet')[0];
+                      var tabletLandscape = tablet.classList.contains('landscape') ? true : false;
+                      var windowHeigth = window.innerHeight;
+                      var menu = document.getElementsByClassName('header__center')[0];
+                      var menuHeigth = menu.offsetHeight;
+                      var dif = windowHeigth - menuHeigth;
+                      var menuBottom = document.getElementsByClassName('header__bottom')[0];
+                
+                      if(tabletLandscape){
+                      menuBottom.setAttribute('style', 'min-height:' + parseInt(dif + 5) + "px;" + 'height:'+ parseInt(dif + 5) + "px;");
+                          var menuContainer = document.getElementsByClassName('menu-mobile-items_container')[0];
+                          menuContainer.setAttribute('style', 'height:' + parseInt(dif - 110) + "px;");
+                      } else if(tablet){
+                      menuBottom.setAttribute('style', 'min-height:' + parseInt(dif + 5) + "px;" + 'height:'+ parseInt(dif + 5) + "px;");
+                      }
+                  }
+                  });
+                  
+                }
+                
+                // close menu and login if clicked outside
+                
+                if(document.querySelector('body').classList.contains('tablet')){
+                  
+                   if(!document.querySelector('.tablet').classList.contains('login-mobile-open') || !document.querySelector('.tablet').classList.contains('menu-mobile-open')){
+                      document.querySelector('.main-content__wrapper').onclick = function() {
+                          if(document.querySelector('.tablet').classList.contains('login-mobile-open')){
+                              document.querySelector('.Page').classList.remove('login-mobile-open');
+                         }
+                          if(document.querySelector('.tablet').classList.contains('menu-mobile-open')){
+                              document.querySelector('.Page').classList.remove('menu-mobile-open');
+                         }
+                      }
+                      document.querySelector('.footer').onclick = function(){
+                          if(document.querySelector('.tablet').classList.contains('login-mobile-open')){
+                              document.querySelector('.Page').classList.remove('login-mobile-open');
+                         }
+                          if(document.querySelector('.tablet').classList.contains('menu-mobile-open')){
+                              document.querySelector('.Page').classList.remove('menu-mobile-open');
+                         }
+                      }
+                  }
+                }
+                
+                };
+            </script>
+        </form>
+        <script type="text/javascript">document.body.classList.add('Page');</script>
+    </body>
+</html>

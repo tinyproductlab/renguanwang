@@ -1,0 +1,145 @@
+<!--
+* Copyright 2020 Adobe. All rights reserved.
+* This file is licensed to you under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License. You may obtain a copy
+* of the License at http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software distributed under
+* the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+* OF ANY KIND, either express or implied. See the License for the specific language
+* governing permissions and limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>404</title>
+    
+    
+    <meta name="template" content="pal-page-template"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+
+    
+    
+<script defer="defer" type="text/javascript" src="https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js" data-routing="env=prod,tier=publish,ams=Philippine Airlines Inc."></script>
+<link rel="canonical" href="https://www.philippineairlines.com/ph/en/404.html"/>
+
+    
+
+    
+
+<script script-src='self'>
+    window.a = "b4d2ece6fe009eff7047db6215de8f33d8af1af19869118962f02789ba6ed895d0e5215ad18177b69486c0dabc928c51bd81da7ca2e6ee668177837d27323ff1e52e3d123b81fca928472e2fb0a5af37bdbf836d555af1f23ad83bab30642353e95e2ea0ba2bc4ee831d153f9ca5328969ac201b526fd5833e8c346b788b542248e18532d254c62e78054c3076fc68a3dfdb3afc6c1886e3849c813edd7974163ca8a9a24f4761032b2a50419ca52b03d1481a1d9ff2205667fae19d2dad1692821d45efc68caa234f39cf0f2dd206bd94ac15bf851b25cf1febcaf3b358708d4a1bf393fb5f6e98ede867eb12391055c9db58c2acc21bd8927886679abe543405a8a3a97bd89c2a97fbdf7337e7f4086cf8092d12689ff720700887b76b57fefce3a420043bba107344578b36834921bbe0b991cde87b9bb149df75ba08a9808b281f73f0f009ef87562a5065ce3fbf8e7a60acac15de6773506572a0aab0afc6f09cf087bbc7c7f65582afba6d63db970e5e06f64b1c1ab97eaadb0835fd142c3bd96b07aa361e07209d9fe94c81722f14d8a21d82166ee74dea17be487f9dbb01f2c8756232fdbc9508d23596d416842b1971e09500d4b0fa344d4ca45c5349f0897968122a98ad69a2aa51dad0f62beaa6dea969b82d4e3ef1bfbe8c0dd1715f1a2d780b721d48fe216c4416b882"
+</script>
+
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/palportal/clientlibs/clientlib-base.min.5b6bf6bddb27a9ef3f911fb1eb20081a.css" type="text/css">
+
+
+
+
+
+<base href="/etc.clientlibs/palportal/clientlibs/clientlib-angular/resources/base"/>
+
+
+    <meta name="theme-color" content="#000000"/>
+    <link rel="icon" href="/content/dam/palportal/icons/favicon.png"/>
+    <link rel="apple-touch-icon" href="https://s7ap1.scene7.com/is/image/palprod/apple-touch-icon"/>
+    <link rel="manifest" href="/etc.clientlibs/palportal/clientlibs/clientlib-angular/resources/manifest.json"/>
+    
+
+
+<!-- AEM page model -->
+<meta property="cq:pagemodel_root_url"/>
+
+
+
+
+
+
+
+<!-- Preconnects for required origins -->
+<link rel="preconnect" href="https://cm.g.doubleclick.net"/>
+<link rel="preconnect" href="https://ad.doubleclick.net"/>
+<link rel="preconnect" href="https://td.doubleclick.net"/>
+<link rel="preconnect" href="https://googleads.g.doubleclick.net"/>
+<link rel="preconnect" href="https://js.adsrvr.org"/>
+<link rel="preconnect" href="https://match.adsrvr.org"/>
+<link rel="preconnect" href="https://ib.adnxs.com"/>
+<link rel="preconnect" href="https://beacon.sojern.com"/>
+<link rel="preconnect" href="https://s.yimg.jp"/>
+<link rel="preconnect" href="https://connect.facebook.net"/>
+<link rel="preconnect" href="https://cdn-apac.onetrust.com"/>
+<link rel="preconnect" href="https://www.google-analytics.com"/>
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+
+
+<!--Adding the below plociy provider for injecting scripts globally once-->
+
+    <script id="__ada" data-handle="philippineairlines" src="https://static.ada.support/embed2.js"></script><script src="/content/dam/palportal/scripts/c_head.js" async="false"></script><script src="https://assets.adobedtm.com/99f1a7871dc8/ce80160dd5fb/launch-52ee2877eb01.min.js" async></script><script> if (typeof digitalData == "undefined" || typeof digitalData == null) { var digitalData = {}; } </script>
+
+    
+    
+    
+
+    
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/palportal/clientlibs/clientlib-angular.min.14c073c1b28ebc39337e23f535153605.css" type="text/css">
+
+
+
+    
+
+    
+    
+</head>
+
+  <body class="page basicpage">
+    
+    
+      
+
+
+
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="spa-root"></div>
+
+      
+    
+    
+<script src="/etc.clientlibs/palportal/clientlibs/clientlib-angular.min.b5d6afae9ce6be1de33d1b04865616a0.js"></script>
+
+
+
+    
+
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.0a6aff292f5cc42142779cde92054524.js"></script>
+<script async src="/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.56934e461ff6c436f962a5990541a527.js"></script>
+<script async src="/etc.clientlibs/palportal/clientlibs/clientlib-base.min.bda5e761e50ea8d4d9c6fbcde21f5c31.js"></script>
+
+
+
+
+
+
+<script src="/content/dam/palportal/scripts/c_body.js" async="false"></script>
+
+    
+
+    
+
+    
+    
+    
+
+      
+
+    
+  </body>
+</html>

@@ -1,0 +1,1835 @@
+<!DOCTYPE HTML>
+<html lang="de-AT" class="no-js publish-instance">
+    
+    <head>
+    
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="theme-color" content="#e20074"/>
+    <meta name="msapplication-TileColor" content="#e20074"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+    <title>Fehler 404 | Magenta</title>
+    
+    
+    
+    <meta name="google-site-verification" content="QpjTHQQbSujWdYW82E5Q4L9hBsI-ubaF9f648X59BS0"/>
+
+    
+
+    <link rel="preload" href="/content/dam/styles.icomoon.css" as="style" crossorigin="anonymous"/>
+    <link rel="preload" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/fonts/TeleNeoWeb-Bold.woff" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/fonts/TeleNeoWeb-Regular.woff" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/fonts/TeleNeoWeb-Medium.woff" as="font" crossorigin="anonymous"/>
+    <link rel="preload" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/fonts/TeleNeoWeb-ExtraBold.woff" as="font" crossorigin="anonymous"/>
+
+    <!-- Preconnect to optimize speed-->
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+    <link rel="dns-prefetch" href="https://sst.magenta.at"/>
+    <link rel="dns-prefetch" href="https://app.usercentrics.eu"/>
+    <link rel="dns-prefetch" href="https://api.usercentrics.eu"/>
+    <link rel="dns-prefetch" href="https://9186405.fls.doubleclick.net"/>
+    <link rel="dns-prefetch" href="https://cdn.krxd.net"/>
+    <link rel="dns-prefetch" href="https://beacon.krxd.net"/>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin/>
+    <link rel="preconnect" href="https://sst.magenta.at" crossorigin/>
+    <link rel="preconnect" href="https://app.usercentrics.eu" crossorigin/>
+    <link rel="preconnect" href="https://api.usercentrics.eu" crossorigin/>
+    <link rel="preconnect" href="https://9186405.fls.doubleclick.net" crossorigin/>
+    <link rel="preconnect" href="https://cdn.krxd.net" crossorigin/>
+    <link rel="preconnect" href="https://beacon.krxd.net" crossorigin/>
+    
+    
+    <!-- End Preconnect-->
+
+    <link href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/favicon.ico" rel="icon" type="image/x-icon" sizes="48x48"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/favicon-16x16.png"/>
+    <link rel="manifest" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/site.webmanifest"/>
+    <link rel="mask-icon" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/safari-pinned-tab.svg" color="#e20074"/>
+    <link rel="apple-touch-icon" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="128x128" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-128x128.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base/resources/favicons/apple-touch-icon-180x180.png"/>
+
+    <link rel="canonical" href="https://www.magenta.at/error-documents-consumer/404"/>
+    
+    
+    
+    
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@magentatelekom"/>
+        <meta property="og:title" content="Fehler 404"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.magenta.at/error-documents-consumer/404"/>
+        <meta property="og:image" content="https://www.magenta.at/content/dam/magenta_at/functional/1200x630_magenta_og_image_basic.png"/>
+        
+        
+    
+
+    
+    
+    <!-- USERCENTRICS BEGIN -->
+    <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="62dIi623M" async></script>
+    <!-- USERCENTRICS END -->
+
+
+    <script>
+        window.angularConfigUrl = "https:\/\/www.magenta.at";
+        window.bffHost = "";
+        window.bffApiKey = "";
+    </script>
+    
+    
+    
+
+    
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base.min.dbae2e5fd3880078f50d97bef26f99fa.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base-consumer.min.e9fe5f90736877051ca50ab7b5076141.css" type="text/css">
+
+
+
+    
+
+    
+    
+
+
+    
+
+
+    <link href="/content/dam/magenta_at/css/t23/error.css" rel="stylesheet" type="text/css"/>
+
+
+    
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+    <body class="content page basicpage consumer magat ">
+        
+        
+
+
+    <div class="fixed-container">
+        
+        
+            
+
+
+
+
+        
+        
+        
+            <div id="magenta-page-header" class="magat cmp-pageheader">
+
+<div class="navigation-container has-megamenu published">
+    <div class="megamenu carousel magat">
+
+
+<div class="brand-bar">
+    <div class="content-width container">
+        <a href="#main-content" class="magat-btn btn magat-btn--primary btn-skip">Navigation überspringen</a>
+        <!-- LOGO BEGIN -->
+        <a href="/home" class="logo" tabindex="0">
+            <img src="/content/dam/magenta_at/images/consumer/images-liquid/logo/t-logo_square_magenta.lm1776171782404.svg" role="button"/>
+        </a>
+        <!-- LOGO END -->
+        <!-- BRAND TYPE NAVIGATION BEGIN -->
+        <nav class="magat" aria-label="Metanavigation">
+            <ul class="inline-meta-navigation">
+                <li>
+                    <a href="/home" title="Privat" role="link" aria-label="Privat" class="active" data-tracking="{'action':'Privat','label':'/home','event':'ctaClickLP','category':'Business Switch'}">
+                        Privat
+                        <span class="sr-only">Currently active</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/business/home" title="Business" role="link" aria-label="Business" data-tracking="{'action':'Business','label':'/business/home','event':'ctaClickLP','category':'Business Switch'}">
+                        Business
+                        
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+        <!-- BRAND TYPE NAVIGATION END -->
+        <!-- BRAND ICON NAVIGATION BEGIN -->
+        <nav class="utility-navigation" aria-label="Iconnavigation">
+            <ul>
+                <li data-search-result-page="/suche" data-resource-type="magenta_at/mms/components/structure/headersearch" data-input-placeholder="Ich suche ..." data-path="/content/magenta_at/austria/de_at/error-documents-consumer/jcr:content/header/headersearch" data-button-label="Suchen" data-search-button-alt="Auf Magenta Webseite suchen" data-search-nav-alt="Suche öffnen" data-search-cancel-alt="Suche abbrechen" data-autocomplete-url="/error-documents-consumer/_jcr_content.autocomplete.json" data-render-static="pageheader-ssi" class="magat cmp-headersearch searchtip bottom react-component">
+</li>
+
+                
+                    
+                    <li>
+                        <a href="https://webmail.mymagenta.at" title="Kontakt" class="magenta-icon-email" tabindex="0">
+                            
+                            <span></span>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="tooltip button  desktop-hidden" data-tooltip="Hotline">
+                        <a href="tel:06762000" title="Anruf" class="magenta-icon-call" tabindex="0">
+                            
+                            <span>Hotline</span>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="tooltip button  mobile-hidden" data-tooltip="Hotline">
+                        <a href="https://www.magenta.at/hilfe-service/service#kontakte" title="Hotline" class="magenta-icon-call" tabindex="0">
+                            
+                            <span>Hotline</span>
+                        </a>
+                    </li>
+                
+                    
+                        <!-- CART CHECK -->
+                    <li class="tooltip button " data-tooltip="Warenkorb">
+                        <a href="https://shop.magenta.at/cart" title="Warenkorb" class="magenta-icon-cart" tabindex="0">
+                            
+                            <span>Warenkorb</span>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="tooltip button  mobile-hidden" data-tooltip="Kundenportal">
+                        <a href="https://www.magenta.at/hilfe-service/mein-magenta" title="Kundenportal" class="magenta-icon-user" tabindex="0">
+                            
+                            <span>Kundenportal</span>
+                        </a>
+                    </li>
+                
+                <!-- LOGOUT BUTTON BEGIN -->
+                <li class="logout-button">
+                    <a href="/logout" class="logout-icon">
+                        <span>Logout</span>
+                    </a>
+                </li>
+                <!-- LOGOUT BUTTON END -->
+                <li></li>
+            </ul>
+        </nav>
+        <!-- BRAND ICON NAVIGATION END -->
+    </div>
+</div>
+<div class="cmp-megamenu__subnav">
+    <ul class="cmp-megamenu__subnav--content">
+        <li>
+            <a class="animated-burger-icon" role="button" aria-label="Menü" aria-expanded="false" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="text">Menü</span>
+                <p class="text-visible">Menü</p>
+            </a>
+        </li>
+        
+            <!-- LOGIN TAB BUTTON MOBILE BEGIN -->
+            <li class="cmp-megamenu__item">
+                <a class="megamenuitem_login--link" data-logged-out-text="Login" data-logged-in-text="Mein Magenta" data-logout-url="/logout" data-login-page-path="https://www.magenta.at/mein-magenta-login/" role="link" href="https://www.magenta.at/mein-magenta-login/" tabindex="0">
+                    <p class="small"><span class="magenta-icon-user"></span> Login</p>
+                </a>
+            </li>
+            <!-- LOGIN TAB BUTTON MOBILE END -->
+        
+    </ul>
+</div>
+<!-- MAIN NAVIGATION BEGIN -->
+<div class="cmp-megamenu" data-cmp-is="cmp-megamenu">
+    <nav class="main-navigation magat">
+        <div class="brand-bar__mobile">
+            <nav class="inline-meta-navigation" aria-label="Metanavigation">
+                    <a href="/home" title="Privat" role="link" aria-label="Privat" class="active" data-tracking="{'action':'Privat','label':'/home','event':'ctaClickLP','category':'Business Switch'}">
+                        Privat
+                        <span class="sr-only">Currently active</span>
+                    </a>
+                    <a href="/business/home" title="Business" role="link" aria-label="Business" data-tracking="{'action':'Business','label':'/business/home','event':'ctaClickLP','category':'Business Switch'}">
+                        Business
+                        
+                    </a>
+                    
+            </nav>
+            <div class="cmp-megamenu__close--mobile" role="button" tabindex="0" aria-label="Schließen"><span class="magenta-icon-close"></span></div>
+        </div>
+        <li data-search-result-page="/suche" data-resource-type="magenta_at/mms/components/structure/headersearch" data-input-placeholder="Ich suche ..." data-path="/content/magenta_at/austria/de_at/error-documents-consumer/jcr:content/header/headersearch" data-button-label="Suchen" data-search-button-alt="Auf Magenta Webseite suchen" data-search-nav-alt="Suche öffnen" data-search-cancel-alt="Suche abbrechen" data-autocomplete-url="/error-documents-consumer/_jcr_content.autocomplete.json" data-render-static="true" class="magat cmp-headersearch searchtip bottom react-component">
+</li>
+
+        <nav class="content-width container" aria-label="Hauptnavigation">
+            <ul class="cmp-megamenu__content slide-container" role="menubar">
+                <div class="loom-shuttle hide-mobile"></div>
+                <li class="cmp-megamenu__item cmp-megamenu__item--hasSubmenu" role="menuitem" aria-label="Element 1 von 7" data-cmp-hook-megamenu="item">
+                    
+
+<a class="mainmenu-item" href="https://www.magenta.at/family" aria-label="Magenta Family" data-level="1" aria-haspopup="true" aria-expanded="false">
+    
+    
+    Magenta Family
+</a>
+
+<div class="cmp-megamenu__content">
+    <button class="cmp-megamenu__column__title" data-level="0" tabindex="0">
+        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Magenta Family
+    </button>
+    <ul class="cmp-megamenu__column ">
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Magenta Family
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Magenta Family
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/family" aria-label="Magenta Family erklärt">Magenta Family erklärt</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/family/fuer-neukunden" aria-label="Für Magenta Neukund:innen">Für Neukund:innen</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/family/fuer-bestehende-kunden" aria-label="Für bestehende Magenta Kund:innen">Für bestehende Magenta Kund:innen</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Angebote für Kund:innen
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Angebote für Kund:innen
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/tarife-ohne-handy" aria-label="Tarife ohne Handy">Tarife ohne Handy</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/handy-mit-tarif" aria-label="Tarife mit Handy">Tarife mit Handy</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/internet-zuhause" aria-label="Kabelinternet">Magenta Kabelinternet Angebote</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/mobiles-internet" aria-label="Mobiles &amp; 5G Internet">Magenta Mobiles &amp; 5G Internet Angebote</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://magenta.go.link/fD7mb" aria-label="Magenta Moments Vorteilswelt">Magenta Moments Vorteilswelt</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Vorteilswelt
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Vorteilswelt
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://magenta.go.link/fD7mb" aria-label="Magenta Moments">Magenta Moments</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+    </ul>
+    <div class="cmp-megamenu__column">
+        <div class="cmp-header-teaser">
+            
+            
+<div class="cmp-headerteaser__image">
+    
+    
+    <picture>
+        <!--[if IE 9]><video style="display: none;><![endif]-->
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.319.lm1699258878929.png" media="(max-width: 319px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.640.lm1699258878929.png" media="(min-width: 320px) and (max-width: 639px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.640.nowebp.png" media="(min-width: 320px) and (max-width: 639px)"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.960.lm1699258878929.png" media="(min-width: 640px) and (max-width: 959px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.1200.lm1699258878929.png" media="(min-width: 960px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.1200.nowebp.png" media="(min-width: 960px)"/>
+        
+        
+        
+        
+        
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.lm1699258878929.png"/>
+        <!--[if IE 9]></video><![endif]-->
+        <img data-src="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape2.640.nowebp.png" role="img" class=" lazyload" itemprop="contentUrl" data-cmp-hook-image="image" alt/>
+    </picture>
+
+    
+</div>
+<div class="cmp-headerteaser__content">
+    <div class="cmp-headerteaser__text">Magenta Family</div>
+    <a class="cmp-button__btn magat-btn magat-btn--secondary" href="/family">
+        
+        <span>Mehr erfahren</span>
+    </a>
+</div>
+
+    
+
+
+        </div>
+    </div>
+</div>
+
+
+                </li>
+<li class="cmp-megamenu__item cmp-megamenu__item--hasSubmenu" role="menuitem" aria-label="Element 2 von 7" data-cmp-hook-megamenu="item">
+                    
+
+<a class="mainmenu-item" href="https://www.magenta.at/handytarife" data-level="1" aria-haspopup="true" aria-expanded="false">
+    
+    
+    Mobilfunk
+</a>
+
+<div class="cmp-megamenu__content">
+    <button class="cmp-megamenu__column__title" data-level="0" tabindex="0">
+        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Mobilfunk
+    </button>
+    <ul class="cmp-megamenu__column ">
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Tarife
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Tarife
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife" aria-label="Alle Handytarife">Alle Handytarife</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/angebote#mobile" aria-label="Angebote">Angebote</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/handy-mit-tarif" aria-label="Tarife mit Handy">Tarife mit Handy</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/tarife-ohne-handy" aria-label="Tarife ohne Handy">Tarife ohne Handy</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/jugendtarif" aria-label="Jugendtarife">Jugendtarife</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/wertkarte" aria-label="KLAX Wertkarte">KLAX Wertkarte</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/zusatzpakete" aria-label="Zusatzpakete">Zusatzpakete</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Handys
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Handys
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://shop.magenta.at/" aria-label="Alle Handys">Alle Handys</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/handy-hersteller" aria-label="Alle Hersteller">Alle Hersteller</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/apple/apple-iphone-17-pro" aria-label="iPhone 17 Pro">iPhone 17 Pro</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/apple/iphone-erleben" aria-label="iPhone erleben">iPhone erleben</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/Samsung/samsung-galaxy-s26-serie" aria-label="Samsung Galaxy S26 Serie">Samsung Galaxy S26 Serie</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/tphone/t-phone-3" aria-label="T Phone">T Phone</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Smartwatches &amp; Zubehör
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Smartwatches &amp; Zubehör
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/smarte-produkte/kidswatch" aria-label="Smart Kids Watch">Smart Kids Watch</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/apple/apple-watch" aria-label="Apple Watch">Apple Watch</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/Samsung/samsung-watch" aria-label="Samsung Watch">Samsung Watch</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://shop.magenta.at/zubehoer" aria-label="Smartphone Zubehör">Smartphone Zubehör</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+    </ul>
+    <div class="cmp-megamenu__column">
+        <div class="cmp-header-teaser">
+            
+            
+<div class="cmp-headerteaser__image">
+    
+    
+    <picture>
+        <!--[if IE 9]><video style="display: none;><![endif]-->
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.319.lm1719986966812.png" media="(max-width: 319px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.640.lm1719986966812.png" media="(min-width: 320px) and (max-width: 639px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.640.nowebp.png" media="(min-width: 320px) and (max-width: 639px)"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.960.lm1719986966812.png" media="(min-width: 640px) and (max-width: 959px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.1200.lm1719986966812.png" media="(min-width: 960px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.1200.nowebp.png" media="(min-width: 960px)"/>
+        
+        
+        
+        
+        
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.lm1719986966812.png"/>
+        <!--[if IE 9]></video><![endif]-->
+        <img data-src="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape5.640.nowebp.png" role="img" class=" lazyload" itemprop="contentUrl" data-cmp-hook-image="image" alt/>
+    </picture>
+
+    
+</div>
+<div class="cmp-headerteaser__content">
+    <div class="cmp-headerteaser__text">Smartphone Angebote</div>
+    <a class="cmp-button__btn magat-btn magat-btn--secondary" href="/handytarife/handy-mit-tarif" aria-label="Mehr erfahren zu unseren Angeboten">
+        
+        <span>Zu den Angeboten</span>
+    </a>
+</div>
+
+    
+
+
+        </div>
+    </div>
+</div>
+
+
+                </li>
+<li class="cmp-megamenu__item cmp-megamenu__item--hasSubmenu" role="menuitem" aria-label="Element 3 von 7" data-cmp-hook-megamenu="item">
+                    
+
+<a class="mainmenu-item" href="https://www.magenta.at/internet/internettarife" aria-label="Internet" data-level="1" aria-haspopup="true" aria-expanded="false">
+    
+    
+    Internet
+</a>
+
+<div class="cmp-megamenu__content">
+    <button class="cmp-megamenu__column__title" data-level="0" tabindex="0">
+        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Internet
+    </button>
+    <ul class="cmp-megamenu__column ">
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Internet Tarife
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Internet Tarife
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/internettarife" aria-label="Alle Internettarife">Alle Internettarife</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/internet-zuhause" aria-label="Kabelinternet">Kabelinternet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/mobiles-internet" aria-label="Mobiles 5G Internet">Mobiles 5G Internet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/glasfaser" aria-label="Glasfaser-Internet">Glasfaser-Internet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/wertkarte" aria-label="KLAX Wertkarten Internet">KLAX Wertkarten Internet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/angebote#internet" aria-label="Angebote">Angebote</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Kombi-Pakete
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Kombi-Pakete
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/kombi-pakete/kombi-pakete-mobil" aria-label="TV + Kabelinternet">TV + Kabelinternet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/kombi-pakete/kombi-pakete-mobil" aria-label="TV + mobiles 5G Internet">TV + mobiles 5G Internet</a>
+                    </li>
+
+                </ul>
+            </li>
+<li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Tablets
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Tablets
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/tablet-internet" aria-label="Tablet Tarife">Tablet Tarife</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Internet erweitern
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Internet erweitern
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/5g-box-outdoor" aria-label="5G Outdoor Router">5G Outdoor Router</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/mesh-wifi" aria-label="Mesh-WIFI für Kabelinternet">Mesh-WIFI für Kabelinternet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/mesh-wifi-mobile" aria-label="Mesh-WIFI für mobiles Internet">Mesh-WIFI für mobiles Internet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/internet/zusatzpakete-internet" aria-label="Zusatzpakete">Zusatzpakete</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+    </ul>
+    <div class="cmp-megamenu__column">
+        <div class="cmp-header-teaser">
+            
+            
+<div class="cmp-headerteaser__image">
+    
+    
+    <picture>
+        <!--[if IE 9]><video style="display: none;><![endif]-->
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.319.lm1776086060299.png" media="(max-width: 319px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.640.lm1776086060299.png" media="(min-width: 320px) and (max-width: 639px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.640.nowebp.png" media="(min-width: 320px) and (max-width: 639px)"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.960.lm1776086060299.png" media="(min-width: 640px) and (max-width: 959px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.1200.lm1776086060299.png" media="(min-width: 960px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.1200.nowebp.png" media="(min-width: 960px)"/>
+        
+        
+        
+        
+        
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.lm1776086060299.png"/>
+        <!--[if IE 9]></video><![endif]-->
+        <img data-src="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/bbi-ab-23-04/300x150_bbi-04-26_nav-card.640.nowebp.png" role="img" class=" lazyload" itemprop="contentUrl" data-cmp-hook-image="image" alt/>
+    </picture>
+
+    
+</div>
+<div class="cmp-headerteaser__content">
+    <div class="cmp-headerteaser__text">Internet für Zuhause</div>
+    <a class="cmp-button__btn magat-btn magat-btn--secondary" href="/internet/internet-zuhause" aria-label="Internet für Zuhause">
+        
+        <span>Tarife anzeigen</span>
+    </a>
+</div>
+
+    
+
+
+        </div>
+    </div>
+</div>
+
+
+                </li>
+<li class="cmp-megamenu__item cmp-megamenu__item--hasSubmenu" role="menuitem" aria-label="Element 4 von 7" data-cmp-hook-megamenu="item">
+                    
+
+<a class="mainmenu-item" href="https://www.magenta.at/tv/tv" aria-label="TV" data-level="1" aria-haspopup="true" aria-expanded="false">
+    
+    
+    TV
+</a>
+
+<div class="cmp-megamenu__content">
+    <button class="cmp-megamenu__column__title" data-level="0" tabindex="0">
+        <span class="magenta-icon-angle-left" aria-hidden="true"></span>TV
+    </button>
+    <ul class="cmp-megamenu__column ">
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Tarife &amp; Produkte
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Tarife &amp; Produkte
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/tv" aria-label="TV  Pakete">TV  Pakete</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/angebote#tv" aria-label="Angebote">Angebote</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/kombi-pakete/kombi-pakete" aria-label="TV mit Internet">TV mit Internet</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/tv-box" aria-label="TV Box">TV Box</a>
+                    </li>
+
+                </ul>
+            </li>
+<li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">FIFA Fußball-WM
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>FIFA Fußball-WM
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/wm" aria-label="WM bei Magenta TV">WM bei Magenta TV</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Streaming Anbieter
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Streaming Anbieter
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/streaming-dienste" aria-label="Übersicht Streaming Partner">Übersicht Streaming Partner</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/rtl-plus" aria-label="RTL+ bei Magenta">RTL+ bei Magenta</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/netflix" aria-label="Netflix bei Magenta">Netflix bei Magenta</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/disney-plus" aria-label="Disney+ bei Magenta">Disney+ bei Magenta</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Magenta TV Welt
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Magenta TV Welt
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://tv.magenta.at/epg" aria-label="TV Programm">TV Programm</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/tv-kanaele" aria-label="Senderliste">Senderliste</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/tv-zusatzpakete" aria-label="TV Zusatzpakete">TV Zusatzpakete</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/tv/so-funktioniert-magenta-tv" aria-label="So funktioniert Magenta TV">So funktioniert Magenta TV</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://tv.magenta.at/" aria-label="Zu Magenta TV">Zu Magenta TV</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+    </ul>
+    <div class="cmp-megamenu__column">
+        <div class="cmp-header-teaser">
+            
+            
+<div class="cmp-headerteaser__image">
+    
+    
+    <picture>
+        <!--[if IE 9]><video style="display: none;><![endif]-->
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.319.lm1774453810923.png" media="(max-width: 319px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.640.lm1774453810923.png" media="(min-width: 320px) and (max-width: 639px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.640.nowebp.png" media="(min-width: 320px) and (max-width: 639px)"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.960.lm1774453810923.png" media="(min-width: 640px) and (max-width: 959px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.1200.lm1774453810923.png" media="(min-width: 960px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.1200.nowebp.png" media="(min-width: 960px)"/>
+        
+        
+        
+        
+        
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.lm1774453810923.png"/>
+        <!--[if IE 9]></video><![endif]-->
+        <img data-src="/content/dam/magenta_at/images/consumer/images-liquid/allgemein/wm-2026/300x150_wm-nav-card.640.nowebp.png" role="img" class=" lazyload" itemprop="contentUrl" data-cmp-hook-image="image" alt/>
+    </picture>
+
+    
+</div>
+<div class="cmp-headerteaser__content">
+    <div class="cmp-headerteaser__text">Fußball-WM bei Magenta TV<br /></div>
+    <a class="cmp-button__btn magat-btn magat-btn--secondary" href="/tv/wm" aria-label="FIFA Fußball WM bei Magenta TV erleben">
+        
+        <span>Mehr erfahren</span>
+    </a>
+</div>
+
+    
+
+
+        </div>
+    </div>
+</div>
+
+
+                </li>
+<li class="cmp-megamenu__item cmp-megamenu__item--hasNoSubmenu" role="menuitem" aria-label="Element 5 von 7" data-cmp-hook-megamenu="item">
+                    
+
+<a class="mainmenu-item" href="https://magenta.go.link/meinmagentanavi" aria-label="Dieser Link führt zu MeinMagenta App" data-level="1" aria-haspopup="true" aria-expanded="false">
+    
+    
+    MeinMagenta App
+</a>
+
+<div class="cmp-megamenu__content">
+    <button class="cmp-megamenu__column__title" data-level="0" tabindex="0">
+        <span class="magenta-icon-angle-left" aria-hidden="true"></span>MeinMagenta App
+    </button>
+    <ul class="cmp-megamenu__column ">
+        
+            
+        
+            
+        
+            
+        
+    </ul>
+    <div class="cmp-megamenu__column">
+        <div class="cmp-header-teaser">
+            
+            
+
+<div class="cmp-headerteaser__content">
+    <div class="cmp-headerteaser__text"></div>
+    
+</div>
+
+    
+
+
+        </div>
+    </div>
+</div>
+
+
+                </li>
+<li class="cmp-megamenu__item cmp-megamenu__item--hasSubmenu" role="menuitem" aria-label="Element 6 von 7" data-cmp-hook-megamenu="item">
+                    
+
+<a class="mainmenu-item" href="https://www.magenta.at/hilfe-service/service" aria-label="Service &amp; Kontakt" data-level="1" aria-haspopup="true" aria-expanded="false">
+    
+    
+    Service &amp; Kontakt
+</a>
+
+<div class="cmp-megamenu__content">
+    <button class="cmp-megamenu__column__title" data-level="0" tabindex="0">
+        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Service &amp; Kontakt
+    </button>
+    <ul class="cmp-megamenu__column ">
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Hilfe
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Hilfe
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://magenta.go.link/an9nr" aria-label="Übersicht der Services">Übersicht</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://magenta.go.link/328fL" aria-label="Weiterleitung zu Mein Magenta Vertrag">Vertrag</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/unternehmen/rechtliches/widerruf" aria-label="Widerruf">Widerruf</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/mein-magenta-kabel/manage-profile" aria-label="Meine Daten">Meine Daten</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://magenta.go.link/6eMtu" aria-label="Weiterleitung zu Mein Magenta Rechnung">Meine Rechnung</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://magenta.go.link/pqvoJ" aria-label="Störungsabfrage">Störungsabfrage</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/faq" aria-label="FAQs">FAQs</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Service
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Service
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://magenta.go.link/meinmagenta" aria-label="MeinMagenta App">MeinMagenta App</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://magenta.go.link/kz4ys" aria-label="Speedtest">Speedtest</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/services/hardwaresupport" aria-label="Hardware Support">Hardware Support</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/services/rufnummernmitnahme" aria-label="Rufnummermitnahme">Rufnummermitnahme</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/services/kontaktformular#/umzug" aria-label="Umzug">Umzug</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/roaming" aria-label="Roaming">Roaming</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/terminbuchung" aria-label="Terminbuchung im Shop">Terminbuchung im Shop</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+            <li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Kontakt
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Kontakt
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/service?hotline=true#kontakt" aria-label="Kontaktmöglichkeiten">Kontaktmöglichkeiten</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/hilfe-service/services/kontaktformular" aria-label="Kontaktformular">Kontaktformular</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://magenta.go.link/bFWPL" aria-label="Shops">Shops</a>
+                    </li>
+
+                </ul>
+            </li>
+<li class="cmp-megamenu__linkgroup cmp-megamenu__linkgroup--hasSubmenu ">
+                <a class="cmp-megamenu__linkgroup--title" data-level="2" tabindex="0">Wertkarte
+                    <span class="magenta-icon-angle-right" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li class="cmp-megamenu__column__title" data-level="1" tabindex="0">
+                        <span class="magenta-icon-angle-left" aria-hidden="true"></span>Wertkarte
+                    </li>
+                    <li>
+                        <a class="menu-item" href="https://magenta.go.link/eiaAF" aria-label="Wertkarte aufladen">Wertkarte aufladen</a>
+                    </li>
+<li>
+                        <a class="menu-item" href="https://www.magenta.at/handytarife/wertkarte/wertkarte-registrieren" aria-label="Wertkarte registrieren">Wertkarte registrieren</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        
+    </ul>
+    <div class="cmp-megamenu__column">
+        <div class="cmp-header-teaser">
+            
+            
+<div class="cmp-headerteaser__image">
+    
+    
+    <picture>
+        <!--[if IE 9]><video style="display: none;><![endif]-->
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.319.lm1699258878893.png" media="(max-width: 319px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.640.lm1699258878893.png" media="(min-width: 320px) and (max-width: 639px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.640.nowebp.png" media="(min-width: 320px) and (max-width: 639px)"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.960.lm1699258878893.png" media="(min-width: 640px) and (max-width: 959px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.1200.lm1699258878893.png" media="(min-width: 960px)" type="image/webp"/>
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.1200.nowebp.png" media="(min-width: 960px)"/>
+        
+        
+        
+        
+        
+        <source data-srcset="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.lm1699258878893.png"/>
+        <!--[if IE 9]></video><![endif]-->
+        <img data-src="/content/dam/magenta_at/images/consumer/images-liquid/nav-teaser/300x150_navteaser_shape3.640.nowebp.png" role="img" class=" lazyload" itemprop="contentUrl" data-cmp-hook-image="image" alt/>
+    </picture>
+
+    
+</div>
+<div class="cmp-headerteaser__content">
+    <div class="cmp-headerteaser__text">Magenta Moments</div>
+    <a class="cmp-button__btn magat-btn magat-btn--secondary" href="/magenta-moments">
+        
+        <span>Mehr erfahren</span>
+    </a>
+</div>
+
+    
+
+
+        </div>
+    </div>
+</div>
+
+
+                </li>
+<li id="megamenuitem_login_desktop" class="cmp-megamenu__item cmp-megamenu__item--hasSubmenu megamenuitem_login " role="menuitem" aria-label="Element 7 von 7" data-cmp-hook-megamenu="item">
+                    
+
+
+
+    <!-- LOGIN TAB BUTTON BEGIN -->
+    <a href="/mein-magenta-login/" role="link" class="megamenuitem_login--link" data-login-page-path="/mein-magenta-login/" data-logout-url="/logout" data-logged-out-text="Login" data-logged-in-text="Mein Magenta">
+        <span class="magenta-icon-user"></span><span>Login</span>
+    </a>
+    <!-- LOGIN TAB BUTTON END -->
+
+
+
+
+                </li>
+
+            </ul>
+        </nav>
+        <nav class="utility-navigation__mobile" aria-label="Iconnavigation">
+            <ul>
+                
+                    
+                    <li>
+                        <a href="https://webmail.mymagenta.at" title="Kontakt">
+                            <span class="magenta-icon-email"></span>
+                            
+                            <span></span>
+                        </a>
+                    </li>
+                
+                    
+                    <li data-tooltip="Hotline">
+                        <a href="tel:06762000" title="Anruf">
+                            <span class="magenta-icon-call"></span>
+                            
+                            <span>Hotline</span>
+                        </a>
+                    </li>
+                
+                    
+                    
+                
+                    <!-- CART CHECK -->
+                    <li data-tooltip="Warenkorb">
+                        <a href="https://shop.magenta.at/cart" title="Warenkorb">
+                            <span class="magenta-icon-cart"></span>
+                            
+                            <span>Warenkorb</span>
+                        </a>
+                    </li>
+                
+                    
+                    
+                
+            </ul>
+        </nav>
+    </nav>
+</div>
+<!-- MAIN NAVIGATION END -->
+
+
+</div>
+
+</div>
+</div>
+
+
+        
+    </div>
+
+<main class="magat main has-megamenu" tabindex="-1">
+    
+    <a id="main-content" tabindex="-1"></a>
+    <div class="main-content-wrapper">
+        <div class="breadcrumb container">
+</div>
+<div class="root responsivegrid container magat">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="magat cmp-custom-html aem-GridColumn aem-GridColumn--default--12"><div class="mt-none mb-none    ">
+    
+</div>
+
+    
+</div>
+<div class="cmp-container--wrapper magat aem-GridColumn aem-GridColumn--default--12"><section data-has-background="true" data-has-background-video="false" data-height-desktop="-1" data-height-small-desktop="-1" data-height-tablet="-1" data-height-mobile="-1" data-paddings-desktop="[90,-1,90,-1]" data-paddings-tablet="[90,-1,90,-1]" data-paddings-mobile="[30,-1,30,-1]" data-paddings-small-desktop="[90,-1,90,-1]" class="magat cmp-container full-width cmp-container__height-empty cmp-container__valign-center   error color-white mt-none mb-none     no-lazyload">
+    <div aria-hidden="true" class="cmp-container--background cmp-container__has-mobileimg" data-h-align="center" data-v-align="center" data-background-reference="/content/dam/magenta_at/images/consumer/images-liquid/magenta-welt/alles-gute/happy-birthday_header.png" data-use-real-height="false" data-use-asset-height="false" style="background-color:#E20074;">
+        
+    </div>
+    <div aria-hidden="true" class="cmp-container--background cmp-container--onlymobile" data-h-align="left" data-v-align="center" data-background-reference="/content/dam/magenta_at/images/consumer/images-liquid/magenta-welt/alles-gute/happy-birthday_header_mob.png" data-use-asset-height="false" style="background-color:#E20074;">
+    </div>
+    
+    
+    <div class="cmp-container--content container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cmp-container--wrapper magat aem-GridColumn aem-GridColumn--default--12"><div data-has-background="false" data-has-background-video="false" data-height-desktop="-1" data-height-small-desktop="-1" data-height-tablet="-1" data-height-mobile="-1" data-paddings-desktop="[-1,-1,-1,-1]" data-paddings-tablet="[-1,-1,-1,-1]" data-paddings-mobile="[-1,-1,-1,-1]" data-paddings-small-desktop="[-1,-1,-1,-1]" class="magat cmp-container cmp-container__height-empty cmp-container__valign-top   align-center mt-none mb-none     no-lazyload">
+    <div aria-hidden="true" class="cmp-container--background" data-h-align="left" data-v-align="center" data-use-real-height="false" data-use-asset-height="false">
+        
+    </div>
+    
+    
+    
+    <div class="cmp-container--content container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--md--12 aem-Grid--sm--12 ">
+    
+    <div class="magat cmp-custom-html aem-GridColumn--sm--none aem-GridColumn--default--none aem-GridColumn--offset--sm--0 aem-GridColumn aem-GridColumn--sm--12 aem-GridColumn--offset--md--0 aem-GridColumn--default--12 aem-GridColumn--offset--default--0 aem-GridColumn--md--none aem-GridColumn--md--12"><div class="mt-none mb-none    ">
+    <span class="page-title weight-ultra">404</span>
+</div>
+
+    
+</div>
+<div class="headline aem-GridColumn aem-GridColumn--default--12"><div class="magat cmp-headline text-center mt-s mb-none    ">
+    <h1 class="cmp-headline__text like-h2">Hier scheint nichts zu sein.</h1>
+    
+</div>
+
+
+    
+
+</div>
+<div class="magat cmp-text aem-GridColumn aem-GridColumn--default--12">
+
+<div class="mt-xs mb-none    ">
+    <p style="text-align: center;"><span class="lead">Leider können wir die gesuchte Seite nicht finden.</span><br /> </p>
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+
+</div>
+
+    
+</div>
+
+    </div>
+</section>
+
+</div>
+<div class="magat cmp-tabs magat-children-editor aem-GridColumn aem-GridColumn--default--12">
+
+
+<div id="tab-949292402" data-component-path="tab" data-loader="webpack" data-style="default" data-open-item-number="0" class="tabnav tabnav-icons tabnav-center mt-s mb-m   mobile-mt-xs mobile-mb-xs tabnav--colorscheme-default">
+     <div class="tabnav-header">
+        <div class="tabnav-scroll-left">
+            <div class="tabnav-scroll--arrow"></div>
+        </div>
+        <div class="container">
+            <div class="cmp-tab--header" role="tablist" aria-labelledby="tab-949292402__headline">
+                <nav class="magat">
+                    <ul>
+                        <li class="cmp-tabitem" data-cmp-hook-tabs="tab" data-sr-text="Currently active" aria-selected="false" aria-controls="tab_content">
+                            
+                            <a id="tab-949292402-0" name="tab-949292402-0" class="cta" data-tab-id="tab-949292402" data-tab="625283285" data-tracking="{'virtualPath':'/error-documents-consumer/404/TAB- Privat','action':' Privat','label':'#','event':'generic','category':'Fehler 404'}" tabindex="0" role="tab">
+                                
+                                
+                                <div class="cmp-tab--text-container">
+                                    
+                                    
+                                    
+                                    
+                                    <span class="weight-ultra like-h4"> Privat</span>
+                                    
+                                </div>
+                                <div class="cmp-tab--icon-container">
+                                
+                                </div>
+                            </a>
+                        </li>
+<li class="cmp-tabitem" data-cmp-hook-tabs="tab" data-sr-text="Currently active" aria-selected="false" aria-controls="tab_content">
+                            
+                            <a id="tab-949292402-1" name="tab-949292402-1" class="cta" data-tab-id="tab-949292402" data-tab="845583412" data-tracking="{'virtualPath':'/error-documents-consumer/404/TAB- Business','action':' Business','label':'#','event':'generic','category':'Fehler 404'}" tabindex="0" role="tab">
+                                
+                                
+                                <div class="cmp-tab--text-container">
+                                    
+                                    
+                                    
+                                    
+                                    <span class="weight-ultra like-h4"> Business</span>
+                                    
+                                </div>
+                                <div class="cmp-tab--icon-container">
+                                
+                                </div>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="tabnav-scroll-right">
+            <div class="tabnav-scroll--arrow"></div>
+        </div>
+    </div>
+    
+    <div class="cmp-tab--content">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="magat cmp-tabitem aem-GridColumn aem-GridColumn--default--12" data-cmp-hook-tabs="item"><div data-cmp-hook-tabs='tabpanel' data-path="/content/magenta_at/austria/de_at/error-documents-consumer/404/jcr:content/root/tab/tabitem" data-tab="625283285" class="cmp-tabitem-tab-content" role="tabpanel">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--sm--12 ">
+    
+    <div class="separator aem-GridColumn--sm--none aem-GridColumn--offset--sm--0 aem-GridColumn aem-GridColumn--sm--12 aem-GridColumn--default--12">
+<div class="magat cmp-separator cmp-separator--height-mobile-s cmp-separator--height-desktop-s">
+    
+</div>
+</div>
+<div class="magat cmp-iconbar aem-GridColumn aem-GridColumn--default--12">
+    <div class="iconbar iconbar-center cmp-iconbar--design-default">
+        <div class="iconbar-scroll-left"></div>
+        <div class="cmp-iconbar--header">
+            <nav class="magat">
+                <ul class="cmp-iconbar__list">
+                    <li class="cmp-iconbar__listitem">
+                        <a href="/home" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item1','label':'/home','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-home"></span>
+                            <p class="extrabold">Startseite</p>
+                        </a>
+                    </li>
+<li class="cmp-iconbar__listitem">
+                        <a href="https://shop.magenta.at" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item2','label':'https://shop.magenta.at','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-cart"></span>
+                            <p class="extrabold">Onlineshop</p>
+                        </a>
+                    </li>
+<li class="cmp-iconbar__listitem">
+                        <a href="/hilfe-service/mein-magenta" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item3','label':'/hilfe-service/mein-magenta','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-user"></span>
+                            <p class="extrabold">Mein Magenta Login</p>
+                        </a>
+                    </li>
+<li class="cmp-iconbar__listitem">
+                        <a href="/hilfe-service/service" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item4','label':'/hilfe-service/service','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-information_outline"></span>
+                            <p class="extrabold">Serviceportal</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="iconbar-scroll-right"></div>
+    </div>
+
+
+    
+
+</div>
+<div class="separator aem-GridColumn--sm--none aem-GridColumn--offset--sm--0 aem-GridColumn aem-GridColumn--sm--12 aem-GridColumn--default--12">
+<div class="magat cmp-separator cmp-separator--height-mobile-s cmp-separator--height-desktop-s">
+    
+</div>
+</div>
+<div class="magat cmp-teasercontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="cmp-teasercontainer__wrapper
+    mt-m mb-none   mobile-mt-none 
+    cmp-teasercontainer__variant_2
+    cmp-teasercontainer-align-center" data-indicator-alt="Ansicht">
+    
+    <ul data-teaser-columns="3" data-teaser-rows="1" class="step-cards cmp-teasercontainer__unordered-list cmp-teasercontainer--design-default " data-carousel-disabled="false" data-carousel-disabled-on-tablet="false">
+        
+            
+                
+                
+
+
+
+
+    
+    
+    <li class="magat cmp-teaser cmp-iconteaser">
+<div>
+    <div class="cmp-icon__teaser-content-wrapper">
+        <div class="cmp-teaser__icon-container text-center cmp-teaser__icon--big">
+            <div class="cmp-teaser__icon magenta-icon-smartphone"></div>
+            
+        </div>
+        <div class="cmp-teaser__card-content cmp-teaser__link--center">
+            <div class="cmp-teaser__headline text-center like-h3">
+                Magenta<br />Handytarife
+            </div>
+            
+            
+            <div class="cmp-teaser__button text-center">
+                <a href="/handytarife" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'mehr erfahren','label':'/handytarife','event':'ctaClickLP','category':'CTA Klick LP'}" class="magat-btn magat-btn--secondary">mehr erfahren</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+
+
+
+
+            
+                
+                
+
+
+
+
+    
+    
+    <li class="magat cmp-teaser cmp-iconteaser">
+<div>
+    <div class="cmp-icon__teaser-content-wrapper">
+        <div class="cmp-teaser__icon-container text-center cmp-teaser__icon--big">
+            <div class="cmp-teaser__icon magenta-icon-wlan"></div>
+            
+        </div>
+        <div class="cmp-teaser__card-content cmp-teaser__link--center">
+            <div class="cmp-teaser__headline text-center like-h3">
+                Magenta <br />Internettarife
+            </div>
+            
+            
+            <div class="cmp-teaser__button text-center">
+                <a href="/internet/internettarife" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'mehr erfahren','label':'/internet/internettarife','event':'ctaClickLP','category':'CTA Klick LP'}" class="magat-btn magat-btn--secondary">mehr erfahren</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+
+
+
+
+            
+                
+                
+
+
+
+
+    
+    
+    <li class="magat cmp-teaser cmp-iconteaser">
+<div>
+    <div class="cmp-icon__teaser-content-wrapper">
+        <div class="cmp-teaser__icon-container text-center cmp-teaser__icon--big">
+            <div class="cmp-teaser__icon magenta-icon-tv"></div>
+            
+        </div>
+        <div class="cmp-teaser__card-content cmp-teaser__link--center">
+            <div class="cmp-teaser__headline text-center like-h3">
+                Magenta <br />TV
+            </div>
+            
+            
+            <div class="cmp-teaser__button text-center">
+                <a href="/tv/tv-pakete" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'mehr erfahren','label':'/tv/tv-pakete','event':'ctaClickLP','category':'CTA Klick LP'}" class="magat-btn magat-btn--secondary">mehr erfahren</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+
+
+
+
+            
+        
+        
+    </ul>
+</div>
+</div>
+
+    
+</div>
+
+</div>
+
+</div>
+<div class="magat cmp-tabitem aem-GridColumn aem-GridColumn--default--12" data-cmp-hook-tabs="item"><div data-cmp-hook-tabs='tabpanel' data-path="/content/magenta_at/austria/de_at/error-documents-consumer/404/jcr:content/root/tab/tabitem_1041360902" data-tab="845583412" class="cmp-tabitem-tab-content" role="tabpanel">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--sm--12 ">
+    
+    <div class="separator aem-GridColumn--sm--hide aem-GridColumn--offset--sm--0 aem-GridColumn aem-GridColumn--sm--12 aem-GridColumn--default--12">
+<div class="magat cmp-separator cmp-separator--height-mobile-s cmp-separator--height-desktop-s">
+    
+</div>
+</div>
+<div class="magat cmp-iconbar aem-GridColumn aem-GridColumn--default--12">
+    <div class="iconbar iconbar-center cmp-iconbar--design-default">
+        <div class="iconbar-scroll-left"></div>
+        <div class="cmp-iconbar--header">
+            <nav class="magat">
+                <ul class="cmp-iconbar__list">
+                    <li class="cmp-iconbar__listitem">
+                        <a href="/business/home" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item1','label':'/business/home','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-home"></span>
+                            <p class="extrabold">Startseite</p>
+                        </a>
+                    </li>
+<li class="cmp-iconbar__listitem">
+                        <a href="https://businessshop.magenta.at/" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item2','label':'https://businessshop.magenta.at/','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-cart"></span>
+                            <p class="extrabold">Onlineshop</p>
+                        </a>
+                    </li>
+<li class="cmp-iconbar__listitem">
+                        <a href="/business/kontakt-service/online-portale" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item3','label':'/business/kontakt-service/online-portale','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-user"></span>
+                            <p class="extrabold">Business Portale</p>
+                        </a>
+                    </li>
+<li class="cmp-iconbar__listitem">
+                        <a href="/business/kontakt-service/service" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'magenta_link_strip_item4','label':'/business/kontakt-service/service','event':'linkClickFehler404','category':'Fehler 404'}" tabindex="0">
+                        
+                            <span class="magenta-icon-information_outline"></span>
+                            <p class="extrabold">Serviceportal</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="iconbar-scroll-right"></div>
+    </div>
+
+
+    
+
+</div>
+<div class="separator aem-GridColumn--sm--hide aem-GridColumn--offset--sm--0 aem-GridColumn aem-GridColumn--sm--12 aem-GridColumn--default--12">
+<div class="magat cmp-separator cmp-separator--height-mobile-s cmp-separator--height-desktop-s cmp-separator--positioning-center">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div>
+</div>
+<div class="magat cmp-teasercontainer aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="cmp-teasercontainer__wrapper
+    mt-m mb-none   mobile-mt-none 
+    cmp-teasercontainer__variant_2
+    cmp-teasercontainer-align-center" data-indicator-alt="Ansicht">
+    
+    <ul data-teaser-columns="3" data-teaser-rows="1" class="step-cards cmp-teasercontainer__unordered-list cmp-teasercontainer--design-default " data-carousel-disabled="false" data-carousel-disabled-on-tablet="false">
+        
+            
+                
+                
+
+
+
+
+    
+    
+    <li class="magat cmp-teaser cmp-iconteaser">
+<div>
+    <div class="cmp-icon__teaser-content-wrapper">
+        <div class="cmp-teaser__icon-container text-center cmp-teaser__icon--big">
+            <div class="cmp-teaser__icon magenta-icon-smartphone"></div>
+            
+        </div>
+        <div class="cmp-teaser__card-content cmp-teaser__link--center">
+            <div class="cmp-teaser__headline text-center like-h3">
+                Magenta Business<br />Handytarife
+            </div>
+            
+            
+            <div class="cmp-teaser__button text-center">
+                <a href="/business/handys-tarife/alle-sprachtarife" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'mehr erfahren','label':'/business/handys-tarife/alle-sprachtarife','event':'ctaClickLP','category':'CTA Klick LP'}" class="magat-btn magat-btn--secondary">mehr erfahren</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+
+
+
+
+            
+                
+                
+
+
+
+
+    
+    
+    <li class="magat cmp-teaser cmp-iconteaser">
+<div>
+    <div class="cmp-icon__teaser-content-wrapper">
+        <div class="cmp-teaser__icon-container text-center cmp-teaser__icon--big">
+            <div class="cmp-teaser__icon magenta-icon-wlan"></div>
+            
+        </div>
+        <div class="cmp-teaser__card-content cmp-teaser__link--center">
+            <div class="cmp-teaser__headline text-center like-h3">
+                Magenta Business<br />Internettarife
+            </div>
+            
+            
+            <div class="cmp-teaser__button text-center">
+                <a href="/business/internet-festnetz/alle-internettarife" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'mehr erfahren','label':'/business/internet-festnetz/alle-internettarife','event':'ctaClickLP','category':'CTA Klick LP'}" class="magat-btn magat-btn--secondary">mehr erfahren</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+
+
+
+
+            
+                
+                
+
+
+
+
+    
+    
+    <li class="magat cmp-teaser cmp-iconteaser">
+<div>
+    <div class="cmp-icon__teaser-content-wrapper">
+        <div class="cmp-teaser__icon-container text-center cmp-teaser__icon--big">
+            <div class="cmp-teaser__icon magenta-icon-tv"></div>
+            
+        </div>
+        <div class="cmp-teaser__card-content cmp-teaser__link--center">
+            <div class="cmp-teaser__headline text-center like-h3">
+                Magenta Business<br />Kombipakete
+            </div>
+            
+            
+            <div class="cmp-teaser__button text-center">
+                <a href="/business/kombi-vorteile/kombi-pakete" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'mehr erfahren','label':'/business/kombi-vorteile/kombi-pakete','event':'ctaClickLP','category':'CTA Klick LP'}" class="magat-btn magat-btn--secondary">mehr erfahren</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</li>
+
+
+
+
+
+            
+        
+        
+    </ul>
+</div>
+</div>
+
+    
+</div>
+
+</div>
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+</div>
+
+    
+</div>
+</div>
+
+        <!-- BACK-TO-TOP BEGIN -->
+        <div class="content-width container btn-top-container">
+            <a class="magat-btn btn btn-icon-before btn-top" tabindex="0">
+                <span aria-label="Scrolls back to top of the page" class="magenta-icon-angle-up"></span>
+                Nach oben
+            </a>
+        </div>
+        <!-- BACK-TO-TOP END -->
+    </div>
+    
+    
+        <!-- STICKY FOOTER -->
+        <div class="magat cmp-stickyfooter--wrapper fixed">
+<div data-component-path="stickyfooter" class="magat cmp-stickyfooter root responsivegrid container text-left  " data-uuid="stickyfooter-1124461923">
+    <div>
+    
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+
+    </div>
+</div>
+</div>
+
+        <!-- STICKY FOOTER END -->
+
+        
+        
+    
+    
+    
+    <magentaweb-badnet scope="stickybar"></magentaweb-badnet>
+    
+    <div id="curtain"></div>
+</main>
+<!-- Include Clientlib JS of configured clientlib categories at page template -->
+
+    
+<script type="text/javascript" src="/etc.clientlibs/magenta_at/magentaweb/clientlibs/clientlib-magentaweb.min.f60bd46def853bc0386d6f90bd97695c.js" defer></script><script type="text/javascript" src="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-base.min.1b0537f5c9eb696f8c1a002b5481a138.js" defer></script>
+
+
+
+<!-- Lazy loaded clientlibs -->
+
+    
+<script type="text/javascript" src="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-lazy.min.333193036d0056a8bc46fde37a1e8a80.js" defer></script><script type="text/javascript" src="/etc.clientlibs/magenta_at/mms/clientlibs/clientlib-react.min.cf7d12d056b060c9b22ca81b9ddf3c0a.js" defer></script>
+
+
+
+<!-- Init Login -->
+<script type="text/javascript">
+    if (Login === undefined) {
+        var Login;
+
+        var initLoginInterval = window.setInterval(function () {
+            if (typeof $ === 'function' && typeof $.fn.Login === 'function') {
+                window.clearInterval(initLoginInterval);
+                $(function () {
+                    Login = $('.cmp-overlay.magenta-login-overlay, [data-conditional-visibility-identifier="mobile-login-form"]').Login(
+                        {'config': {} });
+                });
+            }
+        }, 100);
+    }
+</script>
+    
+<div class="overlayCurtain" id="overlayCurtain"></div>
+
+
+
+    <div id="-1299625192" class="magat cmp-overlay  cmp-overlay--overlay-size-s" role="dialog" aria-modal="true" aria-label="Magenta Webmail Login">
+        <div class="overlay experiencefragment xfpage page basicpage consumer">
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="magat cmp-text aem-GridColumn aem-GridColumn--default--12">
+
+<div class="mt-s mb-s    ">
+    <p><span class="like-h2">Magenta Webmail Login</span></p>
+</div>
+
+    
+
+</div>
+<div class="button aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+
+
+<div class="magat cmp-button text-left ">
+    <a class="cmp-button__btn magat-btn magat-btn--jumbo magat-btn--full-width mt-s mb-none    " href="https://webmail.mymagenta.at/" target="_blank" role="link" data-conditional-visibility-trigger="false" data-tracking="{'buttonLocation':'','action':'Jetzt einloggen','label':'https://webmail.mymagenta.at/','event':'ctaClickLP','category':'CTA Klick LP'}">
+        <span class="sr-only">Öffnet in neuem Fenster</span>
+        
+        
+    <span class="magenta-icon-email magat-btn__icon-center"></span>
+
+        
+        
+        <p class="like-h5 mt-xs"><span>Jetzt einloggen</span></p>
+        <p style="margin-top: 5px;"></p>
+        
+    </a>
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+</div></div>
+
+        
+        <span class="close-overlay magenta-icon-close" role="button" tabindex="0"></span>
+    </div>
+
+
+
+
+
+<!-- Householdcheck Library -->
+
+
+
+
+
+
+
+
+    <iframe data-src-tgate-login="https://tgate.magenta.at/oauth/non-interactive?response_type=code&scope=www&client_id=www-AEM&redirect_uri=https://www.magenta.at/bin/public/tokencheck" data-src-tgate-check="https://www.magenta.at/bin/public/tokencheck?request=check" id="loginframe" name="loginframe" style="width: 0; height: 0; display: none;">
+    </iframe>
+
+
+
+    <iframe data-src="https://www.magenta.at/bin/public/tokencheck?request=cable-check" id="cablecheckframe" name="cablecheckframe" style="width: 0; height: 0; display: none;">
+    </iframe>
+
+
+
+        <div class="focus-elem"></div>
+    </body>
+</html>

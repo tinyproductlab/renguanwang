@@ -1,0 +1,2561 @@
+
+<!DOCTYPE html>
+<html lang="de" dir="ltr"    >
+<head >
+<link rel="preload" href="/resource/crblob/15154/e561f0d5b35e42c7a6d433ec516854d7/circularxxweb-black-woff-data.woff" as="font" type="font/woff"
+crossorigin>
+<link rel="preload" href="/resource/crblob/15158/a17c174382890a22c25cbc3cbaeb4581/circularxxweb-bold-woff-data.woff" as="font" type="font/woff"
+crossorigin>
+<link rel="preload" href="/resource/crblob/15150/822467f69201d21d2ccdbae5699a1bb0/circularxxsub-medium-woff-data.woff" as="font" type="font/woff"
+crossorigin>
+<link rel="preload" href="/resource/crblob/15162/e07f25bcb54951f2db49400627f37592/circularxxweb-book-woff-data.woff" as="font" type="font/woff"
+crossorigin>
+<link rel="preload" href="/resource/crblob/15262/4d689f6c40ca0b56eb96ea54f90147db/icons-woff2-data.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/resource/crblob/15284/8bd71ed1481bad6ac5d60c845bf0aebb/wpxp-bawag-icons-ttf-data.ttf" as="font" type="font/ttf"
+crossorigin>
+<link rel="preload" href="/resource/crblob/15272/9ff0d56fced23b642ebd3ef161d0a10f/socicon-ttf-data.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="/resource/themes/bawaggroup-base/css/bawaggroup-preload-25794-47.css" as="style"><link rel="preload" href="/resource/themes/bawaggroup-base/css/bawaggroup-base-15300-33.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/resource/themes/bawaggroup-base/js/commons-15294-23.js" as="script"><link rel="preload" href="/resource/themes/bawaggroup-base/js/bawaggroup-base-15292-52.js" as="script">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title >Error</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="CoreMedia CMS">
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" href="/resource/crblob/17010/ad82bea04e5c7dde3f6fb189ce03633e/bawag-favicon-data.ico"> <link rel="canonical" href="https://www.bawag.at/bawag/error">
+<link rel="alternate" hreflang="x-default" href="https://www.bawag.at/bawag/error">
+<link rel="alternate" hreflang="de" href="https://www.bawag.at/bawag/error">
+<link rel="stylesheet" href="/resource/themes/bawaggroup-base/css/bawaggroup-preload-25794-47.css" >
+<script src="/resource/themes/bawaggroup-base/js/chunkPathById-140918-11.js" ></script>
+<script>
+(function (f, u, s, e_, d, e, c, k, n_) {
+try{
+var cos = document.cookie.split(';');
+for (var i = 0; i < cos.length; i++) {var co = cos[i].trim().split('=');if (co[0] == 'fdTrackingType'+e) {c = co[1];}if (co[0] == 'fdEnvId') {k = co[1];}}
+f[d] = f[d] || [];window.addEventListener("load",function(){fdWinLoaded=!0});
+var p = u.getElementsByTagName(s)[0]; var sc = u.createElement(s); sc.async = true;
+sc.src = e_ + '?p=' + e + '&l=' + (d != null ? d : '') + (c != null ? '&c=' + c : '') + (k != null ? '&e=' + k : '') + '&h=' + encodeURIComponent(location.href) + (n_ != null ? '&a=' + encodeURIComponent(n_) : '');
+p.parentNode.insertBefore(sc, p);
+}catch(e){}
+})(window, document, 'script', 'https://fd.bawag.at/d/tm.js', null, '5j8pOC1ttH', null, null, null);
+</script><script src="https://consent-eu.cookiefirst.com/sites/bawag.at-ca197949-c592-4745-9a94-5ef845d0ed4c/consent.js"></script><style>
+.cookiefirst-root li:before {
+content: '\2714 \20';
+color: var(--banner-btn-primary-bg);
+font-weight: 900;
+margin-left: -20px;
+}
+.cookiefirst-root li::marker {
+content: '';
+}
+.cookiefirst-root .cf3dLT.cf1qTm:before {
+background-color: transparent;
+}
+.cookiefirst-root .cf3dLT.cf1qTm .cfUHd6 {
+background-color: currentColor;
+opacity: 1;
+}
+.cookiefirst-root u {
+text-decoration-thickness: unset;
+text-underline-offset: 3px;
+}
+.cookiefirst-root a:hover {
+text-decoration-color: var(--banner-accent-color) !important;
+}
+.cookiefirst-root a:focus {
+outline-color: var(--banner-accent-color) !important;
+}
+.cookiefirst-root :nth-child(2) {
+bottom: 40%;
+overflow: visible;
+}
+@media (max-height: 700px) {
+.cookiefirst-root :nth-child(2) {
+top: 10%;
+}
+.cookiefirst-root [data-cookiefirst-widget] {
+padding-bottom: 30px;
+}
+}
+@media screen and (max-width: 768px) {
+.cookiefirst-root :nth-child(2) {
+bottom: 0;
+}
+.cookiefirst-root [data-cookiefirst-widget] {
+width: 100% !important;
+max-width: unset !important;
+}
+}
+.cookiefirst-root [data-cookiefirst-widget] {
+max-width: 700px;
+height: fit-content;
+border-radius: 8px !important;
+}
+.cookiefirst-root [data-cookiefirst-widget]> :nth-child(2) {
+flex-direction: column;
+align-items: center;
+}
+.cookiefirst-root [data-cookiefirst-widget]> :nth-child(2) button {
+width: 100%;
+padding: 12px 10px !important;
+border-radius: 12px !important;
+}
+.cookiefirst-root button[data-cookiefirst-action='adjust'] {
+background: #fff !important;
+color: var(--banner-btn-primary-bg) !important;
+}
+.cookiefirst-root [data-cookiefirst-widget]> :nth-child(2)> :nth-child(1) {
+overflow: unset;
+}
+.cookiefirst-root [data-cookiefirst-widget]> :nth-child(2)> :nth-child(2) {
+max-width: 5000px;
+}
+.cookiefirst-root h2 {
+font-size: 1.5rem !important;
+}
+dialog[aria-labelledby='cookie-preference-panel-title'] {
+--modal-max-width: 510px;
+}
+/* Table */
+#cookiefirst-policy-page button {
+border: 2px solid;
+border-radius: 38px;
+cursor: pointer;
+display: inline-block;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 1.15;
+margin: 5px 0 0;
+min-height: 50px;
+padding: 12px 22px;
+position: relative;
+text-align: center;
+text-decoration: none;
+transition: background-color 0.3s ease-out;
+margin-right: 15px;
+}
+#cookiefirst-policy-page button:hover,
+#cookiefirst-policy-page button:active,
+#cookiefirst-policy-page button:focus {
+outline: 3px solid;
+outline-offset: 3px;
+}
+.cf3nSz.cf2pAE.cfAdwL.cf1IKf {
+flex-direction: column;
+width: 100% !important;
+max-width: 500px !important;
+}
+.cf3nSz.cf2pAE.cfAdwL.cf1IKf>* {
+max-width: 100%;
+}
+div[role='tabpanel'][id^='cookies']>div> :last-child,
+div[role='tabpanel'][id^='cookies']>div> :nth-last-child(2),
+#cookiefirst-policy-page table.table-sm th:nth-child(6) {
+display: none !important;
+}
+.cookiefirst-root a:hover {
+text-decoration-color: var(--banner-accent-color) !important;
+color: var(--banner-accent-color) !important;
+text-decoration: underline;
+}
+@media (min-width: 992px) {
+.cfysV4 {
+width: 100%!important;
+}
+}
+@media (min-width: 1200px) {
+.cf2mE1 {
+width: 100%!important;
+}
+}
+.cf2MAH {
+width: 100%!important;
+}
+</style>
+<script>
+function findAndRemoveRows() {
+const tdAndThElements = document.querySelectorAll('td, th');
+const targetTexts = ['Nicht klassifiziert', 'Unclassified'];
+let removedRows = 0;
+for (let element of tdAndThElements) {
+const cellText = element.textContent.trim();
+if (targetTexts.includes(cellText)) {
+const row = element.parentElement;
+if (row && row.tagName.toLowerCase() === 'tr') {
+row.remove();
+removedRows++;
+}
+}
+}
+if (removedRows > 0) {
+// Optionally log or handle
+}
+}
+function runAndRerunAll() {
+findAndRemoveRows();
+// addWbrToCookieDeclarationHeaders();
+setTimeout(() => {
+findAndRemoveRows();
+// addWbrToCookieDeclarationHeaders();
+}, 50);
+}
+function setupObservers() {
+runAndRerunAll();
+const observer = new MutationObserver(() => {
+runAndRerunAll();
+});
+observer.observe(document.body, {
+childList: true,
+subtree: true,
+});
+// Patch fetch
+const origFetch = window.fetch;
+window.fetch = function (...args) {
+return origFetch.apply(this, args).then((response) => {
+setTimeout(runAndRerunAll, 100);
+return response;
+});
+};
+// Patch XHR
+const origOpen = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function (...args) {
+this.addEventListener('load', function () {
+setTimeout(runAndRerunAll, 100);
+});
+return origOpen.apply(this, args);
+};
+}
+if (document.readyState === 'loading') {
+document.addEventListener('DOMContentLoaded', setupObservers);
+} else {
+setupObservers();
+}
+</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGPGJWR8');</script>
+<!-- End Google Tag Manager --><meta name="facebook-domain-verification" content="seusjn0h6iypu9w3siao8preqjgvqm" />
+<meta name="p:domain_verify" content="8cc46bcb4bc7311d66755c2578b275f5"/><meta http-equiv="Content-Security-Policy" content="frame-src 'self' *.bawag.at *.easybank.at www.youtube-nocookie.com newsletter.bawagpsk.com *.whatchado.com www.youtube.com *.adobe.com www.start-bausparkasse.at *.doubleclick.net *.pinterest.com www.bawag.at www-bawag-at-server-283629281977.europe-west12.run.app/"><style>
+/* Remove Breadcrumbs on Mobile */
+@media screen and (max-width: 769px) {
+section#section-0:has(.cm-breadcrumb) {
+display: none;
+}
+}
+.stageheader-slide__content__text .text--h3 {
+color: #333333;
+}
+.stageheader-slide__sloping {
+opacity: 0.6!important;
+}
+aside#floatingMenu .floatingMenu__item {
+background: white;
+box-shadow: 0 1px 4px #8c959f4d,0 6px 24px #8c959f66;
+}
+.floatingMenu__boxedcontent--icon {
+display:none;
+}
+.cm-slick-carousel.slick-dotted.slick-slider {
+padding-bottom: 0px;
+}
+/* STAGE MOBILE OPTIMIZATION */
+@media screen and (max-width: 768px) {
+.stageheader-slide__content {
+justify-content: space-between;
+}
+.stageheader-slide__content__text {
+padding-bottom:0!important;
+}
+}
+/* FIX Multiline Buttons - remove spacing right for last child */
+.cm-cta-button.cm-cta-button--more-link--inverted:last-child {
+padding-right:0;
+}
+/* STAGE HEADER BUTTONS */
+a.eb-sh-cta {
+display:inline-flex;
+padding:1rem;
+border-radius: 16px;
+box-shadow: 0px 6px 18px 0px #00000030;
+max-width: 340px;
+background: #fff;
+border: none;
+align-items: center;
+transition: none;
+color: #4a4a4a;
+text-decoration: none;
+margin:20px 0;
+}
+.eb-sh-cta-inline {
+margin: 10px 20px 10px 0 !important;
+box-shadow: 0px 6px 18px 0px #00000010;
+}
+a.eb-sh-cta:hover {
+box-shadow: 0px 12px 24px 0px #00000020;
+transform:scale(1.02) !important;
+text-decoration:none !important;
+}
+.eb-sh-cta.eb-sh-cta-inline:hover {
+box-shadow: 0px 6px 18px 0px #00000020;
+transform:none !important;
+}
+.eb-sh-cta img {
+margin:0;
+}
+img.eb-sh-cta-img {
+width: 53px;
+height: 53px;
+}
+.eb-sh-cta-label {
+font-size: 1.438rem;
+line-height: 1.438rem;
+font-weight:700 !important;
+text-align: left;
+padding: 0 10px 0 15px;
+text-decoration:none !important;
+}
+.eb-sh-cta-label:hover {
+text-decoration:none !important;
+}
+@media only screen and (max-width: 400px) {
+.eb-sh-cta-label {
+font-size: 1.25rem;
+line-height: 1.25rem;
+}
+.eb-sh-cta {
+padding: 0.7rem;
+}
+}
+@media screen and (max-width: 768px) {
+.threeColumnsCarousel ul.slick-dots {
+bottom: -10px;
+}
+}
+</style><script>
+function hideElementsBasedOnEnv() {
+try {
+const urlParams = new URLSearchParams(window.location.search);
+const env = urlParams.get('env');
+const spec = urlParams.get('spec');
+if (env === 'app') {
+if (spec) {
+// New version with specific section control
+handleSpecificSections(spec, urlParams);
+} else {
+// Original script for backwards compatibility
+try {
+document.querySelector('header').classList.add('env-app-hide');
+} catch (e) {}
+try {
+document.querySelector('footer').classList.add('env-app-hide');
+} catch (e) {}
+try {
+document.getElementById('section-0').classList.add('env-app-hide');
+} catch (e) {}
+try {
+document.getElementById('postFooter').classList.add('env-app-hide');
+} catch (e) {}
+try {
+document.getElementById('floatingMenu').classList.add('env-app-hide');
+} catch (e) {}
+try {
+document.getElementById('back-to-top').classList.add('env-app-hide');
+} catch (e) {}
+try {
+document.getElementById('Chatbot').classList.add('env-app-hide');
+} catch (e) {}
+}
+} else if (env === 'dropdown') {
+try {
+document.querySelectorAll('.main-menu__dropdown, .mobile-menu__dropdown, #section-0').forEach(function(el) {
+el.classList.add('env-app-hide');
+});
+} catch (e) {}
+try {
+const mainContentFirstDiv = document.querySelector('#main-content > div');
+if (mainContentFirstDiv) mainContentFirstDiv.classList.add('env-app-hide');
+} catch (e) {}
+}
+} catch (e) {
+// Suppress errors
+}
+}
+function handleSpecificSections(spec, urlParams) {
+try {
+// Define available elements that can be hidden
+const availableElements = {
+'header': () => document.querySelector('header'),
+'footer': () => document.querySelector('footer'),
+'section-0': () => document.getElementById('section-0'),
+'section-1': () => document.getElementById('section-1'),
+'section-2': () => document.getElementById('section-2'),
+'section-3': () => document.getElementById('section-3'),
+'section-4': () => document.getElementById('section-4'),
+'section-5': () => document.getElementById('section-5'),
+'section-5': () => document.getElementById('section-5'),
+'section-6': () => document.getElementById('section-6'),
+'section-7': () => document.getElementById('section-7'),
+'section-8': () => document.getElementById('section-8'),
+'section-9': () => document.getElementById('section-9'),
+'section-10': () => document.getElementById('section-10'),
+'postFooter': () => document.getElementById('postFooter'),
+'floatingMenu': () => document.getElementById('floatingMenu'),
+'back-to-top': () => document.getElementById('back-to-top'),
+'chatbot': () => document.getElementById('Chatbot')
+};
+// Parse sections to hide (comma-separated)
+const sectionsToHide = spec.split(',').map(s => s.trim());
+// Check for additional parameters
+const hideHeader = urlParams.get('header') === 'hide';
+const hideFooter = urlParams.get('footer') === 'hide';
+const hideChatbot = urlParams.get('chatbot') === 'hide';
+// Hide specified sections
+sectionsToHide.forEach(sectionKey => {
+if (availableElements[sectionKey]) {
+try {
+const element = availableElements[sectionKey]();
+if (element) {
+element.classList.add('env-app-hide');
+// For sections (section-0 to section-8), also hide the direct parent
+if (sectionKey.startsWith('section-')) {
+const parent = element.parentElement;
+if (parent) {
+parent.classList.add('env-app-hide');
+}
+}
+}
+} catch (e) {}
+}
+});
+// Handle additional parameters
+if (hideHeader) {
+try {
+const headerElement = availableElements['header']();
+if (headerElement) headerElement.classList.add('env-app-hide');
+} catch (e) {}
+}
+if (hideFooter) {
+try {
+const footerElement = availableElements['footer']();
+if (footerElement) footerElement.classList.add('env-app-hide');
+} catch (e) {}
+}
+if (hideChatbot) {
+try {
+const chatbotElement = availableElements['chatbot']();
+if (chatbotElement) chatbotElement.classList.add('env-app-hide');
+} catch (e) {}
+}
+} catch (e) {
+// Suppress errors
+}
+}
+document.addEventListener('DOMContentLoaded', function() {
+hideElementsBasedOnEnv();
+// Run on DOM changes (after body is available)
+const envAppHideObserver = new MutationObserver(hideElementsBasedOnEnv);
+envAppHideObserver.observe(document.body, { childList: true, subtree: true });
+});
+// Run after page fully loads
+window.addEventListener('load', hideElementsBasedOnEnv);
+</script>
+<style>
+.env-app-hide {
+display: none !important;
+}
+</style><style>
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
+.custom {
+max-width: 700px;
+display: block;
+}
+}
+@media screen and (max-width: 768px) {
+.stageheader-slide__content__text .cta-wrapper, .stageheader-slide__content__text .text-wrapper {
+padding: 0;
+padding-bottom: 50px;
+}
+}
+</style><style>
+.stageheader .carousel-autoplay-control {
+align-items: center;
+display: flex;
+height: 1.5rem;
+justify-content: center;
+line-height: 1;
+width: 1.5rem;
+z-index: 1;
+top: 8px;
+left:8px;
+border-radius: 5px;
+}
+.stageheader .carousel-autoplay-control[aria-pressed=true] {
+background-color: #fff!important;
+color: #000!important;
+}
+</style>
+<script>
+function syncAutoplayIcon(button) {
+const icon = button.querySelector('i');
+if (!icon) return;
+const isPressed = button.getAttribute('aria-pressed') === 'false';
+icon.classList.toggle('mi-pause', isPressed);
+icon.classList.toggle('mi-play', !isPressed);
+}
+function initAutoplayControls() {
+document.querySelectorAll('.carousel-autoplay-control[aria-pressed]').forEach(el => {
+syncAutoplayIcon(el);
+el.addEventListener('click', () => {
+requestAnimationFrame(() => {
+syncAutoplayIcon(el);
+});
+});
+});
+}
+document.addEventListener('DOMContentLoaded', initAutoplayControls);
+</script><script src="https://bawag.at/resource/themes/bawag/js/common/renderer.js" async></script><script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Organization",
+"name": "BAWAG",
+"url": "https://www.bawag.at/",
+"logo": "https://www.bawag.at/resource/blob/17278/1/bawag-logo-data.svg",
+"sameAs": [
+"https://www.instagram.com/bawag.bank/",
+"https://www.youtube.com/@BAWAGvideo",
+"https://de.wikipedia.org/wiki/BAWAG",
+"https://www.facebook.com/bawag.bank"
+]
+}
+</script></head><body id="top"
+class=""
+data-tracking="[{&quot;pageType&quot;:&quot;Home Page&quot;,&quot;productGroup&quot;:&quot;&quot;,&quot;productName&quot;:&quot;&quot;}]"
+>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGPGJWR8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header id="header-content" class=" " tabindex="-1">
+<div class="header header--fixed">
+<a href="#main-content" class="skip-link" data-btattached="true" tabindex="0">Weiter zum Inhalt</a>
+<a href="#footer-content" class="skip-link" data-btattached="true" tabindex="0">Weiter zur Fußzeile</a>
+<div class="header__top-menu">
+<div class="header__container">
+<nav class="top-menu--buttons" aria-label="Quicklinks und Tools">
+<ul>
+<li class="main-menu__dropdown">
+<div class="dropdown">
+<ul class="dropdown__ul" role="menu">
+<li class="dropdown__li firstliElement firstBoxShownAlone" role="menuitem" ><button type="button" aria-expanded="false" aria-haspopup="true" class="dropdown__opener click visible">Privatkunden</button></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/businesskunden/sb" >Businesskunden</a></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/cb" >Großkunden</a></li><li class="dropdown__li lastliElement" role="menuitem" style="display: none" ><a tabindex="0" href="/bawag/ueber-uns" >Über uns</a></li> </ul>
+</div> </li>
+<li class="cm-cta button-container" >
+<a href="https://filialsuche.bawag.at/" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-location" aria-hidden="true"></i><span>Filialfinder</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="/bawag/ueber-uns/karriere" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-users" aria-hidden="true"></i><span>Karriere</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="/bawag/privatkunden/kinder-jugend" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-home" aria-hidden="true"></i><span>Familie</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="https://hilfe.bawag.at/bawag-faq/" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-circle-information" aria-hidden="true"></i><span>Hilfe</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="https://markets.bawag.at/wertpapiere/intro" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-bar-chart-alt" aria-hidden="true"></i><span>Markets</span> </a>
+</li>
+<li class="search">
+<button type="button" class="searchButton" aria-haspopup="true" aria-expanded="false" aria-label="Suche">
+<i class="mi-search"></i>
+</button>
+<div class="search-form" aria-hidden="true">
+<form class="cm-search--form" action="/service/bawagGroupSearch/bawag/17292" autocomplete="off" role="search">
+<div class="cm-search__form-fieldset">
+<input id="search1-4ksrxyda7sqoo47l8r5y3hf80"
+type="search"
+class="cm-search__form-input"
+name="query"
+value=""
+placeholder="Suchbegriff"
+minlength="3" required
+aria-haspopup="true"
+aria-expanded="false"
+aria-controls="search-autocomplete__listbox-search1-4ksrxyda7sqoo47l8r5y3hf80"
+aria-label="Suche"
+data-suggestion="/service/bawagGroupSearch/bawag/17292?suggestion=true"
+role="combobox" />
+<button type="submit" aria-label="Suche"><i class="cm-search--icon mi-search"></i></button>
+<div role="status" aria-live="polite" aria-atomic="true" class="search-result-status sr-only"></div>
+<span class="search-results-info--singular hidden">Ergebnis</span>
+<span class="search-results-info--plural hidden">Ergebnisse</span>
+<span class="search-results-info--controls hidden">Verwenden Sie die Pfeiltasten zum Navigieren</span>
+</div>
+<div class="cm-search--form__flyout">
+<ul id="search-autocomplete__listbox-search1-4ksrxyda7sqoo47l8r5y3hf80" class="autocomplete" aria-label="Suche" role="listbox"></ul>
+<button type="button" class='cm-search__show-all-link' data-attr="/service/bawagGroupSearch/bawag/17292?query=">Alle Ergebnisse anzeigen</button>
+</div>
+</form> </div>
+</li>
+<li class="cm-cta button-container button-container--secondButtons" >
+<a href="https://ebanking.bawag.at/" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--secondary cm-cta-button--theme ">
+<i class="mi-user" aria-hidden="true"></i><span>LOGIN</span> </a>
+</li>
+</ul>
+</nav>
+</div>
+</div><div class="header__main-menu">
+<div class="header__container">
+<nav class="main-menu__page-nav" aria-label="Home und Subseiten">
+<ul>
+<li class="main-menu__home-link ">
+<a href="/bawag/privatkunden" aria-label="Bawag">
+<span class="svg-wrapper">
+<span class="xx-image xx-image__svg " data-src="/resource/crblob/17278/ae0e7214309c4545956d80aa8190d1f7/bawag-logo-data.svg" data-alt="">
+</span>
+</span> </a>
+</li>
+<li class="main-menu__dropdown">
+<div class="dropdown">
+<ul class="dropdown__ul" role="menu">
+<li class="dropdown__li firstliElement firstBoxShownAlone" role="menuitem" ><button type="button" aria-expanded="false" aria-haspopup="true" class="dropdown__opener click visible">Privatkunden</button></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/businesskunden/sb" >Businesskunden</a></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/cb" >Großkunden</a></li><li class="dropdown__li lastliElement" role="menuitem" style="display: none" ><a tabindex="0" href="/bawag/ueber-uns" >Über uns</a></li> </ul>
+</div> </li>
+</ul>
+</nav>
+<nav class="main-menu__items" aria-label="Produkte und Services">
+<ul>
+<li >
+<div class="megadropdown twoColumnsMegadropdown ">
+<button
+type="button"
+aria-expanded="false"
+aria-haspopup="true"
+class="dropdown-link megadropdown__link"
+>
+<shy>Konto & Karten</shy>
+</button>
+<div class="dd-menu">
+<div class="dropdown-content">
+<div class="row">
+<ul class="col-lg-6 col-md-6 first-level" aria-label="Konto &amp; Karten">
+<li class="menu-item" data-subid="0" >
+<a href="/bawag/privatkunden/konto-karte" class="submenu-opener" aria-haspopup="true" aria-expanded="true" onClick="s_objectID=&#39;Konto&#39;;">
+<span class="menu-item--label">
+Konto
+</span>
+</a>
+<ul data-subid="0" class="second-level" aria-label="Konto">
+<li><p>Unsere Produkte:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/kontobox-large" class="submenu-opener" onClick="s_objectID=&#39;KontoBox Large&#39;;">
+<span class="menu-item--label">
+KontoBox Large
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/kontobox-small" class="submenu-opener" onClick="s_objectID=&#39;Kontobox Small&#39;;">
+<span class="menu-item--label">
+KontoBox Small
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/online-konto" class="submenu-opener">
+<span class="menu-item--label">
+Online Konto
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/kontobox-studenten" class="submenu-opener" onClick="s_objectID=&#39;Studenten KontoBox&#39;;">
+<span class="menu-item--label">
+Studentenkonto
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/jugendkonto" class="submenu-opener" onClick="s_objectID=&#39;B4-19 KontoBox&#39;;">
+<span class="menu-item--label">
+Jugendkonto
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/lehrlingskonto" class="submenu-opener" onClick="s_objectID=&#39;B4-19 Lehrlingskonto&#39;;">
+<span class="menu-item--label">
+Lehrlingskonto
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/kinderkonto" class="submenu-opener" onClick="s_objectID=&#39;Safe and Cool Karte&#39;;">
+<span class="menu-item--label">
+Kinderkonto
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="1" >
+<a href="/bawag/privatkunden/kreditkarte" class="submenu-opener" aria-haspopup="true" aria-expanded="true" onClick="s_objectID=&#39;Kreditkarte&#39;;">
+<span class="menu-item--label">
+Kreditkarte
+</span>
+</a>
+<ul data-subid="1" class="second-level" aria-label="Kreditkarte">
+<li><p>Unsere Produkte:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-weiss" class="submenu-opener" onClick="s_objectID=&#39;Kreditkarte WEISS&#39;;">
+<span class="menu-item--label">
+Kreditkarte WEISS
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-gold" class="submenu-opener" onClick="s_objectID=&#39;Kreditkarte GOLD&#39;;">
+<span class="menu-item--label">
+Kreditkarte GOLD
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-gold-studenten" class="submenu-opener" onClick="s_objectID=&#39;GOLD für Studenten&#39;;">
+<span class="menu-item--label">
+GOLD für Studenten
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-lehrlinge" class="submenu-opener">
+<span class="menu-item--label">
+GOLD für Lehrlinge
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="2" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Services
+</span>
+</button>
+<ul data-subid="2" class="second-level" aria-label="Services">
+<li><p>Unsere Services:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/konto-karte/kontokarte" class="submenu-opener" onClick="s_objectID=&#39;Kontokarte&#39;;">
+<span class="menu-item--label">
+Kontokarte
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/apple-pay" class="submenu-opener" onClick="s_objectID=&#39;Apple Pay&#39;;">
+<span class="menu-item--label">
+Apple Pay
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/google-pay" class="submenu-opener">
+<span class="menu-item--label">
+Google Pay
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/services-infos/3dsecure" class="submenu-opener" onClick="s_objectID=&#39;3D Secure&#39;;">
+<span class="menu-item--label">
+3D Secure
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/services-infos/zahlungen" class="submenu-opener">
+<span class="menu-item--label">
+Zahlungsverkehr
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/kontowechselservice" class="submenu-opener">
+<span class="menu-item--label">
+Kontowechselservice
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/services-infos/buchungsreklamation" class="submenu-opener" onClick="s_objectID=&#39;Buchungsreklamation&#39;;">
+<span class="menu-item--label">
+Buchungsreklamation
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="https://services.bawag.at/generic-forms" class="submenu-opener">
+<span class="menu-item--label">
+Anträge/Bestätigungen/Änderungen
+</span>
+</a>
+</li> </ul>
+</li> <li class="targets">
+<div class="cm-cta " >
+<a href="/bawag/empfehlung" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Konto empfehlen</span> </a>
+<a href="https://www.bawag.at/bawag/privatkunden/konto-prozente" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Konto Prozente</span> </a>
+<a href="https://konto.bawag.at/" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Konto eröffnen</span> </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li><li >
+<div class="megadropdown twoColumnsMegadropdown ">
+<button
+type="button"
+aria-expanded="false"
+aria-haspopup="true"
+class="dropdown-link megadropdown__link"
+>
+Finanzieren
+</button>
+<div class="dd-menu">
+<div class="dropdown-content">
+<div class="row">
+<ul class="col-lg-6 col-md-6 first-level" aria-label="Finanzieren">
+<li class="menu-item" data-subid="0" >
+<a href="/bawag/privatkunden/finanzieren" class="submenu-opener" aria-haspopup="true" aria-expanded="true" onClick="s_objectID=&#39;Kredite&#39;;">
+<span class="menu-item--label">
+Konsumkredite<br>
+</span>
+</a>
+<ul data-subid="0" class="second-level" aria-label="Konsumkredite&lt;br&gt;">
+<li><p>Unsere Produkte</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/onlinekredit" class="submenu-opener" onClick="s_objectID=&#39;Online Kredit&#39;;">
+<span class="menu-item--label">
+Online Kredit
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/leasing" class="submenu-opener" onClick="s_objectID=&#39;Leasing&#39;;">
+<span class="menu-item--label">
+Leasing
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/kredit" class="submenu-opener" onClick="s_objectID=&#39;Kredit mit Beratung&#39;;">
+<span class="menu-item--label">
+Kredit mit Beratung
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="1" >
+<a href="/bawag/privatkunden/finanzieren/wohnkredite" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Wohnkredite
+</span>
+</a>
+<ul data-subid="1" class="second-level" aria-label="Wohnkredite">
+<li><p>Unsere Produkte</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/wohnkredit" class="submenu-opener" onClick="s_objectID=&#39;Wohnkredit&#39;;">
+<span class="menu-item--label">
+Wohnkredit Klassisch
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/gruenes-finanzieren/gruenes-wohnen" class="submenu-opener">
+<span class="menu-item--label">
+Wohnkredit Grün
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/wohnkredite/wohnkredit-smart" class="submenu-opener">
+<span class="menu-item--label">
+Wohnkredit Smart
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/wohnkredite/wohnkredit-lebenstraum" class="submenu-opener">
+<span class="menu-item--label">
+Wohnkredit Lebenstraum
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/wohnkredite/wohnkredit-flex" class="submenu-opener">
+<span class="menu-item--label">
+Wohnkredit Flex
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="2" >
+<a href="/bawag/privatkunden/finanzieren/gruenes-finanzieren" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Nachhaltiges Finanzieren<br>
+</span>
+</a>
+<ul data-subid="2" class="second-level" aria-label="Nachhaltiges Finanzieren&lt;br&gt;">
+<li><p>Unsere Produkte</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/gruenes-finanzieren/gruener-konsumkredit" class="submenu-opener">
+<span class="menu-item--label">
+Nachhaltiger Konsumkredit
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/gruenes-finanzieren/gruenes-wohnen" class="submenu-opener">
+<span class="menu-item--label">
+Wohnkredit Grün
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="3" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Services
+</span>
+</button>
+<ul data-subid="3" class="second-level" aria-label="Services">
+<li><p>Unsere Services</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/services-infos/rechner/kreditrechner" class="submenu-opener">
+<span class="menu-item--label">
+Kreditrechner
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/finanzieren/stundung" class="submenu-opener" onClick="s_objectID=&#39;Kreditstundung&#39;;">
+<span class="menu-item--label">
+Kreditstundung
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/versichern/absicherung-kredit#rundumschutz" class="submenu-opener" onClick="s_objectID=&#39;Absicherung&#39;;">
+<span class="menu-item--label">
+Absicherung (optional)
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="https://mein-upload.bawaggroup.com/main/bawag" class="submenu-opener" onClick="s_objectID=&#39;Mein Upload&#39;;">
+<span class="menu-item--label">
+Mein Upload
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="https://services.bawag.at/generic-forms" class="submenu-opener">
+<span class="menu-item--label">
+Anträge/Bestätigungen/Änderungen
+</span>
+</a>
+</li> </ul>
+</li> <li class="targets">
+<div class="cm-cta " >
+<a href="https://wohnkredit.bawag.at/" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Wohnkredit anfragen</span> </a>
+<a href="https://kreditrechner.bawag.at/?standalone=true" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Online Kredit beantragen</span> </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li><li >
+<div class="megadropdown twoColumnsMegadropdown ">
+<button
+type="button"
+aria-expanded="false"
+aria-haspopup="true"
+class="dropdown-link megadropdown__link"
+>
+Investieren
+</button>
+<div class="dd-menu">
+<div class="dropdown-content">
+<div class="row">
+<ul class="col-lg-6 col-md-6 first-level" aria-label="Investieren">
+<li class="menu-item" data-subid="0" >
+<a href="/bawag/privatkunden/investieren/depot" class="submenu-opener" aria-haspopup="true" aria-expanded="true" onClick="s_objectID=&#39;Wertpapierdepots&#39;;">
+<span class="menu-item--label">
+Wertpapierdepots
+</span>
+</a>
+<ul data-subid="0" class="second-level" aria-label="Wertpapierdepots">
+<li><p>Unsere Produkte:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/depot/online-depot" class="submenu-opener" onClick="s_objectID=&#39;Online Depot&#39;;">
+<span class="menu-item--label">
+Online Depot
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/depot/premium-depot" class="submenu-opener" onClick="s_objectID=&#39;Premium Depot&#39;;">
+<span class="menu-item--label">
+Premium Depot
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/depot/starter-depot" class="submenu-opener" onClick="s_objectID=&#39;Starter Depot&#39;;">
+<span class="menu-item--label">
+Starter Depot
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/depot/starter-depot-flat" class="submenu-opener">
+<span class="menu-item--label">
+Starter Depot Flat
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/depot/familiendepot" class="submenu-opener">
+<span class="menu-item--label">
+Depotzusatz: Familiendepot
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="1" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Fonds, ETFs & Sparpläne
+</span>
+</button>
+<ul data-subid="1" class="second-level" aria-label="Fonds, ETFs &amp; Sparpläne">
+<li><p>Unsere Produkte</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/premium-selection-fonds" class="submenu-opener">
+<span class="menu-item--label">
+Premium Selection Fonds
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/fondsselect" class="submenu-opener" onClick="s_objectID=&#39;Best in class Fonds&#39;;">
+<span class="menu-item--label">
+Best in Class Fonds
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/themenfonds" class="submenu-opener">
+<span class="menu-item--label">
+Themenfonds
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/sparen/fondssparen" class="submenu-opener" onClick="s_objectID=&#39;FondsSparen&#39;;">
+<span class="menu-item--label">
+Fondssparen
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/etf-sparplan" class="submenu-opener" onClick="s_objectID=&#39;ETF Sparplan&#39;;">
+<span class="menu-item--label">
+ETF Sparplan
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/amundi-etf-etc" class="submenu-opener" onClick="s_objectID=&#39;ETFs und ETCs&#39;;">
+<span class="menu-item--label">
+ETFs und ETCs
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="2" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Anleihen
+</span>
+</button>
+<ul data-subid="2" class="second-level" aria-label="Anleihen ">
+<li><p>Unsere Produkte</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/bawag-anleihe-at0000a3w2c7-2026-2031" class="submenu-opener">
+<span class="menu-item--label">
+Anleihe 3,2% 2026–2031
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wohnbaubankanleihe-at0000a3tk23-2026-2036" class="submenu-opener">
+<span class="menu-item--label">
+Wohnbauanleihe 3,30% 2026–2036<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/bawag-anleihe-at0000a3rcr8-2026-2033" class="submenu-opener">
+<span class="menu-item--label">
+Anleihe 3% 2026-2033<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wohnbaubankanleihe-at0000a3mnn5-2025-2035" class="submenu-opener">
+<span class="menu-item--label">
+Anleihe 2.80% 2025-2035<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wohnbaubankanleihe-at0000a3d5f6-2024-2034" class="submenu-opener">
+<span class="menu-item--label">
+Anleihe 3.10% 2024-2034<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wohnbaubank-wandelschuldverschreibung" class="submenu-opener">
+<span class="menu-item--label">
+Anleihe 3.70% 2023-2033<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wohnbaubank-anleihe" class="submenu-opener">
+<span class="menu-item--label">
+Anleihe 3,75% 2023-2026<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="3" >
+<a href="/bawag/privatkunden/versichern" class="submenu-opener" aria-haspopup="true" aria-expanded="true" onClick="s_objectID=&#39;Versichern&#39;;">
+<span class="menu-item--label">
+Versichern
+</span>
+</a>
+<ul data-subid="3" class="second-level" aria-label="Versichern">
+<li><p>Unsere Produkte:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/versichern/pensionsvorsorge" class="submenu-opener">
+<span class="menu-item--label">
+Pensionsvorsorge
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/versichern/absicherung-kredit" class="submenu-opener">
+<span class="menu-item--label">
+Absicherung Kredit
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="4" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Services
+</span>
+</button>
+<ul data-subid="4" class="second-level" aria-label="Services">
+<li><p>Unsere Services</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wertpapierservice" class="submenu-opener" onClick="s_objectID=&#39;eBanking Broker&#39;;">
+<span class="menu-item--label">
+eBanking Broker
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/rechtliches/aktionaersrichtlinien" class="submenu-opener" onClick="s_objectID=&#39;Informationsblatt&#39;;">
+<span class="menu-item--label">
+Informationsblatt zur 2. Aktionärsrechte-Richtlinie
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/investieren/wertpapiere" class="submenu-opener">
+<span class="menu-item--label">
+Informationen zu Wertpapieren
+</span>
+</a>
+</li> </ul>
+</li> <li class="targets">
+<div class="cm-cta " >
+<a href="/bawag/privatkunden/investieren/investieren-fuer-anfaenger" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Investieren für Anfänger</span> </a>
+<a href="/bawag/privatkunden/investieren/fondsselect" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Best in Class investieren</span> </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li><li >
+<div class="megadropdown twoColumnsMegadropdown ">
+<button
+type="button"
+aria-expanded="false"
+aria-haspopup="true"
+class="dropdown-link megadropdown__link"
+>
+Sparen
+</button>
+<div class="dd-menu">
+<div class="dropdown-content">
+<div class="row">
+<ul class="col-lg-6 col-md-6 first-level" aria-label="Sparen">
+<li class="menu-item" data-subid="0" >
+<a href="/bawag/privatkunden/sparen" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Sparkonten
+</span>
+</a>
+<ul data-subid="0" class="second-level" aria-label="Sparkonten">
+<li><p>Unsere Produkte</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/sparen/sparbox-flex" class="submenu-opener">
+<span class="menu-item--label">
+SparBox Flex
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/sparen/sparbox-fix" class="submenu-opener">
+<span class="menu-item--label">
+SparBox Fix
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/sparen/jugendsparen" class="submenu-opener">
+<span class="menu-item--label">
+Jugendsparen
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/sparen/anlagekombi" class="submenu-opener" onClick="s_objectID=&#39;AnlageKombi&#39;;">
+<span class="menu-item--label">
+AnlageKombi
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="1" >
+<a href="/bawag/privatkunden/sparen/bausparen/start-bausparkasse" class="submenu-opener">
+<span class="menu-item--label">
+Bausparen
+</span>
+</a>
+</li> <li class="targets">
+<div class="cm-cta " >
+<a href="/bawag/privatkunden/sparen" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>SparBox beantragen</span> </a>
+<a href="/bawag/privatkunden/sparen/fondssparen" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Zum Fondssparen</span> </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li><li >
+<div class="megadropdown twoColumnsMegadropdown ">
+<button
+type="button"
+aria-expanded="false"
+aria-haspopup="true"
+class="dropdown-link megadropdown__link"
+>
+eBanking & App
+</button>
+<div class="dd-menu">
+<div class="dropdown-content">
+<div class="row">
+<ul class="col-lg-6 col-md-6 first-level" aria-label="eBanking &amp; App">
+<li class="menu-item" data-subid="0" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Online Banking
+</span>
+</button>
+<ul data-subid="0" class="second-level" aria-label="Online Banking">
+<li><p>Unsere Tools:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/ebanking-apps/onlinebanking" class="submenu-opener" onClick="s_objectID=&#39;eBanking&#39;;">
+<span class="menu-item--label">
+eBanking
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/ebanking-apps/bawag-app" class="submenu-opener" onClick="s_objectID=&#39;BAWAG App&#39;;">
+<span class="menu-item--label">
+BAWAG Banking App
+</span>
+</a>
+</li> </ul>
+</li><li class="menu-item" data-subid="1" >
+<button type="button" class="submenu-opener" aria-haspopup="true" aria-expanded="true">
+<span class="menu-item--label">
+Services
+</span>
+</button>
+<ul data-subid="1" class="second-level" aria-label="Services">
+<li><p>Unsere Produkte:</p></li>
+<li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/services-infos/3dsecure" class="submenu-opener" onClick="s_objectID=&#39;3D Secure&#39;;">
+<span class="menu-item--label">
+3D Secure
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/apple-pay" class="submenu-opener" onClick="s_objectID=&#39;Apple Pay&#39;;">
+<span class="menu-item--label">
+Apple Pay
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/google-pay" class="submenu-opener">
+<span class="menu-item--label">
+Google Pay
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/services-infos/buchungsreklamation" class="submenu-opener" onClick="s_objectID=&#39;Buchungsreklamation&#39;;">
+<span class="menu-item--label">
+Buchungsreklamation
+</span>
+</a>
+</li><li class="menu-item" data-subid="" >
+<a href="/bawag/privatkunden/ebanking-apps/videoanleitung" class="submenu-opener">
+<span class="menu-item--label">
+Videoanleitungen für die BAWAG App
+</span>
+</a>
+</li> </ul>
+</li> <li class="targets">
+<div class="cm-cta " >
+<a href="https://ebanking-portal.bawag.at/ebanking-registration/personal-info" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>eBanking registrieren</span> </a>
+<a href="https://services.bawag.at/main?formName=unlock-ebanking" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>eBanking Zugang wiederherstellen</span> </a>
+<a href="https://services.bawag.at/main?formName=unlock-app" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>App Zugang wiederherstellen</span> </a>
+<a href="https://ebanking-portal.bawag.at/forgot-customer-number?lang=de" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button cm-cta-button--more-link ">
+<span>Verfügernummer vergessen</span> </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li> </ul> </nav>
+<div class="main-menu__buttons">
+</div>
+<div class="main-menu__mobile-buttons">
+<div class="main-menu__burger-menu">
+<button type="button" aria-label="Öffne Menü" aria-expanded="false" aria-haspopup="true"
+class="menu-button mobile-nav-toggle">
+<span class="top-line"></span>
+<span class="middle-line"></span>
+<span class="bottom-line"></span>
+</button>
+<div class="mobile-menu__bg"></div>
+<div class="mobile-menu">
+<div class="mobile-menu--content">
+<div class="mobile-menu__dropdown">
+<div class="dropdown">
+<ul class="dropdown__ul" role="menu">
+<li class="dropdown__li firstliElement firstBoxShownAlone" role="menuitem" ><button type="button" aria-expanded="false" aria-haspopup="true" class="dropdown__opener click visible">Privatkunden</button></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/businesskunden/sb" >Businesskunden</a></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/cb" >Großkunden</a></li><li class="dropdown__li" role="menuitem" style="display:none" ><a tabindex="0" href="/bawag/ueber-uns" >Über uns</a></li><li class="dropdown__li lastliElement" role="menuitem" style="display: none" ><a tabindex="0" href="/bawag/ueber-uns/karriere" >Karriere</a></li> </ul>
+</div> </div>
+<div class="mobile-menu__items">
+<nav aria-label="">
+<ul class="mobile-menu__parentList" role="menubar">
+<li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__dropdown-link" >
+<shy> Konto und Karten </shy>
+</button>
+<div class="dd-mobileMenu">
+<ul class="dd-mobileMenu__subItemsWrapper">
+<li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Konto
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/businesskunden/sb/konto-karte" class="mobile-menu__subsubitems" >
+Alle Konten
+</a>
+</li><li>
+<a href="/bawag/privatkunden/konto-karte/kontobox-small" class="mobile-menu__subsubitems" >
+KontoBox Small
+</a>
+</li><li>
+<a href="/bawag/privatkunden/konto-karte/kontobox-large" class="mobile-menu__subsubitems" >
+KontoBox Large
+</a>
+</li><li>
+<a href="/bawag/privatkunden/konto-karte/jugendkonto" class="mobile-menu__subsubitems" >
+Jugendkonto
+</a>
+</li><li>
+<a href="/bawag/privatkunden/konto-karte/kontobox-studenten" class="mobile-menu__subsubitems" >
+Studentenkonto
+</a>
+</li><li>
+<a href="/bawag/privatkunden/konto-karte/kinderkonto" class="mobile-menu__subsubitems" >
+Kinderkonto
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Kreditkarte
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/businesskunden/sb/karten" class="mobile-menu__subsubitems" >
+Alle Kreditkarten
+</a>
+</li><li>
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-weiss" class="mobile-menu__subsubitems" >
+Kreditkarte WEISS
+</a>
+</li><li>
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-gold" class="mobile-menu__subsubitems" >
+Kreditkarte GOLD
+</a>
+</li><li>
+<a href="/bawag/privatkunden/kreditkarte/kreditkarte-gold-studenten" class="mobile-menu__subsubitems" >
+GOLD für Studenten
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Services
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/konto-karte/kontokarte" class="mobile-menu__subsubitems" >
+Kontokarte
+</a>
+</li><li>
+<a href="/bawag/apple-pay" class="mobile-menu__subsubitems" >
+Apple Pay
+</a>
+</li><li>
+<a href="/bawag/google-pay" class="mobile-menu__subsubitems" >
+Google Pay
+</a>
+</li><li>
+<a href="/bawag/privatkunden/services-infos/3dsecure" class="mobile-menu__subsubitems" >
+3D Secure
+</a>
+</li><li>
+<a href="/bawag/privatkunden/services-infos/zahlungen" class="mobile-menu__subsubitems" >
+Zahlungsverkehr
+</a>
+</li><li>
+<a href="/bawag/privatkunden/kontowechselservice" class="mobile-menu__subsubitems" >
+Kontowechselservice
+</a>
+</li><li>
+<a href="/bawag/privatkunden/services-infos/buchungsreklamation" class="mobile-menu__subsubitems" >
+Buchungsreklamation
+</a>
+</li><li>
+<a href="https://services.bawag.at/generic-forms" class="mobile-menu__subsubitems" >
+Anträge/Bestätigungen/Änderungen
+</a>
+</li> </ul>
+</div>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__dropdown-link" >
+Finanzieren
+</button>
+<div class="dd-mobileMenu">
+<ul class="dd-mobileMenu__subItemsWrapper">
+<li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Kredite
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/finanzieren" class="mobile-menu__subsubitems" >
+Alle Kredite
+</a>
+</li><li>
+<a href="/bawag/privatkunden/finanzieren/onlinekredit" class="mobile-menu__subsubitems" >
+Online Kredit
+</a>
+</li><li>
+<a href="/bawag/privatkunden/finanzieren/kredit" class="mobile-menu__subsubitems" >
+Kredit mit Beratung
+</a>
+</li><li>
+<a href="/bawag/privatkunden/finanzieren/wohnkredit" class="mobile-menu__subsubitems" >
+Wohnkredit Klassisch
+</a>
+</li><li>
+<a href="/bawag/privatkunden/finanzieren/leasing" class="mobile-menu__subsubitems" >
+Leasing
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Services
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/services-infos/rechner/kreditrechner" class="mobile-menu__subsubitems" >
+Kreditrechner
+</a>
+</li><li>
+<a href="/bawag/privatkunden/finanzieren/stundung" class="mobile-menu__subsubitems" >
+Kreditstundung
+</a>
+</li><li>
+<a href="/bawag/privatkunden/versichern/absicherung-kredit#rundumschutz" class="mobile-menu__subsubitems" >
+Absicherung (optional)
+</a>
+</li><li>
+<a href="https://mein-upload.bawaggroup.com/main/bawag" class="mobile-menu__subsubitems" >
+Mein Upload
+</a>
+</li><li>
+<a href="https://services.bawag.at/generic-forms" class="mobile-menu__subsubitems" >
+Anträge/Bestätigungen/Änderungen
+</a>
+</li> </ul>
+</div>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__dropdown-link" >
+Investieren
+</button>
+<div class="dd-mobileMenu">
+<ul class="dd-mobileMenu__subItemsWrapper">
+<li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Wertpapierdepots
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/investieren/depot" class="mobile-menu__subsubitems" >
+Alle Depots
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/depot/online-depot" class="mobile-menu__subsubitems" >
+Online Depot
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/depot/starter-depot" class="mobile-menu__subsubitems" >
+Starter Depot
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/depot/premium-depot" class="mobile-menu__subsubitems" >
+Premium Depot
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/depot/familiendepot" class="mobile-menu__subsubitems" >
+Depotzusatz: Familiendepot
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Fonds, ETFs & Sparpläne
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/investieren/premium-selection-fonds" class="mobile-menu__subsubitems" >
+Premium Selection Fonds
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/fondsselect" class="mobile-menu__subsubitems" >
+Best in Class Fonds
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/themenfonds" class="mobile-menu__subsubitems" >
+Themenfonds
+</a>
+</li><li>
+<a href="/bawag/privatkunden/sparen/fondssparen" class="mobile-menu__subsubitems" >
+Fondssparen
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/etf-sparplan" class="mobile-menu__subsubitems" >
+ETF Sparplan
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/amundi-etf-etc" class="mobile-menu__subsubitems" >
+ETFs und ETCs
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Anleihen
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/investieren/bawag-anleihe-at0000a3w2c7-2026-2031" class="mobile-menu__subsubitems" >
+Anleihe 3,2% 2026–2031
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/wohnbaubankanleihe-at0000a3tk23-2026-2036" class="mobile-menu__subsubitems" >
+Wohnbauanleihe 3,30% 2026–2036<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/bawag-anleihe-at0000a3rcr8-2026-2033" class="mobile-menu__subsubitems" >
+Anleihe 3% 2026-2033<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/wohnbaubankanleihe-at0000a3mnn5-2025-2035" class="mobile-menu__subsubitems" >
+Anleihe 2.80% 2025-2035<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/wohnbaubankanleihe-at0000a3d5f6-2024-2034" class="mobile-menu__subsubitems" >
+Anleihe 3.10% 2024-2034<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/wohnbaubank-wandelschuldverschreibung" class="mobile-menu__subsubitems" >
+Anleihe 3.70% 2023-2033<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/wohnbaubank-anleihe" class="mobile-menu__subsubitems" >
+Anleihe 3,75% 2023-2026<br><span class="text--small"><i>Zeichnung nicht mehr möglich</i></span>
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Versichern
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/versichern/pensionsvorsorge" class="mobile-menu__subsubitems" >
+Pensionsvorsorge
+</a>
+</li><li>
+<a href="/bawag/privatkunden/versichern/absicherung-kredit" class="mobile-menu__subsubitems" >
+Absicherung Kredit
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Services
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/investieren/wertpapierservice" class="mobile-menu__subsubitems" >
+eBanking Broker
+</a>
+</li><li>
+<a href="/bawag/privatkunden/rechtliches/aktionaersrichtlinien" class="mobile-menu__subsubitems" >
+Informationsblatt zur 2. Aktionärsrechte-Richtlinie
+</a>
+</li><li>
+<a href="/bawag/privatkunden/investieren/wertpapiere" class="mobile-menu__subsubitems" >
+Informationen zu Wertpapieren
+</a>
+</li> </ul>
+</div>
+</li><li >
+<a href="/bawag/privatkunden/investieren/investieren-fuer-anfaenger" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Tipps für Anfänger
+</a>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__dropdown-link" >
+Sparen
+</button>
+<div class="dd-mobileMenu">
+<ul class="dd-mobileMenu__subItemsWrapper">
+<li >
+<a href="/bawag/privatkunden/sparen" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Alle Sparboxen
+</a>
+</li><li >
+<a href="/bawag/privatkunden/sparen/sparbox-fix" class="mobile-menu__subitems mobile-menu__subitem-link" >
+SparBox Fix
+</a>
+</li><li >
+<a href="/bawag/privatkunden/sparen/sparbox-flex" class="mobile-menu__subitems mobile-menu__subitem-link" >
+SparBox Flex
+</a>
+</li><li >
+<a href="/bawag/privatkunden/sparen/jugendsparen" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Jugendsparen
+</a>
+</li><li >
+<a href="/bawag/privatkunden/sparen/fondssparen" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Fondssparen
+</a>
+</li><li >
+<a href="/bawag/privatkunden/investieren/etf-sparplan" class="mobile-menu__subitems mobile-menu__subitem-link" >
+ETF Sparplan
+</a>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Bausparen
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/sparen/bausparen/start-bausparkasse" class="mobile-menu__subsubitems" >
+start:bausparkasse
+</a>
+</li> </ul>
+</div>
+</li> </ul>
+</div>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__dropdown-link" >
+eBanking und Apps
+</button>
+<div class="dd-mobileMenu">
+<ul class="dd-mobileMenu__subItemsWrapper">
+<li >
+<a href="/bawag/privatkunden/ebanking-apps/onlinebanking" class="mobile-menu__subitems mobile-menu__subitem-link" >
+eBanking
+</a>
+</li><li >
+<a href="/bawag/privatkunden/ebanking-apps/bawag-app" class="mobile-menu__subitems mobile-menu__subitem-link" >
+BAWAG Banking App
+</a>
+</li><li >
+<button type="button" aria-expanded="false" aria-haspopup="true" class="mobile-menu__subitems mobile-menu__subitem-link" >
+Services
+</button>
+<div class="dd-sub-mobileMenu">
+<ul class="dd-sub-mobileMenu__subItemsWrapper">
+<li>
+<a href="/bawag/privatkunden/services-infos/3dsecure" class="mobile-menu__subsubitems" >
+3D Secure
+</a>
+</li><li>
+<a href="/bawag/apple-pay" class="mobile-menu__subsubitems" >
+Apple Pay
+</a>
+</li><li>
+<a href="/bawag/google-pay" class="mobile-menu__subsubitems" >
+Google Pay
+</a>
+</li><li>
+<a href="/bawag/privatkunden/services-infos/buchungsreklamation" class="mobile-menu__subsubitems" >
+Buchungsreklamation
+</a>
+</li><li>
+<a href="/bawag/privatkunden/ebanking-apps/videoanleitung" class="mobile-menu__subsubitems" >
+Videoanleitungen für die BAWAG App
+</a>
+</li> </ul>
+</div>
+</li> </ul>
+</div>
+</li><li >
+<a href="/bawag/faq" class="mobile-menu__dropdown-link" >
+FAQ
+</a>
+</li><li >
+<a href="https://ebanking.bawag.at/" class="mobile-menu__dropdown-link" target="_blank">
+Login
+</a>
+</li> <li class="cm-cta button-container" >
+<a href="https://filialsuche.bawag.at/" target="_blank" rel="noopener noreferrer" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-location" aria-hidden="true"></i><span>Filialfinder</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="/bawag/ueber-uns/karriere" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-users" aria-hidden="true"></i><span>Karriere</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="/bawag/privatkunden/kinder-jugend" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-home" aria-hidden="true"></i><span>Familie</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="https://hilfe.bawag.at/bawag-faq/" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-circle-information" aria-hidden="true"></i><span>Hilfe</span> </a>
+</li>
+<li class="cm-cta button-container" >
+<a href="https://markets.bawag.at/wertpapiere/intro" class="cm-cta__button cm-cta-button action-link ">
+<i class="mi-bar-chart-alt" aria-hidden="true"></i><span>Markets</span> </a>
+</li>
+</ul>
+</nav> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div> </header>
+<aside id="floatingMenu" class=" " tabindex="-1">
+<div class="floatingMenu">
+<button id="floatingMenuItem0" class="floatingMenu__item text--small" tabindex="0" type="button" data-toggle="tooltip" aria-haspopup="true" aria-label="Lesezeichen öffnen" aria-expanded="false">
+<span class="floatingMenu__content">
+<span class="svg-wrapper">
+<span class="xx-image xx-image__svg " data-src="/resource/crblob/71612/037755c5435b850442ffa460d8474205/question-mark-small-data.svg" data-alt="">
+</span>
+</span> </span>
+</button>
+<div id="floatingMenu__boxedcontent0" class="floatingMenu__boxedcontent">
+<ul>
+<li><a href="/bawag/faq">
+<span class="svg-wrapper">
+<span class="xx-image xx-image__svg " data-src="/resource/crblob/23998/9b47a739c628c4f2b0aae905009e38a5/circle-information-white-data.svg" data-alt="">
+</span>
+</span> Hilfe
+</a></li>
+<li><a href="/bawag/kontakte">
+<span class="svg-wrapper">
+<span class="xx-image xx-image__svg " data-src="/resource/crblob/18068/e059ee282c567262ddff2856fae4c9d1/pen-white-data.svg" data-alt="">
+</span>
+</span> Kontakt
+</a></li>
+<li><a href="/bawag/privatkunden/services-infos/rechner">
+<span class="svg-wrapper">
+<span class="xx-image xx-image__svg " data-src="/resource/crblob/18038/33e1659d569acfb9f231d3d2080e6b32/grid-white-data.svg" data-alt="">
+</span>
+</span> Rechner
+</a></li>
+</ul>
+<div class="floatingMenu__boxedcontent--icon">
+<span class="svg-wrapper">
+<span class="xx-image xx-image__svg " data-src="/resource/crblob/71612/037755c5435b850442ffa460d8474205/question-mark-small-data.svg" data-alt="">
+</span>
+</span> </div>
+</div>
+</div> </aside>
+<main id="main-content" class=" " tabindex="-1">
+<div class="plWrapper pl-spacing--large
+"
+>
+<section id="section-0" class="section " >
+<div class="container asTeaser" >
+<div class="row centerItems ">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+<div data-anchor="id-23980" id="id-section-0-23980" class="richtext-wrapper " >
+<p class="align--center"><br/></p><h2 class="align--center">Die gewünschte Seite kann leider nicht angezeigt werden.</h2><h4 class="align--center"><br/></h4><p class="align--center">Eventuell haben Sie den Link falsch eingegeben oder die gewünschte Seite ist nicht mehr verfügbar.</p><p class="align--center">Bitte überprüfen Sie Ihre Eingabe bzw. aktualisieren Sie gegebenenfalls die Bookmarks in Ihrem Browser.<br/> </p><p class="align--center"><a class="cm-cta-button cm-cta-button--primary" href="https://ebanking.bawag.at/" target="_blank" rel="noopener"><span>eBanking Login</span></a> <a class="cm-cta-button cm-cta-button--secondary" href="/bawag/privatkunden" target="_self"><span>Zur Webseite</span></a></p></div> </div>
+</div>
+</div>
+</section>
+</div> </main>
+<footer id="footer-content" class=" bg--grey " tabindex="-1">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm- col-xs-12" >
+<div class="footer--wrapper" >
+<div class="footer-links__dropdown">
+<p class="footer-links__heading text--medium"><strong>Privatkunden</strong></p>
+<button type="button" class="footer-links__trigger" aria-expanded="false" aria-controls="">
+Privatkunden
+</button>
+<div class="footer-links__content" >
+<div class="footer-links__content__inner">
+<ul class="rte--list"><li><a href="/bawag/privatkunden/konto-karte" target="_self"><span>Girokonto</span></a></li><li><a href="/bawag/privatkunden/konto-karte/pensionskonto"><span>Pensionskonto</span></a></li><li><a href="/bawag/privatkunden/konto-karte/online-konto"><span>Online Konto</span></a></li><li><a href="/bawag/privatkunden/finanzieren" target="_self"><span>Kredite</span></a></li><li><a href="/bawag/privatkunden/services-infos/rechner/kreditrechner"><span>Kreditrechner</span></a></li><li><a href="/bawag/privatkunden/finanzieren/wohnkredit"><span>Wohnkredit</span></a></li><li><a href="/bawag/privatkunden/finanzieren/autokredit"><span>Autokredit</span></a></li><li><a href="/bawag/privatkunden/kinder-jugend"><span>Kinder &amp; Jugendprodukte</span></a></li><li><a href="/bawag/sicherheit" target="_self"><span>Internet Sicherheit</span></a></li><li><a href="https://www.bawag.at/bawag/faq" target="_blank" rel="noopener"><span>FAQ</span></a></li><li><a href="/bawag/vorteilswelt" target="_blank" rel="noopener"><span>VÖS Vorteilswelt</span></a></li><li><a href="https://services.bawag.at/widerrufs-formular" target="_blank" rel="noopener"><span>Vertragsrücktritt</span></a></li></ul> </div>
+</div>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-6 col-sm- col-xs-12" >
+<div class="footer--wrapper" >
+<div class="footer-links__dropdown">
+<p class="footer-links__heading text--medium"><strong>Über BAWAG</strong></p>
+<button type="button" class="footer-links__trigger" aria-expanded="false" aria-controls="">
+Über BAWAG
+</button>
+<div class="footer-links__content" >
+<div class="footer-links__content__inner">
+<ul class="rte--list"><li><a href="/bawag/ueber-uns" target="_self"><span>Über uns</span></a></li><li><a href="/bawag/ueber-uns/presse" target="_self"><span>Presse</span></a></li><li><a href="/bawag/ueber-uns/karriere" target="_self"><span>Karriere</span></a></li><li><a href="https://www.bawaggroup.com/en/investor-relations/debt-investor/fundings" target="_blank" rel="noopener"><span>Funding</span></a></li><li><a href="https://www.bawaggroup.com/BAWAGGROUP/group/EN" target="_blank" rel="noopener"><span>BAWAG Group</span></a></li><li><a href="/bawag/ueber-uns/sponsoring"><span>Partnerschaften &amp; Sponsoring</span></a></li></ul> </div>
+</div>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-6 col-sm- col-xs-12" >
+<div class="footer--wrapper" >
+<div class="footer-links__dropdown">
+<p class="footer-links__heading text--medium"><strong>Finanzen und Rechtliches</strong></p>
+<button type="button" class="footer-links__trigger" aria-expanded="false" aria-controls="">
+Finanzen und Rechtliches
+</button>
+<div class="footer-links__content" >
+<div class="footer-links__content__inner">
+<ul class="rte--list"><li><a href="/bawag/privatkunden/rechtliches" target="_self"><span>Recht, Datenschutz und Steuern</span></a></li><li><a href="/bawag/privatkunden/services-infos/entgelte" target="_self"><span>Entgelte und Konditionen</span></a></li><li><a href="/bawag/privatkunden/services-infos/fremdwaehrungen" target="_self"><span>Valuten und Münzen</span></a></li><li><a href="/resource/blob/22416/3eb1efb666cc7114e34579c5aa68be91/payments-rights-eu-data.pdf" target="_blank" rel="noopener"><span>Merkblatt der Europäischen Kommission</span></a></li><li><a href="https://developer.bawaggroup.com/#/" target="_blank" rel="noopener"><span>Developer Portal</span></a></li><li><a href="/bawag/privatkunden/responsible-disclosure" target="_self"><span>Responsible Disclosure</span></a></li><li><a href="https://bawag.integrityline.app/" target="_blank" rel="noopener"><span>Whistleblowing</span></a></li><li><a href="/bawag/beschwerdemanagement" target="_self"><span>Beschwerdemanagement</span></a></li><li><a href="/bawag/privatkunden/verbandsklage"><span>Verbandsklage</span></a></li></ul> </div>
+</div>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-6 col-sm- col-xs-12" >
+<div class="footer--dropdown">
+<p><strong>BAWAG Webseiten </strong></p>
+<div class="dropdown-container__footer">
+<ul class="dropdown__ul dropdown__footer">
+<li class="dropdown__li firstliElement firstBoxShownAlone"><button class="dropdown__opener click visible" aria-haspopup="true" type="button" aria-expanded="false">Bitte auswählen</button></li>
+<li class="dropdown__li" style="display: none"><a href="https://www.bawaggroup.com" tabindex="0" target="_blank">bawaggroup.com</a></li>
+<li class="dropdown__li" style="display: none"><a href="https://www.easybank.at/easybank" tabindex="0" target="_blank">easybank.at</a></li>
+<li class="dropdown__li" style="display: none"><a href="https://www.easybank.de/" tabindex="0" >easybank.de</a></li>
+<li class="dropdown__li" style="display: none"><a href="https://www.easyleasing.at" tabindex="0" target="_blank">easyleasing.at</a></li>
+<li class="dropdown__li" style="display: none"><a href="https://www.paylife.at" tabindex="0" target="_blank">paylife.at</a></li>
+<li class="dropdown__li" style="display: none"><a href="https://markets.bawag.at/wertpapiere/intro" tabindex="0" target="_blank">markets.bawag.at</a></li>
+<li class="dropdown__li" style="display: none"><a href="https://www.spardawien.at/sparda" tabindex="0" target="_blank">spardawien.at</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div id="postFooter">
+<div class="container">
+<div class="row post-footer-copyright-row">
+<div class="col-lg-12 post-footer-copyright-col">
+<div class="copyright-wrapper">
+<span>
+© BAWAG
+</span>
+</div>
+<div class="footer--icons">
+<a href="https://www.facebook.com/bawag.bank" aria-label="Facebook"><i class="social-icon-facebook" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/bawag.bank/" aria-label="Instagram"><i class="social-icon-instagram" aria-hidden="true"></i></a>
+<a href="https://www.youtube.com/@bawagvid" aria-label="YouTube"><i class="social-icon-youtube" aria-hidden="true"></i></a>
+<a href="https://www.xing.com/pages/bawag" aria-label="Xing"><i class="social-icon-xing" aria-hidden="true"></i></a>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="link-wrapper">
+<a href="/bawag/sitemap">Sitemap</a>
+<span>|</span>
+<a href="/bawag/impressum">Impressum</a>
+<span>|</span>
+<a href="/bawag/geschaeftsbedingungen">Geschäftsbedingungen</a>
+<span>|</span>
+<a href="/bawag/barrierefreiheit">Barrierefreiheit</a>
+<span>|</span>
+<a href="/bawag/datenschutz">Datenschutz</a>
+<span>|</span>
+<a href="/bawag/privatkunden/rechtliches/nutzungsbedingungen">Nutzungsbedingungen</a>
+<span>|</span>
+<a href="/bawag/64150-64150">Cookie-Einstellungen</a>
+</div>
+</div>
+</div>
+<div class="row post-footer-disclaimer">
+<div class="col-lg-12 post-footer-disclaimer-row">
+<p>Diese Website enthält KI-generierte Bilder.</p>
+</div>
+</div>
+</div>
+</div>
+<noscript class="cm-javascript">
+</noscript>
+<button id="back-to-top" class="cm-back-to-top" type="button" aria-label="Zum Seitenanfang" title="Zum Seitenanfang" data-toggle="tooltip" data-placement="left">
+<i class="mi-arrow-up"></i>
+</button>
+<div id="searchModal" class="custom-modal custom-modal--search" role="dialog">
+<div class="custom-modal__content">
+<div class="close-container">
+<div class="close-modal">
+<button type="button" aria-label="Suche schließen">
+<span>
+<span></span>
+</span>
+</button>
+</div>
+</div>
+<div class="content-container">
+<div class="search-form">
+<form class="cm-search--form" action="/service/bawagGroupSearch/bawag/17292" autocomplete="off" role="search">
+<div class="cm-search__form-fieldset">
+<input id="search2-ax57khf27yv8arvvi54tvmoqj"
+type="search"
+class="cm-search__form-input"
+name="query"
+value=""
+placeholder="Suchbegriff"
+minlength="3" required
+aria-haspopup="true"
+aria-expanded="false"
+aria-controls="search-autocomplete__listbox-search2-ax57khf27yv8arvvi54tvmoqj"
+aria-label="Suche"
+data-suggestion="/service/bawagGroupSearch/bawag/17292?suggestion=true"
+role="combobox" />
+<button type="submit" aria-label="Suche"><i class="cm-search--icon mi-search"></i></button>
+<div role="status" aria-live="polite" aria-atomic="true" class="search-result-status sr-only"></div>
+<span class="search-results-info--singular hidden">Ergebnis</span>
+<span class="search-results-info--plural hidden">Ergebnisse</span>
+<span class="search-results-info--controls hidden">Verwenden Sie die Pfeiltasten zum Navigieren</span>
+</div>
+<div class="cm-search--form__flyout">
+<ul id="search-autocomplete__listbox-search2-ax57khf27yv8arvvi54tvmoqj" class="autocomplete" aria-label="Suche" role="listbox"></ul>
+<button type="button" class='cm-search__show-all-link' data-attr="/service/bawagGroupSearch/bawag/17292?query=">Alle Ergebnisse anzeigen</button>
+</div>
+</form> </div>
+</div>
+</div>
+<div class="custom-modal__bg"></div>
+</div>
+<div id="htmlModal" class="custom-modal" role="dialog">
+<div class="custom-modal__content">
+<div class="close-modal">
+<button type="button" aria-label="Overlay schließen">
+<span>
+<span></span>
+</span>
+</button>
+</div>
+<div class="content-container content-container--grey">
+</div>
+</div>
+<div class="custom-modal__bg"></div>
+</div>
+<script src="/resource/themes/bawaggroup-base/js/commons-15294-23.js" ></script><script src="/resource/themes/bawaggroup-base/js/bawaggroup-base-15292-52.js" ></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Wait for chatbot to be fully initialized
+setTimeout(function() {
+var links = document.querySelectorAll('a');
+var CookieLink = null;
+var foundText = '';
+// Define possible text variants
+const Variants = ['Cookie-Einstellungen', 'Cookie Einstellungen', 'Cookie-Settings', 'Cookie Settings'];
+for (var i = 0; i < links.length; i++) {
+var text = links[i].textContent.trim();
+// Skip if this is a chatbot-related link
+if (links[i].closest('#Chatbot') || links[i].classList.contains('izzy-')) {
+continue;
+}
+if (Variants.includes(text)) {
+CookieLink = links[i];
+foundText = text;
+break;
+}
+}
+if (CookieLink) {
+CookieLink.outerHTML = '<button onclick="cookiefirst_show_settings();" class="cookie-settings-button" style="cursor: pointer; padding: 0">' + foundText + '</button>';
+}
+}, 100); // Small delay to ensure chatbot is initialized
+});
+</script>
+<style>
+.cookie-settings-button {
+border: 0 transparent;
+background: transparent;
+}
+.cookie-settings-button:hover,
+.cookie-settings-button:focus {
+text-decoration: underline;
+}
+</style><script>
+const izzyChatBotMenuButton = document.createElement('li');
+izzyChatBotMenuButton.className = 'cm-cta__button cm-cta-button cm-cta-button--secondary cm-cta-button--theme cus-cta-button--chatbot cus-cta-button--chatbot-top-menu';
+izzyChatBotMenuButton.textContent = 'Chat';
+izzyChatBotMenuButton.setAttribute('aria-label', 'Chat');
+// Set position (0 = first, 1 = second, etc. Use -1 for last position)
+const position = 6; // Change this to desired position
+// Append the new button to the button container
+const buttonContainer = document.querySelector('.top-menu--buttons ul');
+if (buttonContainer) {
+if (position === -1) {
+// Append as last child
+buttonContainer.appendChild(izzyChatBotMenuButton);
+} else if (position === 0 || !buttonContainer.children[position]) {
+// Insert as first child or if position doesn't exist
+buttonContainer.insertBefore(izzyChatBotMenuButton, buttonContainer.firstChild);
+} else {
+// Insert at specific position
+buttonContainer.insertBefore(izzyChatBotMenuButton, buttonContainer.children[position]);
+}
+}
+</script><!-- Chatbot Modal -->
+<div class="Izzy-modal-wrapper" style="display: none" tabindex="-1">
+<div class="Izzy-custom-modal-bg"></div>
+<div id="Izzy-modal" class="Izzy-modal">
+<section class="Izzy-modal-content" role="dialog" aria-modal="true" aria-labelledby="Izzy-popup-desc">
+<div class="header">
+<img src="https://www.bawag.at/resource/crblob/121340/f94bf5056c3e307d71dc98bbfaa1272e/chatbot-logo-data.svg" alt="" class="botIcon">
+<div class="botClose"></div>
+</div>
+<div class="botFrame">
+</div>
+</section>
+</div>
+</div><style>
+@charset "UTF-8";
+.cus-cta-button--chatbot {
+min-width: 170px;
+}
+.cus-cta-button--chatbot::before {
+content: "";
+display: inline-block;
+width: 24px;
+height: 24px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-right: 8px;
+vertical-align: middle;
+position: static;
+top: auto;
+}
+.cus-cta-button--chatbot-top-menu {
+height: 51px;
+min-width: 150px;
+}
+.cus-cta-button--chatbot-top-menu:before {
+margin-right: 4px;
+}
+.cus-cta-button--chatbot::before {
+background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2225%22%20height%3D%2223%22%20viewBox%3D%220%200%2025%2023%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.98595%2011.6143C6.43228%2011.0891%209.93976%207.49513%2010.4522%202.93912L10.6813%200.904179L10.9104%202.93954C11.4228%207.49556%2014.9303%2011.0896%2019.3767%2011.6147L21.3626%2011.8494L19.3767%2012.0841C14.9303%2012.6092%2011.4228%2016.2033%2010.9104%2020.7593L10.6813%2022.7942L10.4522%2020.7593C9.93976%2016.2033%206.43228%2012.6092%201.98595%2012.0841L0%2011.8494L1.98595%2011.6143ZM16.5505%205.46319L17.336%205.55614C19.0945%205.76387%2020.4819%207.18546%2020.6846%208.98739L20.7753%209.7922L20.866%208.98739C21.0688%207.18546%2022.4561%205.76387%2024.2147%205.55614L25.0001%205.46319L24.2147%205.37025C22.4561%205.16251%2021.0688%203.74093%2020.866%201.93899L20.7753%201.13418L20.6846%201.93899C20.4819%203.74093%2019.0945%205.16251%2017.336%205.37025L16.5505%205.46319ZM13.553%201.93043L13.9033%201.97197C14.6875%202.06449%2015.3061%202.6984%2015.3964%203.50192L15.437%203.86086L15.4775%203.50192C15.5678%202.6984%2016.1864%202.06449%2016.9706%201.97197L17.3209%201.93043L16.9706%201.88888C16.1864%201.79636%2015.5678%201.16245%2015.4775%200.35893L15.437%200L15.3964%200.35893C15.3061%201.16245%2014.6875%201.79636%2013.9033%201.88888L13.553%201.93043Z%22%20fill%3D%22%23990000%22%2F%3E%3C%2Fsvg%3E");
+}
+.cus-cta-button--chatbot:hover::before,
+.cus-cta-button--chatbot:focus::before {
+background-image: url("data:image/svg+xml,%3Csvg width='32' height='30' viewBox='0 0 32 30' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.73709 15.2739C8.34589 14.6115 12.7704 10.0779 13.4168 4.3307L13.7058 1.76374L13.9948 4.33124C14.6412 10.0784 19.0657 14.612 24.6745 15.2745L27.1797 15.5705L24.6745 15.8666C19.0657 16.529 14.6412 21.0627 13.9948 26.8098L13.7058 29.3768L13.4168 26.8098C12.7704 21.0627 8.34589 16.529 2.73709 15.8666L0.231934 15.5705L2.73709 15.2739ZM21.1095 7.51468L22.1003 7.63192C24.3186 7.89397 26.0687 9.68722 26.3244 11.9603L26.4388 12.9755L26.5533 11.9603C26.809 9.68722 28.5591 7.89397 30.7774 7.63192L31.7682 7.51468L30.7774 7.39744C28.5591 7.13539 26.809 5.34214 26.5533 3.0691L26.4388 2.05388L26.3244 3.0691C26.0687 5.34214 24.3186 7.13539 22.1003 7.39744L21.1095 7.51468ZM17.3283 3.0583L17.7702 3.1107C18.7594 3.22741 19.5398 4.02705 19.6537 5.04065L19.7048 5.49342L19.7559 5.04065C19.8698 4.02705 20.6502 3.22741 21.6394 3.1107L22.0813 3.0583L21.6394 3.00589C20.6502 2.88918 19.8698 2.08954 19.7559 1.07594L19.7048 0.623169L19.6537 1.07594C19.5398 2.08954 18.7594 2.88918 17.7702 3.00589L17.3283 3.0583Z'/%3E%3C/svg%3E%0A");
+}
+.cus-cta-button--black-active::before {
+background-image: url("data:image/svg+xml,%3Csvg width='32' height='30' viewBox='0 0 32 30' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.73709 15.2739C8.34589 14.6115 12.7704 10.0779 13.4168 4.3307L13.7058 1.76374L13.9948 4.33124C14.6412 10.0784 19.0657 14.612 24.6745 15.2745L27.1797 15.5705L24.6745 15.8666C19.0657 16.529 14.6412 21.0627 13.9948 26.8098L13.7058 29.3768L13.4168 26.8098C12.7704 21.0627 8.34589 16.529 2.73709 15.8666L0.231934 15.5705L2.73709 15.2739ZM21.1095 7.51468L22.1003 7.63192C24.3186 7.89397 26.0687 9.68722 26.3244 11.9603L26.4388 12.9755L26.5533 11.9603C26.809 9.68722 28.5591 7.89397 30.7774 7.63192L31.7682 7.51468L30.7774 7.39744C28.5591 7.13539 26.809 5.34214 26.5533 3.0691L26.4388 2.05388L26.3244 3.0691C26.0687 5.34214 24.3186 7.13539 22.1003 7.39744L21.1095 7.51468ZM17.3283 3.0583L17.7702 3.1107C18.7594 3.22741 19.5398 4.02705 19.6537 5.04065L19.7048 5.49342L19.7559 5.04065C19.8698 4.02705 20.6502 3.22741 21.6394 3.1107L22.0813 3.0583L21.6394 3.00589C20.6502 2.88918 19.8698 2.08954 19.7559 1.07594L19.7048 0.623169L19.6537 1.07594C19.5398 2.08954 18.7594 2.88918 17.7702 3.00589L17.3283 3.0583Z'/%3E%3C/svg%3E%0A");
+}
+.izzy-mobile-parent svg path,
+.izzy-mobile-parent span {
+fill: #4A4A4A !important;
+color: #4A4A4A;
+}
+@media (max-width: 1375px) {
+.header__main-menu .cm-cta-button.cus-cta-button--chatbot:first-child {
+background: #fff;
+border: 2px solid #990000 !important;
+color: #990000 !important;
+width: 70px !important;
+min-width: unset !important;
+font-size: 0 !important;
+}
+.header__main-menu .cm-cta-button.cus-cta-button--chatbot:first-child .cus-cta-button--black-active,
+.header__main-menu .cm-cta-button.cus-cta-button--chatbot:first-child:hover,
+.header__main-menu .cm-cta-button.cus-cta-button--chatbot:first-child:active,
+.header__main-menu .cm-cta-button.cus-cta-button--chatbot:first-child:focus {
+background: #990000 !important;
+border: solid 2px #990000 !important;
+color: #fff !important;
+}
+}
+.Izzy-modal-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: 1000;
+display: none;
+justify-content: center;
+align-items: center;
+outline: none;
+align-content: center;
+flex-wrap: wrap;
+}
+.Izzy-modal-wrapper.Izzy-modal-wrapper-fadeOut {
+animation: backgroundFadeOut 0.5s ease-in-out;
+animation-fill-mode: forwards;
+}
+.Izzy-modal-wrapper:focus {
+outline: none;
+}
+.Izzy-custom-modal-bg {
+animation: fadeIn 0.25s ease-in-out;
+animation-fill-mode: forwards;
+background: rgba(0, 0, 0, 0.4509803922);
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: 0;
+}
+.Izzy-modal {
+animation: modalGrowFromCenter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+animation-fill-mode: forwards;
+position: absolute;
+right: 75px;
+top: 50px;
+z-index: 1;
+width: 682px;
+border-radius: 22px;
+overflow: hidden;
+max-height: 800px;
+}
+.Izzy-modal.Izzy-modal--fade-out {
+animation: modalShrinkToCenter 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+animation-fill-mode: forwards !important;
+}
+.Izzy-modal .Izzy-modal-content {
+background-color: #fefefe;
+text-align: center;
+margin: 0 auto;
+border-radius: 15px;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+position: relative;
+z-index: 2;
+pointer-events: auto;
+/* Allow interaction with modal content */
+padding: 0;
+margin: 0;
+background-color: #990000;
+}
+.Izzy-modal .Izzy-modal-content .header {
+position: relative;
+height: 80px;
+display: flex;
+flex-direction: row;
+align-items: center;
+z-index: 100;
+}
+.Izzy-modal .Izzy-modal-content .header img {
+left: 55px;
+top: 25px;
+position: absolute;
+width: 110px;
+height: 110px;
+box-shadow: 0px 0px 16.88px 0px rgba(0, 0, 0, 0.0509803922);
+border-radius: 50px;
+}
+.Izzy-modal .Izzy-modal-content .header .botClose {
+position: absolute;
+float: right;
+right: 16px;
+content: "";
+background-image: url(https://www.bawag.at/resource/crblob/121336/13f6cd49c8d4a48e57e8dcc68a85f4e1/close-white-data.svg);
+background-size: 24px 24px;
+width: 24px;
+height: 24px;
+cursor: pointer;
+}
+.Izzy-modal .Izzy-modal-content .botFrame {
+height: 686px;
+background: #fff;
+}
+@media (max-width: 768px) {
+.Izzy-modal {
+animation: mobileGrowFromBottom 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+position: inherit;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100%;
+border-radius: 0;
+margin: 0;
+z-index: 1001;
+width: 100%;
+max-height: unset;
+}
+.Izzy-modal.Izzy-modal--fade-out {
+animation: mobileShrinkToBottom 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+animation-fill-mode: forwards !important;
+}
+.Izzy-modal-content {
+border-radius: 0 !important;
+width: 100vw;
+height: 100vh;
+max-width: 100vw;
+max-height: 100vh;
+top: 0 !important;
+}
+.Izzy-modal-content .botFrame {
+max-height: unset !important;
+height: calc(100% - 80px) !important;
+bottom: 0;
+position: fixed;
+right: 0;
+left: 0;
+top: 80px;
+}
+.header>img {
+top: 5.3333333333px !important;
+height: calc(80px - 5.3333333333px * 2) !important;
+left: 0 !important;
+}
+}
+.Izzy-modal-content p {
+text-align: left;
+line-height: 2rem;
+}
+/* Center the buttons horizontally with spacing */
+.Izzy-modal-content button {
+display: inline-block;
+margin: 0 8px;
+}
+/* Optional: Stack buttons vertically on small screens */
+@media (max-width: 768px) {
+.Izzy-modal-content button {
+display: block;
+margin: 12px auto;
+width: 100%;
+}
+.Izzy-modal-wrapper {
+top: 200px;
+}
+.Izzy-custom-modal-bg {
+top: -200px;
+}
+}
+@keyframes modalGrowFromCenter {
+0% {
+opacity: 0;
+transform: scaleY(0);
+transform-origin: center;
+}
+50% {
+opacity: 1;
+transform: scaleY(1.05);
+transform-origin: center;
+}
+100% {
+opacity: 1;
+transform: scaleY(1);
+transform-origin: center;
+}
+}
+@keyframes modalShrinkToCenter {
+0% {
+opacity: 1;
+transform: scaleY(1);
+transform-origin: center;
+}
+100% {
+opacity: 0;
+transform: scaleY(0);
+transform-origin: center;
+}
+}
+@keyframes mobileGrowFromBottom {
+0% {
+opacity: 0;
+transform: translateY(100%);
+}
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}
+@keyframes mobileShrinkToBottom {
+0% {
+opacity: 1;
+transform: translateY(0);
+display: flex;
+}
+100% {
+opacity: 0;
+transform: translateY(100%);
+display: none;
+}
+}
+@keyframes backgroundFadeOut {
+0% {
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
+}
+/* Fix Apple Button Top */
+.cus-cta-button--black.ios,
+.header__main-menu a.cm-cta__button.cm-cta-button.ios {
+top: 6px;
+}
+</style><script>
+const pageBody = document.querySelector('body');
+const izzyChatBotModalWrapper = document.querySelector('.Izzy-modal-wrapper');
+const izzyChatBotModal = document.querySelector('.Izzy-modal');
+const izzyChatBotClose = document.querySelector('.botClose');
+const izzyChatBotFrame = document.querySelector('.botFrame');
+const izzyChatBotURL = 'https://chat.bawag.at/chatbot-iframe';
+const izzyChatBotFadeAnimationTime = 500; // milliseconds
+const izzyChatBotBorderGap = 21; // px
+const izzyChatBotHeaderHeight = 80; // px
+const izzyChatBotFrameHeight = 846 - izzyChatBotBorderGap * 2 - izzyChatBotHeaderHeight; // px
+// Function to find all chatbot trigger buttons
+// Add the class 'izzy-chatbot-trigger' or data attribute 'data-izzy-chatbot' to any button/link
+function getAllChatbotButtons() {
+const buttons = [];
+// Find by class
+buttons.push(...document.querySelectorAll('.izzy-chatbot-trigger'));
+// Find by data attribute
+buttons.push(...document.querySelectorAll('[data-izzy-chatbot]'));
+// Find by aria-label (legacy support)
+buttons.push(...document.querySelectorAll('[aria-label="Chat"]'));
+// Find <a> links with href="chatbot" inside the <header>
+buttons.push(...document.querySelectorAll('header a[href="#chatbot"]'));
+// Remove duplicates and null values
+return [...new Set(buttons)].filter(Boolean);
+}
+// Setup mobile menu button styling
+function setupMobileMenuItem() {
+const izzyChatBotMobileMenuItem = document.querySelector('.mobile-nav [aria-label="Chat"]');
+if (izzyChatBotMobileMenuItem) {
+izzyChatBotMobileMenuItem.classList.add('cus-cta-button--chatbot-mobile');
+const parent = izzyChatBotMobileMenuItem.parentElement;
+if (parent) {
+parent.classList.add('izzy-mobile-parent');
+const style = document.createElement('style');
+style.textContent = `
+.izzy-mobile-parent::before {
+background: transparent !important;
+}
+`;
+document.head.appendChild(style);
+}
+}
+}
+// Function to open the chatbot modal
+function openChatbot(event) {
+// console.log('Chatbot opened');
+// Prevent default navigation (e.g. for <a href="chatbot"> links)
+if (event) {
+event.preventDefault();
+}
+// Add active class to all trigger buttons
+getAllChatbotButtons().forEach(btn => {
+btn.classList.add('cus-cta-button--black-active');
+btn.style.setProperty('background-color', '#990000', 'important');
+btn.style.setProperty('border', '2px solid #990000', 'important');
+btn.style.setProperty('color', '#fff', 'important');
+});
+izzyChatBotModalWrapper.style.display = 'flex';
+pageBody.style.overflowX = 'hidden';
+// Only add iframe if not already present
+if (!izzyChatBotFrame.querySelector('iframe')) {
+const iframe = document.createElement('iframe');
+iframe.src = izzyChatBotURL;
+iframe.title = 'Izzy Chatbot';
+iframe.width = '100%';
+iframe.height = '100%';
+iframe.style.border = 'none';
+iframe.style.background = '#fff';
+izzyChatBotFrame.appendChild(iframe);
+// console.log('Chatbot iframe created and added to the modal');
+}
+// Disable body scroll on mobile
+if (window.innerWidth < 769) {
+disableBodyScroll();
+}
+}
+// Function to close the chatbot modal
+function closeChatbot() {
+// console.log('Chatbot closed');
+pageBody.style.overflowX = 'unset';
+// Remove active class from all trigger buttons
+getAllChatbotButtons().forEach(btn => {
+btn.classList.remove('cus-cta-button--black-active');
+btn.style.removeProperty('background-color');
+btn.style.removeProperty('border');
+btn.style.removeProperty('color');
+});
+// Add fade-out animation
+izzyChatBotModal.classList.add('Izzy-modal--fade-out');
+izzyChatBotModalWrapper.classList.add('Izzy-modal-wrapper-fadeOut');
+setTimeout(() => {
+izzyChatBotModal.classList.remove('Izzy-modal--fade-out');
+izzyChatBotModalWrapper.classList.remove('Izzy-modal-wrapper-fadeOut');
+}, izzyChatBotFadeAnimationTime);
+setTimeout(() => {
+izzyChatBotModalWrapper.style.display = 'none';
+}, izzyChatBotFadeAnimationTime);
+try {
+enableBodyScroll();
+} catch (error) {
+console.error('Error closing chatbot:', error);
+}
+}
+// Attach click events to all chatbot trigger buttons
+function attachChatbotListeners() {
+const buttons = getAllChatbotButtons();
+// console.log(`Found ${buttons.length} chatbot trigger button(s)`);
+buttons.forEach((btn) => {
+// Remove existing listener to avoid duplicates
+btn.removeEventListener('click', openChatbot);
+btn.addEventListener('click', openChatbot);
+});
+}
+// Close modal when clicking outside or on close button
+izzyChatBotModalWrapper.addEventListener('click', (event) => {
+if (!izzyChatBotModal.contains(event.target) || event.target === izzyChatBotClose) {
+closeChatbot();
+}
+});
+// Initialize
+setupMobileMenuItem();
+attachChatbotListeners();
+// Re-scan for new buttons every 2 seconds (useful for dynamically loaded content)
+setInterval(attachChatbotListeners, 2000);
+// Responsive height and top adjustment
+function adjustChatBotFrameHeight() {
+if (window.innerWidth < 769) {
+// Reset any inline styles for mobile/fullscreen
+izzyChatBotFrame.style.height = '';
+const modalContent = document.querySelector('.Izzy-modal .Izzy-modal-content');
+if (modalContent) {
+modalContent.style.top = '';
+}
+return;
+}
+// Adjust frame height
+if (window.innerHeight < izzyChatBotFrameHeight + izzyChatBotBorderGap * 4) {
+const newHeight = window.innerHeight - izzyChatBotBorderGap * 5;
+izzyChatBotFrame.style.height = `${newHeight}px`;
+// console.log(`Chatbot frame height adjusted to ${newHeight}px due to window height constraints`);
+} else {
+izzyChatBotFrame.style.height = `${izzyChatBotFrameHeight}px`;
+}
+}
+// Initial adjustment
+adjustChatBotFrameHeight();
+// Adjust on every window resize
+window.addEventListener('resize', adjustChatBotFrameHeight);
+// To disable body scroll (set overflow hidden) and disable zoom
+function disableBodyScroll() {
+document.body.style.overflow = 'hidden';
+document.body.style.touchAction = 'none'; // Prevents scrolling on some mobile browsers
+// Add meta tag to disable zoom
+let metaViewport = document.querySelector('meta[name="viewport"]');
+if (!metaViewport) {
+metaViewport = document.createElement('meta');
+metaViewport.name = 'viewport';
+document.head.appendChild(metaViewport);
+}
+// Save previous content to restore later
+metaViewport._previousContent = metaViewport.content;
+metaViewport.content = 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no';
+}
+// To enable body scroll (remove overflow hidden) and re-enable zoom
+function enableBodyScroll() {
+document.body.style.overflow = '';
+document.body.style.touchAction = '';
+// Restore previous meta viewport content if it was changed
+const metaViewport = document.querySelector('meta[name="viewport"]');
+if (metaViewport && typeof metaViewport._previousContent !== 'undefined') {
+metaViewport.content = metaViewport._previousContent;
+delete metaViewport._previousContent;
+}
+}
+// Add class if its a Apple device
+if (
+/iPad|iPhone|iPod/.test(navigator.userAgent) ||
+(navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+) {
+document
+.querySelectorAll('.cus-cta-button--black, .header__main-menu a.cm-cta__button.cm-cta-button')
+.forEach(el => el.classList.add('ios'));
+}
+</script><script>
+function adjustModalTop() {
+const modalElements = document.querySelectorAll('.Izzy-modal');
+const screenHeight = window.innerHeight;
+const screenWidth = window.innerWidth;
+if (screenWidth > 768) {
+if (screenHeight < 860) {
+let newTop = 50 - (860 - screenHeight);
+if (newTop < 10) newTop = 10;
+modalElements.forEach(el => {
+el.style.top = newTop + 'px';
+});
+} else {
+// Reset to default if needed
+modalElements.forEach(el => {
+el.style.top = '50px';
+});
+}
+} else {
+modalElements.forEach(el => {
+el.style.top = 'unset';
+});
+}
+}
+// Run on page load
+adjustModalTop();
+// Run when window is resized
+window.addEventListener('resize', adjustModalTop);
+</script></body></html>

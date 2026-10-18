@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="no-js" lang="pl" data-ng-app="adp">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="theme-color" content="#583787">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#583787">
+<meta name="apple-mobile-web-app-title" content="Play">
+<meta name="msapplication-TileImage" content="/system-res/images/icons/icon-144x144.png">
+<meta name="msapplication-TileColor" content="#583787">
+<meta name="msapplication-navbutton-color" content="#583787">
+<link rel="manifest" href="/system-res/js/page-js/pwa/manifest.json">
+<link rel="preconnect" href="https://gum.criteo.com" crossorigin>
+<link rel="preconnect" href="https://dis.eu.criteo.com" crossorigin>
+<link rel="preconnect" href="https://sslwidget.criteo.com" crossorigin>
+<link rel="preconnect" href="https://m.exactag.com" crossorigin>
+<link rel="preconnect" href="https://cdn.exactag.com" crossorigin>
+<link rel="preconnect" href="https://static.criteo.net" crossorigin>
+<link rel="preconnect" href="https://px.wp.pl" crossorigin>
+<link rel="preconnect" href="https://multimedia.play.pl" crossorigin>
+<link rel="preconnect" href="https://static.yourcx.io" crossorigin>
+<link rel="preconnect" href="https://static.opiniac.com" crossorigin>
+<link rel="preconnect" href="https://nowy.play.pl" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+<link rel="preconnect" href="https://www.googleadservices.com" crossorigin>
+<link rel="preload" href="/system-res/fonts/roboto/roboto-medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/system-res/fonts/roboto/roboto-thin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/system-res/fonts/roboto/roboto-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/system-res/fonts/roboto/roboto-bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/system-res/fonts/roboto/roboto-light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/system-res/fonts/roboto/roboto-black.woff2" as="font" type="font/woff2" crossorigin>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<title>Play. Największa sieć komórkowa w Polsce w Polsce | Play</title>
+<meta name="keywords" content="" />
+<meta name="description" content=""/>
+<meta property="og:image" content="https://www.play.pl/system-res/img/logo-PLAY.png"/>
+<meta property="og:title" content="Play. Największa sieć komórkowa w Polsce w Polsce | Play"/>
+<meta property="og:description" content=""/>
+<meta id="env" data-url="https://nowy.play.pl/" data-domain="play.pl"/><meta name="google-site-verification" content="Pgj7DWAC3G5kG6QgGEysfUYdLSoWooxO93ByrtvLdGE" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<!-- Desktop browsers -->
+<link rel="shortcut icon" href="/system-res/images/favicon/favicon-48x48.ico">
+<!-- Modern browsers -->
+<link rel="icon" type="image/png" href="/system-res/images/favicon/favicon-196x196.png">
+<!-- iOS & other mobile devices -->
+<link rel="apple-touch-icon" href="/system-res/images/favicon/favicon-180x180.png">
+<link rel="canonical" href="https://www.play.pl/error-pages/404-b2c.html">
+<link rel="stylesheet" href="/system-res/css/global.controller.css?v=32" type="text/css">
+<link rel="stylesheet" href="/system-res/css/pages/messages-pages/messages-pages.controller.css?v=14" type="text/css">
+<style>body > img[src*="adnxs"],body > img[src*="mookie1"],body > iframe[src*="remintrex"] { display: none; }
+[data-ng-cloak] { display: none; }
+body > ins { height: 0; overflow: hidden; }
+/*cyberpunk galeria sticker*/
+.p4-cp.cp-none .one-stick.p4-cp-gold,
+.p4-cp.cp-none .one-stick.p4-cp-silver,
+.p4-cp.cp-gold .one-stick.p4-cp-silver,
+.p4-cp.cp-silver .one-stick.p4-cp-gold { display: none; }
+/* portal2 footer style fix */
+[data-portal2-footer] input[type="text"] { margin-bottom: 0; height: auto }
+</style><!-- custom css'y begin -->
+<!-- custom css'y end -->
+<script>
+var browserSupportTester = (function () {
+var userAgent = navigator.userAgent;
+var redirectURL = '/browser_support.html';
+var isIE = userAgent.indexOf('MSIE ') > -1 || userAgent.indexOf('Trident/') > -1;
+if (isIE && window.location.pathname !== redirectURL) {
+window.location.replace(redirectURL);
+}
+})();
+</script><script>
+(function () {
+var isGTMOff = false;
+if (window.location && window.location.href.indexOf("enablepopups=off") != -1) isGTMOff = true;
+var now = new Date();
+now.setTime(now.getTime() + 1 * 3600 * 1000);
+if (isGTMOff){
+document.cookie = 'enablepopups=off; expires='+now.toUTCString()+'; path=/';
+} else {
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+if (ca[i].trim() == 'enablepopups=off'){
+isGTMOff = true;
+}
+}
+}
+if (isGTMOff){
+console.log('--- isGTMOff');
+window.popupsdisabled = true;
+document.cookie = 'P4_cookie_info=true; expires='+now.toUTCString()+'; path=/'
+}
+})();
+</script>
+<script>
+window.dataLayer = window.dataLayer || [];
+(function () {
+var safeUrl = function (url) {
+if (!url) return null;
+return url.replace(/msisdn=\+?(48)?\d{9}/, 'msisdn=XXXXXXXXX');
+};
+var ref = safeUrl(document.referrer);
+var dlObj = { 'event': 'portal-404', '404-referral': ref };
+try {
+dataLayer.push(dlObj);
+console.log('dataLayer event: ' + JSON.stringify(dlObj));
+} catch (e) {}
+})();
+</script>
+<!-- 2 Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://sgtm.play.pl/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-P39VN7V7');</script>
+  <!-- 2 End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MH82ZBH');</script>
+<!-- End Google Tag Manager -->
+<!-- Analityka Use It Better (begin) -->
+<script src="https://uibcdn.com/sdk/31487/uResponses.min.js" async></script>
+<script src="https://uibcdn.com/sdk/31487/udash.min.js" async></script>
+<script>
+function initUDash ( i ){
+if (typeof uDash === 'undefined') {
+if (i < 50) {
+setTimeout(initUDash,50, i+1);
+}
+return;
+}
+uDash.init({ uProjectName: 'play_live',uProjectApiPass: 'b4941eba2de0df30af96077abcedf683',uPort: 31487 });
+}
+initUDash (0) ;
+</script>
+<!-- Analityka Use It Better (end) -->
+</head>
+<body class="" itemscope itemtype="http://schema.org/WebPage">
+<!-- 2 Google Tag Manager (noscript) -->
+<noscript><iframe src="https://sgtm.play.pl/ns.html?id=GTM-P39VN7V7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- 2 End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH82ZBH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+var digitalData = digitalData || {};
+</script>
+<script>
+var P4Page = {
+pageUri: '/error-pages/404-b2c.html',
+rootUri: '/',
+resUri: '/system-res/',
+ctxUri: '/',
+shopCtxUri: '',
+isOnline: true,
+p4Theme: 'prepaid',
+appTheme: false,
+phoneUri: '/telefony/',
+phonesUri: '/telefony/',
+webportalUri: '/webportal/',
+webportalDataUri: '/webportal/',
+indyw: true,
+biznes: false,
+includeAnalytics: true,
+customerTarget: 'b2c',
+isAdvisorPage: 'false',
+advisorPageUrl: '',
+advisorPageProductsUrl: '',
+accessoriesOfferId: '4000963609',
+deviceWithoutAbonamentOfferId: '4001297899',
+isPreprod: false,
+offerPath: {
+indyw: {
+abonament: {mnp:'/oferta/przejdz-do-play/play-abonament/', ret: '/oferta/dla-przedluzajacych-umowe/play-abonament/'},
+mix: {mnp:'/oferta/przejdz-do-play/play-mix/mix/', ret:'/oferta/dla-przedluzajacych-umowe/play-mix/mix/'},
+'junior-box': {mnp:'/oferta/przejdz-do-play/play-mix/junior-box/', ret:'/oferta/przejdz-do-play/play-mix/junior-box/'},
+'internet-elastyczny': {mnp:'/oferta/play-internet/elastyczny-internet/', ret:'/oferta/play-internet/elastyczny-internet/'},
+internet: {mnp: '/oferta/przejdz-do-play/play-internet/', ret: '/oferta/dla-przedluzajacych-umowe/play-internet/'}
+},
+biznes: {
+abonament: {mnp:'/oferta/przejdz-do-play/play-abonament/', ret:'/oferta/dla-przedluzajacych-umowe/play-abonament/'},
+'internet-elastyczny': {mnp:'/oferta/play-internet/elastyczny-internet/', ret:'/oferta/play-internet/elastyczny-internet/'},
+internet: {mnp: '/oferta/przejdz-do-play/play-internet/', ret: '/oferta/dla-przedluzajacych-umowe/play-internet/'}
+}
+},
+dataLayerGtmId: 'GTM-MH82ZBH',
+webpMimeType: 'image/webp',
+oneTrustIsActive: false,
+shopId: 'play'
+}
+P4Page.offerPath.current = P4Page.offerPath[P4Page.indyw ? 'indyw':'biznes'];
+</script>
+<div class="page-wrapper  page-large  page-layer page-large"
+data-page-wrapper
+>
+<ul class="skiplinks">
+<li><a href="#main-container">Przejdź do treści</a></li>
+<li><a href="#footer">Przejdź do stopki</a></li>
+</ul>
+<div  id="page-wrapper" ><main id="main-container" class="main-container error-page error-404-2021" role="main" lang="pl">
+<div ><div  data-content-container>
+<!-- 404 P1.0 -->
+<div class="row align-middle align-center small-text-center">
+<div class="columns small-12 logo-column">
+<h1 class="header-logo-wrapper">
+<a class="play-logo" href="https://play.pl" title="Przejdź do strony głównej dla klientów indywidualnych">
+<img src="/system-res/images/image-placeholder.svg" alt="Play - Największa sieć komórkowa w Polsce"
+data-lazy-src="/system-res/images/errors/logo-play.svg">
+</a>
+</h1>
+</div>
+<div class="columns small-12 large-5">
+<img src="/system-res/images/image-placeholder.svg" class="hide-for-large" alt=""
+data-lazy-src="/system-res/images/errors/404-mobile.png">
+<img src="/system-res/images/image-placeholder.svg" class="show-for-large" alt="" data-lazy-src="/system-res/images/errors/404.png">
+</div>
+<div class="columns small-12 large-6">
+<h2>Nic tu nie ma?</h2>
+<p>Nie szkodzi, zajrzyj na nasze inne strony</p>
+<a class="button" href="https://www.play.pl/nowy/">Sprawdź aktualne promocje</a>
+<ul class="links-list">
+<li>
+<a class="link" href="https://www.play.pl/oferta/przejdz-do-play/play-abonament/">Oferta na abonament
+<span class="icon-chevron-right"><!-- --></span></a>
+</li>
+<li>
+<a class="link" href="https://www.play.pl/dlaciebie/sklep/telefony">Telefony
+<span class="icon-chevron-right"><!-- --></span></a>
+</li>
+<li>
+<a class="link" href="https://www.play.pl/pomoc/">Pomoc <span class="icon-chevron-right"><!-- --></span></a>
+</li>
+<li>
+<a class="link" href="https://link.play.pl/xFde">Play24 <span class="icon-chevron-right"><!-- --></span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></main>
+</div></div>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/vendor/angular/angular-min-pack.js?v=2"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/controllers/global.controller.js?v=4"></script>
+<script data-ot-ignore type="text/javascript" charset="utf-8" src="/system-res/js/controllers/messages-pages/messages-pages.controller.js?v=8"></script>
+<script type="text/javascript" data-ot-ignore charset="utf-8" src="/system-res/js/vendor/jquery/jquery.cookie.js?v=3"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/offer.info.js?v=202206270850"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/product.info.js?v=202206270850"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/piecyk.promo.config.js?v=192"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/portal/portal.fix.js?v=118"></script>
+<script type="text/javascript" charset="utf-8" src="/dane/voucher-config/voucher.config.js?v=10"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/portal-min.js?v=2467"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/product.colors.js?v=9"></script>
+<script type="text/javascript" charset="utf-8" src="/system-res/js/portal-angular-min.js?v=398"></script>
+<!-- custom js'y begin -->
+<!-- custom js'y end -->
+<script>
+if (P4Page.isOnline && ("serviceWorker" in navigator)) {
+navigator.serviceWorker
+.register("/service-worker.js")
+.then(function() { console.log("Service Worker Registered"); });
+}
+</script>
+<script>
+if (P4Page.isOnline) {
+window.swWorker = new Worker('/sw.js');/* skrypt push go */
+}
+</script>
+<div style="display:none" data-querydata="ads" data-p-slot="pers" data-p-scope="session"></div>
+<script clientId="portalplay" async src="//tools.play.pl/resources/dist/mci/mci.js" onload="P4.analytics.dataLayer.pushMciTokenEvent()"></script>
+</body>
+</html>
