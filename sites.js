@@ -1530,5 +1530,14 @@ const SITES = [
 {name:"Today Online",url:"https://www.todayonline.com/",desc:"新加坡英文新闻网站，时事速览",cat:"新闻资讯",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"today online todayonline",icon:"www.todayonline.com.ico"},
 {name:"Mothership",url:"https://www.mothership.sg/",desc:"新加坡本土新媒体，年轻人爱看",cat:"新闻资讯",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"mothership mothership",icon:"www.mothership.sg.ico"},
 {name:"POSB",url:"https://www.posb.com.sg/",desc:"新加坡平民银行，DBS旗下",cat:"金融投资",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"posb posb",icon:"www.posb.com.sg.ico"},
-{name:"Foodpanda SG",url:"https://www.foodpanda.sg/",desc:"新加坡外卖配送平台，订餐送餐上门",cat:"生活服务",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"foodpanda foodpanda",icon:"www.foodpanda.sg.ico"}
+{name:"Foodpanda SG",url:"https://www.foodpanda.sg/",desc:"新加坡外卖配送平台，订餐送餐上门",cat:"生活服务",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"foodpanda foodpanda",icon:"www.foodpanda.sg.ico"},
+{name:"Cathay Pacific",url:"https://www.cathaypacific.com/",desc:"国泰航空官网，订机票查航班",cat:"生活服务",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"cathay pacific cathaypacific",icon:"www.cathaypacific.com.ico"},
+{name:"Octopus",url:"https://www.octopus.com.hk/",desc:"八达通官网，查余额报失",cat:"生活服务",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"octopus octopus",icon:"www.octopus.com.hk.ico"},
+{name:"Oriental Daily",url:"https://orientaldaily.on.cc/",desc:"东方日报新闻网，港闻即时",cat:"新闻资讯",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"oriental daily orientaldaily",icon:"www.orientaldaily.on.cc.ico"},
+{name:"Now TV",url:"https://nowtv.now.com/",desc:"Now TV 在线电视，港剧直播",cat:"影音娱乐",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"now tv nowtv",icon:"www.nowtv.now.com.ico"},
+{name:"myTV SUPER",url:"https://www.mytvsuper.com/",desc:"myTV SUPER，TVB 官方流媒体",cat:"影音娱乐",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"mytv super mytvsuper",icon:"www.mytvsuper.com.ico"},
+{name:"JOOX",url:"https://www.joox.com/",desc:"JOOX 音乐平台，粤语歌齐全",cat:"影音娱乐",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"joox joox",icon:"www.joox.com.ico"},
+{name:"Mannings",url:"https://www.mannings.com.hk/",desc:"万宁香港官网，药妆护理",cat:"购物消费",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"mannings mannings",icon:"www.mannings.com.hk.ico"},
+{name:"Hongkong Post",url:"https://www.hongkongpost.hk/",desc:"香港邮政官网，查邮件追踪",cat:"生活服务",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"hongkong post hongkongpost",icon:"www.hongkongpost.hk.ico"},
+{name:"WeLab Bank",url:"https://www.welab.bank/",desc:"汇立银行，香港虚拟银行",cat:"金融投资",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"welab welab",icon:"www.welab.bank.ico"}
 ];
