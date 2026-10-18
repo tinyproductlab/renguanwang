@@ -1281,5 +1281,17 @@ const SITES = [
 {name:"Fiverr",url:"https://www.fiverr.com",desc:"以色列出品的自由职业众包平台",cat:"办公效率",region:"IL",rating:4,price:"免费+付费",official:true,plat:"网页",kw:"fiverr fiverr.com",icon:"www.fiverr.com.ico"},
 {name:"希伯来大学",url:"https://www.huji.ac.il",desc:"耶路撒冷希伯来大学官网",cat:"学习教育",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"希伯来大学 huji",icon:"www.huji.ac.il.ico"},
 {name:"KAN",url:"https://www.kan.org.il",desc:"以色列公共广播公司，新闻影视",cat:"影音娱乐",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"kan kan.org.il"},
-{name:"Yad2",url:"https://www.yad2.co.il",desc:"以色列最大分类广告网站，二手租房",cat:"购物消费",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"yad2 yad2.co.il",icon:"www.yad2.co.il.ico"}
+{name:"Yad2",url:"https://www.yad2.co.il",desc:"以色列最大分类广告网站，二手租房",cat:"购物消费",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"yad2 yad2.co.il",icon:"www.yad2.co.il.ico"},
+{name:"民族报",url:"https://www.lanacion.com.ar",desc:"阿根廷主流大报 La Nación",cat:"新闻资讯",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"民族报 lanacion",icon:"www.lanacion.com.ar.ico"},
+{name:"Infobae",url:"https://www.infobae.com",desc:"阿根廷知名新闻网站，西语新闻更新快",cat:"新闻资讯",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"infobae infobae.com",icon:"www.infobae.com.ico"},
+{name:"Galicia 银行",url:"https://www.galicia.ar",desc:"阿根廷加利西亚银行官网（现品牌 Galicia）",cat:"金融投资",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"galicia 银行 galicia",icon:"www.galicia.ar.ico"},
+{name:"Banco Macro",url:"https://www.macro.com.ar",desc:"阿根廷 Macro 银行官网",cat:"金融投资",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"banco macro macro",icon:"www.macro.com.ar.ico"},
+{name:"Personal",url:"https://www.personal.com.ar",desc:"阿根廷主流电信运营商",cat:"生活服务",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"personal personal.com.ar",icon:"www.personal.com.ar.ico"},
+{name:"El Trece",url:"https://www.eltrecetv.com.ar",desc:"阿根廷 13 频道电视台官网",cat:"影音娱乐",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"el trece eltrecetv",icon:"www.eltrecetv.com.ar.ico"},
+{name:"阿根廷足协",url:"https://www.afa.com.ar",desc:"阿根廷足球协会官网",cat:"常用网站",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"阿根廷足协 afa",icon:"www.afa.com.ar.ico"},
+{name:"阿根廷邮政",url:"https://www.correoargentino.com.ar",desc:"阿根廷邮政官网，查包裹",cat:"生活服务",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"阿根廷邮政 correoargentino",icon:"www.correoargentino.com.ar.ico"},
+{name:"TyC Sports",url:"https://www.tycsports.com",desc:"阿根廷知名体育频道",cat:"影音娱乐",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"tyc sports tycsports",icon:"www.tycsports.com.ico"},
+{name:"Página 12",url:"https://www.pagina12.com.ar",desc:"阿根廷知名日报 Página 12",cat:"新闻资讯",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"página 12 pagina12",icon:"www.pagina12.com.ar.ico"},
+{name:"Mercado Pago",url:"https://www.mercadopago.com.ar",desc:"阿根廷主流电子钱包，扫码转账",cat:"金融投资",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"mercado pago mercadopago",icon:"www.mercadopago.com.ar.ico"},
+{name:"Despegar",url:"https://www.despegar.com.ar",desc:"拉美最大在线旅游平台，阿根廷起家",cat:"生活服务",region:"AR",rating:4,price:"免费",official:true,plat:"网页",kw:"despegar despegar.com.ar",icon:"www.despegar.com.ar.ico"}
 ];
