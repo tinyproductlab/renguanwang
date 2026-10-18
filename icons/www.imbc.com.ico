@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=euc-kr">
+    <meta charset="euc-kr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMBC</title>
+    <script src="//www.imbc.com/s2018m/s2018m_b/home_data.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//www.imbc.com/commons/nlogger/nlogger.js" type="text/javascript" charset="utf-8"></script>
+	<script>	
+		let t= window.location.href;
+		let l ='https://siteDubuger.imbc.com/PageNotFound.aspx?site=' + t;
+		
+		try{
+			let k = decodeURI(t.split("/")[3]);	
+			if (k !== null && k !== undefined) {
+				let filteredData = korURL.filter(data => data.title.trim() === k.trim());
+				if(filteredData.length>0){
+					let userAgent = navigator.userAgent;
+					let mobile = /(iPhone|iPad|Android|BlackBerry|Windows Phone)/i.test(userAgent);
+					l = (mobile ? (filteredData[0].m_url.trim()=="" ? filteredData[0].url : filteredData[0].m_url) : filteredData[0].url) ;
+					SetnLogger(k.trim()); 
+				}
+			}
+		}catch(e){}
+		location.href = (l==""? "https://siteDubuger.imbc.com/PageNotFound.aspx" : l);
+		
+		function SetnLogger(t2) {
+		    if ((typeof nLogger) != "undefined") {
+		    		let logString = "nLogger.event('click',{'_m330_depth1':'PC','_m330_depth2':'" + t2 + "' });"
+		    		console.log(logString);
+		    		eval(logString);
+		    }
+		}		
+	</script>
+    
+</head>
+</html>

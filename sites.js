@@ -1539,5 +1539,17 @@ const SITES = [
 {name:"JOOX",url:"https://www.joox.com/",desc:"JOOX 音乐平台，粤语歌齐全",cat:"影音娱乐",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"joox joox",icon:"www.joox.com.ico"},
 {name:"Mannings",url:"https://www.mannings.com.hk/",desc:"万宁香港官网，药妆护理",cat:"购物消费",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"mannings mannings",icon:"www.mannings.com.hk.ico"},
 {name:"Hongkong Post",url:"https://www.hongkongpost.hk/",desc:"香港邮政官网，查邮件追踪",cat:"生活服务",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"hongkong post hongkongpost",icon:"www.hongkongpost.hk.ico"},
-{name:"WeLab Bank",url:"https://www.welab.bank/",desc:"汇立银行，香港虚拟银行",cat:"金融投资",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"welab welab",icon:"www.welab.bank.ico"}
+{name:"WeLab Bank",url:"https://www.welab.bank/",desc:"汇立银行，香港虚拟银行",cat:"金融投资",region:"HK",rating:4,price:"免费",official:true,plat:"网页",kw:"welab welab",icon:"www.welab.bank.ico"},
+{name:"Lotte Cinema",url:"https://www.lottecinema.co.kr/",desc:"乐天影院官网，在线订票",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"lotte cinema lottecinema",icon:"www.lottecinema.co.kr.ico"},
+{name:"Megabox",url:"https://www.megabox.co.kr/",desc:"Megabox 影院，韩国连锁",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"megabox megabox",icon:"www.megabox.co.kr.ico"},
+{name:"Bugs Music",url:"https://music.bugs.co.kr/",desc:"Bugs 音乐，韩国老牌音乐平台",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"bugs music bugs",icon:"www.music.bugs.co.kr.ico"},
+{name:"Genie",url:"https://www.genie.co.kr/",desc:"Genie 音乐，KT旗下",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"genie genie",icon:"www.genie.co.kr.ico"},
+{name:"Watcha",url:"https://www.watcha.com/",desc:"Watcha 流媒体，韩剧韩影",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"watcha watcha",icon:"www.watcha.com.ico"},
+{name:"SBS",url:"https://www.sbs.co.kr/",desc:"SBS 电视台官网",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"sbs sbs",icon:"www.sbs.co.kr.ico"},
+{name:"MBC",url:"https://www.imbc.com/",desc:"MBC 电视台官网",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"mbc imbc",icon:"www.imbc.com.ico"},
+{name:"JTBC",url:"https://www.jtbc.co.kr/",desc:"JTBC 电视台官网",cat:"影音娱乐",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"jtbc jtbc",icon:"www.jtbc.co.kr.ico"},
+{name:"Daum",url:"https://www.daum.net/",desc:"Daum 门户，韩国第二大门户",cat:"常用网站",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"daum daum",icon:"www.daum.net.ico"},
+{name:"Naver Webtoon",url:"https://comic.naver.com/",desc:"Naver Webtoon，韩国网漫平台",cat:"阅读创作",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"naver webtoon comic",icon:"www.comic.naver.com.ico"},
+{name:"Saramin",url:"https://www.saramin.co.kr/",desc:"Saramin 招聘，韩国求职",cat:"办公效率",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"saramin saramin",icon:"www.saramin.co.kr.ico"},
+{name:"Market Kurly",url:"https://www.kurly.com/",desc:"Market Kurly，生鲜电商",cat:"购物消费",region:"KR",rating:4,price:"免费",official:true,plat:"网页",kw:"market kurly kurly",icon:"www.kurly.com.ico"}
 ];

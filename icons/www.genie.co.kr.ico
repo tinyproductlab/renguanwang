@@ -1,0 +1,41 @@
+
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="ko">
+<title>음악, 그리고 설레임 - 지니</title>
+<meta charset="utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/resources/favicon_32.ico?v=202602091400" />
+<style type="text/css" media="screen, print">
+.check-wrap {position:absolute; left:50%; top:50%; width:640px;  margin-left:-320px; background-repeat:no-repeat; font-size:12px; font-family:dotum, '돋움', sans-serif;}
+.check-wrap.check-1{height:336px; margin-top:-168px;  background-image:url('//image.genie.co.kr/imageg/web/err/bg_popup_check_1.png');}
+.check-wrap.check-2{height:320px; margin-top:-160px; background-image:url('//image.genie.co.kr/imageg/web/etc/bg_popup_check_2_r2.png');}
+.check-wrap .hd,
+.check-wrap .ft {display:none;}
+.check-wrap .bd p {margin:147px 40px 0; padding:0; color:#999; line-height:17px;}
+.check-wrap .bd p strong {color:#4e4e4e; font-weight:bold;}
+</style>
+</head>
+<body>
+
+<div class="check-wrap check-2">
+	<div class="hd">
+		<h1>요청하신 페이지를 찾기 못했습니다.</h1>
+		<p>서비스 이용에 불편을 드려 대단히 죄송합니다.</p>
+	</div>
+	<div class="bd">
+		<p>
+			<strong>방문 하시려는 페이지의 주소가 잘못 입력되었거나</strong><br />
+			<strong>변경 또는 삭제되어 요청하신 페이지를 찾을 수 없습니다.</strong><br />
+			<br />
+			<strong>동일한 문제가 지속적으로 발생할 경우 <a href="/support/service">고객센터</a>로 문의해주세요. 감사합니다.</strong><br />
+			항상 고객의 소리에 귀 기울이고,노력하는 지니가 되겠습니다.
+		</p>
+	</div>
+	<div class="ft">
+		<address>Copyright(c) KT GENIE MUSIC CORP. all rights reserved</address>
+	</div>
+</div>
+
+</body>
+</html>

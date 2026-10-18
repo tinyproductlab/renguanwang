@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+<meta name="keyword" content="메가박스,megabox,영화,영화관,극장,티켓,박스오피스,상영예정작,예매,오페라,싱어롱,큐레이션,필름소사이어티,클래식소사이어티,이벤트,Movie,theater,Cinema,film,Megabox" />
+<meta name="description" content="삶의 의미와 즐거움을 소통하는 공간, 함께 더 행복한 가치있는 콘텐츠를 추구하는 만남고 소통의 즐거움이 가득한 공간 메가박스 입니다." />
+
+<meta property="og:site_name" content="메가박스" />
+<meta property="og:url" content="http://megabox.co.kr" />
+<meta property="og:image" content="http://image2.megabox.co.kr/mop/home/appbunpage/URLVIEW.jpg" />
+<title>시스템점검중 | 메가박스</title>
+<script type="text/javascript">
+window.onload = function() {
+const dateValue = new Date();
+const todayDate = dateValue.getFullYear() + "년 "+ (dateValue.getMonth()+1) + "월 " + dateValue.getDate() + "일";
+document.getElementById("dateId").innerHTML += todayDate;
+}
+</script>
+<link rel="stylesheet" href="https://img.megabox.co.kr/sErr/css/import.css" media="all" />
+<style type="text/css">
+    .prevention{position:relative; width:100%;}
+    .prevention img{width:100%;}
+    .btn2{ margin: 2px 0 10px; border: 1px solid #660ed8; border-radius: 8px; background-color: #fff; color: #660ed8; font-size: 14px; line-height: 14px; padding: 7px; font-weight: 400;}
+</style>
+</head>
+<body>
+	<!--
+		유지보수시 height 값과, margin-top 값은 상황에 따라 바꿔 주세요.
+	 -->
+	<div class="system-chk pc" style="height:411px; margin-top:-227px">
+		<img src="https://img.megabox.co.kr/sErr/images/img-system-chk.png" alt="" />
+
+		<p class="tit">
+			모바일을 이용해주세요.
+		</p>
+
+		<p class="txt">
+			현재 접속자가 많아 홈페이지 서비스 이용이 원활하지 않습니다.<br />
+			서비스 이용에 불편을 드려 죄송합니다.<br />
+			언제나 메가박스를 이용해 주시는<br />고객님께 감사드립니다.
+		</p>
+		<div class="botArea">
+			<button onclick="location.href='https://m.megabox.co.kr'"  class="btn2">모바일로 이동하기</button>
+		</div>
+		<!--
+		<p class="txt">
+			<strong>지점별 기준정보는 2021. 01. 01(화) 부터 확인 가능합니다. 이용에 참고해주시기 바랍니다.</strong>
+		</p>
+		-->
+		<!--
+                <div class="cont">
+                        <ul class="dot-list">
+								<li>
+                                        <p class="left"><span>작업일시</span> : </p>
+
+                                        <p class="right">
+                                                2024년 07월 22일 AM 04:00 ~ 07:00
+                                        </p>
+
+                                </li>
+								<li>
+									<p class="left"><span>작업내용</span> : </p>
+
+									<p class="right">
+										메가박스 시스템 점검
+									</p>
+								</li>
+                        </ul>
+                </div>
+				-->
+	</div>
+
+</body>
+</html>
