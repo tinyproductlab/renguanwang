@@ -1225,5 +1225,17 @@ const SITES = [
 {name:"Immoweb",url:"https://www.immoweb.be",desc:"比利时最大的房产门户，租房买房必看。",cat:"生活服务",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"immoweb 房产 租房 immoweb",icon:"www.immoweb.be.ico"},
 {name:"2dehands",url:"https://www.2dehands.be",desc:"比利时最大二手交易平台，荷兰语版“闲鱼”。",cat:"购物消费",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"2dehands 二手 2dehands",icon:"www.2dehands.be.ico"},
 {name:"Delhaize",url:"https://www.delhaize.be",desc:"比利时国民连锁超市，在线下单送货上门。",cat:"购物消费",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"delhaize 超市 delhaize",icon:"www.delhaize.be.ico"},
-{name:"VTM",url:"https://www.vtm.be",desc:"比利时荷兰语区最大商业电视台，综艺电视剧。",cat:"影音娱乐",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"vtm 电视 vtm",icon:"www.vtm.be.ico"}
+{name:"VTM",url:"https://www.vtm.be",desc:"比利时荷兰语区最大商业电视台，综艺电视剧。",cat:"影音娱乐",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"vtm 电视 vtm",icon:"www.vtm.be.ico"},
+{name:"Trade Me",url:"https://www.trademe.co.nz",desc:"新西兰最大分类广告与二手交易平台，国民级应用。",cat:"购物消费",region:"NZ",rating:5,price:"免费",official:true,plat:"网页",kw:"trade me trademe 二手交易",icon:"www.trademe.co.nz.ico"},
+{name:"Mighty Ape",url:"https://www.mightyape.co.nz",desc:"新西兰本土电商，游戏数码图书配送快。",cat:"购物消费",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"mighty ape mightyape",icon:"www.mightyape.co.nz.ico"},
+{name:"Stuff",url:"https://www.stuff.co.nz",desc:"新西兰最大新闻网站之一，本地新闻全覆盖。",cat:"新闻资讯",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"stuff news stuff",icon:"www.stuff.co.nz.ico"},
+{name:"RNZ",url:"https://www.rnz.co.nz",desc:"新西兰国家广播电台，新闻时事最权威。",cat:"影音娱乐",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"rnz radio new zealand rnz",icon:"www.rnz.co.nz.ico"},
+{name:"Spark",url:"https://www.spark.co.nz",desc:"新西兰最大电信运营商，手机宽带。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"spark telecom spark 新西兰电信",icon:"www.spark.co.nz.ico"},
+{name:"One NZ",url:"https://one.nz",desc:"新西兰第二大电信运营商，原沃达丰新西兰。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"one nz one 沃达丰",icon:"www.one.nz.ico"},
+{name:"ASB",url:"https://www.asb.co.nz",desc:"新西兰四大银行之一，华人常用。",cat:"金融投资",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"asb bank asb",icon:"www.asb.co.nz.ico"},
+{name:"BNZ",url:"https://www.bnz.co.nz",desc:"新西兰银行 Bank of New Zealand，四大银行之一。",cat:"金融投资",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"bnz bank bnz",icon:"www.bnz.co.nz.ico"},
+{name:"Kiwibank",url:"https://kiwibank.co.nz",desc:"新西兰本土银行，网点依托邮局。",cat:"金融投资",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"kiwibank bank kiwibank",icon:"www.kiwibank.co.nz.ico"},
+{name:"New Zealand",url:"https://www.newzealand.com",desc:"新西兰旅游局官网，行程景点官方指南。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"new zealand newzealand 旅游",icon:"www.newzealand.com.ico"},
+{name:"Immigration NZ",url:"https://www.immigration.govt.nz",desc:"新西兰移民局官网，签证申请查进度。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"immigration 移民局 签证 immigration",icon:"www.immigration.govt.nz.ico"},
+{name:"KiwiRail",url:"https://www.kiwirail.co.nz",desc:"新西兰国家铁路，城际列车与观光火车。",cat:"生活服务",region:"NZ",rating:4,price:"免费",official:true,plat:"网页",kw:"kiwirail 铁路 火车 kiwirail",icon:"www.kiwirail.co.nz.ico"}
 ];
