@@ -718,6 +718,13 @@ SG:["Google","YouTube","Facebook","Shopee SG","Lazada SG","Grab","Mediacorp","St
 let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";
+// 当前语言（由 activeRegion 派生，全局唯一真相）
+function currentLang(){ return COUNTRY_LANG[activeRegion] || "zh"; }
+function t(key){
+  const lang = currentLang();
+  const dict = I18N[lang] || I18N.zh;
+  return dict[key] || I18N.en[key] || I18N.zh[key] || key;
+}
 // 浏览器语言 -> 国家代码
 function langToCountry(){
   const lang = (navigator.language || "en").toLowerCase();
@@ -744,45 +751,37 @@ const regionSel = document.getElementById("regionSel");
 const SITE_EN = {"亚马逊":"Amazon","微信 PC 版":"WeChat PC","Chrome 浏览器":"Chrome","哔哩哔哩":"Bilibili","抖音":"TikTok","小红书":"Xiaohongshu","京东":"JD.com","向日葵远程":"Sunlogin","火绒安全":"Huorong","加拿大政府":"Government of Canada"};
 // 分类名翻译
 function catT(cat){
-  const lang = COUNTRY_LANG[activeRegion] || "zh";
-  const t = I18N[lang] || I18N.zh;
-  const en = I18N.en;
   const map = {"装机必备":"cat_essentials","AI 工具":"cat_ai","办公效率":"cat_office","开发工具":"cat_dev","设计创意":"cat_design","学习教育":"cat_edu","金融投资":"cat_finance","影音娱乐":"cat_media","常用软件":"cat_software","社交社区":"cat_social","购物消费":"cat_shop","生活服务":"cat_life","阅读创作":"cat_read","常用网站":"cat_web","新闻资讯":"cat_news"};
   const k = map[cat];
-  return k ? (t[k] || en[k] || cat) : cat;
+  return k ? t(k) : cat;
 }
 // 应用语言（小语种缺翻译时 fallback 英文）
 function applyLang(){
-  const lang = COUNTRY_LANG[activeRegion] || "zh";
-  const t = I18N[lang] || I18N.zh;
-  const en = I18N.en;
-  const get = k => t[k] || en[k] || I18N.zh[k];
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const k = el.getAttribute("data-i18n");
-    const v = get(k);
-    if(v) el.textContent = v;
+    el.textContent = t(k);
   });
   document.querySelectorAll("[data-i18n-ph]").forEach(el => {
     const k = el.getAttribute("data-i18n-ph");
-    const v = get(k);
-    if(v) el.placeholder = v;
+    el.placeholder = t(k);
   });
   // 分类chips（用 data-catkey，不依赖当前文本）
   document.querySelectorAll("#chips span[data-catkey]").forEach(chip => {
     const key = chip.dataset.catkey;
-    if(key){ const v = get(key); if(v) chip.textContent = v; }
+    if(key) chip.textContent = t(key);
   });
   // 页脚
   const footNote = document.querySelector(".foot-base");
   if(footNote){
     const privacyLink = footNote.querySelector('a[href="./privacy.html"]');
-    const privacyText = privacyLink ? privacyLink.outerHTML.replace(/>[^<]*</, `>${get("privacy")}<`) : "";
-    footNote.innerHTML = get("foot_note") + ' &nbsp;·&nbsp; ' + privacyText;
+    const privacyText = privacyLink ? privacyLink.outerHTML.replace(/>[^<]*</, `>${t("privacy")}<`) : "";
+    footNote.innerHTML = t("foot_note") + ' &nbsp;·&nbsp; ' + privacyText;
   }
   // html lang属性
+  const lang = currentLang();
   document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
 }
-regionSel.onchange = () => { activeRegion = regionSel.value; try{ localStorage.setItem("rg_region", activeRegion); }catch(e){} applyLang(); doSearch(); buildNav(); };
+regionSel.onchange = () => { activeRegion = regionSel.value; try{ localStorage.setItem("rg_region", activeRegion); }catch(e){} doSearch(); buildNav(); applyLang(); };
 // 首次访问：按浏览器语言自动选国家（用户手动选过则记住选择）
 try{
   const saved = localStorage.getItem("rg_region");
@@ -832,14 +831,12 @@ function render(list, q){
   const lang5 = COUNTRY_LANG[activeRegion] || "zh";
   const foundT = {zh:`${scope}找到 ${list.length} 个亲测过的站（推广位已标注）`,zht:`${scope}找到 ${list.length} 個親測過的站（推廣位已標註）`,en:`${list.length} verified sites${activeRegion?' in '+activeRegion:''} (sponsored labeled)`,ja:`${list.length} 件の検証済みサイト`,ko:`검증된 사이트 ${list.length}개`,de:`${list.length} geprüfte Seiten`,fr:`${list.length} sites vérifiés`,es:`${list.length} sitios verificados`,pt:`${list.length} sites verificados`}[lang5] || `${list.length} verified sites (sponsored labeled)`;
   const meta = `<div class="meta">${foundT}</div>`;
-  const t5 = I18N[lang5] || I18N.zh; const en5 = I18N.en;
-  const g5 = k => t5[k] || en5[k] || I18N.zh[k];
-  // 补充翻译键
-  const priceT = s.price === "免费" ? (g5("price_free") || "Free") : s.price;
-  const offT = g5("verified") || "官网认证";
-  const goT = g5("go") || "直达 →";
-  const dlT = g5("dl") || "💾 可下载";
-  const adT = g5("ad") || "推广";
+  // 补充翻译键（用全局 t()）
+  const priceT = s.price === "免费" ? t("price_free") : s.price;
+  const offT = t("verified");
+  const goT = t("go");
+  const dlT = t("dl");
+  const adT = t("ad");
   const cardHtml = (s,i)=>`
     <div class="card${s.sponsored?" sponsored":""}">
       <div class="rank">${i+1}</div>
@@ -1020,8 +1017,8 @@ function buildNav(){
     }).join("");
   }
 }
-applyLang();
 buildNav();
+applyLang();
 </script>
 </body>
 </html>
