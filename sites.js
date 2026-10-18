@@ -1484,5 +1484,13 @@ const SITES = [
 {name:"Funda",url:"https://www.funda.nl",desc:"荷兰最大房产网站，找房租房买房。认准 funda.nl。",cat:"生活服务",region:"NL",rating:4,price:"免费",official:true,plat:"网页",kw:"funda funda",icon:"www.funda.nl.ico"},
 {name:"Thuisbezorgd",url:"https://www.thuisbezorgd.nl",desc:"荷兰最大外卖平台，Just Eat 旗下。认准 thuisbezorgd.nl。",cat:"生活服务",region:"NL",rating:4,price:"免费",official:true,plat:"网页",kw:"thuisbezorgd thuisbezorgd",icon:"www.thuisbezorgd.nl.ico"},
 {name:"Philips",url:"https://www.philips.nl",desc:"飞利浦官网，查产品找客服下载驱动。认准 philips.nl。",cat:"常用软件",region:"NL",rating:4,price:"免费",official:true,plat:"网页",kw:"philips philips",icon:"www.philips.nl.ico"},
-{name:"ANWB",url:"https://www.anwb.nl",desc:"荷兰皇家汽车协会，道路救援会员服务。认准 anwb.nl。",cat:"生活服务",region:"NL",rating:4,price:"免费",official:true,plat:"网页",kw:"anwb anwb",icon:"www.anwb.nl.ico"}
+{name:"ANWB",url:"https://www.anwb.nl",desc:"荷兰皇家汽车协会，道路救援会员服务。认准 anwb.nl。",cat:"生活服务",region:"NL",rating:4,price:"免费",official:true,plat:"网页",kw:"anwb anwb",icon:"www.anwb.nl.ico"},
+{name:"Swiss",url:"https://www.swiss.com",desc:"瑞士国际航空官网，订票值机查航班。认准 swiss.com。",cat:"生活服务",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"swiss swiss",icon:"www.swiss.com.ico"},
+{name:"Salt",url:"https://www.salt.ch",desc:"瑞士第三大电信运营商，手机套餐宽带。认准 salt.ch。",cat:"生活服务",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"salt salt",icon:"www.salt.ch.ico"},
+{name:"Sunrise",url:"https://www.sunrise.ch",desc:"瑞士第二大电信运营商，Sunrise 宽带手机。认准 sunrise.ch。",cat:"生活服务",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"sunrise sunrise",icon:"www.sunrise.ch.ico"},
+{name:"Swisscom",url:"https://www.swisscom.ch",desc:"瑞士最大电信运营商，Swisscom 手机宽带。认准 swisscom.ch。",cat:"生活服务",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"swisscom swisscom",icon:"www.swisscom.ch.ico"},
+{name:"RTS",url:"https://www.rts.ch",desc:"瑞士法语区公共电视台，在线看节目。认准 rts.ch。",cat:"影音娱乐",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"rts rts",icon:"www.rts.ch.ico"},
+{name:"Raiffeisen",url:"https://www.raiffeisen.ch",desc:"瑞士合作银行 Raiffeisen，网银开户。认准 raiffeisen.ch。",cat:"金融投资",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"raiffeisen raiffeisen",icon:"www.raiffeisen.ch.ico"},
+{name:"Manor",url:"https://www.manor.ch",desc:"瑞士最大百货公司，在线购物。认准 manor.ch。",cat:"购物消费",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"manor manor",icon:"www.manor.ch.ico"},
+{name:"Swissquote",url:"https://www.swissquote.ch",desc:"瑞士线上券商，炒股外汇低佣金。认准 swissquote.ch。",cat:"金融投资",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"swissquote swissquote",icon:"www.swissquote.ch.ico"}
 ];

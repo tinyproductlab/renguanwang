@@ -1,0 +1,103 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    
+    <link rel="stylesheet" type="text/css" href="/sq-cross-border-disclaimers-plugin/webjars/sq-web-components-core-theme-bridge/sq-web-components-core-theme-bridge.min.css" />
+
+    
+
+    
+    <script type="text/javascript" src="/sq-cross-border-disclaimers-plugin/webjars/requirejs/2.3.7/require.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/sq-cross-border-disclaimers-plugin/webjars/sq-web-platform-server/squp.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/sq-cross-border-disclaimers-plugin/webjars/sq-web-platform-server/sq-web-platform.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/sq-cross-border-disclaimers-plugin/webjars/sq-i18n-js/sq-i18n-js.min.js" charset="utf-8"></script>
+
+    <script>!function(i,n){var e={"piwik-pro[0]":{"url":"www.swissquote.ch"}},s=[],c=i.analytics=i.analytics||{},r=0,o=n.getElementsByTagName("script")[0];c.initialize||(c.initialize=!0,"trackLink|trackForm|identify|reset|track|ready|alias|debug|page|once|off|on|use".split("|").forEach(function(a){c[a]=function(){var t=Array.prototype.slice.call(arguments);return t.unshift(a),s.push(t),c}}),["analytics-piwik-pro.min.js","analytics.min.js"].forEach(function(t){r++;var a=n.createElement("script");a.type="text/javascript",a.async=1,a.src="https://static.swissquote.info/analytics/"+t,a.onload=function(){--r||i.analyticsImpl.start(s,e)},o.parentNode.insertBefore(a,o)}))}(window,document);
+</script>
+</head>
+<body>
+
+<div id="notificationContainer"></div>
+
+<div class=Page id="viewContainer"></div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// Set disclaimer entity JSON
+    const disclaimer = {
+  "title" : "HELLO THERE,",
+  "content" : "<p>Our systems have detected that you are accessing this website with an IP address, which corresponds to a location in the United States of America (the \"U.S.A.\").</p><p>This website may contain information about services and products that may be considered by the U.S. authorities as an invitation or inducement to engage in investment activity within the territory of the USA.</p><p>If you click on \"Continue\", you confirm that you have read and understood <a href=\"/private/help/legal-tax/legal-information/important-legal-information\">this legal information</a>, in particular relating to local restrictions, and that you are accessing this website on your own initiative and without any solicitation from Swissquote.</p><p>Swissquote Bank Ltd (\"Swissquote\") is a bank licensed in Switzerland under the supervision of the Swiss Financial Market Supervisory Authority (FINMA). Swissquote is not authorized as a credit institution, a non-credit financial institution or a professional participant of securities market by any U.S. authority (such as the CFTC or SEC), nor is it authorized to disseminate offering and solicitation materials for offshore sales of securities and investment services, to make financial promotion or conduct investment or banking activity in the U.S.A. whatsoever.</p>",
+  "continue_button" : "Continue",
+  "go_to_button" : {
+    "label" : "Go to Rest of the World website",
+    "tooltip" : "<p>Swissquote Bank Ltd is Switzerland’s leading provider of online banking and financial services. The bank is headquartered in Gland, Switzerland with an auxiliary office in Zurich and representative offices in Dubai and Hong Kong.</p><p><strong>Licence and advantages</strong></p><ul><li>Regulator: FINMA</li><li>Licence: Bank</li><li>Free Swiss bank account</li><li>Multilingual customer support</li></ul>",
+    "code" : "row",
+    "language" : "en",
+    "path" : "/private",
+    "legacy_website_url" : null
+  }
+};
+</script>
+
+<script type="text/javascript">
+    requirejs.config({
+        baseUrl: '/',
+        waitSeconds : 60
+    });
+
+    const ALT_LOCALES = {
+      cn: 'zh-CN',
+      tw: 'zh-TW',
+    }
+
+    require(
+        ["squp", "sq-i18n-js"],
+        function (api, l10n) {
+            //var extensions = api.extensions();
+
+            var plugins = api.plugins();
+            // 
+            plugins.addPlugin("sq-cross-border-disclaimers-plugin", "/sq-cross-border-disclaimers-plugin"); // Second parameter optional, can be infered from first one
+
+            // Initialize the locale for the page
+
+            const userLocale = 'en';
+
+            l10n.default.setLocale(ALT_LOCALES[userLocale] ?? userLocale);
+            l10n.default.registerContexts("sq-cross-border-disclaimers-plugin", ["cldr", "cldr.localeSpecific"]);
+
+            // Initialize Views container
+            api.view.viewManager.init(document.getElementById("viewContainer"));
+
+            // Initialize Notifications
+            new api.notification.NotificationContainer(document.getElementById("notificationContainer"));
+
+            // Load plugins
+            require(plugins.requires(), function() {
+              // Initialize Router
+              api.route.globalRouter.route();
+            });
+        }
+    );
+</script>
+</body>
+</html>
