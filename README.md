@@ -1,5 +1,7 @@
 # 认官网 RGW · Recognize Genuine Websites
 
+[English](./README.en.md)
+
 **认准官网，访问不迷路。**
 
 认官网是一个人工精选的官网导航站：只收录人工打开验证过的官方网站，帮你避开山寨站、钓鱼站和捆绑下载。
