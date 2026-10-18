@@ -265,20 +265,19 @@
 <div class="footer">
   <div class="foot-inner" style="justify-content:center">
     <div class="foot-join">
-      <p class="ft" data-i18n="follow">关注我们</p>
       <div class="join-row">
         <div class="join-item">
           <img src="./gzh-qrcode.jpg" alt="小产品实验室公众号二维码">
-          <span class="join-tip">关注"小产品实验室"<br>可反馈问题</span>
+          <span class="join-tip">小产品实验室</span>
         </div>
-        <div class="join-item">
+        <div class="join-item" style="display:none">
           <img src="./qq-qrcode.jpg" alt="认官网QQ交流群二维码">
           <span data-i18n="qq_group">QQ 交流群</span>
           <span class="qq-num-sm" id="qqNum" title="点击复制群号">1039287882</span>
         </div>
-        <div class="join-item" style="display:none">
-          <a href="https://t.me/renguanwang" target="_blank" rel="noopener" title="加入 Telegram 群"><img src="./tg-qrcode.png" alt="认官网Telegram群二维码"></a>
-          <span>Telegram 群</span>
+        <div class="join-item">
+          <img src="./tg-qrcode.png" alt="Telegram群二维码" id="tgQrcode" style="cursor:pointer" title="点击复制群链接">
+          <span class="tg-link-sm" id="tgLink" title="点击复制群链接" style="cursor:pointer;color:#1a1a1a">t.me/renguanwang</span>
         </div>
       </div>
     </div>
@@ -980,6 +979,18 @@ function copyQQNum2(){
       else { const t=document.createElement("textarea"); t.value=orig; document.body.appendChild(t); t.select(); try{document.execCommand("copy");}catch(e){} document.body.removeChild(t); done(); }
     };
   }
+  // Telegram 群链接点击复制
+  const tgLink = document.getElementById("tgLink");
+  const tgQrcode = document.getElementById("tgQrcode");
+  const tgUrl = "https://t.me/renguanwang";
+  const copyTg = (el) => {
+    const orig = el.textContent.trim();
+    const done = () => { el.textContent = "已复制!"; setTimeout(()=>{ el.textContent = orig; }, 1200); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(tgUrl).then(done).catch(done); }
+    else { const ta=document.createElement("textarea"); ta.value=tgUrl; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");}catch(e){} document.body.removeChild(ta); done(); }
+  };
+  if(tgLink) tgLink.onclick = () => copyTg(tgLink);
+  if(tgQrcode) tgQrcode.onclick = () => copyTg(tgLink);
 })();
 // 分类导航：全部站点按分类铺成方块
 function buildNav(){
