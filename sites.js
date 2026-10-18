@@ -1212,5 +1212,18 @@ const SITES = [
 {name:"Bayut",url:"https://www.bayut.com",desc:"中东最大的房产门户，迪拜租房买房先看它。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"bayut 房产 租房 bayut",icon:"www.bayut.com.ico"},
 {name:"Visit Dubai",url:"https://www.visitdubai.com",desc:"迪拜旅游局官网，景点、签证、活动信息最权威。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"visit dubai visitdubai 迪拜旅游",icon:"www.visitdubai.com.ico"},
 {name:"DEWA",url:"https://www.dewa.gov.ae",desc:"迪拜水电局官网，交水电费、查账单、办业务。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"dewa 迪拜水电 dewa",icon:"www.dewa.gov.ae.ico"},
-{name:"Sharaf DG",url:"https://www.sharafdg.com",desc:"阿联酋老牌电器数码连锁，买手机电脑家电。",cat:"购物消费",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"sharaf dg sharafdg 电器数码",icon:"www.sharafdg.com.ico"}
+{name:"Sharaf DG",url:"https://www.sharafdg.com",desc:"阿联酋老牌电器数码连锁，买手机电脑家电。",cat:"购物消费",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"sharaf dg sharafdg 电器数码",icon:"www.sharafdg.com.ico"},
+{name:"KBC",url:"https://www.kbc.be",desc:"比利时三大银行之一，荷兰语区用户最多。",cat:"金融投资",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"kbc bank kbc 比利时银行",icon:"www.kbc.be.ico"},
+{name:"Belfius",url:"https://www.belfius.be",desc:"比利时国有银行，网点遍布全国。",cat:"金融投资",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"belfius bank belfius",icon:"www.belfius.be.ico"},
+{name:"Telenet",url:"https://www.telenet.be",desc:"比利时主要电信运营商，宽带电视手机一包。",cat:"生活服务",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"telenet 电信 telenet",icon:"www.telenet.be.ico"},
+{name:"RTBF",url:"https://www.rtbf.be",desc:"比利时法语区公共广播电视台，看新闻追剧。",cat:"影音娱乐",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"rtbf 法语电视 rtbf",icon:"www.rtbf.be.ico"},
+{name:"Le Soir",url:"https://www.lesoir.be",desc:"比利时法语区大报《晚报》，深度新闻。",cat:"新闻资讯",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"le soir lesoir 晚报",icon:"www.lesoir.be.ico"},
+{name:"HLN",url:"https://www.hln.be",desc:"比利时发行量最大的荷兰语新闻网站 Het Laatste Nieuws。",cat:"新闻资讯",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"hln nieuws hln 最新消息",icon:"www.hln.be.ico"},
+{name:"Brussels Airlines",url:"https://www.brusselsairlines.com",desc:"比利时国家航空，布鲁塞尔往返欧洲非洲的主力。",cat:"生活服务",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"brussels airlines brusselsairlines 布鲁塞尔航空",icon:"www.brusselsairlines.com.ico"},
+{name:"VDAB",url:"https://www.vdab.be",desc:"弗拉芒大区官方就业服务，找工作、职业培训。",cat:"生活服务",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"vdab 就业 找工作 vdab",icon:"www.vdab.be.ico"},
+{name:"Orange BE",url:"https://www.orange.be",desc:"Orange 比利时分公司，手机套餐运营商。",cat:"生活服务",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"orange 比利时 orange",icon:"www.orange.be.ico"},
+{name:"Immoweb",url:"https://www.immoweb.be",desc:"比利时最大的房产门户，租房买房必看。",cat:"生活服务",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"immoweb 房产 租房 immoweb",icon:"www.immoweb.be.ico"},
+{name:"2dehands",url:"https://www.2dehands.be",desc:"比利时最大二手交易平台，荷兰语版“闲鱼”。",cat:"购物消费",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"2dehands 二手 2dehands",icon:"www.2dehands.be.ico"},
+{name:"Delhaize",url:"https://www.delhaize.be",desc:"比利时国民连锁超市，在线下单送货上门。",cat:"购物消费",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"delhaize 超市 delhaize",icon:"www.delhaize.be.ico"},
+{name:"VTM",url:"https://www.vtm.be",desc:"比利时荷兰语区最大商业电视台，综艺电视剧。",cat:"影音娱乐",region:"BE",rating:4,price:"免费",official:true,plat:"网页",kw:"vtm 电视 vtm",icon:"www.vtm.be.ico"}
 ];
