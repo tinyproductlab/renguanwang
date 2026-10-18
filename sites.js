@@ -1492,5 +1492,15 @@ const SITES = [
 {name:"RTS",url:"https://www.rts.ch",desc:"瑞士法语区公共电视台，在线看节目。认准 rts.ch。",cat:"影音娱乐",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"rts rts",icon:"www.rts.ch.ico"},
 {name:"Raiffeisen",url:"https://www.raiffeisen.ch",desc:"瑞士合作银行 Raiffeisen，网银开户。认准 raiffeisen.ch。",cat:"金融投资",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"raiffeisen raiffeisen",icon:"www.raiffeisen.ch.ico"},
 {name:"Manor",url:"https://www.manor.ch",desc:"瑞士最大百货公司，在线购物。认准 manor.ch。",cat:"购物消费",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"manor manor",icon:"www.manor.ch.ico"},
-{name:"Swissquote",url:"https://www.swissquote.ch",desc:"瑞士线上券商，炒股外汇低佣金。认准 swissquote.ch。",cat:"金融投资",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"swissquote swissquote",icon:"www.swissquote.ch.ico"}
+{name:"Swissquote",url:"https://www.swissquote.ch",desc:"瑞士线上券商，炒股外汇低佣金。认准 swissquote.ch。",cat:"金融投资",region:"CH",rating:4,price:"免费",official:true,plat:"网页",kw:"swissquote swissquote",icon:"www.swissquote.ch.ico"},
+{name:"SEB",url:"https://www.seb.se",desc:"北欧最大银行之一 SEB，网银企业银行。认准 seb.se。",cat:"金融投资",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"seb seb",icon:"www.seb.se.ico"},
+{name:"Handelsbanken",url:"https://www.handelsbanken.se",desc:"瑞典历史最久的商业银行，网银服务。认准 handelsbanken.se。",cat:"金融投资",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"handelsbanken handelsbanken",icon:"www.handelsbanken.se.ico"},
+{name:"Telia",url:"https://telia.se",desc:"瑞典最大电信运营商 Telia，手机宽带。认准 telia.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"telia telia",icon:"www.telia.se.ico"},
+{name:"Tele2",url:"https://www.tele2.se",desc:"瑞典主流电信 Tele2，手机宽带电视。认准 tele2.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"tele2 tele2",icon:"www.tele2.se.ico"},
+{name:"Expressen",url:"https://www.expressen.se",desc:"瑞典最大晚报之一，看新闻体育。认准 expressen.se。",cat:"新闻资讯",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"expressen expressen",icon:"www.expressen.se.ico"},
+{name:"TV4",url:"https://www.tv4.se",desc:"瑞典 TV4 商业电视台，在线看节目。认准 tv4.se。",cat:"影音娱乐",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"tv4 tv4",icon:"www.tv4.se.ico"},
+{name:"Blocket",url:"https://www.blocket.se",desc:"瑞典最大二手交易平台，Schibsted 旗下。认准 blocket.se。",cat:"购物消费",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"blocket blocket",icon:"www.blocket.se.ico"},
+{name:"Hemnet",url:"https://www.hemnet.se",desc:"瑞典最大房产网站，找房看房价。认准 hemnet.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"hemnet hemnet",icon:"www.hemnet.se.ico"},
+{name:"IKEA",url:"https://www.ikea.se",desc:"宜家官网，查目录在线购物，总部瑞典。认准 ikea.se。",cat:"购物消费",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"ikea ikea",icon:"www.ikea.se.ico"},
+{name:"Apotea",url:"https://www.apotea.se",desc:"瑞典最大网上药房，买药保健品。认准 apotea.se。",cat:"生活服务",region:"SE",rating:4,price:"免费",official:true,plat:"网页",kw:"apotea apotea",icon:"www.apotea.se.ico"}
 ];
