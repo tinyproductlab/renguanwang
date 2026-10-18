@@ -1519,5 +1519,16 @@ const SITES = [
 {name:"Ameli",url:"https://www.ameli.fr",desc:"法国医保官网 Ameli，查报销办手续。认准 ameli.fr。",cat:"生活服务",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"ameli ameli",icon:"www.ameli.fr.ico"},
 {name:"Decathlon",url:"https://www.decathlon.fr",desc:"迪卡侬官网，买运动装备，总部法国。认准 decathlon.fr。",cat:"购物消费",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"decathlon decathlon",icon:"www.decathlon.fr.ico"},
 {name:"Carrefour",url:"https://www.carrefour.fr",desc:"家乐福法国官网，在线买菜日用品。认准 carrefour.fr。",cat:"购物消费",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"carrefour carrefour",icon:"www.carrefour.fr.ico"},
-{name:"Ubisoft",url:"https://www.ubisoft.com",desc:"育碧官网，查游戏下 Uplay，总部法国。认准 ubisoft.com。",cat:"影音娱乐",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"ubisoft ubisoft",icon:"www.ubisoft.com.ico"}
+{name:"Ubisoft",url:"https://www.ubisoft.com",desc:"育碧官网，查游戏下 Uplay，总部法国。认准 ubisoft.com。",cat:"影音娱乐",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"ubisoft ubisoft",icon:"www.ubisoft.com.ico"},
+{name:"Carousell",url:"https://www.carousell.sg/",desc:"新加坡本土二手交易平台，买卖闲置物品",cat:"购物消费",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"carousell carousell",icon:"www.carousell.sg.ico"},
+{name:"SGX",url:"https://www.sgx.com/",desc:"新加坡交易所官网，查股价公告",cat:"金融投资",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"sgx sgx",icon:"www.sgx.com.ico"},
+{name:"HDB",url:"https://www.hdb.gov.sg/",desc:"新加坡建屋发展局，组屋买卖租赁",cat:"生活服务",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"hdb hdb",icon:"www.hdb.gov.sg.ico"},
+{name:"CPF",url:"https://www.cpf.gov.sg/",desc:"新加坡公积金局，查公积金账户",cat:"金融投资",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"cpf cpf",icon:"www.cpf.gov.sg.ico"},
+{name:"IRAS",url:"https://www.iras.gov.sg/",desc:"新加坡税务局，报税缴税",cat:"生活服务",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"iras iras",icon:"www.iras.gov.sg.ico"},
+{name:"M1",url:"https://www.m1.com.sg/",desc:"新加坡电信运营商，手机宽带套餐",cat:"生活服务",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"m1 m1",icon:"www.m1.com.sg.ico"},
+{name:"Golden Village",url:"https://www.gv.com.sg/",desc:"新加坡最大连锁影院，在线订票",cat:"影音娱乐",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"golden village gv",icon:"www.gv.com.sg.ico"},
+{name:"Today Online",url:"https://www.todayonline.com/",desc:"新加坡英文新闻网站，时事速览",cat:"新闻资讯",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"today online todayonline",icon:"www.todayonline.com.ico"},
+{name:"Mothership",url:"https://www.mothership.sg/",desc:"新加坡本土新媒体，年轻人爱看",cat:"新闻资讯",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"mothership mothership",icon:"www.mothership.sg.ico"},
+{name:"POSB",url:"https://www.posb.com.sg/",desc:"新加坡平民银行，DBS旗下",cat:"金融投资",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"posb posb",icon:"www.posb.com.sg.ico"},
+{name:"Foodpanda SG",url:"https://www.foodpanda.sg/",desc:"新加坡外卖配送平台，订餐送餐上门",cat:"生活服务",region:"SG",rating:4,price:"免费",official:true,plat:"网页",kw:"foodpanda foodpanda",icon:"www.foodpanda.sg.ico"}
 ];
