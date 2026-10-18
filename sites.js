@@ -1511,5 +1511,13 @@ const SITES = [
 {name:"中华邮政",url:"https://www.post.gov.tw",desc:"中华邮政官网，查包裹邮资据点。认准 post.gov.tw。",cat:"生活服务",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"中华邮政 post",icon:"www.post.gov.tw.ico"},
 {name:"公视",url:"https://www.pts.org.tw",desc:"台湾公共电视，看优质台剧纪录片。认准 pts.org.tw。",cat:"影音娱乐",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"公视 pts",icon:"www.pts.org.tw.ico"},
 {name:"ETtoday",url:"https://www.ettoday.net",desc:"台湾最大网络媒体之一 ETtoday，看即时新闻。认准 ettoday.net。",cat:"新闻资讯",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"ettoday ettoday",icon:"www.ettoday.net.ico"},
-{name:"MyVideo",url:"https://www.myvideo.net.tw",desc:"台湾本土影音平台 MyVideo，看电影追剧。认准 myvideo.net.tw。",cat:"影音娱乐",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"myvideo myvideo",icon:"www.myvideo.net.tw.ico"}
+{name:"MyVideo",url:"https://www.myvideo.net.tw",desc:"台湾本土影音平台 MyVideo，看电影追剧。认准 myvideo.net.tw。",cat:"影音娱乐",region:"TW",rating:4,price:"免费",official:true,plat:"网页",kw:"myvideo myvideo",icon:"www.myvideo.net.tw.ico"},
+{name:"SFR",url:"https://www.sfr.fr",desc:"法国主流电信 SFR，手机光纤套餐。认准 sfr.fr。",cat:"生活服务",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"sfr sfr",icon:"www.sfr.fr.ico"},
+{name:"Free",url:"https://www.free.fr",desc:"法国 Free 电信，低价手机宽带。认准 free.fr。",cat:"生活服务",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"free free",icon:"www.free.fr.ico"},
+{name:"RATP",url:"https://www.ratp.fr",desc:"巴黎大众运输公司 RATP，查地铁公交。认准 ratp.fr。",cat:"生活服务",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"ratp ratp",icon:"www.ratp.fr.ico"},
+{name:"TF1",url:"https://www.tf1.fr",desc:"法国 TF1 电视台，在线看节目回放。认准 tf1.fr。",cat:"影音娱乐",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"tf1 tf1",icon:"www.tf1.fr.ico"},
+{name:"Ameli",url:"https://www.ameli.fr",desc:"法国医保官网 Ameli，查报销办手续。认准 ameli.fr。",cat:"生活服务",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"ameli ameli",icon:"www.ameli.fr.ico"},
+{name:"Decathlon",url:"https://www.decathlon.fr",desc:"迪卡侬官网，买运动装备，总部法国。认准 decathlon.fr。",cat:"购物消费",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"decathlon decathlon",icon:"www.decathlon.fr.ico"},
+{name:"Carrefour",url:"https://www.carrefour.fr",desc:"家乐福法国官网，在线买菜日用品。认准 carrefour.fr。",cat:"购物消费",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"carrefour carrefour",icon:"www.carrefour.fr.ico"},
+{name:"Ubisoft",url:"https://www.ubisoft.com",desc:"育碧官网，查游戏下 Uplay，总部法国。认准 ubisoft.com。",cat:"影音娱乐",region:"FR",rating:4,price:"免费",official:true,plat:"网页",kw:"ubisoft ubisoft",icon:"www.ubisoft.com.ico"}
 ];
