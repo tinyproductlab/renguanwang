@@ -780,12 +780,23 @@ function applyLang(){
   const lang = currentLang();
   document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
 }
-regionSel.onchange = () => { activeRegion = regionSel.value; try{ localStorage.setItem("rg_region", activeRegion); }catch(e){} doSearch(); buildNav(); applyLang(); };
-// 首次访问：按浏览器语言自动选国家（用户手动选过则记住选择）
+regionSel.onchange = () => {
+  const v = regionSel.value;
+  try{ localStorage.setItem("rg_region", v); }catch(e){}
+  // PWA 下 select 切换可能不触发重渲染，直接带参数刷新最稳
+  const url = new URL(location.href);
+  if(v) url.searchParams.set("country", v); else url.searchParams.delete("country");
+  location.href = url.toString();
+};
+// 初始化：URL 参数 > localStorage > 浏览器语言自动检测
 try{
+  const urlCountry = new URLSearchParams(location.search).get("country");
   const saved = localStorage.getItem("rg_region");
-  if(saved !== null){ activeRegion = saved; regionSel.value = saved; }
-  else { const auto = langToCountry(); if(auto && regionSel.querySelector(`option[value="${auto}"]`)){ activeRegion = auto; regionSel.value = auto; } }
+  let init = "";
+  if(urlCountry && regionSel.querySelector(`option[value="${urlCountry}"]`)){ init = urlCountry; }
+  else if(saved !== null && regionSel.querySelector(`option[value="${saved}"]`)){ init = saved; }
+  else { const auto = langToCountry(); if(auto && regionSel.querySelector(`option[value="${auto}"]`)){ init = auto; } }
+  if(init){ activeRegion = init; regionSel.value = init; }
 }catch(e){}
 const platSel = document.getElementById("platSel");
 platSel.onchange = () => { activePlat = platSel.value; doSearch(); };
