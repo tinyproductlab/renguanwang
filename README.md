@@ -47,3 +47,11 @@ python3 -m http.server 8000
 - Telegram 群：https://t.me/renguanwang
 - 微信公众号：小产品实验室
 - 反馈：网站右上角「反馈」入口
+
+## 支持作者
+
+如果认官网帮到了你，欢迎请作者喝杯咖啡 ☕
+
+| 微信打赏 | 支付宝打赏 |
+|---------|----------|
+| <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> |
