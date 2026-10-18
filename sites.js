@@ -1202,5 +1202,15 @@ const SITES = [
 {name:"Talabat EG",url:"https://www.talabat.com",desc:"埃及外卖",cat:"生活服务",region:"EG",rating:4,price:"免费",kw:"talabat eg talabat",official:true,plat:"网页",icon:"www.www.talabat.com.ico"},
 {name:"Careem",url:"https://www.careem.com",desc:"中东打车",cat:"生活服务",region:"EG",rating:4,price:"免费",kw:"careem careem",official:true,plat:"网页",icon:"www.www.careem.com.ico"},
 {name:"Swvl",url:"https://www.swvl.com",desc:"埃及巴士出行",cat:"生活服务",region:"EG",rating:4,price:"免费",kw:"swvl swvl",official:true,plat:"网页",icon:"www.www.swvl.com.ico"},
-{name:"FilGoal",url:"https://www.filgoal.com",desc:"埃及体育新闻",cat:"新闻资讯",region:"EG",rating:4,price:"免费",kw:"filgoal filgoal",official:true,plat:"网页",icon:"www.www.filgoal.com.ico"}
+{name:"FilGoal",url:"https://www.filgoal.com",desc:"埃及体育新闻",cat:"新闻资讯",region:"EG",rating:4,price:"免费",kw:"filgoal filgoal",official:true,plat:"网页",icon:"www.www.filgoal.com.ico"},
+{name:"Emirates NBD",url:"https://www.emiratesnbd.com",desc:"阿联酋最大的银行之一，个人开户、转账、信用卡业务的主力行。",cat:"金融投资",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"emirates nbd emiratesnbd 阿联酋银行",icon:"www.emiratesnbd.com.ico"},
+{name:"FAB",url:"https://www.bankfab.com",desc:"阿布扎比第一银行，阿联酋资产规模最大的银行。",cat:"金融投资",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"fab first abu dhabi bankfab 阿布扎比银行",icon:"www.bankfab.com.ico"},
+{name:"du",url:"https://www.du.ae",desc:"阿联酋第二大电信运营商，手机卡、宽带、话费充值。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"du telecom duae 阿联酋电信",icon:"www.du.ae.ico"},
+{name:"Amazon.ae",url:"https://www.amazon.ae",desc:"亚马逊阿联酋站，中东版万能电商，啥都卖。",cat:"购物消费",region:"AE",rating:5,price:"免费",official:true,plat:"网页",kw:"amazon 亚马逊 amazon.ae",icon:"www.amazon.ae.ico"},
+{name:"Khaleej Times",url:"https://www.khaleejtimes.com",desc:"阿联酋历史最悠久的英文报纸，看本地新闻。",cat:"新闻资讯",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"khaleej times khaleejtimes 海湾时报",icon:"www.khaleejtimes.com.ico"},
+{name:"The National",url:"https://www.thenationalnews.com",desc:"阿联酋官方背景的英文大报《国民报》，时政财经深度报道。",cat:"新闻资讯",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"the national thenationalnews 国民报",icon:"www.thenationalnews.com.ico"},
+{name:"Bayut",url:"https://www.bayut.com",desc:"中东最大的房产门户，迪拜租房买房先看它。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"bayut 房产 租房 bayut",icon:"www.bayut.com.ico"},
+{name:"Visit Dubai",url:"https://www.visitdubai.com",desc:"迪拜旅游局官网，景点、签证、活动信息最权威。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"visit dubai visitdubai 迪拜旅游",icon:"www.visitdubai.com.ico"},
+{name:"DEWA",url:"https://www.dewa.gov.ae",desc:"迪拜水电局官网，交水电费、查账单、办业务。",cat:"生活服务",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"dewa 迪拜水电 dewa",icon:"www.dewa.gov.ae.ico"},
+{name:"Sharaf DG",url:"https://www.sharafdg.com",desc:"阿联酋老牌电器数码连锁，买手机电脑家电。",cat:"购物消费",region:"AE",rating:4,price:"免费",official:true,plat:"网页",kw:"sharaf dg sharafdg 电器数码",icon:"www.sharafdg.com.ico"}
 ];
