@@ -1269,5 +1269,17 @@ const SITES = [
 {name:"Telenor",url:"https://www.telenor.no",desc:"挪威最大电信运营商",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"telenor telenor.no",icon:"www.telenor.no.ico"},
 {name:"Visit Norway",url:"https://www.visitnorway.com",desc:"挪威官方旅游门户，行程攻略一站式",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"visit norway visitnorway",icon:"www.visitnorway.com.ico"},
 {name:"Gule Sider",url:"https://www.gulesider.no",desc:"挪威黄页，查商家电话和地图",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"gule sider gulesider",icon:"www.gulesider.no.ico"},
-{name:"挪威税务局",url:"https://www.skatteetaten.no",desc:"挪威税务局官网，报税查税",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"挪威税务局 skatteetaten",icon:"www.skatteetaten.no.ico"}
+{name:"挪威税务局",url:"https://www.skatteetaten.no",desc:"挪威税务局官网，报税查税",cat:"生活服务",region:"NO",rating:4,price:"免费",official:true,plat:"网页",kw:"挪威税务局 skatteetaten",icon:"www.skatteetaten.no.ico"},
+{name:"Bank Leumi",url:"https://www.bankleumi.co.il",desc:"以色列国民银行，大型商业银行",cat:"金融投资",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"bank leumi bankleumi",icon:"www.bankleumi.co.il.ico"},
+{name:"Partner",url:"https://www.partner.co.il",desc:"以色列主流电信运营商",cat:"生活服务",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"partner partner.co.il",icon:"www.partner.co.il.ico"},
+{name:"耶路撒冷邮报",url:"https://www.jpost.com",desc:"以色列英文大报，看中东新闻的窗口",cat:"新闻资讯",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"耶路撒冷邮报 jpost",icon:"www.jpost.com.ico"},
+{name:"以色列时报",url:"https://www.timesofisrael.com",desc:"以色列知名英文新闻网站",cat:"新闻资讯",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"以色列时报 timesofisrael",icon:"www.timesofisrael.com.ico"},
+{name:"以色列铁路",url:"https://www.rail.co.il",desc:"以色列铁路官网，查时刻表订票",cat:"生活服务",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"以色列铁路 rail",icon:"www.rail.co.il.ico"},
+{name:"以色列邮政",url:"https://www.israelpost.co.il",desc:"以色列邮政官网，查包裹寄件",cat:"生活服务",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"以色列邮政 israelpost",icon:"www.israelpost.co.il.ico"},
+{name:"以色列议会",url:"https://www.knesset.gov.il",desc:"以色列议会官网",cat:"常用网站",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"以色列议会 knesset"},
+{name:"Waze",url:"https://www.waze.com",desc:"以色列出品的导航 App，实时路况神器",cat:"常用软件",region:"IL",rating:5,price:"免费",official:true,dl:true,plat:"双平台",kw:"waze waze.com",icon:"www.waze.com.ico"},
+{name:"Fiverr",url:"https://www.fiverr.com",desc:"以色列出品的自由职业众包平台",cat:"办公效率",region:"IL",rating:4,price:"免费+付费",official:true,plat:"网页",kw:"fiverr fiverr.com",icon:"www.fiverr.com.ico"},
+{name:"希伯来大学",url:"https://www.huji.ac.il",desc:"耶路撒冷希伯来大学官网",cat:"学习教育",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"希伯来大学 huji",icon:"www.huji.ac.il.ico"},
+{name:"KAN",url:"https://www.kan.org.il",desc:"以色列公共广播公司，新闻影视",cat:"影音娱乐",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"kan kan.org.il"},
+{name:"Yad2",url:"https://www.yad2.co.il",desc:"以色列最大分类广告网站，二手租房",cat:"购物消费",region:"IL",rating:4,price:"免费",official:true,plat:"网页",kw:"yad2 yad2.co.il",icon:"www.yad2.co.il.ico"}
 ];
