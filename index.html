@@ -1189,6 +1189,17 @@ function buildNav(){
 }
 buildNav();
 applyLang();
+// 回到顶部按钮
+const toTop = document.createElement("button");
+toTop.id = "toTop";
+toTop.innerHTML = "↑";
+toTop.setAttribute("aria-label", "回到顶部");
+toTop.style.cssText = "position:fixed;right:20px;bottom:24px;width:44px;height:44px;border-radius:50%;border:1px solid #e5e7eb;background:#fff;color:#666;font-size:20px;cursor:pointer;display:none;z-index:999;box-shadow:0 2px 12px rgba(0,0,0,.1)";
+toTop.onclick = () => window.scrollTo({top:0, behavior:"smooth"});
+document.body.appendChild(toTop);
+window.addEventListener("scroll", () => {
+  toTop.style.display = window.scrollY > 400 ? "block" : "none";
+}, {passive:true});
 </script>
 </body>
 </html>
