@@ -54,11 +54,8 @@ python3 -m http.server 8000
 
 如果认官网帮到了你，欢迎请作者喝杯咖啡 ☕
 
-| 微信打赏 | 支付宝打赏 |
-|---------|----------|
-| <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> |
+| 微信打赏 | 支付宝打赏 | USDT (TRC20) |
+|---------|----------|--------------|
+| <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> | <img src="./donate-usdt.png" width="180"> |
 
-**虚拟货币**：USDT (TRC20/TRON 网络)
-```
-TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH
-```
+USDT 地址：`TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH`

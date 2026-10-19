@@ -54,11 +54,8 @@ PRs welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) (Chinese for now, English 
 
 If RGW saved you from a fake download site, consider buying the author a coffee ☕
 
-| WeChat Pay | Alipay |
-|-----------|--------|
-| <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> |
+| WeChat Pay | Alipay | USDT (TRC20) |
+|-----------|--------|--------------|
+| <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> | <img src="./donate-usdt.png" width="180"> |
 
-**Crypto**: USDT (TRC20 / TRON network)
-```
-TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH
-```
+USDT address: `TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH`
