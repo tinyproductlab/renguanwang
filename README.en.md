@@ -57,3 +57,8 @@ If RGW saved you from a fake download site, consider buying the author a coffee 
 | WeChat Pay | Alipay |
 |-----------|--------|
 | <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> |
+
+**Crypto**: USDT (TRC20 / TRON network)
+```
+TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH
+```

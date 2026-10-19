@@ -57,3 +57,8 @@ python3 -m http.server 8000
 | 微信打赏 | 支付宝打赏 |
 |---------|----------|
 | <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> |
+
+**虚拟货币**：USDT (TRC20/TRON 网络)
+```
+TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH
+```
