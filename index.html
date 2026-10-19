@@ -265,32 +265,20 @@
 <div class="footer">
   <div class="foot-inner" style="justify-content:center">
     <div class="foot-join">
-      <div class="join-row">
-        <div class="join-item">
-          <img src="./gzh-qrcode.jpg" alt="小产品实验室公众号二维码">
-          <span class="join-tip"><span data-i18n="wechat_label">微信：</span>小产品实验室</span>
-        </div>
-        <div class="join-item" style="display:none">
-          <img src="./qq-qrcode.jpg" alt="认官网QQ交流群二维码">
-          <span data-i18n="qq_group">QQ 交流群</span>
-          <span class="qq-num-sm" id="qqNum" title="点击复制群号">1039287882</span>
-        </div>
-        <div class="join-item">
-          <img src="./tg-qrcode.png" alt="Telegram群二维码" id="tgQrcode" style="cursor:pointer" title="点击复制群链接">
-          <span class="tg-link-sm" id="tgLink" title="点击复制群链接" style="cursor:pointer;color:#1a1a1a">t.me/renguanwang</span>
-        </div>
-        <div class="join-item">
-          <img src="./donate-wechat.png" alt="微信打赏二维码">
-          <span class="join-tip" data-i18n="donate_wechat">微信打赏</span>
-        </div>
-        <div class="join-item">
-          <img src="./donate-alipay.png" alt="支付宝打赏二维码">
-          <span class="join-tip" data-i18n="donate_alipay">支付宝打赏</span>
-        </div>
-        <div class="join-item">
-          <div class="donate-crypto" id="donateCrypto" title="点击复制USDT地址" style="cursor:pointer;width:104px;height:104px;border:1px solid #eee;border-radius:8px;margin:0 auto 8px;background:#f7f8fa;display:flex;align-items:center;justify-content:center;font-size:32px">₮</div>
-          <span class="join-tip" data-i18n="donate_crypto">USDT打赏</span>
-        </div>
+      <div class="join-row" style="gap:20px">
+        <a href="javascript:void(0)" id="footGzh" style="font-size:13px;color:#555;text-decoration:none" data-i18n="foot_gzh">微信：小产品实验室</a>
+        <span style="color:#ddd">|</span>
+        <a href="javascript:void(0)" id="footTg" style="font-size:13px;color:#555;text-decoration:none">Telegram</a>
+        <span style="color:#ddd">|</span>
+        <a href="https://github.com/tinyproductlab/renguanwang" target="_blank" rel="noopener" style="font-size:13px;color:#555;text-decoration:none">GitHub 开源</a>
+      </div>
+    </div>
+    <!-- 二维码弹窗 -->
+    <div id="qrModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;align-items:center;justify-content:center" onclick="if(event.target===this)this.style.display='none'">
+      <div style="background:#fff;border-radius:12px;padding:24px;text-align:center;position:relative">
+        <button onclick="document.getElementById('qrModal').style.display='none'" style="position:absolute;top:8px;right:12px;border:none;background:none;font-size:18px;cursor:pointer">✕</button>
+        <img id="qrModalImg" src="" alt="" style="width:200px;height:200px;border-radius:8px">
+        <p id="qrModalTip" style="margin-top:12px;font-size:13px;color:#666"></p>
       </div>
     </div>
     <div class="foot-links" style="display:none">
@@ -375,6 +363,7 @@ zh: {
   donate_wechat:"微信打赏",
   donate_alipay:"支付宝打赏",
   donate_crypto:"USDT打赏",
+  foot_gzh:"微信：小产品实验室",
   price_free:"免费", verified:"官网认证", go:"直达 →", dl:"💾 可下载", ad:"推广",
 },
 zht: {
@@ -393,6 +382,7 @@ zht: {
   donate_wechat:"微信打賞",
   donate_alipay:"支付寶打賞",
   donate_crypto:"USDT打賞",
+  foot_gzh:"微信：小產品實驗室",
   price_free:"免費", verified:"官網認證", go:"直達 →", dl:"💾 可下載", ad:"推廣",
 },
 en: {
@@ -411,6 +401,7 @@ en: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Free", verified:"Verified", go:"Visit →", dl:"💾 Download", ad:"Ad",
   fb_report:"🚨 Report Fake Site", fb_suggest:"✨ Suggest a Site",
   fb_fake_url:"Fake site URL", fb_fake_ph:"e.g. sunlogin-download.com",
@@ -439,6 +430,7 @@ ja: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"無料", verified:"認証済み", go:"開く →", dl:"💾 ダウンロード", ad:"広告",
 },
 ko: {
@@ -457,6 +449,7 @@ ko: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"무료", verified:"인증됨", go:"바로가기 →", dl:"💾 다운로드", ad:"광고",
 },
 de: {
@@ -475,6 +468,7 @@ de: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Kostenlos", verified:"Verifiziert", go:"Öffnen →", dl:"💾 Download", ad:"Werbung",
 },
 fr: {
@@ -493,6 +487,7 @@ fr: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Gratuit", verified:"Vérifié", go:"Ouvrir →", dl:"💾 Télécharger", ad:"Pub",
 },
 es: {
@@ -511,6 +506,7 @@ es: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Gratis", verified:"Verificado", go:"Abrir →", dl:"💾 Descargar", ad:"Anuncio",
 },
 pt: {
@@ -529,6 +525,7 @@ pt: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Grátis", verified:"Verificado", go:"Abrir →", dl:"💾 Baixar", ad:"Anúncio",
 },
 it: {
@@ -547,6 +544,7 @@ it: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Gratis", verified:"Verificato", go:"Apri →", dl:"💾 Scarica", ad:"Annuncio",
 },
 nl: {
@@ -565,6 +563,7 @@ nl: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Gratis", verified:"Geverifieerd", go:"Openen →", dl:"💾 Download", ad:"Advertentie",
 },
 ru: {
@@ -583,6 +582,7 @@ ru: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Бесплатно", verified:"Проверено", go:"Открыть →", dl:"💾 Скачать", ad:"Реклама",
 },
 th: {
@@ -601,6 +601,7 @@ th: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"ฟรี", verified:"ยืนยันแล้ว", go:"เปิด →", dl:"💾 ดาวน์โหลด", ad:"โฆษณา",
 },
 vi: {
@@ -619,6 +620,7 @@ vi: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Miễn phí", verified:"Đã xác minh", go:"Mở →", dl:"💾 Tải xuống", ad:"Quảng cáo",
 },
 id: {
@@ -637,6 +639,7 @@ id: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Gratis", verified:"Terverifikasi", go:"Buka →", dl:"💾 Unduh", ad:"Iklan",
 },
 tr: {
@@ -655,6 +658,7 @@ tr: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"Ücretsiz", verified:"Doğrulandı", go:"Aç →", dl:"💾 İndir", ad:"Reklam",
 },
 ar: {
@@ -673,6 +677,7 @@ ar: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
   price_free:"مجاني", verified:"موثق", go:"فتح →", dl:"💾 تحميل", ad:"إعلان",
 },
 he: {
@@ -691,6 +696,7 @@ he: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 pl: {
   nav_home:"Start", nav_hot:"Oprogramowanie", nav_ai:"Narzędzia AI", nav_sites:"Strony", nav_feedback:"Opinia", nav_about:"O nas",
@@ -708,6 +714,7 @@ pl: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 cs: {
   nav_home:"Domů", nav_hot:"Software", nav_ai:"AI nástroje", nav_sites:"Weby", nav_feedback:"Zpětná vazba", nav_about:"O nás",
@@ -725,6 +732,7 @@ cs: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 da: {
   nav_home:"Hjem", nav_hot:"Software", nav_ai:"AI-værktøjer", nav_sites:"Websteder", nav_feedback:"Feedback", nav_about:"Om os",
@@ -742,6 +750,7 @@ da: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 sv: {
   nav_home:"Hem", nav_hot:"Programvara", nav_ai:"AI-verktyg", nav_sites:"Webbplatser", nav_feedback:"Feedback", nav_about:"Om oss",
@@ -759,6 +768,7 @@ sv: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 fi: {
   nav_home:"Etusivu", nav_hot:"Ohjelmistot", nav_ai:"Tekoälytyökalut", nav_sites:"Sivustot", nav_feedback:"Palaute", nav_about:"Meistä",
@@ -776,6 +786,7 @@ fi: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 no: {
   nav_home:"Hjem", nav_hot:"Programvare", nav_ai:"AI-verktøy", nav_sites:"Nettsteder", nav_feedback:"Tilbakemelding", nav_about:"Om oss",
@@ -793,6 +804,7 @@ no: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 el: {
   nav_home:"Αρχική", nav_hot:"Λογισμικό", nav_ai:"Εργαλεία AI", nav_sites:"Ιστότοποι", nav_feedback:"Σχόλια", nav_about:"Σχετικά",
@@ -810,6 +822,7 @@ el: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  foot_gzh:"WeChat: 小产品实验室",
 },
 };
 
@@ -1114,20 +1127,29 @@ function copyQQNum2(){
   };
   if(tgLink) tgLink.onclick = () => copyTg(tgLink);
   if(tgQrcode) tgQrcode.onclick = () => copyTg(tgLink);
-  // USDT 地址点击复制
-  const donateCrypto = document.getElementById("donateCrypto");
-  if(donateCrypto){
-    const usdtAddr = "TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH";
-    donateCrypto.onclick = () => {
-      const done = () => {
-        const orig = donateCrypto.textContent;
-        donateCrypto.textContent = "✓";
-        setTimeout(()=>{ donateCrypto.textContent = orig; }, 1200);
-      };
-      if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(usdtAddr).then(done).catch(done); }
-      else { const ta=document.createElement("textarea"); ta.value=usdtAddr; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");}catch(e){} document.body.removeChild(ta); done(); }
+  // 页脚二维码弹窗
+  const qrModal = document.getElementById("qrModal");
+  const qrModalImg = document.getElementById("qrModalImg");
+  const qrModalTip = document.getElementById("qrModalTip");
+  const footGzh = document.getElementById("footGzh");
+  const footTg = document.getElementById("footTg");
+  if(footGzh) footGzh.onclick = () => {
+    qrModalImg.src = "./gzh-qrcode.jpg";
+    qrModalTip.textContent = t("wechat_label") + "小产品实验室";
+    qrModal.style.display = "flex";
+  };
+  if(footTg) footTg.onclick = () => {
+    qrModalImg.src = "./tg-qrcode.png";
+    qrModalTip.textContent = "t.me/renguanwang（点击图片复制链接）";
+    qrModalImg.style.cursor = "pointer";
+    qrModalImg.onclick = () => {
+      const url = "https://t.me/renguanwang";
+      if(navigator.clipboard) navigator.clipboard.writeText(url);
+      qrModalTip.textContent = "已复制!";
+      setTimeout(()=>{ qrModalTip.textContent = "t.me/renguanwang（点击图片复制链接）"; }, 1200);
     };
-  }
+    qrModal.style.display = "flex";
+  };
 })();
 // 分类导航：全部站点按分类铺成方块
 function buildNav(){
