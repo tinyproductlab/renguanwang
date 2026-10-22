@@ -1998,5 +1998,11 @@ const SITES = [
 {name:"金山词霸",url:"https://www.iciba.com",cat:"学习教育",rating:4,price:"免费",kw:"金山词霸 iciba 词典 英语翻译",desc:"金山官方词典翻译，老牌英语学习工具。认准 iciba.com。",official:true,region:"CN",plat:"网页",icon:"www.iciba.com.ico"},
 {name:"MoMo 支付",url:"https://momo.vn",cat:"金融投资",rating:4,price:"免费",kw:"momo 越南 钱包 支付 vietnam ewallet",desc:"越南最大电子钱包，国民级支付应用。",official:true,region:"VN",plat:"双平台",icon:"www.momo.vn.ico"},
 {name:"必应翻译",url:"https://www.bing.com/translator",cat:"常用网站",rating:4,price:"免费",kw:"bing translator 微软翻译 必应翻译 microsoft translator",desc:"微软必应官方翻译，支持 130 多种语言。",official:true,region:"US",plat:"网页",icon:"www.bing.com.ico"},
-{name:"巴西联邦税务局",url:"https://www.gov.br/receitafederal",cat:"生活服务",rating:4,price:"免费",kw:"receita federal 巴西 税务 报税 cpf",desc:"巴西联邦税务局官网，报税办税入口。",official:true,region:"BR",plat:"网页",icon:"www.gov.br.ico"}
+{name:"巴西联邦税务局",url:"https://www.gov.br/receitafederal",cat:"生活服务",rating:4,price:"免费",kw:"receita federal 巴西 税务 报税 cpf",desc:"巴西联邦税务局官网，报税办税入口。",official:true,region:"BR",plat:"网页",icon:"www.gov.br.ico"},
+{name:"Google Search Console",url:"https://search.google.com/search-console",cat:"开发工具",rating:4,price:"免费",kw:"search console 谷歌站长 google 收录查询 seo",desc:"谷歌官方站长工具，查网站收录和搜索表现。",official:true,region:"US",plat:"网页",icon:"www.search.google.com.ico"},
+{name:"Google Analytics",url:"https://analytics.google.com",cat:"开发工具",rating:4,price:"免费",kw:"google analytics 谷歌分析 流量统计 ga",desc:"谷歌官方流量分析工具，看网站访问数据。",official:true,region:"US",plat:"网页",icon:"www.analytics.google.com.ico"},
+{name:"必应站长工具",url:"https://www.bing.com/webmasters",cat:"开发工具",rating:4,price:"免费",kw:"bing webmaster 必应站长 收录 seo",desc:"微软必应官方站长工具，提交网站查收录。",official:true,region:"US",plat:"网页",icon:"www.bing.com.ico"},
+{name:"百度搜索资源平台",url:"https://ziyuan.baidu.com",cat:"开发工具",rating:4,price:"免费",kw:"百度站长 搜索资源平台 收录 ziyuan baidu",desc:"百度官方站长平台，提交收录查索引必备。",official:true,region:"CN",plat:"网页",icon:"www.ziyuan.baidu.com.ico"},
+{name:"百度统计",url:"https://tongji.baidu.com",cat:"开发工具",rating:4,price:"免费",kw:"百度统计 tongji 流量统计 网站分析",desc:"百度官方网站流量统计，访客数据全掌握。",official:true,region:"CN",plat:"网页",icon:"www.tongji.baidu.com.ico"},
+{name:"Yandex Webmaster",url:"https://webmaster.yandex.com",cat:"开发工具",rating:4,price:"免费",kw:"yandex webmaster 站长 俄罗斯 收录",desc:"Yandex 官方站长工具，俄语区收录必备。",official:true,region:"RU",plat:"网页",icon:"www.webmaster.yandex.com.ico"}
 ];
