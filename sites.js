@@ -1953,7 +1953,7 @@ const SITES = [
 {name:"Halkbank",url:"https://halkbank.com.tr",cat:"金融投资",rating:4,price:"免费",kw:"Halkbank halkbank.com.tr 土耳其大众银行",desc:"土耳其国有大众银行，中小企业金融主力",official:true,region:"TR",dl:true,plat:"双平台",icon:"www.halkbank.com.tr.ico"},
 {name:"Hacettepe University Hospitals",url:"https://hastane.hacettepe.edu.tr",cat:"生活服务",rating:4,price:"免费",kw:"Hacettepe University Hospitals hastane.hacettepe.edu.tr 哈杰泰佩大学医院",desc:"土耳其顶尖大学医院集团，位于安卡拉",official:true,region:"TR",plat:"网页",icon:"www.hastane.hacettepe.edu.tr.ico"},
 {name:"Sberbank",url:"https://sberbank.ru",cat:"金融投资",rating:4,price:"免费",kw:"Sberbank sberbank.ru 俄罗斯储蓄银行",desc:"俄罗斯最大银行，俄联邦储蓄银行官方网站",official:true,region:"RU",dl:true,plat:"双平台",icon:"www.sberbank.ru.ico"},
-{name:"俄罗斯铁路 RZD",url:"https://rzd.ru",cat:"生活服务",rating:4,price:"免费",kw:"RZD Russian Railways rzd.ru 俄罗斯铁路",desc:"俄罗斯国家铁路官网，火车票预订与时刻查询",official:true,region:"RU",dl:true,plat:"双平台",icon:""},
+{name:"俄罗斯铁路 RZD",url:"https://rzd.ru",cat:"生活服务",rating:4,price:"免费",kw:"RZD Russian Railways rzd.ru 俄罗斯铁路",desc:"俄罗斯国家铁路官网，火车票预订与时刻查询",official:true,region:"RU",dl:true,plat:"双平台",icon:"www.rzd.ru.ico"},
 {name:"MTS",url:"https://mts.ru",cat:"生活服务",rating:4,price:"混合",kw:"MTS mts.ru 俄罗斯电信",desc:"俄罗斯最大移动运营商，手机与家庭网络服务",official:true,region:"RU",dl:true,plat:"双平台",icon:"www.mts.ru.ico"},
 {name:"T-Bank",url:"https://tbank.ru",cat:"金融投资",rating:4,price:"免费",kw:"T-Bank tbank.ru Tinkoff 俄罗斯银行",desc:"俄罗斯数字银行T-Bank，原Tinkoff银行",official:true,region:"RU",dl:true,plat:"双平台",icon:"www.tbank.ru.ico"},
 {name:"VTB",url:"https://vtb.ru",cat:"金融投资",rating:4,price:"免费",kw:"VTB vtb.ru 俄罗斯外贸银行",desc:"俄罗斯第二大银行，外贸银行VTB官方网站",official:true,region:"RU",dl:true,plat:"双平台",icon:"www.vtb.ru.ico"},
