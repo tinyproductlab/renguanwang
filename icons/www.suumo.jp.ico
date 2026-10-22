@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ja" class="ie"><![endif]-->
+<!--[if IE 7]><html lang="ja" class="ie"><![endif]-->
+<!--[if IE 8]><html lang="ja" class="ie"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ja">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>【SUUMO】システムメンテナンス中</title>
+<link rel="stylesheet" href="/sorry/suumo/css/info.css" media="screen" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="siteheadercontainer">
+		<div class="siteheader">
+			<div class="siteheader-inner">
+				<div class="logo">
+					<div class="logo-object"><img src="/sorry/suumo/img/logo.png" alt="SUUMO(スーモ)" height="46" width="138"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper item">
+		<div class="ui-section--h1">
+			<div class="ui-section-header">
+				<h1>システムメンテナンス中</h1>
+			</div>
+			<div class="ui-section-body">
+				<div class="info">
+					<p class="info-read">日頃はSUUMOをご利用いただき、誠にありがとうございます。</p>
+					<p class="info-read info-read--01">現在、システムメンテナンスのため、SUUMOの一部サービスが<br>ご利用いただけない状態となっております。<p>
+					<p class="info-read">本メンテナンスは、公表された脆弱性への予防的な対策として実施しているもので、<br>現時点で本件による被害は確認されておりません。<br>サービス再開については対応完了目処がたち次第、速やかにお知らせいたします。</p>
+					<p class="info-read info-read--01">ご不便をおかけいたしますが、<br>何卒ご理解いただきますようお願い申し上げます。</p>
+					<dl class="info-detail">
+						<dt class="info-detail-title">■システムメンテナンス時間</dt>
+						<dd class="info-detail-txt">2026/10/21日（水） 23:00 ~</dd>
+					</dl>
+					<div class="info-footer">株式会社リクルート</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer lineborder">
+		<div class="footlogo">
+			<div class="logobox">
+				<div>
+					<a target="_blank" href="http://www.recruit.co.jp"><img height="26" width="100" alt="リクルート" src="/sorry/suumo/img/Recruit_BlueGray.png" /></a>
+				</div>
+				<div class="logobox-link">
+					<a target="_blank" href="http://www.recruit.co.jp">リクルートグループサイトへ</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

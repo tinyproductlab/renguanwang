@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Page Note Found</title>
+<style>@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);@import url(https://fonts.googleapis.com/css?family=PT+Sans:400);*{box-sizing:border-box}body{background:#eee;text-align:center}div{background:#fff;padding:10px 30px;max-width:400px;margin:20px auto;border-radius:3px;color:#333;font-size:40px}.en{font-family:"PT Sans",sans-serif}.ar{font-family:"Droid Arabic Kufi",sans-serif;line-height:1.5;border-top:1px solid #eee;padding-top:20px}small{display:block;font-size:.4em}</style>
+</head>
+<body><noscript><meta HTTP-EQUIV="refresh" content="0;url='https://www.malaymail.com/'" /><style><!--table,div,span,font,p{display:none} --></style><div style="display:block">Please click <a href="https://www.malaymail.com/">here</a> if you are not redirected within a few seconds.</div></noscript>
+<div>
+<p class="en">ERROR 404<small>page not found</small><small>Click <strong><a href="/">here</a></strong> to go to the home page</small></p>
+</div>
+<script>
+     setTimeout(function(){ window.location.href = 'https://www.malaymail.com/'; }, 1000);
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,1027 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Wed Oct 14 2026 10:44:15 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="tamara.co" data-wf-page="67c539481c49f30fb0233183" data-wf-site="67c184892f7a84b971ff49d9" lang="en-SA"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Not Found</title><link rel="alternate" hrefLang="x-default" href="https://tamara.co/en-sa/404"/><link rel="alternate" hrefLang="en-SA" href="https://tamara.co/en-sa/404"/><link rel="alternate" hrefLang="ar-SA" href="https://tamara.co/ar-sa/404"/><link rel="alternate" hrefLang="en-AE" href="https://tamara.co/en-ae/404"/><link rel="alternate" hrefLang="ar-AE" href="https://tamara.co/ar-ae/404"/><link rel="alternate" hrefLang="en-KW" href="https://tamara.co/en-kw/404"/><link rel="alternate" hrefLang="ar-KW" href="https://tamara.co/ar-kw/404"/><link rel="alternate" hrefLang="en-BH" href="https://tamara.co/en-bh/404"/><link rel="alternate" hrefLang="ar-BH" href="https://tamara.co/ar-bh/404"/><meta content="Not Found" property="og:title"/><meta content="Not Found" name="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="BzD21AcbdFNtcDRXwLFfkuPCCnE_uqYgrChBv5A1ENE" name="google-site-verification"/><meta content="Webflow" name="generator"/><meta content="noindex" name="robots"/><link href="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/css/tamara-staging.webflow.shared.ce757d6cc.css" rel="stylesheet" type="text/css" integrity="sha384-znV9bMbSMRHHfMNrX5SEArH289PeKvlNyeaWl/I2ZyHvP+pYTZESthxfmp1xUewP" crossorigin="anonymous"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Material Symbols Outlined:300,400,500,600,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68b476df747c3f8fb1db7dc3_small.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68b476e3e606c1002fdd1cea_large.png" rel="apple-touch-icon"/><link href="https://tamara.co/en-sa/404" rel="canonical"/><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['AW-11339033911'],'google_tags_first_party');</script><script async="" src="/nvhc9u4gxsagNjdjMTg0ODkyZjdhODRiOTcxZmY0OWQ5/jJNWbQr3asxVR8zfSsWf1Ql56q9xNg"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('set', 'developer_id.dYWYxNW', true);gtag('js', new Date());gtag('config', 'AW-11339033911');</script><style>
+  /* Font for English headings */
+  .ta-page-wrapper :is(h1, h2, h3, h4, h5, h6):lang(en) {
+    font-family: IBMPlexSans, sans-serif;
+  }
+
+  /* Font for Arabic headings (covers all ar-XX variants) */
+  .ta-page-wrapper :is(h1, h2, h3, h4, h5, h6):lang(ar) {
+    font-family: Ibmplexsansarabic, sans-serif;
+  }
+
+  .la-footer-text a {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
+<style>
+  .la-text-rich-text figcaption,
+  .la-text-story-rich-text figcaption,
+  .w-lightbox-backdrop {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+  }
+  html[lang^='ar'] .la-text-rich-text figcaption,
+  html[lang^='ar'] .la-text-story-rich-text figcaption {
+    font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+    text-align: right;
+  }
+</style>
+
+<style>
+  .wait-load {
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .wait-load.show {
+    opacity: 1;
+  }
+
+  .u-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+</style>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- <script>
+  const path = window.location.pathname.toLowerCase();
+  if (window.location.pathname !== path) {
+    window.location.replace(path);
+  }
+</script> -->
+
+<script>
+(function () {
+  const url = new URL(window.location.href);
+  const path = url.pathname;
+
+  // Step 1: Skip system paths and non-HTML files.
+  if (/^\/(?:api|cdn-cgi|\.well-known)(?:\/|$)/i.test(path)) return;
+
+  const extension = path.match(/\.([a-z0-9]{1,12})$/i);
+  if (extension && extension[1].toLowerCase() !== "html") return;
+
+  // Step 2: Redirect only when the page path contains uppercase letters.
+  const lowercasePath = path.toLowerCase();
+  if (path === lowercasePath) return;
+
+  // Step 3: Keep the original query parameters and fragment.
+  url.pathname = lowercasePath;
+  window.location.replace(url.href);
+})();
+</script>
+
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-595PJTF');
+</script>
+
+<!-- End Google Tag Manager -->
+<script src="https://cdn.jsdelivr.net/npm/@statsig/js-client@latest/build/statsig-js-client.min.js" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9%2F6544eda5f000985a163a8687%2F68bd2d258256e43b1e31f7a3%2Ffinsweetcomponentsconfig-1.0.3.js" type="module" async="" siteId="67c184892f7a84b971ff49d9" finsweet="components"></script></head><body><div class="la-page-wrapper"><div data-w-id="af064e73-cc06-1696-807d-391e4ec5b112" data-animation="default" data-collapse="medium" data-duration="500" data-easing="ease" data-easing2="ease" role="banner" class="la-navbar_component w-nav"><div class="la-navbar_container"><a href="/en-sa" class="la-navbar_logo-link w-nav-brand"><div class="uui-logo_component-2"><img loading="lazy" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68931b49f2808979578bdc64_tamara-text-logo-black-en.svg" alt="Untitled UI logotext" class="la-logo_logotype"/></div></a><nav role="navigation" class="la-navbar_menu w-nav-menu"><div class="uui-navbar08_menu-left"><div data-delay="300" data-hover="true" data-w-id="af064e73-cc06-1696-807d-391e4ec5b11d" class="uui-navbar08_menu-dropdown w-dropdown"><div class="la-navbar_dropdown-toggle is-default-open w-dropdown-toggle"><div class="la-dropdown-icon is-disabled w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 7.5L10 12.5L15 7.5" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div><div class="la-navbar_dropdown-toggle-text">Personal</div><div class="la-navbar_dropdown-toggle-text-menu">Personal</div></div><nav class="la-navbar08_dropdown-list w-dropdown-list"><div class="la-navbar_dropdown-list-subheadline"><div class="text-block-34">PAY WITH TAMARA   |  NO LATE FEES,  SHARIA COMPLIANT</div></div><div class="uui-navbar08_dropdown-content-2"><div class="uui-navbar08_dropdown-link-list-2"><h4 class="uui-navbar08_heading-2">Resources</h4><a href="/en-sa/app" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 19.5V16.5H7C5.34315 16.5 4 17.8431 4 19.5M8.8 22.5H16.8C17.9201 22.5 18.4802 22.5 18.908 22.282C19.2843 22.0903 19.5903 21.7843 19.782 21.408C20 20.9802 20 20.4201 20 19.3V5.7C20 4.57989 20 4.01984 19.782 3.59202C19.5903 3.21569 19.2843 2.90973 18.908 2.71799C18.4802 2.5 17.9201 2.5 16.8 2.5H8.8C7.11984 2.5 6.27976 2.5 5.63803 2.82698C5.07354 3.1146 4.6146 3.57354 4.32698 4.13803C4 4.77976 4 5.61984 4 7.3V17.7C4 19.3802 4 20.2202 4.32698 20.862C4.6146 21.4265 5.07354 21.8854 5.63803 22.173C6.27976 22.5 7.11984 22.5 8.8 22.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Pay Later</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Pay in up to 24 months</div></div></a><a href="/en-sa/stores" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Shop</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Discover your favorite stores</div></div></a><a href="/en-sa/buyer-protection" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.6666 11.5C21.6666 16.1944 17.861 20 13.1666 20C12.0898 20 11.0598 19.7998 10.1118 19.4345C9.93844 19.3678 9.85177 19.3344 9.78285 19.3185C9.71506 19.3029 9.66599 19.2963 9.59648 19.2937C9.5258 19.291 9.44826 19.299 9.29318 19.315L4.17216 19.8444C3.68392 19.8948 3.43979 19.9201 3.29579 19.8322C3.17036 19.7557 3.08494 19.6279 3.06219 19.4828C3.03609 19.3161 3.15274 19.1002 3.38605 18.6684L5.02171 15.6408C5.15641 15.3915 5.22376 15.2668 5.25427 15.1469C5.2844 15.0286 5.29168 14.9432 5.28204 14.8214C5.27229 14.6981 5.21819 14.5376 5.10999 14.2166C4.82246 13.3636 4.66662 12.45 4.66662 11.5C4.66662 6.80558 8.4722 3 13.1666 3C17.861 3 21.6666 6.80558 21.6666 11.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Buyer Protection</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Shop securely and confidently</div></div></a><a href="/en-sa/financing-product-prices" class="la-navbar_dropdown-link only-sa w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.667 21V19C22.667 17.1362 21.3922 15.5701 19.667 15.126M16.167 3.29076C17.6329 3.88415 18.667 5.32131 18.667 7C18.667 8.67869 17.6329 10.1159 16.167 10.7092M17.667 21C17.667 19.1362 17.667 18.2044 17.3625 17.4693C16.9565 16.4892 16.1778 15.7105 15.1977 15.3045C14.4626 15 13.5308 15 11.667 15H8.66699C6.80323 15 5.87134 15 5.13626 15.3045C4.15615 15.7105 3.37745 16.4892 2.97147 17.4693C2.66699 18.2044 2.66699 19.1362 2.66699 21M14.167 7C14.167 9.20914 12.3761 11 10.167 11C7.95785 11 6.16699 9.20914 6.16699 7C6.16699 4.79086 7.95785 3 10.167 3C12.3761 3 14.167 4.79086 14.167 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_text-wrapper-2"><div class="uui-navbar08_item-heading-2 margin-bottom-0">Financing Product Prices</div></div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Calculate payments with APR Calculator</div></div></a><a href="/en-sa/your-credit-score" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.667 21V19C22.667 17.1362 21.3922 15.5701 19.667 15.126M16.167 3.29076C17.6329 3.88415 18.667 5.32131 18.667 7C18.667 8.67869 17.6329 10.1159 16.167 10.7092M17.667 21C17.667 19.1362 17.667 18.2044 17.3625 17.4693C16.9565 16.4892 16.1778 15.7105 15.1977 15.3045C14.4626 15 13.5308 15 11.667 15H8.66699C6.80323 15 5.87134 15 5.13626 15.3045C4.15615 15.7105 3.37745 16.4892 2.97147 17.4693C2.66699 18.2044 2.66699 19.1362 2.66699 21M14.167 7C14.167 9.20914 12.3761 11 10.167 11C7.95785 11 6.16699 9.20914 6.16699 7C6.16699 4.79086 7.95785 3 10.167 3C12.3761 3 14.167 4.79086 14.167 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_text-wrapper-2"><div class="uui-navbar08_item-heading-2 margin-bottom-0">Your Credit Score</div></div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Pay on time to unlock benefits</div></div></a><a href="/en-sa/exclusive-deals" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.46533C9.5 8.98805 9.5 8.74941 9.59974 8.61618C9.68666 8.50007 9.81971 8.42744 9.96438 8.4171C10.1304 8.40525 10.3311 8.53429 10.7326 8.79239L15.4532 11.8271C15.8016 12.051 15.9758 12.163 16.0359 12.3054C16.0885 12.4298 16.0885 12.5702 16.0359 12.6946C15.9758 12.837 15.8016 12.949 15.4532 13.1729L10.7326 16.2076C10.3311 16.4657 10.1304 16.5948 9.96438 16.5829C9.81971 16.5726 9.68666 16.4999 9.59974 16.3838C9.5 16.2506 9.5 16.012 9.5 15.5347V9.46533Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Deals</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Exclusive deals from your favorite stores</div></div></a><a href="/en-sa/smart-product" class="la-navbar_dropdown-link only-uae w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Smart</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Enjoy exclusive cashbacks and benefits</div></div></a><a href="/en-sa/smart-plus-product" class="la-navbar_dropdown-link is-disabled w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.6666 11.5C21.6666 16.1944 17.861 20 13.1666 20C12.0898 20 11.0598 19.7998 10.1118 19.4345C9.93844 19.3678 9.85177 19.3344 9.78285 19.3185C9.71506 19.3029 9.66599 19.2963 9.59648 19.2937C9.5258 19.291 9.44826 19.299 9.29318 19.315L4.17216 19.8444C3.68392 19.8948 3.43979 19.9201 3.29579 19.8322C3.17036 19.7557 3.08494 19.6279 3.06219 19.4828C3.03609 19.3161 3.15274 19.1002 3.38605 18.6684L5.02171 15.6408C5.15641 15.3915 5.22376 15.2668 5.25427 15.1469C5.2844 15.0286 5.29168 14.9432 5.28204 14.8214C5.27229 14.6981 5.21819 14.5376 5.10999 14.2166C4.82246 13.3636 4.66662 12.45 4.66662 11.5C4.66662 6.80558 8.4722 3 13.1666 3C17.861 3 21.6666 6.80558 21.6666 11.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Smart+</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Your anywhere, anything shopping</div></div></a><a href="https://support.tamara.co/en-US?user-role=customer" target="_blank" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.667 21V19C22.667 17.1362 21.3922 15.5701 19.667 15.126M16.167 3.29076C17.6329 3.88415 18.667 5.32131 18.667 7C18.667 8.67869 17.6329 10.1159 16.167 10.7092M17.667 21C17.667 19.1362 17.667 18.2044 17.3625 17.4693C16.9565 16.4892 16.1778 15.7105 15.1977 15.3045C14.4626 15 13.5308 15 11.667 15H8.66699C6.80323 15 5.87134 15 5.13626 15.3045C4.15615 15.7105 3.37745 16.4892 2.97147 17.4693C2.66699 18.2044 2.66699 19.1362 2.66699 21M14.167 7C14.167 9.20914 12.3761 11 10.167 11C7.95785 11 6.16699 9.20914 6.16699 7C6.16699 4.79086 7.95785 3 10.167 3C12.3761 3 14.167 4.79086 14.167 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_text-wrapper-2"><div class="uui-navbar08_item-heading-2 margin-bottom-0">Need Support?</div></div><div class="uui-text-size-small-10 hide-mobile-landscape-6">We are here to help!</div></div></a></div></div></nav></div><div data-delay="300" data-hover="true" data-w-id="77d4a23a-f37a-6a5a-f438-36ff60c86976" class="uui-navbar08_menu-dropdown w-dropdown"><div class="la-navbar_dropdown-toggle w-dropdown-toggle"><div class="la-dropdown-icon is-disabled w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 7.5L10 12.5L15 7.5" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div><div class="la-navbar_dropdown-toggle-text">Business</div><div class="la-navbar_dropdown-toggle-text-menu">Business</div></div><nav class="la-navbar08_dropdown-list _2nd-list w-dropdown-list"><div class="la-navbar_dropdown-list-subheadline"><div class="text-block-34">PAY WITH TAMARA   |  NO LATE FEES,  SHARIA COMPLIANT</div></div><div class="uui-navbar08_dropdown-content-2"><div class="uui-navbar08_dropdown-link-list-2"><h4 class="uui-navbar08_heading-2">Resources</h4><a href="/en-sa/partners" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 19.5V16.5H7C5.34315 16.5 4 17.8431 4 19.5M8.8 22.5H16.8C17.9201 22.5 18.4802 22.5 18.908 22.282C19.2843 22.0903 19.5903 21.7843 19.782 21.408C20 20.9802 20 20.4201 20 19.3V5.7C20 4.57989 20 4.01984 19.782 3.59202C19.5903 3.21569 19.2843 2.90973 18.908 2.71799C18.4802 2.5 17.9201 2.5 16.8 2.5H8.8C7.11984 2.5 6.27976 2.5 5.63803 2.82698C5.07354 3.1146 4.6146 3.57354 4.32698 4.13803C4 4.77976 4 5.61984 4 7.3V17.7C4 19.3802 4 20.2202 4.32698 20.862C4.6146 21.4265 5.07354 21.8854 5.63803 22.173C6.27976 22.5 7.11984 22.5 8.8 22.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara For Business</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Smart tools for every business</div></div></a><a href="/en-sa/tamara-ads" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.46533C9.5 8.98805 9.5 8.74941 9.59974 8.61618C9.68666 8.50007 9.81971 8.42744 9.96438 8.4171C10.1304 8.40525 10.3311 8.53429 10.7326 8.79239L15.4532 11.8271C15.8016 12.051 15.9758 12.163 16.0359 12.3054C16.0885 12.4298 16.0885 12.5702 16.0359 12.6946C15.9758 12.837 15.8016 12.949 15.4532 13.1729L10.7326 16.2076C10.3311 16.4657 10.1304 16.5948 9.96438 16.5829C9.81971 16.5726 9.68666 16.4999 9.59974 16.3838C9.5 16.2506 9.5 16.012 9.5 15.5347V9.46533Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Ads</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Grow your brand</div></div></a><a href="/en-sa/blog-category/case-study" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5V17.5M4.5 7.5V2.5M2 5H7M2 20H7M13 3.5L11.2658 8.00886C10.9838 8.74209 10.8428 9.10871 10.6235 9.41709C10.4292 9.6904 10.1904 9.92919 9.91709 10.1235C9.60871 10.3428 9.24209 10.4838 8.50886 10.7658L4 12.5L8.50886 14.2342C9.24209 14.5162 9.60871 14.6572 9.91709 14.8765C10.1904 15.0708 10.4292 15.3096 10.6235 15.5829C10.8428 15.8913 10.9838 16.2579 11.2658 16.9911L13 21.5L14.7342 16.9911C15.0162 16.2579 15.1572 15.8913 15.3765 15.5829C15.5708 15.3096 15.8096 15.0708 16.0829 14.8765C16.3913 14.6572 16.7579 14.5162 17.4911 14.2342L22 12.5L17.4911 10.7658C16.7579 10.4838 16.3913 10.3428 16.0829 10.1235C15.8096 9.92919 15.5708 9.6904 15.3765 9.41709C15.1572 9.10871 15.0162 8.74209 14.7342 8.00886L13 3.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Success Stories</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Explore merchant case studies</div></div></a><a href="https://docs.tamara.co/" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Integration Guide</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Your all-in-one Tamara toolkit</div></div></a><a href="/en-sa/partners#industries" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Industries</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Explore solutions by industry</div></div></a><a href="/en-sa/partners#plugins" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Platforms and Systems</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Discover all platforms and point-of-sale systems</div></div></a><div class="la-navbar_dropdown-link is-disabled"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.667 21V19C22.667 17.1362 21.3922 15.5701 19.667 15.126M16.167 3.29076C17.6329 3.88415 18.667 5.32131 18.667 7C18.667 8.67869 17.6329 10.1159 16.167 10.7092M17.667 21C17.667 19.1362 17.667 18.2044 17.3625 17.4693C16.9565 16.4892 16.1778 15.7105 15.1977 15.3045C14.4626 15 13.5308 15 11.667 15H8.66699C6.80323 15 5.87134 15 5.13626 15.3045C4.15615 15.7105 3.37745 16.4892 2.97147 17.4693C2.66699 18.2044 2.66699 19.1362 2.66699 21M14.167 7C14.167 9.20914 12.3761 11 10.167 11C7.95785 11 6.16699 9.20914 6.16699 7C6.16699 4.79086 7.95785 3 10.167 3C12.3761 3 14.167 4.79086 14.167 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_text-wrapper-2"><div class="uui-navbar08_item-heading-2 margin-bottom-0">Merchant Kit</div></div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Plug ‘n’ play designs</div></div></div><a href="https://support.tamara.co/en-US?user-role=merchant" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.667 21V19C22.667 17.1362 21.3922 15.5701 19.667 15.126M16.167 3.29076C17.6329 3.88415 18.667 5.32131 18.667 7C18.667 8.67869 17.6329 10.1159 16.167 10.7092M17.667 21C17.667 19.1362 17.667 18.2044 17.3625 17.4693C16.9565 16.4892 16.1778 15.7105 15.1977 15.3045C14.4626 15 13.5308 15 11.667 15H8.66699C6.80323 15 5.87134 15 5.13626 15.3045C4.15615 15.7105 3.37745 16.4892 2.97147 17.4693C2.66699 18.2044 2.66699 19.1362 2.66699 21M14.167 7C14.167 9.20914 12.3761 11 10.167 11C7.95785 11 6.16699 9.20914 6.16699 7C6.16699 4.79086 7.95785 3 10.167 3C12.3761 3 14.167 4.79086 14.167 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_text-wrapper-2"><div class="uui-navbar08_item-heading-2 margin-bottom-0">Need Support?</div></div><div class="uui-text-size-small-10 hide-mobile-landscape-6">We are here to help!</div></div></a><a id="w-node-a1254e46-a145-3f51-6016-22a65217f114-4ec5b112" href="https://business.tamara.co/signup?locale=en_US&amp;utm_source=Website&amp;utm_medium=Website_Header_BusinessMenu_EN" target="_blank" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Sign Up</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Boost your sales with Tamara</div></div></a><a href="https://partners.tamara.co/#/login?locale=en_US" target="_blank" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5V17.5M4.5 7.5V2.5M2 5H7M2 20H7M13 3.5L11.2658 8.00886C10.9838 8.74209 10.8428 9.10871 10.6235 9.41709C10.4292 9.6904 10.1904 9.92919 9.91709 10.1235C9.60871 10.3428 9.24209 10.4838 8.50886 10.7658L4 12.5L8.50886 14.2342C9.24209 14.5162 9.60871 14.6572 9.91709 14.8765C10.1904 15.0708 10.4292 15.3096 10.6235 15.5829C10.8428 15.8913 10.9838 16.2579 11.2658 16.9911L13 21.5L14.7342 16.9911C15.0162 16.2579 15.1572 15.8913 15.3765 15.5829C15.5708 15.3096 15.8096 15.0708 16.0829 14.8765C16.3913 14.6572 16.7579 14.5162 17.4911 14.2342L22 12.5L17.4911 10.7658C16.7579 10.4838 16.3913 10.3428 16.0829 10.1235C15.8096 9.92919 15.5708 9.6904 15.3765 9.41709C15.1572 9.10871 15.0162 8.74209 14.7342 8.00886L13 3.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Log In</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Access your merchant dashboard</div></div></a></div></div></nav></div><div data-delay="300" data-hover="true" data-w-id="ab829fc8-8f4d-138d-1ef6-05f0c15f4a4c" class="uui-navbar08_menu-dropdown w-dropdown"><div class="la-navbar_dropdown-toggle w-dropdown-toggle"><div class="la-dropdown-icon is-disabled w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 7.5L10 12.5L15 7.5" stroke="CurrentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div><div class="la-navbar_dropdown-toggle-text">Company</div><div class="la-navbar_dropdown-toggle-text-menu">Company</div></div><nav class="la-navbar08_dropdown-list _3rd-list w-dropdown-list"><div class="la-navbar_dropdown-list-subheadline"><div class="text-block-34">PAY WITH TAMARA   |  NO LATE FEES,  SHARIA COMPLIANT</div></div><div class="uui-navbar08_dropdown-content-2"><div class="uui-navbar08_dropdown-link-list-2"><div class="la-navbar_dropdown-link is-disabled"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 19.5V16.5H7C5.34315 16.5 4 17.8431 4 19.5M8.8 22.5H16.8C17.9201 22.5 18.4802 22.5 18.908 22.282C19.2843 22.0903 19.5903 21.7843 19.782 21.408C20 20.9802 20 20.4201 20 19.3V5.7C20 4.57989 20 4.01984 19.782 3.59202C19.5903 3.21569 19.2843 2.90973 18.908 2.71799C18.4802 2.5 17.9201 2.5 16.8 2.5H8.8C7.11984 2.5 6.27976 2.5 5.63803 2.82698C5.07354 3.1146 4.6146 3.57354 4.32698 4.13803C4 4.77976 4 5.61984 4 7.3V17.7C4 19.3802 4 20.2202 4.32698 20.862C4.6146 21.4265 5.07354 21.8854 5.63803 22.173C6.27976 22.5 7.11984 22.5 8.8 22.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">About Us</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Our vision, values, and what we believe in</div></div></div><a id="w-node-a9ee2235-2ce1-417f-ea25-0c5e0f516c1d-4ec5b112" href="/en-sa/life-at-tamara" class="la-navbar_dropdown-link only-en w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5V17.5M4.5 7.5V2.5M2 5H7M2 20H7M13 3.5L11.2658 8.00886C10.9838 8.74209 10.8428 9.10871 10.6235 9.41709C10.4292 9.6904 10.1904 9.92919 9.91709 10.1235C9.60871 10.3428 9.24209 10.4838 8.50886 10.7658L4 12.5L8.50886 14.2342C9.24209 14.5162 9.60871 14.6572 9.91709 14.8765C10.1904 15.0708 10.4292 15.3096 10.6235 15.5829C10.8428 15.8913 10.9838 16.2579 11.2658 16.9911L13 21.5L14.7342 16.9911C15.0162 16.2579 15.1572 15.8913 15.3765 15.5829C15.5708 15.3096 15.8096 15.0708 16.0829 14.8765C16.3913 14.6572 16.7579 14.5162 17.4911 14.2342L22 12.5L17.4911 10.7658C16.7579 10.4838 16.3913 10.3428 16.0829 10.1235C15.8096 9.92919 15.5708 9.6904 15.3765 9.41709C15.1572 9.10871 15.0162 8.74209 14.7342 8.00886L13 3.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Life at Tamara</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Join us. Build with us</div></div></a><a id="w-node-_1c8222f0-f905-1236-2fb8-ddf601db91c1-4ec5b112" href="/en-sa/careers" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5V17.5M4.5 7.5V2.5M2 5H7M2 20H7M13 3.5L11.2658 8.00886C10.9838 8.74209 10.8428 9.10871 10.6235 9.41709C10.4292 9.6904 10.1904 9.92919 9.91709 10.1235C9.60871 10.3428 9.24209 10.4838 8.50886 10.7658L4 12.5L8.50886 14.2342C9.24209 14.5162 9.60871 14.6572 9.91709 14.8765C10.1904 15.0708 10.4292 15.3096 10.6235 15.5829C10.8428 15.8913 10.9838 16.2579 11.2658 16.9911L13 21.5L14.7342 16.9911C15.0162 16.2579 15.1572 15.8913 15.3765 15.5829C15.5708 15.3096 15.8096 15.0708 16.0829 14.8765C16.3913 14.6572 16.7579 14.5162 17.4911 14.2342L22 12.5L17.4911 10.7658C16.7579 10.4838 16.3913 10.3428 16.0829 10.1235C15.8096 9.92919 15.5708 9.6904 15.3765 9.41709C15.1572 9.10871 15.0162 8.74209 14.7342 8.00886L13 3.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Careers</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Join the heroes powering Tamara</div></div></a><a href="/en-sa/careers/builders" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.46533C9.5 8.98805 9.5 8.74941 9.59974 8.61618C9.68666 8.50007 9.81971 8.42744 9.96438 8.4171C10.1304 8.40525 10.3311 8.53429 10.7326 8.79239L15.4532 11.8271C15.8016 12.051 15.9758 12.163 16.0359 12.3054C16.0885 12.4298 16.0885 12.5702 16.0359 12.6946C15.9758 12.837 15.8016 12.949 15.4532 13.1729L10.7326 16.2076C10.3311 16.4657 10.1304 16.5948 9.96438 16.5829C9.81971 16.5726 9.68666 16.4999 9.59974 16.3838C9.5 16.2506 9.5 16.012 9.5 15.5347V9.46533Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Builders Program</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Your growth trajectory starts here</div></div></a><a href="/en-sa/blog-landing" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.66699 21L4.66699 4M4.66699 13H12.067C12.627 13 12.9071 13 13.121 12.891C13.3091 12.7951 13.4621 12.6422 13.558 12.454C13.667 12.2401 13.667 11.9601 13.667 11.4V4.6C13.667 4.03995 13.667 3.75992 13.558 3.54601C13.4621 3.35785 13.3091 3.20487 13.121 3.10899C12.9071 3 12.627 3 12.067 3H6.26699C5.70694 3 5.42691 3 5.213 3.10899C5.02484 3.20487 4.87186 3.35785 4.77599 3.54601C4.66699 3.75992 4.66699 4.03995 4.66699 4.6V13ZM13.667 5H20.067C20.627 5 20.9071 5 21.121 5.10899C21.3091 5.20487 21.4621 5.35785 21.558 5.54601C21.667 5.75992 21.667 6.03995 21.667 6.6V13.4C21.667 13.9601 21.667 14.2401 21.558 14.454C21.4621 14.6422 21.3091 14.7951 21.121 14.891C20.9071 15 20.627 15 20.067 15H15.267C14.7069 15 14.4269 15 14.213 14.891C14.0248 14.7951 13.8719 14.6422 13.776 14.454C13.667 14.2401 13.667 13.9601 13.667 13.4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Tamara Blog</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Inside our culture, tech and trends</div></div></a><a href="/en-sa/media-center" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.6666 11.5C21.6666 16.1944 17.861 20 13.1666 20C12.0898 20 11.0598 19.7998 10.1118 19.4345C9.93844 19.3678 9.85177 19.3344 9.78285 19.3185C9.71506 19.3029 9.66599 19.2963 9.59648 19.2937C9.5258 19.291 9.44826 19.299 9.29318 19.315L4.17216 19.8444C3.68392 19.8948 3.43979 19.9201 3.29579 19.8322C3.17036 19.7557 3.08494 19.6279 3.06219 19.4828C3.03609 19.3161 3.15274 19.1002 3.38605 18.6684L5.02171 15.6408C5.15641 15.3915 5.22376 15.2668 5.25427 15.1469C5.2844 15.0286 5.29168 14.9432 5.28204 14.8214C5.27229 14.6981 5.21819 14.5376 5.10999 14.2166C4.82246 13.3636 4.66662 12.45 4.66662 11.5C4.66662 6.80558 8.4722 3 13.1666 3C17.861 3 21.6666 6.80558 21.6666 11.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Media Center</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Access our media kit and brand assets</div></div></a><a href="/en-sa/blog-category/press" class="la-navbar_dropdown-link w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.6666 11.5C21.6666 16.1944 17.861 20 13.1666 20C12.0898 20 11.0598 19.7998 10.1118 19.4345C9.93844 19.3678 9.85177 19.3344 9.78285 19.3185C9.71506 19.3029 9.66599 19.2963 9.59648 19.2937C9.5258 19.291 9.44826 19.299 9.29318 19.315L4.17216 19.8444C3.68392 19.8948 3.43979 19.9201 3.29579 19.8322C3.17036 19.7557 3.08494 19.6279 3.06219 19.4828C3.03609 19.3161 3.15274 19.1002 3.38605 18.6684L5.02171 15.6408C5.15641 15.3915 5.22376 15.2668 5.25427 15.1469C5.2844 15.0286 5.29168 14.9432 5.28204 14.8214C5.27229 14.6981 5.21819 14.5376 5.10999 14.2166C4.82246 13.3636 4.66662 12.45 4.66662 11.5C4.66662 6.80558 8.4722 3 13.1666 3C17.861 3 21.6666 6.80558 21.6666 11.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_item-heading-2">Press</div><div class="uui-text-size-small-10 hide-mobile-landscape-6">Read about us in the news</div></div></a><a href="/en-sa/shariah-compliance" class="la-navbar_dropdown-link only-sa w-inline-block"><div class="uui-navbar08_icon-wrapper-2"><div class="uui-icon-1x1-xsmall-5 w-embed"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.667 21V19C22.667 17.1362 21.3922 15.5701 19.667 15.126M16.167 3.29076C17.6329 3.88415 18.667 5.32131 18.667 7C18.667 8.67869 17.6329 10.1159 16.167 10.7092M17.667 21C17.667 19.1362 17.667 18.2044 17.3625 17.4693C16.9565 16.4892 16.1778 15.7105 15.1977 15.3045C14.4626 15 13.5308 15 11.667 15H8.66699C6.80323 15 5.87134 15 5.13626 15.3045C4.15615 15.7105 3.37745 16.4892 2.97147 17.4693C2.66699 18.2044 2.66699 19.1362 2.66699 21M14.167 7C14.167 9.20914 12.3761 11 10.167 11C7.95785 11 6.16699 9.20914 6.16699 7C6.16699 4.79086 7.95785 3 10.167 3C12.3761 3 14.167 4.79086 14.167 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="uui-navbar08_item-right-2"><div class="uui-navbar08_text-wrapper-2"><div class="uui-navbar08_item-heading-2 margin-bottom-0">Sharia Committee</div></div><div class="uui-text-size-small-10 hide-mobile-landscape-6">We are 100% Sharia Compliant</div></div></a></div></div></nav></div></div><div class="uui-navbar08_menu-right-2"><div class="uui-navbar08_button-wrapper-2"><a href="https://support.tamara.co/en-US" target="_blank" class="la-navbar_link">Help Center</a><a href="#" class="la-navbar_link switch-language">اﻟﻌﺮﺑﻴﺔ</a><div data-delay="0" data-hover="false" class="nav-dropdown w-dropdown"><div class="nav-dropdown-toggle w-dropdown-toggle"><div class="la-btn-medium"><div>Sign up</div></div></div><nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list"><div class="div-block-35"><img src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/67c9639bcc368b006dd131bd_for_shoppers_icon.svg" loading="lazy" width="20" height="20" alt="" class="image-6"/><a href="https://apps.apple.com/sa/app/tamara-shop-split-in-4/id1533512531" target="_blank" class="nav-dropdown-link w-dropdown-link">For shoppers</a></div><div class="div-block-36"><img src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/67c9639b0008a176f988ebda_for_business_icon.svg" loading="lazy" width="20" height="20" alt="" class="image-7"/><a id="web_partner_signup_header_click" href="https://business.tamara.co/?locale=en_US&amp;utm_source=Website&amp;utm_medium=Website_Header_EN" target="_blank" class="dropdown-link-2 w-dropdown-link">For Business</a></div><div class="triangle-up"></div></nav></div></div></div></nav><div class="la-navbar_menu-wrapper"><div class="div-block-100"><a href="https://support.tamara.co/en-US" class="la-navbar_link is-hidden">Help Center</a><a href="#" class="la-navbar_link switch-language">اﻟﻌﺮﺑﻴﺔ</a><div class="la-navbar_menu-button w-nav-button"><div class="la-menu-icon_component"><div class="la-menu-icon_line-top"></div><div class="la-menu-icon_line-middle"><div class="la-menu-icon_line-middle-inner"></div></div><div class="la-menu-icon_line-bottom"></div></div></div></div></div></div><div class="code-embed-7 w-embed w-script"><script>
+(function () {
+  document.addEventListener('click', function (e) {
+    const menuBtn = e.target.closest('.w-nav-button');
+    if (!menuBtn) return;
+
+    const nav = menuBtn.closest('.w-nav');
+    setTimeout(() => {
+      const personalTab = nav ? nav.querySelector('.is-default-open') : document.querySelector('.is-default-open');
+      if (personalTab) personalTab.click();
+    }, 50);
+  }, true);
+})();
+</script></div></div><div class="la-section_404"><div class="la-section_padding-horizontal-hero"><div class="la-section_container-hero"><div class="la-section_padding-vertical-hero"><div class="w-layout-grid la-404-hero_component"><div class="la-404-hero_item-content-wrapper"><h1 class="la-text_hero-headline">Oops! It seems like we took a wrong turn!</h1><div class="la-space-heading-description"></div><h6 class="la-text-hero-description">It seems that the page you&#x27;re looking for is currently unavailable. Our team is working diligently to resolve this issue and get you back on track.</h6><div class="la-space-text-btn"></div><a data-figma-id="2:169" href="/en-sa" class="la-btn-primary color-function-brand700 w-inline-block"><p data-figma-id="2:170">Back to Home</p></a></div></div></div></div></div></div><footer class="la-footer_component"><div class="la-page-padding"><div class="la-container-large"><div class="la-section_padding-vertical-footer"><div data-figma-id="2:918" class="footer-component"><div data-figma-id="2:922" class="footer-link-column-list"><div data-figma-id="2:923" class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:924" class="footer-link-title">COMPANY</p></div><div class="footer-link-list-wrapper"><div data-figma-id="2:925" class="la-footer-link is-disabled">About us</div><a data-figma-id="2:929" href="/en-sa/blog-category/press" class="la-footer-link">Press</a><a data-figma-id="2:929" href="/en-sa/financial-reports" class="la-footer-link only-sa">Financial Reports</a><a data-figma-id="2:929" href="/en-sa/blog-landing" class="la-footer-link">The Tamara Blog</a><a data-figma-id="2:928" href="/en-sa/shariah-compliance" class="la-footer-link only-sa">Sharia Committee</a><a data-figma-id="2:945" id="w-node-e6a17f19-ce7a-3bda-8f89-722b494df22f-494df197" href="/en-sa/privacy-policy" class="la-footer-link">Privacy Policies</a><a data-figma-id="2:946" id="w-node-e6a17f19-ce7a-3bda-8f89-722b494df231-494df197" href="/en-sa/terms-and-conditions" class="la-footer-link">Terms &amp; Conditions</a><a data-figma-id="2:927" href="/en-sa/life-at-tamara" class="la-footer-link only-en">Life at Tamara</a><a data-figma-id="2:927" href="/en-sa/careers" class="la-footer-link">Careers</a><a data-figma-id="2:929" href="/en-sa/whistleblower-policy" class="la-footer-link only-sa-uae">Whistleblower Policy</a><a data-figma-id="2:929" href="/en-sa/media-center" class="la-footer-link">Media Center</a><a data-figma-id="2:929" href="/en-sa/key-fact-statement" class="la-footer-link only-uae">Key Facts Statement</a></div></div><div data-figma-id="2:923" class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:924" class="footer-link-title">PERSONAL</p></div><a data-click-location="footer" data-figma-id="2:932" href="https://tamara.go.link?adj_t=1xnjuvmv&amp;adj_engagement_type=fallback_click" target="_blank" class="la-footer-link">Download App</a><div class="footer-link-list-wrapper"><a data-figma-id="2:932" href="/en-sa/app" class="la-footer-link">Pay Later</a><a data-figma-id="2:932" href="/en-sa/financing-product-prices" class="la-footer-link only-sa">Financing Product Prices</a><a data-figma-id="2:925" href="/en-sa/smart-product" class="la-footer-link only-uae">Tamara Smart</a><div data-figma-id="2:925" class="la-footer-link is-disabled">Tamara Smart+</div><a data-figma-id="2:925" href="/en-sa/exclusive-deals" class="la-footer-link">Tamara Deals</a><a data-figma-id="2:929" href="/en-sa/stores" class="la-footer-link">Shop Brands</a><a data-figma-id="2:927" href="/en-sa/your-credit-score" class="la-footer-link">Your Credit Score</a><a data-figma-id="2:929" href="/en-sa/buyer-protection" class="la-footer-link">Buyer Protection</a><a data-figma-id="2:942" href="/en-sa/debt-service-partners" class="la-footer-link only-uae">Debt Service Partners</a><a data-figma-id="2:929" href="/en-sa/responsible-disclosure" class="la-footer-link">Vulnerability Disclosure</a><a data-figma-id="2:946" href="https://files.tamara.co/public/website/Consumer_Protection_EN.pdf" target="_blank" class="la-footer-link only-sa">Consumer Protection</a></div></div><div data-figma-id="2:935" class="footer-link-columns"><div class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:936" class="footer-link-title">BUSINESS</p></div><div class="footer-link-list-wrapper"><a id="web_partner_signup_footer_click" data-figma-id="2:938" data-optibase-click-conversion-id="business_signup_click" href="https://business.tamara.co/signup?locale=en_US&amp;utm_source=Website&amp;utm_medium=Website_Footer_EN" target="_blank" class="la-footer-link">Business Signup</a><a data-figma-id="2:938" href="https://partners.tamara.co/#/login?locale=en_US" target="_blank" class="la-footer-link">Business Login</a><a data-figma-id="2:937" href="/en-sa/partners" class="la-footer-link">Business Solution</a><a data-figma-id="2:926" href="/en-sa/blog-category/case-study" class="la-footer-link">Success Stories</a><a data-figma-id="2:939" href="/en-sa/tamara-ads" class="la-footer-link tamara_ads_footer_kw">Tamara Ads</a><a data-figma-id="2:939" href="https://files.tamara.co/public/merchant/merchant-kit-10102025/tamara-merchant-kit-en.pdf" target="_blank" class="la-footer-link">Branding &amp; Marketing Guidelines</a></div></div><div data-figma-id="2:930" class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:931" class="footer-link-title">INDUSTRIES</p></div><div class="footer-link-list-wrapper"><a data-figma-id="2:939" href="/en-sa/industry/fashion" class="la-footer-link">Fashion</a><a data-figma-id="2:939" href="/en-sa/industry/electronics" class="la-footer-link">Electronics</a><a data-figma-id="2:939" href="/en-sa/industry/education" class="la-footer-link only-sa-uae">Education</a><a data-figma-id="2:939" href="/en-sa/industry/healthcare" class="la-footer-link">Healthcare</a><a data-figma-id="2:939" href="/en-sa/industry/travel" class="la-footer-link">Travel<br/></a><a data-figma-id="2:939" href="/en-sa/partners#industries" class="la-footer-link">View all Industries<br/></a><a data-figma-id="2:939" href="/en-sa/industry/home-and-living" class="la-footer-link is-hidden">Home and Living<br/></a><a data-figma-id="2:939" href="/en-sa/industry/sports-and-fitness" class="la-footer-link is-hidden">Sports and Fitness</a></div></div></div><div data-figma-id="2:935" class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:936" class="footer-link-title">INTEGRATION &amp; TOOLS</p></div><div class="footer-link-list-wrapper"><a data-figma-id="2:939" href="https://docs.tamara.co/" target="_blank" class="la-footer-link is-hidden">All Integration Guides</a><a data-figma-id="2:939" href="/en-sa/plugins/salla" class="la-footer-link">Salla</a><a data-figma-id="2:939" href="/en-sa/plugins/shopify" class="la-footer-link">Shopify</a><a data-figma-id="2:939" href="/en-sa/plugins/woocommerce" class="la-footer-link">WooCommerce </a><a data-figma-id="2:939" href="/en-sa/plugins/zid" class="la-footer-link">Zid</a><a data-figma-id="2:939" href="/en-sa/plugins/magento" class="la-footer-link">Magento</a><a data-figma-id="2:939" href="/en-sa/plugins/pos" class="la-footer-link only-uae">POS</a><a data-figma-id="2:939" href="/en-sa/plugins/pos/paymob" class="la-footer-link">Paymob</a><a data-figma-id="2:939" href="/en-sa/partners#plugins" class="la-footer-link">View all Plugins</a></div></div><div data-figma-id="2:940" class="footer-link-columns"><div class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:941" class="footer-link-title">SUPPORT</p></div><div class="footer-link-list-wrapper"><a data-figma-id="2:942" href="https://support.tamara.co/en-US" target="_blank" class="la-footer-link">Help center</a><a data-figma-id="2:942" href="tel:8001181118" class="la-footer-link only-sa">Tel: 8001181118</a><a data-figma-id="2:942" href="https://status.tamara.co/" target="_blank" class="la-footer-link">System Status</a></div></div><div class="footer-link-column"><div class="footer-link-title-wrapper"><p data-figma-id="2:941" class="footer-link-title">FOLLOW US</p></div><div class="footer-link-list-wrapper"><div data-figma-id="2:948" class="frame-style-copy"><div class="div-block-92"><a href="https://www.facebook.com/share/v/1BHBGEHpdN/" target="_blank" class="la-social-link-block w-inline-block"><img class="frame-style-2" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68de6d4b2f97b06d91aa7c7e_Facebook.avif" data-figma-image-id="67b302d39089b27984405124" alt="" data-figma-id="2:950" data-figma-image-hash="21e3a420c3f89b1eb0a26270dc8421fa" loading="lazy"/></a><a href="https://x.com/usetamaraen?s=21" target="_blank" class="la-social-link-block w-inline-block"><img class="frame-style-2" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68de6d4b73cbda8b2b67b905_X.avif" data-figma-image-id="67b302d448daa34fe84c2268" alt="" data-figma-id="2:952" data-figma-image-hash="9300bd53a952d63a79908c4cccab3b28" loading="lazy"/></a><a href="https://www.linkedin.com/company/tamara/" target="_blank" class="la-social-link-block w-inline-block"><img class="frame-style-2" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68de6d4c12dabfe69ae67c44_linkedin.avif" data-figma-image-id="67b302d42be1862e82f70e1b" alt="" data-figma-id="2:954" data-figma-image-hash="45fd0ea2a99782a40343c7888a2c51d2" loading="lazy"/></a><a href="https://www.instagram.com/usetamaraen" target="_blank" class="la-social-link-block w-inline-block"><img class="frame-style-2" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68de6d4c3ee78264df37c8ee_insta.avif" data-figma-image-id="67b302d63e639c988ac970d0" alt="" data-figma-id="2:956" data-figma-image-hash="5c3d8fd583f257e1239585b89aabb1c1" loading="lazy"/></a><a href="https://www.tiktok.com/@usetamaraen" target="_blank" class="la-social-link-block w-inline-block"><img class="frame-style-2" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68de6d4c3bcc9b0d116480c7_tiktok.avif" data-figma-image-id="67b302d7606a1909f31b03a4" alt="" data-figma-id="2:958" data-figma-image-hash="98eacb5392ad8dc7b857e559863b6bc1" loading="lazy"/></a></div></div></div></div></div><div data-figma-id="2:940" id="w-node-_441c1cb4-9365-ee38-f182-1918170d0d65-494df197" class="footer-link-colum-2"><div data-figma-id="2:965" id="w-node-e6a17f19-ce7a-3bda-8f89-722b494df200-494df197" class="la-country-selector_component"><div data-delay="0" data-hover="false" class="dropdown w-dropdown"><div class="dropdown-toggle w-dropdown-toggle"><div class="tamara-selected-country"><img width="16" height="Auto" alt="" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/67c69f3006a462eff81ffd9f_saudi_flag.avif" loading="lazy" class="tamara-image-flag"/><div class="tamara-text-country-label">Saudi Arabia</div></div><div class="text-block-33">keyboard_arrow_down</div></div><nav class="dropdown-list w-dropdown-list"><a href="#" class="la-country-selector switch-country-sa w-inline-block"><img width="16" height="Auto" alt="" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/67c69f3006a462eff81ffd9f_saudi_flag.avif" loading="lazy" class="tamara-image-flag"/><div class="tamara-text-country-label">Saudi Arabia</div></a><a href="#" class="la-country-selector switch-country-ae w-inline-block"><img width="16" loading="lazy" alt="" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/67c69f3006a462eff81ffd99_*paste-the-flag-here*.png" class="tamara-image-flag"/><div class="tamara-text-country-label">United Arab Emirates</div></a><a href="#" class="la-country-selector switch-country-kw is-hidden w-inline-block"><img width="16" loading="lazy" alt="" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/67c69f3006a462eff81ffd9d_kuwait_flag.png" class="tamara-image-flag"/><div class="tamara-text-country-label">Kuwait</div></a><a href="#" class="la-country-selector switch-country-bh w-inline-block"><img width="16" loading="lazy" alt="" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68526e6f6b7e196b7d5ef376_bahrain-flag.avif" class="tamara-image-flag"/><div class="tamara-text-country-label">Bahrain</div></a></nav></div></div><div class="la-qr-code_component la-hide-qr-float"><div ms-code-device-show="desktop" class="la-app-download-qrcode-wrapper is-footer"><img loading="lazy" src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/698d9d3075ce16057fedbaba_download-app-footer-en-sa.avif" alt="" class="qrcode-image is-footer"/><div class="tamara-text-country-label">Download the app</div></div></div></div></div><div id="w-node-e6a17f19-ce7a-3bda-8f89-722b494df21d-494df197" class="la-footer-logo-address-wrapper"><a href="#" class="la-footer_logo-link w-nav-brand"><div class="uui-logo_component"><img src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/68931b49898010539c86667f_tamara-text-logo-white-en.svg" loading="lazy" alt="" class="uui-logo_logotype"/></div><div class="la-space-small"></div></a><div class="la-space-xsmall"></div><div id="w-node-e6a17f19-ce7a-3bda-8f89-722b494df222-494df197" class="la-footer-license-address-wrapper"><p data-figma-id="2:921" class="la-footer-text">Tamara Finance Company (a joint-stock Saudi company). Under the supervision and control of The Saudi Central Bank (SAMA). Under License No. 95/A Sh/202502.</p><p data-figma-id="2:921" class="la-footer-text">The capital is 515,000,000 Saudi Riyals  |  Commercial Registration No: 1010627663  |  Unified No: 7016874419.</p><p data-figma-id="2:921" class="la-footer-text">King Abdullah Branch Road, King Salman Dist. Building No. 2907, Postal Code 12444, Riyadh, Kingdom of Saudi Arabia.</p><p data-figma-id="2:921" class="la-footer-text">© 2026 Tamara. All Rights Reserved</p></div></div></div></div></div><div class="code-embed-12 w-embed"><style>
+  @media screen and (max-width: 359px) {
+    .footer-link-column-list {
+      grid-template-columns: 1fr !important;
+    }
+    .footer-link-colum-2 {
+      grid-column: span 1 !important;
+    }
+  }
+</style></div></div></footer><div class="w-embed w-script"><script>
+(function() {
+  try {
+    // ===== ROUTE CONFIG (key: pattern to look for, value: target path) =====
+    const ROUTES = {
+      "how-it-work": "/app",
+      "app.html": "/app",
+      // add more patterns here
+    };
+
+    const url = new URL(window.location.href.toLowerCase());
+    const path = url.pathname;
+    const hash = url.hash;
+
+    // detect locale from first path segment (e.g. /en-SA/… -> en-sa)
+    function detectLocale(pathname) {
+      const segs = pathname.split("/").filter(Boolean);
+      if (!segs.length) return null;
+      const m = segs[0].match(/^([a-z]{2})[-_]?([a-z]{2})$/i);
+      return m ? (m[1] + "-" + m[2]).toLowerCase() : null;
+    }
+
+    // find the first matching pattern
+    let targetPath = null;
+    for (const key in ROUTES) {
+      if (path.includes(key) || hash.includes(key)) {
+        targetPath = ROUTES[key];
+        break;
+      }
+    }
+    if (!targetPath) return;
+
+    // build target URL
+    const locale = detectLocale(path);
+    const prefix = locale ? "/" + locale : "";
+    const target = new URL("https://tamara.co" + prefix + targetPath);
+
+    // copy query params
+    url.searchParams.forEach((v,k)=>target.searchParams.set(k,v));
+
+    // prevent redirect loop
+    if ((url.origin+url.pathname) === (target.origin+target.pathname)) return;
+
+    // redirect
+    window.location.replace(target.href);
+
+  } catch(e) {
+    console.warn("404 redirect script error:", e);
+  }
+})();
+</script></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67c184892f7a84b971ff49d9" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/js/webflow.schunk.181a2070a530b302.js" type="text/javascript" integrity="sha384-JWdgqTXFub/8eKOkMquT9MN7nnkFfqj2IsxHNIv8W+n3NdpIA3X+EZEx+ykmtOKR" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/js/webflow.schunk.c0afb8dd65f354f3.js" type="text/javascript" integrity="sha384-H1sgKv5UrIBeq69E1hAqjI/UtPADST3KCQUD7RLvK37ANcPmVl0W/Lxf8axWZKS1" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/67c184892f7a84b971ff49d9/js/webflow.a6188fe4.90c81262db3ba75f.js" type="text/javascript" integrity="sha384-LK6zWE9XaACsOBf/oxTGtNBm8tVqWhM7WDqpCGMRRcqICzsuNsjcYqI4BnbhEW1X" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-595PJTF" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Parse current URL in format "/{lang}-{country}/..."
+    var currentPath = window.location.pathname;
+    var regex = /^\/([a-z]{2,3})-([a-z]{2,3})(\/.*)?$/;
+    var match = currentPath.match(regex);
+
+    if (match) {
+      var currentLang = match[1].toLowerCase(); // e.g. "en" or "ar"
+      var currentCountry = match[2].toLowerCase(); // e.g. "sa", "ae", "kw"
+      var restOfPath = match[3] || ''; // the rest of the path, e.g. "/stores/noon"
+
+      // Update the language switch link
+      var languageSwitchLinks = document.querySelectorAll('.switch-language');
+      if (languageSwitchLinks.length > 0) {
+        var newLang = currentLang === 'en' ? 'ar' : 'en';
+        languageSwitchLinks.forEach(function (link) {
+          link.href = '/' + newLang + '-' + currentCountry + restOfPath;
+        });
+      }
+
+      // Update the country dropdown links
+      var countries = ['sa', 'ae', 'kw', 'bh'];
+      countries.forEach(function (country) {
+        var selector = '.switch-country-' + country;
+        var countryLink = document.querySelector(selector);
+        if (countryLink) {
+          countryLink.href = '/' + currentLang + '-' + country + restOfPath;
+        }
+      });
+    }
+  });
+</script>
+
+<script>
+  function disableScroll() {
+    document.body.style.overflow = 'hidden';
+    document.body.style.paddingRight = window.innerWidth - document.documentElement.clientWidth + 'px';
+  }
+  function enableScroll() {
+    document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var popups = document.querySelectorAll('[class^="ta-popup-modal"]');
+    if (!popups.length) return;
+
+    popups.forEach(function (modal) {
+      var observer = new MutationObserver(function () {
+        var isVisible = window.getComputedStyle(modal).display !== 'none';
+        if (isVisible) {
+          disableScroll();
+        } else {
+          var anyVisible = Array.from(popups).some(function (p) {
+            return window.getComputedStyle(p).display !== 'none';
+          });
+          if (!anyVisible) enableScroll();
+        }
+      });
+
+      observer.observe(modal, { attributes: true, attributeFilter: ['style', 'class'] });
+    });
+  });
+
+  document.addEventListener('click', function (event) {
+    if (event.target.closest('.ta-popup-bg') || event.target.closest('.ta-popup-btn-close')) {
+      // find and hide all popup modals that have class start with 'ta-popup-modal'
+      var popups = document.querySelectorAll('[class^="ta-popup-modal"]');
+      popups.forEach(function (popup) {
+        popup.style.display = 'none';
+      });
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!window.pageLocales) return;
+
+    // Hide language switches not supported
+    document.querySelectorAll('.switch_language [data-lang]').forEach((btn) => {
+      if (!window.pageLocales.languages.includes(btn.dataset.lang)) {
+        btn.style.display = 'none';
+      }
+    });
+
+    // Hide country switches not supported
+    document.querySelectorAll("[class^='switch-country-']").forEach((el) => {
+      const country = el.className.match(/switch-country-([a-z]+)/i)?.[1];
+      if (country && !window.pageLocales.countries.includes(country)) {
+        el.style.display = 'none';
+      }
+    });
+  });
+</script>
+
+<script>
+  document.body.classList.add('loading');
+  document.addEventListener('DOMContentLoaded', function () {
+    document.body.classList.remove('loading');
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const allLanguages = ['en', 'ar'];
+    const allCountries = ['sa', 'ae', 'kw', 'bh'];
+
+    // get defined data or fallback
+    const supportedLanguages = window.pageSupportedLanguages || allLanguages;
+    const supportedCountries = window.pageSupportedCountries || allCountries;
+
+    // hide unsupported language
+    if (supportedLanguages.length <= 1) {
+      document.querySelectorAll('.switch-language').forEach((el) => {
+        el.style.display = 'none';
+      });
+    }
+
+    // hide unsupported countries
+    document.querySelectorAll('[class*="switch-country-"]').forEach((el) => {
+      const match = el.className.match(/switch-country-(\w+)/);
+      if (match) {
+        const countryCode = match[1];
+        if (!supportedCountries.includes(countryCode)) {
+          el.style.display = 'none';
+        }
+      }
+    });
+  });
+</script>
+
+<script>
+  (function () {
+    var DEFAULT_ANDROID_URL = 'https://play.google.com/store/apps/details?id=co.tamara.user&hl=en&gl=US';
+    var DEFAULT_IOS_URL = 'https://apps.apple.com/sa/app/tamara-shop-split-in-4/id1533512531';
+    var DEFAULT_FALLBACK_URL = DEFAULT_IOS_URL;
+
+    function isAndroid() {
+      try {
+        if (navigator.userAgentData && navigator.userAgentData.platform) {
+          return /android/i.test(navigator.userAgentData.platform);
+        }
+      } catch (_) {}
+      return /Android/i.test(navigator.userAgent);
+    }
+
+    function isIOS() {
+      var ua = navigator.userAgent;
+      if (/(iPhone|iPad|iPod)/i.test(ua)) return true;
+      // iPadOS 13+
+      return /Macintosh/.test(ua) && 'ontouchend' in document;
+    }
+
+    function pickStoreUrl(el) {
+      var ANDROID_URL = el?.dataset?.androidUrl || DEFAULT_ANDROID_URL;
+      var IOS_URL = el?.dataset?.iosUrl || DEFAULT_IOS_URL;
+      var FALLBACK_URL = el?.dataset?.fallbackUrl || DEFAULT_FALLBACK_URL;
+
+      if (isAndroid()) return ANDROID_URL;
+      if (isIOS()) return IOS_URL;
+      return FALLBACK_URL;
+    }
+
+    function shouldSkipHref(el) {
+      var href = (el.getAttribute && el.getAttribute('href')) || '';
+      return /^mailto:|^tel:|^sms:|^javascript:/i.test(href);
+    }
+
+    function wire(el) {
+      if (!el || el.__laDownloadWired) return;
+      el.__laDownloadWired = true;
+
+      var url = pickStoreUrl(el);
+
+      if (el.tagName && el.tagName.toLowerCase() === 'a' && !shouldSkipHref(el)) {
+        el.setAttribute('href', url);
+        if (!el.hasAttribute('target')) el.setAttribute('target', '_blank');
+        var rel = (el.getAttribute('rel') || '').toLowerCase();
+        if (!/noopener/.test(rel)) {
+          el.setAttribute('rel', (rel ? rel + ' ' : '') + 'noopener');
+        }
+      } else {
+        el.style.cursor = el.style.cursor || 'pointer';
+        el.addEventListener(
+          'click',
+          function (e) {
+            if (el.dataset.preventDefault !== 'false') e.preventDefault?.();
+            window.open(url, '_blank', 'noopener');
+          },
+          { passive: true },
+        );
+      }
+    }
+
+    function wireAll() {
+      document.querySelectorAll('.la-download-app').forEach(wire);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', wireAll);
+    } else {
+      wireAll();
+    }
+
+    try {
+      var mo = new MutationObserver(function (muts) {
+        for (var m of muts) {
+          m.addedNodes &&
+            m.addedNodes.forEach(function (node) {
+              if (!(node instanceof Element)) return;
+              if (node.matches && node.matches('.la-download-app')) wire(node);
+              node.querySelectorAll && node.querySelectorAll('.la-download-app').forEach(wire);
+            });
+        }
+      });
+      mo.observe(document.documentElement || document.body, { childList: true, subtree: true });
+    } catch (_) {}
+  })();
+</script>
+
+<!-- MEMBERSCRIPT #120 v0.1 - DEVICE/OS/BROWSER CONDITIONAL VISIBILITY -->
+<script>
+  // Define device types, operating systems, and browsers with their detection methods
+  const detectionTypes = {
+    // Device types
+    mobile: () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
+    tablet: () => /iPad|Android|Silk/i.test(navigator.userAgent) && !/Mobile/i.test(navigator.userAgent),
+    desktop: () => !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
+    touchdevice: () => 'ontouchstart' in window || navigator.maxTouchPoints > 0,
+    landscape: () => window.matchMedia('(orientation: landscape)').matches,
+    portrait: () => window.matchMedia('(orientation: portrait)').matches,
+
+    // Operating Systems
+    ios: () => /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream,
+    android: () => /Android/.test(navigator.userAgent),
+    macos: () => /Mac OS X/.test(navigator.userAgent) && !/iPad|iPhone|iPod/.test(navigator.userAgent),
+    windows: () => /Win/.test(navigator.platform),
+    linux: () => /Linux/.test(navigator.platform),
+
+    // Browsers
+    chrome: () => /Chrome/.test(navigator.userAgent) && !/Chromium/.test(navigator.userAgent),
+    firefox: () => /Firefox/.test(navigator.userAgent),
+    safari: () => /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent),
+    edge: () => /Edg/.test(navigator.userAgent),
+    opera: () => /OPR/.test(navigator.userAgent) || /Opera/.test(navigator.userAgent),
+    ie: () => /Trident/.test(navigator.userAgent),
+  };
+
+  function detectTypes() {
+    const detected = [];
+    for (const [type, detector] of Object.entries(detectionTypes)) {
+      if (detector()) {
+        detected.push(type);
+      }
+    }
+    return detected;
+  }
+
+  function evaluateCondition(condition, currentTypes) {
+    const parts = condition.split('&').map((part) => part.trim());
+    return parts.every((part) => {
+      const orParts = part.split('|').map((p) => p.trim());
+      return orParts.some((p) => {
+        if (p.startsWith('!')) {
+          return !currentTypes.includes(p.slice(1));
+        }
+        return currentTypes.includes(p);
+      });
+    });
+  }
+
+  function updateElementVisibility() {
+    const currentTypes = detectTypes();
+    const elements = document.querySelectorAll('[ms-code-device-show]');
+
+    elements.forEach((element) => {
+      const showAttribute = element.getAttribute('ms-code-device-show').toLowerCase();
+      const shouldShow = evaluateCondition(showAttribute, currentTypes);
+      element.style.display = shouldShow ? '' : 'none';
+    });
+  }
+
+  // Run on page load and window resize
+  window.addEventListener('load', updateElementVisibility);
+  window.addEventListener('resize', updateElementVisibility);
+</script>
+
+<script>
+  window.addEventListener('load', function () {
+    document.querySelectorAll('.wait-load').forEach((el) => {
+      el.classList.add('show');
+    });
+  });
+</script>
+
+<script>
+  /**
+   * Persist & Enforce UTM across pages in Webflow (SESSION ONLY)
+   * - Captures UTM params on first visit of the SESSION and stores them in sessionStorage
+   * - Internal links: always overwrite UTM with stored session UTMs
+   * - Outbound links (to defined domains): remove all original UTMs and replace with session UTMs
+   * - Non-UTM query params and hash fragments are preserved
+   *
+   * IMPORTANT: UTMs DO NOT persist across browser restarts (sessionStorage).
+   * Legacy cleanup: removes any old localStorage key to avoid reviving stale UTMs.
+   *
+   * Opt-out: add data-utm-keep="false" to <a> tag if you don’t want UTM appended
+   */
+
+  (function () {
+    // ---- Config ----
+    var UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'];
+
+    // Session-scoped storage key
+    var SESSION_STORAGE_KEY = 'utm_params_session';
+
+    // Optional: remove legacy localStorage value left by previous version
+    var CLEAR_LEGACY_LOCALSTORAGE = true;
+
+    // Outbound domains to enforce UTMs on (extend as needed)
+    var OUTBOUND_DOMAINS = ['https://business.tamara.co', 'https://partners.tamara.co'];
+
+    var DEBUG = false;
+    function log() {
+      if (DEBUG) {
+        try {
+          console.log.apply(console, arguments);
+        } catch (e) {}
+      }
+    }
+
+    // --- Storage helpers (SESSION ONLY) ---
+    function loadSessionUtm() {
+      try {
+        var raw = sessionStorage.getItem(SESSION_STORAGE_KEY);
+        if (!raw) return {};
+        return JSON.parse(raw) || {};
+      } catch (e) {
+        return {};
+      }
+    }
+    function saveSessionUtm(obj) {
+      try {
+        sessionStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(obj || {}));
+      } catch (e) {}
+    }
+
+    // Legacy cleanup (one-way)
+    (function cleanupLegacy() {
+      if (!CLEAR_LEGACY_LOCALSTORAGE) return;
+      try {
+        localStorage.removeItem('utm_params');
+      } catch (e) {}
+    })();
+
+    // Read UTM from current URL (whitelist keys)
+    function readUtmFromLocation() {
+      var params = new URLSearchParams(window.location.search);
+      var out = {};
+      UTM_KEYS.forEach(function (k) {
+        var v = params.get(k);
+        if (v) out[k] = v;
+      });
+      return out;
+    }
+
+    // Merge: new overrides old (for mid-session updates)
+    function mergeUtm(oldUtm, newUtm) {
+      var merged = Object.assign({}, oldUtm);
+      Object.keys(newUtm || {}).forEach(function (k) {
+        if (newUtm[k]) merged[k] = newUtm[k];
+      });
+      return merged;
+    }
+
+    // Internal link check
+    function isInternalLink(a) {
+      var href = a.getAttribute('href');
+      if (!href) return false;
+      if (href.startsWith('#')) return false;
+      if (href.startsWith('mailto:')) return false;
+      if (href.startsWith('tel:')) return false;
+      if (href.startsWith('javascript:')) return false;
+      if (href.startsWith('/')) return true;
+      try {
+        var url = new URL(href, window.location.origin);
+        return url.origin === window.location.origin;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    // Internal links: overwrite UTM params with session UTMs
+    function withUtmOverwriteInternal(href, utmObj) {
+      if (!utmObj || Object.keys(utmObj).length === 0) return href;
+
+      var base = new URL(href, window.location.origin);
+      var qs = new URLSearchParams(base.search);
+
+      UTM_KEYS.forEach(function (k) {
+        if (utmObj[k]) qs.set(k, utmObj[k]);
+        else qs.delete(k); // optional: remove empty UTMs if present
+      });
+
+      base.search = qs.toString() ? '?' + qs.toString() : '';
+      return base.pathname + base.search + base.hash;
+    }
+
+    // Outbound links: replace ALL UTMs with the session set (preserve non-UTM params)
+    function withUtmReplaceAllOutbound(href, utmObj) {
+      if (!utmObj || Object.keys(utmObj).length === 0) return href;
+
+      var base = new URL(href);
+      var qs = new URLSearchParams(base.search);
+
+      // Remove all existing UTM keys
+      UTM_KEYS.forEach(function (k) {
+        qs.delete(k);
+      });
+
+      // Add stored session UTMs
+      Object.keys(utmObj).forEach(function (k) {
+        qs.set(k, utmObj[k]);
+      });
+
+      base.search = qs.toString() ? '?' + qs.toString() : '';
+      return base.origin + base.pathname + base.search + base.hash;
+    }
+
+    // Apply UTMs to all links on the page
+    function applyUtmToLinks(utmObj) {
+      if (!utmObj || Object.keys(utmObj).length === 0) return;
+
+      var links = document.querySelectorAll('a[href]');
+      links.forEach(function (a) {
+        var keep = a.getAttribute('data-utm-keep');
+        if (keep && keep.toLowerCase() === 'false') return;
+
+        var orig = a.getAttribute('href');
+
+        // Outbound domains
+        var outboundMatch = OUTBOUND_DOMAINS.find(function (d) {
+          return orig.startsWith(d);
+        });
+
+        if (outboundMatch) {
+          var newHref = withUtmReplaceAllOutbound(orig, utmObj);
+          if (newHref !== orig) {
+            a.setAttribute('href', newHref);
+            log('UTM outbound (session):', { from: orig, to: newHref });
+          }
+          return;
+        }
+
+        // Internal
+        if (isInternalLink(a)) {
+          var newHref = withUtmOverwriteInternal(orig, utmObj);
+          if (newHref !== orig) {
+            a.setAttribute('href', newHref);
+            log('UTM internal (session):', { from: orig, to: newHref });
+          }
+        }
+      });
+    }
+
+    // Capture & persist UTMs FOR THIS SESSION ONLY
+    function captureAndPersistSession() {
+      var current = readUtmFromLocation();
+      if (Object.keys(current).length === 0) return; // no UTM on this page => do NOT create or revive any
+      var stored = loadSessionUtm();
+      var merged = mergeUtm(stored, current); // current overrides stored
+      saveSessionUtm(merged);
+      log('UTM stored in session:', merged);
+    }
+
+    // Observe DOM (Webflow dynamic injections)
+    function setupObserver(utmObj) {
+      if (!window.MutationObserver) return;
+      var obs = new MutationObserver(function () {
+        applyUtmToLinks(utmObj);
+      });
+      obs.observe(document.documentElement, { childList: true, subtree: true });
+    }
+
+    function init() {
+      // 1) Only store UTMs if present in CURRENT URL (session-scoped)
+      captureAndPersistSession();
+
+      // 2) Load session UTMs (if any) and apply to links
+      var sessionUtm = loadSessionUtm();
+      applyUtmToLinks(sessionUtm);
+
+      // 3) Keep applying on DOM changes (for late-added links)
+      setupObserver(sessionUtm);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
+
+<script>
+  /* ==========================================================
+   CONFIGURATION
+   ========================================================== */
+  const GATE_ID = 'merchant_onboarding_revamp_enabled';
+
+  // --- Environments ---
+  const HOSTS = { STAGING: 'tamara-staging.webflow.io', PRODUCTION: 'tamara.co' };
+
+  // --- Statsig client keys ---
+  const STATSIG_KEYS = {
+    STAGING: 'client-sIzx8pV1Is7zOXxtOhu2weVOlPXjMl76xoNN7t3grsd',
+    PRODUCTION: 'client-akNI7HhIA8Q84t2LCfJ091LVSX5c4zK8YHlhTu3gWNM',
+  };
+
+  // --- Locales: only KSA (en-sa / ar-sa) applies Statsig logic ---
+  const ALLOWED_LOCALES = ['en-sa', 'ar-sa', 'en-ae', 'ar-ae'];
+
+  // --- CTA URLs to check and replace ---
+  const MATCH_LINKS = ['https://business.tamara.co', 'https://business.tamara.co/', 'https://business.tamara.co/signup', 'https://partners.tamara.co/onboarding'];
+
+  // --- Target URLs by environment ---
+  const TARGET_URLS = {
+    STAGING: {
+      ON: 'https://business-staging.tamara.co',
+      OFF: 'https://partners-staging.tamara.co/onboarding',
+    },
+    PRODUCTION: {
+      ON: 'https://business.tamara.co/signup',
+      OFF: 'https://partners.tamara.co/onboarding',
+    },
+  };
+
+  /* ==========================================================
+   USER ID MANAGEMENT
+   ========================================================== */
+  // ✅ Step 0: Generate or reuse a unique userID per session
+  function getOrCreateUserID() {
+    const key = 'statsig_webflow_user_id';
+    let uid = sessionStorage.getItem(key);
+    if (!uid) {
+      uid = 'anon_' + Math.random().toString(36).substring(2, 10);
+      sessionStorage.setItem(key, uid);
+      console.log('[Statsig] New userID created:', uid);
+    } else {
+      console.log('[Statsig] Existing userID reused:', uid);
+    }
+    return uid;
+  }
+
+  /* ==========================================================
+   HELPER FUNCTIONS
+   ========================================================== */
+
+  // ✅ Step 1. Detect environment (staging or production)
+  function getEnvironment() {
+    const h = location.hostname.toLowerCase();
+
+    if (h.includes(HOSTS.STAGING)) {
+      return 'STAGING';
+    }
+
+    if (h.includes(HOSTS.PRODUCTION)) {
+      return 'PRODUCTION';
+    }
+
+    // Default fallback
+    return 'PRODUCTION';
+  }
+
+  // ✅ Step 2. Detect locale (en-sa, ar-sa, etc.)
+  function getLocaleSlug() {
+    const match = location.pathname.match(/^\/([^\/]+)/);
+    const slug = ((match && match[1]) || '').toLowerCase();
+    const queryLocale = new URL(location.href).searchParams.get('locale') || '';
+    const qpSlug = queryLocale.replace('_', '-').toLowerCase();
+    return slug || qpSlug;
+  }
+
+  // ✅ Step 3. Check if locale is allowed
+  function isAllowedLocales() {
+    return ALLOWED_LOCALES.includes(getLocaleSlug());
+  }
+
+  // ✅ Step 3b. Map locale → country (sa, ae, kw, bh)
+  function getCountryCode() {
+    const slug = getLocaleSlug(); // e.g., "en-sa", "ar-ae"
+    if (!slug) return null;
+    const parts = slug.split('-');
+    const country = (parts[1] || '').toLowerCase(); // sa, ae, kw, bh
+
+    if (['sa', 'ae', 'kw', 'bh'].includes(country)) {
+      return country;
+    }
+    return null;
+  }
+
+  // ✅ Step 4. Merge query parameters (keep UTM & existing params)
+  function mergeQueries(targetUrl, originalHref) {
+    try {
+      const target = new URL(targetUrl);
+      const current = new URL(location.href);
+      if (originalHref) {
+        const original = new URL(originalHref, location.origin);
+        original.searchParams.forEach((value, key) => {
+          if (!target.searchParams.has(key)) target.searchParams.set(key, value);
+        });
+      }
+      current.searchParams.forEach((value, key) => {
+        if (!target.searchParams.has(key)) target.searchParams.set(key, value);
+      });
+      return target.toString();
+    } catch {
+      return targetUrl;
+    }
+  }
+
+  // ✅ Step 5. Check if a link matches our CTA patterns
+  function isTargetCTA(href) {
+    return MATCH_LINKS.some((pattern) => (href || '').includes(pattern));
+  }
+
+  // ✅ Step 6. Rewrite CTA URLs based on gate ON/OFF
+  function rewriteCTAs(isGateOn) {
+    const env = getEnvironment();
+    const targetUrl = isGateOn ? TARGET_URLS[env].ON : TARGET_URLS[env].OFF;
+    document.querySelectorAll('a[href]').forEach((a) => {
+      const href = a.getAttribute('href') || '';
+      if (isTargetCTA(href)) {
+        const finalUrl = mergeQueries(targetUrl, href);
+        a.setAttribute('href', finalUrl);
+        if (a.target === '_blank' && !a.rel) a.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  }
+
+  /* ==========================================================
+   MAIN LOGIC
+   ========================================================== */
+  (async function main() {
+    // 🟢 Step 1: Skip all logic if not KSA locale
+    if (!isAllowedLocales()) {
+      console.log('[Statsig] Skipped – Non-KSA locale:', getLocaleSlug());
+      return;
+    }
+
+    // 🟢 Step 2: Wait for Statsig SDK to load
+    let tries = 0;
+    while ((!window.Statsig || !window.Statsig.StatsigClient) && tries++ < 50) {
+      await new Promise((r) => setTimeout(r, 100));
+    }
+    if (!window.Statsig || !window.Statsig.StatsigClient) {
+      console.warn('[Statsig] SDK not loaded → fallback to existing links');
+      return;
+    }
+
+    // 🟢 Step 3: Prepare Statsig client environment and userID
+    const { StatsigClient } = window.Statsig;
+    const env = getEnvironment();
+    const sdkKey = STATSIG_KEYS[env];
+    const tier = env.toLowerCase(); // 'staging' | 'production'
+    const userID = getOrCreateUserID();
+    const country = getCountryCode(); // sa | ae | kw | bh | null
+
+    const user = {
+      userID,
+      statsigEnvironment: { tier },
+    };
+
+    // 👉 Add country param right after statsigEnvironment
+    if (country) {
+      user.country = country;
+    }
+
+    let client;
+    try {
+      client = new StatsigClient(sdkKey, user);
+      await client.initializeAsync();
+    } catch (e) {
+      console.warn('[Statsig] Initialization failed → fallback to existing links:', e);
+      return;
+    }
+
+    // 🟢 Step 4: Check feature gate (ON/OFF)
+    let isGateOn = false;
+    try {
+      isGateOn = client.checkGate(GATE_ID);
+      console.log(`[Statsig] (${tier}) ${GATE_ID} →`, isGateOn ? 'ON ✅' : 'OFF ❌', '| Locale:', getLocaleSlug(), '| Country:', country || 'n/a', '| UserID:', userID);
+    } catch (e) {
+      console.warn('[Statsig] Gate check failed → fallback to existing links:', e);
+      return;
+    }
+
+    // 🟢 Step 5: Apply CTA rewrite logic or fallback
+    if (typeof isGateOn === 'boolean') {
+      if (isGateOn === true) return;
+
+      rewriteCTAs(isGateOn);
+
+      // 🟢 Step 6: Observe DOM for dynamic changes (Webflow animations)
+      const observer = new MutationObserver(() => rewriteCTAs(isGateOn));
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+      setTimeout(() => observer.disconnect(), 8000);
+    } else {
+      console.warn('[Statsig] Gate result invalid → fallback to existing links');
+    }
+  })();
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+    // Single shared observer for all items
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            showItem(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0,
+        rootMargin: '0px 0px -10% 0px',
+      },
+    );
+
+    // Set initial hidden state for each item
+    const initItem = (item, delay = 0) => {
+      item.style.opacity = '0';
+      item.style.transform = 'translateY(24px)';
+      item.style.willChange = 'opacity, transform';
+      item.style.transition = 'opacity 1.2s ease, transform 1s cubic-bezier(0.22, 1, 0.36, 1)';
+      item.style.transitionDelay = isMobile ? '0ms' : `${delay}ms`;
+    };
+
+    // Trigger fade-up animation and free GPU memory after transition
+    const showItem = (item) => {
+      item.style.opacity = '1';
+      item.style.transform = 'translateY(0)';
+      item.addEventListener(
+        'transitionend',
+        () => {
+          item.style.willChange = 'auto';
+        },
+        { once: true },
+      );
+    };
+
+    // Auto-apply fade-up classes to FAQ section
+    document.querySelectorAll('.la-component_faq').forEach((faq) => {
+      faq.classList.add('fade-up-group');
+      faq.querySelectorAll('.la-faq-dropdown-item').forEach((item) => {
+        item.classList.add('fade-up-item');
+      });
+    });
+
+    // Items inside .fade-up-group — apply stagger delay on desktop, capped at 400ms
+    document.querySelectorAll('.fade-up-group').forEach((group) => {
+      group.querySelectorAll('.fade-up-item').forEach((item, index) => {
+        initItem(item, Math.min(index * 150, 400));
+        observer.observe(item);
+      });
+    });
+
+    // Items outside .fade-up-group — observe individually with no stagger
+    document.querySelectorAll('.fade-up-item').forEach((item) => {
+      if (!item.closest('.fade-up-group')) {
+        initItem(item);
+        observer.observe(item);
+      }
+    });
+  });
+
+  // Auto-apply fade-up classes to FAQ section
+  document.querySelectorAll('.la-component_faq').forEach((faq) => {
+    faq.classList.add('fade-up-group');
+    faq.querySelectorAll('.la-wrapper-heading-faq').forEach((heading) => {
+      heading.classList.add('fade-up-item');
+    });
+    faq.querySelectorAll('.la-faq-dropdown-item').forEach((item) => {
+      item.classList.add('fade-up-item');
+    });
+  });
+</script></body></html>

@@ -1,0 +1,22 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ministry Of Health وزارة الصحة</title>
+    <link href="https://static.moh.gov.sa/assets/404/css/error.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="logodiv">
+    <h1 style="color: white;margin-top:75px !important;">وزارة الصحة</h1>
+    <a href="https://www.moh.gov.sa/">
+        <!-- FIX: was src="404.png" (relative) - broke when served via ExecuteURL
+             under a different URL. Now absolute to this file's real folder. -->
+        <img alt="Not Found" src="/_LAYOUTS/15/MOH/Internet/New/404/404.png" />
+    </a>
+</div>
+
+</body>
+</html>

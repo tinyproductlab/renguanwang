@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>找不到網頁 找不到网页 Page Not Found</title>
+   <meta name="robots" content="noindex,nofollow">   
+   <link rel="stylesheet" type="text/css" href="/global/css/main.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   <script type="text/javascript">function delayer(){window.location = "https://www.ird.gov.hk/"}</script>
+</head>
+<body lang="en" class="en" onload="setTimeout('delayer()', 5000)">
+<div id="main_content" class="large-12 medium-12 small-12 nine columns" style="float:left">
+<div id="pageAll" style="background-image: url(/global/images/404_bg.jpg)">
+  <h1><img lang="zh" src="/common/images/branding.gif" alt="The Government of HKSAR 香港特別行政區政府"></h1>
+  <!--<img width="490" src="" name="img_branding" id="img_branding" height="75" alt="The Government of HKSAR 香港特別行政區政府">-->
+  <!--/images/logo.jpg      /images/branding.gif  -->
+  <div class="editContent">
+    <p><strong>Sorry, the page you requested cannot be found.</strong></p>
+	<p>You will be re-directed to the landing page of the IRD Homepage in 5 seconds.  You can also click the following link to go to the landing page of the IRD Homepage.</p>
+	<p><a href="https://www.ird.gov.hk">https://www.ird.gov.hk</a></p>
+	<p>Thank you for your support.</p>
+	<p><strong>對不起，我們找不到你要的網頁。</strong><p>
+	<p>你將於 5 秒內被轉往稅務局網站登陸頁。你亦可按以下連結瀏覽稅務局網站登陸頁。</p>
+	<p><a href="https://www.ird.gov.hk">https://www.ird.gov.hk</a></p>
+	<p>謝謝你的支持。</p>
+	<p><strong>对不起，我们找不到你要的网页。</strong></p>
+	<p>你将于 5 秒内被转往税务局网站登陆页。你亦可按以下连结浏览税务局网站登陆页。</p>
+	<p><a href="https://www.ird.gov.hk">https://www.ird.gov.hk</a></p>
+	<p>谢谢你的支持。</p>
+	</div>
+</div>
+</div>
+</body>
+</html>

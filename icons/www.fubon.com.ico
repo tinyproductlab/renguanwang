@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta property="og:title" content="404 找不到頁面 | 富邦金控 Fubon Financial">
+    <meta property="og:description" name="description" content="404 找不到頁面">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.fubon.com/financialholdings/home/index.html">
+    <meta property="og:image" content="https://www.fubon.com/financialholdings/Content/img/home/fb-financial.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="404 找不到頁面 | 富邦金控 Fubon Financial">
+    <title>404 找不到頁面 | 富邦金控 Fubon Financial</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/financialholdings/Content/img/common/favicon.ico">
+    <link rel="canonical" href="https://www.fubon.com/financialholdings/home/not_found.html">
+    <!-- master page include css begin -->
+    <link rel="stylesheet" href="/financialholdings/Content/css/common.css?efb0cbe8">
+    <!-- master page include css end -->
+    <!-- self page include css begin -->
+    <link rel="stylesheet" href="/financialholdings/Content/css/home/not_found.css?efb0cbe8">
+    <!-- self page include css end -->
+    <!-- Google Tag Manager -->
+<script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-MC6B4G3');
+</script>
+<!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6B4G3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="l-wrap">
+      <!-- ==================== l-header begin =================== -->
+      <div class="l-header jHeader">
+        <h1>富邦金控</h1>
+        <div class="m-header --hidden">
+          <div class="m-header-main jHdMain">
+            <div class="m-header-logo">
+              <button class="m-header-main-ctrl-btn jMenuCtrlBtn" type="button"><i></i></button>
+              <a class="m-header-logo-anchor" href="/financialholdings/home/index.html">
+                <span>富邦金控</span>
+                <figure class="m-header-logo-img">
+                  <img src="/financialholdings/Content/img/common/lazyload.png" data-src="/financialholdings/Content/img/home/logo.svg?efb0cbe8" class="lazy" alt="富邦金控 | 富邦金控" width="100%" height="100%">
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== l-header end =================== -->
+      <!-- ==================== l-main begin =================== -->
+      <main class="l-main jMain" data-channel="">
+        <div class="flex flex-grow px-[24px] py-[30px] bg-[#fff]">
+          <section class="flex flex-col justify-center items-center pt:w-7/12 mx-auto">
+            <h2 class="mb-[20px]">
+              <p class="sr-only">404 找不到頁面</p>
+              <figure class="pt:w-[370px] pt:h-[145px] m:w-[330px] m:h-[130px]">
+                <img src="/financialholdings/Content/img/common/lazyload.png" data-src="/financialholdings/Content/img/home/404.svg?efb0cbe8" class="lazy" alt="404 找不到頁面 | 富邦金控" width="100%" height="100%">
+              </figure>
+            </h2>
+            <p class="not-found-subtitle relative w-full pt:mb-[5px] pt:text-[24px] m:mb-[10px] m:text-[18px] text-center font-bold text-[#008fc7]">
+              <span class="relative bg-[#fff] pt:px-[15px] m:px-[10px]">找不到頁面</span>
+            </p>
+            <p class="pt:mb-[50px] pt:text-[14px] m:mb-[55px] m:text-[12px] font-bold text-[#727272]">網址錯誤或頁面出現問題</p>
+            <a href="../home/index.html" class="m-btn --blue --lg pt:mb-[25px] m:mb-[40px]"><em>富邦金控首頁</em></a>
+            <ul class="not-found-list flex m:flex-col m:items-center pt:mx-[-30px] pt:text-[14px] m:my-[-15px] m:text-[12px] text-[#2a2a2a]">
+              <li class="relative pt:px-[30px] m:py-[15px]">
+                <a href="/financialholdings/location/location_tw.html">據點查詢</a>
+              </li>
+              <li class="relative pt:px-[30px] m:py-[15px]">
+                <a href="https://fubon.irpro.co/tw/">投資人關係專區</a>
+              </li>
+              <li class="relative pt:px-[30px] m:py-[15px]">
+                <a href="/financialholdings/citizenship/esg_visioning/esg_visioning.html">永續發展專區</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <!-- ==================== l-main end =================== -->
+      <!-- ==================== l-footer begin =================== -->
+      <!-- ==================== l-footer end =================== -->
+    </div>
+    <div class="l-n-support">
+      <div class="m-n-support">
+        <div class="m-n-support-hd">
+          <p class="m-n-support-tit"><b>很抱歉，您目前使用的瀏覽器無法支援瀏覽。</b></p>
+          <p class="m-n-support-desc">建議您提升瀏覽器使用版本為 IE 10 (含) 以上，或使用其他瀏覽器軟體 Google Chrome、Firefox 以獲得最佳瀏覽體驗，謝謝您的配合。
+          </p>
+        </div>
+        <div class="m-n-support-bd">
+          <div class="m-n-support-msg">
+            <p class="m-n-support-msg-tit"><b>相關說明</b></p>
+            <div class="m-n-support-itm">
+              <p class="m-n-support-itm-cnt">
+                親愛的客戶您好：<br>
+                為持續提供網路用戶的資訊傳輸安全，本網站即日起將不再支援IE(Internet Explorer)瀏覽器。若使用IE瀏覽器瀏覽本網站，可能部分頁面無法正確顯示與使用。
+              </p>
+            </div>
+            <div class="m-n-support-itm">
+              <p class="m-n-support-itm-cnt">※提醒您：微軟自2022年6月15日起，某些Windows 10版本不再支援IE11，為了您的瀏覽安全與享受更多網站互動體驗，建議您選用其它瀏覽器。詳情請見<a href="https://www.microsoft.com/zh-tw/microsoft-365/windows/end-of-ie-support">微軟終止支援公告</a>。</p>
+            </div>
+            <div class="m-n-support-itm">
+              <p class="m-n-support-itm-cnt">富邦金融控股股份有限公司</p>
+            </div>
+          </div>
+          <div class="m-n-support-fig-list">
+            <ul>
+              <li>
+                <a href="https://www.microsoft.com/zh-tw/edge?form=MA13DG&amp;ocid=SMCIEDownload10-Download" class="m-n-support-fig --edge">
+                  <p class="m-n-support-desc">
+                    Microsoft Edge
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com.tw/chrome/browser/desktop/" class="m-n-support-fig --chrome">
+                  <p class="m-n-support-desc">
+                    Google Chrome
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.mozilla.org/zh-TW/firefox/new/" class="m-n-support-fig --firefox">
+                  <p class="m-n-support-desc">
+                    Mozilla Firefox
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="m-n-support-ft">
+          <div class="m-n-support-cor">
+            <p class="m-n-support-inf">© COPYRIGHT.</p>
+            <p class="m-n-support-brs">Edge, Chrome, Safari, Firefox</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- master page include scripts begin -->
+<script type="text/javascript" src="/financialholdings/Scripts/plugin/jquery/jquery.min.js?453152e7"></script>
+<script type="text/javascript" src="/financialholdings/Scripts/home/ctool.js?453152e7"></script>
+<script type="text/javascript" src="/financialholdings/Scripts/common.js?453152e7"></script>
+
+<!-- master page include scripts end -->
+  <!-- self page include scripts begin -->
+  <script src="/financialholdings/Scripts/home/not_found.js?c0379af3"></script>
+  <!-- self page include scripts end -->
+</html>

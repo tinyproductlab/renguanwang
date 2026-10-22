@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>歡迎光臨博客來</title>
+<meta name="keywords" content="錯誤頁面訊息提示">
+<meta name="description" content="錯誤頁面訊息提示">		
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<style>html,body{margin:0 auto;padding:0 auto;border:0;text-align:center;font-family:Arial,"Microsoft JhengHei",sans-serif;-webkit-text-size-adjust:none;font-size:110%;color:#393939;font-weight:normal;line-height:1.65;letter-spacing:.03em}#wrapper{width:1000px;margin:0 auto;text-align:left}#wrapper img{width:100%;height:auto}#content_msg{width:1000px;margin:0 auto;overflow:hidden;min-height:180px}h1{color:#fe7928;font-size:150%}h3{font-size:116%;margin:.2em auto}.left_icon01{width:120px;padding-left:110px;padding-top:20px;float:left}.right_content{width:730px;padding-left:40px;padding-top:30px\9;float:left}p{margin-bottom:1.4em}@media screen and (max-width:700px){#wrapper{width:90%;margin:0 auto;font-size:90%}#content_msg{width:100%}.left_icon01{width:100%;text-align:center;padding-left:0}.right_content{width:100%;padding-left:0;float:left}}</style>
+</head>
+<body>
+<div id="wrapper">
+<img src="https://maintenance.books.com.tw/images/bg_top.png" />	
+<div id="content_msg">
+<div class="right_content">
+<h2><strong>您的連線暫時異常 請稍後再嘗試 謝謝！</strong><br /><strong>Connection is temporarily unavailable, Please try again later. Thank you!</strong></h2>
+<p>The IP address is: 2606:54c1:1:eff::23c:7a</p>
+<p>The Event ID is: a4e6b5c89d2ae5e4</p>
+</div>
+</div>
+</div>
+<div hidden style="display: none;">
+	::CLOUDFLARE_ERROR_500S_BOX::
+</div>
+</body>
+</html>

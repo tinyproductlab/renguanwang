@@ -1,0 +1,1060 @@
+
+<!DOCTYPE HTML>
+<html lang="vi">
+    <head>
+    <meta charset="UTF-8"/>
+    
+        <title>Techcombank - Ngân hàng TMCP Kỹ thương Việt Nam | Techcombank</title>
+        <meta name="template" content="home-page"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:standard"/>
+        
+        
+            <link rel="alternate" hreflang="x-default" href="https://techcombank.com/"/>
+        
+            <link rel="alternate" hreflang="vi" href="https://techcombank.com/"/>
+        
+            <link rel="alternate" hreflang="en" href="https://techcombank.com/en"/>
+        
+        
+            <meta name="description" content="Đặt khách hàng là trọng tâm, Techcombank sẵn sàng cùng bạn nâng tầm giá trị sống vượt trội. Khám phá ngay các dịch vụ từ ngân hàng số hàng đầu cho khách hàng."/>
+
+	        <meta name="image" content="/content/dam/techcombank/public-site/seo/techcombank-default-thumbnail.jpg"/>
+
+            <meta property="og:title" content="Techcombank - Ngân hàng TMCP Kỹ thương Việt Nam | Techcombank"/>
+
+            <meta property="og:description" content="Đặt khách hàng là trọng tâm, Techcombank sẵn sàng cùng bạn nâng tầm giá trị sống vượt trội. Khám phá ngay các dịch vụ từ ngân hàng số hàng đầu cho khách hàng."/>
+
+            <meta property="og:type" content="article"/>
+
+            <meta property="og:image" content="/content/dam/techcombank/public-site/seo/techcombank-default-thumbnail.jpg"/>
+
+            <meta property="og:site_name" content="Techcombank"/>
+
+            <meta property="og:url" content="https://techcombank.com/"/>
+
+            <link rel="canonical" href="https://techcombank.com/"/>
+
+            
+        
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/techcombank/clientlibs/clientlib-base.min.06b9a703ccaa83186388743aa5d33ad3.css" type="text/css">
+
+
+
+<link rel="shortcut icon" sizes="48x48" href="/content/dam/techcombank/public-site/seo/favicon.ico"/>
+    
+    
+    <!-- Commented below line to disable AT testandtarget script -->
+    <!-- <sly data-sly-include="/libs/cq/cloudserviceconfigs/components/servicelibs/servicelibs.jsp"></sly> -->
+    <!-- Include pre-hiding snippet for AT -->
+    <script>
+      !function(e,a,n,t){
+        if (a) return;
+        var i=e.head;if(i){
+        var o=e.createElement("style");
+        o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),
+        setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+        (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);
+    </script>
+    <!-- End pre-hiding snippet for AT -->
+    
+
+    
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/04734335a754/098d5987f720/launch-e397ebbcf1de.min.js" async></script>
+
+
+    
+    
+    <link rel="stylesheet" href="/etc.clientlibs/techcombank/clientlibs/clientlib-site.min.4418ec621f9105d910b239f45b6d25a8.css" type="text/css">
+
+
+    
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.70264651675213ed7f7cc5a02a00f621.js"></script>
+
+
+
+    
+    
+    
+</head>
+    
+        
+    
+    
+    
+    <header class="xf-header global-header">
+        <div class="xfpage page basicpage">
+
+
+    
+    <div id="container-0038804c9c" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="header aem-GridColumn aem-GridColumn--default--12">
+    <tcb-header data-sticky-cta-target="_self">
+        <div class="header_layout prelogin-header">
+            <tcb-google-search data-cmp-is="tcb-google-search"></tcb-google-search>
+            <div class="header-navigation">
+                <!-- Primary Nav -->
+                <div class="navigation_primary content-wrapper">
+
+                    <div class="navigation_primary-wrapper">
+                        <!-- Left content Start -->
+                        <div class="navigation-primary_left">
+                            <!-- LOGO code START.. only to be displayed when Secondary Nav is not present -->
+                            
+                                <div class="header-logo ">
+                                    <a href="https://techcombank.com/" class="link_component-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Header Logo'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                        <picture>
+                                            <source media="(max-width: 1024px)" srcset="/content/dam/techcombank/public-site/seo/logo_mobile.png.rendition/cq5dam.web.768.768.webp"/>
+                                            <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/seo/logo_mobile.png.rendition/cq5dam.web.768.768.webp"/>
+                                            <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/seo/logo_mobile.png.rendition/cq5dam.web.768.768.webp"/>
+                                            <source media="(min-width: 1025px)" srcset="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg"/>
+                                            <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg"/>
+                                            <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg"/>
+                                            <img src="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg" alt=" Techcombank"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                            
+                            <!-- LOGO code END.. -->
+                            <!-- See all Start -->
+                            
+                            <!-- See all End -->
+                            <!-- different page dropdown Start -->
+                            
+                            <!-- different page dropdown End -->
+                            <!--  Left Listing start: Explore item text START-->
+                            
+                        </div>
+                        <!-- Left content End -->
+
+                        <!-- Right content Start -->
+                        <div class="navigation-primary_right">
+                            <!-- Search -->
+                            <a class="search-primary-btn" href="#search-primary-modal">
+                                <img src="/etc.clientlibs/techcombank/clientlibs/clientlib-site/resources/images/search-primary-icon.svg" alt="search-icon"/>
+                            </a>
+                            <!-- Right listing: menu Start-->
+                            
+                                <div class="navigation-primary_item  ">
+                                    <a href="https://techcombank.com/cong-cu-tien-ich" target="_self" class="link_component-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Công cụ &amp; Tiện ích'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                        <span class="link_text">Công cụ &amp; Tiện ích</span>
+                                    </a>
+                                </div>
+                            
+                                <div class="navigation-primary_item  ">
+                                    <a href="https://techcombank.com/ho-tro" target="_self" class="link_component-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Hỗ trợ'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                        <span class="link_text">Hỗ trợ</span>
+                                    </a>
+                                </div>
+                            
+                                <div class="navigation-primary_item  has-right-border">
+                                    <a href="https://techcombank.com/lien-he" target="_self" class="link_component-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Liên hệ'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                        <span class="link_text">Liên hệ</span>
+                                    </a>
+                                </div>
+                            
+                            <!-- Right listing: menu End-->
+                            <!-- Lang dropdown Start -->
+                            
+                                <div class="language_dropdown_item">
+                                    <span class="material-symbols-outlined">public</span>
+                                    <span class="dropdown_holder">
+                                
+                                    
+                                        Tiếng Việt
+                                
+                                    
+                                
+                            </span>
+                                    <span class="dropdown-arrow material-symbols-outlined filter-red">
+                                expand_more
+                            </span>
+                                    <ul class="language_dropdown">
+                                        
+                                            <li class="dropdown-item active">
+                                                <a href="https://techcombank.com/" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'header-navigation | link_Tiếng Việt'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'Other'}}">
+                                                    <span>Tiếng Việt</span>
+                                                </a>
+                                            </li>
+                                        
+                                            <li class="dropdown-item ">
+                                                <a href="https://techcombank.com/en" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'header-navigation | link_English'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'Other'}}">
+                                                    <span>English</span>
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            
+                            <!-- Lang dropdown End -->
+                            <!-- END -->
+                            <!-- Login Start : only visible when no secondary Nav -->
+                            
+                                <div class="navigation-secondary_actions">
+                                    <div id="login-btn" class="link_component-link" target="_blank">
+
+                                    <span class="link_text">
+                                        <div class="navigation-secondary_actions-icon">
+                                            <span>Đăng nhập</span>
+                                            <img src="/etc.clientlibs/techcombank/clientlibs/clientlib-site/resources/images/white-arrow-icon.svg"/>
+                                        </div>
+                                    </span>
+                                        <div class="login__drop-down">
+                                            
+                                                <div class="drop-down__item">
+                                                    <a href="https://tcbmobile.onelink.me/TBS9?af_web_dp=https%3A%2F%2Fonlinebanking.techcombank.com.vn%2Fauth%2Frealms%2Fbackbase%2Fprotocol%2Fopenid-connect%2Fauth%3Fresponse_type%3Dcode%26client_id%3Dtcb-web-client%26state%3DNF9FRjRpTS1Fb08xM3BzNUdQYkpKQ1ZOVWdXZGNuU2xXcUlBWXhObWdRYzJq%26redirect_uri%3Dhttps%253A%252F%252Fonlinebanking.techcombank.com.vn%252Fredirect%26scope%3Dopenid%26code_challenge%3D6AV7osGzezvgCvEFf00Nes9Zx06Yt6TmGkjXCovhF60%26code_challenge_method%3DS256%26nonce%3DNF9FRjRpTS1Fb08xM3BzNUdQYkpKQ1ZOVWdXZGNuU2xXcUlBWXhObWdRYzJq%26ui_locales%3Den-US&af_xp=custom&pid=Website&c=Other_BAU_All_Website_LoginButton&deep_link_value=OnO.accountIntroduction&af_dp=tcb%3A%2F%2Fapplink&is_retargeting=true&af_reengagement_window=7d&deep_link_sub1=tcb%3A%2F%2Fapplink%3FtargetPage%3DOnO.accountIntroduction&af_force_deeplink=true&utm_source=Website&utm_campaign=Other_BAU_All_Website_LoginButton&utm_medium=Owned_media" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Cá nhân và hộ kinh doanh'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                                        Cá nhân và hộ kinh doanh
+                                                    </a>
+                                                </div>
+                                            
+                                                <div class="drop-down__item">
+                                                    <a href="https://techcombank.com/dang-nhap-ngan-hang-so/khach-hang-doanh-nghiep" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Doanh nghiệp'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                                        Doanh nghiệp
+                                                    </a>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Hamburger : Start -->
+                                    <div class="hambuger-icon" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | hamburger_icon_navigation_content'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': ''}}"><span></span><span></span><span></span></div>
+                                    <!-- Hamburger : End -->
+                                </div>
+                            
+                            <!-- Login End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Primary Nav END -->
+
+                <!-- Secondary Nav Start-->
+                <div class="navigation_secondary">
+                    <div class="navigation_secondary-wrapper content-wrapper">
+                        <!-- Header Logo Start-->
+
+                        <div class="header-logo ">
+                            <a href="https://techcombank.com/" class="link_component-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Header Logo'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                <picture>
+                                    <source media="(max-width: 1024px)" srcset="/content/dam/techcombank/public-site/seo/logo_mobile.png.rendition/cq5dam.web.768.768.webp"/>
+                                    <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/seo/logo_mobile.png.rendition/cq5dam.web.768.768.webp"/>
+                                    <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/seo/logo_mobile.png.rendition/cq5dam.web.768.768.webp"/>
+                                    <source media="(min-width: 1025px)" srcset="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg"/>
+                                    <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg"/>
+                                    <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg"/>
+                                    <img src="/content/dam/techcombank/public-site/seo/techcombank_logo_svg_86201e50d1.svg" itemprop="logo" alt=" Techcombank"/>
+                                </picture>
+                            </a>
+                        </div>
+                        
+                            <div itemtype="http://schema.org/Website" itemscope>
+                                <link itemprop="url" href="https://techcombank.com/"/>
+                                <div itemprop="potentialAction" itemtype="http://schema.org/SearchAction" itemscope>
+                                    <div itemprop="target" itemtype="http://schema.org/EntryPoint" itemscope>
+                                        <meta itemprop="urlTemplate" content="https://techcombank.com/tim-kiem?q={search_term_string}"/>
+                                    </div>
+                                    <meta itemprop="query-input" content="required name=search_term_string"/>
+                                </div>
+                            </div>
+                        
+                        <!-- Header Logo End-->
+
+                        <!-- Nav First Level Start -->
+                        
+                        <!-- Nav First Level End -->
+
+                        <!-- Login Section Start -->
+                        <div class="navigation-secondary_actions">
+                            
+                                
+                                
+                                    <div id="login-btn" class="link_component-link hide-on-mobile" target="_blank">
+
+                                    <span class="link_text">
+                                        <div class="navigation-secondary_actions-icon">
+                                            <span>Đăng nhập</span>
+                                            <img src="/etc.clientlibs/techcombank/clientlibs/clientlib-site/resources/images/white-arrow-icon.svg"/>
+                                        </div>
+                                    </span>
+                                        <div class="login__drop-down">
+                                            
+                                                <div class="drop-down__item">
+                                                    <a href="https://tcbmobile.onelink.me/TBS9?af_web_dp=https%3A%2F%2Fonlinebanking.techcombank.com.vn%2Fauth%2Frealms%2Fbackbase%2Fprotocol%2Fopenid-connect%2Fauth%3Fresponse_type%3Dcode%26client_id%3Dtcb-web-client%26state%3DNF9FRjRpTS1Fb08xM3BzNUdQYkpKQ1ZOVWdXZGNuU2xXcUlBWXhObWdRYzJq%26redirect_uri%3Dhttps%253A%252F%252Fonlinebanking.techcombank.com.vn%252Fredirect%26scope%3Dopenid%26code_challenge%3D6AV7osGzezvgCvEFf00Nes9Zx06Yt6TmGkjXCovhF60%26code_challenge_method%3DS256%26nonce%3DNF9FRjRpTS1Fb08xM3BzNUdQYkpKQ1ZOVWdXZGNuU2xXcUlBWXhObWdRYzJq%26ui_locales%3Den-US&af_xp=custom&pid=Website&c=Other_BAU_All_Website_LoginButton&deep_link_value=OnO.accountIntroduction&af_dp=tcb%3A%2F%2Fapplink&is_retargeting=true&af_reengagement_window=7d&deep_link_sub1=tcb%3A%2F%2Fapplink%3FtargetPage%3DOnO.accountIntroduction&af_force_deeplink=true&utm_source=Website&utm_campaign=Other_BAU_All_Website_LoginButton&utm_medium=Owned_media" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Cá nhân và hộ kinh doanh'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                                        Cá nhân và hộ kinh doanh</a>
+                                                </div>
+                                            
+                                                <div class="drop-down__item">
+                                                    <a href="https://techcombank.com/dang-nhap-ngan-hang-so/khach-hang-doanh-nghiep" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Doanh nghiệp'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                                        Doanh nghiệp</a>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                
+                            
+
+                            
+
+
+                            <!-- Secondary navigation in mobile view -->
+                            <div class="navigation-secondary_actions--mobile">
+                                
+                                
+                                    
+                                    
+                                        <div id="login-btn" class="link_component-link">
+																				
+																				
+																						<span class="login-btn">
+																								<span class="login-btn__text">Đăng nhập</span>
+																						</span>
+																				
+                                            <div class="login__drop-down">
+                                                
+                                                    <div class="drop-down__item">
+                                                        <a href="https://tcbmobile.onelink.me/TBS9?af_web_dp=https%3A%2F%2Fonlinebanking.techcombank.com.vn%2Fauth%2Frealms%2Fbackbase%2Fprotocol%2Fopenid-connect%2Fauth%3Fresponse_type%3Dcode%26client_id%3Dtcb-web-client%26state%3DNF9FRjRpTS1Fb08xM3BzNUdQYkpKQ1ZOVWdXZGNuU2xXcUlBWXhObWdRYzJq%26redirect_uri%3Dhttps%253A%252F%252Fonlinebanking.techcombank.com.vn%252Fredirect%26scope%3Dopenid%26code_challenge%3D6AV7osGzezvgCvEFf00Nes9Zx06Yt6TmGkjXCovhF60%26code_challenge_method%3DS256%26nonce%3DNF9FRjRpTS1Fb08xM3BzNUdQYkpKQ1ZOVWdXZGNuU2xXcUlBWXhObWdRYzJq%26ui_locales%3Den-US&af_xp=custom&pid=Website&c=Other_BAU_All_Website_LoginButton&deep_link_value=OnO.accountIntroduction&af_dp=tcb%3A%2F%2Fapplink&is_retargeting=true&af_reengagement_window=7d&deep_link_sub1=tcb%3A%2F%2Fapplink%3FtargetPage%3DOnO.accountIntroduction&af_force_deeplink=true&utm_source=Website&utm_campaign=Other_BAU_All_Website_LoginButton&utm_medium=Owned_media" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Cá nhân và hộ kinh doanh'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                                            Cá nhân và hộ kinh doanh</a>
+                                                    </div>
+                                                
+                                                    <div class="drop-down__item">
+                                                        <a href="https://techcombank.com/dang-nhap-ngan-hang-so/khach-hang-doanh-nghiep" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Doanh nghiệp'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                                            Doanh nghiệp</a>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                                
+
+                                <!-- Login -->
+                            </div>
+
+                            <div class="hambuger-icon" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | hamburger_icon_navigation_content'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'Other'}}">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <!-- Login Section End -->
+                    </div>
+                    <!-- search engine on header -->
+                    <div class="tcb-search-engine-mobile search-engine-hidden">
+                        <div class="search-engine__wrapper">
+                            <div class="gcse-searchbox-only" data-autoCompleteMaxCompletions="5" data-resultsurl="/tim-kiem"></div>
+													<div class="close-icon">
+														<img alt="close" class="icon-close-grey" src="/etc.clientlibs/techcombank/clientlibs/clientlib-site/resources/images/icon_close_grey.svg"/>
+													</div>
+                        </div>
+                        <input type="hidden"/>
+                    </div>
+                </div>
+                <!-- Secondary Nav End-->
+            </div>
+
+            <!-- Secondar Nav Sub : large3 -->
+            <div class="header-content">
+                <!-- Secondary Nav Start-->
+                <div class="navigation_sub">
+                    <!-- Primary Nav Mobile Start-->
+                    <div class="mobile-menu">
+                        <div class="mobile-main-nav mobile-xl">
+														<div class="mobile-landing-menu">
+																
+																		<a href="https://techcombank.com/khach-hang-ca-nhan" class="mobile-landing-menu__items " target="_self" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Cá nhân'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+																			Cá nhân
+																		</a>
+																
+																		<a href="https://techcombank.com/ho-kinh-doanh-va-doanh-nghiep-nho/ho-kinh-doanh" class="mobile-landing-menu__items " target="_self" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Hộ kinh doanh'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+																			Hộ kinh doanh
+																		</a>
+																
+																		<a href="https://techcombank.com/ho-kinh-doanh-va-doanh-nghiep-nho/doanh-nghiep-nho" class="mobile-landing-menu__items " target="_self" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Doanh nghiệp vừa và nhỏ'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+																			Doanh nghiệp vừa và nhỏ
+																		</a>
+																
+																		<a href="https://techcombank.com/khach-hang-doanh-nghiep" class="mobile-landing-menu__items " target="_self" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Doanh nghiệp lớn'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+																			Doanh nghiệp lớn
+																		</a>
+																
+																		<a href="https://techcombank.com/nha-dau-tu" class="mobile-landing-menu__items " target="_self" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Nhà đầu tư'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+																			Nhà đầu tư
+																		</a>
+																
+																		<a href="https://techcombank.com/ve-chung-toi" class="mobile-landing-menu__items " target="_self" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Về chúng tôi'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+																			Về chúng tôi
+																		</a>
+																
+														</div>
+                            </div>
+                        <div class="mobile-menu-items">
+                            <div class="mobile-sec-nav">
+                                
+                            </div>
+                            <div class="mobile-sec-nav__right">
+                                <!-- Right listing: menu Start-->
+                                
+                                    <div class="mobile-sec-nav__right-item  ">
+                                        <a href="https://techcombank.com/cong-cu-tien-ich" target="_self" class="mobile-sec-nav__right-item-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Công cụ &amp; Tiện ích'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                            <span class="mobile-sec-nav__right-item-text">Công cụ &amp; Tiện ích</span>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="mobile-sec-nav__right-item  ">
+                                        <a href="https://techcombank.com/ho-tro" target="_self" class="mobile-sec-nav__right-item-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Hỗ trợ'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                            <span class="mobile-sec-nav__right-item-text">Hỗ trợ</span>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="mobile-sec-nav__right-item  has-right-border">
+                                        <a href="https://techcombank.com/lien-he" target="_self" class="mobile-sec-nav__right-item-link" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'Header | Liên hệ'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'other'}}">
+                                            <span class="mobile-sec-nav__right-item-text">Liên hệ</span>
+                                        </a>
+                                    </div>
+                                
+                                <!-- Right listing: menu End-->
+                                <!-- Lang dropdown Start -->
+                                
+                                    <div class="mobile-sec-nav__lang-dropdown">
+                                        <span class="mobile-sec-nav__lang-dropdown-icon material-symbols-outlined">public</span>
+                                        <span class="mobile-sec-nav__lang-dropdown-holder">
+                                            
+                                                
+                                                    Tiếng Việt
+                                            
+                                                
+                                            
+                                        </span>
+                                        <span class="mobile-sec-nav__lang-dropdown-arrow material-symbols-outlined filter-red">
+                                            expand_more
+                                        </span>
+                                        <ul class="mobile-sec-nav__lang-dropdown-list">
+                                            
+                                                <li class="mobile-sec-nav__lang-dropdown-item active">
+                                                    <a href="https://techcombank.com/" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'header-navigation | link_Tiếng Việt'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'Other'}}">
+                                                        <span>Tiếng Việt</span>
+                                                    </a>
+                                                </li>
+                                            
+                                                <li class="mobile-sec-nav__lang-dropdown-item ">
+                                                    <a href="https://techcombank.com/en" data-tracking-click-event="linkClick" data-tracking-click-info-value="{'linkClick': 'header-navigation | link_English'}" data-tracking-web-interaction-value="{'webInteractions': {'name': 'Header','type': 'Other'}}">
+                                                        <span>English</span>
+                                                    </a>
+                                                </li>
+                                            
+                                        </ul>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Primary Nav Mobile End-->
+
+                    <div class="navigation_sub_wraper">
+                        <div class="navigation_sub_inner">
+                            <div class="mobile-xl">
+                                <div class="back_menu">
+                                <span class="material-symbols-outlined active">
+                                    navigate_before
+                                </span>
+                                    <span class="back-menu-text"></span>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Secondary Nav End-->
+            </div>
+            
+        </div>
+    </tcb-header>
+    <tcb-recommend-pre-page-popup>
+        <tcb-tracker value="btn_recommend_pre_page_bell">
+            <div class="icon-svg" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 64 64" fill="none">
+                    <g filter="url(#filter0_d_144_850)">
+                        <circle cx="34" cy="30" r="20" fill="#ED1C24"></circle>
+                        <path d="M43.1609 35.8285C41.8556 34.358 40.9341 33.6093 40.9341 29.5551C40.9341 25.8424 38.8745 24.5197 37.1793 23.8773C36.9542 23.7922 36.7422 23.5966 36.6736 23.3837C36.3763 22.4521 35.5427 21.6315 34.4346 21.6315C33.3265 21.6315 32.4924 22.4526 32.1981 23.3846C32.1295 23.5999 31.9175 23.7922 31.6924 23.8773C29.9952 24.5207 27.9377 25.8387 27.9377 29.5551C27.9351 33.6093 27.0136 34.358 25.7083 35.8285C25.1675 36.4377 25.6412 37.3524 26.5871 37.3524H42.2871C43.228 37.3524 43.6986 36.4349 43.1609 35.8285ZM37.6876 37.3524V38.101C37.6876 38.8952 37.3449 39.6569 36.7348 40.2184C36.1248 40.78 35.2974 41.0955 34.4346 41.0955C33.5718 41.0955 32.7444 40.78 32.1343 40.2184C31.5243 39.6569 31.1815 38.8952 31.1815 38.101V37.3524" fill="white"></path>
+                        <path d="M39.7831 22.3357C40.8211 22.9845 42.8973 24.9828 42.8973 27.7856" stroke="white" stroke-linecap="round"></path>
+                        <path d="M25.3797 27.0071C25.3797 25.45 26.1759 23.0611 28.8832 22.3357" stroke="white" stroke-linecap="round"></path>
+                        <path d="M39.7831 20C43.6759 21.1678 45.233 25.0606 44.8437 28.1749" stroke="white" stroke-linecap="round"></path>
+                        <path d="M23.4333 27.3963C23.4333 23.3033 25.7689 20.7785 29.0443 20.188" stroke="white" stroke-linecap="round"></path>
+                        <path d="M30.9305 37.3506H37.9375V37.9346H30.9305V37.3506Z" fill="#ED1C24"></path>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d_144_850" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                            <feOffset dx="-2" dy="2"></feOffset>
+                            <feGaussianBlur stdDeviation="6"></feGaussianBlur>
+                            <feComposite in2="hardAlpha" operator="out"></feComposite>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"></feColorMatrix>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_144_850"></feBlend>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_144_850" result="shape"></feBlend>
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+        </tcb-tracker>
+        <div class="recommend-pre-page-popup hidden">
+            <div class="recommend-content">
+                <div class="recommend-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M30.709 25.235C29.0325 23.3462 27.8488 22.3846 27.8488 17.1773C27.8488 12.4087 25.2035 10.7097 23.0262 9.88462C22.737 9.77524 22.4647 9.52404 22.3766 9.2506C21.9947 8.05409 20.924 7 19.5008 7C18.0776 7 17.0062 8.05469 16.6282 9.2518C16.5401 9.52825 16.2678 9.77524 15.9786 9.88462C13.7987 10.7109 11.156 12.4038 11.156 17.1773C11.1527 22.3846 9.96909 23.3462 8.29256 25.235C7.59792 26.0174 8.20638 27.1923 9.42134 27.1923H29.5867C30.7952 27.1923 31.3997 26.0138 30.709 25.235ZM23.6791 27.1923V28.1538C23.6791 29.1739 23.2388 30.1522 22.4553 30.8735C21.6717 31.5948 20.6089 32 19.5008 32C18.3926 32 17.3299 31.5948 16.5463 30.8735C15.7627 30.1522 15.3225 29.1739 15.3225 28.1538V27.1923" fill="#616161"></path>
+                        <path d="M26.3705 7.90448C27.7038 8.73781 30.3705 11.3045 30.3705 14.9045" stroke="#616161" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M7.87048 13.9045C7.87048 11.9045 8.89315 8.83623 12.3705 7.90448" stroke="#616161" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M26.3705 4.90448C31.3705 6.40448 33.3705 11.4045 32.8705 15.4045" stroke="#616161" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M5.37048 14.4045C5.37048 9.14734 8.37048 5.90448 12.5774 5.14605" stroke="#616161" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M15 27.19H24V27.94H15V27.19Z" fill="white"></path>
+                    </svg>
+                    Bạn có muốn tiếp tục hành trình?
+                </div>
+                <div class="recommend-description">Trang bạn truy cập gần nhất:</div>
+            </div>
+            <div class="button-block">
+                <tcb-tracker class="w-full" value="btn_recommend_pre_page_cancel">
+                    <button class="cancel">Hủy bỏ</button>
+                </tcb-tracker>
+                <tcb-tracker class="w-full" value="btn_recommend_pre_page_confirm">
+                    <button class="primary">
+                        <span>Đồng ý</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#ED1B24"></path>
+                        </svg>
+                    </button>
+                </tcb-tracker>
+            </div>
+        </div>
+    </tcb-recommend-pre-page-popup>
+
+</div>
+<div class="primarysearch aem-GridColumn aem-GridColumn--default--12"><div>
+    
+        <!-- primary search modal -->
+        <div class="popup modal-hidden" id="search-primary-modal" style="align-items: normal !important">
+            <div class="popup__container search-primary-modal">
+                <div class="popup__container-item">
+                    <tcb-search-primary>
+                        <div class="search-primary-container">
+                            <div class="search-engine__wrapper">
+                                <div class="gcse-searchbox-only" data-autoCompleteMaxCompletions="5" data-resultsurl="/tim-kiem"></div>
+                            </div>
+                            <input type="hidden" data-search-placeholder="Tìm kiếm thông tin"/>
+                            <div class="search-box_title">Các tìm kiếm gần đây của bạn</div>
+                            <div class="key-word-list" data-primary-search-result-slug="/tim-kiem"></div>
+                            <div class="link_title">Liên kết hữu ích</div>
+                            <div class="card-list">
+                                
+                                    <div class="card-container">
+                                        <a href="/khach-hang-ca-nhan/chi-tieu/the/the-tin-dung">
+                                            <div>
+                                                <img src="/content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.web.1280.1280.webp" srcset="/content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.thumbnail.48.48.webp 48w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.thumbnail.96.96.webp 96w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.thumbnail.256.256.webp 256w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.thumbnail.480.480.webp 480w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.web.768.768.webp 768w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.web.1280.1280.webp 1280w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.web.1920.1920.webp 1920w, /content/dam/techcombank/public-site/imported-assets/card-Search-Popup-28e93cec3c-59bdec5495.png.rendition/cq5dam.web.2560.2560.webp 2560w" sizes="768px" alt="card-search-popup" loading="lazy" decoding="async"/>
+                                            </div>
+                                            <div class="card-label">Thẻ tín dụng</div>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="card-container">
+                                        <a href="/khach-hang-ca-nhan/vay/vay-tieu-dung">
+                                            <div>
+                                                <img src="/content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.web.1280.1280.webp" srcset="/content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.thumbnail.48.48.webp 48w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.thumbnail.96.96.webp 96w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.thumbnail.256.256.webp 256w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.thumbnail.480.480.webp 480w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.web.768.768.webp 768w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.web.1280.1280.webp 1280w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.web.1920.1920.webp 1920w, /content/dam/techcombank/public-site/imported-assets/card-2-2856cb5f58-4aa44f7fac.png.rendition/cq5dam.web.2560.2560.webp 2560w" sizes="768px" alt="card-search-popup" loading="lazy" decoding="async"/>
+                                            </div>
+                                            <div class="card-label">Vay tiêu dùng</div>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="card-container">
+                                        <a href="/khach-hang-ca-nhan/ngan-hang-truc-tuyen/ngan-hang-so/techcombank-mobile">
+                                            <div>
+                                                <img src="/content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.web.1280.1280.webp" srcset="/content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.thumbnail.48.48.webp 48w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.thumbnail.96.96.webp 96w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.thumbnail.256.256.webp 256w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.thumbnail.480.480.webp 480w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.web.768.768.webp 768w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.web.1280.1280.webp 1280w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.web.1920.1920.webp 1920w, /content/dam/techcombank/public-site/imported-assets/card-3-850f67eade-a75c15204d.png.rendition/cq5dam.web.2560.2560.webp 2560w" sizes="768px" alt="card-search-popup" loading="lazy" decoding="async"/>
+                                            </div>
+                                            <div class="card-label">Techcombank Mobile</div>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="card-container">
+                                        <a href="/cong-cu-tien-ich/ty-gia">
+                                            <div>
+                                                <img src="/content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.web.1280.1280.webp" srcset="/content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.thumbnail.48.48.webp 48w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.thumbnail.96.96.webp 96w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.thumbnail.256.256.webp 256w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.thumbnail.480.480.webp 480w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.web.768.768.webp 768w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.web.1280.1280.webp 1280w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.web.1920.1920.webp 1920w, /content/dam/techcombank/public-site/imported-assets/card-4-52d69999dc-3203f14d68.png.rendition/cq5dam.web.2560.2560.webp 2560w" sizes="768px" alt="card-search-popup" loading="lazy" decoding="async"/>
+                                            </div>
+                                            <div class="card-label">Tỷ giá</div>
+                                        </a>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </tcb-search-primary>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+    
+
+</div>
+<div class="blankembed aem-GridColumn aem-GridColumn--default--12"><div>
+    
+        <!-- Admicro Tag Manager -->
+                <script> (function(a, b, d, c, e) { a[c] = a[c] || [];
+                a[c].push({ "atm.start": (new Date).getTime(), event: "atm.js" });
+                a = b.getElementsByTagName(d)[0]; b = b.createElement(d); b.async = !0;
+                b.src = "//deqik.com/tag/corejs/" + e + ".js"; a.parentNode.insertBefore(b, a)
+                })(window, document, "script", "atmDataLayer", "ATMLH9LBNGG5L");</script>
+                <!-- End Admicro Tag Manager -->
+    
+</div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    </header>
+
+    <body class="basepage page basicpage light" id="basepage-4f75192085" data-tracking-product-name="global" data-tracking-journey="rdb:login_web" data-tracking-country="vn" data-tracking-event='pageLoaded' data-tracking-page-name='Tiếng Việt'>
+
+        
+        
+            
+
+
+
+
+            
+<div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-554a6c8d2c" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-3adb3096ec" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="homepageblock aem-GridColumn aem-GridColumn--default--12">
+
+  <section class="scroll-to-top">
+    <div class="scroll-to-top__icon"></div>
+    <img src="/etc.clientlibs/techcombank/clientlibs/clientlib-site/resources/images/scroll-top-icon.svg"/>
+  </section>
+  
+    
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://techcombank.com",
+            "logo": "https://techcombank.com/content/dam/techcombank/public-site/seo/techcombank-logo.svg",
+            "name": "Techcombank - Ngân hàng TMCP Kỹ thương Việt Nam",
+            "alternateName": "Techcombank",
+            "legalName": "Ngân hàng thương mại cổ phần Kỹ Thương Việt Nam",
+            "description": "Đặt khách hàng là trọng tâm, Techcombank sẵn sàng cùng bạn nâng tầm giá trị sống vượt trội Khám phá ngay các dịch vụ từ ngân hàng số hàng đầu cho khách hàng",                 "foundingDate": "1993-09-27",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Số 6 phố Quang Trung, quận Hoàn Kiếm, Hà Hội",
+                "addressLocality": "Hà Nội",
+                "addressCountry": "VN",
+                "addressRegion": "Vietnam",
+                "postalCode": "11198"
+            },
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "email": "call_center@techcombank.com.vn",
+                "telephone": "1800588822",
+                "contactType": "customer service",
+                "contactOption": "TollFree",
+                "areaServed": "VN"
+            },{
+                "@type": "ContactPoint",
+                "email": "call_center@techcombank.com.vn",
+                "telephone": "+842439446699",
+                "contactType": "customer service"
+            },{
+                "@type": "ContactPoint",
+                "email": "hotrodoanhnghiep@techcombank.com.vn",
+                "telephone": "18006556",
+                "contactType": "customer service",
+                "areaServed": "VN"
+            },{
+                "@type": "ContactPoint",
+                "email": "hotrodoanhnghiep@techcombank.com.vn",
+                "telephone": "+842473036556",
+                "contactType": "customer service"
+            }]
+        }
+    </script>
+
+  
+  <section class="home-page full-height" data-cmp-is="homepage-block">
+    <img class="home-page-background" src="/content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.web.1280.1280.webp" srcset="/content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.thumbnail.48.48.webp 48w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.thumbnail.96.96.webp 96w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.thumbnail.256.256.webp 256w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.thumbnail.480.480.webp 480w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.web.768.768.webp 768w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.web.1280.1280.webp 1280w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.web.1920.1920.webp 1920w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-desktop-09-2026.jpg.rendition/cq5dam.web.2560.2560.webp 2560w" sizes="(min-width:1280px) 2560px, 100vw" alt="" fetchpriority="high" loading="eager" decoding="auto"/>
+    <div class="home-page-list">
+      <div class="home-page-left__wrap" style="background-color: rgb(51,51,51)">
+        <div class="home-page-left__content">
+          <div class="home-page-left__top-container">
+            <h1>Chào mừng bạn đến với Techcombank</h1>
+            <div class="home-page-left__contact">
+              
+                <tcb-tracker value="Khách hàng cá nhân">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/khach-hang-ca-nhan" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/personalbankingHMicon.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/personalbankingHMicon.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/personalbankingHMicon.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/personalbankingHMicon.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/common/homepage/icons/personalbankingHMicon.svg" alt="Khách hàng cá nhân"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Khách hàng cá nhân</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Khách hàng cao cấp">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcomwealth.techcombank.com/" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/com_img/private-banking-icon.png.rendition/cq5dam.web.768.768.webp"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/com_img/private-banking-icon.png.rendition/cq5dam.web.768.768.webp"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/com_img/private-banking-icon.png.rendition/cq5dam.web.2560.2560.webp"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/com_img/private-banking-icon.png.rendition/cq5dam.web.2560.2560.webp"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/com_img/private-banking-icon.png.rendition/cq5dam.web.2560.2560.webp" alt="Khách hàng cao cấp"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Khách hàng cao cấp</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Hộ kinh doanh">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/ho-kinh-doanh-va-doanh-nghiep-nho/ho-kinh-doanh" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/com_img/icon_hokinhdoanhvasme.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/com_img/icon_hokinhdoanhvasme.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/com_img/icon_hokinhdoanhvasme.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/com_img/icon_hokinhdoanhvasme.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/com_img/icon_hokinhdoanhvasme.svg" alt="Hộ kinh doanh"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Hộ kinh doanh</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Doanh nghiệp vừa và nhỏ">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/ho-kinh-doanh-va-doanh-nghiep-nho/doanh-nghiep-nho" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/icon-small-enterprise.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/icon-small-enterprise.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/icon-small-enterprise.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/icon-small-enterprise.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/common/homepage/icons/icon-small-enterprise.svg" alt="Doanh nghiệp vừa và nhỏ"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Doanh nghiệp vừa và nhỏ</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Doanh nghiệp lớn và định chế tài chính">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/khach-hang-doanh-nghiep" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/BusinessbankingHMicon.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/BusinessbankingHMicon.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/BusinessbankingHMicon.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/BusinessbankingHMicon.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/common/homepage/icons/BusinessbankingHMicon.svg" alt="Doanh nghiệp lớn và định chế tài chính"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Doanh nghiệp lớn và định chế tài chính</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Nhà đầu tư">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/nha-dau-tu" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/investorHMicon.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/investorHMicon.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/investorHMicon.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/investorHMicon.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/common/homepage/icons/investorHMicon.svg" alt="Nhà đầu tư"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Nhà đầu tư</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Về chúng tôi">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/ve-chung-toi" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/common/homepage/icons/About%20usHMicon.svg" alt="Về chúng tôi"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Về chúng tôi</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+                <tcb-tracker value="Phát triển bền vững">
+                  <h2>
+                    <a class="home-page-left__item" href="https://techcombank.com/ve-chung-toi/phat-trien-ben-vung" target="_self">
+                      <picture>
+                        <source media="(max-width: 360px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <source media="(max-width: 576px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <source media="(min-width: 1080px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <source media="(min-width: 1200px)" srcset="/content/dam/techcombank/public-site/common/homepage/icons/About usHMicon.svg"/>
+                        <img class="home-page-left__item--img" src="/content/dam/techcombank/public-site/common/homepage/icons/About%20usHMicon.svg" alt="Phát triển bền vững"/>
+                      </picture>
+                      <div class="home-page-left__menu-item">
+                        <div class="home-page-left__text">Phát triển bền vững</div>
+                      </div>
+                    </a>
+                  </h2>
+                </tcb-tracker>
+              
+            </div>
+          </div>
+          <div class="home-page-left__bottom-container">
+            <div class="home-page-left__contact--block">
+              <div class="home-page-left__top-panel"></div>
+              <div class="">
+                <a class="" href="https://techcombank.com/lien-he" target="_self">
+                  <tcb-tracker value="Liên hệ">
+                    <div class="home-page-left__menu-item">
+                      <h3><div class="home-page-left__text">Liên hệ</div></h3>
+                    </div>
+                  </tcb-tracker>
+                  
+                    <tcb-tracker contact-us="tel:1800 588 822">
+                      <div class="home-page-left__bottom--content">
+                        <a href="tel:1800%20588%20822">
+                          Khách hàng cá nhân:
+                          <span>1800 588 822</span>
+                        </a>
+                      </div>
+                    </tcb-tracker>
+                  
+                    <tcb-tracker contact-us="tel:1800 6556">
+                      <div class="home-page-left__bottom--content">
+                        <a href="tel:1800%206556">
+                          Khách hàng doanh nghiệp:
+                          <span>1800 6556</span>
+                        </a>
+                      </div>
+                    </tcb-tracker>
+                  
+                </a>
+              </div>
+            </div>
+            <div class="home-page-left__contact--block">
+              <div class="home-page-left__top-panel"></div>
+              <tcb-tracker value="Tỷ giá hối đoái">
+                <a class="home-page-left__link" href="https://techcombank.com/cong-cu-tien-ich/ty-gia#ti-gia-hoi-doai" target="_self">
+                  <div class="home-page-left__menu-item">
+                    <h3><div class="home-page-left__text">Tỷ giá hối đoái</div></h3>
+                  </div>
+                </a>
+              </tcb-tracker>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-page-right__wrap">
+        <img class="home-page-right__img home-page-right__img--mobile" src="/content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.web.1280.1280.webp" srcset="/content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.thumbnail.48.48.webp 48w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.thumbnail.96.96.webp 96w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.thumbnail.256.256.webp 256w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.thumbnail.480.480.webp 480w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.web.768.768.webp 768w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.web.1280.1280.webp 1280w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.web.1920.1920.webp 1920w, /content/dam/techcombank/public-site/vi/images/about-us/homepage-tcb-mobile-092026.jpg.rendition/cq5dam.web.2560.2560.webp 2560w" sizes="100vw" alt="" loading="lazy" decoding="async" data-nimg="fill"/>
+      </div>
+    </div>
+  </section>
+
+
+    
+
+</div>
+<div class="blankembed aem-GridColumn aem-GridColumn--default--12"><div>
+    
+        <script type="application/ld+json">  {    "@context": "https://techcombank.com",    "@type": "WebSite",    "url": "https://techcombank.com/",    "potentialAction": {      "@type": "SearchAction",      "target": {        "@type": "EntryPoint",        "urlTemplate": "https://techcombank.com/tim-kiem?q={search_term_string}"      },      "query-input": "required name=search_term_string"    }  }</script>
+    
+</div>
+
+    
+</div>
+<div class="blankembed aem-GridColumn aem-GridColumn--default--12"><div>
+    
+        <style>
+.home-page-left__contact >*:nth-last-child(2) {
+    width: 100%;
+}
+.home-page-left__contact >*:nth-last-child(2) .home-page-left__text:after {
+    display: block;
+}
+.home-page-left__contact >*:nth-last-child(2) a.home-page-left__item img {
+    display: none;
+}
+.home-page-left__contact >*:nth-last-child(2) a.home-page-left__item {
+    gap: 0;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    padding-top: 24px;
+    margin-top: 16px;
+    width: 100%;
+    align-items: start;
+}
+.home-page-left__contact >*:nth-last-child(1) a.home-page-left__item img {
+    display: none;
+}
+.home-page-left__contact >*:nth-last-child(1) a.home-page-left__item {
+    gap: 0;
+    align-items: start;
+}
+.home-page-left__contact >*:nth-last-child(1) .home-page-left__text {
+    font-weight: 400;
+    font-style: underline;
+}
+.home-page-left__contact >*:nth-last-child(1) .home-page-left__text:after {
+    display: none;
+}
+.home-page-left__contact {
+    margin-bottom: 8px;
+}
+@media screen and (max-width: 1024px) {
+    .home-page-left__contact >*:nth-last-child(2) a.home-page-left__item .home-page-left__menu-item .home-page-left__text:after {
+        content: url(../../../etc.clientlibs/techcombank/clientlibs/clientlib-site/resources/images/white-arrow-icon.svg);
+        line-height: 0;
+    }
+    .home-page-left__contact {
+        margin-bottom: -10px;
+    }
+    .home-page-left__contact >*:nth-last-child(2),
+    .home-page-left__contact >*:nth-last-child(1) {
+        grid-column: 1 / 4;
+    }
+    .home-page-left__contact >*:nth-last-child(1) {
+        margin-top: -24px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .home-page-left__item--img {
+        width: 42px;
+        height: 42px;
+        display: block;
+    }
+    .home-page-left__wrap {
+        padding-top: 48px;
+    }
+    .home-page-left__contact {
+        gap: 8px;
+        margin-top: 16px;
+    }
+    .home-page-left__content {
+        gap: 16px;
+    }
+}
+</style>
+    
+</div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+</div>
+
+
+            
+    
+    <script src="/etc.clientlibs/techcombank/clientlibs/clientlib-site.min.e2df76b9398a7521d881b65d72b451e5.js"></script>
+
+
+    
+
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.0a6aff292f5cc42142779cde92054524.js"></script>
+<script async src="/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.56934e461ff6c436f962a5990541a527.js"></script>
+<script async src="/etc.clientlibs/techcombank/clientlibs/clientlib-base.min.04b4e763d08813eed34017f366ba98e3.js"></script>
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+    
+
+        
+        <tcb-external-link-warning-modal>
+            <div class="external-link-warning-modal hidden"></div>
+        </tcb-external-link-warning-modal>
+    </body>
+    
+</html>
