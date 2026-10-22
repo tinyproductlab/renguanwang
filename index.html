@@ -252,6 +252,18 @@
     <div class="chips" id="chips"></div>
   </div>
 </div>
+<div class="verify-wrap" style="max-width:1400px;margin:0 auto;padding:0 20px 8px">
+  <div style="background:#fff;border:1px solid #eee;border-radius:12px;padding:18px 20px">
+    <h2 style="font-size:16px;margin-bottom:6px">🔍 <span data-i18n="verify_t">验一验：这个网址是真的官网吗？</span></h2>
+    <p style="font-size:13px;color:#888;margin-bottom:12px" data-i18n="verify_p">智能预检：查站库、域名年龄、页面主体，多信号判断，仅供参考，最终以人工核验为准。</p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <input id="vUrl" style="flex:2;min-width:220px;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px" data-i18n-ph="verify_url_ph" placeholder="粘贴要验证的网址，如 https://...">
+      <input id="vDesc" style="flex:1;min-width:160px;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px" data-i18n-ph="verify_desc_ph" placeholder="它应该是什么网站，如：微信官网">
+      <button id="vBtn" style="padding:10px 22px;background:#f5c518;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer" data-i18n="verify_btn">验真</button>
+    </div>
+    <div id="vResult" style="display:none;margin-top:14px"></div>
+  </div>
+</div>
 <div class="quick">
     <h2>⚡ <span data-i18n="quick">快捷直达</span></h2>
     <div class="quick-grid" id="quickGrid"></div>
@@ -352,6 +364,7 @@ zh: {
   nav_home:"首页", nav_hot:"热门软件", nav_ai:"AI工具", nav_sites:"网站导航", nav_feedback:"反馈", nav_about:"关于我们",
   hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
   plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
+  verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…",
   quick:"快捷直达", cats_title:"分类导航",
   cats_sub:"全部人工验过的站 · 点分类跳转",
   cat_essentials:"装机必备", cat_ai:"AI工具", cat_office:"办公效率", cat_dev:"开发工具", cat_design:"设计创意",
@@ -390,6 +403,7 @@ en: {
   nav_home:"Home", nav_hot:"Hot Software", nav_ai:"AI Tools", nav_sites:"Websites", nav_feedback:"Feedback", nav_about:"About",
   hero_h1:"Find Official Sites", hero_p:"Verified official websites only · We tell you which one to pick",
   plat_all:"All Platforms", search_ph:"Search software or website…", search_btn:"Search",
+  verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age and page identity signals. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…",
   quick:"Quick Access", cats_title:"Categories",
   cats_sub:"All manually verified sites · Click a category",
   cat_essentials:"Essentials", cat_ai:"AI Tools", cat_office:"Productivity", cat_dev:"Dev Tools", cat_design:"Design",
@@ -1201,6 +1215,42 @@ document.body.appendChild(toTop);
 window.addEventListener("scroll", () => {
   toTop.style.display = window.scrollY > 400 ? "block" : "none";
 }, {passive:true});
+// 验真
+const vBtn = document.getElementById("vBtn");
+const vUrl = document.getElementById("vUrl");
+const vDesc = document.getElementById("vDesc");
+const vResult = document.getElementById("vResult");
+async function doVerify() {
+  const url = vUrl.value.trim();
+  if (!url) { vUrl.focus(); return; }
+  vBtn.disabled = true;
+  vBtn.textContent = t("verify_ing");
+  vResult.style.display = "none";
+  try {
+    const r = await fetch("/api/verify", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ url, desc: vDesc.value.trim() }) });
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.msg || "error");
+    const conf = { verified: ["#e8f7e8", "#1a7f1a", "✅ 已收录 · 人工验过"], likely: ["#eef7ee", "#2e7d32", "✅ 高度可信"], uncertain: ["#fff8e1", "#9a7b00", "⚠️ 信息不足，无法确认"], risky: ["#fdecea", "#c0392b", "🚨 高度存疑，谨防假冒"] }[j.level] || ["#f5f5f5", "#555", j.level];
+    let h = '<div style="background:' + conf[0] + ';border-radius:8px;padding:14px 16px">';
+    h += '<div style="font-size:16px;font-weight:700;color:' + conf[1] + ';margin-bottom:6px">' + conf[2] + (j.level !== "verified" ? '（' + j.score + ' 分）' : '') + '</div>';
+    h += '<div style="font-size:13px;color:#333;line-height:1.7">';
+    (j.reasons || []).forEach(x => { h += '<div>· ' + x + '</div>'; });
+    if (j.ai) h += '<div>· AI 补充判断：' + j.ai.reason + '</div>';
+    if (j.suggestion) h += '<div style="margin-top:6px">👉 库中记录的官网：<a href="' + j.suggestion.url + '" target="_blank" rel="noopener" style="color:#1a73e8">' + j.suggestion.name + '（' + j.suggestion.host + '）</a></div>';
+    if (j.page && j.page.title) h += '<div style="color:#888;margin-top:6px">网页标题：' + j.page.title.replace(/</g, "&lt;") + '</div>';
+    h += '</div></div>';
+    vResult.innerHTML = h;
+    vResult.style.display = "block";
+  } catch (e) {
+    vResult.innerHTML = '<div style="background:#fdecea;border-radius:8px;padding:14px 16px;font-size:14px;color:#c0392b">验真失败，请检查网址格式后重试。</div>';
+    vResult.style.display = "block";
+  }
+  vBtn.disabled = false;
+  vBtn.textContent = t("verify_btn");
+}
+if (vBtn) vBtn.onclick = doVerify;
+if (vDesc) vDesc.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
+if (vUrl) vUrl.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
 </script>
 </body>
 </html>
