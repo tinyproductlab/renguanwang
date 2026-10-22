@@ -2004,5 +2004,18 @@ const SITES = [
 {name:"必应站长工具",url:"https://www.bing.com/webmasters",cat:"开发工具",rating:4,price:"免费",kw:"bing webmaster 必应站长 收录 seo",desc:"微软必应官方站长工具，提交网站查收录。",official:true,region:"US",plat:"网页",icon:"www.bing.com.ico"},
 {name:"百度搜索资源平台",url:"https://ziyuan.baidu.com",cat:"开发工具",rating:4,price:"免费",kw:"百度站长 搜索资源平台 收录 ziyuan baidu",desc:"百度官方站长平台，提交收录查索引必备。",official:true,region:"CN",plat:"网页",icon:"www.ziyuan.baidu.com.ico"},
 {name:"百度统计",url:"https://tongji.baidu.com",cat:"开发工具",rating:4,price:"免费",kw:"百度统计 tongji 流量统计 网站分析",desc:"百度官方网站流量统计，访客数据全掌握。",official:true,region:"CN",plat:"网页",icon:"www.tongji.baidu.com.ico"},
-{name:"Yandex Webmaster",url:"https://webmaster.yandex.com",cat:"开发工具",rating:4,price:"免费",kw:"yandex webmaster 站长 俄罗斯 收录",desc:"Yandex 官方站长工具，俄语区收录必备。",official:true,region:"RU",plat:"网页",icon:"www.webmaster.yandex.com.ico"}
+{name:"Yandex Webmaster",url:"https://webmaster.yandex.com",cat:"开发工具",rating:4,price:"免费",kw:"yandex webmaster 站长 俄罗斯 收录",desc:"Yandex 官方站长工具，俄语区收录必备。",official:true,region:"RU",plat:"网页",icon:"www.webmaster.yandex.com.ico"},
+{name:"Product Hunt",url:"https://www.producthunt.com",cat:"常用网站",rating:4,price:"免费",kw:"product hunt 新产品 发现 工具 launch",desc:"全球最大新产品发布社区，天天有新工具首发。",official:true,region:"US",plat:"网页",icon:"www.producthunt.com.ico"},
+{name:"AppSumo",url:"https://appsumo.com",cat:"购物消费",rating:4,price:"免费",kw:"appsumo 软件优惠 终身版 deal lifetime",desc:"软件终身版优惠平台，独立开发者薅羊毛主场。",official:true,region:"US",plat:"网页",icon:"www.appsumo.com.ico"},
+{name:"MLH",url:"https://mlh.io",cat:"学习教育",rating:4,price:"免费",kw:"mlh major league hacking 黑客松 学生",desc:"全球最大黑客松组织，学生活动和免费资源多。",official:true,region:"US",plat:"网页",icon:"www.mlh.io.ico"},
+{name:"Humble Bundle",url:"https://www.humblebundle.com",cat:"购物消费",rating:4,price:"免费",kw:"humble bundle 游戏 打包 慈善包",desc:"游戏软件慈善打包，自己定价买超划算。",official:true,region:"US",plat:"网页",icon:"www.humblebundle.com.ico"},
+{name:"StackSocial",url:"https://stacksocial.com",cat:"购物消费",rating:4,price:"免费",kw:"stacksocial 软件优惠 课程 deal",desc:"软件和在线课程优惠平台，常年有折扣包。",official:true,region:"US",plat:"网页",icon:"www.stacksocial.com.ico"},
+{name:"Dealify",url:"https://dealify.com",cat:"购物消费",rating:4,price:"免费",kw:"dealify 软件优惠 终身版 lifetime deal",desc:"软件终身优惠平台，AppSumo 的同类选择。",official:true,region:"US",plat:"网页",icon:"www.dealify.com.ico"},
+{name:"AlternativeTo",url:"https://alternativeto.net",cat:"常用网站",rating:4,price:"免费",kw:"alternativeto 替代软件 平替 找软件",desc:"找软件替代品的神器，付费软件找免费平替。",official:true,region:"US",plat:"网页",icon:"www.alternativeto.net.ico"},
+{name:"itch.io",url:"https://itch.io",cat:"影音娱乐",rating:4,price:"免费",kw:"itch.io 独立游戏 免费游戏 indie game",desc:"独立游戏平台，大量免费游戏随便下。",official:true,region:"US",plat:"网页",icon:"www.itch.io.ico"},
+{name:"GOG",url:"https://www.gog.com",cat:"影音娱乐",rating:4,price:"免费",kw:"gog 游戏平台 无drm cd projekt",desc:"无 DRM 游戏平台，老游戏和折扣包超多。",official:true,region:"PL",plat:"网页",icon:"www.gog.com.ico"},
+{name:"异次元软件",url:"https://www.iplaysoft.com",cat:"常用网站",rating:4,price:"免费",kw:"异次元软件 iplaysoft 软件推荐 限免",desc:"老牌软件推荐站，免费软件和限免资讯多。",official:true,region:"CN",plat:"网页",icon:"www.iplaysoft.com.ico"},
+{name:"小众软件",url:"https://www.appinn.com",cat:"常用网站",rating:4,price:"免费",kw:"小众软件 appinn 软件推荐 精品软件",desc:"精选小众精品软件的十年老牌推荐站。",official:true,region:"CN",plat:"网页",icon:"www.appinn.com.ico"},
+{name:"GitHub Education",url:"https://education.github.com",cat:"学习教育",rating:4,price:"免费",kw:"github education 学生包 student pack 免费",desc:"学生开发者福利包，免费领一堆付费工具。",official:true,region:"US",plat:"网页",icon:"www.education.github.com.ico"},
+{name:"Anthropic",url:"https://www.anthropic.com",cat:"AI 工具",rating:4,price:"免费",kw:"anthropic claude 公司 ai",desc:"Claude 背后的 AI 公司官网，看模型动态。",official:true,region:"US",plat:"网页",icon:"www.anthropic.com.ico"}
 ];
