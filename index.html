@@ -20,6 +20,8 @@
   .topbar b { color:#1a1a1a; }
   .topbar .brand { display:flex; align-items:center; gap:8px; }
   .topbar .brand img { width:24px; height:24px; }
+  .topbar .brand a.brand-lab { color:inherit; text-decoration:none; }
+  .topbar .brand a.brand-lab:hover { text-decoration:underline; }
   .topnav { display:flex; gap:2px; }
   .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
@@ -176,7 +178,7 @@
 </head>
 <body>
 <div class="topbar">
-  <span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> <small style="font-weight:400;color:#999;letter-spacing:1px" title="Recognize Genuine Websites">RGW</small> · 小产品实验室</span></span>
+  <span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> <small style="font-weight:400;color:#999;letter-spacing:1px" title="Recognize Genuine Websites">RGW</small> · <a class="brand-lab" href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室</a></span></span>
   <nav class="topnav" id="topnav">
     <a href="#" data-nav="home" data-i18n="nav_home">首页</a>
     <a href="#" data-nav="hot" data-i18n="nav_hot">热门软件</a>
@@ -973,6 +975,8 @@ function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e
 function platShort(s){ return s.plat==="Windows"?" · Win":s.plat==="macOS"?" · Mac":""; }
 function render(list, q){
   const box = document.getElementById("results");
+  const quickEl = document.querySelector(".quick");
+  if(quickEl) quickEl.style.display = q ? "none" : "";
   if(!q){ const lang3 = COUNTRY_LANG[activeRegion] || "zh"; const hintT = {zh:"⬆ 在上面输入需求，或点分类看看收录了什么",zht:"⬆ 在上面輸入需求，或點分類看看收錄了什麼",en:"⬆ Search above, or browse categories",ja:"⬆ 上で検索、またはカテゴリーを見る",ko:"⬆ 위에서 검색하거나 카테고리 보기",de:"⬆ Oben suchen oder Kategorien ansehen",fr:"⬆ Recherchez ci-dessus ou parcourez les catégories",es:"⬆ Busca arriba o explora las categorías",pt:"⬆ Pesquise acima ou explore as categorias"}[lang3] || "⬆ Search above, or browse categories"; box.innerHTML = `<div class="meta">${hintT}</div>`; return; }
   if(!list.length){ const lang6 = COUNTRY_LANG[activeRegion] || "zh"; const emptyT = {zh:`没搜到"${q}"相关的站<br><br>我们只收录人工验过的站，覆盖面还在扩充中`,zht:`沒搜到"${q}"相關的站<br><br>我們只收錄人工驗過的站，覆蓋面還在擴充中`,en:`No results for "${q}"<br><br>We only list manually verified sites, coverage is growing`}[lang6] || `No results for "${q}"<br><br>We only list manually verified sites, coverage is growing`; box.innerHTML = `<div class="empty">${emptyT}</div>`; return; }
   // 赞助位置顶并标注，其余按推荐指数排序
@@ -1019,7 +1023,7 @@ function doSearch(){
   if(activePlat){ res = res.filter(s => s.plat === activePlat || s.plat === "双平台" || s.plat === "网页"); }
   if(onlyDownloadable){ res = res.filter(s => s.dl); }
   render(res, q || "筛选");
-  if(q) history.replaceState(null,"","?q="+encodeURIComponent(q));
+  if(q){ history.replaceState(null,"","?q="+encodeURIComponent(q)); document.getElementById("results").scrollIntoView({behavior:"smooth", block:"start"}); }
 }
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
 // 反馈弹窗
