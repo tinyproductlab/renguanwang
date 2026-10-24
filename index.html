@@ -45,9 +45,8 @@
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
   .searchbox input { flex:1; border:none; outline:none; padding:16px 20px; font-size:16px; }
   .searchbox button { border:none; background:#1a1a1a; color:#fff; padding:0 32px; font-size:16px; cursor:pointer; }
-  .searchbox select { border:none; outline:none; background:#f5f5f5; padding:0 6px 0 14px; font-size:14px; color:#333; cursor:pointer; border-right:1px solid #e2e2e2; max-width:120px; }
-  .dl-toggle { background:#f5f5f5 !important; color:#666 !important; padding:0 12px !important; font-size:15px; border-right:1px solid #e2e2e2; }
-  .dl-toggle.on { background:#1a1a1a !important; color:#fff !important; }
+
+
   .chips { max-width:1150px; margin:20px auto 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
   .chips span { background:#fff; border:1px solid #e2e2e2; border-radius:20px; padding:5px 13px; font-size:13px; color:#555; cursor:pointer; }
   .chips span:hover { border-color:#1a1a1a; color:#1a1a1a; }
@@ -240,12 +239,6 @@
     <h1 data-i18n="hero_h1">搜官网，不踩坑</h1>
     <p data-i18n="hero_p">认准官网，访问不迷路 &nbsp;·&nbsp; 不收录没验过的站 &nbsp;·&nbsp; 搜出来直接告诉你选哪个</p>
     <div class="searchbox">
-      <select id="platSel" title="按平台筛选">
-        <option value="" data-i18n="plat_all">全部平台</option>
-        <option value="Windows">🪟 Windows</option>
-        <option value="macOS">🍎 macOS</option>
-      </select>
-      <button id="dlToggle" class="dl-toggle" title="只看可下载">💾</button>
       <input id="q" data-i18n-ph="search_ph" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
       <button onclick="doSearch()" data-i18n="search_btn">搜索</button>
     </div>
@@ -856,7 +849,6 @@ TW:["Google","YouTube","Facebook","PChome","momo","Shopee TW","PTT","Dcard","中
 HK:["Google","YouTube","Facebook","HKTVmall","OpenRice","ViuTV","TVB","HK01","SCMP","MTR","HSBC HK","HK Gov"],
 SG:["Google","YouTube","Facebook","Shopee SG","Lazada SG","Grab","Mediacorp","Straits Times","DBS","Singapore Airlines","Singapore Gov","FairPrice"],
 };
-let activePlat = "";
 let onlyDownloadable = false;
 let activeRegion = "";
 // 当前语言（由 activeRegion 派生，全局唯一真相）
@@ -940,25 +932,18 @@ try{
   else { const auto = langToCountry(); if(auto && regionSel.querySelector(`option[value="${auto}"]`)){ init = auto; } }
   if(init){ activeRegion = init; regionSel.value = init; }
 }catch(e){}
-const platSel = document.getElementById("platSel");
-platSel.onchange = () => { activePlat = platSel.value; doSearch(); };
-const dlToggle = document.getElementById("dlToggle");
-dlToggle.onclick = () => {
-  onlyDownloadable = !onlyDownloadable;
-  dlToggle.classList.toggle("on", onlyDownloadable);
-  doSearch();
-};
+
 // 顶导航
 document.getElementById("topnav").addEventListener("click", e => {
   const a = e.target.closest("a"); if(!a) return; e.preventDefault();
   const k = a.dataset.nav, qEl = document.getElementById("q");
   if(k === "home"){
-    qEl.value = ""; activePlat = ""; platSel.value = ""; activeRegion = ""; regionSel.value = "";
-    if(onlyDownloadable) dlToggle.click();
+    qEl.value = ""; activeRegion = ""; regionSel.value = "";
+    onlyDownloadable = false;
     history.replaceState(null, "", location.pathname);
     render([], ""); buildNav(); window.scrollTo({top:0, behavior:"smooth"});
   } else if(k === "hot"){
-    qEl.value = ""; if(!onlyDownloadable) dlToggle.click();
+    qEl.value = ""; onlyDownloadable = true;
     doSearch(); document.getElementById("results").scrollIntoView({behavior:"smooth"});
   } else if(k === "ai"){
     qEl.value = "AI"; doSearch();
@@ -1017,10 +1002,9 @@ function render(list, q){
 }
 function doSearch(){
   const q = document.getElementById("q").value.trim();
-  if(!q && !onlyDownloadable && !activePlat && !activeRegion){ render([], ""); return; }
+  if(!q && !onlyDownloadable && !activeRegion){ render([], ""); return; }
   let res = q ? fuse.search(q).map(r=>r.item) : [...SITES];
   if(activeRegion){ res = res.filter(s => s.region === activeRegion); }
-  if(activePlat){ res = res.filter(s => s.plat === activePlat || s.plat === "双平台" || s.plat === "网页"); }
   if(onlyDownloadable){ res = res.filter(s => s.dl); }
   render(res, q || "筛选");
   if(q){ history.replaceState(null,"","?q="+encodeURIComponent(q)); document.getElementById("results").scrollIntoView({behavior:"smooth", block:"start"}); }
