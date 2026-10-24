@@ -1293,7 +1293,7 @@ if (vDesc) vDesc.addEventListener("keydown", e => { if (e.key === "Enter") doVer
 if (vUrl) vUrl.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
 </script>
 <div id="iosTip" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:9998;background:#1a1a1a;color:#fff;border-radius:12px;padding:16px 18px;font-size:14px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.3)">
-  把认官网装到主屏幕：点浏览器底部的「分享」按钮，再选「添加到主屏幕」就行。
+  把认官网装成应用：点浏览器的「分享」或菜单按钮，选「安装应用」或「添加到主屏幕」就行。
   <button onclick="document.getElementById('iosTip').style.display='none'" style="float:right;background:none;border:none;color:#fff;font-size:16px;cursor:pointer">✕</button>
 </div>
 <script>
@@ -1318,6 +1318,8 @@ if ("serviceWorker" in navigator) {
   });
   const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
   if (isIOS) btn.style.display = "";
+  // 原生安装事件没来时也把按钮亮出来，点击走菜单安装说明，保证按钮始终可用
+  setTimeout(() => { if (!deferred && !standalone) btn.style.display = ""; }, 1500);
   btn.addEventListener("click", async () => {
     if (deferred) {
       deferred.prompt();
