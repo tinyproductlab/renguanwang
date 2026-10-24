@@ -23,7 +23,8 @@
   .topnav { display:flex; gap:2px; }
   .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
-  .region-sel { margin-left:auto; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
+  .region-sel { margin-left:10px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
+  .wx { margin-left:auto; font-size:13px; color:#666; white-space:nowrap; }
   @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
@@ -184,6 +185,7 @@
     <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;" data-i18n="nav_feedback">反馈</a>
     <a href="#" data-nav="about" data-i18n="nav_about">关于我们</a>
   </nav>
+  <span id="wx" class="wx"></span>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
     <option value="">🌍 全部</option>
     <option value="CN">🇨🇳 中国</option>
@@ -1100,6 +1102,17 @@ function copyQQNum2(){
   if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText("1039287882").then(done).catch(done); }
   else done();
 }
+// 顶栏天气（Apple WeatherKit，经 /api/weather；拿不到就静默不显示）
+(function loadWx(){
+  const el = document.getElementById("wx");
+  if(!el) return;
+  const EMOJI = { Clear:"☀️", MostlyClear:"🌤️", PartlyCloudy:"⛅", MostlyCloudy:"🌥️", Cloudy:"☁️", Fog:"🌫️", Haze:"🌫️", Smoky:"🌫️", Drizzle:"🌦️", Rain:"🌧️", HeavyRain:"🌧️", Thunderstorms:"⛈️", IsolatedThunderstorms:"⛈️", ScatteredThunderstorms:"⛈️", Snow:"❄️", Blizzard:"❄️", Hail:"🌨️", Sleet:"🌨️", Windy:"💨", Breezy:"💨" };
+  fetch("/api/weather").then(r => r.json()).then(j => {
+    if(!j || !j.ok) return;
+    el.textContent = (j.city ? j.city + " " : "") + (EMOJI[j.conditionCode] || "🌡️") + " " + j.temperature + "°C";
+    el.title = j.conditionCode + (j.humidity != null ? " · 湿度 " + j.humidity + "%" : "");
+  }).catch(()=>{});
+})();
 (function init(){
   const q = new URLSearchParams(location.search).get("q");
   if(q){ document.getElementById("q").value=q; doSearch(); }
