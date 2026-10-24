@@ -13,6 +13,13 @@
 <link rel="canonical" href="https://renguanwang.com/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="./logo.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#ffffff">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="认官网">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:#faf8f2; color:#1a1a1a; }
@@ -25,6 +32,8 @@
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
   .region-sel { margin-left:10px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
   .wx { margin-left:auto; font-size:13px; color:#666; white-space:nowrap; }
+  .pwa-btn { margin-left:12px; border:none; background:#1a1a1a; color:#fff; border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; white-space:nowrap; }
+  .pwa-btn:hover { background:#333; }
   @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
@@ -200,6 +209,7 @@
     <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;" data-i18n="nav_feedback">反馈</a>
     <a href="#" data-nav="about" data-i18n="nav_about">关于我们</a>
   </nav>
+  <button id="pwaBtn" class="pwa-btn" style="display:none">📲 安装应用</button>
   <span id="wx" class="wx"></span>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
     <option value="">🌍 全部</option>
@@ -1281,6 +1291,47 @@ async function doVerify() {
 if (vBtn) vBtn.onclick = doVerify;
 if (vDesc) vDesc.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
 if (vUrl) vUrl.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
+</script>
+<div id="iosTip" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:9998;background:#1a1a1a;color:#fff;border-radius:12px;padding:16px 18px;font-size:14px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.3)">
+  把认官网装到主屏幕：点浏览器底部的「分享」按钮，再选「添加到主屏幕」就行。
+  <button onclick="document.getElementById('iosTip').style.display='none'" style="float:right;background:none;border:none;color:#fff;font-size:16px;cursor:pointer">✕</button>
+</div>
+<script>
+// PWA：注册 Service Worker + 顶栏「安装应用」按钮
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));
+}
+(function pwaInstall(){
+  const btn = document.getElementById("pwaBtn");
+  if (!btn) return;
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  if (standalone) return;
+  let deferred = null;
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferred = e;
+    btn.style.display = "";
+  });
+  window.addEventListener("appinstalled", () => {
+    btn.style.display = "none";
+    deferred = null;
+  });
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  if (isIOS) btn.style.display = "";
+  btn.addEventListener("click", async () => {
+    if (deferred) {
+      deferred.prompt();
+      try {
+        const r = await deferred.userChoice;
+        if (r && r.outcome === "accepted") btn.style.display = "none";
+      } catch (e) {}
+      deferred = null;
+    } else {
+      const tip = document.getElementById("iosTip");
+      if (tip) tip.style.display = "block";
+    }
+  });
+})();
 </script>
 </body>
 </html>
