@@ -40,6 +40,21 @@
   .hero-title h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
   .hero-title p { color:#666; font-size:15px; margin-bottom:26px; }
   .hero-chips { max-width:1400px; margin:0 auto; }
+  .wxbg { position:relative; overflow:hidden; transition:background 1.2s ease; }
+  .wxbg > * { position:relative; z-index:1; }
+  .wxbg::after { content:""; position:absolute; inset:0; z-index:0; pointer-events:none; }
+  .wxbg.wx-clear { background:radial-gradient(600px 300px at 85% -40px, rgba(255,214,120,.55), rgba(255,214,120,0) 70%), linear-gradient(180deg,#bfe0fb 0%,#e6f3fe 55%,#faf8f2 100%); }
+  .wxbg.wx-cloud { background:linear-gradient(180deg,#dde7ef 0%,#edf2f6 55%,#faf8f2 100%); }
+  .wxbg.wx-fog { background:linear-gradient(180deg,#d8dde2 0%,#e9edf0 55%,#faf8f2 100%); }
+  .wxbg.wx-rain { background:linear-gradient(180deg,#b7c9da 0%,#d9e4ee 55%,#faf8f2 100%); }
+  .wxbg.wx-storm { background:linear-gradient(180deg,#93a9c4 0%,#c3d2e2 55%,#faf8f2 100%); }
+  .wxbg.wx-snow { background:linear-gradient(180deg,#e3eefb 0%,#f4f9ff 55%,#faf8f2 100%); }
+  .wxbg.wx-night { background:linear-gradient(180deg,#1c2a4d 0%,#2e4470 55%,#5b6f96 88%,#faf8f2 135%); }
+  .wxbg.wx-night .hero-title h1 { color:#fff; }
+  .wxbg.wx-night .hero-title p { color:#c9d6f2; }
+  .wxbg.wx-rain::after, .wxbg.wx-storm::after { background:repeating-linear-gradient(105deg, transparent 0 16px, rgba(255,255,255,.4) 16px 17px, transparent 17px 32px); opacity:.28; }
+  .wxbg.wx-snow::after { background-image:radial-gradient(circle, rgba(255,255,255,.95) 1.6px, transparent 2.2px), radial-gradient(circle, rgba(255,255,255,.7) 1.1px, transparent 1.7px); background-size:130px 130px, 90px 90px; background-position:0 0, 40px 30px; opacity:.7; }
+  .wxbg.wx-night::after { background-image:radial-gradient(circle, rgba(255,255,255,.9) 1.1px, transparent 1.6px), radial-gradient(circle, rgba(255,255,255,.55) .8px, transparent 1.3px); background-size:150px 150px, 95px 95px; background-position:0 0, 50px 40px; opacity:.55; }
   @media (max-width:900px){ .hero-wrap { padding:40px 20px 24px; } }
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
   .searchbox input { flex:1; border:none; outline:none; padding:16px 20px; font-size:16px; }
@@ -234,6 +249,7 @@
     <option value="EG">🇪🇬 مصر</option>
   </select>
 </div>
+<div class="wxbg" id="wxBg">
 <div class="hero-wrap">
     <div class="hero-title">
     <h1 data-i18n="hero_h1">搜官网，不踩坑</h1>
@@ -246,6 +262,7 @@
   <div class="hero-chips">
     <div class="chips" id="chips"></div>
   </div>
+</div>
 </div>
 <div class="verify-wrap" style="max-width:1400px;margin:0 auto;padding:0 20px 8px">
   <div style="background:#fff;border:1px solid #eee;border-radius:12px;padding:18px 20px">
@@ -1102,15 +1119,31 @@ function copyQQNum2(){
   if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText("1039287882").then(done).catch(done); }
   else done();
 }
-// 顶栏天气（Apple WeatherKit，经 /api/weather；拿不到就静默不显示）
+// 顶栏天气 + 搜索区天气背景（Apple WeatherKit，经 /api/weather；拿不到就静默不显示、保持默认背景）
+// 定位：选了国家/地区就用该国首都天气；没选就用访客 IP 定位，定位不到用其所属国首都兜底（逻辑在接口侧）
 (function loadWx(){
   const el = document.getElementById("wx");
-  if(!el) return;
+  const bg = document.getElementById("wxBg");
   const EMOJI = { Clear:"☀️", MostlyClear:"🌤️", PartlyCloudy:"⛅", MostlyCloudy:"🌥️", Cloudy:"☁️", Fog:"🌫️", Haze:"🌫️", Smoky:"🌫️", Drizzle:"🌦️", Rain:"🌧️", HeavyRain:"🌧️", Thunderstorms:"⛈️", IsolatedThunderstorms:"⛈️", ScatteredThunderstorms:"⛈️", Snow:"❄️", Blizzard:"❄️", Hail:"🌨️", Sleet:"🌨️", Windy:"💨", Breezy:"💨" };
-  fetch("/api/weather").then(r => r.json()).then(j => {
+  const region = (document.getElementById("regionSel") || {}).value || "";
+  const lang = (typeof currentLang === "function") ? currentLang() : "zh";
+  fetch("/api/weather?region=" + encodeURIComponent(region) + "&lang=" + encodeURIComponent(lang)).then(r => r.json()).then(j => {
     if(!j || !j.ok) return;
-    el.textContent = (j.city ? j.city + " " : "") + (EMOJI[j.conditionCode] || "🌡️") + " " + j.temperature + "°C";
-    el.title = j.conditionCode + (j.humidity != null ? " · 湿度 " + j.humidity + "%" : "");
+    if(el){
+      el.textContent = (j.name ? j.name + " " : "") + (EMOJI[j.conditionCode] || "🌡️") + " " + j.temperature + "°C";
+      el.title = j.conditionCode + (j.humidity != null ? " · 湿度 " + j.humidity + "%" : "");
+    }
+    if(bg){
+      const c = j.conditionCode || "";
+      let theme = "";
+      if(c === "Clear" || c === "MostlyClear") theme = j.isDaylight ? "wx-clear" : "wx-night";
+      else if(c === "PartlyCloudy" || c === "MostlyCloudy" || c === "Cloudy") theme = "wx-cloud";
+      else if(c === "Fog" || c === "Haze" || c === "Smoky") theme = "wx-fog";
+      else if(c === "Drizzle" || c === "Rain" || c === "HeavyRain" || c === "FreezingRain" || c === "FreezingDrizzle") theme = "wx-rain";
+      else if(c.indexOf("Thunderstorm") >= 0) theme = "wx-storm";
+      else if(c === "Snow" || c === "Blizzard" || c === "Hail" || c === "Sleet" || c === "Flurries" || c === "WintryMix") theme = "wx-snow";
+      if(theme) bg.classList.add(theme);
+    }
   }).catch(()=>{});
 })();
 (function init(){
