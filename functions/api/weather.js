@@ -50,7 +50,7 @@ function pemToDer(pem) {
 }
 async function makeToken(env) {
   const now = Math.floor(Date.now() / 1000);
-  const header = { alg: "ES256", kid: env.APPLE_KEY_ID, id: env.APPLE_TEAM_ID };
+  const header = { alg: "ES256", kid: env.APPLE_KEY_ID, id: `${env.APPLE_TEAM_ID}.${env.APPLE_SERVICE_ID}` };
   const payload = { iss: env.APPLE_TEAM_ID, iat: now, exp: now + 3600, sub: env.APPLE_SERVICE_ID };
   const unsigned = b64urlText(JSON.stringify(header)) + "." + b64urlText(JSON.stringify(payload));
   const key = await crypto.subtle.importKey(
@@ -67,7 +67,7 @@ export async function onRequestGet({ request, env }) {
   const json = (obj, status = 200) =>
     new Response(JSON.stringify(obj), {
       status,
-      headers: { "Content-Type": "application/json", "Cache-Control": "public, max-age=600" },
+      headers: { "Content-Type": "application/json", "Cache-Control": "private, no-store" },
     });
   if (!env.APPLE_TEAM_ID || !env.APPLE_KEY_ID || !env.APPLE_SERVICE_ID || !env.APPLE_WK_PRIVATE_KEY) {
     return json({ ok: false, reason: "not_configured" });
@@ -94,23 +94,31 @@ export async function onRequestGet({ request, env }) {
     const token = await makeToken(env);
     const wkLang = WK_LANG[lang] || "en_US";
     const r = await fetch(
-      `https://weatherkit.apple.com/api/v1/weather/${wkLang}/${lat}/${lon}?dataSets=currentWeather`,
+      `https://weatherkit.apple.com/api/v1/weather/${wkLang}/${lat}/${lon}?dataSets=currentWeather,forecastDaily`,
       { headers: { Authorization: "Bearer " + token } }
     );
     if (!r.ok) return json({ ok: false, reason: "weatherkit_" + r.status });
     const data = await r.json();
     const cur = data && data.currentWeather;
     if (!cur) return json({ ok: false, reason: "no_data" });
+    const days = data.forecastDaily?.days || [];
+    const today = days.find(day => Date.parse(day.forecastStart) <= Date.now() && Date.parse(day.forecastEnd) > Date.now()) || days[0];
     return json({
       ok: true,
       name,
       source,
       temperature: Math.round(cur.temperature),
       conditionCode: cur.conditionCode || "",
-      isDaylight: cur.isDaylight !== false,
+      isDaylight: today && Number.isFinite(Date.parse(today.sunrise || today.sunRise)) && Number.isFinite(Date.parse(today.sunset || today.sunSet))
+        ? Date.now() >= Date.parse(today.sunrise || today.sunRise) && Date.now() < Date.parse(today.sunset || today.sunSet)
+        : cur.isDaylight !== false,
+      sunrise: today?.sunrise || today?.sunRise || null,
+      sunset: today?.sunset || today?.sunSet || null,
+      asOf: cur.asOf || null,
+      attributionUrl: "https://weatherkit.apple.com/legal-attribution.html",
       humidity: typeof cur.humidity === "number" ? Math.round(cur.humidity * 100) : null,
     });
   } catch (e) {
-    return json({ ok: false, reason: "error", message: String((e && e.message) || e) });
+    return json({ ok: false, reason: "error" });
   }
 }

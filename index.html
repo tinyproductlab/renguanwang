@@ -198,6 +198,17 @@
   .modal { background:#fff; border-radius:16px; padding:28px; max-width:560px; width:100%; max-height:88vh; overflow-y:auto; position:relative; }
   .modal-x { position:absolute; top:10px; right:14px; border:none; background:none; font-size:20px; cursor:pointer; color:#999; }
   .modal .fb-form { border:none; padding:0; }
+
+  .weather-line{max-width:720px;margin:18px auto 0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 16px;color:#33465c;font-size:13px;min-height:24px}
+  .weather-line[hidden]{display:none}.weather-line #wx{font-weight:600}.weather-source{opacity:.8}.weather-line a{color:inherit;font-size:11px;text-underline-offset:3px}
+  .wxbg.wx-dawn{background:radial-gradient(ellipse at 75% 75%,#ffd695a8,transparent 55%),linear-gradient(180deg,#b3c2e0,#f2d7c5 60%,#faf8f2)}
+  .wxbg.wx-dusk{background:radial-gradient(ellipse at 80% 40%,#ffb06c99,transparent 50%),linear-gradient(180deg,#d8b8cb,#f3d1bb 60%,#faf8f2)}
+  .wxbg.wx-night .weather-line{color:#e1eafa}.wxbg.wx-night .chips button{background:#fff;color:#24324a}
+  .wxbg.wx-cloud::after{background:radial-gradient(ellipse 220px 75px at 12% 25%,#fff9,transparent),radial-gradient(ellipse 260px 85px at 85% 20%,#fffb,transparent);opacity:.9}
+  .wxbg.wx-night.wx-cloud::after{opacity:.15}
+  @media(prefers-reduced-motion:reduce){.wxbg{transition:none}}
+  @media(max-width:600px){.searchbox input{min-width:0}.searchbox button{padding-inline:20px}.weather-line{gap:6px 12px;font-size:12px}}
+
 </style>
 </head>
 <body>
@@ -212,7 +223,7 @@
     <a href="#" data-nav="about" data-i18n="nav_about">关于我们</a>
   </nav>
   <button id="pwaBtn" class="pwa-btn" style="display:none">📲 安装应用</button>
-  <span id="wx" class="wx"></span>
+  
   <select id="regionSel" class="region-sel" title="选择国家或地区">
     <option value="">🌍 全部</option>
     <option value="CN">🇨🇳 中国</option>
@@ -270,6 +281,7 @@
       <input id="q" data-i18n-ph="search_ph" placeholder="试试搜：AI 绘画 / 免费 / 学英语…" autocomplete="off">
       <button onclick="doSearch()" data-i18n="search_btn">搜索</button>
     </div>
+    <div class="weather-line" id="weatherLine" hidden aria-live="polite"><span id="wx"></span><span class="weather-source" id="weatherSource"></span><a href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener noreferrer" aria-label="Apple Weather data sources">Apple Weather ↗</a></div>
   </div>
   <div class="hero-chips">
     <div class="chips" id="chips"></div>
@@ -1131,33 +1143,6 @@ function copyQQNum2(){
   if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText("1039287882").then(done).catch(done); }
   else done();
 }
-// 顶栏天气 + 搜索区天气背景（Apple WeatherKit，经 /api/weather；拿不到就静默不显示、保持默认背景）
-// 定位：选了国家/地区就用该国首都天气；没选就用访客 IP 定位，定位不到用其所属国首都兜底（逻辑在接口侧）
-(function loadWx(){
-  const el = document.getElementById("wx");
-  const bg = document.getElementById("wxBg");
-  const EMOJI = { Clear:"☀️", MostlyClear:"🌤️", PartlyCloudy:"⛅", MostlyCloudy:"🌥️", Cloudy:"☁️", Fog:"🌫️", Haze:"🌫️", Smoky:"🌫️", Drizzle:"🌦️", Rain:"🌧️", HeavyRain:"🌧️", Thunderstorms:"⛈️", IsolatedThunderstorms:"⛈️", ScatteredThunderstorms:"⛈️", Snow:"❄️", Blizzard:"❄️", Hail:"🌨️", Sleet:"🌨️", Windy:"💨", Breezy:"💨" };
-  const region = (document.getElementById("regionSel") || {}).value || "";
-  const lang = (typeof currentLang === "function") ? currentLang() : "zh";
-  fetch("/api/weather?region=" + encodeURIComponent(region) + "&lang=" + encodeURIComponent(lang)).then(r => r.json()).then(j => {
-    if(!j || !j.ok) return;
-    if(el){
-      el.textContent = (j.name ? j.name + " " : "") + (EMOJI[j.conditionCode] || "🌡️") + " " + j.temperature + "°C";
-      el.title = j.conditionCode + (j.humidity != null ? " · 湿度 " + j.humidity + "%" : "");
-    }
-    if(bg){
-      const c = j.conditionCode || "";
-      let theme = "";
-      if(c === "Clear" || c === "MostlyClear") theme = j.isDaylight ? "wx-clear" : "wx-night";
-      else if(c === "PartlyCloudy" || c === "MostlyCloudy" || c === "Cloudy") theme = "wx-cloud";
-      else if(c === "Fog" || c === "Haze" || c === "Smoky") theme = "wx-fog";
-      else if(c === "Drizzle" || c === "Rain" || c === "HeavyRain" || c === "FreezingRain" || c === "FreezingDrizzle") theme = "wx-rain";
-      else if(c.indexOf("Thunderstorm") >= 0) theme = "wx-storm";
-      else if(c === "Snow" || c === "Blizzard" || c === "Hail" || c === "Sleet" || c === "Flurries" || c === "WintryMix") theme = "wx-snow";
-      if(theme) bg.classList.add(theme);
-    }
-  }).catch(()=>{});
-})();
 (function init(){
   const q = new URLSearchParams(location.search).get("q");
   if(q){ document.getElementById("q").value=q; doSearch(); }
@@ -1337,5 +1322,6 @@ if ("serviceWorker" in navigator) {
   });
 })();
 </script>
+<script src="/weather.js?v=20261024" defer></script>
 </body>
 </html>
