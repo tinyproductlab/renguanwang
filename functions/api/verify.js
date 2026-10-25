@@ -196,11 +196,11 @@ async function aiJudge(env, ctx) {
     }),
     signal: AbortSignal.timeout(9000),
   });
-  if (!r.ok) return null;
+  if (!r.ok) return { verdict: "unsure", reason: "AI 接口返回状态 " + r.status };
   const j = await r.json();
   const txt = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || "";
   const m = txt.match(/\{[\s\S]*\}/);
-  if (!m) return null;
+  if (!m) return { verdict: "unsure", reason: "AI 输出无法解析：" + txt.slice(0, 60) };
   const parsed = JSON.parse(m[0]);
   if (!parsed.verdict) return null;
   return { verdict: parsed.verdict, reason: String(parsed.reason || "").slice(0, 120) };
