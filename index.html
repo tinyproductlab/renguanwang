@@ -1334,8 +1334,9 @@ if ("serviceWorker" in navigator) {
 <dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
   <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
   <p id="weatherDialogHint">最多保存 5 个城市，点击城市即可用它的天气作为背景。仅保存在当前浏览器。</p>
+  <h3 id="weatherSavedTitle">已保存的城市</h3><div id="weatherSavedCities"></div>
   <form id="weatherCityForm"><label for="weatherCityQuery" id="weatherQueryLabel">搜索城市</label><div class="weather-search-row"><input id="weatherCityQuery" maxlength="80" minlength="2" required placeholder="例如：上海、东京、London" autocomplete="off"><button type="submit" id="weatherSearchButton">搜索</button></div></form>
-  <p id="weatherSearchStatus" role="status"></p><div id="weatherCityResults"></div><h3 id="weatherSavedTitle">已保存的城市</h3><div id="weatherSavedCities"></div>
+  <p id="weatherSearchStatus" role="status"></p><div id="weatherCityResults"></div>
   <p class="weather-location-note" id="weatherLocationHint">定位需要你的浏览器授权；精确位置只用于天气查询，不保存为城市记录。</p>
   <a href="https://open-meteo.com/en/docs/geocoding-api" target="_blank" rel="noopener noreferrer" class="weather-location-note">City search: Open-Meteo / GeoNames</a>
 </dialog>

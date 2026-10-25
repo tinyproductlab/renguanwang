@@ -22,7 +22,7 @@
   function persist(){try{localStorage.setItem(KEY,JSON.stringify(cities));localStorage.setItem(ACTIVE,mode==='location'?'capital':mode);}catch{status(t('浏览器无法保存设置，当前会话仍可使用。','Storage unavailable; settings last for this session only.'));}}
   function paint(){bg.classList.remove(...Array.from(bg.classList).filter(c=>c.startsWith('wx-')));if(latest)bg.classList.add(...themeFor(latest));}
   function button(text,action){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=action;return b;}
-  function choose(id){mode=id;persist();render();status('');refresh();}
+  function choose(id){mode=id;persist();render();status(t('正在更新天气…','Updating weather…'));refresh();}
   function render(){
     $('weatherCapital').setAttribute('aria-pressed',String(mode==='capital'));
     $('weatherLocate').setAttribute('aria-pressed',String(mode==='location'));
@@ -45,7 +45,7 @@
       latest=data;const condition=zh?(CONDITIONS[data.conditionCode]||data.conditionCode):(data.conditionCode||'').replace(/([a-z])([A-Z])/g,'$1 $2');
       el.textContent=[data.name,data.temperature+'°C',condition].filter(Boolean).join(' · ');
       $('weatherSource').textContent=data.source==='capital'?t('所选国家首都','Selected country’s capital'):data.source==='city'?t('自定义城市','Saved city'):t('设备定位','Device location');
-      line.hidden=false;paint();
+      line.hidden=false;status('');paint();
     }catch{if(requestId!==seq)return;line.hidden=true;latest=undefined;paint();status(t('暂时无法获取天气，可重选城市或稍后再试。','Weather unavailable. Select a city or try again later.'));}
   }
   $('weatherCapital').textContent=t('国家首都','Country capital');$('weatherCapital').onclick=()=>choose('capital');
