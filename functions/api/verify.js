@@ -196,7 +196,7 @@ async function aiJudge(env, ctx) {
         body: JSON.stringify({ model, temperature: 0.2, max_tokens: 300, messages: [{ role: "system", content: sys }, { role: "user", content: usr }] }),
         signal: AbortSignal.timeout(8000),
       });
-      if (!r.ok) { diag.push(model.split("/").pop() + "=" + r.status); continue; }
+      if (!r.ok) { const b = await r.text().catch(() => ""); diag.push(model.split("/").pop() + "=" + r.status + ":" + b.slice(0, 180)); continue; }
       const j = await r.json();
       const txt = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || "";
       const m = txt.match(/\{[\s\S]*\}/);
