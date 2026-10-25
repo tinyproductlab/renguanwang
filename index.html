@@ -217,6 +217,8 @@
 
 
   .weather-cities{max-width:1100px;margin:18px auto 0;display:flex;align-items:center;gap:12px;overflow-x:auto;white-space:nowrap;padding:4px 0 8px;scrollbar-width:thin}.weather-cities::before,.weather-cities::after{content:'';margin:auto}.weather-cities .weather-city-summary{flex:0 0 auto;background:transparent;color:#425872;border:0;border-bottom:2px solid transparent;border-radius:0;padding:7px 8px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}.weather-cities .weather-city-summary[aria-pressed="true"]{border-bottom-color:currentColor}.wx-night .weather-cities .weather-city-summary{color:#e1eafa}.weather-cities .weather-city-summary:focus-visible{outline:2px solid #2563eb;outline-offset:2px}.weather-controls{margin-top:3px}.weather-line{display:none!important}#weatherCapital{display:none}
+
+.weather-strip{max-width:1100px;margin:18px auto 0;display:flex;align-items:center;justify-content:center;gap:12px;min-width:0}.weather-strip .weather-cities{max-width:max-content;min-width:0;margin:0;gap:12px;padding:4px 0}.weather-strip .weather-cities::before,.weather-strip .weather-cities::after{display:none}#weatherManage{flex:0 0 auto;white-space:nowrap;min-height:34px;padding:6px 12px;border:1px solid #c9d5e2;border-radius:20px;background:#ffffffdc;color:#30435c;font:inherit;font-size:12px;cursor:pointer}#weatherManage:focus-visible{outline:2px solid #2563eb;outline-offset:3px}.weather-dialog #weatherCapital{display:inline-block}.weather-dialog-actions{display:flex;gap:8px;margin-top:16px}.weather-dialog-actions button[aria-pressed="true"]{background:#183c70;color:#fff}.wx-night #weatherStatus{color:#e2edff}#weatherStatus{text-align:center;font-size:12px}
 </style>
 </head>
 <body>
@@ -290,11 +292,8 @@
       <button onclick="doSearch()" data-i18n="search_btn">搜索</button>
     </div>
     <div class="weather-line" id="weatherLine" hidden aria-live="polite"><span id="wx"></span></div>
-    <div id="weatherCities" class="weather-cities" aria-label="城市天气"></div>
-    <div class="weather-controls" aria-label="天气位置">
-      <button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button><button type="button" id="weatherManage">管理城市 · 0/5</button>
-      <p id="weatherStatus" role="status"></p>
-    </div>
+    <div class="weather-strip"><div id="weatherCities" class="weather-cities" aria-label="城市天气"></div><button type="button" id="weatherManage">管理城市</button></div>
+    <p id="weatherStatus" role="status"></p>
   </div>
   <div class="hero-chips">
     <div class="chips" id="chips"></div>
@@ -1336,9 +1335,10 @@ if ("serviceWorker" in navigator) {
   });
 })();
 </script>
-<script src="/weather.js?v=20261024-five-summaries" defer></script>
+<script src="/weather.js?v=20261024-inline" defer></script>
 <dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
   <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
+  <div class="weather-dialog-actions"><button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button></div>
   <p id="weatherDialogHint">最多保存 5 个城市，点击城市即可用它的天气作为背景。仅保存在当前浏览器。</p>
   <h3 id="weatherSavedTitle">已保存的城市</h3><div id="weatherSavedCities"></div>
   <form id="weatherCityForm"><label for="weatherCityQuery" id="weatherQueryLabel">搜索城市</label><div class="weather-search-row"><input id="weatherCityQuery" maxlength="80" minlength="2" required placeholder="例如：上海、东京、London" autocomplete="off"><button type="submit" id="weatherSearchButton">搜索</button></div></form>

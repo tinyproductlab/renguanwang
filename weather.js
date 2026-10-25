@@ -28,7 +28,7 @@
     $('weatherCapital').setAttribute('aria-pressed',String(mode==='capital'));
     $('weatherLocate').setAttribute('aria-pressed',String(mode==='location'));
     if(mode==='location'&&weatherData.has('location')){$('weatherLocate').textContent=t('当前位置','My location')+' · '+weatherData.get('location').temperature+'°C';}else{$('weatherLocate').textContent=t('使用定位','Use my location');}
-    $('weatherManage').textContent=t('管理城市','Cities')+' · '+Math.min(cities.length+1,5)+'/5';
+    $('weatherManage').textContent=t('管理城市','Cities');
     $('weatherCities').replaceChildren();$('weatherSavedCities').replaceChildren();
     const entries=[{id:'capital',name:t('国家首都','Capital')},...cities.slice(0,4)];
     for(const c of entries){
