@@ -1379,7 +1379,14 @@ function copyQQNum2(){
 function loadPins(){ try{ const v = JSON.parse(localStorage.getItem("rg_pins") || "[]"); return Array.isArray(v) ? v.filter(p => p && p.n && p.u) : []; }catch(e){ return []; } }
 function savePins(p){ try{ localStorage.setItem("rg_pins", JSON.stringify(p)); }catch(e){} }
 function isPinned(url){ return loadPins().some(p => p.u === url); }
-function refreshAfterPin(){ buildNav(); doSearch(); }
+function refreshAfterPin(){
+  buildNav();
+  // 只有当前正处在搜索/筛选结果视图（快捷直达已被隐藏）时才重刷结果；
+  // 首页常态下调 doSearch 会走“筛选”分支把快捷直达藏起来，这就是之前要刷新才恢复的原因
+  const qEl = document.getElementById("q");
+  const quickEl = document.querySelector(".quick");
+  if((qEl && qEl.value.trim()) || onlyDownloadable || (quickEl && quickEl.style.display === "none")){ doSearch(); }
+}
 function togglePin(url){
   const pins = loadPins();
   const i = pins.findIndex(p => p.u === url);
