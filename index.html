@@ -209,6 +209,10 @@
   @media(prefers-reduced-motion:reduce){.wxbg{transition:none}}
   @media(max-width:600px){.searchbox input{min-width:0}.searchbox button{padding-inline:20px}.weather-line{gap:6px 12px;font-size:12px}}
 
+
+  .weather-controls{max-width:720px;margin:12px auto 0;text-align:center;font-size:12px;color:#3c506a}.weather-controls button{font:inherit;cursor:pointer;border:1px solid #c9d5e2;border-radius:20px;padding:7px 13px;background:#ffffffdc;color:#30435c;margin:3px;min-height:34px}.weather-controls button[aria-pressed="true"]{background:#183c70;color:white;border-color:#183c70}.weather-controls button:disabled{opacity:.55;cursor:wait}.weather-controls button:focus-visible,.weather-dialog :is(button,input):focus-visible{outline:2px solid #2563eb;outline-offset:3px}.weather-cities:empty,#weatherStatus:empty{display:none}.weather-cities{margin-top:5px}#weatherStatus{margin:8px 0 0}.wx-night .weather-controls{color:#e2edff}
+  .weather-dialog{width:min(480px,calc(100% - 32px));max-height:85dvh;overflow:auto;margin:auto;padding:24px;border:1px solid #dce2eb;border-radius:20px;background:#fff;color:#20324a;box-shadow:0 20px 90px #10203d33}.weather-dialog::backdrop{background:#15223866}.weather-dialog-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.weather-dialog h2{font-size:20px}.weather-dialog h3{font-size:14px;margin:20px 0 8px}.weather-dialog p{font-size:13px;line-height:1.7;color:#607087;margin:12px 0}.weather-dialog button{cursor:pointer;padding:8px 12px;border:1px solid #d9e0ea;border-radius:9px;background:#f5f8fc;color:#233c61;font:inherit;font-size:13px;min-height:36px}.weather-dialog label{display:block;font-size:13px;margin-bottom:6px}.weather-search-row{display:flex;gap:8px}.weather-search-row input{min-width:0;flex:1;padding:10px;border:1px solid #cdd6e3;border-radius:9px;font:inherit;font-size:14px}.weather-city-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid #edf0f5;font-size:13px}.weather-city-row span{min-width:0;overflow-wrap:anywhere}.weather-city-row button{flex-shrink:0}.weather-location-note{font-size:11px!important;color:#66778e}
+
 </style>
 </head>
 <body>
@@ -282,6 +286,10 @@
       <button onclick="doSearch()" data-i18n="search_btn">搜索</button>
     </div>
     <div class="weather-line" id="weatherLine" hidden aria-live="polite"><span id="wx"></span><span class="weather-source" id="weatherSource"></span><a href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener noreferrer" aria-label="Apple Weather data sources">Apple Weather ↗</a></div>
+    <div class="weather-controls" aria-label="天气位置">
+      <button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button><button type="button" id="weatherManage">管理城市 · 0/5</button>
+      <div id="weatherCities" class="weather-cities"></div><p id="weatherStatus" role="status"></p>
+    </div>
   </div>
   <div class="hero-chips">
     <div class="chips" id="chips"></div>
@@ -1322,6 +1330,14 @@ if ("serviceWorker" in navigator) {
   });
 })();
 </script>
-<script src="/weather.js?v=20261024" defer></script>
+<script src="/weather.js?v=20261024-cities" defer></script>
+<dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
+  <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
+  <p id="weatherDialogHint">最多保存 5 个城市，点击城市即可用它的天气作为背景。仅保存在当前浏览器。</p>
+  <form id="weatherCityForm"><label for="weatherCityQuery" id="weatherQueryLabel">搜索城市</label><div class="weather-search-row"><input id="weatherCityQuery" maxlength="80" minlength="2" required placeholder="例如：上海、东京、London" autocomplete="off"><button type="submit" id="weatherSearchButton">搜索</button></div></form>
+  <p id="weatherSearchStatus" role="status"></p><div id="weatherCityResults"></div><h3 id="weatherSavedTitle">已保存的城市</h3><div id="weatherSavedCities"></div>
+  <p class="weather-location-note" id="weatherLocationHint">定位需要你的浏览器授权；精确位置只用于天气查询，不保存为城市记录。</p>
+  <a href="https://open-meteo.com/en/docs/geocoding-api" target="_blank" rel="noopener noreferrer" class="weather-location-note">City search: Open-Meteo / GeoNames</a>
+</dialog>
 </body>
 </html>

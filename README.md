@@ -64,4 +64,4 @@ USDT 地址：`TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH`
 
 `functions/api/weather.js` 使用服务端 Apple WeatherKit，密钥只配置在 Cloudflare Pages Secrets 中，禁止提交到仓库。所需变量：`APPLE_TEAM_ID`、`APPLE_KEY_ID`、`APPLE_SERVICE_ID`、`APPLE_WK_PRIVATE_KEY`。
 
-`weather.js` 根据天气和当地日出日落设置晴、多云、雾、雨、雪、夜间及晨昏背景。选择国家时显示代表城市；否则使用 IP 大致位置。每 15 分钟刷新天气，每分钟检查晨昏切换；失败恢复普通搜索背景。
+`weather.js` 根据天气和当地日出日落设置晴、多云、雾、雨、雪、夜间及晨昏背景。默认使用所选国家首都；无选择时使用 IP 国家首都。主动定位可查询设备位置；自定义城市最多 5 个，保存在浏览器。城市搜索使用 Open-Meteo / GeoNames，天气仍由 Apple WeatherKit 提供。每 15 分钟刷新天气，每分钟检查晨昏切换；失败恢复普通搜索背景。

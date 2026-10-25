@@ -3,3 +3,5 @@ batches-url/
 preview-*.png
 候选*.txt
 待核验*.txt
+
+.wrangler/

@@ -1,6 +1,5 @@
 // GET /api/weather —— 顶栏天气 + 搜索区天气背景，数据走 Apple WeatherKit（开发者账号附送额度）。
-// 定位规则：①带 ?region=XX 参数时，用该国首都天气；②否则用访客 IP 定位（request.cf）
-// 的城市；③IP 定位拿不到时，用 IP 所属国家的首都兜底。
+// 默认使用所选国家首都；仅在用户主动定位或选择保存城市后接收经纬度。
 // 需在 Cloudflare Pages 环境变量配置：APPLE_TEAM_ID、APPLE_KEY_ID、APPLE_SERVICE_ID、
 // APPLE_WK_PRIVATE_KEY（.p8 私钥全文）。未配置时返回 { ok:false, reason:"not_configured" }。
 
@@ -78,17 +77,17 @@ export async function onRequestGet({ request, env }) {
   const zhName = lang === "zh" || lang === "zht";
   const cf = request.cf || {};
   let lat, lon, name, source;
-  if (region && CAPITALS[region]) {
-    const c = CAPITALS[region];
-    lat = c[2]; lon = c[3]; name = zhName ? c[0] : c[1]; source = "capital";
-  } else if (isFinite(parseFloat(cf.latitude)) && isFinite(parseFloat(cf.longitude))) {
-    lat = parseFloat(cf.latitude); lon = parseFloat(cf.longitude);
-    name = cf.city || ""; source = "ip";
-  } else if (cf.country && CAPITALS[cf.country]) {
-    const c = CAPITALS[cf.country];
-    lat = c[2]; lon = c[3]; name = zhName ? c[0] : c[1]; source = "capital";
+  if (u.searchParams.has('lat') || u.searchParams.has('lon')) {
+    const a = u.searchParams.get('lat'), b = u.searchParams.get('lon');
+    lat = Number(a); lon = Number(b);
+    if (!a || !b || !Number.isFinite(lat) || !Number.isFinite(lon) || Math.abs(lat) > 90 || Math.abs(lon) > 180) return json({ok:false,reason:'invalid_coordinates'},400);
+    name = (u.searchParams.get('name') || (zhName ? '当前位置' : 'Current location')).slice(0,100);
+    source = u.searchParams.get('source') === 'city' ? 'city' : 'location';
   } else {
-    return json({ ok: false, reason: "no_geo" });
+    const code = region || cf.country || 'CN';
+    const c = CAPITALS[code];
+    if (!c) return json({ok:false,reason:'unsupported_region'},400);
+    lat = c[2]; lon = c[3]; name = zhName ? c[0] : c[1]; source = 'capital';
   }
   try {
     const token = await makeToken(env);
