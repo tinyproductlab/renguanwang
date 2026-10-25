@@ -80,14 +80,19 @@
   $('weatherClose').onclick=()=>{$('weatherDialog').close();$('weatherManage').focus();};
   $('weatherDialogTitle').textContent=t('自定义天气城市','Weather cities');
   $('weatherDialogHint').textContent=t('共显示 5 个城市：第一项固定为首都，另外可保存 4 个城市。点击天气可切换背景，城市仅保存在当前浏览器。','Five weather summaries: the capital first, plus up to four saved cities. Select any summary to change the background. Stored in this browser only.');
+  $('weatherSearchCountryLabel').textContent=t('搜索范围（独立于首页国家）','Search country (independent of the homepage)');
+  $('weatherSearchCountry').options[0].textContent=t('全球所有国家','All countries');
+  for(const option of ($('regionSel')?.options||[])){if(/^[A-Z]{2}$/.test(option.value))$('weatherSearchCountry').append(option.cloneNode(true));}
+  $('weatherSearchCountry').value='';
+  $('weatherSearchCountry').onchange=()=>{searchSeq++;$('weatherCityResults').replaceChildren();$('weatherSearchStatus').textContent='';};
   $('weatherQueryLabel').textContent=t('搜索城市','Search cities');$('weatherSearchButton').textContent=t('搜索','Search');$('weatherSavedTitle').textContent=t('已保存的城市','Saved cities');
   $('weatherLocationHint').textContent=t('定位需要你的浏览器授权；精确位置只用于天气查询，不保存为城市记录。','Location requires browser permission and is used only for weather. Coordinates are not saved in your city list.');
   $('weatherCityForm').onsubmit=async e=>{
     e.preventDefault();const q=$('weatherCityQuery').value.trim();if(q.length<2)return;
     const id=++searchSeq;$('weatherSearchStatus').textContent=t('搜索中…','Searching…');$('weatherCityResults').replaceChildren();
     try{
-      const r=await fetch('/api/cities?'+new URLSearchParams({q,lang:zh?'zh':'en'}),{signal:AbortSignal.timeout(10000)});if(!r.ok)throw new Error('lookup');const data=await r.json();if(id!==searchSeq)return;
-      const results=(data.cities||[]).filter(valid);$('weatherSearchStatus').textContent=results.length?t('请选择同名城市的正确地区。','Choose the correct region for the city.'):t('未找到城市，请尝试英文名称或更完整的名称。','No cities found. Try another spelling.');
+      const r=await fetch('/api/cities?'+new URLSearchParams({q,lang:zh?'zh':'en',country:$('weatherSearchCountry').value}),{signal:AbortSignal.timeout(10000)});if(!r.ok)throw new Error('lookup');const data=await r.json();if(id!==searchSeq)return;
+      const results=(data.cities||[]).filter(valid);$('weatherSearchStatus').textContent=results.length?t('请选择同名城市的正确地区。','Choose the correct region for the city.'):t('未找到城市，请切换为全球范围，或尝试英文名称。','No cities found. Try another spelling.');
       for(const c of results){
         const row=document.createElement('div');row.className='weather-city-row';const text=document.createElement('span');text.textContent=[c.name,c.region].filter(Boolean).join(' · ');
         const add=button(t('添加并使用','Add & use'),()=>{

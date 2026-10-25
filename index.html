@@ -1335,13 +1335,13 @@ if ("serviceWorker" in navigator) {
   });
 })();
 </script>
-<script src="/weather.js?v=20261024-inline" defer></script>
+<script src="/weather.js?v=20261024-global-cities" defer></script>
 <dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
   <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
   <div class="weather-dialog-actions"><button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button></div>
   <p id="weatherDialogHint">最多保存 5 个城市，点击城市即可用它的天气作为背景。仅保存在当前浏览器。</p>
   <h3 id="weatherSavedTitle">已保存的城市</h3><div id="weatherSavedCities"></div>
-  <form id="weatherCityForm"><label for="weatherCityQuery" id="weatherQueryLabel">搜索城市</label><div class="weather-search-row"><input id="weatherCityQuery" maxlength="80" minlength="2" required placeholder="例如：上海、东京、London" autocomplete="off"><button type="submit" id="weatherSearchButton">搜索</button></div></form>
+  <form id="weatherCityForm"><label for="weatherSearchCountry" id="weatherSearchCountryLabel">搜索范围（独立于首页国家）</label><select id="weatherSearchCountry" style="width:100%;padding:10px;margin-bottom:12px;border:1px solid #cdd6e3;border-radius:9px;background:white;font-size:14px"><option value="">全球所有国家</option></select><label for="weatherCityQuery" id="weatherQueryLabel">搜索城市</label><div class="weather-search-row"><input id="weatherCityQuery" maxlength="80" minlength="2" required placeholder="例如：上海、东京、London" autocomplete="off"><button type="submit" id="weatherSearchButton">搜索</button></div></form>
   <p id="weatherSearchStatus" role="status"></p><div id="weatherCityResults"></div>
   <p class="weather-location-note" id="weatherLocationHint">定位需要你的浏览器授权；精确位置只用于天气查询，不保存为城市记录。</p>
   <a href="https://open-meteo.com/en/docs/geocoding-api" target="_blank" rel="noopener noreferrer" class="weather-location-note">City search: Open-Meteo / GeoNames</a>
