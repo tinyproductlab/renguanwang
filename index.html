@@ -293,6 +293,28 @@
     <option value="GR">🇬🇷 Ελλάδα</option>
     <option value="ZA">🇿🇦 South Africa</option>
     <option value="EG">🇪🇬 مصر</option>
+    <option value="HU">🇭🇺 Magyarország</option>
+    <option value="RO">🇷🇴 România</option>
+    <option value="UA">🇺🇦 Україна</option>
+    <option value="HR">🇭🇷 Hrvatska</option>
+    <option value="LT">🇱🇹 Lietuva</option>
+    <option value="LV">🇱🇻 Latvija</option>
+    <option value="SI">🇸🇮 Slovenija</option>
+    <option value="IS">🇮🇸 Ísland</option>
+    <option value="BG">🇧🇬 България</option>
+    <option value="RS">🇷🇸 Србија</option>
+    <option value="CL">🇨🇱 Chile</option>
+    <option value="CO">🇨🇴 Colombia</option>
+    <option value="PE">🇵🇪 Perú</option>
+    <option value="NG">🇳🇬 Nigeria</option>
+    <option value="KE">🇰🇪 Kenya</option>
+    <option value="GH">🇬🇭 Ghana</option>
+    <option value="PK">🇵🇰 Pakistan</option>
+    <option value="BD">🇧🇩 বাংলাদেশ</option>
+    <option value="LK">🇱🇰 Sri Lanka</option>
+    <option value="KH">🇰🇭 កម្ពុជា</option>
+    <option value="MM">🇲🇲 မြန်မာ</option>
+    <option value="NP">🇳🇵 नेपाल</option>
   </select>
 </div>
 <div class="wxbg" id="wxBg">
@@ -410,14 +432,14 @@
   </div>
 </div>
 <script src="./fuse.min.js"></script>
-<script src="./sites.js?v=20261025-2173"></script>
+<script src="./sites.js?v=20261026-2323"></script>
 <script>
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站"];
-const COUNTRY_NAMES = {CN:"中国",US:"美国",CA:"加拿大",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",TW:"台湾",DE:"德国",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",NL:"荷兰",BE:"比利时",AT:"奥地利",PL:"波兰",CZ:"捷克",DK:"丹麦",SE:"瑞典",FI:"芬兰",IE:"爱尔兰",AE:"阿联酋",SA:"沙特",RU:"俄罗斯",TR:"土耳其",IL:"以色列",NO:"挪威",CH:"瑞士",IN:"印度",TH:"泰国",VN:"越南",MY:"马来西亚",PH:"菲律宾",ID:"印尼",AU:"澳大利亚",NZ:"新西兰",BR:"巴西",MX:"墨西哥",AR:"阿根廷",ZA:"南非",EG:"埃及",GR:"希腊"};
+const COUNTRY_NAMES = {CN:"中国",US:"美国",CA:"加拿大",GB:"英国",KR:"韩国",JP:"日本",SG:"新加坡",HK:"香港",TW:"台湾",DE:"德国",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",NL:"荷兰",BE:"比利时",AT:"奥地利",PL:"波兰",CZ:"捷克",DK:"丹麦",SE:"瑞典",FI:"芬兰",IE:"爱尔兰",AE:"阿联酋",SA:"沙特",RU:"俄罗斯",TR:"土耳其",IL:"以色列",NO:"挪威",CH:"瑞士",IN:"印度",TH:"泰国",VN:"越南",MY:"马来西亚",PH:"菲律宾",ID:"印尼",AU:"澳大利亚",NZ:"新西兰",BR:"巴西",MX:"墨西哥",AR:"阿根廷",ZA:"南非",EG:"埃及",GR:"希腊",HU:"匈牙利",RO:"罗马尼亚",UA:"乌克兰",HR:"克罗地亚",LT:"立陶宛",LV:"拉脱维亚",SI:"斯洛文尼亚",IS:"冰岛",BG:"保加利亚",RS:"塞尔维亚",CL:"智利",CO:"哥伦比亚",PE:"秘鲁",NG:"尼日利亚",KE:"肯尼亚",GH:"加纳",PK:"巴基斯坦",BD:"孟加拉国",LK:"斯里兰卡",KH:"柬埔寨",MM:"缅甸",NP:"尼泊尔"};
 
 // 国家 -> 语言映射
-const COUNTRY_LANG = {CN:"zh",TW:"zht",HK:"zht",US:"en",GB:"en",CA:"en",AU:"en",NZ:"en",IE:"en",SG:"en",PH:"en",IN:"en",MY:"en",ZA:"en",JP:"ja",KR:"ko",DE:"de",AT:"de",CH:"de",FR:"fr",IT:"it",ES:"es",MX:"es",AR:"es",PT:"pt",BR:"pt",NL:"nl",BE:"nl",RU:"ru",TH:"th",VN:"vi",ID:"id",TR:"tr",SA:"ar",AE:"ar",EG:"ar",IL:"he",PL:"pl",CZ:"cs",DK:"da",SE:"sv",FI:"fi",NO:"no",GR:"el"};
+const COUNTRY_LANG = {CN:"zh",TW:"zht",HK:"zht",US:"en",GB:"en",CA:"en",AU:"en",NZ:"en",IE:"en",SG:"en",PH:"en",IN:"en",MY:"en",ZA:"en",JP:"ja",KR:"ko",DE:"de",AT:"de",CH:"de",FR:"fr",IT:"it",ES:"es",MX:"es",AR:"es",PT:"pt",BR:"pt",NL:"nl",BE:"nl",RU:"ru",TH:"th",VN:"vi",ID:"id",TR:"tr",SA:"ar",AE:"ar",EG:"ar",IL:"he",PL:"pl",CZ:"cs",DK:"da",SE:"sv",FI:"fi",NO:"no",GR:"el",HU:"hu",RO:"ro",UA:"uk",HR:"hr",LT:"lt",LV:"lv",SI:"sl",IS:"is",BG:"bg",RS:"sr",CL:"es",CO:"es",PE:"es",NG:"en",KE:"en",GH:"en",PK:"ur",BD:"bn",LK:"si",KH:"km",MM:"my",NP:"ne"};
 
 const I18N = {
 zh: {
@@ -932,7 +954,8 @@ function langToCountry(){
     "ja":"JP","ko":"KR","de":"DE","fr":"FR","it":"IT","es-mx":"MX","es-ar":"AR","es":"ES",
     "pt-br":"BR","pt":"PT","nl-be":"BE","nl":"NL","ru":"RU","th":"TH","vi":"VN","id":"ID","ms":"MY",
     "tr":"TR","ar-sa":"SA","ar-ae":"AE","ar-eg":"EG","ar":"SA","he":"IL","pl":"PL","cs":"CZ",
-    "da":"DK","sv":"SE","fi":"FI","no":"NO","el":"GR"
+    "da":"DK","sv":"SE","fi":"FI","no":"NO","el":"GR",
+    "hu":"HU","ro":"RO","uk":"UA","hr":"HR","lt":"LT","lv":"LV","sl":"SI","is":"IS","bg":"BG","sr":"RS","es-cl":"CL","es-co":"CO","es-pe":"PE","ur":"PK","bn":"BD","si":"LK","km":"KH","my":"MM","ne":"NP","sw":"KE","en-ng":"NG","en-gh":"GH","en-ke":"KE","en-pk":"PK","en-bd":"BD","en-lk":"LK","en-mm":"MM","en-np":"NP","en-kh":"KH"
   };
   if(map[lang]) return map[lang];
   const base = lang.split("-")[0];
