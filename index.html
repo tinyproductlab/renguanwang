@@ -36,7 +36,20 @@
   .wx { margin-left:auto; font-size:13px; color:#666; white-space:nowrap; }
   .pwa-btn { margin-left:12px; border:none; background:#1a1a1a; color:#fff; border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; white-space:nowrap; }
   .pwa-btn:hover { background:#333; }
-  @media (max-width:640px){ .topbar{ flex-wrap:wrap; } .topnav{ order:3; width:100%; overflow-x:auto; margin-top:6px; } }
+  @media (max-width:720px){
+    .topbar{ flex-wrap:wrap; padding:10px 14px; row-gap:8px; }
+    .topbar .brand{ order:1; flex:1 1 auto; min-width:0; }
+    .topbar .brand > span{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .region-sel{ order:2; margin-left:8px; flex:0 0 auto; width:auto; max-width:150px; padding:5px 6px; font-size:12px; }
+    .pwa-btn{ order:2; margin-left:8px; }
+    .wx{ display:none; }
+    .topnav{ order:3; width:100%; overflow-x:auto; margin-top:2px; padding-bottom:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+    .topnav::-webkit-scrollbar{ display:none; }
+    .topnav a{ flex:0 0 auto; padding:6px 10px; }
+    .searchbox input{ min-width:0; padding:14px 16px; }
+    .searchbox button{ padding:0 22px; }
+  }
+  @media (max-width:380px){ .topbar .brand small{ display:none; } }
   .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
   .warn-row.mid { border-left:4px solid #f59e0b; background:#fffdf5; }
@@ -48,7 +61,7 @@
   .warn-tip { font-size:13px; color:#999; margin-top:12px; }
   .hero-wrap { max-width:1400px; margin:0 auto; padding:48px 20px 36px; }
   .hero-title { text-align:center; margin-bottom:36px; }
-  .hero-title h1 { font-size:34px; letter-spacing:2px; margin-bottom:12px; }
+  .hero-title h1 { font-size:clamp(26px, 7vw, 34px); letter-spacing:2px; margin-bottom:12px; }
   .hero-title p { color:#666; font-size:15px; margin-bottom:26px; }
   .hero-chips { max-width:1400px; margin:0 auto; }
   .wxbg { position:relative; overflow:hidden; transition:background 1.2s ease; }
