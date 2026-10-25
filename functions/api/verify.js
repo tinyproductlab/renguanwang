@@ -187,6 +187,7 @@ async function aiJudge(env, ctx) {
   models.push("meta/llama-4-maverick-17b-128e-instruct", "nvidia/llama-3.3-nemotron-super-49b-v1", "meta/llama-3.1-70b-instruct", "qwen/qwen3-235b-a22b");
   const sys = "你是网站真伪鉴定专家。用户给你一个网址和它声称的身份，你结合常识（品牌官方域名习惯）判断该网址是不是真正的官网。只输出 JSON：{\"verdict\":\"likely_official|likely_fake|unsure\",\"reason\":\"一句话中文理由\"}";
   const usr = "网址：" + ctx.url + "\n声称是：" + (ctx.desc || "（未填）") + "\n网页标题：" + (ctx.pageTitle || "（无）");
+  const diag = [];
   for (const model of models) {
     try {
       const r = await fetch("https://integrate.api.nvidia.com/v1/chat/completions", {
@@ -195,7 +196,7 @@ async function aiJudge(env, ctx) {
         body: JSON.stringify({ model, temperature: 0.2, max_tokens: 300, messages: [{ role: "system", content: sys }, { role: "user", content: usr }] }),
         signal: AbortSignal.timeout(8000),
       });
-      if (!r.ok) continue;
+      if (!r.ok) { diag.push(model.split("/").pop() + "=" + r.status); continue; }
       const j = await r.json();
       const txt = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || "";
       const m = txt.match(/\{[\s\S]*\}/);
@@ -203,9 +204,9 @@ async function aiJudge(env, ctx) {
       const parsed = JSON.parse(m[0]);
       if (!parsed.verdict) continue;
       return { verdict: parsed.verdict, reason: String(parsed.reason || "").slice(0, 120) };
-    } catch (e) { /* 换下一个模型 */ }
+    } catch (e) { diag.push(model.split("/").pop() + "=ERR"); }
   }
-  return null;
+  return { verdict: "unsure", reason: "AI诊断: " + diag.join(" ") };
 }
 
 function finish(obj) { return obj; }
