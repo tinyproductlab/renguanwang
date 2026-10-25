@@ -59,3 +59,9 @@ python3 -m http.server 8000
 | <img src="./donate-wechat.png" width="180"> | <img src="./donate-alipay.png" width="180"> | <img src="./donate-usdt.png" width="180"> |
 
 USDT 地址：`TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH`
+
+## 搜索区天气背景
+
+`functions/api/weather.js` 使用服务端 Apple WeatherKit，密钥只配置在 Cloudflare Pages Secrets 中，禁止提交到仓库。所需变量：`APPLE_TEAM_ID`、`APPLE_KEY_ID`、`APPLE_SERVICE_ID`、`APPLE_WK_PRIVATE_KEY`。
+
+`weather.js` 根据天气和当地日出日落设置晴、多云、雾、雨、雪、夜间及晨昏背景。选择国家时显示代表城市；否则使用 IP 大致位置。每 15 分钟刷新天气，每分钟检查晨昏切换；失败恢复普通搜索背景。
