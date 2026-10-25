@@ -72,7 +72,9 @@
   .searchbox button { border:none; background:#1a1a1a; color:#fff; padding:0 32px; font-size:16px; cursor:pointer; }
 
 
-  .chips { max-width:1150px; margin:20px auto 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+  .chips { max-width:100%; margin:20px auto 0; display:flex; flex-wrap:nowrap; gap:8px; justify-content:flex-start; overflow-x:auto; padding-bottom:8px; scrollbar-width:thin; overscroll-behavior-x:contain; }
+  .chips::before,.chips::after { content:""; margin:auto; }
+  .chips span { flex:0 0 auto; white-space:nowrap; }
   .chips span { background:#fff; border:1px solid #e2e2e2; border-radius:20px; padding:5px 13px; font-size:13px; color:#555; cursor:pointer; }
   .chips span:hover { border-color:#1a1a1a; color:#1a1a1a; }
   .quick { max-width:1400px; margin:0 auto; padding:0 20px; }
