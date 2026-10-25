@@ -152,6 +152,25 @@
   .card .domain { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; color:#888; margin:2px 0 8px; }
   .card h3 .cic { width:22px; height:22px; border-radius:5px; vertical-align:-4px; margin-right:8px; }
   .quick-grid a .qic { width:28px; height:28px; border-radius:6px; margin:0 auto 8px; display:block; }
+  .quick-hint { font-size:12px; color:#999; margin:0 0 12px; }
+  .quick-grid .qtile { position:relative; }
+  .quick-grid .qtile > a { height:100%; box-sizing:border-box; border-color:#f5c518; }
+  .quick-grid .qrm { position:absolute; top:4px; right:4px; width:20px; height:20px; border:none; border-radius:50%; background:#f3f4f6; color:#666; font-size:13px; line-height:1; cursor:pointer; z-index:2; }
+  .quick-grid .qrm:hover { background:#fee2e2; color:#dc2626; }
+  .quick-grid .qadd { background:#fff; border:1.5px dashed #ddd; border-radius:10px; padding:14px 4px; text-align:center; font-size:13px; color:#888; cursor:pointer; }
+  .quick-grid .qadd:hover { border-color:#1a1a1a; color:#1a1a1a; }
+  .pin-btn { border:none; background:none; cursor:pointer; font-size:16px; opacity:.35; padding:4px; line-height:1; flex-shrink:0; }
+  .pin-btn.on { opacity:1; }
+  .pin-btn:hover { opacity:1; }
+  .site-grid .sitem { position:relative; }
+  .site-grid .sitem > a { height:100%; box-sizing:border-box; }
+  .site-grid .sitem .pin-btn { position:absolute; top:2px; right:2px; font-size:13px; z-index:2; }
+  .card .pin-btn { align-self:center; }
+  #qForm { display:none; margin-top:10px; gap:8px; flex-wrap:wrap; }
+  #qForm.open { display:flex; }
+  #qForm input { padding:9px 12px; border:1px solid #ddd; border-radius:8px; font-size:13px; }
+  #qForm button { padding:9px 16px; border:none; border-radius:8px; font-size:13px; cursor:pointer; }
+  #qForm .qsave { background:#1a1a1a; color:#fff; }
   .footer { color:#888; font-size:13px; padding:36px 20px 24px; border-top:1px solid #eee; background:#fff; }
   .foot-inner { max-width:1400px; margin:0 auto 20px; display:flex; gap:56px; flex-wrap:wrap; align-items:flex-start; }
   .foot-brand .brand { display:flex; align-items:center; gap:8px; margin-bottom:10px; }
@@ -460,7 +479,9 @@
 </div>
 <div class="quick">
     <h2>⚡ <span data-i18n="quick">快捷直达</span></h2>
+    <p class="quick-hint" data-i18n="quick_hint">点任意站卡上的 📌，把它钉到这里最前面；点 ＋ 还能添加自己的网址（只存在你的浏览器里）</p>
     <div class="quick-grid" id="quickGrid"></div>
+    <div id="qForm"><input id="qName" data-i18n-ph="pin_name_ph" placeholder="名称，如：我的博客"><input id="qUrl" data-i18n-ph="pin_url_ph" placeholder="网址，如：https://example.com"><button type="button" class="qsave" onclick="saveCustomPin()" data-i18n="pin_save">保存</button><button type="button" onclick="document.getElementById('qForm').classList.remove('open')" data-i18n="pin_cancel">取消</button></div>
     </div>
 <div class="results" id="results"></div>
 <div class="navsec" id="navsec">
@@ -558,7 +579,7 @@ zh: {
   hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
   plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
   verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…",
-  quick:"快捷直达", cats_title:"分类导航",
+  quick:"快捷直达", quick_hint:"点任意站卡上的 📌，把它钉到这里最前面；点 ＋ 还能添加自己的网址（只存在你的浏览器里）", pin_add:"＋ 添加网址", pin_name_ph:"名称，如：我的博客", pin_url_ph:"网址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自定义", cats_title:"分类导航",
   cats_sub:"全部人工验过的站 · 点分类跳转",
   cat_essentials:"装机必备", cat_ai:"AI工具", cat_office:"办公效率", cat_dev:"开发工具", cat_design:"设计创意",
   cat_edu:"学习教育", cat_finance:"金融投资", cat_media:"影音娱乐", cat_software:"常用软件", cat_social:"社交社区",
@@ -577,7 +598,7 @@ zht: {
   nav_home:"首頁", nav_hot:"熱門軟件", nav_ai:"AI工具", nav_sites:"網站導航", nav_feedback:"反饋", nav_about:"關於我們",
   hero_h1:"搜官網，不踩坑", hero_p:"認準官網，訪問不迷路 · 不收錄沒驗過的站 · 搜出來直接告訴你選哪個",
   plat_all:"全部平台", search_ph:"輸入軟件/網站名稱…", search_btn:"搜索",
-  quick:"快捷直達", cats_title:"分類導航",
+  quick:"快捷直達", quick_hint:"點任意站卡上的 📌，把它釘到這裡最前面；點 ＋ 還能添加自己的網址（只存在你的瀏覽器裡）", pin_add:"＋ 添加網址", pin_name_ph:"名稱，如：我的博客", pin_url_ph:"網址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自訂", cats_title:"分類導航",
   cats_sub:"全部人工驗過的站 · 點分類跳轉",
   cat_essentials:"裝機必備", cat_ai:"AI工具", cat_office:"辦公效率", cat_dev:"開發工具", cat_design:"設計創意",
   cat_edu:"學習教育", cat_finance:"金融投資", cat_media:"影音娛樂", cat_software:"常用軟件", cat_social:"社交社區",
@@ -597,7 +618,7 @@ en: {
   hero_h1:"Find Official Sites", hero_p:"Verified official websites only · We tell you which one to pick",
   plat_all:"All Platforms", search_ph:"Search software or website…", search_btn:"Search",
   verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age and page identity signals. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…",
-  quick:"Quick Access", cats_title:"Categories",
+  quick:"Quick Access", quick_hint:"📌 on any site card pins it to the front here; ＋ adds your own link (stored only in your browser)", pin_add:"＋ Add link", pin_name_ph:"Name, e.g. My blog", pin_url_ph:"URL, e.g. https://example.com", pin_save:"Save", pin_cancel:"Cancel", pin_custom:"Custom", cats_title:"Categories",
   cats_sub:"All manually verified sites · Click a category",
   cat_essentials:"Essentials", cat_ai:"AI Tools", cat_office:"Productivity", cat_dev:"Dev Tools", cat_design:"Design",
   cat_edu:"Education", cat_finance:"Finance", cat_media:"Entertainment", cat_software:"Software", cat_social:"Social",
@@ -1184,6 +1205,7 @@ function render(list, q){
         <div class="tags"><i class="cat">${catT(s.cat)}</i><i class="price">${priceT}</i>${s.region?`<i class="${s.region==="CN"?"region-dom":"region-for"}">${COUNTRY_NAMES[s.region]||s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?`<i class="dl">${dlT}</i>`:''}${s.official?`<i class="off">${offT}</i>`:''}${s.sponsored?`<i class="ad">${adT}</i>`:''}</div>
         <p>${s.desc}</p>
       </div>
+      <button type="button" class="pin-btn${isPinned(s.url)?" on":""}" data-pin="${encodeURIComponent(s.url)}" aria-label="pin">📌</button>
       <a class="go" href="${s.url}" target="_blank" rel="noopener">${goT}</a>
     </div>`;
   // 全部模式：按国家分组；选了国家：直接两列
@@ -1353,6 +1375,37 @@ function copyQQNum2(){
     qrModal.style.display = "flex";
   };
 })();
+// 我的书签：钉在快捷直达最前面，只存浏览器本地，不上服务器
+function loadPins(){ try{ const v = JSON.parse(localStorage.getItem("rg_pins") || "[]"); return Array.isArray(v) ? v.filter(p => p && p.n && p.u) : []; }catch(e){ return []; } }
+function savePins(p){ try{ localStorage.setItem("rg_pins", JSON.stringify(p)); }catch(e){} }
+function isPinned(url){ return loadPins().some(p => p.u === url); }
+function refreshAfterPin(){ buildNav(); doSearch(); }
+function togglePin(url){
+  const pins = loadPins();
+  const i = pins.findIndex(p => p.u === url);
+  if(i >= 0){ pins.splice(i, 1); }
+  else { const s = SITES.find(x => x.url === url); pins.push({n: s ? s.name : url, u: url}); }
+  savePins(pins); refreshAfterPin();
+}
+function unpinAt(i){ const pins = loadPins(); pins.splice(i, 1); savePins(pins); refreshAfterPin(); }
+function escHtml(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function saveCustomPin(){
+  const nEl = document.getElementById("qName"), uEl = document.getElementById("qUrl");
+  const name = (nEl.value || "").trim(); let url = (uEl.value || "").trim();
+  if(!name || !url) return;
+  if(!/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//.test(url)) url = "https://" + url;
+  try{ const u = new URL(url); if(u.protocol !== "http:" && u.protocol !== "https:") return; url = u.href; }catch(e){ return; }
+  const pins = loadPins().filter(p => p.u !== url);
+  pins.push({n: name, u: url, c: 1}); savePins(pins);
+  nEl.value = ""; uEl.value = ""; document.getElementById("qForm").classList.remove("open");
+  refreshAfterPin();
+}
+document.addEventListener("click", e => {
+  const pinBtn = e.target.closest("[data-pin]");
+  if(pinBtn){ e.preventDefault(); togglePin(decodeURIComponent(pinBtn.dataset.pin)); return; }
+  const rmBtn = e.target.closest("[data-unpin]");
+  if(rmBtn){ e.preventDefault(); unpinAt(+rmBtn.dataset.unpin); }
+});
 // 分类导航：全部站点按分类铺成方块
 function buildNav(){
   const anchors = document.getElementById("navAnchors");
@@ -1368,13 +1421,29 @@ function buildNav(){
     const lang2 = COUNTRY_LANG[activeRegion] || "zh";
     const cntT = {zh:"个站",zht:"個站",en:"sites",ja:"サイト",ko:"개 사이트",de:"Seiten",fr:"sites",es:"sitios",pt:"sites",it:"siti",nl:"sites",ru:"сайтов",th:"เว็บ",vi:"trang",id:"situs",tr:"site",ar:"موقع",he:"אתרים",pl:"stron",cs:"webů",da:"sider",sv:"sidor",fi:"sivua",no:"sider",el:"ιστότοποι"}[lang2] || "sites";
     div.innerHTML = `<h3>${catT(c)}<span class="cnt">${list.length} ${cntT}</span></h3><div class="site-grid">` +
-      list.map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a>`).join("") + `</div>`;
+      list.map(s => `<div class="sitem"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a><button type="button" class="pin-btn${isPinned(s.url)?" on":""}" data-pin="${encodeURIComponent(s.url)}" aria-label="pin">📌</button></div>`).join("") + `</div>`;
     cats.appendChild(div);
   });
-  // 快捷直达：按地区动态显示（未选地区时显示中国版）
+  // 快捷直达：钉选的书签排最前面（金边 + × 可取消），其后是按地区默认
   const qg = document.getElementById("quickGrid");
   if(qg){
     const rc = activeRegion || "CN";
+    const lang4 = COUNTRY_LANG[activeRegion] || "zh";
+    const pins = loadPins();
+    const pinTiles = [];
+    pins.forEach((p, i) => {
+      if(p.c){
+        pinTiles.push(`<div class="qtile"><a href="${escHtml(p.u)}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}<span class="cat">${t("pin_custom")}</span><span class="dom">${escHtml(host(p.u))}</span></a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
+      } else {
+        const s = SITES.find(x => x.url === p.u);
+        if(s){
+          const dname = (lang4 !== "zh" && lang4 !== "zht" && SITE_EN[s.name]) ? SITE_EN[s.name] : s.name;
+          pinTiles.push(`<div class="qtile"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
+        } else {
+          pinTiles.push(`<div class="qtile"><a href="${escHtml(p.u)}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}<span class="cat">${t("pin_custom")}</span><span class="dom">${escHtml(host(p.u))}</span></a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
+        }
+      }
+    });
     let list = [];
     const names = QUICK[rc];
     if(names){
@@ -1382,11 +1451,12 @@ function buildNav(){
     } else {
       list = SITES.filter(s => s.region === rc).sort((a,b) => b.rating - a.rating).slice(0,12);
     }
-    const lang4 = COUNTRY_LANG[activeRegion] || "zh";
-    qg.innerHTML = list.map(s => {
+    const pinnedUrls = new Set(pins.map(p => p.u));
+    list = list.filter(s => !pinnedUrls.has(s.url));
+    qg.innerHTML = pinTiles.join("") + list.map(s => {
       const dname = (lang4 !== "zh" && lang4 !== "zht" && SITE_EN[s.name]) ? SITE_EN[s.name] : s.name;
       return `<a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a>`;
-    }).join("");
+    }).join("") + `<button type="button" class="qadd" onclick="document.getElementById('qForm').classList.toggle('open');document.getElementById('qName').focus()">${t("pin_add")}</button>`;
   }
 }
 buildNav();
