@@ -44,7 +44,6 @@
       const r=await fetch('/api/weather?'+params,{signal:AbortSignal.timeout(12000)});if(!r.ok)throw new Error('weather');const data=await r.json();if(!data.ok||!Number.isFinite(data.temperature))throw new Error('weather');if(requestId!==seq)return;
       latest=data;const condition=zh?(CONDITIONS[data.conditionCode]||data.conditionCode):(data.conditionCode||'').replace(/([a-z])([A-Z])/g,'$1 $2');
       el.textContent=[data.name,data.temperature+'°C',condition].filter(Boolean).join(' · ');
-      $('weatherSource').textContent=data.source==='capital'?t('所选国家首都','Selected country’s capital'):data.source==='city'?t('自定义城市','Saved city'):t('设备定位','Device location');
       line.hidden=false;status('');paint();
     }catch{if(requestId!==seq)return;line.hidden=true;latest=undefined;paint();status(t('暂时无法获取天气，可重选城市或稍后再试。','Weather unavailable. Select a city or try again later.'));}
   }
