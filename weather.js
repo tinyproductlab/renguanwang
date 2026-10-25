@@ -17,35 +17,54 @@
   const t=(a,b)=>zh?a:b, KEY='rgw-weather-cities-v1', ACTIVE='rgw-weather-active-v1';
   const valid=c=>c && typeof c.id==='string' && typeof c.name==='string' && Number.isFinite(c.lat) && Number.isFinite(c.lon) && Math.abs(c.lat)<=90 && Math.abs(c.lon)<=180;
   let cities=[],mode='capital',locationPoint,latest,seq=0,searchSeq=0;
-  try {cities=JSON.parse(localStorage.getItem(KEY)||'[]');cities=Array.isArray(cities)?cities.filter(valid).slice(0,5):[];const saved=localStorage.getItem(ACTIVE);if(cities.some(c=>c.id===saved))mode=saved;}catch{cities=[];}
+  const weatherData=new Map(), weatherErrors=new Set();
+  try {cities=JSON.parse(localStorage.getItem(KEY)||'[]');cities=Array.isArray(cities)?cities.filter(valid).slice(0,5):[];const saved=localStorage.getItem(ACTIVE);if(cities.slice(0,4).some(c=>c.id===saved))mode=saved;}catch{cities=[];}
   function status(message){$('weatherStatus').textContent=message;}
   function persist(){try{localStorage.setItem(KEY,JSON.stringify(cities));localStorage.setItem(ACTIVE,mode==='location'?'capital':mode);}catch{status(t('浏览器无法保存设置，当前会话仍可使用。','Storage unavailable; settings last for this session only.'));}}
   function paint(){bg.classList.remove(...Array.from(bg.classList).filter(c=>c.startsWith('wx-')));if(latest)bg.classList.add(...themeFor(latest));}
   function button(text,action){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=action;return b;}
-  function choose(id){mode=id;persist();render();status(t('正在更新天气…','Updating weather…'));refresh();}
+  function choose(id){mode=id;persist();render();if(weatherData.has(id)){latest=weatherData.get(id);paint();status('');}else{status(t('正在更新天气…','Updating weather…'));}if(!weatherData.has(id))refresh(false);}
   function render(){
     $('weatherCapital').setAttribute('aria-pressed',String(mode==='capital'));
     $('weatherLocate').setAttribute('aria-pressed',String(mode==='location'));
-    $('weatherManage').textContent=t('管理城市','Cities')+' · '+cities.length+'/5';
+    if(mode==='location'&&weatherData.has('location')){$('weatherLocate').textContent=t('当前位置','My location')+' · '+weatherData.get('location').temperature+'°C';}else{$('weatherLocate').textContent=t('使用定位','Use my location');}
+    $('weatherManage').textContent=t('管理城市','Cities')+' · '+Math.min(cities.length+1,5)+'/5';
     $('weatherCities').replaceChildren();$('weatherSavedCities').replaceChildren();
+    const entries=[{id:'capital',name:t('国家首都','Capital')},...cities.slice(0,4)];
+    for(const c of entries){
+      const data=weatherData.get(c.id);
+      const condition=data?(zh?(CONDITIONS[data.conditionCode]||data.conditionCode):(data.conditionCode||'').replace(/([a-z])([A-Z])/g,'$1 $2')):'';
+      const label=data?[data.name,data.temperature+'°C',condition].join(' · '):c.name+' · '+(weatherErrors.has(c.id)?t('暂不可用','Unavailable'):'…');
+      const b=button(label,()=>choose(c.id));b.className='weather-city-summary';b.setAttribute('aria-pressed',String(mode===c.id));b.title=(c.region||c.name)+t(' · 点击设为背景',' · Use as background');$('weatherCities').append(b);
+    }
     for(const c of cities){
-      const b=button(c.name,()=>choose(c.id));b.setAttribute('aria-pressed',String(mode===c.id));b.title=c.region||c.name;$('weatherCities').append(b);
       const row=document.createElement('div');row.className='weather-city-row';const label=document.createElement('span');label.textContent=[c.name,c.region].filter(Boolean).join(' · ');
       const remove=button(t('删除','Remove'),()=>{cities=cities.filter(x=>x.id!==c.id);if(mode===c.id){mode='capital';refresh();}persist();render();});remove.setAttribute('aria-label',t('删除城市 ','Remove city ')+c.name);row.append(label,remove);$('weatherSavedCities').append(row);
     }
     if(!cities.length)$('weatherSavedCities').textContent=t('尚未保存城市。','No saved cities.');
   }
-  async function refresh(){
-    const requestId=++seq;
-    const city=cities.find(c=>c.id===mode),point=mode==='location'?locationPoint:city;
+  async function fetchWeather(city,source){
     const params=new URLSearchParams({lang,region:$('regionSel')?.value||''});
-    if(point){params.set('lat',point.lat);params.set('lon',point.lon);params.set('name',city?.name||t('当前位置','Current location'));params.set('source',city?'city':'location');}
-    try{
-      const r=await fetch('/api/weather?'+params,{signal:AbortSignal.timeout(12000)});if(!r.ok)throw new Error('weather');const data=await r.json();if(!data.ok||!Number.isFinite(data.temperature))throw new Error('weather');if(requestId!==seq)return;
-      latest=data;const condition=zh?(CONDITIONS[data.conditionCode]||data.conditionCode):(data.conditionCode||'').replace(/([a-z])([A-Z])/g,'$1 $2');
-      el.textContent=[data.name,data.temperature+'°C',condition].filter(Boolean).join(' · ');
-      line.hidden=false;status('');paint();
-    }catch{if(requestId!==seq)return;line.hidden=true;latest=undefined;paint();status(t('暂时无法获取天气，可重选城市或稍后再试。','Weather unavailable. Select a city or try again later.'));}
+    if(city){params.set('lat',city.lat);params.set('lon',city.lon);params.set('name',city.name||t('当前位置','Current location'));params.set('source',source);}
+    const r=await fetch('/api/weather?'+params,{signal:AbortSignal.timeout(12000)});
+    if(!r.ok)throw new Error('weather');const data=await r.json();if(!data.ok||!Number.isFinite(data.temperature))throw new Error('weather');return data;
+  }
+  async function refresh(force=true){
+    const requestId=++seq;
+    const entries=[{id:'capital'},...cities.slice(0,4)];
+    if(mode==='location'&&locationPoint)entries.push({id:'location',...locationPoint});
+    await Promise.all(entries.filter(c=>force||!weatherData.has(c.id)).map(async c=>{
+      try{
+        const data=await fetchWeather(c.id==='capital'?null:c,c.id==='location'?'location':'city');
+        if(requestId!==seq)return;weatherData.set(c.id,data);weatherErrors.delete(c.id);
+        if(c.id===mode){latest=data;paint();el.textContent=[data.name,data.temperature+'°C'].join(' · ');status('');}
+      }catch{
+        if(requestId!==seq)return;weatherErrors.add(c.id);weatherData.delete(c.id);
+        if(c.id===mode){latest=undefined;paint();status(t('当前背景城市天气暂不可用，可选择其他城市。','Background weather unavailable. Select another city.'));}
+      }
+      if(requestId===seq)render();
+    }));
+    line.hidden=true;
   }
   $('weatherCapital').textContent=t('国家首都','Country capital');$('weatherCapital').onclick=()=>choose('capital');
   $('weatherLocate').textContent=t('使用定位','Use my location');
@@ -60,7 +79,7 @@
   $('weatherManage').onclick=()=>{$('weatherDialog').showModal();$('weatherCityQuery').focus();};
   $('weatherClose').onclick=()=>{$('weatherDialog').close();$('weatherManage').focus();};
   $('weatherDialogTitle').textContent=t('自定义天气城市','Weather cities');
-  $('weatherDialogHint').textContent=t('最多保存 5 个城市，点击城市即可用它的天气作为背景。仅保存在当前浏览器。','Save up to 5 cities. Select one to use its weather as the background. Saved in this browser only.');
+  $('weatherDialogHint').textContent=t('共显示 5 个城市：第一项固定为首都，另外可保存 4 个城市。点击天气可切换背景，城市仅保存在当前浏览器。','Five weather summaries: the capital first, plus up to four saved cities. Select any summary to change the background. Stored in this browser only.');
   $('weatherQueryLabel').textContent=t('搜索城市','Search cities');$('weatherSearchButton').textContent=t('搜索','Search');$('weatherSavedTitle').textContent=t('已保存的城市','Saved cities');
   $('weatherLocationHint').textContent=t('定位需要你的浏览器授权；精确位置只用于天气查询，不保存为城市记录。','Location requires browser permission and is used only for weather. Coordinates are not saved in your city list.');
   $('weatherCityForm').onsubmit=async e=>{
@@ -73,7 +92,7 @@
         const row=document.createElement('div');row.className='weather-city-row';const text=document.createElement('span');text.textContent=[c.name,c.region].filter(Boolean).join(' · ');
         const add=button(t('添加并使用','Add & use'),()=>{
           if(cities.some(x=>x.id===c.id)){choose(c.id);$('weatherDialog').close();return;}
-          if(cities.length>=5){$('weatherSearchStatus').textContent=t('已保存 5 个城市，请先删除一个再添加。','Five cities saved. Remove one before adding another.');return;}
+          if(cities.length>=4){$('weatherSearchStatus').textContent=t('首都之外最多保存 4 个城市，请先删除一个再添加。','Four custom cities saved. Remove one before adding another.');return;}
           cities.push(c);choose(c.id);$('weatherDialog').close();$('weatherManage').focus();
         });row.append(text,add);$('weatherCityResults').append(row);
       }
