@@ -556,6 +556,22 @@
 
   </div>
   <div class="foot-base">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注 &nbsp;·&nbsp; <a href="./privacy.html">隐私协议</a></div>
+  <div id="visitLine" style="text-align:center;font-size:12px;color:#aaa;margin-top:8px">本站累计访问 <span id="visitCount">…</span> 次</div>
+  <script>
+  (function(){
+    var el = document.getElementById("visitLine");
+    if(!el) return;
+    var hit = 0;
+    try{ if(!sessionStorage.getItem("rg_visited")){ hit = 1; sessionStorage.setItem("rg_visited", "1"); } }catch(e){ hit = 1; }
+    fetch("/api/visits" + (hit ? "?hit=1" : ""))
+      .then(function(r){ return r.json(); })
+      .then(function(j){
+        if(!j.enabled || typeof j.count !== "number"){ el.style.display = "none"; return; }
+        document.getElementById("visitCount").textContent = j.count.toLocaleString("en-US");
+      })
+      .catch(function(){ el.style.display = "none"; });
+  })();
+  </script>
 </div>
 
 
