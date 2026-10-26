@@ -8574,5 +8574,19 @@ const SITES = [
 {name:"奇哥",url:"https://chiko.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾母婴品牌，婴童服饰与用品连锁",desc:"台湾母婴品牌，婴童服饰与用品连锁",official:true,region:"TW",plat:"网页",icon:"chiko.com.tw.ico"},
 {name:"Dreambaby",url:"https://dreambaby.com.au",cat:"购物消费",rating:4,price:"免费",kw:"比利时母婴连锁，婴童用品与玩具为主",desc:"比利时母婴连锁，婴童用品与玩具为主",official:true,region:"AU",plat:"网页",icon:"dreambaby.com.au.ico"},
 {name:"Specsavers Australia",url:"https://specsavers.com.au",cat:"购物消费",rating:4,price:"免费",kw:"澳大利亚平价眼镜连锁，主打验光配镜套餐",desc:"澳大利亚平价眼镜连锁，主打验光配镜套餐",official:true,region:"AU",plat:"网页",icon:"specsavers.com.au.ico"},
-{name:"Taco Inn",url:"https://tacoinn.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"墨西哥塔可快餐连锁",desc:"墨西哥塔可快餐连锁",official:true,region:"MX",plat:"网页",icon:"tacoinn.com.mx.ico"}
+{name:"Taco Inn",url:"https://tacoinn.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"墨西哥塔可快餐连锁",desc:"墨西哥塔可快餐连锁",official:true,region:"MX",plat:"网页",icon:"tacoinn.com.mx.ico"},
+{name:"Gems Pavilion",url:"https://gemspavilion.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国彩色宝石珠宝品牌，曼谷起家",desc:"泰国彩色宝石珠宝品牌，曼谷起家",official:true,region:"TH",plat:"网页",icon:"gemspavilion.com.ico"},
+{name:"Arthur Kaplan",url:"https://arthurkaplan.co.za",cat:"购物消费",rating:4,price:"免费",kw:"南非珠宝连锁，约翰内斯堡起家",desc:"南非珠宝连锁，约翰内斯堡起家",official:true,region:"ZA",plat:"网页",icon:"arthurkaplan.co.za.ico"},
+{name:"Pomme de Pain",url:"https://pommedepain.fr",cat:"购物消费",rating:4,price:"免费",kw:"法国三明治面包连锁，巴黎起家",desc:"法国三明治面包连锁，巴黎起家",official:true,region:"FR",plat:"网页",icon:"pommedepain.fr.ico"},
+{name:"Rotiboy",url:"https://rotiboy.com",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚面包连锁，以咖啡面包见长",desc:"马来西亚面包连锁，以咖啡面包见长",official:true,region:"MY",plat:"网页",icon:"rotiboy.com.ico"},
+{name:"Hôpital Saint-Louis",url:"https://saintlouis.aphp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎公立医院，皮肤病与血液病专科见长",desc:"法国巴黎公立医院，皮肤病与血液病专科见长",official:true,region:"FR",plat:"网页",icon:"saintlouis.aphp.fr.ico"},
+{name:"Hôpital Necker-Enfants Malades",url:"https://necker.aphp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎儿童医院，欧洲历史最悠久的儿童医院之一",desc:"法国巴黎儿童医院，欧洲历史最悠久的儿童医院之一",official:true,region:"FR",plat:"网页",icon:"necker.aphp.fr.ico"},
+{name:"Aarhus University Hospital",url:"https://auh.dk",cat:"生活服务",rating:4,price:"免费",kw:"丹麦奥胡斯大学医院，丹麦第二大医院",desc:"丹麦奥胡斯大学医院，丹麦第二大医院",official:true,region:"DK",plat:"网页",icon:"auh.dk.ico"},
+{name:"Haukeland University Hospital",url:"https://helse-bergen.no",cat:"生活服务",rating:4,price:"免费",kw:"挪威卑尔根大学医院，挪威西部最大医院",desc:"挪威卑尔根大学医院，挪威西部最大医院",official:true,region:"NO",plat:"网页",icon:"helse-bergen.no.ico"},
+{name:"Tampere University Hospital",url:"https://tays.fi",cat:"生活服务",rating:4,price:"免费",kw:"芬兰坦佩雷大学医院，芬兰第二大医院",desc:"芬兰坦佩雷大学医院，芬兰第二大医院",official:true,region:"FI",plat:"网页",icon:"tays.fi.ico"},
+{name:"Mater Misericordiae University Hospital",url:"https://mater.ie",cat:"生活服务",rating:4,price:"免费",kw:"爱尔兰都柏林大学附属医院，心脏与肺移植见长",desc:"爱尔兰都柏林大学附属医院，心脏与肺移植见长",official:true,region:"IE",plat:"网页",icon:"mater.ie.ico"},
+{name:"Universitätsklinikum Graz",url:"https://uniklinikumgraz.at",cat:"生活服务",rating:4,price:"免费",kw:"奥地利格拉茨大学医院，奥地利第二大医学中心",desc:"奥地利格拉茨大学医院，奥地利第二大医学中心",official:true,region:"AT",plat:"网页",icon:"uniklinikumgraz.at.ico"},
+{name:"UZ Gent",url:"https://uzgent.be",cat:"生活服务",rating:4,price:"免费",kw:"比利时根特大学医院，弗拉芒地区大型教学医院",desc:"比利时根特大学医院，弗拉芒地区大型教学医院",official:true,region:"BE",plat:"网页",icon:"uzgent.be.ico"},
+{name:"Szpital Uniwersytecki w Krakowie",url:"https://su.krakow.pl",cat:"生活服务",rating:4,price:"免费",kw:"波兰克拉科夫大学医院，波兰历史悠久的教学医院",desc:"波兰克拉科夫大学医院，波兰历史悠久的教学医院",official:true,region:"PL",plat:"网页",icon:"su.krakow.pl.ico"},
+{name:"Rambam Health Care Campus",url:"https://rambam.org.il",cat:"生活服务",rating:4,price:"免费",kw:"以色列海法大型医学中心，以色列北部最大医院",desc:"以色列海法大型医学中心，以色列北部最大医院",official:true,region:"IL",plat:"网页",icon:"rambam.org.il.ico"}
 ];
