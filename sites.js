@@ -7747,7 +7747,6 @@ const SITES = [
 {name:"珂兰钻石",url:"https://www.kela.cn",cat:"购物消费",rating:4,price:"免费",kw:"珂兰钻石",desc:"中国钻石电商品牌",official:true,region:"CN",plat:"网页",icon:"www.kela.cn.ico"},
 {name:"钻石小鸟",url:"https://www.zbird.com",cat:"购物消费",rating:4,price:"免费",kw:"钻石小鸟",desc:"中国钻石电商品牌",official:true,region:"CN",plat:"网页",icon:"www.zbird.com.ico"},
 {name:"Forn de Pa",url:"https://www.forndepa.com",cat:"购物消费",rating:4,price:"免费",kw:"forn de pa",desc:"西班牙加泰罗尼亚面包房品牌",official:true,region:"ES",plat:"网页",icon:"www.forndepa.com.ico"},
-{name:"Paris Baguette",url:"https://www.parisbaguette.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"paris baguette",desc:"韩国大型面包连锁品牌",official:true,region:"KR",plat:"网页",icon:"www.parisbaguette.co.kr.ico"},
 {name:"Pão de Açúcar Bakery",url:"https://www.paodeacucar.com",cat:"购物消费",rating:4,price:"免费",kw:"pão de açúcar bakery",desc:"巴西超市烘焙品牌",official:true,region:"BR",plat:"网页",icon:"www.paodeacucar.com.ico"},
 {name:"Moorfields Eye Hospital",url:"https://www.moorfields.nhs.uk",cat:"生活服务",rating:4,price:"免费",kw:"moorfields eye hospital",desc:"英国知名眼科专科医院",official:true,region:"GB",plat:"网页",icon:"www.moorfields.nhs.uk.ico"},
 {name:"Keio University Hospital",url:"https://www.hosp.med.keio.ac.jp",cat:"生活服务",rating:4,price:"免费",kw:"keio university hospital",desc:"日本庆应义塾大学附属医院",official:true,region:"JP",plat:"网页",icon:"www.hosp.med.keio.ac.jp.ico"},
