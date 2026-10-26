@@ -7545,7 +7545,6 @@ const SITES = [
 {name:"永和大王",url:"https://www.yonghe.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"永和大王 中国豆浆油条快餐连锁品牌",desc:"中国豆浆油条快餐连锁品牌",official:true,region:"CN",plat:"网页",icon:"www.yonghe.com.cn.ico"},
 {name:"Fred",url:"https://www.fred.com",cat:"购物消费",rating:4,price:"免费",kw:"Fred 法国奢华珠宝品牌",desc:"法国奢华珠宝品牌",official:true,region:"FR",plat:"网页",icon:"www.fred.com.ico"},
 {name:"Georg Jensen",url:"https://www.georgjensen.com",cat:"购物消费",rating:4,price:"免费",kw:"Georg Jensen 丹麦奢华珠宝银器品牌",desc:"丹麦奢华珠宝银器品牌",official:true,region:"DK",plat:"网页",icon:"www.georgjensen.com.ico"},
-{name:"Damas Jewellery",url:"https://www.damas.com",cat:"购物消费",rating:4,price:"免费",kw:"Damas Jewellery 阿联酋大型珠宝连锁品牌",desc:"阿联酋大型珠宝连锁品牌",official:true,region:"AE",plat:"网页",icon:"www.damas.com.ico"},
 {name:"Semifreddi's Bakery",url:"https://www.semifreddis.com",cat:"购物消费",rating:4,price:"免费",kw:"Semifreddi's Bakery 美国旧金山湾区知名手工面包房",desc:"美国旧金山湾区知名手工面包房",official:true,region:"US",plat:"网页",icon:"www.semifreddis.com.ico"},
 {name:"Model Bakery",url:"https://www.themodelbakery.com",cat:"购物消费",rating:4,price:"免费",kw:"Model Bakery 美国纳帕谷知名手工面包房",desc:"美国纳帕谷知名手工面包房",official:true,region:"US",plat:"网页",icon:"www.themodelbakery.com.ico"},
 {name:"Bien Cuit",url:"https://www.biencuit.com",cat:"购物消费",rating:4,price:"免费",kw:"Bien Cuit 美国纽约布鲁克林知名手工面包房",desc:"美国纽约布鲁克林知名手工面包房",official:true,region:"US",plat:"网页",icon:"www.biencuit.com.ico"},
