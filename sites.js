@@ -7401,7 +7401,6 @@ const SITES = [
 {name:"FOPE",url:"https://www.fope.com",cat:"购物消费",rating:4,price:"免费",kw:"FOPE 意大利珠宝品牌",desc:"意大利珠宝品牌",official:true,region:"IT",plat:"网页",icon:"www.fope.com.ico"},
 {name:"Wellendorff",url:"https://www.wellendorff.com",cat:"购物消费",rating:4,price:"免费",kw:"Wellendorff 德国高级珠宝品牌",desc:"德国高级珠宝品牌",official:true,region:"DE",plat:"网页",icon:"www.wellendorff.com.ico"},
 {name:"K.UNO",url:"https://www.k-uno.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"K.UNO 日本珠宝定制连锁品牌",desc:"日本珠宝定制连锁品牌",official:true,region:"JP",plat:"网页",icon:"www.k-uno.co.jp.ico"},
-{name:"Pandora",url:"https://www.pandora.com",cat:"购物消费",rating:4,price:"免费",kw:"Pandora 丹麦珠宝连锁品牌",desc:"丹麦珠宝连锁品牌",official:true,region:"DK",plat:"网页",icon:"www.pandora.com.ico"},
 {name:"Linneys",url:"https://www.linneys.com.au",cat:"购物消费",rating:4,price:"免费",kw:"Linneys 澳大利亚珀斯奢华珠宝商",desc:"澳大利亚珀斯奢华珠宝商",official:true,region:"AU",plat:"网页",icon:"www.linneys.com.au.ico"},
 {name:"Liali Jewellery",url:"https://www.lialijewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"Liali Jewellery 阿联酋迪拜珠宝连锁品牌",desc:"阿联酋迪拜珠宝连锁品牌",official:true,region:"AE",plat:"网页",icon:"www.lialijewellery.com.ico"},
 {name:"C. Krishniah Chetty",url:"https://www.ckcjewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"C. Krishniah Chetty 印度班加罗尔老字号珠宝商",desc:"印度班加罗尔老字号珠宝商",official:true,region:"IN",plat:"网页",icon:"www.ckcjewellers.com.ico"},
