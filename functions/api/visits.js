@@ -6,7 +6,8 @@
 export async function onRequestGet(context) {
   const { request, env } = context;
   try {
-    const kv = env && env.RGW_KV;
+    // 变量名 RGW_KV 与 RGW_kv 都认（后台绑定时大小写容易写岔）
+    const kv = env && (env.RGW_KV || env.RGW_kv);
     if (!kv) return json({ ok: true, enabled: false, count: null });
     const url = new URL(request.url);
     let n = parseInt((await kv.get("total")) || "0", 10) || 0;
