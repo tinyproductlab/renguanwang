@@ -8870,5 +8870,14 @@ const SITES = [
 {name:"皇家阿尔弗雷德王子医院",url:"https://slhd.health.nsw.gov.au/rpa",cat:"生活服务",rating:4,price:"免费",kw:"澳大利亚悉尼知名公立综合医院",desc:"澳大利亚悉尼知名公立综合医院",official:true,region:"AU",plat:"网页",icon:"slhd.health.nsw.gov.au.ico"},
 {name:"谢赫哈利法医学城",url:"https://skmc.seha.ae",cat:"生活服务",rating:4,price:"免费",kw:"阿布扎比知名大型公立医疗中心",desc:"阿布扎比知名大型公立医疗中心",official:true,region:"AE",plat:"网页",icon:"skmc.seha.ae.ico"},
 {name:"乔治·蓬皮杜欧洲医院",url:"https://hegp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎知名大型综合医院",desc:"法国巴黎知名大型综合医院",official:true,region:"FR",plat:"网页",icon:"hegp.fr.ico"},
-{name:"黄金时代健身",url:"https://keepclub.com",cat:"生活服务",rating:4,price:"免费",kw:"郑州起家的连锁健身品牌",desc:"郑州起家的连锁健身品牌",official:true,region:"CN",plat:"网页",icon:"keepclub.com.ico"}
+{name:"黄金时代健身",url:"https://keepclub.com",cat:"生活服务",rating:4,price:"免费",kw:"郑州起家的连锁健身品牌",desc:"郑州起家的连锁健身品牌",official:true,region:"CN",plat:"网页",icon:"keepclub.com.ico"},
+{name:"红色小象",url:"https://redsmall.com",cat:"购物消费",rating:4,price:"免费",kw:"中国知名婴童护理品牌",desc:"中国知名婴童护理品牌",official:true,region:"CN",plat:"网页",icon:"redsmall.com.ico"},
+{name:"戴可思",url:"https://dacose.com",cat:"购物消费",rating:4,price:"免费",kw:"中国知名婴幼儿纸尿裤品牌",desc:"中国知名婴幼儿纸尿裤品牌",official:true,region:"CN",plat:"网页",icon:"dacose.com.ico"},
+{name:"EDISONmama",url:"https://edisonmama.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名婴童餐具品牌",desc:"日本知名婴童餐具品牌",official:true,region:"JP",plat:"网页",icon:"edisonmama.com.ico"},
+{name:"Woolbabe",url:"https://woolbabe.com",cat:"购物消费",rating:4,price:"免费",kw:"新西兰知名婴童睡袋品牌",desc:"新西兰知名婴童睡袋品牌",official:true,region:"NZ",plat:"网页",icon:"woolbabe.com.ico"},
+{name:"글라스바바",url:"https://glassbaba.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国知名眼镜连锁品牌",desc:"韩国知名眼镜连锁品牌",official:true,region:"KR",plat:"网页",icon:"glassbaba.co.kr.ico"},
+{name:"华天酒店集团",url:"https://huatian.com",cat:"购物消费",rating:4,price:"免费",kw:"湖南大型酒店集团",desc:"湖南大型酒店集团",official:true,region:"CN",plat:"网页",icon:"huatian.com.ico"},
+{name:"寒舍集团",url:"https://hanshe.com",cat:"购物消费",rating:4,price:"免费",kw:"台湾知名酒店餐饮集团",desc:"台湾知名酒店餐饮集团",official:true,region:"TW",plat:"网页",icon:"hanshe.com.ico"},
+{name:"森信托酒店集团",url:"https://mori-trust.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名酒店集团",desc:"日本知名酒店集团",official:true,region:"JP",plat:"网页",icon:"mori-trust.co.jp.ico"},
+{name:"美加世界酒店集团",url:"https://megaworldhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾知名酒店集团",desc:"菲律宾知名酒店集团",official:true,region:"PH",plat:"网页",icon:"megaworldhotels.com.ico"}
 ];
