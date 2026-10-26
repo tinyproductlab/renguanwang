@@ -8807,5 +8807,12 @@ const SITES = [
 {name:"Padma Hotels",url:"https://padmahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"印尼精品度假酒店集团",desc:"印尼精品度假酒店集团",official:true,region:"ID",plat:"网页",icon:"padmahotels.com.ico"},
 {name:"YTL Hotels",url:"https://ytlhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚杨忠礼酒店集团",desc:"马来西亚杨忠礼酒店集团",official:true,region:"MY",plat:"网页",icon:"ytlhotels.com.ico"},
 {name:"Crimson Hotels",url:"https://crimsonhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾本土酒店集团",desc:"菲律宾本土酒店集团",official:true,region:"PH",plat:"网页",icon:"crimsonhotel.com.ico"},
-{name:"华莱士",url:"https://cnhls.com",cat:"生活服务",rating:4,price:"免费",kw:"中国平价炸鸡汉堡连锁",desc:"中国平价炸鸡汉堡连锁",official:true,region:"CN",plat:"网页",icon:"cnhls.com.ico"}
+{name:"华莱士",url:"https://cnhls.com",cat:"生活服务",rating:4,price:"免费",kw:"中国平价炸鸡汉堡连锁",desc:"中国平价炸鸡汉堡连锁",official:true,region:"CN",plat:"网页",icon:"cnhls.com.ico"},
+{name:"DOJI",url:"https://doji.vn",cat:"购物消费",rating:4,price:"免费",kw:"越南珠宝集团品牌",desc:"越南珠宝集团品牌",official:true,region:"VN",plat:"网页",icon:"doji.vn.ico"},
+{name:"高雄医学大学附属中和纪念医院",url:"https://kmuh.org.tw",cat:"生活服务",rating:4,price:"免费",kw:"台湾南部知名大学附属医院",desc:"台湾南部知名大学附属医院",official:true,region:"TW",plat:"网页",icon:"kmuh.org.tw.ico"},
+{name:"中国医药大学附设医院",url:"https://cmuh.cmu.edu.tw",cat:"生活服务",rating:4,price:"免费",kw:"台中知名大学附属医院",desc:"台中知名大学附属医院",official:true,region:"TW",plat:"网页",icon:"cmuh.cmu.edu.tw.ico"},
+{name:"陈笃生医院",url:"https://ttsh.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡知名公立综合医院",desc:"新加坡知名公立综合医院",official:true,region:"SG",plat:"网页",icon:"ttsh.com.sg.ico"},
+{name:"卡里亚迪医生中央医院",url:"https://rskariadi.co.id",cat:"生活服务",rating:4,price:"免费",kw:"印尼三宝垄知名公立综合医院",desc:"印尼三宝垄知名公立综合医院",official:true,region:"ID",plat:"网页",icon:"rskariadi.co.id.ico"},
+{name:"108军中央医院",url:"https://benhvien108.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南河内知名军队综合医院",desc:"越南河内知名军队综合医院",official:true,region:"VN",plat:"网页",icon:"benhvien108.vn.ico"},
+{name:"胡志明市医药大学医院",url:"https://umc.edu.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南胡志明市知名大学附属医院",desc:"越南胡志明市知名大学附属医院",official:true,region:"VN",plat:"网页",icon:"umc.edu.vn.ico"}
 ];
