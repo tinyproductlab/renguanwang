@@ -8540,7 +8540,6 @@ const SITES = [
 {name:"Natural Optics",url:"https://naturaloptics.es",cat:"购物消费",rating:4,price:"免费",kw:"西班牙眼镜连锁，西班牙多地有店",desc:"西班牙眼镜连锁，西班牙多地有店",official:true,region:"ES",plat:"网页",icon:"naturaloptics.es.ico"},
 {name:"Optivisão",url:"https://optivisao.pt",cat:"购物消费",rating:4,price:"免费",kw:"葡萄牙眼镜连锁，葡萄牙多地有店",desc:"葡萄牙眼镜连锁，葡萄牙多地有店",official:true,region:"PT",plat:"网页",icon:"optivisao.pt.ico"},
 {name:"VistaSi",url:"https://vistasi.it",cat:"购物消费",rating:4,price:"免费",kw:"意大利眼镜连锁，意大利多地有店",desc:"意大利眼镜连锁，意大利多地有店",official:true,region:"IT",plat:"网页",icon:"vistasi.it.ico"},
-{name:"Optika Halperin",url:"https://optica-halperin.com",cat:"购物消费",rating:4,price:"免费",kw:"以色列大型眼镜连锁，以色列多家门店",desc:"以色列大型眼镜连锁，以色列多家门店",official:true,region:"IL",plat:"网页",icon:"optica-halperin.com.ico"},
 {name:"Dioptrija",url:"https://dioptrija.rs",cat:"购物消费",rating:4,price:"免费",kw:"塞尔维亚眼镜连锁，塞尔维亚多地有店",desc:"塞尔维亚眼镜连锁，塞尔维亚多地有店",official:true,region:"RS",plat:"网页",icon:"dioptrija.rs.ico"},
 {name:"Joy Optics",url:"https://joyoptics.bg",cat:"购物消费",rating:4,price:"免费",kw:"保加利亚眼镜连锁，保加利亚多地有店",desc:"保加利亚眼镜连锁，保加利亚多地有店",official:true,region:"BG",plat:"网页",icon:"joyoptics.bg.ico"},
 {name:"Optic World",url:"https://opticworld.hu",cat:"购物消费",rating:4,price:"免费",kw:"匈牙利眼镜连锁，匈牙利多地有店",desc:"匈牙利眼镜连锁，匈牙利多地有店",official:true,region:"HU",plat:"网页",icon:"opticworld.hu.ico"},
