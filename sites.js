@@ -7632,7 +7632,6 @@ const SITES = [
 {name:"Foppapedretti",url:"https://www.foppapedretti.it",cat:"购物消费",rating:4,price:"免费",kw:"Foppapedretti 意大利婴童用品品牌",desc:"意大利婴童用品品牌",official:true,region:"IT",plat:"网页",icon:"www.foppapedretti.it.ico"},
 {name:"Babycare",url:"https://www.babycare.com",cat:"购物消费",rating:4,price:"免费",kw:"Babycare 中国母婴用品品牌",desc:"中国母婴用品品牌",official:true,region:"CN",plat:"网页",icon:"www.babycare.com.ico"},
 {name:"メガネの三城",url:"https://www.paris-miki.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"メガネの三城 日本老牌连锁眼镜品牌",desc:"日本老牌连锁眼镜品牌",official:true,region:"JP",plat:"网页",icon:"www.paris-miki.co.jp.ico"},
-{name:"吴良材",url:"https://www.wuliangcai.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"吴良材 中国上海老字号眼镜品牌",desc:"中国上海老字号眼镜品牌",official:true,region:"CN",plat:"网页",icon:"www.wuliangcai.com.cn.ico"},
 {name:"Benchmark Resorts & Hotels",url:"https://www.benchmarkresortsandhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"Benchmark Resorts & Hotels 美国度假酒店与会议酒店集团",desc:"美国度假酒店与会议酒店集团",official:true,region:"US",plat:"网页",icon:"www.benchmarkresortsandhotels.com.ico"},
 {name:"IntercityHotel",url:"https://hrewards.com/en/intercityhotel",cat:"购物消费",rating:4,price:"免费",kw:"IntercityHotel 德国中档城市酒店品牌",desc:"德国中档城市酒店品牌",official:true,region:"DE",plat:"网页",icon:"hrewards.com.ico"},
 {name:"Golden Tulip",url:"https://www.goldentulip.com",cat:"购物消费",rating:4,price:"免费",kw:"Golden Tulip 法国中档连锁酒店品牌",desc:"法国中档连锁酒店品牌",official:true,region:"FR",plat:"网页",icon:"www.goldentulip.com.ico"},
@@ -7661,7 +7660,6 @@ const SITES = [
 {name:"Seaside Hotels",url:"https://www.seaside-collection.com",cat:"购物消费",rating:4,price:"免费",kw:"Seaside Hotels 西班牙加那利群岛酒店集团",desc:"西班牙加那利群岛酒店集团",official:true,region:"ES",plat:"网页",icon:"www.seaside-collection.com.ico"},
 {name:"A&W Restaurants",url:"https://www.awrestaurants.com",cat:"购物消费",rating:4,price:"免费",kw:"A&W Restaurants 美国老牌汉堡快餐连锁品牌",desc:"美国老牌汉堡快餐连锁品牌",official:true,region:"US",plat:"网页",icon:"www.awrestaurants.com.ico"},
 {name:"Krystal",url:"https://www.krystal.com",cat:"购物消费",rating:4,price:"免费",kw:"Krystal 美国东南部迷你汉堡连锁品牌",desc:"美国东南部迷你汉堡连锁品牌",official:true,region:"US",plat:"网页",icon:"www.krystal.com.ico"},
-{name:"Lotteria",url:"https://www.lotteria.com",cat:"购物消费",rating:4,price:"免费",kw:"Lotteria 韩国汉堡快餐连锁品牌",desc:"韩国汉堡快餐连锁品牌",official:true,region:"KR",plat:"网页",icon:"www.lotteria.com.ico"},
 {name:"First Kitchen",url:"https://www.first-kitchen.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"First Kitchen 日本汉堡快餐连锁品牌",desc:"日本汉堡快餐连锁品牌",official:true,region:"JP",plat:"网页",icon:"www.first-kitchen.co.jp.ico"},
 {name:"德克士",url:"https://www.dicos.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"德克士 中国炸鸡快餐连锁品牌",desc:"中国炸鸡快餐连锁品牌",official:true,region:"CN",plat:"网页",icon:"www.dicos.com.cn.ico"}
 ];
