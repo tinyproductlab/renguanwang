@@ -1079,6 +1079,24 @@ TW:["Google","YouTube","Facebook","PChome","momo","Shopee TW","PTT","Dcard","中
 HK:["Google","YouTube","Facebook","HKTVmall","OpenRice","ViuTV","TVB","HK01","SCMP","MTR","HSBC HK","HK Gov"],
 SG:["Google","YouTube","Facebook","Shopee SG","Lazada SG","Grab","Mediacorp","Straits Times","DBS","Singapore Airlines","Singapore Gov","FairPrice"],
 };
+// 小产品实验室自家产品：钉在首页快捷直达最前面（仅 CN 默认区，用户点 × 可取消，恢复默认可找回）
+const TINYLAB = [
+{n:"秒变二维码",u:"https://tinylabpro.com/tools/instantqr"},
+{n:"Mac 双账号助手",u:"https://tinylabpro.com/tools/2wx"},
+{n:"棋咕咕",u:"https://tinylabpro.com/tools/qigugu"},
+{n:"数咕咕",u:"https://tinylabpro.com/tools/numgugu"},
+{n:"Catbox 猫猫纸箱",u:"https://tinylabpro.com/tools/catbox"},
+{n:"NConvo 网络会话",u:"https://tinylabpro.com/tools/nconvo"},
+{n:"月牙故事岛",u:"https://tinylabpro.com/tools/moonsprout"},
+{n:"NotebookLM 去水印",u:"https://tinylabpro.com/tools/unmark"},
+{n:"教师工具箱",u:"https://tinylabpro.com/tools/teach"},
+{n:"学生工具箱",u:"https://tinylabpro.com/tools/study"},
+{n:"本地安全工具箱 KeyScan",u:"https://tinylabpro.com/tools/keyscan"},
+{n:"OTP 动态验证码",u:"https://tinylabpro.com/tools/otp"},
+{n:"加密调查问卷",u:"https://tinylabpro.com/tools/survey"},
+{n:"图片工坊",u:"https://tinylabpro.com/tools/image"},
+{n:"全球地址与人物资料生成器",u:"https://tinylabpro.com/tools/address"},
+];
 let onlyDownloadable = false;
 let activeRegion = "";
 // 当前语言（由 activeRegion 派生，全局唯一真相）
@@ -1480,7 +1498,8 @@ function buildNav(){
     const hidden = new Set(loadHidden());
     list = list.filter(s => !pinnedUrls.has(s.url) && !hidden.has(s.url));
     const restoreBtn = hidden.size ? `<button type="button" class="qadd" data-restore="1">${t("pin_restore")}</button>` : "";
-    qg.innerHTML = pinTiles.join("") + list.map(s => {
+    const labTiles = rc === "CN" ? TINYLAB.filter(p => !hidden.has(p.u)).map(p => `<div class="qtile pinned"><a href="${p.u}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}<span class="cat">小产品实验室</span><span class="dom">tinylabpro.com</span></a><button type="button" class="qrm" data-hide="${encodeURIComponent(p.u)}" aria-label="remove">×</button></div>`) : [];
+    qg.innerHTML = pinTiles.join("") + labTiles.join("") + list.map(s => {
       const dname = (lang4 !== "zh" && lang4 !== "zht" && SITE_EN[s.name]) ? SITE_EN[s.name] : s.name;
       return `<div class="qtile"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a><button type="button" class="qrm" data-hide="${encodeURIComponent(s.url)}" aria-label="remove">×</button></div>`;
     }).join("") + restoreBtn + `<button type="button" class="qadd" onclick="document.getElementById('qForm').classList.toggle('open');document.getElementById('qName').focus()">${t("pin_add")}</button>`;
