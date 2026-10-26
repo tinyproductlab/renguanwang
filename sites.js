@@ -7999,7 +7999,6 @@ const SITES = [
 {name:"Kashikey",url:"https://www.kashikey.com",cat:"购物消费",rating:4,price:"免费",kw:"日本高级珠宝品牌",desc:"日本高级珠宝品牌",official:true,region:"JP",plat:"网页",icon:"www.kashikey.com.ico"},
 {name:"OST",url:"https://www.ost.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国时尚珠宝品牌",desc:"韩国时尚珠宝品牌",official:true,region:"KR",plat:"网页",icon:"www.ost.co.kr.ico"},
 {name:"Nakshatra",url:"https://www.nakshatra.com",cat:"购物消费",rating:4,price:"免费",kw:"印度钻石珠宝品牌",desc:"印度钻石珠宝品牌",official:true,region:"IN",plat:"网页",icon:"www.nakshatra.com.ico"},
-{name:"金伯利",url:"https://www.kimberlite.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国钻石珠宝品牌",desc:"中国钻石珠宝品牌",official:true,region:"CN",plat:"网页",icon:"www.kimberlite.com.cn.ico"},
 {name:"六桂福",url:"https://www.liuguifu.com",cat:"购物消费",rating:4,price:"免费",kw:"中国珠宝连锁品牌",desc:"中国珠宝连锁品牌",official:true,region:"CN",plat:"网页",icon:"www.liuguifu.com.ico"},
 {name:"Mouawad",url:"https://www.mouawad.com",cat:"购物消费",rating:4,price:"免费",kw:"黎巴嫩裔国际高级珠宝品牌",desc:"黎巴嫩裔国际高级珠宝品牌",official:true,region:"AE",plat:"网页",icon:"www.mouawad.com.ico"},
 {name:"Georgini",url:"https://www.georgini.com",cat:"购物消费",rating:4,price:"免费",kw:"澳大利亚轻奢珠宝品牌",desc:"澳大利亚轻奢珠宝品牌",official:true,region:"AU",plat:"网页",icon:"www.georgini.com.ico"},
