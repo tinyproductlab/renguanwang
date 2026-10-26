@@ -8588,5 +8588,9 @@ const SITES = [
 {name:"Universitätsklinikum Graz",url:"https://uniklinikumgraz.at",cat:"生活服务",rating:4,price:"免费",kw:"奥地利格拉茨大学医院，奥地利第二大医学中心",desc:"奥地利格拉茨大学医院，奥地利第二大医学中心",official:true,region:"AT",plat:"网页",icon:"uniklinikumgraz.at.ico"},
 {name:"UZ Gent",url:"https://uzgent.be",cat:"生活服务",rating:4,price:"免费",kw:"比利时根特大学医院，弗拉芒地区大型教学医院",desc:"比利时根特大学医院，弗拉芒地区大型教学医院",official:true,region:"BE",plat:"网页",icon:"uzgent.be.ico"},
 {name:"Szpital Uniwersytecki w Krakowie",url:"https://su.krakow.pl",cat:"生活服务",rating:4,price:"免费",kw:"波兰克拉科夫大学医院，波兰历史悠久的教学医院",desc:"波兰克拉科夫大学医院，波兰历史悠久的教学医院",official:true,region:"PL",plat:"网页",icon:"su.krakow.pl.ico"},
-{name:"Rambam Health Care Campus",url:"https://rambam.org.il",cat:"生活服务",rating:4,price:"免费",kw:"以色列海法大型医学中心，以色列北部最大医院",desc:"以色列海法大型医学中心，以色列北部最大医院",official:true,region:"IL",plat:"网页",icon:"rambam.org.il.ico"}
+{name:"Rambam Health Care Campus",url:"https://rambam.org.il",cat:"生活服务",rating:4,price:"免费",kw:"以色列海法大型医学中心，以色列北部最大医院",desc:"以色列海法大型医学中心，以色列北部最大医院",official:true,region:"IL",plat:"网页",icon:"rambam.org.il.ico"},
+{name:"Babies R Us Japan",url:"https://babiesrus.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本玩具反斗城旗下母婴连锁，婴儿用品与玩具并售",desc:"日本玩具反斗城旗下母婴连锁，婴儿用品与玩具并售",official:true,region:"JP",plat:"网页",icon:"babiesrus.co.jp.ico"},
+{name:"MQD",url:"https://mqd.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国童装品牌，定位中高端儿童时尚服饰",desc:"中国童装品牌，定位中高端儿童时尚服饰",official:true,region:"CN",plat:"网页",icon:"mqd.com.cn.ico"},
+{name:"Dave&Bella",url:"https://davebella.com",cat:"购物消费",rating:4,price:"免费",kw:"中国婴幼儿服饰品牌，主打高品质纯棉童装",desc:"中国婴幼儿服饰品牌，主打高品质纯棉童装",official:true,region:"CN",plat:"网页",icon:"davebella.com.ico"},
+{name:"Roky's",url:"https://rokys.com.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁烤鸡连锁，利马起家",desc:"秘鲁烤鸡连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"rokys.com.pe.ico"}
 ];
