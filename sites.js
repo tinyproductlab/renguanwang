@@ -5441,7 +5441,6 @@ const SITES = [
 {name:"OshKosh",url:"https://www.oshkosh.com",cat:"购物消费",rating:4,price:"免费",kw:"OshKosh 美国经典童装品牌 背带裤童装的海淘入口",desc:"美国经典童装品牌，背带裤童装的海淘入口",official:true,region:"US",plat:"网页",icon:"www.oshkosh.com.ico"},
 {name:"巴拉巴拉 Balabala",url:"https://balabala.com",cat:"购物消费",rating:4,price:"免费",kw:"巴拉巴拉 Balabala 中国最大童装品牌 森马旗下童装的国民入口",desc:"中国最大童装品牌，森马旗下童装的国民入口",official:true,region:"CN",plat:"网页",icon:"balabala.com.ico"},
 {name:"安奈儿 Annil",url:"https://www.annil.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"安奈儿 Annil 中国中高端童装品牌 女童裙装的常用入口",desc:"中国中高端童装品牌，女童裙装的常用入口",official:true,region:"CN",plat:"网页",icon:"www.annil.com.cn.ico"},
-{name:"戴维贝拉 Dave & Bella",url:"https://www.daviebella.com",cat:"购物消费",rating:4,price:"免费",kw:"戴维贝拉 Dave & Bella 中国高端婴童服饰品牌 婴幼儿服装的常用入口",desc:"中国高端婴童服饰品牌，婴幼儿服装的常用入口",official:true,region:"CN",plat:"网页",icon:"www.daviebella.com.ico"},
 {name:"东芝 Toshiba",url:"https://www.toshiba.com",cat:"购物消费",rating:4,price:"免费",kw:"东芝 Toshiba 日本综合家电品牌 冰箱洗衣机与半导体家电的官方入口",desc:"日本综合家电品牌，冰箱洗衣机与半导体家电的官方入口",official:true,region:"JP",plat:"网页",icon:"www.toshiba.com.ico"},
 {name:"日立 Hitachi",url:"https://www.hitachi.com",cat:"购物消费",rating:4,price:"免费",kw:"日立 Hitachi 日本综合家电品牌 冰箱空调与生活家电的官方入口",desc:"日本综合家电品牌，冰箱空调与生活家电的官方入口",official:true,region:"JP",plat:"网页",icon:"www.hitachi.com.ico"},
 {name:"夏普 Sharp",url:"https://www.sharp.com",cat:"购物消费",rating:4,price:"免费",kw:"夏普 Sharp 日本家电品牌 电视空气净化与厨房电器的官方入口",desc:"日本家电品牌，电视空气净化与厨房电器的官方入口",official:true,region:"JP",plat:"网页",icon:"www.sharp.com.ico"},
