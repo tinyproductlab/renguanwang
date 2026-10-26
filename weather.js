@@ -84,8 +84,10 @@
   };
   $('weatherManage').onclick=()=>{$('weatherDialog').showModal();$('weatherCityQuery').focus();};
   function condText(code){return zh?(CONDITIONS[code]||code):(code||'').replace(/([a-z])([A-Z])/g,'$1 $2');}
-  function fmtTime(iso){const d=new Date(iso);return Number.isFinite(+d)?String(d.getHours()).padStart(2,'0')+':00':'';}
-  function fmtDay(iso){const d=new Date(iso);if(!Number.isFinite(+d))return '';return zh?['周日','周一','周二','周三','周四','周五','周六'][d.getDay()]:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()];}
+  // 城市当地时间：有 tzOffset（分钟）时把 UTC 时刻平移后按 UTC 读数；没有则回退到浏览者本地时间。
+  function cityDate(iso,off){const d=new Date(iso);if(!Number.isFinite(+d))return null;return typeof off==='number'?new Date(+d+off*60000):d;}
+  function fmtTime(iso,off){const d=cityDate(iso,off);if(!d)return '';const h=typeof off==='number'?d.getUTCHours():d.getHours(),m=typeof off==='number'?d.getUTCMinutes():d.getMinutes();return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0');}
+  function fmtDay(iso,off){const d=cityDate(iso,off);if(!d)return '';const day=typeof off==='number'?d.getUTCDay():d.getDay();return zh?['周日','周一','周二','周三','周四','周五','周六'][day]:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][day];}
   function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
   function openDetail(){
     const d=latest,body=$('weatherDetailBody');
@@ -98,10 +100,10 @@
         [t('风速','Wind'),d.windSpeed!=null?d.windSpeed+' km/h':'—'],
         [t('湿度','Humidity'),d.humidity!=null?d.humidity+'%':'—'],
         [t('降水概率','Precipitation'),d.precipChance!=null?d.precipChance+'%':'—'],
-        [t('日出','Sunrise'),d.sunrise?fmtTime(d.sunrise):'—'],
-        [t('日落','Sunset'),d.sunset?fmtTime(d.sunset):'—'],
+        [t('日出','Sunrise'),d.sunrise?fmtTime(d.sunrise,d.tzOffset):'—'],
+        [t('日落','Sunset'),d.sunset?fmtTime(d.sunset,d.tzOffset):'—'],
       ];
-      const hours=(d.hourly||[]).map(h=>'<div class="wx-detail-hour">'+esc(fmtTime(h.t))+'<b>'+(h.temp!=null?h.temp+'°':'—')+'</b>'+esc(condText(h.code))+'</div>').join('');
+      const hours=(d.hourly||[]).map(h=>'<div class="wx-detail-hour">'+esc(fmtTime(h.t,d.tzOffset))+'<b>'+(h.temp!=null?h.temp+'°':'—')+'</b>'+esc(condText(h.code))+'</div>').join('');
       let curve='';
       const temps=(d.hourly||[]).map(h=>h.temp).filter(v=>typeof v==='number');
       if(temps.length>=2){
@@ -109,7 +111,7 @@
         const pts=(d.hourly||[]).map((h,i)=>{const x=30+i*(500/Math.max(1,(d.hourly.length-1)));const y=70-((h.temp-min)/span)*50;return x.toFixed(1)+','+y.toFixed(1);}).join(' ');
         curve='<svg viewBox="0 0 560 90" width="100%" height="90" aria-hidden="true"><polyline points="'+pts+'" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
       }
-      const week=(d.week||[]).map(w=>'<div class="wx-detail-day"><span>'+esc(fmtDay(w.date))+'</span><span>'+esc(condText(w.code))+'</span><span><span class="lo">'+(w.low!=null?w.low+'°':'—')+'</span> / '+(w.high!=null?w.high+'°':'—')+'</span></div>').join('');
+      const week=(d.week||[]).map(w=>'<div class="wx-detail-day"><span>'+esc(fmtDay(w.date,d.tzOffset))+'</span><span>'+esc(condText(w.code))+'</span><span><span class="lo">'+(w.low!=null?w.low+'°':'—')+'</span> / '+(w.high!=null?w.high+'°':'—')+'</span></div>').join('');
       body.innerHTML='<div class="wx-detail-hero"><div class="wx-detail-temp">'+d.temperature+'°</div><div class="wx-detail-cond">'+esc(cond)+' · '+esc(d.name)+'</div><div class="wx-detail-hilo">'+esc(hilo)+'</div></div>'
         +'<div class="wx-detail-cards">'+cards.map(c=>'<div class="wx-detail-card"><span>'+c[0]+'</span><strong>'+esc(c[1])+'</strong></div>').join('')+'</div>'
         +(hours?'<h3>'+t('逐小时预报','Hourly forecast')+'</h3>'+curve+'<div class="wx-detail-hourly">'+hours+'</div>':'')

@@ -102,6 +102,16 @@ export async function onRequestGet({ request, env }) {
     if (!cur) return json({ ok: false, reason: "no_data" });
     const days = data.forecastDaily?.days || [];
     const today = days.find(day => Date.parse(day.forecastStart) <= Date.now() && Date.parse(day.forecastEnd) > Date.now()) || days[0];
+    // WeatherKit 的逐日边界就是当地午夜（UTC 表示），由此反推城市 UTC 偏移（分钟），
+    // 前端据此把日出日落、逐小时、星期几都显示为城市当地时间，而非浏览者时区。
+    let tzOffset = null;
+    const dayStart = today ? Date.parse(today.forecastStart) : NaN;
+    if (Number.isFinite(dayStart)) {
+      const d0 = new Date(dayStart);
+      const mins = d0.getUTCHours() * 60 + d0.getUTCMinutes();
+      tzOffset = (1440 - mins) % 1440;
+      if (tzOffset > 720) tzOffset -= 1440;
+    }
     const hours = (data.forecastHourly?.hours || [])
       .filter(h => Date.parse(h.forecastStart) >= Date.now() - 3600000)
       .slice(0, 12)
@@ -135,6 +145,7 @@ export async function onRequestGet({ request, env }) {
       high: typeof today?.temperatureMax === "number" ? Math.round(today.temperatureMax) : null,
       low: typeof today?.temperatureMin === "number" ? Math.round(today.temperatureMin) : null,
       precipChance: typeof today?.precipitationChance === "number" ? Math.round(today.precipitationChance * 100) : null,
+      tzOffset,
       hourly: hours,
       week,
     });
