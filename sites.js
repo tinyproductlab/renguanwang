@@ -8633,5 +8633,15 @@ const SITES = [
 {name:"Sunrise Resorts & Cruises",url:"https://sunriseresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"埃及红海度假酒店集团，赫尔格达与沙姆沙伊赫见长",desc:"埃及红海度假酒店集团，赫尔格达与沙姆沙伊赫见长",official:true,region:"EG",plat:"网页",icon:"sunriseresorts.com.ico"},
 {name:"Peermont Hotels",url:"https://peermont.com",cat:"购物消费",rating:4,price:"免费",kw:"南非酒店与度假集团，约翰内斯堡与度假区多家门店",desc:"南非酒店与度假集团，约翰内斯堡与度假区多家门店",official:true,region:"ZA",plat:"网页",icon:"peermont.com.ico"},
 {name:"Toast Box",url:"https://toastbox.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡吐司咖啡连锁，新加坡起家，东南亚门店众多",desc:"新加坡吐司咖啡连锁，新加坡起家，东南亚门店众多",official:true,region:"SG",plat:"网页",icon:"toastbox.com.sg.ico"},
-{name:"Es Teler 77",url:"https://esteler77.com",cat:"生活服务",rating:4,price:"免费",kw:"印尼快餐连锁，雅加达起家，印尼本土代表性快餐品牌",desc:"印尼快餐连锁，雅加达起家，印尼本土代表性快餐品牌",official:true,region:"ID",plat:"网页",icon:"esteler77.com.ico"}
+{name:"Es Teler 77",url:"https://esteler77.com",cat:"生活服务",rating:4,price:"免费",kw:"印尼快餐连锁，雅加达起家，印尼本土代表性快餐品牌",desc:"印尼快餐连锁，雅加达起家，印尼本土代表性快餐品牌",official:true,region:"ID",plat:"网页",icon:"esteler77.com.ico"},
+{name:"Khazana Jewellers",url:"https://khazanajewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"印度珠宝连锁，钦奈起家，南印门店众多",desc:"印度珠宝连锁，钦奈起家，南印门店众多",official:true,region:"IN",plat:"网页",icon:"khazanajewellers.com.ico"},
+{name:"Folli Follie",url:"https://follifollie.com",cat:"购物消费",rating:4,price:"免费",kw:"希腊珠宝配饰品牌，雅典起家，时尚饰品见长",desc:"希腊珠宝配饰品牌，雅典起家，时尚饰品见长",official:true,region:"GR",plat:"网页",icon:"follifollie.com.ico"},
+{name:"乃が美",url:"https://nogami.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本生吐司连锁，大阪起家，排队名店",desc:"日本生吐司连锁，大阪起家，排队名店",official:true,region:"JP",plat:"网页",icon:"nogami.co.jp.ico"},
+{name:"顺成蛋糕",url:"https://shunchen.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾老牌面包蛋糕连锁，台北多家门店",desc:"台湾老牌面包蛋糕连锁，台北多家门店",official:true,region:"TW",plat:"网页",icon:"shunchen.com.tw.ico"},
+{name:"La Poire",url:"https://lapoire.com",cat:"购物消费",rating:4,price:"免费",kw:"埃及糕点连锁，开罗起家，全国门店众多",desc:"埃及糕点连锁，开罗起家，全国门店众多",official:true,region:"EG",plat:"网页",icon:"lapoire.com.ico"},
+{name:"Sasko",url:"https://sasko.co.za",cat:"购物消费",rating:4,price:"免费",kw:"南非面包品牌，约翰内斯堡起家，南部非洲多地有店",desc:"南非面包品牌，约翰内斯堡起家，南部非洲多地有店",official:true,region:"ZA",plat:"网页",icon:"sasko.co.za.ico"},
+{name:"Brigham and Women's Hospital",url:"https://brighamandwomens.org",cat:"生活服务",rating:4,price:"免费",kw:"美国波士顿布莱根妇女医院，哈佛医学院附属教学医院",desc:"美国波士顿布莱根妇女医院，哈佛医学院附属教学医院",official:true,region:"US",plat:"网页",icon:"brighamandwomens.org.ico"},
+{name:"CHUV Lausanne",url:"https://chuv.ch",cat:"生活服务",rating:4,price:"免费",kw:"瑞士洛桑大学医院中心，瑞士法语区大型教学医院",desc:"瑞士洛桑大学医院中心，瑞士法语区大型教学医院",official:true,region:"CH",plat:"网页",icon:"chuv.ch.ico"},
+{name:"CHU de Bordeaux",url:"https://chu-bordeaux.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国波尔多大学医院中心，法国西南部大型教学医院",desc:"法国波尔多大学医院中心，法国西南部大型教学医院",official:true,region:"FR",plat:"网页",icon:"chu-bordeaux.fr.ico"},
+{name:"Skåne University Hospital",url:"https://vard.skane.se/en/skane-university-hospital/",cat:"生活服务",rating:4,price:"免费",kw:"瑞典隆德斯科讷大学医院，瑞典南部大型大学附属医院",desc:"瑞典隆德斯科讷大学医院，瑞典南部大型大学附属医院",official:true,region:"SE",plat:"网页",icon:"vard.skane.se.ico"}
 ];
