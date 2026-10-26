@@ -8643,5 +8643,16 @@ const SITES = [
 {name:"Brigham and Women's Hospital",url:"https://brighamandwomens.org",cat:"生活服务",rating:4,price:"免费",kw:"美国波士顿布莱根妇女医院，哈佛医学院附属教学医院",desc:"美国波士顿布莱根妇女医院，哈佛医学院附属教学医院",official:true,region:"US",plat:"网页",icon:"brighamandwomens.org.ico"},
 {name:"CHUV Lausanne",url:"https://chuv.ch",cat:"生活服务",rating:4,price:"免费",kw:"瑞士洛桑大学医院中心，瑞士法语区大型教学医院",desc:"瑞士洛桑大学医院中心，瑞士法语区大型教学医院",official:true,region:"CH",plat:"网页",icon:"chuv.ch.ico"},
 {name:"CHU de Bordeaux",url:"https://chu-bordeaux.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国波尔多大学医院中心，法国西南部大型教学医院",desc:"法国波尔多大学医院中心，法国西南部大型教学医院",official:true,region:"FR",plat:"网页",icon:"chu-bordeaux.fr.ico"},
-{name:"Skåne University Hospital",url:"https://vard.skane.se/en/skane-university-hospital/",cat:"生活服务",rating:4,price:"免费",kw:"瑞典隆德斯科讷大学医院，瑞典南部大型大学附属医院",desc:"瑞典隆德斯科讷大学医院，瑞典南部大型大学附属医院",official:true,region:"SE",plat:"网页",icon:"vard.skane.se.ico"}
+{name:"Skåne University Hospital",url:"https://vard.skane.se/en/skane-university-hospital/",cat:"生活服务",rating:4,price:"免费",kw:"瑞典隆德斯科讷大学医院，瑞典南部大型大学附属医院",desc:"瑞典隆德斯科讷大学医院，瑞典南部大型大学附属医院",official:true,region:"SE",plat:"网页",icon:"vard.skane.se.ico"},
+{name:"Malwee Kids",url:"https://malweekids.com.br",cat:"购物消费",rating:4,price:"免费",kw:"巴西童装品牌，男童与女童服饰见长",desc:"巴西童装品牌，男童与女童服饰见长",official:true,region:"BR",plat:"网页",icon:"malweekids.com.br.ico"},
+{name:"Keedo",url:"https://keedo.co.za",cat:"购物消费",rating:4,price:"免费",kw:"南非童装连锁品牌，开普敦起家",desc:"南非童装连锁品牌，开普敦起家",official:true,region:"ZA",plat:"网页",icon:"keedo.co.za.ico"},
+{name:"Bóboli",url:"https://boboli.es",cat:"购物消费",rating:4,price:"免费",kw:"西班牙童装品牌，巴塞罗那起家",desc:"西班牙童装品牌，巴塞罗那起家",official:true,region:"ES",plat:"网页",icon:"boboli.es.ico"},
+{name:"老爺酒店集團",url:"https://hotelroyal.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾本土酒店集团，全台多家门店",desc:"台湾本土酒店集团，全台多家门店",official:true,region:"TW",plat:"网页",icon:"hotelroyal.com.tw.ico"},
+{name:"Fusion Hotel Group",url:"https://fusionhotelgroup.com",cat:"购物消费",rating:4,price:"免费",kw:"越南度假酒店集团，岘港与富国岛多家门店",desc:"越南度假酒店集团，岘港与富国岛多家门店",official:true,region:"VN",plat:"网页",icon:"fusionhotelgroup.com.ico"},
+{name:"Discovery Hospitality",url:"https://discoveryhotels-resorts.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾本土酒店集团，马尼拉与度假区多家门店",desc:"菲律宾本土酒店集团，马尼拉与度假区多家门店",official:true,region:"PH",plat:"网页",icon:"discoveryhotels-resorts.com.ico"},
+{name:"Emaar Hospitality",url:"https://emaarhospitality.com",cat:"购物消费",rating:4,price:"免费",kw:"阿联酋酒店集团，迪拜多家门店",desc:"阿联酋酒店集团，迪拜多家门店",official:true,region:"AE",plat:"网页",icon:"emaarhospitality.com.ico"},
+{name:"Southern Sun",url:"https://southernsun.com",cat:"购物消费",rating:4,price:"免费",kw:"南非酒店集团，约翰内斯堡与开普敦多家门店",desc:"南非酒店集团，约翰内斯堡与开普敦多家门店",official:true,region:"ZA",plat:"网页",icon:"southernsun.com.ico"},
+{name:"Mini Kalzone",url:"https://minikalzone.com.br",cat:"生活服务",rating:4,price:"免费",kw:"巴西卡尔宗卷饼连锁，圣卡塔琳娜起家",desc:"巴西卡尔宗卷饼连锁，圣卡塔琳娜起家",official:true,region:"BR",plat:"网页",icon:"minikalzone.com.br.ico"},
+{name:"Chinawok",url:"https://chinawok.com.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁中式快餐连锁，利马起家",desc:"秘鲁中式快餐连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"chinawok.com.pe.ico"},
+{name:"Stuff'd",url:"https://stuffed.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡烤肉卷饼连锁，新加坡起家",desc:"新加坡烤肉卷饼连锁，新加坡起家",official:true,region:"SG",plat:"网页",icon:"stuffed.com.sg.ico"}
 ];
