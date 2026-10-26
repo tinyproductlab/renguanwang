@@ -7671,7 +7671,6 @@ const SITES = [
 {name:"I Do",url:"https://www.ido.com",cat:"购物消费",rating:4,price:"免费",kw:"I Do 中国婚戒珠宝品牌",desc:"中国婚戒珠宝品牌",official:true,region:"CN",plat:"网页",icon:"www.ido.com.ico"},
 {name:"Macrina Bakery",url:"https://www.macrinabakery.com",cat:"购物消费",rating:4,price:"免费",kw:"Macrina Bakery 美国西雅图知名手工面包房",desc:"美国西雅图知名手工面包房",official:true,region:"US",plat:"网页",icon:"www.macrinabakery.com.ico"},
 {name:"Zingerman's Bakehouse",url:"https://www.zingermansbakehouse.com",cat:"购物消费",rating:4,price:"免费",kw:"Zingerman's Bakehouse 美国安娜堡知名手工面包房",desc:"美国安娜堡知名手工面包房",official:true,region:"US",plat:"网页",icon:"www.zingermansbakehouse.com.ico"},
-{name:"鲍师傅",url:"https://www.baoshifu.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"鲍师傅 中国知名糕点连锁品牌",desc:"中国知名糕点连锁品牌",official:true,region:"CN",plat:"网页",icon:"www.baoshifu.com.cn.ico"},
 {name:"NewYork-Presbyterian",url:"https://www.nyp.org",cat:"生活服务",rating:4,price:"免费",kw:"NewYork-Presbyterian 美国纽约大型学术医疗系统",desc:"美国纽约大型学术医疗系统",official:true,region:"US",plat:"网页",icon:"www.nyp.org.ico"},
 {name:"Adventist Health",url:"https://www.adventisthealth.org",cat:"生活服务",rating:4,price:"免费",kw:"Adventist Health 美国西部大型非营利医疗系统",desc:"美国西部大型非营利医疗系统",official:true,region:"US",plat:"网页",icon:"www.adventisthealth.org.ico"},
 {name:"MD Anderson Cancer Center",url:"https://www.mdanderson.org",cat:"生活服务",rating:4,price:"免费",kw:"MD Anderson Cancer Center 美国著名癌症专科医疗中心",desc:"美国著名癌症专科医疗中心",official:true,region:"US",plat:"网页",icon:"www.mdanderson.org.ico"},
