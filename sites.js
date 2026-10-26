@@ -8554,5 +8554,21 @@ const SITES = [
 {name:"Premier Hotels and Resorts",url:"https://premier-hotels.com.ua",cat:"购物消费",rating:4,price:"免费",kw:"乌克兰酒店连锁，多城有店",desc:"乌克兰酒店连锁，多城有店",official:true,region:"UA",plat:"网页",icon:"premier-hotels.com.ua.ico"},
 {name:"Hodelpa Hotels",url:"https://hodelpa.com",cat:"购物消费",rating:4,price:"免费",kw:"多米尼加酒店连锁，多家度假酒店",desc:"多米尼加酒店连锁，多家度假酒店",official:true,region:"DO",plat:"网页",icon:"hodelpa.com.ico"},
 {name:"Beachcomber Resorts",url:"https://beachcomber-hotels.com",cat:"购物消费",rating:4,price:"免费",kw:"毛里求斯度假酒店连锁，多家海滨度假村",desc:"毛里求斯度假酒店连锁，多家海滨度假村",official:true,region:"MU",plat:"网页",icon:"beachcomber-hotels.com.ico"},
-{name:"Sono Hotels & Resorts",url:"https://sonohotels.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国酒店度假村连锁，多地有店",desc:"韩国酒店度假村连锁，多地有店",official:true,region:"KR",plat:"网页",icon:"sonohotels.com.ico"}
+{name:"Sono Hotels & Resorts",url:"https://sonohotels.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国酒店度假村连锁，多地有店",desc:"韩国酒店度假村连锁，多地有店",official:true,region:"KR",plat:"网页",icon:"sonohotels.com.ico"},
+{name:"苏菲亚",url:"https://sophia.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾珠宝连锁，主打婚戒与轻奢饰品",desc:"台湾珠宝连锁，主打婚戒与轻奢饰品",official:true,region:"TW",plat:"网页",icon:"sophia.com.tw.ico"},
+{name:"Beauty Gems",url:"https://beautygems.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国珠宝制造零售商，彩色宝石见长",desc:"泰国珠宝制造零售商，彩色宝石见长",official:true,region:"TH",plat:"网页",icon:"beautygems.com.ico"},
+{name:"GOFAS Jewellery",url:"https://gofas.gr",cat:"购物消费",rating:4,price:"免费",kw:"希腊珠宝连锁，雅典起家多家门店",desc:"希腊珠宝连锁，雅典起家多家门店",official:true,region:"GR",plat:"网页",icon:"gofas.gr.ico"},
+{name:"Ourivesaria Tavares",url:"https://ourivesariatavares.pt",cat:"购物消费",rating:4,price:"免费",kw:"葡萄牙老牌珠宝连锁，里斯本多家门店",desc:"葡萄牙老牌珠宝连锁，里斯本多家门店",official:true,region:"PT",plat:"网页",icon:"ourivesariatavares.pt.ico"},
+{name:"GAIL's",url:"https://gailsbread.co.uk",cat:"购物消费",rating:4,price:"免费",kw:"英国手工面包连锁品牌",desc:"英国手工面包连锁品牌",official:true,region:"GB",plat:"网页",icon:"gailsbread.co.uk.ico"},
+{name:"Pandoro",url:"https://pandoro.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"新西兰连锁面包糕点品牌",desc:"新西兰连锁面包糕点品牌",official:true,region:"NZ",plat:"网页",icon:"pandoro.co.nz.ico"},
+{name:"Pitié-Salpêtrière Hospital",url:"https://pitiesalpetriere.aphp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎的大型公立大学医院",desc:"法国巴黎的大型公立大学医院",official:true,region:"FR",plat:"网页",icon:"pitiesalpetriere.aphp.fr.ico"},
+{name:"Geneva University Hospitals",url:"https://hug.ch",cat:"生活服务",rating:4,price:"免费",kw:"瑞士日内瓦的大学附属医院",desc:"瑞士日内瓦的大学附属医院",official:true,region:"CH",plat:"网页",icon:"hug.ch.ico"},
+{name:"Hospital da Luz Lisboa",url:"https://hospitaldaluz.pt",cat:"生活服务",rating:4,price:"免费",kw:"葡萄牙里斯本的大型私立医院",desc:"葡萄牙里斯本的大型私立医院",official:true,region:"PT",plat:"网页",icon:"hospitaldaluz.pt.ico"},
+{name:"Hospital Sírio-Libanês",url:"https://siriolibanes.org.br",cat:"生活服务",rating:4,price:"免费",kw:"巴西圣保罗的著名私立医院",desc:"巴西圣保罗的著名私立医院",official:true,region:"BR",plat:"网页",icon:"siriolibanes.org.br.ico"},
+{name:"Fitness First Australia",url:"https://fitnessfirst.com.au",cat:"生活服务",rating:4,price:"免费",kw:"澳大利亚连锁健身俱乐部",desc:"澳大利亚连锁健身俱乐部",official:true,region:"AU",plat:"网页",icon:"fitnessfirst.com.au.ico"},
+{name:"Fitness First Germany",url:"https://fitnessfirst.de",cat:"生活服务",rating:4,price:"免费",kw:"德国连锁健身俱乐部",desc:"德国连锁健身俱乐部",official:true,region:"DE",plat:"网页",icon:"fitnessfirst.de.ico"},
+{name:"Virgin Active Italia",url:"https://virginactive.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利高端连锁健身俱乐部",desc:"意大利高端连锁健身俱乐部",official:true,region:"IT",plat:"网页",icon:"virginactive.it.ico"},
+{name:"Smart Fit México",url:"https://smartfit.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"墨西哥平价连锁健身房",desc:"墨西哥平价连锁健身房",official:true,region:"MX",plat:"网页",icon:"smartfit.com.mx.ico"},
+{name:"Anytime Fitness Japan",url:"https://anytimefitness.co.jp",cat:"生活服务",rating:4,price:"免费",kw:"日本 24 小时连锁健身房",desc:"日本 24 小时连锁健身房",official:true,region:"JP",plat:"网页",icon:"anytimefitness.co.jp.ico"},
+{name:"Virgin Active South Africa",url:"https://virginactive.co.za",cat:"生活服务",rating:4,price:"免费",kw:"南非高端连锁健身俱乐部",desc:"南非高端连锁健身俱乐部",official:true,region:"ZA",plat:"网页",icon:"virginactive.co.za.ico"}
 ];
