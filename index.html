@@ -252,6 +252,24 @@
   .wxbg.wx-dusk{background:radial-gradient(ellipse at 80% 40%,#ff9e4dc9,transparent 50%),linear-gradient(180deg,#7a5a9e,#e08a5a 60%,#f2b58a)}
   .wxbg.wx-night .weather-line{color:#e1eafa}.wxbg.wx-night .chips button{background:#fff;color:#24324a}
   @media(prefers-reduced-motion:reduce){.wxbg{transition:none}.wxbg::after{animation:none!important}}
+  .wxbg.wx-fx::after{animation:none!important;opacity:0!important}
+  #weatherDetail{flex:0 0 auto;white-space:nowrap;min-height:34px;padding:6px 12px;border:1px solid #c9d5e2;border-radius:20px;background:#ffffffdc;color:#30435c;font:inherit;font-size:12px;cursor:pointer}
+  #weatherDetail:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+  .wx-detail{width:min(560px,calc(100% - 32px))}
+  .wx-detail-hero{text-align:center;padding:8px 0 4px}
+  .wx-detail-temp{font-size:64px;font-weight:700;line-height:1}
+  .wx-detail-cond{font-size:15px;color:#607087;margin-top:6px}
+  .wx-detail-hilo{font-size:13px;color:#607087;margin-top:4px}
+  .wx-detail-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+  .wx-detail-card{background:#f5f8fc;border:1px solid #e2e8f0;border-radius:12px;padding:10px 12px}
+  .wx-detail-card span{display:block;font-size:11px;color:#7b8aa0}
+  .wx-detail-card strong{display:block;font-size:16px;margin-top:4px}
+  .wx-detail-hourly{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 10px}
+  .wx-detail-hour{text-align:center;flex:0 0 auto;font-size:12px;color:#475569}
+  .wx-detail-hour b{display:block;font-size:15px;color:#20324a;margin-top:2px}
+  .wx-detail-week{margin:8px 0}
+  .wx-detail-day{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid #edf0f5;font-size:13px}
+  .wx-detail-day .lo{color:#7b8aa0}
   @media(max-width:600px){.searchbox input{min-width:0}.searchbox button{padding-inline:20px}.weather-line{gap:6px 12px;font-size:12px}}
 
 
@@ -468,7 +486,7 @@
       <button onclick="doSearch()" data-i18n="search_btn">搜索</button>
     </div>
     <div class="weather-line" id="weatherLine" hidden aria-live="polite"><span id="wx"></span></div>
-    <div class="weather-strip"><div id="weatherCities" class="weather-cities" aria-label="城市天气"></div><button type="button" id="weatherManage">管理城市</button></div>
+    <div class="weather-strip"><div id="weatherCities" class="weather-cities" aria-label="城市天气"></div><button type="button" id="weatherManage">管理城市</button><button type="button" id="weatherDetail">天气详情</button></div>
     <p id="weatherStatus" role="status"></p>
   </div>
   <div class="hero-chips">
@@ -1598,7 +1616,8 @@ if ("serviceWorker" in navigator) {
   });
 })();
 </script>
-<script src="/weather.js?v=20261024-global-cities" defer></script>
+<script src="/weather-fx.js?v=20261026-detail-fx" defer></script>
+<script src="/weather.js?v=20261026-detail-fx" defer></script>
 <dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
   <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
   <div class="weather-dialog-actions"><button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button></div>
@@ -1608,6 +1627,11 @@ if ("serviceWorker" in navigator) {
   <p id="weatherSearchStatus" role="status"></p><div id="weatherCityResults"></div>
   <p class="weather-location-note" id="weatherLocationHint">定位需要你的浏览器授权；精确位置只用于天气查询，不保存为城市记录。</p>
   <a href="https://open-meteo.com/en/docs/geocoding-api" target="_blank" rel="noopener noreferrer" class="weather-location-note">City search: Open-Meteo / GeoNames</a>
+</dialog>
+<dialog id="weatherDetailDialog" class="weather-dialog wx-detail" aria-labelledby="weatherDetailTitle">
+  <div class="weather-dialog-head"><h2 id="weatherDetailTitle">天气详情</h2><button type="button" id="weatherDetailClose" aria-label="关闭">×</button></div>
+  <div id="weatherDetailBody"></div>
+  <p class="weather-location-note"><a href="https://weatherkit.apple.com/legal-attribution.html" target="_blank" rel="noopener noreferrer">数据来源：Apple Weather</a></p>
 </dialog>
 </body>
 </html>

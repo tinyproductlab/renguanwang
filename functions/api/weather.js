@@ -93,7 +93,7 @@ export async function onRequestGet({ request, env }) {
     const token = await makeToken(env);
     const wkLang = WK_LANG[lang] || "en_US";
     const r = await fetch(
-      `https://weatherkit.apple.com/api/v1/weather/${wkLang}/${lat}/${lon}?dataSets=currentWeather,forecastDaily`,
+      `https://weatherkit.apple.com/api/v1/weather/${wkLang}/${lat}/${lon}?dataSets=currentWeather,forecastDaily,forecastHourly`,
       { headers: { Authorization: "Bearer " + token } }
     );
     if (!r.ok) return json({ ok: false, reason: "weatherkit_" + r.status });
@@ -102,6 +102,20 @@ export async function onRequestGet({ request, env }) {
     if (!cur) return json({ ok: false, reason: "no_data" });
     const days = data.forecastDaily?.days || [];
     const today = days.find(day => Date.parse(day.forecastStart) <= Date.now() && Date.parse(day.forecastEnd) > Date.now()) || days[0];
+    const hours = (data.forecastHourly?.hours || [])
+      .filter(h => Date.parse(h.forecastStart) >= Date.now() - 3600000)
+      .slice(0, 12)
+      .map(h => ({
+        t: h.forecastStart || null,
+        temp: typeof h.temperature === "number" ? Math.round(h.temperature) : null,
+        code: h.conditionCode || "",
+      }));
+    const week = days.slice(0, 7).map(d => ({
+      date: d.forecastStart || null,
+      high: typeof d.temperatureMax === "number" ? Math.round(d.temperatureMax) : null,
+      low: typeof d.temperatureMin === "number" ? Math.round(d.temperatureMin) : null,
+      code: d.conditionCode || "",
+    }));
     return json({
       ok: true,
       name,
@@ -116,6 +130,13 @@ export async function onRequestGet({ request, env }) {
       asOf: cur.asOf || null,
       attributionUrl: "https://weatherkit.apple.com/legal-attribution.html",
       humidity: typeof cur.humidity === "number" ? Math.round(cur.humidity * 100) : null,
+      feelsLike: typeof cur.temperatureApparent === "number" ? Math.round(cur.temperatureApparent) : null,
+      windSpeed: typeof cur.windSpeed === "number" ? Math.round(cur.windSpeed) : null,
+      high: typeof today?.temperatureMax === "number" ? Math.round(today.temperatureMax) : null,
+      low: typeof today?.temperatureMin === "number" ? Math.round(today.temperatureMin) : null,
+      precipChance: typeof today?.precipitationChance === "number" ? Math.round(today.precipitationChance * 100) : null,
+      hourly: hours,
+      week,
     });
   } catch (e) {
     return json({ ok: false, reason: "error" });
