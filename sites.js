@@ -8664,5 +8664,13 @@ const SITES = [
 {name:"Hôpital Bichat-Claude-Bernard",url:"https://bichat.aphp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎比沙医院，巴黎大学附属大型综合医院",desc:"法国巴黎比沙医院，巴黎大学附属大型综合医院",official:true,region:"FR",plat:"网页",icon:"bichat.aphp.fr.ico"},
 {name:"Hospital Vall d'Hebron",url:"https://vallhebron.com",cat:"生活服务",rating:4,price:"免费",kw:"西班牙巴塞罗那瓦尔德希伯伦医院，加泰罗尼亚大型大学附属医院",desc:"西班牙巴塞罗那瓦尔德希伯伦医院，加泰罗尼亚大型大学附属医院",official:true,region:"ES",plat:"网页",icon:"vallhebron.com.ico"},
 {name:"Policlinico Umberto I",url:"https://policlinicoumberto1.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利罗马翁贝托一世综合医院，罗马第一大学附属教学医院",desc:"意大利罗马翁贝托一世综合医院，罗马第一大学附属教学医院",official:true,region:"IT",plat:"网页",icon:"policlinicoumberto1.it.ico"},
-{name:"Blast Fitness",url:"https://blastfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"美国区域健身连锁，中西部与东部多家门店",desc:"美国区域健身连锁，中西部与东部多家门店",official:true,region:"US",plat:"网页",icon:"blastfitness.com.ico"}
+{name:"Blast Fitness",url:"https://blastfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"美国区域健身连锁，中西部与东部多家门店",desc:"美国区域健身连锁，中西部与东部多家门店",official:true,region:"US",plat:"网页",icon:"blastfitness.com.ico"},
+{name:"Poney",url:"https://poney.com.my",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚童装品牌，儿童服饰见长",desc:"马来西亚童装品牌，儿童服饰见长",official:true,region:"MY",plat:"网页",icon:"poney.com.my.ico"},
+{name:"My Eyelab",url:"https://myeyelab.com",cat:"购物消费",rating:4,price:"免费",kw:"美国眼镜连锁品牌，南部多家门店",desc:"美国眼镜连锁品牌，南部多家门店",official:true,region:"US",plat:"网页",icon:"myeyelab.com.ico"},
+{name:"Lahan Hotels",url:"https://lahanhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国本土连锁酒店集团",desc:"韩国本土连锁酒店集团",official:true,region:"KR",plat:"网页",icon:"lahanhotels.com.ico"},
+{name:"凯撒饭店连锁",url:"https://caesarpark.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾连锁饭店集团",desc:"台湾连锁饭店集团",official:true,region:"TW",plat:"网页",icon:"caesarpark.com.tw.ico"},
+{name:"烟波大饭店",url:"https://lakeshore.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾区域连锁饭店集团",desc:"台湾区域连锁饭店集团",official:true,region:"TW",plat:"网页",icon:"lakeshore.com.tw.ico"},
+{name:"如心酒店集团",url:"https://lhotelgroup.com",cat:"购物消费",rating:4,price:"免费",kw:"香港连锁酒店集团",desc:"香港连锁酒店集团",official:true,region:"HK",plat:"网页",icon:"lhotelgroup.com.ico"},
+{name:"君澜酒店集团",url:"https://naradahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"中国本土度假连锁酒店集团",desc:"中国本土度假连锁酒店集团",official:true,region:"CN",plat:"网页",icon:"naradahotels.com.ico"},
+{name:"譚仔三哥",url:"https://tjsamgor.com",cat:"生活服务",rating:4,price:"免费",kw:"香港米线快餐连锁，以麻辣米线见长",desc:"香港米线快餐连锁，以麻辣米线见长",official:true,region:"HK",plat:"网页",icon:"tjsamgor.com.ico"}
 ];
