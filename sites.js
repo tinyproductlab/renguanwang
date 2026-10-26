@@ -8799,5 +8799,13 @@ const SITES = [
 {name:"Pondok Indah Hospital",url:"https://rspondokindah.co.id",cat:"生活服务",rating:4,price:"免费",kw:"印尼知名私立医院",desc:"印尼知名私立医院",official:true,region:"ID",plat:"网页",icon:"rspondokindah.co.id.ico"},
 {name:"Jetts 24 Hour Fitness",url:"https://jetts.co.th",cat:"生活服务",rating:4,price:"免费",kw:"泰国24小时健身连锁品牌",desc:"泰国24小时健身连锁品牌",official:true,region:"TH",plat:"网页",icon:"jetts.co.th.ico"},
 {name:"LAVA",url:"https://yoga-lava.com",cat:"生活服务",rating:4,price:"免费",kw:"日本最大高温瑜伽连锁品牌",desc:"日本最大高温瑜伽连锁品牌",official:true,region:"JP",plat:"网页",icon:"yoga-lava.com.ico"},
-{name:"成吉思汗健身俱乐部",url:"https://gkfitnessxh.webnode.tw",cat:"生活服务",rating:4,price:"免费",kw:"台湾本土健身连锁品牌",desc:"台湾本土健身连锁品牌",official:true,region:"TW",plat:"网页",icon:"gkfitnessxh.webnode.tw.ico"}
+{name:"成吉思汗健身俱乐部",url:"https://gkfitnessxh.webnode.tw",cat:"生活服务",rating:4,price:"免费",kw:"台湾本土健身连锁品牌",desc:"台湾本土健身连锁品牌",official:true,region:"TW",plat:"网页",icon:"gkfitnessxh.webnode.tw.ico"},
+{name:"棵棵树",url:"https://kekeshu.com",cat:"购物消费",rating:4,price:"免费",kw:"中国童装品牌",desc:"中国童装品牌",official:true,region:"CN",plat:"网页",icon:"kekeshu.com.ico"},
+{name:"贝亲泰国",url:"https://pigeon.co.th",cat:"购物消费",rating:4,price:"免费",kw:"泰国贝亲母婴用品官网",desc:"泰国贝亲母婴用品官网",official:true,region:"TH",plat:"网页",icon:"pigeon.co.th.ico"},
+{name:"希岸酒店",url:"https://xana.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"铂涛旗下轻中端酒店品牌",desc:"铂涛旗下轻中端酒店品牌",official:true,region:"CN",plat:"网页",icon:"xana.com.cn.ico"},
+{name:"晶华酒店集团",url:"https://grandformosa.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾晶华酒店集团官网",desc:"台湾晶华酒店集团官网",official:true,region:"TW",plat:"网页",icon:"grandformosa.com.tw.ico"},
+{name:"Padma Hotels",url:"https://padmahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"印尼精品度假酒店集团",desc:"印尼精品度假酒店集团",official:true,region:"ID",plat:"网页",icon:"padmahotels.com.ico"},
+{name:"YTL Hotels",url:"https://ytlhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚杨忠礼酒店集团",desc:"马来西亚杨忠礼酒店集团",official:true,region:"MY",plat:"网页",icon:"ytlhotels.com.ico"},
+{name:"Crimson Hotels",url:"https://crimsonhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾本土酒店集团",desc:"菲律宾本土酒店集团",official:true,region:"PH",plat:"网页",icon:"crimsonhotel.com.ico"},
+{name:"华莱士",url:"https://cnhls.com",cat:"生活服务",rating:4,price:"免费",kw:"中国平价炸鸡汉堡连锁",desc:"中国平价炸鸡汉堡连锁",official:true,region:"CN",plat:"网页",icon:"cnhls.com.ico"}
 ];
