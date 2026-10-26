@@ -8778,5 +8778,7 @@ const SITES = [
 {name:"Buffalo Burger",url:"https://buffaloburger.com",cat:"生活服务",rating:4,price:"免费",kw:"埃及汉堡连锁，以手工汉堡见长",desc:"埃及汉堡连锁，以手工汉堡见长",official:true,region:"EG",plat:"网页",icon:"buffaloburger.com.ico"},
 {name:"Bazooka Fried Chicken",url:"https://bazookafriedchicken.com",cat:"生活服务",rating:4,price:"免费",kw:"埃及炸鸡连锁，以香辣炸鸡见长",desc:"埃及炸鸡连锁，以香辣炸鸡见长",official:true,region:"EG",plat:"网页",icon:"bazookafriedchicken.com.ico"},
 {name:"Da Grasso",url:"https://dagrasso.pl",cat:"生活服务",rating:4,price:"免费",kw:"波兰披萨连锁，以平价披萨见长",desc:"波兰披萨连锁，以平价披萨见长",official:true,region:"PL",plat:"网页",icon:"dagrasso.pl.ico"},
-{name:"Mooyah",url:"https://mooyah.com",cat:"生活服务",rating:4,price:"免费",kw:"美国汉堡连锁，以手工汉堡见长",desc:"美国汉堡连锁，以手工汉堡见长",official:true,region:"US",plat:"网页",icon:"mooyah.com.ico"}
+{name:"Mooyah",url:"https://mooyah.com",cat:"生活服务",rating:4,price:"免费",kw:"美国汉堡连锁，以手工汉堡见长",desc:"美国汉堡连锁，以手工汉堡见长",official:true,region:"US",plat:"网页",icon:"mooyah.com.ico"},
+{name:"옵스",url:"https://ops.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国釜山知名面包房",desc:"韩国釜山知名面包房",official:true,region:"KR",plat:"网页",icon:"ops.co.kr.ico"},
+{name:"温哥华儿童医院",url:"https://bcchildrens.ca",cat:"生活服务",rating:4,price:"免费",kw:"加拿大不列颠哥伦比亚省著名儿童医院",desc:"加拿大不列颠哥伦比亚省著名儿童医院",official:true,region:"CA",plat:"网页",icon:"bcchildrens.ca.ico"}
 ];
