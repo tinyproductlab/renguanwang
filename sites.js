@@ -8780,5 +8780,18 @@ const SITES = [
 {name:"Da Grasso",url:"https://dagrasso.pl",cat:"生活服务",rating:4,price:"免费",kw:"波兰披萨连锁，以平价披萨见长",desc:"波兰披萨连锁，以平价披萨见长",official:true,region:"PL",plat:"网页",icon:"dagrasso.pl.ico"},
 {name:"Mooyah",url:"https://mooyah.com",cat:"生活服务",rating:4,price:"免费",kw:"美国汉堡连锁，以手工汉堡见长",desc:"美国汉堡连锁，以手工汉堡见长",official:true,region:"US",plat:"网页",icon:"mooyah.com.ico"},
 {name:"옵스",url:"https://ops.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国釜山知名面包房",desc:"韩国釜山知名面包房",official:true,region:"KR",plat:"网页",icon:"ops.co.kr.ico"},
-{name:"温哥华儿童医院",url:"https://bcchildrens.ca",cat:"生活服务",rating:4,price:"免费",kw:"加拿大不列颠哥伦比亚省著名儿童医院",desc:"加拿大不列颠哥伦比亚省著名儿童医院",official:true,region:"CA",plat:"网页",icon:"bcchildrens.ca.ico"}
+{name:"温哥华儿童医院",url:"https://bcchildrens.ca",cat:"生活服务",rating:4,price:"免费",kw:"加拿大不列颠哥伦比亚省著名儿童医院",desc:"加拿大不列颠哥伦比亚省著名儿童医院",official:true,region:"CA",plat:"网页",icon:"bcchildrens.ca.ico"},
+{name:"Nac Nac",url:"https://nacnac.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾婴幼儿护理品牌",desc:"台湾婴幼儿护理品牌",official:true,region:"TW",plat:"网页",icon:"nacnac.com.tw.ico"},
+{name:"Zwitsal",url:"https://zwitsal.co.id",cat:"购物消费",rating:4,price:"免费",kw:"印尼婴幼儿护理品牌",desc:"印尼婴幼儿护理品牌",official:true,region:"ID",plat:"网页",icon:"zwitsal.co.id.ico"},
+{name:"Babi Mild",url:"https://babimild.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国婴幼儿护理品牌",desc:"泰国婴幼儿护理品牌",official:true,region:"TH",plat:"网页",icon:"babimild.com.ico"},
+{name:"Hegen",url:"https://hegen.com",cat:"购物消费",rating:4,price:"免费",kw:"新加坡婴幼儿奶瓶品牌",desc:"新加坡婴幼儿奶瓶品牌",official:true,region:"SG",plat:"网页",icon:"hegen.com.ico"},
+{name:"Pureen",url:"https://pureen.com.my",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚婴幼儿护理品牌",desc:"马来西亚婴幼儿护理品牌",official:true,region:"MY",plat:"网页",icon:"pureen.com.my.ico"},
+{name:"Tiny Buds",url:"https://tinybudsbaby.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾婴幼儿护理品牌",desc:"菲律宾婴幼儿护理品牌",official:true,region:"PH",plat:"网页",icon:"tinybudsbaby.com.ico"},
+{name:"Mee Mee",url:"https://meemee.in",cat:"购物消费",rating:4,price:"免费",kw:"印度婴幼儿用品品牌",desc:"印度婴幼儿用品品牌",official:true,region:"IN",plat:"网页",icon:"meemee.in.ico"},
+{name:"仁爱眼镜",url:"https://renai.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾连锁眼镜品牌",desc:"台湾连锁眼镜品牌",official:true,region:"TW",plat:"网页",icon:"renai.com.tw.ico"},
+{name:"Shilla Stay",url:"https://shillastay.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国新罗酒店旗下商务连锁",desc:"韩国新罗酒店旗下商务连锁",official:true,region:"KR",plat:"网页",icon:"shillastay.com.ico"},
+{name:"Nine Tree",url:"https://ninetreehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国精品连锁酒店",desc:"韩国精品连锁酒店",official:true,region:"KR",plat:"网页",icon:"ninetreehotels.com.ico"},
+{name:"天成饭店集团",url:"https://cosmos-hotel.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾本土饭店集团",desc:"台湾本土饭店集团",official:true,region:"TW",plat:"网页",icon:"cosmos-hotel.com.tw.ico"},
+{name:"维也纳酒店",url:"https://viennahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"中国中端连锁酒店",desc:"中国中端连锁酒店",official:true,region:"CN",plat:"网页",icon:"viennahotels.com.ico"},
+{name:"桔子酒店",url:"https://orangehotel.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国设计型连锁酒店",desc:"中国设计型连锁酒店",official:true,region:"CN",plat:"网页",icon:"orangehotel.com.cn.ico"}
 ];
