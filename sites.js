@@ -8619,5 +8619,19 @@ const SITES = [
 {name:"Hospital de Clínicas José de San Martín",url:"https://hospitaldeclinicas.uba.ar",cat:"生活服务",rating:4,price:"免费",kw:"阿根廷布宜诺斯艾利斯大学附属医院，阿根廷顶尖教学医院",desc:"阿根廷布宜诺斯艾利斯大学附属医院，阿根廷顶尖教学医院",official:true,region:"AR",plat:"网页",icon:"hospitaldeclinicas.uba.ar.ico"},
 {name:"Hospital Clínico Universidad de Chile",url:"https://redclinica.cl",cat:"生活服务",rating:4,price:"免费",kw:"智利大学附属临床医院，智利知名公立教学医院",desc:"智利大学附属临床医院，智利知名公立教学医院",official:true,region:"CL",plat:"网页",icon:"redclinica.cl.ico"},
 {name:"Ospedale Niguarda",url:"https://ospedaleniguarda.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利米兰尼瓜尔达医院，伦巴第大区大型综合医院",desc:"意大利米兰尼瓜尔达医院，伦巴第大区大型综合医院",official:true,region:"IT",plat:"网页",icon:"ospedaleniguarda.it.ico"},
-{name:"Centro Hospitalar Universitário Lisboa Central",url:"https://chlc.min-saude.pt",cat:"生活服务",rating:4,price:"免费",kw:"葡萄牙里斯本中央大学医院中心，葡萄牙大型公立医院",desc:"葡萄牙里斯本中央大学医院中心，葡萄牙大型公立医院",official:true,region:"PT",plat:"网页",icon:"chlc.min-saude.pt.ico"}
+{name:"Centro Hospitalar Universitário Lisboa Central",url:"https://chlc.min-saude.pt",cat:"生活服务",rating:4,price:"免费",kw:"葡萄牙里斯本中央大学医院中心，葡萄牙大型公立医院",desc:"葡萄牙里斯本中央大学医院中心，葡萄牙大型公立医院",official:true,region:"PT",plat:"网页",icon:"chlc.min-saude.pt.ico"},
+{name:"Lamoon",url:"https://lamoon.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国母婴用品品牌，有机洗护见长",desc:"泰国母婴用品品牌，有机洗护见长",official:true,region:"TH",plat:"网页",icon:"lamoon.com.ico"},
+{name:"Enfant",url:"https://enfant.co.th",cat:"购物消费",rating:4,price:"免费",kw:"泰国婴幼儿服饰品牌，商场渠道为主",desc:"泰国婴幼儿服饰品牌，商场渠道为主",official:true,region:"TH",plat:"网页",icon:"enfant.co.th.ico"},
+{name:"Nous",url:"https://nous.vn",cat:"购物消费",rating:4,price:"免费",kw:"越南母婴连锁品牌，婴幼儿服饰与用品并售",desc:"越南母婴连锁品牌，婴幼儿服饰与用品并售",official:true,region:"VN",plat:"网页",icon:"nous.vn.ico"},
+{name:"Gini & Jony",url:"https://ginijony.com",cat:"购物消费",rating:4,price:"免费",kw:"印度童装连锁品牌，全国门店众多",desc:"印度童装连锁品牌，全国门店众多",official:true,region:"IN",plat:"网页",icon:"ginijony.com.ico"},
+{name:"Lilica Ripilica",url:"https://lilicaripilica.com.br",cat:"购物消费",rating:4,price:"免费",kw:"巴西童装品牌，女童服饰见长",desc:"巴西童装品牌，女童服饰见长",official:true,region:"BR",plat:"网页",icon:"lilicaripilica.com.br.ico"},
+{name:"Look Optics",url:"https://lookoptics.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国眼镜连锁，主打时尚镜架与快速配镜",desc:"韩国眼镜连锁，主打时尚镜架与快速配镜",official:true,region:"KR",plat:"网页",icon:"lookoptics.co.kr.ico"},
+{name:"漢來大飯店",url:"https://grand-hilai.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾高雄老牌五星级酒店，南部知名地标",desc:"台湾高雄老牌五星级酒店，南部知名地标",official:true,region:"TW",plat:"网页",icon:"grand-hilai.com.tw.ico"},
+{name:"仕德福酒店",url:"https://stanfordhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"香港本土酒店集团，九龙多家门店",desc:"香港本土酒店集团，九龙多家门店",official:true,region:"HK",plat:"网页",icon:"stanfordhotels.com.ico"},
+{name:"Furama Hotels",url:"https://furama.com",cat:"购物消费",rating:4,price:"免费",kw:"新加坡本土酒店集团，东南亚多地有店",desc:"新加坡本土酒店集团，东南亚多地有店",official:true,region:"SG",plat:"网页",icon:"furama.com.ico"},
+{name:"U Hotels & Resorts",url:"https://uhotelsresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国精品度假酒店集团，普吉与苏梅多家门店",desc:"泰国精品度假酒店集团，普吉与苏梅多家门店",official:true,region:"TH",plat:"网页",icon:"uhotelsresorts.com.ico"},
+{name:"Sunrise Resorts & Cruises",url:"https://sunriseresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"埃及红海度假酒店集团，赫尔格达与沙姆沙伊赫见长",desc:"埃及红海度假酒店集团，赫尔格达与沙姆沙伊赫见长",official:true,region:"EG",plat:"网页",icon:"sunriseresorts.com.ico"},
+{name:"Peermont Hotels",url:"https://peermont.com",cat:"购物消费",rating:4,price:"免费",kw:"南非酒店与度假集团，约翰内斯堡与度假区多家门店",desc:"南非酒店与度假集团，约翰内斯堡与度假区多家门店",official:true,region:"ZA",plat:"网页",icon:"peermont.com.ico"},
+{name:"Toast Box",url:"https://toastbox.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡吐司咖啡连锁，新加坡起家，东南亚门店众多",desc:"新加坡吐司咖啡连锁，新加坡起家，东南亚门店众多",official:true,region:"SG",plat:"网页",icon:"toastbox.com.sg.ico"},
+{name:"Es Teler 77",url:"https://esteler77.com",cat:"生活服务",rating:4,price:"免费",kw:"印尼快餐连锁，雅加达起家，印尼本土代表性快餐品牌",desc:"印尼快餐连锁，雅加达起家，印尼本土代表性快餐品牌",official:true,region:"ID",plat:"网页",icon:"esteler77.com.ico"}
 ];
