@@ -8814,5 +8814,13 @@ const SITES = [
 {name:"陈笃生医院",url:"https://ttsh.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡知名公立综合医院",desc:"新加坡知名公立综合医院",official:true,region:"SG",plat:"网页",icon:"ttsh.com.sg.ico"},
 {name:"卡里亚迪医生中央医院",url:"https://rskariadi.co.id",cat:"生活服务",rating:4,price:"免费",kw:"印尼三宝垄知名公立综合医院",desc:"印尼三宝垄知名公立综合医院",official:true,region:"ID",plat:"网页",icon:"rskariadi.co.id.ico"},
 {name:"108军中央医院",url:"https://benhvien108.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南河内知名军队综合医院",desc:"越南河内知名军队综合医院",official:true,region:"VN",plat:"网页",icon:"benhvien108.vn.ico"},
-{name:"胡志明市医药大学医院",url:"https://umc.edu.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南胡志明市知名大学附属医院",desc:"越南胡志明市知名大学附属医院",official:true,region:"VN",plat:"网页",icon:"umc.edu.vn.ico"}
+{name:"胡志明市医药大学医院",url:"https://umc.edu.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南胡志明市知名大学附属医院",desc:"越南胡志明市知名大学附属医院",official:true,region:"VN",plat:"网页",icon:"umc.edu.vn.ico"},
+{name:"和光堂",url:"https://wakodo.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本婴幼儿食品品牌",desc:"日本婴幼儿食品品牌",official:true,region:"JP",plat:"网页",icon:"wakodo.co.jp.ico"},
+{name:"宫中秘策",url:"https://goongbe.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国婴童护肤品牌",desc:"韩国婴童护肤品牌",official:true,region:"KR",plat:"网页",icon:"goongbe.com.ico"},
+{name:"Gerber",url:"https://gerber.com",cat:"购物消费",rating:4,price:"免费",kw:"美国婴幼儿食品品牌",desc:"美国婴幼儿食品品牌",official:true,region:"US",plat:"网页",icon:"gerber.com.ico"},
+{name:"Cussons Baby",url:"https://cussonsbaby.co.id",cat:"购物消费",rating:4,price:"免费",kw:"印尼婴童护理品牌",desc:"印尼婴童护理品牌",official:true,region:"ID",plat:"网页",icon:"cussonsbaby.co.id.ico"},
+{name:"阿雅娜度假村集团",url:"https://ayana.com",cat:"购物消费",rating:4,price:"免费",kw:"印尼巴厘岛知名度假酒店集团",desc:"印尼巴厘岛知名度假酒店集团",official:true,region:"ID",plat:"网页",icon:"ayana.com.ico"},
+{name:"云顶世界酒店集团",url:"https://resortsworldgenting.com",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚云顶高原综合度假村酒店集团",desc:"马来西亚云顶高原综合度假村酒店集团",official:true,region:"MY",plat:"网页",icon:"resortsworldgenting.com.ico"},
+{name:"味千拉面",url:"https://ajisen.co.jp",cat:"生活服务",rating:4,price:"免费",kw:"日本起家的拉面连锁品牌",desc:"日本起家的拉面连锁品牌",official:true,region:"JP",plat:"网页",icon:"ajisen.co.jp.ico"},
+{name:"富士荞麦面",url:"https://fujisoba.co.jp",cat:"生活服务",rating:4,price:"免费",kw:"日本起家的站食荞麦面连锁品牌",desc:"日本起家的站食荞麦面连锁品牌",official:true,region:"JP",plat:"网页",icon:"fujisoba.co.jp.ico"}
 ];
