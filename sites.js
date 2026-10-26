@@ -6765,7 +6765,6 @@ const SITES = [
 {name:"Bluefit",url:"https://www.bluefit.com.br",cat:"生活服务",rating:4,price:"免费",kw:"Bluefit 巴西连锁健身房",desc:"巴西连锁健身房",official:true,region:"BR",plat:"网页",icon:"www.bluefit.com.br.ico"},
 {name:"贝贝熊",url:"https://www.beibeixiong.com",cat:"购物消费",rating:4,price:"免费",kw:"贝贝熊 湖南母婴用品连锁",desc:"湖南母婴用品连锁",official:true,region:"CN",plat:"网页",icon:"www.beibeixiong.com.ico"},
 {name:"乐友孕婴童",url:"https://www.leyou.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"乐友孕婴童 中国母婴用品连锁",desc:"中国母婴用品连锁",official:true,region:"CN",plat:"网页",icon:"www.leyou.com.cn.ico"},
-{name:"巴拉巴拉",url:"https://www.balabala.com",cat:"购物消费",rating:4,price:"免费",kw:"巴拉巴拉 中国知名童装品牌",desc:"中国知名童装品牌",official:true,region:"CN",plat:"网页",icon:"www.balabala.com.ico"},
 {name:"小猪班纳",url:"https://www.ebhpc.com",cat:"购物消费",rating:4,price:"免费",kw:"小猪班纳 中国童装品牌",desc:"中国童装品牌",official:true,region:"CN",plat:"网页",icon:"www.ebhpc.com.ico"},
 {name:"Anakku",url:"https://www.anakku.com.my",cat:"购物消费",rating:4,price:"免费",kw:"Anakku 马来西亚母婴用品连锁",desc:"马来西亚母婴用品连锁",official:true,region:"MY",plat:"网页",icon:"www.anakku.com.my.ico"},
 {name:"The Entertainer",url:"https://www.thetoyshop.com",cat:"购物消费",rating:4,price:"免费",kw:"The Entertainer 英国玩具连锁",desc:"英国玩具连锁",official:true,region:"GB",plat:"网页",icon:"www.thetoyshop.com.ico"},
