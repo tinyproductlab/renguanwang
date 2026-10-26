@@ -185,24 +185,26 @@ async function verify(u, host, reg, desc, env) {
 }
 
 // RDAP 查域名注册时间（年），查不到返回 null
+// 注意预算：整条验真链路跑在 Pages Function 里，RDAP 单源超时重试会把总耗时
+// 顶到 30 秒以上，连累后头的页面抓取和 AI 全灭（2026-10-26 实测 GNU 一例）。
+// 因此每源只试一次、5 秒超时，且权威源放前面。
 async function rdapAge(reg) {
-  const urls = ["https://rdap.org/domain/" + reg];
+  const urls = [];
   if (/\.com$|\.net$/.test(reg)) urls.push("https://rdap.verisign.com/net/v1/domain/" + reg);
   if (/\.org$/.test(reg)) urls.push("https://rdap.pir.org/rdap/domain/" + reg);
+  urls.push("https://rdap.org/domain/" + reg);
   for (const url of urls) {
-    for (let attempt = 0; attempt < 2; attempt++) {
-      try {
-        const r = await fetch(url, {
-          headers: { Accept: "application/rdap+json" },
-          signal: AbortSignal.timeout(8000),
-        });
-        if (!r.ok) break;
-        const j = await r.json();
-        const ev = (j.events || []).find((e) => e.eventAction === "registration");
-        if (ev && ev.eventDate) return (Date.now() - new Date(ev.eventDate).getTime()) / 31557600000;
-        return null;
-      } catch (e) { /* 超时重试一次，再换下一个源 */ }
-    }
+    try {
+      const r = await fetch(url, {
+        headers: { Accept: "application/rdap+json" },
+        signal: AbortSignal.timeout(5000),
+      });
+      if (!r.ok) continue;
+      const j = await r.json();
+      const ev = (j.events || []).find((e) => e.eventAction === "registration");
+      if (ev && ev.eventDate) return (Date.now() - new Date(ev.eventDate).getTime()) / 31557600000;
+      return null;
+    } catch (e) { /* 换下一个源 */ }
   }
   return null;
 }
