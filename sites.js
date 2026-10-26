@@ -8610,5 +8610,14 @@ const SITES = [
 {name:"Harbour Plaza",url:"https://harbourplaza.com",cat:"购物消费",rating:4,price:"免费",kw:"香港连锁酒店品牌，港岛与九龙多家门店",desc:"香港连锁酒店品牌，港岛与九龙多家门店",official:true,region:"HK",plat:"网页",icon:"harbourplaza.com.ico"},
 {name:"Amari",url:"https://amari.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国酒店品牌，曼谷与度假区多家门店",desc:"泰国酒店品牌，曼谷与度假区多家门店",official:true,region:"TH",plat:"网页",icon:"amari.com.ico"},
 {name:"Pedro, Juan y Diego",url:"https://pjd.cl",cat:"生活服务",rating:4,price:"免费",kw:"智利汉堡连锁，圣地亚哥起家",desc:"智利汉堡连锁，圣地亚哥起家",official:true,region:"CL",plat:"网页",icon:"pjd.cl.ico"},
-{name:"Norky's",url:"https://norkys.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁烤鸡连锁，利马起家",desc:"秘鲁烤鸡连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"norkys.pe.ico"}
+{name:"Norky's",url:"https://norkys.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁烤鸡连锁，利马起家",desc:"秘鲁烤鸡连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"norkys.pe.ico"},
+{name:"一之轩",url:"https://ichinoan.com",cat:"购物消费",rating:4,price:"免费",kw:"台湾面包糕点连锁，台北多家门店",desc:"台湾面包糕点连锁，台北多家门店",official:true,region:"TW",plat:"网页",icon:"ichinoan.com.ico"},
+{name:"Massachusetts General Hospital",url:"https://massgeneral.org",cat:"生活服务",rating:4,price:"免费",kw:"美国波士顿哈佛大学附属综合医院，全美历史最悠久的教学医院之一",desc:"美国波士顿哈佛大学附属综合医院，全美历史最悠久的教学医院之一",official:true,region:"US",plat:"网页",icon:"massgeneral.org.ico"},
+{name:"Vancouver General Hospital",url:"https://www.vch.ca/en/location/vancouver-general-hospital",cat:"生活服务",rating:4,price:"免费",kw:"加拿大温哥华综合医院，不列颠哥伦比亚大学附属教学医院",desc:"加拿大温哥华综合医院，不列颠哥伦比亚大学附属教学医院",official:true,region:"CA",plat:"网页",icon:"www.vch.ca.ico"},
+{name:"Hospital General de México",url:"https://hgm.salud.gob.mx",cat:"生活服务",rating:4,price:"免费",kw:"墨西哥城大型公立综合医院，墨西哥历史最悠久的医院之一",desc:"墨西哥城大型公立综合医院，墨西哥历史最悠久的医院之一",official:true,region:"MX",plat:"网页",icon:"hgm.salud.gob.mx.ico"},
+{name:"Hospital das Clínicas da FMUSP",url:"https://hc.fm.usp.br",cat:"生活服务",rating:4,price:"免费",kw:"巴西圣保罗大学附属临床医院，拉美规模最大的医院综合体",desc:"巴西圣保罗大学附属临床医院，拉美规模最大的医院综合体",official:true,region:"BR",plat:"网页",icon:"hc.fm.usp.br.ico"},
+{name:"Hospital de Clínicas José de San Martín",url:"https://hospitaldeclinicas.uba.ar",cat:"生活服务",rating:4,price:"免费",kw:"阿根廷布宜诺斯艾利斯大学附属医院，阿根廷顶尖教学医院",desc:"阿根廷布宜诺斯艾利斯大学附属医院，阿根廷顶尖教学医院",official:true,region:"AR",plat:"网页",icon:"hospitaldeclinicas.uba.ar.ico"},
+{name:"Hospital Clínico Universidad de Chile",url:"https://redclinica.cl",cat:"生活服务",rating:4,price:"免费",kw:"智利大学附属临床医院，智利知名公立教学医院",desc:"智利大学附属临床医院，智利知名公立教学医院",official:true,region:"CL",plat:"网页",icon:"redclinica.cl.ico"},
+{name:"Ospedale Niguarda",url:"https://ospedaleniguarda.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利米兰尼瓜尔达医院，伦巴第大区大型综合医院",desc:"意大利米兰尼瓜尔达医院，伦巴第大区大型综合医院",official:true,region:"IT",plat:"网页",icon:"ospedaleniguarda.it.ico"},
+{name:"Centro Hospitalar Universitário Lisboa Central",url:"https://chlc.min-saude.pt",cat:"生活服务",rating:4,price:"免费",kw:"葡萄牙里斯本中央大学医院中心，葡萄牙大型公立医院",desc:"葡萄牙里斯本中央大学医院中心，葡萄牙大型公立医院",official:true,region:"PT",plat:"网页",icon:"chlc.min-saude.pt.ico"}
 ];
