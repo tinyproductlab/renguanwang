@@ -11,7 +11,11 @@ export async function onRequestGet(context) {
     if (!kv) return json({ ok: true, enabled: false, count: null });
     const url = new URL(request.url);
     let n = parseInt((await kv.get("total")) || "0", 10) || 0;
-    if (url.searchParams.get("hit") === "1") {
+    // 计数基数 2026：存量小于 2026 时一次性抬到 2026（此次不另计），之后正常累加
+    if (n < 2026) {
+      n = 2026;
+      await kv.put("total", String(n));
+    } else if (url.searchParams.get("hit") === "1") {
       n += 1;
       await kv.put("total", String(n));
     }
