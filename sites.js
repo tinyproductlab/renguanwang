@@ -8672,5 +8672,15 @@ const SITES = [
 {name:"烟波大饭店",url:"https://lakeshore.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾区域连锁饭店集团",desc:"台湾区域连锁饭店集团",official:true,region:"TW",plat:"网页",icon:"lakeshore.com.tw.ico"},
 {name:"如心酒店集团",url:"https://lhotelgroup.com",cat:"购物消费",rating:4,price:"免费",kw:"香港连锁酒店集团",desc:"香港连锁酒店集团",official:true,region:"HK",plat:"网页",icon:"lhotelgroup.com.ico"},
 {name:"君澜酒店集团",url:"https://naradahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"中国本土度假连锁酒店集团",desc:"中国本土度假连锁酒店集团",official:true,region:"CN",plat:"网页",icon:"naradahotels.com.ico"},
-{name:"譚仔三哥",url:"https://tjsamgor.com",cat:"生活服务",rating:4,price:"免费",kw:"香港米线快餐连锁，以麻辣米线见长",desc:"香港米线快餐连锁，以麻辣米线见长",official:true,region:"HK",plat:"网页",icon:"tjsamgor.com.ico"}
+{name:"譚仔三哥",url:"https://tjsamgor.com",cat:"生活服务",rating:4,price:"免费",kw:"香港米线快餐连锁，以麻辣米线见长",desc:"香港米线快餐连锁，以麻辣米线见长",official:true,region:"HK",plat:"网页",icon:"tjsamgor.com.ico"},
+{name:"MA BELLE",url:"https://mabelle.com",cat:"购物消费",rating:4,price:"免费",kw:"香港珠宝连锁品牌，以婚戒与轻珠宝见长",desc:"香港珠宝连锁品牌，以婚戒与轻珠宝见长",official:true,region:"HK",plat:"网页",icon:"mabelle.com.ico"},
+{name:"佳德糕饼",url:"https://chiate.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台北老牌糕饼店，以凤梨酥见长",desc:"台北老牌糕饼店，以凤梨酥见长",official:true,region:"TW",plat:"网页",icon:"chiate.com.tw.ico"},
+{name:"Blue Ribbon Bakery",url:"https://blueribbon.co.za",cat:"购物消费",rating:4,price:"免费",kw:"南非面包品牌，全国多家门店",desc:"南非面包品牌，全国多家门店",official:true,region:"ZA",plat:"网页",icon:"blueribbon.co.za.ico"},
+{name:"Coughlans Bakery",url:"https://coughlans.com",cat:"购物消费",rating:4,price:"免费",kw:"英国南部区域面包连锁",desc:"英国南部区域面包连锁",official:true,region:"GB",plat:"网页",icon:"coughlans.com.ico"},
+{name:"哥伦比亚大学欧文医学中心",url:"https://cuimc.columbia.edu",cat:"生活服务",rating:4,price:"免费",kw:"美国纽约哥伦比亚大学附属医学中心",desc:"美国纽约哥伦比亚大学附属医学中心",official:true,region:"US",plat:"网页",icon:"cuimc.columbia.edu.ico"},
+{name:"密歇根大学健康中心",url:"https://michiganmedicine.org",cat:"生活服务",rating:4,price:"免费",kw:"美国密歇根州密歇根大学附属医疗系统",desc:"美国密歇根州密歇根大学附属医疗系统",official:true,region:"US",plat:"网页",icon:"michiganmedicine.org.ico"},
+{name:"华盛顿大学医学中心",url:"https://uwmedicine.org",cat:"生活服务",rating:4,price:"免费",kw:"美国华盛顿州西雅图华盛顿大学附属教学医院",desc:"美国华盛顿州西雅图华盛顿大学附属教学医院",official:true,region:"US",plat:"网页",icon:"uwmedicine.org.ico"},
+{name:"温哥华圣保罗医院",url:"https://www.providencehealthcare.org/en/locations/st-pauls-hospital",cat:"生活服务",rating:4,price:"免费",kw:"加拿大温哥华圣保罗医院，不列颠哥伦比亚大学附属教学医院",desc:"加拿大温哥华圣保罗医院，不列颠哥伦比亚大学附属教学医院",official:true,region:"CA",plat:"网页",icon:"www.providencehealthcare.org.ico"},
+{name:"里约热内卢联邦大学医院",url:"https://hucff.ufrj.br",cat:"生活服务",rating:4,price:"免费",kw:"巴西里约热内卢联邦大学附属教学医院",desc:"巴西里约热内卢联邦大学附属教学医院",official:true,region:"BR",plat:"网页",icon:"hucff.ufrj.br.ico"},
+{name:"马赛公立医院系统",url:"https://ap-hm.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国马赛地中海大学附属公立医院系统",desc:"法国马赛地中海大学附属公立医院系统",official:true,region:"FR",plat:"网页",icon:"ap-hm.fr.ico"}
 ];
