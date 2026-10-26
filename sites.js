@@ -7756,7 +7756,6 @@ const SITES = [
 {name:"Finn + Emma",url:"https://www.finnandemma.com",cat:"购物消费",rating:4,price:"免费",kw:"finn + emma",desc:"美国有机婴童玩具与服饰品牌",official:true,region:"US",plat:"网页",icon:"www.finnandemma.com.ico"},
 {name:"The Little White Company",url:"https://www.thelittlewhitecompany.com",cat:"购物消费",rating:4,price:"免费",kw:"the little white company",desc:"英国高端婴童服饰品牌",official:true,region:"GB",plat:"网页",icon:"www.thelittlewhitecompany.com.ico"},
 {name:"Cyrillus",url:"https://www.cyrillus.com",cat:"购物消费",rating:4,price:"免费",kw:"cyrillus",desc:"法国婴童服饰品牌",official:true,region:"FR",plat:"网页",icon:"www.cyrillus.com.ico"},
-{name:"Pinco Pallino",url:"https://www.pincopallino.com",cat:"购物消费",rating:4,price:"免费",kw:"pinco pallino",desc:"意大利童装品牌",official:true,region:"IT",plat:"网页",icon:"www.pincopallino.com.ico"},
 {name:"National Vision",url:"https://www.nationalvision.com",cat:"购物消费",rating:4,price:"免费",kw:"national vision",desc:"美国大型眼镜零售集团",official:true,region:"US",plat:"网页",icon:"www.nationalvision.com.ico"},
 {name:"Sterling Optical",url:"https://www.sterlingoptical.com",cat:"购物消费",rating:4,price:"免费",kw:"sterling optical",desc:"美国连锁眼镜品牌",official:true,region:"US",plat:"网页",icon:"www.sterlingoptical.com.ico"},
 {name:"Empire Vision Centers",url:"https://www.empirevision.com",cat:"购物消费",rating:4,price:"免费",kw:"empire vision centers",desc:"美国纽约州连锁眼镜品牌",official:true,region:"US",plat:"网页",icon:"www.empirevision.com.ico"},
