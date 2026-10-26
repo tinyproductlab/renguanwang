@@ -67,18 +67,30 @@
   .wxbg { position:relative; overflow:hidden; transition:background 1.2s ease; }
   .wxbg > * { position:relative; z-index:1; }
   .wxbg::after { content:""; position:absolute; inset:0; z-index:0; pointer-events:none; }
-  .wxbg.wx-clear { background:radial-gradient(600px 300px at 85% -40px, rgba(255,214,120,.55), rgba(255,214,120,0) 70%), linear-gradient(180deg,#bfe0fb 0%,#e6f3fe 55%,#faf8f2 100%); }
-  .wxbg.wx-cloud { background:linear-gradient(180deg,#dde7ef 0%,#edf2f6 55%,#faf8f2 100%); }
-  .wxbg.wx-fog { background:linear-gradient(180deg,#d8dde2 0%,#e9edf0 55%,#faf8f2 100%); }
-  .wxbg.wx-rain { background:linear-gradient(180deg,#b7c9da 0%,#d9e4ee 55%,#faf8f2 100%); }
-  .wxbg.wx-storm { background:linear-gradient(180deg,#93a9c4 0%,#c3d2e2 55%,#faf8f2 100%); }
-  .wxbg.wx-snow { background:linear-gradient(180deg,#e3eefb 0%,#f4f9ff 55%,#faf8f2 100%); }
-  .wxbg.wx-night { background:linear-gradient(180deg,#1c2a4d 0%,#2e4470 55%,#5b6f96 88%,#faf8f2 135%); }
-  .wxbg.wx-night .hero-title h1 { color:#fff; }
-  .wxbg.wx-night .hero-title p { color:#c9d6f2; }
-  .wxbg.wx-rain::after, .wxbg.wx-storm::after { background:repeating-linear-gradient(105deg, transparent 0 16px, rgba(255,255,255,.4) 16px 17px, transparent 17px 32px); opacity:.28; }
-  .wxbg.wx-snow::after { background-image:radial-gradient(circle, rgba(255,255,255,.95) 1.6px, transparent 2.2px), radial-gradient(circle, rgba(255,255,255,.7) 1.1px, transparent 1.7px); background-size:130px 130px, 90px 90px; background-position:0 0, 40px 30px; opacity:.7; }
-  .wxbg.wx-night::after { background-image:radial-gradient(circle, rgba(255,255,255,.9) 1.1px, transparent 1.6px), radial-gradient(circle, rgba(255,255,255,.55) .8px, transparent 1.3px); background-size:150px 150px, 95px 95px; background-position:0 0, 50px 40px; opacity:.55; }
+  @keyframes wx-drift { from { background-position:0 0, 0 0; } to { background-position:400px 0, 300px 0; } }
+  @keyframes wx-fall { from { background-position:0 -160px; } to { background-position:60px 160px; } }
+  @keyframes wx-snowfall { from { background-position:0 -130px, 40px -100px; } to { background-position:40px 130px, 0 100px; } }
+  @keyframes wx-twinkle { 0%,100% { opacity:.55; } 50% { opacity:.25; } }
+  .wxbg.wx-clear { background:radial-gradient(700px 340px at 85% -40px, rgba(255,205,90,.9), rgba(255,205,90,0) 70%), linear-gradient(180deg,#6fb8f5 0%,#a8d8fb 55%,#d9efff 100%); }
+  .wxbg.wx-cloud { background:linear-gradient(180deg,#9fb4c8 0%,#c8d6e4 55%,#e4ecf2 100%); }
+  .wxbg.wx-cloud::after { background:radial-gradient(ellipse 220px 75px at 12% 25%,#fff9,transparent),radial-gradient(ellipse 260px 85px at 85% 20%,#fffb,transparent); opacity:.9; animation:wx-drift 36s linear infinite; }
+  .wxbg.wx-fog { background:linear-gradient(180deg,#b9c2cb 0%,#cfd6dc 55%,#e2e6ea 100%); }
+  .wxbg.wx-fog::after { background:repeating-linear-gradient(180deg, rgba(255,255,255,.35) 0 26px, transparent 26px 90px); opacity:.55; animation:wx-drift 48s linear infinite; }
+  .wxbg.wx-rain { background:linear-gradient(180deg,#4e6d99 0%,#7d9ab8 55%,#a7bccc 100%); }
+  .wxbg.wx-storm { background:linear-gradient(180deg,#2f4566 0%,#556f92 55%,#8499b0 100%); }
+  .wxbg.wx-rain::after { background:repeating-linear-gradient(105deg, transparent 0 12px, rgba(255,255,255,.55) 12px 13px, transparent 13px 24px); opacity:.5; animation:wx-fall 1.1s linear infinite; }
+  .wxbg.wx-storm::after { background:repeating-linear-gradient(105deg, transparent 0 10px, rgba(255,255,255,.6) 10px 11px, transparent 11px 20px); opacity:.6; animation:wx-fall .7s linear infinite; }
+  .wxbg.wx-snow { background:linear-gradient(180deg,#a9cdf0 0%,#d3e7fa 55%,#eaf4fe 100%); }
+  .wxbg.wx-snow::after { background-image:radial-gradient(circle, rgba(255,255,255,.95) 2.4px, transparent 3px), radial-gradient(circle, rgba(255,255,255,.75) 1.7px, transparent 2.3px); background-size:130px 130px, 90px 90px; background-position:0 0, 40px 30px; opacity:.85; animation:wx-snowfall 7s linear infinite; }
+  .wxbg.wx-night { background:linear-gradient(180deg,#0d1936 0%,#22355f 55%,#465e8a 100%); }
+  .wxbg.wx-night::after { background-image:radial-gradient(circle, rgba(255,255,255,.9) 1.1px, transparent 1.6px), radial-gradient(circle, rgba(255,255,255,.55) .8px, transparent 1.3px); background-size:150px 150px, 95px 95px; background-position:0 0, 50px 40px; opacity:.55; animation:wx-twinkle 4s ease-in-out infinite; }
+  .wxbg.wx-night.wx-rain::after { background:repeating-linear-gradient(105deg, transparent 0 12px, rgba(255,255,255,.55) 12px 13px, transparent 13px 24px); opacity:.5; animation:wx-fall 1.1s linear infinite; }
+  .wxbg.wx-night.wx-storm::after { background:repeating-linear-gradient(105deg, transparent 0 10px, rgba(255,255,255,.6) 10px 11px, transparent 11px 20px); opacity:.6; animation:wx-fall .7s linear infinite; }
+  .wxbg.wx-night.wx-snow::after { background-image:radial-gradient(circle, rgba(255,255,255,.95) 2.4px, transparent 3px), radial-gradient(circle, rgba(255,255,255,.75) 1.7px, transparent 2.3px); background-size:130px 130px, 90px 90px; background-position:0 0, 40px 30px; opacity:.85; animation:wx-snowfall 7s linear infinite; }
+  .wxbg.wx-night.wx-cloud::after { opacity:.15; animation:none; }
+  .wxbg.wx-night .hero-title h1, .wxbg.wx-rain .hero-title h1, .wxbg.wx-storm .hero-title h1 { color:#fff; }
+  .wxbg.wx-night .hero-title p, .wxbg.wx-rain .hero-title p, .wxbg.wx-storm .hero-title p { color:#dbe7f7; }
+  .wxbg.wx-night .chips button, .wxbg.wx-rain .chips button, .wxbg.wx-storm .chips button { background:#fff; color:#24324a; }
   @media (max-width:900px){ .hero-wrap { padding:40px 20px 24px; } }
   .searchbox { max-width:720px; margin:0 auto; display:flex; background:#fff; border:2px solid #1a1a1a; border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.06); }
   .searchbox input { flex:1; border:none; outline:none; padding:16px 20px; font-size:16px; }
@@ -236,12 +248,10 @@
 
   .weather-line{max-width:720px;margin:18px auto 0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 16px;color:#33465c;font-size:13px;min-height:24px}
   .weather-line[hidden]{display:none}.weather-line #wx{font-weight:600}.weather-source{opacity:.8}.weather-line a{color:inherit;font-size:11px;text-underline-offset:3px}
-  .wxbg.wx-dawn{background:radial-gradient(ellipse at 75% 75%,#ffd695a8,transparent 55%),linear-gradient(180deg,#b3c2e0,#f2d7c5 60%,#faf8f2)}
-  .wxbg.wx-dusk{background:radial-gradient(ellipse at 80% 40%,#ffb06c99,transparent 50%),linear-gradient(180deg,#d8b8cb,#f3d1bb 60%,#faf8f2)}
+  .wxbg.wx-dawn{background:radial-gradient(ellipse at 75% 75%,#ffb85cc4,transparent 55%),linear-gradient(180deg,#d99ab0,#f7c489 60%,#ffe3b8)}
+  .wxbg.wx-dusk{background:radial-gradient(ellipse at 80% 40%,#ff9e4dc9,transparent 50%),linear-gradient(180deg,#7a5a9e,#e08a5a 60%,#f2b58a)}
   .wxbg.wx-night .weather-line{color:#e1eafa}.wxbg.wx-night .chips button{background:#fff;color:#24324a}
-  .wxbg.wx-cloud::after{background:radial-gradient(ellipse 220px 75px at 12% 25%,#fff9,transparent),radial-gradient(ellipse 260px 85px at 85% 20%,#fffb,transparent);opacity:.9}
-  .wxbg.wx-night.wx-cloud::after{opacity:.15}
-  @media(prefers-reduced-motion:reduce){.wxbg{transition:none}}
+  @media(prefers-reduced-motion:reduce){.wxbg{transition:none}.wxbg::after{animation:none!important}}
   @media(max-width:600px){.searchbox input{min-width:0}.searchbox button{padding-inline:20px}.weather-line{gap:6px 12px;font-size:12px}}
 
 
