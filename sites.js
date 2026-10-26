@@ -8591,5 +8591,17 @@ const SITES = [
 {name:"Babies R Us Japan",url:"https://babiesrus.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本玩具反斗城旗下母婴连锁，婴儿用品与玩具并售",desc:"日本玩具反斗城旗下母婴连锁，婴儿用品与玩具并售",official:true,region:"JP",plat:"网页",icon:"babiesrus.co.jp.ico"},
 {name:"MQD",url:"https://mqd.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国童装品牌，定位中高端儿童时尚服饰",desc:"中国童装品牌，定位中高端儿童时尚服饰",official:true,region:"CN",plat:"网页",icon:"mqd.com.cn.ico"},
 {name:"Dave&Bella",url:"https://davebella.com",cat:"购物消费",rating:4,price:"免费",kw:"中国婴幼儿服饰品牌，主打高品质纯棉童装",desc:"中国婴幼儿服饰品牌，主打高品质纯棉童装",official:true,region:"CN",plat:"网页",icon:"davebella.com.ico"},
-{name:"Roky's",url:"https://rokys.com.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁烤鸡连锁，利马起家",desc:"秘鲁烤鸡连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"rokys.com.pe.ico"}
+{name:"Roky's",url:"https://rokys.com.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁烤鸡连锁，利马起家",desc:"秘鲁烤鸡连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"rokys.com.pe.ico"},
+{name:"Luísa Rosas",url:"https://luisarosas.com",cat:"购物消费",rating:4,price:"免费",kw:"葡萄牙波尔图珠宝商，手工定制见长",desc:"葡萄牙波尔图珠宝商，手工定制见长",official:true,region:"PT",plat:"网页",icon:"luisarosas.com.ico"},
+{name:"Joyería Liévano",url:"https://joyerialievano.com",cat:"购物消费",rating:4,price:"免费",kw:"哥伦比亚珠宝商，波哥大老牌珠宝店",desc:"哥伦比亚珠宝商，波哥大老牌珠宝店",official:true,region:"CO",plat:"网页",icon:"joyerialievano.com.ico"},
+{name:"Karat World",url:"https://karatworld.com.ph",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾珠宝连锁品牌，全国商场多有门店",desc:"菲律宾珠宝连锁品牌，全国商场多有门店",official:true,region:"PH",plat:"网页",icon:"karatworld.com.ph.ico"},
+{name:"The Palace",url:"https://thepalacejeweler.com",cat:"购物消费",rating:4,price:"免费",kw:"印尼珠宝连锁品牌，雅加达起家",desc:"印尼珠宝连锁品牌，雅加达起家",official:true,region:"ID",plat:"网页",icon:"thepalacejeweler.com.ico"},
+{name:"俺のBakery",url:"https://oreno.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本高端食パン専門店，东京起家",desc:"日本高端食パン専門店，东京起家",official:true,region:"JP",plat:"网页",icon:"oreno.co.jp.ico"},
+{name:"Hogan Bakery",url:"https://hoganbakery.com.my",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚面包连锁，吉隆坡起家",desc:"马来西亚面包连锁，吉隆坡起家",official:true,region:"MY",plat:"网页",icon:"hoganbakery.com.my.ico"},
+{name:"Centro Hospitalar Universitário de São João",url:"https://portal-ulssjoao.min-saude.pt",cat:"生活服务",rating:4,price:"免费",kw:"波尔图大学附属医院，葡萄牙北部最大医院",desc:"波尔图大学附属医院，葡萄牙北部最大医院",official:true,region:"PT",plat:"网页",icon:"portal-ulssjoao.min-saude.pt.ico"},
+{name:"Turku University Hospital",url:"https://tyks.fi",cat:"生活服务",rating:4,price:"免费",kw:"图尔库大学医院，芬兰西南部医学中心",desc:"图尔库大学医院，芬兰西南部医学中心",official:true,region:"FI",plat:"网页",icon:"tyks.fi.ico"},
+{name:"Fakultní nemocnice Brno",url:"https://fnbrno.cz",cat:"生活服务",rating:4,price:"免费",kw:"布尔诺大学医院，捷克第二大城市教学医院",desc:"布尔诺大学医院，捷克第二大城市教学医院",official:true,region:"CZ",plat:"网页",icon:"fnbrno.cz.ico"},
+{name:"Debreceni Egyetem Klinikai Központ",url:"https://klinikaikozpont.unideb.hu",cat:"生活服务",rating:4,price:"免费",kw:"德布勒森大学临床中心，匈牙利东部医学中心",desc:"德布勒森大学临床中心，匈牙利东部医学中心",official:true,region:"HU",plat:"网页",icon:"klinikaikozpont.unideb.hu.ico"},
+{name:"Koç University Hospital",url:"https://kuh.ku.edu.tr",cat:"生活服务",rating:4,price:"免费",kw:"伊斯坦布尔科奇大学医院，土耳其私立学术医院",desc:"伊斯坦布尔科奇大学医院，土耳其私立学术医院",official:true,region:"TR",plat:"网页",icon:"kuh.ku.edu.tr.ico"},
+{name:"Christian Medical College Vellore",url:"https://cmch-vellore.edu",cat:"生活服务",rating:4,price:"免费",kw:"印度韦洛尔基督教医学院附属医院，南亚知名教学医院",desc:"印度韦洛尔基督教医学院附属医院，南亚知名教学医院",official:true,region:"IN",plat:"网页",icon:"cmch-vellore.edu.ico"}
 ];
