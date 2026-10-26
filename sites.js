@@ -8879,5 +8879,18 @@ const SITES = [
 {name:"华天酒店集团",url:"https://huatian.com",cat:"购物消费",rating:4,price:"免费",kw:"湖南大型酒店集团",desc:"湖南大型酒店集团",official:true,region:"CN",plat:"网页",icon:"huatian.com.ico"},
 {name:"寒舍集团",url:"https://hanshe.com",cat:"购物消费",rating:4,price:"免费",kw:"台湾知名酒店餐饮集团",desc:"台湾知名酒店餐饮集团",official:true,region:"TW",plat:"网页",icon:"hanshe.com.ico"},
 {name:"森信托酒店集团",url:"https://mori-trust.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名酒店集团",desc:"日本知名酒店集团",official:true,region:"JP",plat:"网页",icon:"mori-trust.co.jp.ico"},
-{name:"美加世界酒店集团",url:"https://megaworldhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾知名酒店集团",desc:"菲律宾知名酒店集团",official:true,region:"PH",plat:"网页",icon:"megaworldhotels.com.ico"}
+{name:"美加世界酒店集团",url:"https://megaworldhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾知名酒店集团",desc:"菲律宾知名酒店集团",official:true,region:"PH",plat:"网页",icon:"megaworldhotels.com.ico"},
+{name:"麦趣尔",url:"https://maiquer.com",cat:"购物消费",rating:4,price:"免费",kw:"新疆知名烘焙连锁品牌",desc:"新疆知名烘焙连锁品牌",official:true,region:"CN",plat:"网页",icon:"maiquer.com.ico"},
+{name:"金凤成祥",url:"https://jinfengchengxiang.com",cat:"购物消费",rating:4,price:"免费",kw:"北京老字号糕点品牌",desc:"北京老字号糕点品牌",official:true,region:"CN",plat:"网页",icon:"jinfengchengxiang.com.ico"},
+{name:"旧振南",url:"https://jzn.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾高雄老字号糕饼品牌",desc:"台湾高雄老字号糕饼品牌",official:true,region:"TW",plat:"网页",icon:"jzn.com.tw.ico"},
+{name:"荣华饼家",url:"https://wingwah.com",cat:"购物消费",rating:4,price:"免费",kw:"香港老字号饼家品牌",desc:"香港老字号饼家品牌",official:true,region:"HK",plat:"网页",icon:"wingwah.com.ico"},
+{name:"Pan de Manila",url:"https://pandemanila.com.ph",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾知名面包连锁品牌",desc:"菲律宾知名面包连锁品牌",official:true,region:"PH",plat:"网页",icon:"pandemanila.com.ph.ico"},
+{name:"Đức Phát Bakery",url:"https://ducphatbakery.com",cat:"购物消费",rating:4,price:"免费",kw:"越南知名面包连锁品牌",desc:"越南知名面包连锁品牌",official:true,region:"VN",plat:"网页",icon:"ducphatbakery.com.ico"},
+{name:"BNH Hospital",url:"https://bnhhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"泰国曼谷知名私立医院",desc:"泰国曼谷知名私立医院",official:true,region:"TH",plat:"网页",icon:"bnhhospital.com.ico"},
+{name:"越南国家儿童医院",url:"https://nhp.org.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南河内知名儿童专科医院",desc:"越南河内知名儿童专科医院",official:true,region:"VN",plat:"网页",icon:"nhp.org.vn.ico"},
+{name:"里昂市民医院",url:"https://chu-lyon.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国里昂知名公立医院集团",desc:"法国里昂知名公立医院集团",official:true,region:"FR",plat:"网页",icon:"chu-lyon.fr.ico"},
+{name:"波恩大学医院",url:"https://uniklinik-bonn.de",cat:"生活服务",rating:4,price:"免费",kw:"德国波恩知名大学附属医院",desc:"德国波恩知名大学附属医院",official:true,region:"DE",plat:"网页",icon:"uniklinik-bonn.de.ico"},
+{name:"圣保罗医院",url:"https://santpau.cat",cat:"生活服务",rating:4,price:"免费",kw:"西班牙巴塞罗那知名综合医院",desc:"西班牙巴塞罗那知名综合医院",official:true,region:"ES",plat:"网页",icon:"santpau.cat.ico"},
+{name:"韦斯特米德医院",url:"https://www.wslhd.health.nsw.gov.au/Westmead-Hospital",cat:"生活服务",rating:4,price:"免费",kw:"澳大利亚悉尼知名公立综合医院",desc:"澳大利亚悉尼知名公立综合医院",official:true,region:"AU",plat:"网页",icon:"www.wslhd.health.nsw.gov.au.ico"},
+{name:"迪拜医院",url:"https://www.dha.gov.ae/dubaihospital",cat:"生活服务",rating:4,price:"免费",kw:"阿联酋迪拜知名公立综合医院",desc:"阿联酋迪拜知名公立综合医院",official:true,region:"AE",plat:"网页",icon:"www.dha.gov.ae.ico"}
 ];
