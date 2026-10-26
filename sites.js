@@ -8654,5 +8654,15 @@ const SITES = [
 {name:"Southern Sun",url:"https://southernsun.com",cat:"购物消费",rating:4,price:"免费",kw:"南非酒店集团，约翰内斯堡与开普敦多家门店",desc:"南非酒店集团，约翰内斯堡与开普敦多家门店",official:true,region:"ZA",plat:"网页",icon:"southernsun.com.ico"},
 {name:"Mini Kalzone",url:"https://minikalzone.com.br",cat:"生活服务",rating:4,price:"免费",kw:"巴西卡尔宗卷饼连锁，圣卡塔琳娜起家",desc:"巴西卡尔宗卷饼连锁，圣卡塔琳娜起家",official:true,region:"BR",plat:"网页",icon:"minikalzone.com.br.ico"},
 {name:"Chinawok",url:"https://chinawok.com.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁中式快餐连锁，利马起家",desc:"秘鲁中式快餐连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"chinawok.com.pe.ico"},
-{name:"Stuff'd",url:"https://stuffed.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡烤肉卷饼连锁，新加坡起家",desc:"新加坡烤肉卷饼连锁，新加坡起家",official:true,region:"SG",plat:"网页",icon:"stuffed.com.sg.ico"}
+{name:"Stuff'd",url:"https://stuffed.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡烤肉卷饼连锁，新加坡起家",desc:"新加坡烤肉卷饼连锁，新加坡起家",official:true,region:"SG",plat:"网页",icon:"stuffed.com.sg.ico"},
+{name:"Ravipa",url:"https://ravipa.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国珠宝品牌，曼谷起家，彩宝与手链见长",desc:"泰国珠宝品牌，曼谷起家，彩宝与手链见长",official:true,region:"TH",plat:"网页",icon:"ravipa.com.ico"},
+{name:"三松面包房",url:"https://ssbnc.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国大邱老牌面包房，地方名店起家",desc:"韩国大邱老牌面包房，地方名店起家",official:true,region:"KR",plat:"网页",icon:"ssbnc.kr.ico"},
+{name:"聖安娜餅屋",url:"https://sthonore.com.hk",cat:"购物消费",rating:4,price:"免费",kw:"香港面包糕点连锁，全港多家门店",desc:"香港面包糕点连锁，全港多家门店",official:true,region:"HK",plat:"网页",icon:"sthonore.com.hk.ico"},
+{name:"The Ottawa Hospital",url:"https://ottawahospital.on.ca",cat:"生活服务",rating:4,price:"免费",kw:"加拿大渥太华医院，渥太华大学附属教学医院",desc:"加拿大渥太华医院，渥太华大学附属教学医院",official:true,region:"CA",plat:"网页",icon:"ottawahospital.on.ca.ico"},
+{name:"McGill University Health Centre",url:"https://muhc.ca",cat:"生活服务",rating:4,price:"免费",kw:"加拿大蒙特利尔麦吉尔大学医疗中心，麦吉尔大学附属教学医院",desc:"加拿大蒙特利尔麦吉尔大学医疗中心，麦吉尔大学附属教学医院",official:true,region:"CA",plat:"网页",icon:"muhc.ca.ico"},
+{name:"Hospital ABC",url:"https://centromedicoabc.com",cat:"生活服务",rating:4,price:"免费",kw:"墨西哥城美英考德雷医院，墨西哥知名私立综合医院",desc:"墨西哥城美英考德雷医院，墨西哥知名私立综合医院",official:true,region:"MX",plat:"网页",icon:"centromedicoabc.com.ico"},
+{name:"Hôpital Bichat-Claude-Bernard",url:"https://bichat.aphp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎比沙医院，巴黎大学附属大型综合医院",desc:"法国巴黎比沙医院，巴黎大学附属大型综合医院",official:true,region:"FR",plat:"网页",icon:"bichat.aphp.fr.ico"},
+{name:"Hospital Vall d'Hebron",url:"https://vallhebron.com",cat:"生活服务",rating:4,price:"免费",kw:"西班牙巴塞罗那瓦尔德希伯伦医院，加泰罗尼亚大型大学附属医院",desc:"西班牙巴塞罗那瓦尔德希伯伦医院，加泰罗尼亚大型大学附属医院",official:true,region:"ES",plat:"网页",icon:"vallhebron.com.ico"},
+{name:"Policlinico Umberto I",url:"https://policlinicoumberto1.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利罗马翁贝托一世综合医院，罗马第一大学附属教学医院",desc:"意大利罗马翁贝托一世综合医院，罗马第一大学附属教学医院",official:true,region:"IT",plat:"网页",icon:"policlinicoumberto1.it.ico"},
+{name:"Blast Fitness",url:"https://blastfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"美国区域健身连锁，中西部与东部多家门店",desc:"美国区域健身连锁，中西部与东部多家门店",official:true,region:"US",plat:"网页",icon:"blastfitness.com.ico"}
 ];
