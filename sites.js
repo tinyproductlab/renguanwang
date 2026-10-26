@@ -8573,7 +8573,6 @@ const SITES = [
 {name:"Virgin Active South Africa",url:"https://virginactive.co.za",cat:"生活服务",rating:4,price:"免费",kw:"南非高端连锁健身俱乐部",desc:"南非高端连锁健身俱乐部",official:true,region:"ZA",plat:"网页",icon:"virginactive.co.za.ico"},
 {name:"奇哥",url:"https://chiko.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾母婴品牌，婴童服饰与用品连锁",desc:"台湾母婴品牌，婴童服饰与用品连锁",official:true,region:"TW",plat:"网页",icon:"chiko.com.tw.ico"},
 {name:"Dreambaby",url:"https://dreambaby.com.au",cat:"购物消费",rating:4,price:"免费",kw:"比利时母婴连锁，婴童用品与玩具为主",desc:"比利时母婴连锁，婴童用品与玩具为主",official:true,region:"AU",plat:"网页",icon:"dreambaby.com.au.ico"},
-{name:"Owndays Singapore",url:"https://owndays.sg",cat:"购物消费",rating:4,price:"免费",kw:"新加坡眼镜连锁，日系平价快时尚风格",desc:"新加坡眼镜连锁，日系平价快时尚风格",official:true,region:"SG",plat:"网页",icon:"owndays.sg.ico"},
 {name:"Specsavers Australia",url:"https://specsavers.com.au",cat:"购物消费",rating:4,price:"免费",kw:"澳大利亚平价眼镜连锁，主打验光配镜套餐",desc:"澳大利亚平价眼镜连锁，主打验光配镜套餐",official:true,region:"AU",plat:"网页",icon:"specsavers.com.au.ico"},
 {name:"Taco Inn",url:"https://tacoinn.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"墨西哥塔可快餐连锁",desc:"墨西哥塔可快餐连锁",official:true,region:"MX",plat:"网页",icon:"tacoinn.com.mx.ico"}
 ];
