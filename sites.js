@@ -7377,5 +7377,4 @@ const SITES = [
 {name:"Intercity Hotels",url:"https://www.intercityhoteis.com.br",cat:"购物消费",rating:4,price:"免费",kw:"Intercity Hotels 巴西本土中档连锁酒店品牌",desc:"巴西本土中档连锁酒店品牌",official:true,region:"BR",plat:"网页",icon:"www.intercityhoteis.com.br.ico"},
 {name:"RCD Hotels",url:"https://www.rcdhotels.com",cat:"购物消费",rating:4,price:"免费",kw:"RCD Hotels 墨西哥酒店集团 旗下有加勒比海度假酒店",desc:"墨西哥酒店集团，旗下有加勒比海度假酒店",official:true,region:"MX",plat:"网页",icon:"www.rcdhotels.com.ico"},
 {name:"Pickalbatros Hotels & Resorts",url:"https://www.pickalbatros.com",cat:"购物消费",rating:4,price:"免费",kw:"Pickalbatros Hotels & Resorts 埃及本土大型度假酒店集团 主打红海度假村",desc:"埃及本土大型度假酒店集团，主打红海度假村",official:true,region:"EG",plat:"网页",icon:"www.pickalbatros.com.ico"},
-{name:"摩斯汉堡",url:"https://www.mos.jp",cat:"购物消费",rating:4,price:"免费",kw:"摩斯汉堡 日本汉堡连锁品牌",desc:"日本汉堡连锁品牌",official:true,region:"JP",plat:"网页",icon:"www.mos.jp.ico"}
 ];
