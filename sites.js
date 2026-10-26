@@ -8793,5 +8793,11 @@ const SITES = [
 {name:"Nine Tree",url:"https://ninetreehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国精品连锁酒店",desc:"韩国精品连锁酒店",official:true,region:"KR",plat:"网页",icon:"ninetreehotels.com.ico"},
 {name:"天成饭店集团",url:"https://cosmos-hotel.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾本土饭店集团",desc:"台湾本土饭店集团",official:true,region:"TW",plat:"网页",icon:"cosmos-hotel.com.tw.ico"},
 {name:"维也纳酒店",url:"https://viennahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"中国中端连锁酒店",desc:"中国中端连锁酒店",official:true,region:"CN",plat:"网页",icon:"viennahotels.com.ico"},
-{name:"桔子酒店",url:"https://orangehotel.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国设计型连锁酒店",desc:"中国设计型连锁酒店",official:true,region:"CN",plat:"网页",icon:"orangehotel.com.cn.ico"}
+{name:"桔子酒店",url:"https://orangehotel.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国设计型连锁酒店",desc:"中国设计型连锁酒店",official:true,region:"CN",plat:"网页",icon:"orangehotel.com.cn.ico"},
+{name:"Givral",url:"https://givral.com.vn",cat:"购物消费",rating:4,price:"免费",kw:"越南法式糕点老字号",desc:"越南法式糕点老字号",official:true,region:"VN",plat:"网页",icon:"givral.com.vn.ico"},
+{name:"런던베이글뮤지엄",url:"https://londonbagel.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"韩国贝果博物馆面包房",desc:"韩国贝果博物馆面包房",official:true,region:"KR",plat:"网页",icon:"londonbagel.co.kr.ico"},
+{name:"Pondok Indah Hospital",url:"https://rspondokindah.co.id",cat:"生活服务",rating:4,price:"免费",kw:"印尼知名私立医院",desc:"印尼知名私立医院",official:true,region:"ID",plat:"网页",icon:"rspondokindah.co.id.ico"},
+{name:"Jetts 24 Hour Fitness",url:"https://jetts.co.th",cat:"生活服务",rating:4,price:"免费",kw:"泰国24小时健身连锁品牌",desc:"泰国24小时健身连锁品牌",official:true,region:"TH",plat:"网页",icon:"jetts.co.th.ico"},
+{name:"LAVA",url:"https://yoga-lava.com",cat:"生活服务",rating:4,price:"免费",kw:"日本最大高温瑜伽连锁品牌",desc:"日本最大高温瑜伽连锁品牌",official:true,region:"JP",plat:"网页",icon:"yoga-lava.com.ico"},
+{name:"成吉思汗健身俱乐部",url:"https://gkfitnessxh.webnode.tw",cat:"生活服务",rating:4,price:"免费",kw:"台湾本土健身连锁品牌",desc:"台湾本土健身连锁品牌",official:true,region:"TW",plat:"网页",icon:"gkfitnessxh.webnode.tw.ico"}
 ];
