@@ -8603,5 +8603,12 @@ const SITES = [
 {name:"Fakultní nemocnice Brno",url:"https://fnbrno.cz",cat:"生活服务",rating:4,price:"免费",kw:"布尔诺大学医院，捷克第二大城市教学医院",desc:"布尔诺大学医院，捷克第二大城市教学医院",official:true,region:"CZ",plat:"网页",icon:"fnbrno.cz.ico"},
 {name:"Debreceni Egyetem Klinikai Központ",url:"https://klinikaikozpont.unideb.hu",cat:"生活服务",rating:4,price:"免费",kw:"德布勒森大学临床中心，匈牙利东部医学中心",desc:"德布勒森大学临床中心，匈牙利东部医学中心",official:true,region:"HU",plat:"网页",icon:"klinikaikozpont.unideb.hu.ico"},
 {name:"Koç University Hospital",url:"https://kuh.ku.edu.tr",cat:"生活服务",rating:4,price:"免费",kw:"伊斯坦布尔科奇大学医院，土耳其私立学术医院",desc:"伊斯坦布尔科奇大学医院，土耳其私立学术医院",official:true,region:"TR",plat:"网页",icon:"kuh.ku.edu.tr.ico"},
-{name:"Christian Medical College Vellore",url:"https://cmch-vellore.edu",cat:"生活服务",rating:4,price:"免费",kw:"印度韦洛尔基督教医学院附属医院，南亚知名教学医院",desc:"印度韦洛尔基督教医学院附属医院，南亚知名教学医院",official:true,region:"IN",plat:"网页",icon:"cmch-vellore.edu.ico"}
+{name:"Christian Medical College Vellore",url:"https://cmch-vellore.edu",cat:"生活服务",rating:4,price:"免费",kw:"印度韦洛尔基督教医学院附属医院，南亚知名教学医院",desc:"印度韦洛尔基督教医学院附属医院，南亚知名教学医院",official:true,region:"IN",plat:"网页",icon:"cmch-vellore.edu.ico"},
+{name:"Molo",url:"https://molo.com",cat:"购物消费",rating:4,price:"免费",kw:"丹麦童装品牌，印花与色彩见长",desc:"丹麦童装品牌，印花与色彩见长",official:true,region:"DK",plat:"网页",icon:"molo.com.ico"},
+{name:"Benikea",url:"https://benikea.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国本土连锁酒店品牌，全国多地有店",desc:"韩国本土连锁酒店品牌，全国多地有店",official:true,region:"KR",plat:"网页",icon:"benikea.com.ico"},
+{name:"福容大饭店 Fullon Hotels",url:"https://fullon-hotels.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"台湾连锁酒店品牌，全台多家门店",desc:"台湾连锁酒店品牌，全台多家门店",official:true,region:"TW",plat:"网页",icon:"fullon-hotels.com.tw.ico"},
+{name:"Harbour Plaza",url:"https://harbourplaza.com",cat:"购物消费",rating:4,price:"免费",kw:"香港连锁酒店品牌，港岛与九龙多家门店",desc:"香港连锁酒店品牌，港岛与九龙多家门店",official:true,region:"HK",plat:"网页",icon:"harbourplaza.com.ico"},
+{name:"Amari",url:"https://amari.com",cat:"购物消费",rating:4,price:"免费",kw:"泰国酒店品牌，曼谷与度假区多家门店",desc:"泰国酒店品牌，曼谷与度假区多家门店",official:true,region:"TH",plat:"网页",icon:"amari.com.ico"},
+{name:"Pedro, Juan y Diego",url:"https://pjd.cl",cat:"生活服务",rating:4,price:"免费",kw:"智利汉堡连锁，圣地亚哥起家",desc:"智利汉堡连锁，圣地亚哥起家",official:true,region:"CL",plat:"网页",icon:"pjd.cl.ico"},
+{name:"Norky's",url:"https://norkys.pe",cat:"生活服务",rating:4,price:"免费",kw:"秘鲁烤鸡连锁，利马起家",desc:"秘鲁烤鸡连锁，利马起家",official:true,region:"PE",plat:"网页",icon:"norkys.pe.ico"}
 ];
