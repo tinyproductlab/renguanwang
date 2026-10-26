@@ -8861,5 +8861,14 @@ const SITES = [
 {name:"精选国际酒店集团",url:"https://choicehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"美国大型连锁酒店集团",desc:"美国大型连锁酒店集团",official:true,region:"US",plat:"网页",icon:"choicehotels.com.ico"},
 {name:"NH酒店集团",url:"https://nh-hotels.com",cat:"购物消费",rating:4,price:"免费",kw:"西班牙大型连锁酒店集团",desc:"西班牙大型连锁酒店集团",official:true,region:"ES",plat:"网页",icon:"nh-hotels.com.ico"},
 {name:"张亮麻辣烫",url:"https://zhangliangmalatang.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名麻辣烫连锁品牌",desc:"中国知名麻辣烫连锁品牌",official:true,region:"CN",plat:"网页",icon:"zhangliangmalatang.com.ico"},
-{name:"Bar B Q Plaza",url:"https://barbqplaza.com",cat:"生活服务",rating:4,price:"免费",kw:"泰国知名泰式烧烤连锁品牌",desc:"泰国知名泰式烧烤连锁品牌",official:true,region:"TH",plat:"网页",icon:"barbqplaza.com.ico"}
+{name:"Bar B Q Plaza",url:"https://barbqplaza.com",cat:"生活服务",rating:4,price:"免费",kw:"泰国知名泰式烧烤连锁品牌",desc:"泰国知名泰式烧烤连锁品牌",official:true,region:"TH",plat:"网页",icon:"barbqplaza.com.ico"},
+{name:"安特鲁",url:"https://antolu.com",cat:"购物消费",rating:4,price:"免费",kw:"中国知名烘焙连锁品牌",desc:"中国知名烘焙连锁品牌",official:true,region:"CN",plat:"网页",icon:"antolu.com.ico"},
+{name:"嘉华饼屋",url:"https://jiahua.com",cat:"购物消费",rating:4,price:"免费",kw:"中国云南知名糕点连锁品牌",desc:"中国云南知名糕点连锁品牌",official:true,region:"CN",plat:"网页",icon:"jiahua.com.ico"},
+{name:"La Maison du Pain",url:"https://lamaisondupain.com",cat:"购物消费",rating:4,price:"免费",kw:"法国知名连锁面包房品牌",desc:"法国知名连锁面包房品牌",official:true,region:"FR",plat:"网页",icon:"lamaisondupain.com.ico"},
+{name:"哈拉班基塔国家心血管中心",url:"https://pjnhk.go.id",cat:"生活服务",rating:4,price:"免费",kw:"印尼知名国家心脏专科医院",desc:"印尼知名国家心脏专科医院",official:true,region:"ID",plat:"网页",icon:"pjnhk.go.id.ico"},
+{name:"顺化中央医院",url:"https://bvtwhue.com.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南中部知名公立综合医院",desc:"越南中部知名公立综合医院",official:true,region:"VN",plat:"网页",icon:"bvtwhue.com.vn.ico"},
+{name:"皇家阿尔弗雷德王子医院",url:"https://slhd.health.nsw.gov.au/rpa",cat:"生活服务",rating:4,price:"免费",kw:"澳大利亚悉尼知名公立综合医院",desc:"澳大利亚悉尼知名公立综合医院",official:true,region:"AU",plat:"网页",icon:"slhd.health.nsw.gov.au.ico"},
+{name:"谢赫哈利法医学城",url:"https://skmc.seha.ae",cat:"生活服务",rating:4,price:"免费",kw:"阿布扎比知名大型公立医疗中心",desc:"阿布扎比知名大型公立医疗中心",official:true,region:"AE",plat:"网页",icon:"skmc.seha.ae.ico"},
+{name:"乔治·蓬皮杜欧洲医院",url:"https://hegp.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国巴黎知名大型综合医院",desc:"法国巴黎知名大型综合医院",official:true,region:"FR",plat:"网页",icon:"hegp.fr.ico"},
+{name:"黄金时代健身",url:"https://keepclub.com",cat:"生活服务",rating:4,price:"免费",kw:"郑州起家的连锁健身品牌",desc:"郑州起家的连锁健身品牌",official:true,region:"CN",plat:"网页",icon:"keepclub.com.ico"}
 ];
