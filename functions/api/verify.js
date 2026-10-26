@@ -123,23 +123,15 @@ async function verify(u, host, reg, desc, env) {
   }
   if (host.includes("xn--")) { score -= 15; reasons.push("⚠️ 域名含有 punycode 编码（xn--），常被用来伪装相似域名。"); }
 
-  // ② RDAP 域名年龄
+  // ② RDAP 域名年龄（rdap.org 经常超时/查不到：加长超时 + 按后缀走权威 RDAP 兜底）
   let ageYears = null;
   try {
-    const r = await fetch("https://rdap.org/domain/" + reg, {
-      headers: { Accept: "application/rdap+json" },
-      signal: AbortSignal.timeout(4000),
-    });
-    if (r.ok) {
-      const j = await r.json();
-      const ev = (j.events || []).find((e) => e.eventAction === "registration");
-      if (ev && ev.eventDate) {
-        ageYears = (Date.now() - new Date(ev.eventDate).getTime()) / 31557600000;
-        if (ageYears >= 5) { score += 15; reasons.push("域名已注册 " + Math.floor(ageYears) + " 年，老域名是官网的重要特征。"); }
-        else if (ageYears >= 1) { score += 8; reasons.push("域名注册于 " + Math.floor(ageYears) + " 年前。"); }
-        else if (ageYears < 0.1) { score -= 25; reasons.push("⚠️ 域名是最近 1 个月内刚注册的，仿冒/钓鱼站常用新域名，高度警惕。"); }
-        else { score -= 12; reasons.push("⚠️ 域名注册不到 1 年（" + Math.max(1, Math.floor(ageYears * 12)) + " 个月），新站需多留个心眼。"); }
-      }
+    ageYears = await rdapAge(reg);
+    if (ageYears !== null) {
+      if (ageYears >= 5) { score += 15; reasons.push("域名已注册 " + Math.floor(ageYears) + " 年，老域名是官网的重要特征。"); }
+      else if (ageYears >= 1) { score += 8; reasons.push("域名注册于 " + Math.floor(ageYears) + " 年前。"); }
+      else if (ageYears < 0.1) { score -= 25; reasons.push("⚠️ 域名是最近 1 个月内刚注册的，仿冒/钓鱼站常用新域名，高度警惕。"); }
+      else { score -= 12; reasons.push("⚠️ 域名注册不到 1 年（" + Math.max(1, Math.floor(ageYears * 12)) + " 个月），新站需多留个心眼。"); }
     }
   } catch (e) { /* 查不到不扣分 */ }
 
@@ -172,13 +164,47 @@ async function verify(u, host, reg, desc, env) {
   else if (score < 50) level = "risky";
   const out = { ok: true, level, score, host, reg, reasons, suggestion, page: { title: pageTitle, ageYears: ageYears ? Math.round(ageYears * 10) / 10 : null } };
 
-  // ④ AI 补充判断（配置了 key 才走）
+  // ④ AI 智能检验（配置了 key 才走）：结论不再只是附注，直接参与定级。
+  // 规则强证据优先：规则分已很低（<40）时 AI 说官网也不抬分，规则分已很高（>70）时
+  // AI 说仿冒也不降分；中间地带由 AI 拍板，避免再出现“AI 说了算、等级还是 uncertain 50 分”。
   if (env && env.NVIDIA_API_KEY) {
     try {
       out.ai = await aiJudge(env, { url: u.toString(), desc, pageTitle, score });
+      if (out.ai && out.ai.verdict === "likely_official" && out.score >= 40) {
+        out.score = Math.max(out.score, 85);
+        out.level = "likely";
+        out.reasons.push("AI 智能检验：判定为官网，等级上调。");
+      } else if (out.ai && out.ai.verdict === "likely_fake" && out.score <= 70) {
+        out.score = Math.min(out.score, 15);
+        out.level = "risky";
+        out.reasons.push("AI 智能检验：判定为疑似仿冒，等级下调。");
+      }
     } catch (e) { /* AI 失败不影响规则结论 */ }
   }
   return finish(out);
+}
+
+// RDAP 查域名注册时间（年），查不到返回 null
+async function rdapAge(reg) {
+  const urls = ["https://rdap.org/domain/" + reg];
+  if (/\.com$|\.net$/.test(reg)) urls.push("https://rdap.verisign.com/net/v1/domain/" + reg);
+  if (/\.org$/.test(reg)) urls.push("https://rdap.pir.org/rdap/domain/" + reg);
+  for (const url of urls) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const r = await fetch(url, {
+          headers: { Accept: "application/rdap+json" },
+          signal: AbortSignal.timeout(8000),
+        });
+        if (!r.ok) break;
+        const j = await r.json();
+        const ev = (j.events || []).find((e) => e.eventAction === "registration");
+        if (ev && ev.eventDate) return (Date.now() - new Date(ev.eventDate).getTime()) / 31557600000;
+        return null;
+      } catch (e) { /* 超时重试一次，再换下一个源 */ }
+    }
+  }
+  return null;
 }
 
 async function aiJudge(env, ctx) {

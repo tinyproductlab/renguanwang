@@ -614,7 +614,7 @@ zh: {
   nav_home:"首页", nav_hot:"热门软件", nav_ai:"AI工具", nav_sites:"网站导航", nav_feedback:"反馈", nav_about:"关于我们",
   hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
   plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
-  verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…",
+  verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体 + AI 智能检验，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…",
   quick:"快捷直达", quick_hint:"点任意站卡上的 📌，把它钉到这里最前面；自带站卡右上角的 × 可以取消它；点 ＋ 还能添加自己的网址（只存在你的浏览器里）", pin_restore:"恢复默认", pin_add:"＋ 添加网址", pin_name_ph:"名称，如：我的博客", pin_url_ph:"网址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自定义", cats_title:"分类导航",
   cats_sub:"全部人工验过的站 · 点分类跳转",
   cat_essentials:"装机必备", cat_ai:"AI工具", cat_office:"办公效率", cat_dev:"开发工具", cat_design:"设计创意",
@@ -653,7 +653,7 @@ en: {
   nav_home:"Home", nav_hot:"Hot Software", nav_ai:"AI Tools", nav_sites:"Websites", nav_feedback:"Feedback", nav_about:"About",
   hero_h1:"Find Official Sites", hero_p:"Verified official websites only · We tell you which one to pick",
   plat_all:"All Platforms", search_ph:"Search software or website…", search_btn:"Search",
-  verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age and page identity signals. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…",
+  verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age, page identity + AI inspection. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…",
   quick:"Quick Access", quick_hint:"📌 on any site card pins it to the front here; × on a built-in card removes it; ＋ adds your own link (stored only in your browser)", pin_restore:"Restore defaults", pin_add:"＋ Add link", pin_name_ph:"Name, e.g. My blog", pin_url_ph:"URL, e.g. https://example.com", pin_save:"Save", pin_cancel:"Cancel", pin_custom:"Custom", cats_title:"Categories",
   cats_sub:"All manually verified sites · Click a category",
   cat_essentials:"Essentials", cat_ai:"AI Tools", cat_office:"Productivity", cat_dev:"Dev Tools", cat_design:"Design",
@@ -1561,11 +1561,15 @@ async function doVerify() {
     const conf = { verified: ["#e8f7e8", "#1a7f1a", "✅ 已收录 · 人工验过"], likely: ["#eef7ee", "#2e7d32", "✅ 高度可信"], uncertain: ["#fff8e1", "#9a7b00", "⚠️ 信息不足，无法确认"], risky: ["#fdecea", "#c0392b", "🚨 高度存疑，谨防假冒"] }[j.level] || ["#f5f5f5", "#555", j.level];
     let h = '<div style="background:' + conf[0] + ';border-radius:8px;padding:14px 16px">';
     h += '<div style="font-size:16px;font-weight:700;color:' + conf[1] + ';margin-bottom:6px">' + conf[2] + (j.level !== "verified" ? '（' + j.score + ' 分）' : '') + '</div>';
+    if (j.ai) {
+      const aiConf = { likely_official: ["#e8f5e9", "#2e7d32", "🤖 AI 智能检验：很可能是官网"], likely_fake: ["#fdecea", "#c0392b", "🤖 AI 智能检验：疑似仿冒，请勿轻信"], unsure: ["#f5f5f5", "#555", "🤖 AI 智能检验：无法确认"] }[j.ai.verdict] || ["#f5f5f5", "#555", "🤖 AI 智能检验"];
+      h += '<div style="background:' + aiConf[0] + ';border:1px solid ' + aiConf[1] + '33;border-radius:6px;padding:8px 10px;margin-bottom:8px;font-size:13px;line-height:1.6"><span style="font-weight:700;color:' + aiConf[1] + '">' + aiConf[2] + '</span><br><span style="color:#333">' + j.ai.reason.replace(/</g, "&lt;") + '</span></div>';
+    }
     h += '<div style="font-size:13px;color:#333;line-height:1.7">';
     (j.reasons || []).forEach(x => { h += '<div>· ' + x + '</div>'; });
-    if (j.ai) h += '<div>· AI 补充判断：' + j.ai.reason + '</div>';
     if (j.suggestion) h += '<div style="margin-top:6px">👉 库中记录的官网：<a href="' + j.suggestion.url + '" target="_blank" rel="noopener" style="color:#1a73e8">' + j.suggestion.name + '（' + j.suggestion.host + '）</a></div>';
     if (j.page && j.page.title) h += '<div style="color:#888;margin-top:6px">网页标题：' + j.page.title.replace(/</g, "&lt;") + '</div>';
+    if (j.page && j.page.ageYears) h += '<div style="color:#888">域名年龄：约 ' + j.page.ageYears + ' 年</div>';
     h += '</div></div>';
     vResult.innerHTML = h;
     vResult.style.display = "block";
