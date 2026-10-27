@@ -9170,5 +9170,11 @@ const SITES = [
 {name:"罗马卡瓦列里酒店",url:"https://www.romecavalieri.com",cat:"购物消费",rating:4,price:"免费",kw:"罗马卡瓦列里酒店 Rome Cavalieri",desc:"意大利罗马知名豪华酒店品牌",official:true,region:"IT",plat:"网页",icon:"www.romecavalieri.com.ico"},
 {name:"巴尔拉克酒店",url:"https://www.bauraulac.ch",cat:"购物消费",rating:4,price:"免费",kw:"巴尔拉克酒店 Baur au Lac 苏黎世",desc:"瑞士苏黎世知名豪华酒店品牌",official:true,region:"CH",plat:"网页",icon:"www.bauraulac.ch.ico"},
 {name:"阿迪纳酒店集团",url:"https://www.adinahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"阿迪纳酒店 Adina 公寓式酒店",desc:"澳大利亚知名公寓式酒店品牌，旗下有阿迪纳等酒店",official:true,region:"AU",plat:"网页",icon:"www.adinahotels.com.ico"},
-{name:"La Casa de Toño",url:"https://www.lacasadetono.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"La Casa de Toño 快餐 墨西哥城",desc:"墨西哥城知名传统快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"www.lacasadetono.com.mx.ico"}
+{name:"La Casa de Toño",url:"https://www.lacasadetono.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"La Casa de Toño 快餐 墨西哥城",desc:"墨西哥城知名传统快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"www.lacasadetono.com.mx.ico"},
+{name:"Alexis Bittar",url:"https://www.alexisbittar.com",cat:"购物消费",rating:4,price:"免费",kw:"Alexis Bittar 珠宝 设计师",desc:"美国知名设计师珠宝品牌",official:true,region:"US",plat:"网页",icon:"www.alexisbittar.com.ico"},
+{name:"Antonio Bernardo",url:"https://www.antoniobernardo.com",cat:"购物消费",rating:4,price:"免费",kw:"Antonio Bernardo 珠宝 巴西",desc:"巴西知名珠宝品牌",official:true,region:"BR",plat:"网页",icon:"www.antoniobernardo.com.ico"},
+{name:"Cédric Grolet",url:"https://www.cedric-grolet.com",cat:"购物消费",rating:4,price:"免费",kw:"Cédric Grolet 甜点 面包 巴黎",desc:"法国知名甜点师创立的面包甜点品牌",official:true,region:"FR",plat:"网页",icon:"www.cedric-grolet.com.ico"},
+{name:"Levadura Madre",url:"https://www.levaduramadre.es",cat:"购物消费",rating:4,price:"免费",kw:"Levadura Madre 面包 马德里 手工",desc:"西班牙马德里知名手工面包连锁品牌",official:true,region:"ES",plat:"网页",icon:"www.levaduramadre.es.ico"},
+{name:"上海市第一人民医院",url:"https://www.shgh.cn",cat:"生活服务",rating:4,price:"免费",kw:"上海市第一人民医院 上海交通大学医学院附属第一人民医院",desc:"中国上海知名三甲综合医院",official:true,region:"CN",plat:"网页",icon:"www.shgh.cn.ico"},
+{name:"南方医科大学南方医院",url:"https://www.nfyy.com",cat:"生活服务",rating:4,price:"免费",kw:"南方医科大学南方医院 南方医院 广州",desc:"中国广州知名三甲综合医院",official:true,region:"CN",plat:"网页",icon:"www.nfyy.com.ico"}
 ];
