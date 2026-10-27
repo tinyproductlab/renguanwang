@@ -9,7 +9,23 @@
     // Severe weather keeps its own palette; dawn and dusk soften clear/cloudy skies.
     return ['wx-' + condition, ...(['night'].includes(phase) || (['dawn','dusk'].includes(phase) && ['clear','cloud'].includes(condition)) ? ['wx-' + phase] : [])];
   }
-  if (typeof module !== 'undefined' && module.exports) { module.exports = { themeFor }; return; }
+  function adviceFor(data, zh=true) {
+    if(!data)return '';
+    const c=data.conditionCode||'',temp=data.temperature,parts=[];
+    const say=(a,b)=>zh?a:b;
+    if(/Thunderstorm/.test(c))parts.push(say('出门带伞，雷雨时尽量待在室内','Bring an umbrella; stay indoors during thunderstorms'));
+    else if(/Snow|Blizzard|Hail|Sleet|Flurr|Wintry/.test(c))parts.push(say('雨雪天注意添衣保暖，带伞防滑','Dress warmly; bring an umbrella and watch for slippery paths'));
+    else if(/Rain|Drizzle/.test(c))parts.push(say('出门记得带伞，留意路面积水','Bring an umbrella and watch for puddles'));
+    else if(/Fog|Haze|Smoky/.test(c))parts.push(say('能见度较低，出行注意安全','Low visibility; take care when travelling'));
+    else if(/Wind/.test(c))parts.push(say('风较大，注意防风','Windy outside; wear a windproof layer'));
+    else if(data.isDaylight===false)parts.push(say('夜间出行注意安全','Take care when travelling at night'));
+    else if(/Cloud/.test(c))parts.push(say('天气多云，出门留意天气变化','Cloudy skies; keep an eye on the weather'));
+    else parts.push(say('天气晴朗，外出注意防晒','Sunny skies; remember sun protection'));
+    if(Number.isFinite(temp)&&temp<=12&&!/Snow|Blizzard|Hail|Sleet|Flurr|Wintry/.test(c))parts.push(say('气温偏低，记得添衣保暖','Chilly outside; add a warm layer'));
+    else if(Number.isFinite(temp)&&temp>=30)parts.push(say('天气较热，注意补水','Hot outside; stay hydrated'));
+    return parts.join(zh?'；':'; ');
+  }
+  if (typeof module !== 'undefined' && module.exports) { module.exports = { themeFor, adviceFor }; return; }
   const $ = id => document.getElementById(id);
   const bg=$('wxBg'),line=$('weatherLine'),el=$('wx');
   if(!bg || !line || !el) return;
@@ -22,10 +38,13 @@
   function status(message){$('weatherStatus').textContent=message;}
   function persist(){try{localStorage.setItem(KEY,JSON.stringify(cities));localStorage.setItem(ACTIVE,mode==='location'?'capital':mode);}catch{status(t('浏览器无法保存设置，当前会话仍可使用。','Storage unavailable; settings last for this session only.'));}}
   function paint(){
-    bg.classList.remove(...Array.from(bg.classList).filter(c=>c.startsWith('wx-')));
+    bg.classList.remove(...Array.from(bg.classList).filter(c=>c.startsWith('wx-')&&c!=='wx-fx'));
+    const advice=$('weatherAdvice');if(advice){advice.textContent=adviceFor(latest,zh);advice.hidden=!latest;}
     if(!latest){if(window.RGWWeatherFx)window.RGWWeatherFx.stop();return;}
     const cls=themeFor(latest);
     bg.classList.add(...cls);
+    bg.classList.toggle('wx-partly',/^(MostlyClear|PartlyCloudy)$/.test(latest.conditionCode));
+    bg.classList.toggle('wx-windy',/Wind/.test(latest.conditionCode));
     if(window.RGWWeatherFx)window.RGWWeatherFx.set(cls[0].slice(3),(cls[1]||'wx-day').slice(3));
   }
   function button(text,action){const b=document.createElement('button');b.type='button';b.textContent=text;b.onclick=action;return b;}

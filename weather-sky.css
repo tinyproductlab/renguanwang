@@ -1,0 +1,42 @@
+/* Decorative weather layers; search and city controls always remain above them. */
+.wxbg > .wx-sky{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:0;color:#f6fbff}
+.wx-sky svg{position:absolute;overflow:visible;width:220px;height:160px;filter:drop-shadow(0 10px 16px #263b5714)}
+.wx-sky .sky-cloud-left{left:3%;top:24px;width:190px;opacity:.8}
+.wx-sky .sky-cloud-right{right:calc(16% - 122px);top:68px;width:230px}
+.wx-sky .sky-rain,.wx-sky .sky-snow,.wx-sky .sky-bolt,.wx-sky .sky-wind{display:none}
+.wxbg:is(.wx-cloud,.wx-rain,.wx-storm,.wx-snow,.wx-fog,.wx-partly,.wx-windy) > .wx-sky{opacity:1}
+.wxbg:is(.wx-clear,.wx-partly)::before{display:block}
+.wxbg.wx-partly::before{width:clamp(76px,8vw,116px);aspect-ratio:1;left:84%;top:38px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle at 36% 32%,#fffde6,#ffdc64 72%,#ffcc45);box-shadow:0 0 44px 18px #ffd56855}
+.wxbg.wx-partly > .wx-sky{color:#f6fbff}
+.wxbg.wx-cloud:not(.wx-partly) > .wx-sky{color:#e8eff7}
+.wxbg:is(.wx-rain,.wx-storm) > .wx-sky{color:#657e9e}
+.wxbg.wx-storm > .wx-sky{color:#405574}
+.wxbg:is(.wx-rain,.wx-storm) .sky-rain{display:block;stroke:#d8edff;stroke-width:4;stroke-linecap:round;fill:none}
+.wxbg.wx-storm .sky-bolt{display:block;fill:#ffe7a1}
+.wxbg.wx-snow > .wx-sky{color:#f5faff}
+.wxbg.wx-snow .sky-snow{display:block;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round}
+.wxbg.wx-fog .sky-cloud-left,.wxbg.wx-fog .sky-cloud-right{opacity:.15}
+.wxbg.wx-fog .wx-sky::after{content:"";position:absolute;inset:8% -10%;background:radial-gradient(ellipse at 15% 20%,#ffffffa6,transparent 56%),radial-gradient(ellipse at 80% 68%,#ffffff80,transparent 58%);filter:blur(12px)}
+.wxbg.wx-windy .sky-wind{display:block;width:180px;height:100px;left:5%;top:38px;fill:none;stroke:#f8fcff;stroke-width:4;stroke-linecap:round;opacity:.85}
+.wxbg.wx-windy:not(.wx-partly) .sky-cloud-left,.wxbg.wx-windy:not(.wx-partly) .sky-cloud-right{display:none}
+.wxbg.wx-night > .wx-sky{color:#7386a5}
+.wxbg:is(.wx-clear,.wx-partly).wx-night::before{display:block;width:clamp(66px,7vw,98px);background:radial-gradient(circle at 35% 65%,#fffef0,#e5edff);box-shadow:none;mask-image:radial-gradient(circle at 72% 25%,transparent 0 38%,#000 39%);-webkit-mask-image:radial-gradient(circle at 72% 25%,transparent 0 38%,#000 39%)}
+.wxbg.wx-night.wx-fog > .wx-sky{opacity:.4}
+.weather-advice{max-width:720px;margin:9px auto 0;text-align:center;font-size:12px;line-height:1.65;color:#3b526e}
+.weather-advice[hidden]{display:none}
+.wxbg:is(.wx-night,.wx-rain,.wx-storm) .weather-advice,.wxbg:is(.wx-rain,.wx-storm) .weather-city-summary{color:#f0f5ff}
+.bookmark-btn{display:inline-flex;align-items:center;gap:5px;flex:0 0 auto;white-space:nowrap;border:1px solid #dce2e9;border-radius:8px;background:#fff;color:#334155;padding:6px 10px;font:inherit;font-size:13px;cursor:pointer}
+.bookmark-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8}
+.bookmark-btn:hover{background:#fff9e7;border-color:#dcc47a;color:#70571c}
+.bookmark-btn:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+#bookmarkInstructions{font-size:15px;line-height:1.9;color:#334155;white-space:pre-line}
+@media(max-width:1100px){.topbar{flex-wrap:wrap;gap:8px}.topnav{order:3;width:100%;justify-content:center}.topbar .brand{margin-right:auto}}
+@media(max-width:720px){.bookmark-btn{order:2;margin-left:4px;font-size:12px;padding:6px 8px}.topnav{justify-content:flex-start}.pwa-btn{margin-left:0}.region-sel{margin-left:0}}
+@media(max-width:600px){
+ .wx-sky .sky-cloud-left{width:108px;left:-24px;top:90px;opacity:.6}
+ .wx-sky .sky-cloud-right{width:132px;right:-18px;top:42px}
+ .wxbg.wx-partly::before{width:58px;left:auto;right:18px;top:14px;transform:none}
+ .wxbg:is(.wx-clear,.wx-partly).wx-night::before{width:58px}
+ .wxbg.wx-windy .sky-wind{width:100px;left:0;top:14px}
+ .weather-advice{max-width:95%;font-size:12px}
+}

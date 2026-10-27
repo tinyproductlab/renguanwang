@@ -299,6 +299,7 @@
 
 .weather-strip{max-width:1100px;margin:18px auto 0;display:flex;align-items:center;justify-content:center;gap:12px;min-width:0}.weather-strip .weather-cities{max-width:max-content;min-width:0;margin:0;gap:12px;padding:4px 0}.weather-strip .weather-cities::before,.weather-strip .weather-cities::after{display:none}#weatherManage{flex:0 0 auto;white-space:nowrap;min-height:34px;padding:6px 12px;border:1px solid #c9d5e2;border-radius:20px;background:#ffffffdc;color:#30435c;font:inherit;font-size:12px;cursor:pointer}#weatherManage:focus-visible{outline:2px solid #2563eb;outline-offset:3px}.weather-dialog #weatherCapital{display:inline-block}.weather-dialog-actions{display:flex;gap:8px;margin-top:16px}.weather-dialog-actions button[aria-pressed="true"]{background:#183c70;color:#fff}.wx-night #weatherStatus{color:#e2edff}#weatherStatus{text-align:center;font-size:12px}
 </style>
+<link rel="stylesheet" href="/weather-sky.css?v=20261027-weather-scenes">
 </head>
 <body>
 <div class="topbar">
@@ -311,6 +312,7 @@
     <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;" data-i18n="nav_feedback">反馈</a>
     <a href="#" data-nav="about" data-i18n="nav_about">关于我们</a>
   </nav>
+  <button type="button" id="bookmarkBtn" class="bookmark-btn" aria-haspopup="dialog" aria-controls="bookmarkDialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.5 4.4 1.1 6.2-5.7-3-5.7 3 1.1-6.2L3.2 9.6l6.3-.9Z"/></svg><span id="bookmarkLabel">收藏本站</span></button>
   <button id="pwaBtn" class="pwa-btn" style="display:none">📲 安装应用</button>
   
   <select id="regionSel" class="region-sel" title="选择国家或地区">
@@ -502,6 +504,7 @@
   </select>
 </div>
 <div class="wxbg" id="wxBg">
+<div class="wx-sky" aria-hidden="true"><svg class="sky-cloud-left" viewBox="0 0 220 160"><path fill="currentColor" d="M35 94C16 94 9 82 13 68c3-12 14-20 28-20 4-24 24-39 49-35 17 2 29 12 35 25 21-9 46 4 49 26 18-2 32 8 32 21 0 6-6 9-16 9Z"/><g class="sky-rain"><path d="m57 112-7 16m49-16-7 16m49-16-7 16m49-16-7 16"/></g><g class="sky-snow"><path d="M57 108v24m-10-18 20 12m-20 0 20-12m40-6v24m-10-18 20 12m-20 0 20-12m40-6v24m-10-18 20 12m-20 0 20-12"/></g><path class="sky-bolt" d="m124 85-22 35h15l-10 29 35-41h-18l12-23Z"/></svg><svg class="sky-cloud-right" viewBox="0 0 220 160"><path fill="currentColor" d="M35 94C16 94 9 82 13 68c3-12 14-20 28-20 4-24 24-39 49-35 17 2 29 12 35 25 21-9 46 4 49 26 18-2 32 8 32 21 0 6-6 9-16 9Z"/><g class="sky-rain"><path d="m57 112-7 16m49-16-7 16m49-16-7 16m49-16-7 16"/></g><g class="sky-snow"><path d="M57 108v24m-10-18 20 12m-20 0 20-12m40-6v24m-10-18 20 12m-20 0 20-12m40-6v24m-10-18 20 12m-20 0 20-12"/></g><path class="sky-bolt" d="m124 85-22 35h15l-10 29 35-41h-18l12-23Z"/></svg><svg class="sky-wind" viewBox="0 0 180 100"><path d="M8 36h105c30 0 30-27 10-27-12 0-16 7-16 13M25 55h123c25 0 25 28 7 28-10 0-15-7-15-12M10 75h67"/></svg></div>
 <div class="hero-wrap">
     <div class="hero-title">
     <h1 data-i18n="hero_h1">搜官网，不踩坑</h1>
@@ -512,6 +515,7 @@
     </div>
     <div class="weather-line" id="weatherLine" hidden aria-live="polite"><span id="wx"></span></div>
     <div class="weather-strip"><div id="weatherCities" class="weather-cities" aria-label="城市天气"></div><button type="button" id="weatherManage">管理城市</button><button type="button" id="weatherDetail">天气详情</button></div>
+    <p id="weatherAdvice" class="weather-advice" aria-live="polite" hidden></p>
     <p id="weatherStatus" role="status"></p>
   </div>
   <div class="hero-chips">
@@ -1662,7 +1666,9 @@ if ("serviceWorker" in navigator) {
 })();
 </script>
 <script src="/weather-fx.js?v=20261026-detail-fx" defer></script>
-<script src="/weather.js?v=20261026-detail-fx2" defer></script>
+<script src="/weather.js?v=20261027-weather-advice" defer></script>
+<dialog id="bookmarkDialog" class="weather-dialog" aria-labelledby="bookmarkTitle"><div class="weather-dialog-head"><h2 id="bookmarkTitle">收藏认官网</h2><button type="button" id="bookmarkClose" aria-label="关闭">×</button></div><p id="bookmarkInstructions"></p></dialog>
+<script src="/bookmark.js?v=20261027" defer></script>
 <dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
   <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
   <div class="weather-dialog-actions"><button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button></div>
