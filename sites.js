@@ -8975,5 +8975,20 @@ const SITES = [
 {name:"10mois",url:"https://10mois.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名母婴用品品牌",desc:"日本知名母婴用品品牌",official:true,region:"JP",plat:"网页",icon:"10mois.com.ico"},
 {name:"Moimoln",url:"https://moimoln.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国知名婴幼儿服饰品牌",desc:"韩国知名婴幼儿服饰品牌",official:true,region:"KR",plat:"网页",icon:"moimoln.com.ico"},
 {name:"JR东日本酒店集团",url:"https://jre-hotels.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名铁路系连锁酒店集团",desc:"日本知名铁路系连锁酒店集团",official:true,region:"JP",plat:"网页",icon:"jre-hotels.jp.ico"},
-{name:"丽嘉皇家酒店",url:"https://rihga.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名老牌豪华酒店品牌",desc:"日本知名老牌豪华酒店品牌",official:true,region:"JP",plat:"网页",icon:"rihga.com.ico"}
+{name:"丽嘉皇家酒店",url:"https://rihga.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名老牌豪华酒店品牌",desc:"日本知名老牌豪华酒店品牌",official:true,region:"JP",plat:"网页",icon:"rihga.com.ico"},
+{name:"My Diamond",url:"https://mydiamond.com.ph",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾知名珠宝连锁品牌",desc:"菲律宾知名珠宝连锁品牌",official:true,region:"PH",plat:"网页",icon:"mydiamond.com.ph.ico"},
+{name:"Huy Thanh",url:"https://huythanhjewelry.vn",cat:"购物消费",rating:4,price:"免费",kw:"越南知名珠宝品牌",desc:"越南知名珠宝品牌",official:true,region:"VN",plat:"网页",icon:"huythanhjewelry.vn.ico"},
+{name:"詹记桃酥",url:"https://zhanji.com",cat:"购物消费",rating:4,price:"免费",kw:"中国安徽知名桃酥老字号品牌",desc:"中国安徽知名桃酥老字号品牌",official:true,region:"CN",plat:"网页",icon:"zhanji.com.ico"},
+{name:"SusieCakes",url:"https://susiecakes.com",cat:"购物消费",rating:4,price:"免费",kw:"美国知名连锁蛋糕房品牌",desc:"美国知名连锁蛋糕房品牌",official:true,region:"US",plat:"网页",icon:"susiecakes.com.ico"},
+{name:"ジョアン",url:"https://joan.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名连锁面包房品牌",desc:"日本知名连锁面包房品牌",official:true,region:"JP",plat:"网页",icon:"joan.co.jp.ico"},
+{name:"庆北大学医院",url:"https://knuh.or.kr",cat:"生活服务",rating:4,price:"免费",kw:"韩国大邱知名大学附属医院",desc:"韩国大邱知名大学附属医院",official:true,region:"KR",plat:"网页",icon:"knuh.or.kr.ico"},
+{name:"帕亚泰医院",url:"https://phyathai.com",cat:"生活服务",rating:4,price:"免费",kw:"泰国曼谷知名连锁私立医院",desc:"泰国曼谷知名连锁私立医院",official:true,region:"TH",plat:"网页",icon:"phyathai.com.ico"},
+{name:"黄廷方综合医院",url:"https://ntfgh.com.sg",cat:"生活服务",rating:4,price:"免费",kw:"新加坡知名公立综合医院",desc:"新加坡知名公立综合医院",official:true,region:"SG",plat:"网页",icon:"ntfgh.com.sg.ico"},
+{name:"菲律宾心脏中心",url:"https://phc.gov.ph",cat:"生活服务",rating:4,price:"免费",kw:"菲律宾知名心脏专科医院",desc:"菲律宾知名心脏专科医院",official:true,region:"PH",plat:"网页",icon:"phc.gov.ph.ico"},
+{name:"悉尼儿童医院",url:"https://schn.health.nsw.gov.au",cat:"生活服务",rating:4,price:"免费",kw:"澳大利亚悉尼知名儿童专科医院",desc:"澳大利亚悉尼知名儿童专科医院",official:true,region:"AU",plat:"网页",icon:"schn.health.nsw.gov.au.ico"},
+{name:"Foothills 医疗中心",url:"https://albertahealthservices.ca",cat:"生活服务",rating:4,price:"免费",kw:"加拿大卡尔加里知名大型综合医院",desc:"加拿大卡尔加里知名大型综合医院",official:true,region:"CA",plat:"网页",icon:"albertahealthservices.ca.ico"},
+{name:"La Fe 医院",url:"https://lafe.san.gva.es",cat:"生活服务",rating:4,price:"免费",kw:"西班牙巴伦西亚知名公立大学附属医院",desc:"西班牙巴伦西亚知名公立大学附属医院",official:true,region:"ES",plat:"网页",icon:"lafe.san.gva.es.ico"},
+{name:"一兆韦德",url:"https://mega-fitness.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名连锁健身俱乐部",desc:"中国知名连锁健身俱乐部",official:true,region:"CN",plat:"网页",icon:"mega-fitness.com.ico"},
+{name:"槟城 Adventist 医院",url:"https://pah.com.my",cat:"生活服务",rating:4,price:"免费",kw:"马来西亚槟城知名私立医院",desc:"马来西亚槟城知名私立医院",official:true,region:"MY",plat:"网页",icon:"pah.com.my.ico"},
+{name:"莱顿大学医学中心",url:"https://lumc.nl",cat:"生活服务",rating:4,price:"免费",kw:"荷兰莱顿知名大学附属医院",desc:"荷兰莱顿知名大学附属医院",official:true,region:"NL",plat:"网页",icon:"lumc.nl.ico"}
 ];
