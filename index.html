@@ -71,7 +71,25 @@
   @keyframes wx-fall { from { background-position:0 -160px; } to { background-position:60px 160px; } }
   @keyframes wx-snowfall { from { background-position:0 -130px, 40px -100px; } to { background-position:40px 130px, 0 100px; } }
   @keyframes wx-twinkle { 0%,100% { opacity:.55; } 50% { opacity:.25; } }
-  .wxbg.wx-clear { background:radial-gradient(700px 340px at 85% -40px, rgba(255,205,90,.9), rgba(255,205,90,0) 70%), linear-gradient(180deg,#6fb8f5 0%,#a8d8fb 55%,#d9efff 100%); }
+  .wxbg.wx-clear { background:radial-gradient(420px 300px at 84% 96px, rgba(255,205,90,.5), rgba(255,205,90,0) 70%), linear-gradient(180deg,#6fb8f5 0%,#a8d8fb 55%,#d9efff 100%); }
+  /* Keep the solar disc distinct from its halo, behind all interactive content. */
+  .wxbg::before { content:""; display:none; position:absolute; z-index:0; pointer-events:none; }
+  .wxbg.wx-clear::before {
+    display:block; width:clamp(76px,8vw,116px); aspect-ratio:1; left:84%; top:38px;
+    transform:translateX(-50%); border-radius:50%;
+    background:radial-gradient(circle at 36% 32%,#fffde6 0%,#fff1a1 38%,#ffdc64 72%,#ffcc45 100%);
+    box-shadow:0 0 0 12px #ffe9a02b,0 0 44px 18px #ffd56866,0 0 100px 38px #ffd77840;
+  }
+  .wxbg.wx-clear.wx-dawn::before,.wxbg.wx-clear.wx-dusk::before {
+    top:76px;
+    background:radial-gradient(circle at 36% 32%,#fff3bc 0%,#ffcc76 48%,#ff9b50 100%);
+    box-shadow:0 0 0 10px #ffd18c24,0 0 48px 20px #ffa75c66,0 0 110px 42px #ffb06c33;
+  }
+  .wxbg.wx-night::before { display:none; }
+  @media(max-width:600px) {
+    .wxbg.wx-clear::before { width:58px; left:auto; right:18px; top:14px; transform:none; }
+    .wxbg.wx-clear.wx-dawn::before,.wxbg.wx-clear.wx-dusk::before { top:28px; }
+  }
   .wxbg.wx-cloud { background:linear-gradient(180deg,#9fb4c8 0%,#c8d6e4 55%,#e4ecf2 100%); }
   .wxbg.wx-cloud::after { background:radial-gradient(ellipse 220px 75px at 12% 25%,#fff9,transparent),radial-gradient(ellipse 260px 85px at 85% 20%,#fffb,transparent); opacity:.9; animation:wx-drift 36s linear infinite; }
   .wxbg.wx-fog { background:linear-gradient(180deg,#b9c2cb 0%,#cfd6dc 55%,#e2e6ea 100%); }
