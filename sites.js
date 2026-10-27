@@ -9416,5 +9416,22 @@ const SITES = [
 {name:"Bamba Marha",url:"https://bambamarha.hu",cat:"生活服务",rating:4,price:"免费",kw:"Bamba Marha 汉堡 匈牙利",desc:"匈牙利知名汉堡快餐连锁品牌",official:true,region:"HU",plat:"网页",icon:"bambamarha.hu.ico"},
 {name:"Mesopotamia",url:"https://www.mesopotamia.ro",cat:"生活服务",rating:4,price:"免费",kw:"Mesopotamia 中东风味快餐 罗马尼亚",desc:"罗马尼亚知名中东风味快餐连锁品牌",official:true,region:"RO",plat:"网页",icon:"www.mesopotamia.ro.ico"},
 {name:"Starbites",url:"https://starbitesgh.com",cat:"生活服务",rating:4,price:"免费",kw:"Starbites 快餐 加纳",desc:"加纳知名快餐连锁品牌",official:true,region:"GH",plat:"网页",icon:"starbitesgh.com.ico"},
-{name:"BFC",url:"https://bfcbd.com",cat:"生活服务",rating:4,price:"免费",kw:"BFC 炸鸡 孟加拉国",desc:"孟加拉国知名炸鸡快餐连锁品牌",official:true,region:"BD",plat:"网页",icon:"bfcbd.com.ico"}
+{name:"BFC",url:"https://bfcbd.com",cat:"生活服务",rating:4,price:"免费",kw:"BFC 炸鸡 孟加拉国",desc:"孟加拉国知名炸鸡快餐连锁品牌",official:true,region:"BD",plat:"网页",icon:"bfcbd.com.ico"},
+{name:"Jenna Clifford",url:"https://www.jennaclifford.com",cat:"购物消费",rating:4,price:"免费",kw:"Jenna Clifford 珠宝 南非",desc:"南非知名珠宝设计师品牌",official:true,region:"ZA",plat:"网页",icon:"www.jennaclifford.com.ico"},
+{name:"Or & Azur",url:"https://www.or-azur.com",cat:"购物消费",rating:4,price:"免费",kw:"Or & Azur 珠宝 摩洛哥",desc:"摩洛哥卡萨布兰卡知名珠宝品牌",official:true,region:"MA",plat:"网页",icon:"www.or-azur.com.ico"},
+{name:"Sara Mansour Jewelry",url:"https://saramansour.com",cat:"购物消费",rating:4,price:"免费",kw:"Sara Mansour Jewelry 珠宝 约旦",desc:"约旦知名珠宝品牌",official:true,region:"JO",plat:"网页",icon:"saramansour.com.ico"},
+{name:"ARY Jewellers",url:"https://aryjewellers.com.pk/store-locator/",cat:"购物消费",rating:4,price:"免费",kw:"ARY Jewellers 珠宝 巴基斯坦",desc:"巴基斯坦知名珠宝连锁品牌",official:true,region:"PK",plat:"网页",icon:"aryjewellers.com.pk.ico"},
+{name:"Manila Diamond Studio",url:"https://maniladiamondstudio.com",cat:"购物消费",rating:4,price:"免费",kw:"Manila Diamond Studio 珠宝 菲律宾",desc:"菲律宾知名珠宝品牌",official:true,region:"PH",plat:"网页",icon:"maniladiamondstudio.com.ico"},
+{name:"Al Zain Jewellery",url:"https://www.alzainjewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"Al Zain Jewellery 珠宝 巴林",desc:"巴林知名珠宝连锁品牌",official:true,region:"BH",plat:"网页",icon:"www.alzainjewellery.com.ico"},
+{name:"Ovocný Světozor",url:"https://www.ovocnysvetozor.cz",cat:"购物消费",rating:4,price:"免费",kw:"Ovocný Světozor 蛋糕 捷克",desc:"捷克布拉格知名蛋糕老字号品牌",official:true,region:"CZ",plat:"网页",icon:"www.ovocnysvetozor.cz.ico"},
+{name:"Nairobi Hospital",url:"https://www.nairobihospital.org",cat:"生活服务",rating:4,price:"免费",kw:"Nairobi Hospital 内罗毕医院 肯尼亚",desc:"肯尼亚内罗毕知名私立医院",official:true,region:"KE",plat:"网页",icon:"www.nairobihospital.org.ico"},
+{name:"Kilimanjaro Christian Medical Centre",url:"https://kcmc.ac.tz",cat:"生活服务",rating:4,price:"免费",kw:"Kilimanjaro Christian Medical Centre 乞力马扎罗基督教医疗中心 坦桑尼亚",desc:"坦桑尼亚莫西知名教会医学院附属医院",official:true,region:"TZ",plat:"网页",icon:"kcmc.ac.tz.ico"},
+{name:"Mengo Hospital",url:"https://mengohospital.org",cat:"生活服务",rating:4,price:"免费",kw:"Mengo Hospital 门戈医院 乌干达",desc:"乌干达坎帕拉知名教会医院",official:true,region:"UG",plat:"网页",icon:"mengohospital.org.ico"},
+{name:"Sheikh Shakhbout Medical City",url:"https://ssmc.ae",cat:"生活服务",rating:4,price:"免费",kw:"Sheikh Shakhbout Medical City 谢赫沙赫布特医学城 阿联酋",desc:"阿联酋阿布扎比知名医学城",official:true,region:"AE",plat:"网页",icon:"ssmc.ae.ico"},
+{name:"Tribhuvan University Teaching Hospital",url:"https://tuth.org.np",cat:"生活服务",rating:4,price:"免费",kw:"Tribhuvan University Teaching Hospital 特里布文大学附属医院 尼泊尔",desc:"尼泊尔加德满都知名大学附属医院",official:true,region:"NP",plat:"网页",icon:"tuth.org.np.ico"},
+{name:"Hospital San Vicente Fundación",url:"https://www.sanvicentefundacion.com",cat:"生活服务",rating:4,price:"免费",kw:"Hospital San Vicente Fundación 圣维森特基金会医院 哥伦比亚",desc:"哥伦比亚麦德林知名大学附属医院",official:true,region:"CO",plat:"网页",icon:"www.sanvicentefundacion.com.ico"},
+{name:"Spitalul Universitar de Urgență București",url:"https://www.suub.ro",cat:"生活服务",rating:4,price:"免费",kw:"Spitalul Universitar de Urgență București 布加勒斯特大学急诊医院 罗马尼亚",desc:"罗马尼亚布加勒斯特知名大学急诊医院",official:true,region:"RO",plat:"网页",icon:"www.suub.ro.ico"},
+{name:"University of Benin Teaching Hospital",url:"https://ubth.org",cat:"生活服务",rating:4,price:"免费",kw:"University of Benin Teaching Hospital 贝宁大学附属医院 尼日利亚",desc:"尼日利亚贝宁城知名大学附属医院",official:true,region:"NG",plat:"网页",icon:"ubth.org.ico"},
+{name:"Shapes",url:"https://shapes.pk",cat:"生活服务",rating:4,price:"免费",kw:"Shapes 健身 巴基斯坦",desc:"巴基斯坦知名连锁健身品牌",official:true,region:"PK",plat:"网页",icon:"shapes.pk.ico"},
+{name:"Action Fitness",url:"https://actionfitness.co",cat:"生活服务",rating:4,price:"免费",kw:"Action Fitness 健身 哥伦比亚",desc:"哥伦比亚知名连锁健身品牌",official:true,region:"CO",plat:"网页",icon:"actionfitness.co.ico"}
 ];
