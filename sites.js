@@ -9077,6 +9077,5 @@ const SITES = [
 {name:"Mitu Baby",url:"https://mitubaby.com",cat:"购物消费",rating:4,price:"免费",kw:"印尼知名婴儿护理品牌",desc:"印尼知名婴儿护理品牌",official:true,region:"ID",plat:"网页",icon:"mitubaby.com.ico"},
 {name:"万新",url:"https://wanxin.com.cn",cat:"购物消费",rating:4,price:"免费",kw:"中国知名眼镜制造与连锁品牌",desc:"中国知名眼镜制造与连锁品牌",official:true,region:"CN",plat:"网页",icon:"wanxin.com.cn.ico"},
 {name:"増永眼镜",url:"https://masunaga1905.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名手工眼镜品牌",desc:"日本知名手工眼镜品牌",official:true,region:"JP",plat:"网页",icon:"masunaga1905.com.ico"},
-{name:"君亭酒店集团",url:"https://jintinghotels.com",cat:"购物消费",rating:4,price:"免费",kw:"中国知名精品酒店集团",desc:"中国知名精品酒店集团",official:true,region:"CN",plat:"网页",icon:"jintinghotels.com.ico"},
 {name:"老娘舅",url:"https://laoniangjiu.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名中式快餐连锁品牌",desc:"中国知名中式快餐连锁品牌",official:true,region:"CN",plat:"网页",icon:"laoniangjiu.com.ico"}
 ];
