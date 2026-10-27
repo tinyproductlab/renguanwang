@@ -8921,5 +8921,18 @@ const SITES = [
 {name:"巴黎丽兹酒店",url:"https://ritzparis.com",cat:"购物消费",rating:4,price:"免费",kw:"法国知名历史豪华酒店",desc:"法国知名历史豪华酒店",official:true,region:"FR",plat:"网页",icon:"ritzparis.com.ico"},
 {name:"喜家德水饺",url:"https://xijiade.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名水饺连锁品牌",desc:"中国知名水饺连锁品牌",official:true,region:"CN",plat:"网页",icon:"xijiade.com.ico"},
 {name:"庆丰包子铺",url:"https://qingfeng.com.cn",cat:"生活服务",rating:4,price:"免费",kw:"中国老字号包子连锁品牌",desc:"中国老字号包子连锁品牌",official:true,region:"CN",plat:"网页",icon:"qingfeng.com.cn.ico"},
-{name:"Pizza School",url:"https://pizzaschool.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"韩国知名平价披萨连锁品牌",desc:"韩国知名平价披萨连锁品牌",official:true,region:"KR",plat:"网页",icon:"pizzaschool.co.kr.ico"}
+{name:"Pizza School",url:"https://pizzaschool.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"韩国知名平价披萨连锁品牌",desc:"韩国知名平价披萨连锁品牌",official:true,region:"KR",plat:"网页",icon:"pizzaschool.co.kr.ico"},
+{name:"敷岛面包",url:"https://pasco.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名面包品牌",desc:"日本知名面包品牌",official:true,region:"JP",plat:"网页",icon:"pasco.co.jp.ico"},
+{name:"第一屋制面包",url:"https://daiichipan.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名面包品牌",desc:"日本知名面包品牌",official:true,region:"JP",plat:"网页",icon:"daiichipan.co.jp.ico"},
+{name:"Mayapada Hospital",url:"https://mayapadahospital.com",cat:"生活服务",rating:4,price:"免费",kw:"印度尼西亚知名私立医院集团",desc:"印度尼西亚知名私立医院集团",official:true,region:"ID",plat:"网页",icon:"mayapadahospital.com.ico"},
+{name:"越法医院",url:"https://hfh.com.vn",cat:"生活服务",rating:4,price:"免费",kw:"越南河内知名国际综合医院",desc:"越南河内知名国际综合医院",official:true,region:"VN",plat:"网页",icon:"hfh.com.vn.ico"},
+{name:"圣巴塞洛缪医院",url:"https://bartshealth.nhs.uk",cat:"生活服务",rating:4,price:"免费",kw:"英国伦敦知名历史公立医院",desc:"英国伦敦知名历史公立医院",official:true,region:"UK",plat:"网页",icon:"bartshealth.nhs.uk.ico"},
+{name:"亚琛大学医院",url:"https://ukaachen.de",cat:"生活服务",rating:4,price:"免费",kw:"德国亚琛知名大学附属医院",desc:"德国亚琛知名大学附属医院",official:true,region:"DE",plat:"网页",icon:"ukaachen.de.ico"},
+{name:"蒙彼利埃大学医院",url:"https://chu-montpellier.fr",cat:"生活服务",rating:4,price:"免费",kw:"法国蒙彼利埃知名公立大学附属医院",desc:"法国蒙彼利埃知名公立大学附属医院",official:true,region:"FR",plat:"网页",icon:"chu-montpellier.fr.ico"},
+{name:"迪拜国王学院医院",url:"https://kingscollegehospitaldubai.com",cat:"生活服务",rating:4,price:"免费",kw:"阿联酋迪拜知名私立综合医院",desc:"阿联酋迪拜知名私立综合医院",official:true,region:"AE",plat:"网页",icon:"kingscollegehospitaldubai.com.ico"},
+{name:"巴西国家癌症研究所",url:"https://inca.gov.br",cat:"生活服务",rating:4,price:"免费",kw:"巴西里约热内卢知名癌症专科医院",desc:"巴西里约热内卢知名癌症专科医院",official:true,region:"BR",plat:"网页",icon:"inca.gov.br.ico"},
+{name:"苏拉斯基医疗中心",url:"https://tasmc.org.il",cat:"生活服务",rating:4,price:"免费",kw:"以色列特拉维夫知名大型综合医院",desc:"以色列特拉维夫知名大型综合医院",official:true,region:"IL",plat:"网页",icon:"tasmc.org.il.ico"},
+{name:"格雷戈里奥·马拉尼翁医院",url:"https://hggm.es",cat:"生活服务",rating:4,price:"免费",kw:"西班牙马德里知名公立综合医院",desc:"西班牙马德里知名公立综合医院",official:true,region:"ES",plat:"网页",icon:"hggm.es.ico"},
+{name:"圣奥尔索拉医院",url:"https://aosp.bo.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利博洛尼亚知名大学附属医院",desc:"意大利博洛尼亚知名大学附属医院",official:true,region:"IT",plat:"网页",icon:"aosp.bo.it.ico"},
+{name:"林雪平大学医院",url:"https://regionostergotland.se",cat:"生活服务",rating:4,price:"免费",kw:"瑞典林雪平知名大学附属医院",desc:"瑞典林雪平知名大学附属医院",official:true,region:"SE",plat:"网页",icon:"regionostergotland.se.ico"}
 ];
