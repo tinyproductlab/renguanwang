@@ -1282,7 +1282,7 @@ function render(list, q){
   const foundT = {zh:`${scope}找到 ${list.length} 个亲测过的站（推广位已标注）`,zht:`${scope}找到 ${list.length} 個親測過的站（推廣位已標註）`,en:`${list.length} verified sites${activeRegion?' in '+activeRegion:''} (sponsored labeled)`,ja:`${list.length} 件の検証済みサイト`,ko:`검증된 사이트 ${list.length}개`,de:`${list.length} geprüfte Seiten`,fr:`${list.length} sites vérifiés`,es:`${list.length} sitios verificados`,pt:`${list.length} sites verificados`}[lang5] || `${list.length} verified sites (sponsored labeled)`;
   const meta = `<div class="meta">${foundT}</div>`;
   // 补充翻译键（用全局 t()）
-  const priceT = s.price === "免费" ? t("price_free") : s.price;
+  const priceT = s => s.price === "免费" ? t("price_free") : s.price;
   const offT = t("verified");
   const goT = t("go");
   const dlT = t("dl");
@@ -1293,7 +1293,7 @@ function render(list, q){
       <div class="body">
         <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="globe">🌍</span>`}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
         <div class="domain">${host(s.url)}</div>
-        <div class="tags"><i class="cat">${catT(s.cat)}</i><i class="price">${priceT}</i>${s.region?`<i class="${s.region==="CN"?"region-dom":"region-for"}">${COUNTRY_NAMES[s.region]||s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?`<i class="dl">${dlT}</i>`:''}${s.official?`<i class="off">${offT}</i>`:''}${s.sponsored?`<i class="ad">${adT}</i>`:''}</div>
+        <div class="tags"><i class="cat">${catT(s.cat)}</i><i class="price">${priceT(s)}</i>${s.region?`<i class="${s.region==="CN"?"region-dom":"region-for"}">${COUNTRY_NAMES[s.region]||s.region}</i>`:''}${(s.plat&&s.plat!=="网页")?`<i class="plat">${s.plat}</i>`:''}${s.dl?`<i class="dl">${dlT}</i>`:''}${s.official?`<i class="off">${offT}</i>`:''}${s.sponsored?`<i class="ad">${adT}</i>`:''}</div>
         <p>${s.desc}</p>
       </div>
       <button type="button" class="pin-btn${isPinned(s.url)?" on":""}" data-pin="${encodeURIComponent(s.url)}" aria-label="pin">📌</button>
