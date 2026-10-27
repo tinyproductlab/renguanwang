@@ -9104,5 +9104,18 @@ const SITES = [
 {name:"都灵莫利内特医院",url:"https://cittadellasalute.to.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利都灵知名公立大学附属医院",desc:"意大利都灵知名公立大学附属医院",official:true,region:"IT",plat:"网页",icon:"cittadellasalute.to.it.ico"},
 {name:"斯德哥尔摩南医院",url:"https://sodersjukhuset.se",cat:"生活服务",rating:4,price:"免费",kw:"瑞典斯德哥尔摩知名公立综合医院",desc:"瑞典斯德哥尔摩知名公立综合医院",official:true,region:"SE",plat:"网页",icon:"sodersjukhuset.se.ico"},
 {name:"巴塞尔大学医院",url:"https://unispital-basel.ch",cat:"生活服务",rating:4,price:"免费",kw:"瑞士巴塞尔知名大学附属医院",desc:"瑞士巴塞尔知名大学附属医院",official:true,region:"CH",plat:"网页",icon:"unispital-basel.ch.ico"},
-{name:"乐刻运动",url:"https://lefit.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名互联网连锁健身品牌",desc:"中国知名互联网连锁健身品牌",official:true,region:"CN",plat:"网页",icon:"lefit.com.ico"}
+{name:"乐刻运动",url:"https://lefit.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名互联网连锁健身品牌",desc:"中国知名互联网连锁健身品牌",official:true,region:"CN",plat:"网页",icon:"lefit.com.ico"},
+{name:"Green Finger",url:"https://greenfinger.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国知名婴幼儿洗护品牌",desc:"韩国知名婴幼儿洗护品牌",official:true,region:"KR",plat:"网页",icon:"greenfinger.com.ico"},
+{name:"可瑞康",url:"https://karicare.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"新西兰知名婴幼儿配方奶粉品牌",desc:"新西兰知名婴幼儿配方奶粉品牌",official:true,region:"NZ",plat:"网页",icon:"karicare.co.nz.ico"},
+{name:"Oakley",url:"https://oakley.com",cat:"购物消费",rating:4,price:"免费",kw:"美国知名运动眼镜品牌",desc:"美国知名运动眼镜品牌",official:true,region:"US",plat:"网页",icon:"oakley.com.ico"},
+{name:"Oliver Peoples",url:"https://oliverpeoples.com",cat:"购物消费",rating:4,price:"免费",kw:"美国知名高端眼镜品牌",desc:"美国知名高端眼镜品牌",official:true,region:"US",plat:"网页",icon:"oliverpeoples.com.ico"},
+{name:"Persol",url:"https://persol.com",cat:"购物消费",rating:4,price:"免费",kw:"意大利知名高端太阳镜品牌",desc:"意大利知名高端太阳镜品牌",official:true,region:"IT",plat:"网页",icon:"persol.com.ico"},
+{name:"Carrera",url:"https://www.carreraworld.com",cat:"购物消费",rating:4,price:"免费",kw:"意大利知名运动时尚眼镜品牌",desc:"意大利知名运动时尚眼镜品牌",official:true,region:"IT",plat:"网页",icon:"www.carreraworld.com.ico"},
+{name:"Alain Mikli",url:"https://alainmikli.com",cat:"购物消费",rating:4,price:"免费",kw:"法国知名高端手工眼镜品牌",desc:"法国知名高端手工眼镜品牌",official:true,region:"FR",plat:"网页",icon:"alainmikli.com.ico"},
+{name:"Lafont",url:"https://lafont.com",cat:"购物消费",rating:4,price:"免费",kw:"法国知名巴黎眼镜品牌",desc:"法国知名巴黎眼镜品牌",official:true,region:"FR",plat:"网页",icon:"lafont.com.ico"},
+{name:"Rodenstock",url:"https://rodenstock.com",cat:"购物消费",rating:4,price:"免费",kw:"德国知名光学镜片与眼镜品牌",desc:"德国知名光学镜片与眼镜品牌",official:true,region:"DE",plat:"网页",icon:"rodenstock.com.ico"},
+{name:"Silhouette",url:"https://silhouette.com",cat:"购物消费",rating:4,price:"免费",kw:"奥地利知名无框眼镜品牌",desc:"奥地利知名无框眼镜品牌",official:true,region:"AT",plat:"网页",icon:"silhouette.com.ico"},
+{name:"Lindberg",url:"https://lindberg.com",cat:"购物消费",rating:4,price:"免费",kw:"丹麦知名高端钛架眼镜品牌",desc:"丹麦知名高端钛架眼镜品牌",official:true,region:"DK",plat:"网页",icon:"lindberg.com.ico"},
+{name:"Etnia Barcelona",url:"https://etniabarcelona.com",cat:"购物消费",rating:4,price:"免费",kw:"西班牙巴塞罗那知名潮流眼镜品牌",desc:"西班牙巴塞罗那知名潮流眼镜品牌",official:true,region:"ES",plat:"网页",icon:"etniabarcelona.com.ico"},
+{name:"Götti",url:"https://gotti.ch",cat:"购物消费",rating:4,price:"免费",kw:"瑞士知名手工眼镜品牌",desc:"瑞士知名手工眼镜品牌",official:true,region:"CH",plat:"网页",icon:"gotti.ch.ico"}
 ];
