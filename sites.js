@@ -9144,5 +9144,6 @@ const SITES = [
 {name:"Monokel",url:"https://monokel-eyewear.com",cat:"购物消费",rating:4,price:"免费",kw:"瑞典斯德哥尔摩知名复古眼镜品牌",desc:"瑞典斯德哥尔摩知名复古眼镜品牌",official:true,region:"SE",plat:"网页",icon:"monokel-eyewear.com.ico"},
 {name:"Hawkers",url:"https://hawkersco.com",cat:"购物消费",rating:4,price:"免费",kw:"西班牙知名平价潮流太阳镜品牌",desc:"西班牙知名平价潮流太阳镜品牌",official:true,region:"ES",plat:"网页",icon:"hawkersco.com.ico"},
 {name:"Andy Wolf",url:"https://andy-wolf.com",cat:"购物消费",rating:4,price:"免费",kw:"奥地利知名手工眼镜品牌",desc:"奥地利知名手工眼镜品牌",official:true,region:"AT",plat:"网页",icon:"andy-wolf.com.ico"},
-{name:"EVT Hotels & Resorts",url:"https://www.evt.com",cat:"购物消费",rating:4,price:"免费",kw:"澳大利亚知名酒店集团",desc:"澳大利亚知名酒店集团",official:true,region:"AU",plat:"网页",icon:"www.evt.com.ico"}
+{name:"EVT Hotels & Resorts",url:"https://www.evt.com",cat:"购物消费",rating:4,price:"免费",kw:"澳大利亚知名酒店集团",desc:"澳大利亚知名酒店集团",official:true,region:"AU",plat:"网页",icon:"www.evt.com.ico"},
+{name:"米兰综合医院",url:"https://policlinico.mi.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利米兰知名大型综合医院",desc:"意大利米兰知名大型综合医院",official:true,region:"IT",plat:"网页",icon:"policlinico.mi.it.ico"}
 ];
