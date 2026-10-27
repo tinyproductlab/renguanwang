@@ -9117,5 +9117,10 @@ const SITES = [
 {name:"Silhouette",url:"https://silhouette.com",cat:"购物消费",rating:4,price:"免费",kw:"奥地利知名无框眼镜品牌",desc:"奥地利知名无框眼镜品牌",official:true,region:"AT",plat:"网页",icon:"silhouette.com.ico"},
 {name:"Lindberg",url:"https://lindberg.com",cat:"购物消费",rating:4,price:"免费",kw:"丹麦知名高端钛架眼镜品牌",desc:"丹麦知名高端钛架眼镜品牌",official:true,region:"DK",plat:"网页",icon:"lindberg.com.ico"},
 {name:"Etnia Barcelona",url:"https://etniabarcelona.com",cat:"购物消费",rating:4,price:"免费",kw:"西班牙巴塞罗那知名潮流眼镜品牌",desc:"西班牙巴塞罗那知名潮流眼镜品牌",official:true,region:"ES",plat:"网页",icon:"etniabarcelona.com.ico"},
-{name:"Götti",url:"https://gotti.ch",cat:"购物消费",rating:4,price:"免费",kw:"瑞士知名手工眼镜品牌",desc:"瑞士知名手工眼镜品牌",official:true,region:"CH",plat:"网页",icon:"gotti.ch.ico"}
+{name:"Götti",url:"https://gotti.ch",cat:"购物消费",rating:4,price:"免费",kw:"瑞士知名手工眼镜品牌",desc:"瑞士知名手工眼镜品牌",official:true,region:"CH",plat:"网页",icon:"gotti.ch.ico"},
+{name:"杢目金屋",url:"https://www.mokumeganeya.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名婚戒珠宝品牌",desc:"日本知名婚戒珠宝品牌",official:true,region:"JP",plat:"网页",icon:"www.mokumeganeya.com.ico"},
+{name:"东海堂",url:"https://aroma.com.hk",cat:"购物消费",rating:4,price:"免费",kw:"香港知名连锁饼店品牌",desc:"香港知名连锁饼店品牌",official:true,region:"HK",plat:"网页",icon:"aroma.com.hk.ico"},
+{name:"Mako Cake & Bakery",url:"https://mako.id",cat:"购物消费",rating:4,price:"免费",kw:"印尼知名连锁蛋糕面包品牌",desc:"印尼知名连锁蛋糕面包品牌",official:true,region:"ID",plat:"网页",icon:"mako.id.ico"},
+{name:"玛丽医院",url:"https://www8.ha.org.hk/qmh/",cat:"生活服务",rating:4,price:"免费",kw:"香港知名公立教学医院",desc:"香港知名公立教学医院",official:true,region:"HK",plat:"网页",icon:"www8.ha.org.hk.ico"},
+{name:"Nonstop Gym",url:"https://nonstopgym.ch",cat:"生活服务",rating:4,price:"免费",kw:"瑞士知名平价连锁健身品牌",desc:"瑞士知名平价连锁健身品牌",official:true,region:"CH",plat:"网页",icon:"nonstopgym.ch.ico"}
 ];
