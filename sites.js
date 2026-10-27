@@ -9461,5 +9461,11 @@ const SITES = [
 {name:"Collin's",url:"https://www.collins.sg",cat:"生活服务",rating:4,price:"免费",kw:"Collin's 西餐快餐 新加坡",desc:"新加坡知名西餐快餐连锁品牌",official:true,region:"SG",plat:"网页",icon:"www.collins.sg.ico"},
 {name:"Jones' Salad",url:"https://jonessalad.com",cat:"生活服务",rating:4,price:"免费",kw:"Jones' Salad 健康快餐 泰国",desc:"泰国知名健康快餐连锁品牌",official:true,region:"TH",plat:"网页",icon:"jonessalad.com.ico"},
 {name:"Manhattan Fish Market",url:"https://www.manhattanfishmarket.com",cat:"生活服务",rating:4,price:"免费",kw:"Manhattan Fish Market 海鲜快餐 马来西亚",desc:"马来西亚知名海鲜快餐连锁品牌",official:true,region:"MY",plat:"网页",icon:"www.manhattanfishmarket.com.ico"},
-{name:"D'Crepes",url:"https://dcrepes.com",cat:"生活服务",rating:4,price:"免费",kw:"D'Crepes 薄饼快餐 印尼",desc:"印尼知名薄饼快餐连锁品牌",official:true,region:"ID",plat:"网页",icon:"dcrepes.com.ico"}
+{name:"D'Crepes",url:"https://dcrepes.com",cat:"生活服务",rating:4,price:"免费",kw:"D'Crepes 薄饼快餐 印尼",desc:"印尼知名薄饼快餐连锁品牌",official:true,region:"ID",plat:"网页",icon:"dcrepes.com.ico"},
+{name:"Adama Paris",url:"https://adamaparis.com",cat:"购物消费",rating:4,price:"免费",kw:"Adama Paris 珠宝 塞内加尔",desc:"塞内加尔知名珠宝设计师品牌",official:true,region:"SN",plat:"网页",icon:"adamaparis.com.ico"},
+{name:"Gerbeaud",url:"https://gerbeaud.hu",cat:"购物消费",rating:4,price:"免费",kw:"Gerbeaud 糕点 匈牙利",desc:"匈牙利知名糕点品牌",official:true,region:"HU",plat:"网页",icon:"gerbeaud.hu.ico"},
+{name:"Al-Mouwasat University Hospital",url:"https://almouwasat.sy",cat:"生活服务",rating:4,price:"免费",kw:"Al-Mouwasat University Hospital 莫瓦萨特大学医院 叙利亚",desc:"叙利亚大马士革知名大学附属医院",official:true,region:"SY",plat:"网页",icon:"almouwasat.sy.ico"},
+{name:"Jigme Dorji Wangchuck National Referral Hospital",url:"https://jdwnrh.gov.bt",cat:"生活服务",rating:4,price:"免费",kw:"Jigme Dorji Wangchuck National Referral Hospital 吉格梅多吉旺楚克国立转诊医院 不丹",desc:"不丹廷布知名国立转诊医院",official:true,region:"BT",plat:"网页",icon:"jdwnrh.gov.bt.ico"},
+{name:"Mother Teresa University Hospital Center",url:"https://www.qsut.gov.al",cat:"生活服务",rating:4,price:"免费",kw:"Mother Teresa University Hospital Center 特蕾莎修女大学医院中心 阿尔巴尼亚",desc:"阿尔巴尼亚地拉那知名大学医院中心",official:true,region:"AL",plat:"网页",icon:"www.qsut.gov.al.ico"},
+{name:"Centre Hospitalier Universitaire Sylvanus Olympio",url:"https://chuso.tg",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Universitaire Sylvanus Olympio 希尔瓦努斯奥林匹奥大学医院 多哥",desc:"多哥洛美知名大学附属医院",official:true,region:"TG",plat:"网页",icon:"chuso.tg.ico"}
 ];
