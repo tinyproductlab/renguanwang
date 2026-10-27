@@ -9209,5 +9209,6 @@ const SITES = [
 {name:"梅里恩酒店",url:"https://www.merrionhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"梅里恩酒店 都柏林 爱尔兰",desc:"爱尔兰都柏林知名豪华酒店",official:true,region:"IE",plat:"网页",icon:"www.merrionhotel.com.ico"},
 {name:"科斯塔纳瓦里诺度假村",url:"https://www.costanavarino.com",cat:"购物消费",rating:4,price:"免费",kw:"科斯塔纳瓦里诺 希腊 度假村",desc:"希腊知名海滨度假区",official:true,region:"GR",plat:"网页",icon:"www.costanavarino.com.ico"},
 {name:"皇冠酒店集团",url:"https://www.crownhotels.com.au",cat:"购物消费",rating:4,price:"免费",kw:"皇冠酒店集团 澳大利亚 Crown",desc:"澳大利亚知名综合度假酒店集团",official:true,region:"AU",plat:"网页",icon:"www.crownhotels.com.au.ico"},
-{name:"维丹塔度假村集团",url:"https://www.vidanta.com",cat:"购物消费",rating:4,price:"免费",kw:"维丹塔度假村 墨西哥 Vidanta",desc:"墨西哥知名度假村集团",official:true,region:"MX",plat:"网页",icon:"www.vidanta.com.ico"}
+{name:"维丹塔度假村集团",url:"https://www.vidanta.com",cat:"购物消费",rating:4,price:"免费",kw:"维丹塔度假村 墨西哥 Vidanta",desc:"墨西哥知名度假村集团",official:true,region:"MX",plat:"网页",icon:"www.vidanta.com.ico"},
+{name:"Niessing",url:"https://www.niessing.com",cat:"购物消费",rating:4,price:"免费",kw:"Niessing 珠宝 德国",desc:"德国知名珠宝品牌",official:true,region:"DE",plat:"网页",icon:"www.niessing.com.ico"}
 ];
