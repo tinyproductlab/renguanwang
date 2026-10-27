@@ -8971,5 +8971,9 @@ const SITES = [
 {name:"拉蒙-卡哈尔大学医院",url:"https://hrc.es",cat:"生活服务",rating:4,price:"免费",kw:"西班牙马德里知名公立大学附属医院",desc:"西班牙马德里知名公立大学附属医院",official:true,region:"ES",plat:"网页",icon:"hrc.es.ico"},
 {name:"米兰国家肿瘤研究所",url:"https://istitutotumori.mi.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利米兰知名癌症专科医院",desc:"意大利米兰知名癌症专科医院",official:true,region:"IT",plat:"网页",icon:"istitutotumori.mi.it.ico"},
 {name:"格罗宁根大学医学中心",url:"https://umcg.nl",cat:"生活服务",rating:4,price:"免费",kw:"荷兰格罗宁根知名大学附属医院",desc:"荷兰格罗宁根知名大学附属医院",official:true,region:"NL",plat:"网页",icon:"umcg.nl.ico"},
-{name:"于默奥大学医院",url:"https://regionvasterbotten.se",cat:"生活服务",rating:4,price:"免费",kw:"瑞典于默奥知名大学附属医院",desc:"瑞典于默奥知名大学附属医院",official:true,region:"SE",plat:"网页",icon:"regionvasterbotten.se.ico"}
+{name:"于默奥大学医院",url:"https://regionvasterbotten.se",cat:"生活服务",rating:4,price:"免费",kw:"瑞典于默奥知名大学附属医院",desc:"瑞典于默奥知名大学附属医院",official:true,region:"SE",plat:"网页",icon:"regionvasterbotten.se.ico"},
+{name:"10mois",url:"https://10mois.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名母婴用品品牌",desc:"日本知名母婴用品品牌",official:true,region:"JP",plat:"网页",icon:"10mois.com.ico"},
+{name:"Moimoln",url:"https://moimoln.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国知名婴幼儿服饰品牌",desc:"韩国知名婴幼儿服饰品牌",official:true,region:"KR",plat:"网页",icon:"moimoln.com.ico"},
+{name:"JR东日本酒店集团",url:"https://jre-hotels.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名铁路系连锁酒店集团",desc:"日本知名铁路系连锁酒店集团",official:true,region:"JP",plat:"网页",icon:"jre-hotels.jp.ico"},
+{name:"丽嘉皇家酒店",url:"https://rihga.com",cat:"购物消费",rating:4,price:"免费",kw:"日本知名老牌豪华酒店品牌",desc:"日本知名老牌豪华酒店品牌",official:true,region:"JP",plat:"网页",icon:"rihga.com.ico"}
 ];
