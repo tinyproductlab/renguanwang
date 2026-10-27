@@ -8934,5 +8934,17 @@ const SITES = [
 {name:"苏拉斯基医疗中心",url:"https://tasmc.org.il",cat:"生活服务",rating:4,price:"免费",kw:"以色列特拉维夫知名大型综合医院",desc:"以色列特拉维夫知名大型综合医院",official:true,region:"IL",plat:"网页",icon:"tasmc.org.il.ico"},
 {name:"格雷戈里奥·马拉尼翁医院",url:"https://hggm.es",cat:"生活服务",rating:4,price:"免费",kw:"西班牙马德里知名公立综合医院",desc:"西班牙马德里知名公立综合医院",official:true,region:"ES",plat:"网页",icon:"hggm.es.ico"},
 {name:"圣奥尔索拉医院",url:"https://aosp.bo.it",cat:"生活服务",rating:4,price:"免费",kw:"意大利博洛尼亚知名大学附属医院",desc:"意大利博洛尼亚知名大学附属医院",official:true,region:"IT",plat:"网页",icon:"aosp.bo.it.ico"},
-{name:"林雪平大学医院",url:"https://regionostergotland.se",cat:"生活服务",rating:4,price:"免费",kw:"瑞典林雪平知名大学附属医院",desc:"瑞典林雪平知名大学附属医院",official:true,region:"SE",plat:"网页",icon:"regionostergotland.se.ico"}
+{name:"林雪平大学医院",url:"https://regionostergotland.se",cat:"生活服务",rating:4,price:"免费",kw:"瑞典林雪平知名大学附属医院",desc:"瑞典林雪平知名大学附属医院",official:true,region:"SE",plat:"网页",icon:"regionostergotland.se.ico"},
+{name:"Mother-K",url:"https://mother-k.com",cat:"购物消费",rating:4,price:"免费",kw:"韩国知名母婴用品品牌",desc:"韩国知名母婴用品品牌",official:true,region:"KR",plat:"网页",icon:"mother-k.com.ico"},
+{name:"Aveeno Baby",url:"https://aveeno.com",cat:"购物消费",rating:4,price:"免费",kw:"美国知名婴儿洗护品牌",desc:"美国知名婴儿洗护品牌",official:true,region:"US",plat:"网页",icon:"aveeno.com.ico"},
+{name:"喜宝",url:"https://hipp.com",cat:"购物消费",rating:4,price:"免费",kw:"德国知名有机婴幼儿食品品牌",desc:"德国知名有机婴幼儿食品品牌",official:true,region:"DE",plat:"网页",icon:"hipp.com.ico"},
+{name:"贝拉米",url:"https://bellamysorganic.com.au",cat:"购物消费",rating:4,price:"免费",kw:"澳大利亚知名有机婴幼儿食品品牌",desc:"澳大利亚知名有机婴幼儿食品品牌",official:true,region:"AU",plat:"网页",icon:"bellamysorganic.com.au.ico"},
+{name:"Poker Face",url:"https://pokerface.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名连锁眼镜品牌",desc:"日本知名连锁眼镜品牌",official:true,region:"JP",plat:"网页",icon:"pokerface.co.jp.ico"},
+{name:"新大谷酒店集团",url:"https://newotani.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日本知名老牌豪华酒店集团",desc:"日本知名老牌豪华酒店集团",official:true,region:"JP",plat:"网页",icon:"newotani.co.jp.ico"},
+{name:"Ancasa酒店集团",url:"https://ancasa.com",cat:"购物消费",rating:4,price:"免费",kw:"马来西亚知名连锁酒店集团",desc:"马来西亚知名连锁酒店集团",official:true,region:"MY",plat:"网页",icon:"ancasa.com.ico"},
+{name:"Bellevue酒店集团",url:"https://bellevuehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"菲律宾知名连锁酒店品牌",desc:"菲律宾知名连锁酒店品牌",official:true,region:"PH",plat:"网页",icon:"bellevuehotels.com.ico"},
+{name:"Aryaduta酒店集团",url:"https://aryaduta.com",cat:"购物消费",rating:4,price:"免费",kw:"印尼知名连锁酒店品牌",desc:"印尼知名连锁酒店品牌",official:true,region:"ID",plat:"网页",icon:"aryaduta.com.ico"},
+{name:"和合谷",url:"https://hehegu.com",cat:"生活服务",rating:4,price:"免费",kw:"中国知名中式快餐连锁品牌",desc:"中国知名中式快餐连锁品牌",official:true,region:"CN",plat:"网页",icon:"hehegu.com.ico"},
+{name:"拿坡里",url:"https://mfb.com.tw",cat:"生活服务",rating:4,price:"免费",kw:"台湾知名披萨炸鸡连锁品牌",desc:"台湾知名披萨炸鸡连锁品牌",official:true,region:"TW",plat:"网页",icon:"mfb.com.tw.ico"},
+{name:"홍콩반점",url:"https://hongkongbanjeom.com",cat:"生活服务",rating:4,price:"免费",kw:"韩国知名中式快餐连锁品牌",desc:"韩国知名中式快餐连锁品牌",official:true,region:"KR",plat:"网页",icon:"hongkongbanjeom.com.ico"}
 ];
