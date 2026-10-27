@@ -9378,5 +9378,20 @@ const SITES = [
 {name:"Spartan",url:"https://spartan.ro",cat:"生活服务",rating:4,price:"免费",kw:"Spartan 希腊风味快餐 罗马尼亚",desc:"罗马尼亚知名希腊风味快餐连锁品牌",official:true,region:"RO",plat:"网页",icon:"spartan.ro.ico"},
 {name:"Mafia",url:"https://mafia.ua/ua/kiev",cat:"生活服务",rating:4,price:"免费",kw:"Mafia 日料快餐 乌克兰",desc:"乌克兰知名日料快餐连锁品牌",official:true,region:"UA",plat:"网页",icon:"mafia.ua.ico"},
 {name:"Maestro Pizza",url:"https://maestropizza.com",cat:"生活服务",rating:4,price:"免费",kw:"Maestro Pizza 披萨 沙特",desc:"沙特知名披萨快餐连锁品牌",official:true,region:"SA",plat:"网页",icon:"maestropizza.com.ico"},
-{name:"Mon Hue",url:"https://monhue.com",cat:"生活服务",rating:4,price:"免费",kw:"Mon Hue 越南菜快餐 越南",desc:"越南知名越南菜快餐连锁品牌",official:true,region:"VN",plat:"网页",icon:"monhue.com.ico"}
+{name:"Mon Hue",url:"https://monhue.com",cat:"生活服务",rating:4,price:"免费",kw:"Mon Hue 越南菜快餐 越南",desc:"越南知名越南菜快餐连锁品牌",official:true,region:"VN",plat:"网页",icon:"monhue.com.ico"},
+{name:"Aisha Baker",url:"https://aishabaker.com",cat:"购物消费",rating:4,price:"免费",kw:"Aisha Baker 珠宝 南非",desc:"南非开普敦知名珠宝品牌",official:true,region:"ZA",plat:"网页",icon:"aishabaker.com.ico"},
+{name:"Shlomit Ofir",url:"https://shlomitofir.com",cat:"购物消费",rating:4,price:"免费",kw:"Shlomit Ofir 珠宝 以色列",desc:"以色列知名珠宝设计师品牌",official:true,region:"IL",plat:"网页",icon:"shlomitofir.com.ico"},
+{name:"Noor Fares",url:"https://noorfares.com",cat:"购物消费",rating:4,price:"免费",kw:"Noor Fares 珠宝 黎巴嫩",desc:"黎巴嫩知名珠宝设计师品牌",official:true,region:"LB",plat:"网页",icon:"noorfares.com.ico"},
+{name:"A1 Bread",url:"https://a1bread.com",cat:"购物消费",rating:4,price:"免费",kw:"A1 Bread 面包 加纳",desc:"加纳阿克拉知名面包连锁品牌",official:true,region:"GH",plat:"网页",icon:"a1bread.com.ico"},
+{name:"Amoud",url:"https://amoud.ma",cat:"购物消费",rating:4,price:"免费",kw:"Amoud 糕点 摩洛哥",desc:"摩洛哥卡萨布兰卡知名糕点连锁品牌",official:true,region:"MA",plat:"网页",icon:"amoud.ma.ico"},
+{name:"Moulin d'Or",url:"https://moulindor.tn",cat:"购物消费",rating:4,price:"免费",kw:"Moulin d'Or 面包糕点 突尼斯",desc:"突尼斯知名面包糕点连锁品牌",official:true,region:"TN",plat:"网页",icon:"moulindor.tn.ico"},
+{name:"Bateel",url:"https://bateel.com/en_us/",cat:"购物消费",rating:4,price:"免费",kw:"Bateel 枣糕烘焙 沙特",desc:"沙特知名枣糕与烘焙品牌",official:true,region:"SA",plat:"网页",icon:"bateel.com.ico"},
+{name:"Hallab 1881",url:"https://hallab1881.com",cat:"购物消费",rating:4,price:"免费",kw:"Hallab 1881 东方甜点 黎巴嫩",desc:"黎巴嫩的黎波里知名东方甜点老字号品牌",official:true,region:"LB",plat:"网页",icon:"hallab1881.com.ico"},
+{name:"Karaköy Güllüoğlu",url:"https://www.karakoygulluoglu.com/en",cat:"购物消费",rating:4,price:"免费",kw:"Karaköy Güllüoğlu 果仁蜜饼 土耳其",desc:"土耳其伊斯坦布尔知名果仁蜜饼老字号品牌",official:true,region:"TR",plat:"网页",icon:"www.karakoygulluoglu.com.ico"},
+{name:"Nucha",url:"https://nucha.ar",cat:"购物消费",rating:4,price:"免费",kw:"Nucha 面包糕点 阿根廷",desc:"阿根廷布宜诺斯艾利斯知名面包糕点连锁品牌",official:true,region:"AR",plat:"网页",icon:"nucha.ar.ico"},
+{name:"Simonds",url:"https://simonds.com",cat:"购物消费",rating:4,price:"免费",kw:"Simonds 面包糕点 埃及",desc:"埃及知名面包糕点连锁品牌",official:true,region:"EG",plat:"网页",icon:"simonds.com.ico"},
+{name:"Obafemi Awolowo University Teaching Hospital",url:"https://oauthc.com",cat:"生活服务",rating:4,price:"免费",kw:"Obafemi Awolowo University Teaching Hospital 奥巴费米·阿沃洛沃大学附属医院 尼日利亚",desc:"尼日利亚伊莱伊费知名大学附属医院",official:true,region:"NG",plat:"网页",icon:"oauthc.com.ico"},
+{name:"Nsambya Hospital",url:"https://nsambyahospital.org",cat:"生活服务",rating:4,price:"免费",kw:"Nsambya Hospital 恩桑比亚医院 乌干达",desc:"乌干达坎帕拉知名教会医院",official:true,region:"UG",plat:"网页",icon:"nsambyahospital.org.ico"},
+{name:"King Faisal Hospital Kigali",url:"https://kfh.rw",cat:"生活服务",rating:4,price:"免费",kw:"King Faisal Hospital Kigali 基加利费萨尔国王医院 卢旺达",desc:"卢旺达基加利知名私立医院",official:true,region:"RW",plat:"网页",icon:"kfh.rw.ico"},
+{name:"Non Stop Fitness",url:"https://nonstopfitness.rs",cat:"生活服务",rating:4,price:"免费",kw:"Non Stop Fitness 健身 塞尔维亚",desc:"塞尔维亚知名连锁健身品牌",official:true,region:"RS",plat:"网页",icon:"nonstopfitness.rs.ico"}
 ];
