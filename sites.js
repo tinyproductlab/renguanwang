@@ -9508,5 +9508,20 @@ const SITES = [
 {name:"Biryani Blues",url:"https://biryaniblues.com",cat:"生活服务",rating:4,price:"免费",kw:"Biryani Blues 印度炒饭 印度",desc:"印度知名印度炒饭快餐连锁品牌",official:true,region:"IN",plat:"网页",icon:"biryaniblues.com.ico"},
 {name:"Kababjees",url:"https://kababjees.com",cat:"生活服务",rating:4,price:"免费",kw:"Kababjees 炸鸡 巴基斯坦",desc:"巴基斯坦知名炸鸡快餐连锁品牌",official:true,region:"PK",plat:"网页",icon:"kababjees.com.ico"},
 {name:"Black Canyon",url:"https://www.blackcanyoncoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"Black Canyon 咖啡快餐 泰国",desc:"泰国知名咖啡快餐连锁品牌",official:true,region:"TH",plat:"网页",icon:"www.blackcanyoncoffee.com.ico"},
-{name:"Dogger",url:"https://dogger.com.co",cat:"生活服务",rating:4,price:"免费",kw:"Dogger 热狗 哥伦比亚",desc:"哥伦比亚知名热狗快餐连锁品牌",official:true,region:"CO",plat:"网页",icon:"dogger.com.co.ico"}
+{name:"Dogger",url:"https://dogger.com.co",cat:"生活服务",rating:4,price:"免费",kw:"Dogger 热狗 哥伦比亚",desc:"哥伦比亚知名热狗快餐连锁品牌",official:true,region:"CO",plat:"网页",icon:"dogger.com.co.ico"},
+{name:"Uwe Koetter",url:"https://uwekoetter.com",cat:"购物消费",rating:4,price:"免费",kw:"Uwe Koetter 珠宝 南非",desc:"南非开普敦知名珠宝商",official:true,region:"ZA",plat:"网页",icon:"uwekoetter.com.ico"},
+{name:"Ayala Bar",url:"https://ayalabar.com",cat:"购物消费",rating:4,price:"免费",kw:"Ayala Bar 珠宝 以色列",desc:"以色列知名珠宝设计师品牌",official:true,region:"IL",plat:"网页",icon:"ayalabar.com.ico"},
+{name:"Dima Jewellery",url:"https://dimajewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"Dima Jewellery 珠宝 阿联酋",desc:"阿联酋迪拜知名珠宝品牌",official:true,region:"AE",plat:"网页",icon:"dimajewellery.com.ico"},
+{name:"Al Majed Jewellery",url:"https://almajedjewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"Al Majed Jewellery 珠宝 卡塔尔",desc:"卡塔尔知名珠宝品牌",official:true,region:"QA",plat:"网页",icon:"almajedjewellery.com.ico"},
+{name:"Just Gold",url:"https://justgold.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"Just Gold 珠宝 台湾",desc:"台湾知名珠宝品牌",official:true,region:"TW",plat:"网页",icon:"justgold.com.tw.ico"},
+{name:"KLENOTA",url:"https://www.klenota.com",cat:"购物消费",rating:4,price:"免费",kw:"KLENOTA 珠宝 捷克",desc:"捷克知名珠宝品牌",official:true,region:"CZ",plat:"网页",icon:"www.klenota.com.ico"},
+{name:"Zarina",url:"https://zarina.ua",cat:"购物消费",rating:4,price:"免费",kw:"Zarina 珠宝 乌克兰",desc:"乌克兰知名珠宝连锁品牌",official:true,region:"UA",plat:"网页",icon:"zarina.ua.ico"},
+{name:"Viena",url:"https://viena.com.br",cat:"购物消费",rating:4,price:"免费",kw:"Viena 面包熟食 巴西",desc:"巴西圣保罗知名面包熟食连锁品牌",official:true,region:"BR",plat:"网页",icon:"viena.com.br.ico"},
+{name:"Cory",url:"https://cory.cl",cat:"购物消费",rating:4,price:"免费",kw:"Cory 糕点 智利",desc:"智利知名糕点连锁品牌",official:true,region:"CL",plat:"网页",icon:"cory.cl.ico"},
+{name:"Proton Bakers",url:"https://protonbakers.co.zw",cat:"购物消费",rating:4,price:"免费",kw:"Proton Bakers 面包 津巴布韦",desc:"津巴布韦知名面包连锁品牌",official:true,region:"ZW",plat:"网页",icon:"protonbakers.co.zw.ico"},
+{name:"Ain Shams University Hospitals",url:"https://hospitals.asu.edu.eg",cat:"生活服务",rating:4,price:"免费",kw:"Ain Shams University Hospitals 艾因夏姆斯大学医院 埃及",desc:"埃及开罗知名大学附属医院群",official:true,region:"EG",plat:"网页",icon:"hospitals.asu.edu.eg.ico"},
+{name:"Bir Hospital",url:"https://birhospital.gov.np",cat:"生活服务",rating:4,price:"免费",kw:"Bir Hospital 比尔医院 尼泊尔",desc:"尼泊尔加德满都知名国立医院",official:true,region:"NP",plat:"网页",icon:"birhospital.gov.np.ico"},
+{name:"Colombo South Teaching Hospital",url:"https://www.csth.health.gov.lk",cat:"生活服务",rating:4,price:"免费",kw:"Colombo South Teaching Hospital 科伦坡南部教学医院 斯里兰卡",desc:"斯里兰卡科伦坡知名教学医院",official:true,region:"LK",plat:"网页",icon:"www.csth.health.gov.lk.ico"},
+{name:"Curves",url:"https://curves.com.tw",cat:"生活服务",rating:4,price:"免费",kw:"Curves 可爾姿 女子健身 台湾",desc:"台湾知名女子连锁健身品牌",official:true,region:"TW",plat:"网页",icon:"curves.com.tw.ico"},
+{name:"The Bread Blue",url:"https://thebreadblue.com",cat:"购物消费",rating:4,price:"免费",kw:"The Bread Blue 面包 韩国",desc:"韩国知名面包连锁品牌",official:true,region:"KR",plat:"网页",icon:"thebreadblue.com.ico"}
 ];
