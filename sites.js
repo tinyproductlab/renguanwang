@@ -9630,5 +9630,18 @@ const SITES = [
 {name:"Mepsi",url:"https://mepsi.ru",cat:"购物消费",rating:4,price:"免费",kw:"Mepsi 纸尿裤 俄罗斯",desc:"俄罗斯知名纸尿裤品牌",official:true,region:"RU",plat:"网页",icon:"mepsi.ru.ico"},
 {name:"Sea Cliff Resort & Spa",url:"https://seacliffzanzibar.com",cat:"购物消费",rating:4,price:"免费",kw:"Sea Cliff Resort 桑给巴尔",desc:"坦桑尼亚桑给巴尔知名度假酒店",official:true,region:"TZ",plat:"网页",icon:"seacliffzanzibar.com.ico"},
 {name:"Espinas Palace Hotel",url:"https://espinashotels.com/hotels/espinas-palace-hotel/",cat:"购物消费",rating:4,price:"免费",kw:"Espinas Palace Hotel 德黑兰",desc:"伊朗德黑兰知名豪华酒店",official:true,region:"IR",plat:"网页",icon:"espinashotels.com.ico"},
-{name:"Tacos de Lyon",url:"https://tacosdelyon.com",cat:"生活服务",rating:4,price:"免费",kw:"Tacos de Lyon 摩洛哥",desc:"摩洛哥知名法式塔可快餐连锁品牌",official:true,region:"MA",plat:"网页",icon:"tacosdelyon.com.ico"}
+{name:"Tacos de Lyon",url:"https://tacosdelyon.com",cat:"生活服务",rating:4,price:"免费",kw:"Tacos de Lyon 摩洛哥",desc:"摩洛哥知名法式塔可快餐连锁品牌",official:true,region:"MA",plat:"网页",icon:"tacosdelyon.com.ico"},
+{name:"Prins & Prins",url:"https://prinsandprins.com",cat:"购物消费",rating:4,price:"免费",kw:"Prins & Prins 钻石 南非",desc:"南非知名钻石珠宝商",official:true,region:"ZA",plat:"网页",icon:"prinsandprins.com.ico"},
+{name:"Meli Melo",url:"https://melimelo.ro",cat:"购物消费",rating:4,price:"免费",kw:"Meli Melo 珠宝 罗马尼亚",desc:"罗马尼亚知名珠宝品牌",official:true,region:"RO",plat:"网页",icon:"melimelo.ro.ico"},
+{name:"Sunlight",url:"https://sunlight.net",cat:"购物消费",rating:4,price:"免费",kw:"Sunlight 珠宝 俄罗斯",desc:"俄罗斯知名珠宝连锁品牌",official:true,region:"RU",plat:"网页",icon:"sunlight.net.ico"},
+{name:"Ukrzoloto",url:"https://ukrzoloto.ua",cat:"购物消费",rating:4,price:"免费",kw:"Ukrzoloto 珠宝 乌克兰",desc:"乌克兰知名珠宝连锁品牌",official:true,region:"UA",plat:"网页",icon:"ukrzoloto.ua.ico"},
+{name:"Munch Bakery",url:"https://www.munchbakery.com",cat:"购物消费",rating:4,price:"免费",kw:"Munch Bakery 面包 沙特",desc:"沙特利雅得知名面包房",official:true,region:"SA",plat:"网页",icon:"www.munchbakery.com.ico"},
+{name:"Shirin Asal",url:"https://shirinasal.com",cat:"购物消费",rating:4,price:"免费",kw:"Shirin Asal 糖果 伊朗",desc:"伊朗知名糖果糕点品牌",official:true,region:"IR",plat:"网页",icon:"shirinasal.com.ico"},
+{name:"Bambi",url:"https://bambi.rs",cat:"购物消费",rating:4,price:"免费",kw:"Bambi 糖果 塞尔维亚",desc:"塞尔维亚知名糖果糕点品牌",official:true,region:"RS",plat:"网页",icon:"bambi.rs.ico"},
+{name:"Hospital Roosevelt",url:"https://hospitalroosevelt.gob.gt",cat:"生活服务",rating:4,price:"免费",kw:"Hospital Roosevelt 危地马拉",desc:"危地马拉城知名综合医院",official:true,region:"GT",plat:"网页",icon:"hospitalroosevelt.gob.gt.ico"},
+{name:"Karl Heusner Memorial Hospital",url:"https://khmh.bz",cat:"生活服务",rating:4,price:"免费",kw:"Karl Heusner Memorial Hospital 伯利兹",desc:"伯利兹城知名综合医院",official:true,region:"BZ",plat:"网页",icon:"khmh.bz.ico"},
+{name:"Hospital Maciel",url:"https://hospitalmaciel.com.uy",cat:"生活服务",rating:4,price:"免费",kw:"Hospital Maciel 乌拉圭",desc:"乌拉圭蒙得维的亚知名综合医院",official:true,region:"UY",plat:"网页",icon:"hospitalmaciel.com.uy.ico"},
+{name:"Fitness House",url:"https://fitnesshouse.ru",cat:"生活服务",rating:4,price:"免费",kw:"Fitness House 健身 俄罗斯",desc:"俄罗斯知名健身连锁品牌",official:true,region:"RU",plat:"网页",icon:"fitnesshouse.ru.ico"},
+{name:"We Fitness Society",url:"https://wefitnesssociety.com",cat:"生活服务",rating:4,price:"免费",kw:"We Fitness Society 健身 泰国",desc:"泰国知名健身连锁品牌",official:true,region:"TH",plat:"网页",icon:"wefitnesssociety.com.ico"},
+{name:"Centre Hospitalier Universitaire de Libreville",url:"https://chul.ga",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Universitaire de Libreville 加蓬",desc:"加蓬利伯维尔知名大学中心医院",official:true,region:"GA",plat:"网页",icon:"chul.ga.ico"}
 ];
