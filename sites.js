@@ -9743,5 +9743,13 @@ const SITES = [
 {name:"Lakeshore Hotel Dhaka",url:"https://lakeshorehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"Lakeshore Hotel 酒店 孟加拉国",desc:"孟加拉国达卡知名酒店",official:true,region:"BD",plat:"网页",icon:"lakeshorehotels.com.ico"},
 {name:"Pizzarelli",url:"https://pizzarelli.com.do",cat:"生活服务",rating:4,price:"免费",kw:"Pizzarelli 披萨 多米尼加",desc:"多米尼加知名披萨快餐连锁品牌",official:true,region:"DO",plat:"网页",icon:"pizzarelli.com.do.ico"},
 {name:"Metro",url:"https://www.metro.is",cat:"生活服务",rating:4,price:"免费",kw:"Metro 快餐 冰岛",desc:"冰岛知名快餐连锁品牌",official:true,region:"IS",plat:"网页",icon:"www.metro.is.ico"},
-{name:"Happy Bar & Grill",url:"https://happy.bg",cat:"生活服务",rating:4,price:"免费",kw:"Happy Bar & Grill 快餐 保加利亚",desc:"保加利亚知名餐厅快餐连锁品牌",official:true,region:"BG",plat:"网页",icon:"happy.bg.ico"}
+{name:"Happy Bar & Grill",url:"https://happy.bg",cat:"生活服务",rating:4,price:"免费",kw:"Happy Bar & Grill 快餐 保加利亚",desc:"保加利亚知名餐厅快餐连锁品牌",official:true,region:"BG",plat:"网页",icon:"happy.bg.ico"},
+{name:"Supa Loaf",url:"https://supaloaf.co.ke",cat:"购物消费",rating:4,price:"免费",kw:"Supa Loaf 面包 肯尼亚",desc:"肯尼亚知名面包品牌",official:true,region:"KE",plat:"网页",icon:"supaloaf.co.ke.ico"},
+{name:"Masmoudi",url:"https://masmoudi.tn",cat:"购物消费",rating:4,price:"免费",kw:"Masmoudi 糕点 突尼斯",desc:"突尼斯知名糕点连锁品牌",official:true,region:"TN",plat:"网页",icon:"masmoudi.tn.ico"},
+{name:"Gourmet",url:"https://gourmetpakistan.com",cat:"购物消费",rating:4,price:"免费",kw:"Gourmet 面包 巴基斯坦",desc:"巴基斯坦知名面包连锁品牌",official:true,region:"PK",plat:"网页",icon:"gourmetpakistan.com.ico"},
+{name:"BreadStory",url:"https://breadstory.com",cat:"购物消费",rating:4,price:"免费",kw:"BreadStory 面包 马来西亚",desc:"马来西亚知名面包连锁品牌",official:true,region:"MY",plat:"网页",icon:"breadstory.com.ico"},
+{name:"Comapan",url:"https://comapan.com.co",cat:"购物消费",rating:4,price:"免费",kw:"Comapan 面包 哥伦比亚",desc:"哥伦比亚知名面包品牌",official:true,region:"CO",plat:"网页",icon:"comapan.com.co.ico"},
+{name:"La Baguette",url:"https://labaguette.pe",cat:"购物消费",rating:4,price:"免费",kw:"La Baguette 面包 秘鲁",desc:"秘鲁利马知名面包连锁品牌",official:true,region:"PE",plat:"网页",icon:"labaguette.pe.ico"},
+{name:"Centre Hospitalier Universitaire de Yopougon",url:"https://chuyopougon.ci",cat:"生活服务",rating:4,price:"免费",kw:"CHU Yopougon 医院 科特迪瓦",desc:"科特迪瓦阿比让知名大学附属医院",official:true,region:"CI",plat:"网页",icon:"chuyopougon.ci.ico"},
+{name:"Kris Gethin Gyms",url:"https://www.krisgethingyms.com",cat:"生活服务",rating:4,price:"免费",kw:"Kris Gethin Gyms 健身 印度",desc:"印度知名健身连锁品牌",official:true,region:"IN",plat:"网页",icon:"www.krisgethingyms.com.ico"}
 ];
