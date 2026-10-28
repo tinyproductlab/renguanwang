@@ -9710,5 +9710,14 @@ const SITES = [
 {name:"Kaldi's Coffee",url:"https://kaldiscoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"Kaldi's Coffee 咖啡 埃塞俄比亚",desc:"埃塞俄比亚知名咖啡快餐连锁品牌",official:true,region:"ET",plat:"网页",icon:"kaldiscoffee.com.ico"},
 {name:"Cheezious",url:"https://cheezious.com",cat:"生活服务",rating:4,price:"免费",kw:"Cheezious 快餐 巴基斯坦",desc:"巴基斯坦知名快餐连锁品牌",official:true,region:"PK",plat:"网页",icon:"cheezious.com.ico"},
 {name:"Brown Coffee",url:"https://www.browncoffee.com.kh",cat:"生活服务",rating:4,price:"免费",kw:"Brown Coffee 咖啡 柬埔寨",desc:"柬埔寨知名咖啡快餐连锁品牌",official:true,region:"KH",plat:"网页",icon:"www.browncoffee.com.kh.ico"},
-{name:"El Farolito",url:"https://elfarolito.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"El Farolito 塔可 墨西哥",desc:"墨西哥知名塔可快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"elfarolito.com.mx.ico"}
+{name:"El Farolito",url:"https://elfarolito.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"El Farolito 塔可 墨西哥",desc:"墨西哥知名塔可快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"elfarolito.com.mx.ico"},
+{name:"Yessayan",url:"https://www.yessayan.com",cat:"购物消费",rating:4,price:"免费",kw:"Yessayan 珠宝 黎巴嫩",desc:"黎巴嫩知名珠宝品牌",official:true,region:"LB",plat:"网页",icon:"www.yessayan.com.ico"},
+{name:"A.E. Köchert",url:"https://koechert.com",cat:"购物消费",rating:4,price:"免费",kw:"A.E. Köchert 珠宝 奥地利",desc:"奥地利维也纳知名历史珠宝品牌",official:true,region:"AT",plat:"网页",icon:"koechert.com.ico"},
+{name:"Gassan Diamonds",url:"https://www.gassan.com",cat:"购物消费",rating:4,price:"免费",kw:"Gassan Diamonds 钻石 荷兰",desc:"荷兰知名钻石珠宝品牌",official:true,region:"NL",plat:"网页",icon:"www.gassan.com.ico"},
+{name:"Hobnob Bakery",url:"https://hobnob.pk",cat:"购物消费",rating:4,price:"免费",kw:"Hobnob Bakery 面包 巴基斯坦",desc:"巴基斯坦卡拉奇知名面包房",official:true,region:"PK",plat:"网页",icon:"hobnob.pk.ico"},
+{name:"Tasty Treat",url:"https://tastytreatbd.com",cat:"购物消费",rating:4,price:"免费",kw:"Tasty Treat 面包 孟加拉国",desc:"孟加拉国知名面包连锁品牌",official:true,region:"BD",plat:"网页",icon:"tastytreatbd.com.ico"},
+{name:"Casa Mathilde",url:"https://casamathilde.com.br/pt/",cat:"购物消费",rating:4,price:"免费",kw:"Casa Mathilde 糕点 巴西",desc:"巴西圣保罗知名糕点面包房",official:true,region:"BR",plat:"网页",icon:"casamathilde.com.br.ico"},
+{name:"Centre Hospitalier Universitaire de Treichville",url:"https://chut.ci",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Universitaire de Treichville 科特迪瓦",desc:"科特迪瓦阿比让知名大学附属医院",official:true,region:"CI",plat:"网页",icon:"chut.ci.ico"},
+{name:"ELWA Hospital",url:"https://elwa.org",cat:"生活服务",rating:4,price:"免费",kw:"ELWA Hospital 利比里亚",desc:"利比里亚蒙罗维亚知名医院",official:true,region:"LR",plat:"网页",icon:"elwa.org.ico"},
+{name:"Centre Hospitalier Régional de Thiès",url:"https://chrthies.sn",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Régional de Thiès 塞内加尔",desc:"塞内加尔捷斯知名地区医院",official:true,region:"SN",plat:"网页",icon:"chrthies.sn.ico"}
 ];
