@@ -9668,5 +9668,21 @@ const SITES = [
 {name:"Hospital General Plaza de la Salud",url:"https://hgps.org.do",cat:"生活服务",rating:4,price:"免费",kw:"Hospital General Plaza de la Salud 多米尼加",desc:"多米尼加圣多明各知名综合医院",official:true,region:"DO",plat:"网页",icon:"hgps.org.do.ico"},
 {name:"Icon Fitness",url:"https://www.iconfitness.co.il",cat:"生活服务",rating:4,price:"免费",kw:"Icon Fitness 健身 以色列",desc:"以色列知名健身连锁品牌",official:true,region:"IL",plat:"网页",icon:"www.iconfitness.co.il.ico"},
 {name:"Genesis Fitness",url:"https://genesisfitness.com.au",cat:"生活服务",rating:4,price:"免费",kw:"Genesis Fitness 健身 澳大利亚",desc:"澳大利亚知名健身连锁品牌",official:true,region:"AU",plat:"网页",icon:"genesisfitness.com.au.ico"},
-{name:"Open Park",url:"https://www.openpark.com.ar",cat:"生活服务",rating:4,price:"免费",kw:"Open Park 健身 阿根廷",desc:"阿根廷知名健身连锁品牌",official:true,region:"AR",plat:"网页",icon:"www.openpark.com.ar.ico"}
+{name:"Open Park",url:"https://www.openpark.com.ar",cat:"生活服务",rating:4,price:"免费",kw:"Open Park 健身 阿根廷",desc:"阿根廷知名健身连锁品牌",official:true,region:"AR",plat:"网页",icon:"www.openpark.com.ar.ico"},
+{name:"Tedibar",url:"https://tedibar.com",cat:"购物消费",rating:4,price:"免费",kw:"Tedibar 婴儿洗护 印度",desc:"印度知名婴儿洗护品牌",official:true,region:"IN",plat:"网页",icon:"tedibar.com.ico"},
+{name:"Mongdies",url:"https://mongdies.com",cat:"购物消费",rating:4,price:"免费",kw:"Mongdies 婴儿护肤 韩国",desc:"韩国知名婴儿护肤品牌",official:true,region:"KR",plat:"网页",icon:"mongdies.com.ico"},
+{name:"illuma",url:"https://www.illumama.wyethnutrition.hk/",cat:"购物消费",rating:4,price:"免费",kw:"illuma 婴儿奶粉 香港",desc:"香港市场知名高端婴儿配方奶粉品牌",official:true,region:"HK",plat:"网页",icon:"www.illumama.wyethnutrition.hk.ico"},
+{name:"Dodot",url:"https://www.dodot.es",cat:"购物消费",rating:4,price:"免费",kw:"Dodot 纸尿裤 西班牙",desc:"西班牙知名纸尿裤品牌",official:true,region:"ES",plat:"网页",icon:"www.dodot.es.ico"},
+{name:"Sankara Nairobi",url:"https://sankara.com",cat:"购物消费",rating:4,price:"免费",kw:"Sankara Nairobi 酒店 肯尼亚",desc:"肯尼亚内罗毕知名豪华酒店",official:true,region:"KE",plat:"网页",icon:"sankara.com.ico"},
+{name:"Mestil Hotel",url:"https://mestilhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"Mestil Hotel 酒店 乌干达",desc:"乌干达坎帕拉知名精品酒店",official:true,region:"UG",plat:"网页",icon:"mestilhotel.com.ico"},
+{name:"Virunga Lodge",url:"https://virungalodge.com",cat:"购物消费",rating:4,price:"免费",kw:"Virunga Lodge 酒店 卢旺达",desc:"卢旺达火山国家公园附近知名豪华山林小屋",official:true,region:"RW",plat:"网页",icon:"virungalodge.com.ico"},
+{name:"Matetsi Victoria Falls",url:"https://matetsivictoriafalls.com",cat:"购物消费",rating:4,price:"免费",kw:"Matetsi Victoria Falls 酒店 津巴布韦",desc:"津巴布韦维多利亚瀑布城知名豪华度假酒店",official:true,region:"ZW",plat:"网页",icon:"matetsivictoriafalls.com.ico"},
+{name:"The Orangers Beach Resort",url:"https://orangersbeachresort.com",cat:"购物消费",rating:4,price:"免费",kw:"Orangers Beach Resort 酒店 突尼斯",desc:"突尼斯哈马马特知名海滩度假酒店",official:true,region:"TN",plat:"网页",icon:"orangersbeachresort.com.ico"},
+{name:"Albergo Hotel",url:"https://www.albergobeirut.com",cat:"购物消费",rating:4,price:"免费",kw:"Albergo Hotel 酒店 黎巴嫩",desc:"黎巴嫩贝鲁特知名精品酒店",official:true,region:"LB",plat:"网页",icon:"www.albergobeirut.com.ico"},
+{name:"Nishat Hotel Lahore",url:"https://nishathotels.com",cat:"购物消费",rating:4,price:"免费",kw:"Nishat Hotel 酒店 巴基斯坦",desc:"巴基斯坦拉合尔知名酒店",official:true,region:"PK",plat:"网页",icon:"nishathotels.com.ico"},
+{name:"B.O.G. Hotel",url:"https://www.boghotel.com",cat:"购物消费",rating:4,price:"免费",kw:"B.O.G. Hotel 酒店 哥伦比亚",desc:"哥伦比亚波哥大知名精品酒店",official:true,region:"CO",plat:"网页",icon:"www.boghotel.com.ico"},
+{name:"Hotel Cottage Carrasco",url:"https://hotelcottage.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Cottage Carrasco 酒店 乌拉圭",desc:"乌拉圭蒙得维的亚知名酒店",official:true,region:"UY",plat:"网页",icon:"hotelcottage.com.uy.ico"},
+{name:"Classic Burger Joint",url:"https://classicburgerjoint.com",cat:"生活服务",rating:4,price:"免费",kw:"Classic Burger Joint 汉堡 黎巴嫩",desc:"黎巴嫩知名汉堡快餐连锁品牌",official:true,region:"LB",plat:"网页",icon:"classicburgerjoint.com.ico"},
+{name:"California Fried Chicken",url:"https://californiafriedchicken.com",cat:"生活服务",rating:4,price:"免费",kw:"California Fried Chicken 炸鸡 印尼",desc:"印尼知名炸鸡快餐连锁品牌",official:true,region:"ID",plat:"网页",icon:"californiafriedchicken.com.ico"},
+{name:"Sushi Itto",url:"https://www.sushi-itto.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"Sushi Itto 寿司 墨西哥",desc:"墨西哥知名寿司快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"www.sushi-itto.com.mx.ico"}
 ];
