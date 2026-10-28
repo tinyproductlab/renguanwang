@@ -9611,5 +9611,20 @@ const SITES = [
 {name:"Adrian Tropical",url:"https://adriantropical.com",cat:"生活服务",rating:4,price:"免费",kw:"Adrian Tropical 本地风味 多米尼加",desc:"多米尼加知名本地风味快餐连锁品牌",official:true,region:"DO",plat:"网页",icon:"adriantropical.com.ico"},
 {name:"Dodo Love",url:"https://dodolove.com",cat:"购物消费",rating:4,price:"免费",kw:"Dodo Love 婴童用品 泰国",desc:"泰国知名婴童用品品牌",official:true,region:"TH",plat:"网页",icon:"dodolove.com.ico"},
 {name:"Kichi Kichi",url:"https://kichi.com.vn",cat:"生活服务",rating:4,price:"免费",kw:"Kichi Kichi 火锅 越南",desc:"越南知名火锅快餐连锁品牌",official:true,region:"VN",plat:"网页",icon:"kichi.com.vn.ico"},
-{name:"Pio Pio",url:"https://www.piopio.shop",cat:"生活服务",rating:4,price:"免费",kw:"Pio Pio 炸鸡 巴拿马",desc:"巴拿马知名炸鸡快餐连锁品牌",official:true,region:"PA",plat:"网页",icon:"www.piopio.shop.ico"}
+{name:"Pio Pio",url:"https://www.piopio.shop",cat:"生活服务",rating:4,price:"免费",kw:"Pio Pio 炸鸡 巴拿马",desc:"巴拿马知名炸鸡快餐连锁品牌",official:true,region:"PA",plat:"网页",icon:"www.piopio.shop.ico"},
+{name:"Nada Ghazal",url:"https://www.nadaghazal.com",cat:"购物消费",rating:4,price:"免费",kw:"Nada Ghazal 珠宝 黎巴嫩",desc:"黎巴嫩贝鲁特知名高级珠宝品牌",official:true,region:"LB",plat:"网页",icon:"www.nadaghazal.com.ico"},
+{name:"Devji Aurum",url:"https://devjiaurum.com",cat:"购物消费",rating:4,price:"免费",kw:"Devji Aurum 珠宝 巴林",desc:"巴林知名老牌珠宝商",official:true,region:"BH",plat:"网页",icon:"devjiaurum.com.ico"},
+{name:"Ganjam",url:"https://ganjam.com",cat:"购物消费",rating:4,price:"免费",kw:"Ganjam 珠宝 印度",desc:"印度班加罗尔知名百年珠宝世家品牌",official:true,region:"IN",plat:"网页",icon:"ganjam.com.ico"},
+{name:"Tanya Moss",url:"https://www.tanyamoss.com",cat:"购物消费",rating:4,price:"免费",kw:"Tanya Moss 珠宝 墨西哥",desc:"墨西哥知名珠宝设计师品牌",official:true,region:"MX",plat:"网页",icon:"www.tanyamoss.com.ico"},
+{name:"Granát Turnov",url:"https://granat-turnov.cz",cat:"购物消费",rating:4,price:"免费",kw:"Granát Turnov 石榴石 捷克",desc:"捷克知名石榴石珠宝品牌",official:true,region:"CZ",plat:"网页",icon:"granat-turnov.cz.ico"},
+{name:"Sigma Bakeries",url:"https://www.sigmabakeries.com",cat:"购物消费",rating:4,price:"免费",kw:"Sigma Bakeries 面包 塞浦路斯",desc:"塞浦路斯知名面包连锁品牌",official:true,region:"CY",plat:"网页",icon:"www.sigmabakeries.com.ico"},
+{name:"Bobis",url:"https://bobis.hr",cat:"购物消费",rating:4,price:"免费",kw:"Bobis 面包 克罗地亚",desc:"克罗地亚斯普利特知名面包连锁品牌",official:true,region:"HR",plat:"网页",icon:"bobis.hr.ico"},
+{name:"Pekara Trpković",url:"https://pekaratrpkovic.rs",cat:"购物消费",rating:4,price:"免费",kw:"Pekara Trpković 面包 塞尔维亚",desc:"塞尔维亚贝尔格莱德知名面包房",official:true,region:"RS",plat:"网页",icon:"pekaratrpkovic.rs.ico"},
+{name:"Joyería Barón",url:"https://baron.cl",cat:"购物消费",rating:4,price:"免费",kw:"Joyería Barón 珠宝 智利",desc:"智利知名珠宝连锁品牌",official:true,region:"CL",plat:"网页",icon:"baron.cl.ico"},
+{name:"Pain d'Or",url:"https://paindor.com",cat:"购物消费",rating:4,price:"免费",kw:"Pain d'Or 面包 黎巴嫩",desc:"黎巴嫩贝鲁特知名面包连锁品牌",official:true,region:"LB",plat:"网页",icon:"paindor.com.ico"},
+{name:"Mr. Baker",url:"https://mrbakerbd.com",cat:"购物消费",rating:4,price:"免费",kw:"Mr. Baker 面包 孟加拉国",desc:"孟加拉国达卡知名面包连锁品牌",official:true,region:"BD",plat:"网页",icon:"mrbakerbd.com.ico"},
+{name:"Centre Hospitalo-Universitaire Mustapha Pacha",url:"https://chu-mustapha.dz",cat:"生活服务",rating:4,price:"免费",kw:"Mustapha Pacha 阿尔及尔 大学中心医院",desc:"阿尔及利亚阿尔及尔知名大学中心医院",official:true,region:"DZ",plat:"网页",icon:"chu-mustapha.dz.ico"},
+{name:"Augusta Victoria Hospital",url:"https://avh.org",cat:"生活服务",rating:4,price:"免费",kw:"Augusta Victoria Hospital 耶路撒冷",desc:"耶路撒冷知名医院",official:true,region:"PS",plat:"网页",icon:"avh.org.ico"},
+{name:"Georgetown Public Hospital",url:"https://gphc.gov.gy",cat:"生活服务",rating:4,price:"免费",kw:"Georgetown Public Hospital 圭亚那",desc:"圭亚那乔治敦知名公立医院",official:true,region:"GY",plat:"网页",icon:"gphc.gov.gy.ico"},
+{name:"Academisch Ziekenhuis Paramaribo",url:"https://azp.sr",cat:"生活服务",rating:4,price:"免费",kw:"Academisch Ziekenhuis Paramaribo 苏里南",desc:"苏里南帕拉马里博知名大学医院",official:true,region:"SR",plat:"网页",icon:"azp.sr.ico"}
 ];
