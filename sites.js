@@ -9643,5 +9643,16 @@ const SITES = [
 {name:"Hospital Maciel",url:"https://hospitalmaciel.com.uy",cat:"生活服务",rating:4,price:"免费",kw:"Hospital Maciel 乌拉圭",desc:"乌拉圭蒙得维的亚知名综合医院",official:true,region:"UY",plat:"网页",icon:"hospitalmaciel.com.uy.ico"},
 {name:"Fitness House",url:"https://fitnesshouse.ru",cat:"生活服务",rating:4,price:"免费",kw:"Fitness House 健身 俄罗斯",desc:"俄罗斯知名健身连锁品牌",official:true,region:"RU",plat:"网页",icon:"fitnesshouse.ru.ico"},
 {name:"We Fitness Society",url:"https://wefitnesssociety.com",cat:"生活服务",rating:4,price:"免费",kw:"We Fitness Society 健身 泰国",desc:"泰国知名健身连锁品牌",official:true,region:"TH",plat:"网页",icon:"wefitnesssociety.com.ico"},
-{name:"Centre Hospitalier Universitaire de Libreville",url:"https://chul.ga",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Universitaire de Libreville 加蓬",desc:"加蓬利伯维尔知名大学中心医院",official:true,region:"GA",plat:"网页",icon:"chul.ga.ico"}
+{name:"Centre Hospitalier Universitaire de Libreville",url:"https://chul.ga",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Universitaire de Libreville 加蓬",desc:"加蓬利伯维尔知名大学中心医院",official:true,region:"GA",plat:"网页",icon:"chul.ga.ico"},
+{name:"Makuku",url:"https://makuku.co.id",cat:"购物消费",rating:4,price:"免费",kw:"Makuku 纸尿裤 印尼",desc:"印尼知名纸尿裤品牌",official:true,region:"ID",plat:"网页",icon:"makuku.co.id.ico"},
+{name:"Chicolastic",url:"https://chicolastic.com.mx",cat:"购物消费",rating:4,price:"免费",kw:"Chicolastic 纸尿裤 墨西哥",desc:"墨西哥知名纸尿裤品牌",official:true,region:"MX",plat:"网页",icon:"chicolastic.com.mx.ico"},
+{name:"Happy Look",url:"https://happylook.ru",cat:"购物消费",rating:4,price:"免费",kw:"Happy Look 眼镜 俄罗斯",desc:"俄罗斯知名眼镜连锁品牌",official:true,region:"RU",plat:"网页",icon:"happylook.ru.ico"},
+{name:"Pearl of Africa Hotel",url:"https://www.pearlofafricahotel.com",cat:"购物消费",rating:4,price:"免费",kw:"Pearl of Africa Hotel 乌干达",desc:"乌干达坎帕拉知名酒店",official:true,region:"UG",plat:"网页",icon:"www.pearlofafricahotel.com.ico"},
+{name:"Hotel des Mille Collines",url:"https://millecollines.rw",cat:"购物消费",rating:4,price:"免费",kw:"Hotel des Mille Collines 卢旺达",desc:"卢旺达基加利知名酒店",official:true,region:"RW",plat:"网页",icon:"millecollines.rw.ico"},
+{name:"Hasdrubal Thalassa Port El Kantaoui",url:"https://hasdrubal-thalassa.com",cat:"购物消费",rating:4,price:"免费",kw:"Hasdrubal Thalassa 突尼斯",desc:"突尼斯苏塞知名度假酒店",official:true,region:"TN",plat:"网页",icon:"hasdrubal-thalassa.com.ico"},
+{name:"Parsian Azadi Tehran",url:"https://www.azadihotel.com",cat:"购物消费",rating:4,price:"免费",kw:"Parsian Azadi Tehran 伊朗",desc:"伊朗德黑兰知名酒店",official:true,region:"IR",plat:"网页",icon:"www.azadihotel.com.ico"},
+{name:"Hotel Madero Buenos Aires",url:"https://hotelmadero.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Madero Buenos Aires 阿根廷",desc:"阿根廷布宜诺斯艾利斯知名酒店",official:true,region:"AR",plat:"网页",icon:"hotelmadero.com.ico"},
+{name:"Don Boutique Hotel Montevideo",url:"https://donhotel.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"Don Boutique Hotel Montevideo 乌拉圭",desc:"乌拉圭蒙得维的亚知名精品酒店",official:true,region:"UY",plat:"网页",icon:"donhotel.com.uy.ico"},
+{name:"Grand Velas Riviera Maya",url:"https://www.grandvelas.com",cat:"购物消费",rating:4,price:"免费",kw:"Grand Velas Riviera Maya 墨西哥",desc:"墨西哥知名豪华度假酒店",official:true,region:"MX",plat:"网页",icon:"www.grandvelas.com.ico"},
+{name:"Crepaway",url:"https://www.crepaway.com",cat:"生活服务",rating:4,price:"免费",kw:"Crepaway 黎巴嫩",desc:"黎巴嫩知名快餐连锁品牌",official:true,region:"LB",plat:"网页",icon:"www.crepaway.com.ico"}
 ];
