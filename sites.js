@@ -9763,5 +9763,11 @@ const SITES = [
 {name:"Bluebay Beach Resort & Spa",url:"https://www.bluebayhotelszanzibar.com",cat:"购物消费",rating:4,price:"免费",kw:"Bluebay Beach Resort 酒店 坦桑尼亚",desc:"坦桑尼亚桑给巴尔知名度假酒店",official:true,region:"TZ",plat:"网页",icon:"www.bluebayhotelszanzibar.com.ico"},
 {name:"Hotel Guaraní",url:"https://hotelguarani.com.py",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Guaraní 酒店 巴拉圭",desc:"巴拉圭亚松森知名酒店",official:true,region:"PY",plat:"网页",icon:"hotelguarani.com.py.ico"},
 {name:"Hotel Oro Verde",url:"https://oroverdeguayaquil.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Oro Verde 酒店 厄瓜多尔",desc:"厄瓜多尔瓜亚基尔知名酒店",official:true,region:"EC",plat:"网页",icon:"oroverdeguayaquil.com.ico"},
-{name:"Hotel Honduras Maya",url:"https://hotelhondurasmaya.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Honduras Maya 酒店 洪都拉斯",desc:"洪都拉斯德古西加巴知名酒店",official:true,region:"HN",plat:"网页",icon:"hotelhondurasmaya.com.ico"}
+{name:"Hotel Honduras Maya",url:"https://hotelhondurasmaya.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Honduras Maya 酒店 洪都拉斯",desc:"洪都拉斯德古西加巴知名酒店",official:true,region:"HN",plat:"网页",icon:"hotelhondurasmaya.com.ico"},
+{name:"Jewelry Maki",url:"https://jewelrymaki.com",cat:"购物消费",rating:4,price:"免费",kw:"Jewelry Maki 珠宝 日本",desc:"日本知名珠宝品牌",official:true,region:"JP",plat:"网页",icon:"jewelrymaki.com.ico"},
+{name:"Suarez",url:"https://suarez.com",cat:"购物消费",rating:4,price:"免费",kw:"Suarez 珠宝 西班牙",desc:"西班牙知名珠宝品牌",official:true,region:"ES",plat:"网页",icon:"suarez.com.ico"},
+{name:"Mattioli",url:"https://www.mattioli.it",cat:"购物消费",rating:4,price:"免费",kw:"Mattioli 珠宝 意大利",desc:"意大利知名珠宝品牌",official:true,region:"IT",plat:"网页",icon:"www.mattioli.it.ico"},
+{name:"Furn Beaino",url:"https://furnbeaino.com",cat:"购物消费",rating:4,price:"免费",kw:"Furn Beaino 面包 黎巴嫩",desc:"黎巴嫩知名面包品牌",official:true,region:"LB",plat:"网页",icon:"furnbeaino.com.ico"},
+{name:"Hospital Centro Médico",url:"https://centromedico.com",cat:"生活服务",rating:4,price:"免费",kw:"Hospital Centro Médico 医院 危地马拉",desc:"危地马拉危地马拉城知名私立医院",official:true,region:"GT",plat:"网页",icon:"centromedico.com.ico"},
+{name:"Fiter",url:"https://fiter.com",cat:"生活服务",rating:4,price:"免费",kw:"Fiter 健身 阿根廷",desc:"阿根廷知名健身连锁品牌",official:true,region:"AR",plat:"网页",icon:"fiter.com.ico"}
 ];
