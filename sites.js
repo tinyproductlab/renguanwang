@@ -9555,5 +9555,11 @@ const SITES = [
 {name:"Sphinx",url:"https://www.sphinx.pl",cat:"生活服务",rating:4,price:"免费",kw:"Sphinx 波兰菜 波兰",desc:"波兰知名波兰菜快餐连锁品牌",official:true,region:"PL",plat:"网页",icon:"www.sphinx.pl.ico"},
 {name:"Al Farooj Fresh",url:"https://alfarooj.com",cat:"生活服务",rating:4,price:"免费",kw:"Al Farooj 烤鸡 阿联酋",desc:"阿联酋知名烤鸡快餐连锁品牌",official:true,region:"AE",plat:"网页",icon:"alfarooj.com.ico"},
 {name:"Burger Boutique",url:"https://burgerboutique.com",cat:"生活服务",rating:4,price:"免费",kw:"Burger Boutique 汉堡 科威特",desc:"科威特知名汉堡快餐连锁品牌",official:true,region:"KW",plat:"网页",icon:"burgerboutique.com.ico"},
-{name:"Jasmi's",url:"https://www.jasmis.com",cat:"生活服务",rating:4,price:"免费",kw:"Jasmi's 汉堡 巴林",desc:"巴林知名汉堡快餐连锁品牌",official:true,region:"BH",plat:"网页",icon:"www.jasmis.com.ico"}
+{name:"Jasmi's",url:"https://www.jasmis.com",cat:"生活服务",rating:4,price:"免费",kw:"Jasmi's 汉堡 巴林",desc:"巴林知名汉堡快餐连锁品牌",official:true,region:"BH",plat:"网页",icon:"www.jasmis.com.ico"},
+{name:"Habibah Sweets",url:"https://habibah.com",cat:"购物消费",rating:4,price:"免费",kw:"Habibah Sweets 传统糕点 约旦",desc:"约旦安曼知名传统糕点品牌",official:true,region:"JO",plat:"网页",icon:"habibah.com.ico"},
+{name:"Aani & Dani",url:"https://aani-dani.com.sa",cat:"购物消费",rating:4,price:"免费",kw:"Aani & Dani 糕点 沙特",desc:"沙特知名糕点连锁品牌",official:true,region:"SA",plat:"网页",icon:"aani-dani.com.sa.ico"},
+{name:"Al Samadi Sweets",url:"https://alsamadi.com",cat:"购物消费",rating:4,price:"免费",kw:"Al Samadi Sweets 传统糕点 阿联酋",desc:"阿联酋迪拜知名传统糕点品牌",official:true,region:"AE",plat:"网页",icon:"alsamadi.com.ico"},
+{name:"Dhaka Medical College Hospital",url:"https://dmch.gov.bd",cat:"生活服务",rating:4,price:"免费",kw:"Dhaka Medical College Hospital 达卡医学院医院 孟加拉国",desc:"孟加拉国达卡知名医学院医院",official:true,region:"BD",plat:"网页",icon:"dmch.gov.bd.ico"},
+{name:"Clinical Center University of Sarajevo",url:"https://kcus.ba",cat:"生活服务",rating:4,price:"免费",kw:"Clinical Center University of Sarajevo 萨拉热窝 波黑",desc:"波黑萨拉热窝知名临床中心",official:true,region:"BA",plat:"网页",icon:"kcus.ba.ico"},
+{name:"Clinical Centre of Serbia",url:"https://kcs.ac.rs",cat:"生活服务",rating:4,price:"免费",kw:"Clinical Centre of Serbia 贝尔格莱德 塞尔维亚",desc:"塞尔维亚贝尔格莱德知名临床中心",official:true,region:"RS",plat:"网页",icon:"kcs.ac.rs.ico"}
 ];
