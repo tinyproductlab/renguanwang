@@ -9684,5 +9684,13 @@ const SITES = [
 {name:"Hotel Cottage Carrasco",url:"https://hotelcottage.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Cottage Carrasco 酒店 乌拉圭",desc:"乌拉圭蒙得维的亚知名酒店",official:true,region:"UY",plat:"网页",icon:"hotelcottage.com.uy.ico"},
 {name:"Classic Burger Joint",url:"https://classicburgerjoint.com",cat:"生活服务",rating:4,price:"免费",kw:"Classic Burger Joint 汉堡 黎巴嫩",desc:"黎巴嫩知名汉堡快餐连锁品牌",official:true,region:"LB",plat:"网页",icon:"classicburgerjoint.com.ico"},
 {name:"California Fried Chicken",url:"https://californiafriedchicken.com",cat:"生活服务",rating:4,price:"免费",kw:"California Fried Chicken 炸鸡 印尼",desc:"印尼知名炸鸡快餐连锁品牌",official:true,region:"ID",plat:"网页",icon:"californiafriedchicken.com.ico"},
-{name:"Sushi Itto",url:"https://www.sushi-itto.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"Sushi Itto 寿司 墨西哥",desc:"墨西哥知名寿司快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"www.sushi-itto.com.mx.ico"}
+{name:"Sushi Itto",url:"https://www.sushi-itto.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"Sushi Itto 寿司 墨西哥",desc:"墨西哥知名寿司快餐连锁品牌",official:true,region:"MX",plat:"网页",icon:"www.sushi-itto.com.mx.ico"},
+{name:"Chupi",url:"https://www.chupi.com",cat:"购物消费",rating:4,price:"免费",kw:"Chupi 珠宝 爱尔兰",desc:"爱尔兰知名珠宝设计品牌",official:true,region:"IE",plat:"网页",icon:"www.chupi.com.ico"},
+{name:"Broadways Bakery",url:"https://broadway.co.ke",cat:"购物消费",rating:4,price:"免费",kw:"Broadways Bakery 面包 肯尼亚",desc:"肯尼亚知名面包品牌",official:true,region:"KE",plat:"网页",icon:"broadway.co.ke.ico"},
+{name:"Sunbulah",url:"https://www.sunbulah.com",cat:"购物消费",rating:4,price:"免费",kw:"Sunbulah 烘焙 沙特",desc:"沙特知名烘焙食品品牌",official:true,region:"SA",plat:"网页",icon:"www.sunbulah.com.ico"},
+{name:"Hospital Baptista de Sousa",url:"https://hospitalbaptistadesousa.cv",cat:"生活服务",rating:4,price:"免费",kw:"Hospital Baptista de Sousa 佛得角",desc:"佛得角明德卢知名医院",official:true,region:"CV",plat:"网页",icon:"hospitalbaptistadesousa.cv.ico"},
+{name:"Centre Hospitalier Universitaire de Cocody",url:"https://chu-cocody.ci",cat:"生活服务",rating:4,price:"免费",kw:"Centre Hospitalier Universitaire de Cocody 科特迪瓦",desc:"科特迪瓦阿比让知名大学附属医院",official:true,region:"CI",plat:"网页",icon:"chu-cocody.ci.ico"},
+{name:"Hôpital d'Instruction des Armées Omar Bongo Ondimba",url:"https://hiaobo.ga",cat:"生活服务",rating:4,price:"免费",kw:"Hôpital Omar Bongo Ondimba 加蓬",desc:"加蓬利伯维尔知名军医院",official:true,region:"GA",plat:"网页",icon:"hiaobo.ga.ico"},
+{name:"Edward Francis Small Teaching Hospital",url:"https://efsth.gm",cat:"生活服务",rating:4,price:"免费",kw:"Edward Francis Small Teaching Hospital 冈比亚",desc:"冈比亚班珠尔知名教学医院",official:true,region:"GM",plat:"网页",icon:"efsth.gm.ico"},
+{name:"Hôpital du Mali",url:"https://hopitaldumali.ml",cat:"生活服务",rating:4,price:"免费",kw:"Hôpital du Mali 马里",desc:"马里巴马科知名医院",official:true,region:"ML",plat:"网页",icon:"hopitaldumali.ml.ico"}
 ];
