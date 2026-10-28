@@ -10,7 +10,7 @@ RGW (认官网) is a curated directory of official websites — every single one
 
 ## Stats
 
-- **9628** verified official websites
+- **9632** verified official websites
 - **184** countries / regions
 - **15** categories (Essentials, AI Tools, Productivity, Dev Tools…)
 - **24** UI languages (auto-switches with selected country)

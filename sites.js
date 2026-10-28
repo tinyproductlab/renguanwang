@@ -9626,5 +9626,9 @@ const SITES = [
 {name:"Centre Hospitalo-Universitaire Mustapha Pacha",url:"https://chu-mustapha.dz",cat:"生活服务",rating:4,price:"免费",kw:"Mustapha Pacha 阿尔及尔 大学中心医院",desc:"阿尔及利亚阿尔及尔知名大学中心医院",official:true,region:"DZ",plat:"网页",icon:"chu-mustapha.dz.ico"},
 {name:"Augusta Victoria Hospital",url:"https://avh.org",cat:"生活服务",rating:4,price:"免费",kw:"Augusta Victoria Hospital 耶路撒冷",desc:"耶路撒冷知名医院",official:true,region:"PS",plat:"网页",icon:"avh.org.ico"},
 {name:"Georgetown Public Hospital",url:"https://gphc.gov.gy",cat:"生活服务",rating:4,price:"免费",kw:"Georgetown Public Hospital 圭亚那",desc:"圭亚那乔治敦知名公立医院",official:true,region:"GY",plat:"网页",icon:"gphc.gov.gy.ico"},
-{name:"Academisch Ziekenhuis Paramaribo",url:"https://azp.sr",cat:"生活服务",rating:4,price:"免费",kw:"Academisch Ziekenhuis Paramaribo 苏里南",desc:"苏里南帕拉马里博知名大学医院",official:true,region:"SR",plat:"网页",icon:"azp.sr.ico"}
+{name:"Academisch Ziekenhuis Paramaribo",url:"https://azp.sr",cat:"生活服务",rating:4,price:"免费",kw:"Academisch Ziekenhuis Paramaribo 苏里南",desc:"苏里南帕拉马里博知名大学医院",official:true,region:"SR",plat:"网页",icon:"azp.sr.ico"},
+{name:"Mepsi",url:"https://mepsi.ru",cat:"购物消费",rating:4,price:"免费",kw:"Mepsi 纸尿裤 俄罗斯",desc:"俄罗斯知名纸尿裤品牌",official:true,region:"RU",plat:"网页",icon:"mepsi.ru.ico"},
+{name:"Sea Cliff Resort & Spa",url:"https://seacliffzanzibar.com",cat:"购物消费",rating:4,price:"免费",kw:"Sea Cliff Resort 桑给巴尔",desc:"坦桑尼亚桑给巴尔知名度假酒店",official:true,region:"TZ",plat:"网页",icon:"seacliffzanzibar.com.ico"},
+{name:"Espinas Palace Hotel",url:"https://espinashotels.com/hotels/espinas-palace-hotel/",cat:"购物消费",rating:4,price:"免费",kw:"Espinas Palace Hotel 德黑兰",desc:"伊朗德黑兰知名豪华酒店",official:true,region:"IR",plat:"网页",icon:"espinashotels.com.ico"},
+{name:"Tacos de Lyon",url:"https://tacosdelyon.com",cat:"生活服务",rating:4,price:"免费",kw:"Tacos de Lyon 摩洛哥",desc:"摩洛哥知名法式塔可快餐连锁品牌",official:true,region:"MA",plat:"网页",icon:"tacosdelyon.com.ico"}
 ];
