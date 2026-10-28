@@ -9751,5 +9751,17 @@ const SITES = [
 {name:"Comapan",url:"https://comapan.com.co",cat:"购物消费",rating:4,price:"免费",kw:"Comapan 面包 哥伦比亚",desc:"哥伦比亚知名面包品牌",official:true,region:"CO",plat:"网页",icon:"comapan.com.co.ico"},
 {name:"La Baguette",url:"https://labaguette.pe",cat:"购物消费",rating:4,price:"免费",kw:"La Baguette 面包 秘鲁",desc:"秘鲁利马知名面包连锁品牌",official:true,region:"PE",plat:"网页",icon:"labaguette.pe.ico"},
 {name:"Centre Hospitalier Universitaire de Yopougon",url:"https://chuyopougon.ci",cat:"生活服务",rating:4,price:"免费",kw:"CHU Yopougon 医院 科特迪瓦",desc:"科特迪瓦阿比让知名大学附属医院",official:true,region:"CI",plat:"网页",icon:"chuyopougon.ci.ico"},
-{name:"Kris Gethin Gyms",url:"https://www.krisgethingyms.com",cat:"生活服务",rating:4,price:"免费",kw:"Kris Gethin Gyms 健身 印度",desc:"印度知名健身连锁品牌",official:true,region:"IN",plat:"网页",icon:"www.krisgethingyms.com.ico"}
+{name:"Kris Gethin Gyms",url:"https://www.krisgethingyms.com",cat:"生活服务",rating:4,price:"免费",kw:"Kris Gethin Gyms 健身 印度",desc:"印度知名健身连锁品牌",official:true,region:"IN",plat:"网页",icon:"www.krisgethingyms.com.ico"},
+{name:"Kidz Station",url:"https://www.kidzstation.co.id",cat:"购物消费",rating:4,price:"免费",kw:"Kidz Station 儿童用品 印尼",desc:"印尼知名儿童用品连锁品牌",official:true,region:"ID",plat:"网页",icon:"www.kidzstation.co.id.ico"},
+{name:"Chiquimundo",url:"https://www.chiquimundo.com.mx",cat:"购物消费",rating:4,price:"免费",kw:"Chiquimundo 母婴用品 墨西哥",desc:"墨西哥知名母婴用品连锁品牌",official:true,region:"MX",plat:"网页",icon:"www.chiquimundo.com.mx.ico"},
+{name:"Grand Palm Hotel Casino",url:"https://grandpalm.com",cat:"购物消费",rating:4,price:"免费",kw:"Grand Palm Hotel 酒店 博茨瓦纳",desc:"博茨瓦纳哈博罗内知名酒店",official:true,region:"BW",plat:"网页",icon:"grandpalm.com.ico"},
+{name:"Asmara Palace Hotel",url:"https://asmarapalacehotel.com",cat:"购物消费",rating:4,price:"免费",kw:"Asmara Palace Hotel 酒店 厄立特里亚",desc:"厄立特里亚阿斯马拉知名酒店",official:true,region:"ER",plat:"网页",icon:"asmarapalacehotel.com.ico"},
+{name:"Capital Hotel and Spa",url:"https://capitalhotelandspa.com",cat:"购物消费",rating:4,price:"免费",kw:"Capital Hotel 酒店 埃塞俄比亚",desc:"埃塞俄比亚亚的斯亚贝巴知名酒店",official:true,region:"ET",plat:"网页",icon:"capitalhotelandspa.com.ico"},
+{name:"Hôtel Colbert",url:"https://colbert.mg",cat:"购物消费",rating:4,price:"免费",kw:"Hôtel Colbert 酒店 马达加斯加",desc:"马达加斯加塔那那利佛知名酒店",official:true,region:"MG",plat:"网页",icon:"colbert.mg.ico"},
+{name:"Hotel Heinitzburg",url:"https://heinitzburg.com/en",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Heinitzburg 酒店 纳米比亚",desc:"纳米比亚温得和克知名历史酒店",official:true,region:"NA",plat:"网页",icon:"heinitzburg.com.ico"},
+{name:"North Island",url:"https://north-island.com",cat:"购物消费",rating:4,price:"免费",kw:"North Island 酒店 塞舌尔",desc:"塞舌尔知名私人岛屿度假酒店",official:true,region:"SC",plat:"网页",icon:"north-island.com.ico"},
+{name:"Bluebay Beach Resort & Spa",url:"https://www.bluebayhotelszanzibar.com",cat:"购物消费",rating:4,price:"免费",kw:"Bluebay Beach Resort 酒店 坦桑尼亚",desc:"坦桑尼亚桑给巴尔知名度假酒店",official:true,region:"TZ",plat:"网页",icon:"www.bluebayhotelszanzibar.com.ico"},
+{name:"Hotel Guaraní",url:"https://hotelguarani.com.py",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Guaraní 酒店 巴拉圭",desc:"巴拉圭亚松森知名酒店",official:true,region:"PY",plat:"网页",icon:"hotelguarani.com.py.ico"},
+{name:"Hotel Oro Verde",url:"https://oroverdeguayaquil.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Oro Verde 酒店 厄瓜多尔",desc:"厄瓜多尔瓜亚基尔知名酒店",official:true,region:"EC",plat:"网页",icon:"oroverdeguayaquil.com.ico"},
+{name:"Hotel Honduras Maya",url:"https://hotelhondurasmaya.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Honduras Maya 酒店 洪都拉斯",desc:"洪都拉斯德古西加巴知名酒店",official:true,region:"HN",plat:"网页",icon:"hotelhondurasmaya.com.ico"}
 ];
