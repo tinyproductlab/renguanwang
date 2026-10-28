@@ -9654,5 +9654,19 @@ const SITES = [
 {name:"Hotel Madero Buenos Aires",url:"https://hotelmadero.com",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Madero Buenos Aires 阿根廷",desc:"阿根廷布宜诺斯艾利斯知名酒店",official:true,region:"AR",plat:"网页",icon:"hotelmadero.com.ico"},
 {name:"Don Boutique Hotel Montevideo",url:"https://donhotel.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"Don Boutique Hotel Montevideo 乌拉圭",desc:"乌拉圭蒙得维的亚知名精品酒店",official:true,region:"UY",plat:"网页",icon:"donhotel.com.uy.ico"},
 {name:"Grand Velas Riviera Maya",url:"https://www.grandvelas.com",cat:"购物消费",rating:4,price:"免费",kw:"Grand Velas Riviera Maya 墨西哥",desc:"墨西哥知名豪华度假酒店",official:true,region:"MX",plat:"网页",icon:"www.grandvelas.com.ico"},
-{name:"Crepaway",url:"https://www.crepaway.com",cat:"生活服务",rating:4,price:"免费",kw:"Crepaway 黎巴嫩",desc:"黎巴嫩知名快餐连锁品牌",official:true,region:"LB",plat:"网页",icon:"www.crepaway.com.ico"}
+{name:"Crepaway",url:"https://www.crepaway.com",cat:"生活服务",rating:4,price:"免费",kw:"Crepaway 黎巴嫩",desc:"黎巴嫩知名快餐连锁品牌",official:true,region:"LB",plat:"网页",icon:"www.crepaway.com.ico"},
+{name:"Anita Quansah",url:"https://anitaquansah.com",cat:"购物消费",rating:4,price:"免费",kw:"Anita Quansah 珠宝 加纳",desc:"加纳知名珠宝设计师品牌",official:true,region:"GH",plat:"网页",icon:"anitaquansah.com.ico"},
+{name:"Phú Quý",url:"https://phuquy.com.vn",cat:"购物消费",rating:4,price:"免费",kw:"Phú Quý 黄金 越南",desc:"越南知名黄金珠宝品牌",official:true,region:"VN",plat:"网页",icon:"phuquy.com.vn.ico"},
+{name:"Amsterdam Sauer",url:"https://amsterdamsauer.com",cat:"购物消费",rating:4,price:"免费",kw:"Amsterdam Sauer 珠宝 巴西",desc:"巴西知名珠宝品牌",official:true,region:"BR",plat:"网页",icon:"amsterdamsauer.com.ico"},
+{name:"Mikuš Diamonds",url:"https://www.mikusdiamonds.sk",cat:"购物消费",rating:4,price:"免费",kw:"Mikuš Diamonds 钻石 斯洛伐克",desc:"斯洛伐克知名钻石珠宝品牌",official:true,region:"SK",plat:"网页",icon:"www.mikusdiamonds.sk.ico"},
+{name:"Aslı",url:"https://asli.com.tr",cat:"购物消费",rating:4,price:"免费",kw:"Aslı 馅饼 土耳其",desc:"土耳其知名馅饼连锁品牌",official:true,region:"TR",plat:"网页",icon:"asli.com.tr.ico"},
+{name:"Tehzeeb Bakers",url:"https://tehzeeb.com",cat:"购物消费",rating:4,price:"免费",kw:"Tehzeeb Bakers 糕点 巴基斯坦",desc:"巴基斯坦知名糕点连锁品牌",official:true,region:"PK",plat:"网页",icon:"tehzeeb.com.ico"},
+{name:"Mozart",url:"https://mozart.cl",cat:"购物消费",rating:4,price:"免费",kw:"Mozart 糕点 智利",desc:"智利知名糕点连锁品牌",official:true,region:"CL",plat:"网页",icon:"mozart.cl.ico"},
+{name:"Nándori",url:"https://nandori.hu",cat:"购物消费",rating:4,price:"免费",kw:"Nándori 糕点 匈牙利",desc:"匈牙利布达佩斯知名糕点房",official:true,region:"HU",plat:"网页",icon:"nandori.hu.ico"},
+{name:"Papadopoulos",url:"https://papadopoulos.com.gr",cat:"购物消费",rating:4,price:"免费",kw:"Papadopoulos 饼干 希腊",desc:"希腊知名饼干面包品牌",official:true,region:"GR",plat:"网页",icon:"papadopoulos.com.gr.ico"},
+{name:"Kyivkhlib",url:"https://kyivkhlib.ua",cat:"购物消费",rating:4,price:"免费",kw:"Kyivkhlib 面包 乌克兰",desc:"乌克兰知名面包生产商",official:true,region:"UA",plat:"网页",icon:"kyivkhlib.ua.ico"},
+{name:"Hospital General Plaza de la Salud",url:"https://hgps.org.do",cat:"生活服务",rating:4,price:"免费",kw:"Hospital General Plaza de la Salud 多米尼加",desc:"多米尼加圣多明各知名综合医院",official:true,region:"DO",plat:"网页",icon:"hgps.org.do.ico"},
+{name:"Icon Fitness",url:"https://www.iconfitness.co.il",cat:"生活服务",rating:4,price:"免费",kw:"Icon Fitness 健身 以色列",desc:"以色列知名健身连锁品牌",official:true,region:"IL",plat:"网页",icon:"www.iconfitness.co.il.ico"},
+{name:"Genesis Fitness",url:"https://genesisfitness.com.au",cat:"生活服务",rating:4,price:"免费",kw:"Genesis Fitness 健身 澳大利亚",desc:"澳大利亚知名健身连锁品牌",official:true,region:"AU",plat:"网页",icon:"genesisfitness.com.au.ico"},
+{name:"Open Park",url:"https://www.openpark.com.ar",cat:"生活服务",rating:4,price:"免费",kw:"Open Park 健身 阿根廷",desc:"阿根廷知名健身连锁品牌",official:true,region:"AR",plat:"网页",icon:"www.openpark.com.ar.ico"}
 ];
