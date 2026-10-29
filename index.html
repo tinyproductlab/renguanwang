@@ -23,7 +23,7 @@
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   html { overflow-x:clip; }
-  body { min-width:0; overflow-x:clip; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:#faf8f2; color:#1a1a1a; }
+  body { min-width:0; overflow-x:clip; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:#ede9dc; color:#1a1a1a; }
   .topbar { background:#fff; border-bottom:1px solid #eee; padding:10px 24px; font-size:13px; color:#888; display:flex; justify-content:space-between; align-items:center; }
   .topbar b { color:#1a1a1a; }
   .topbar .brand { display:flex; align-items:center; gap:8px; }
@@ -51,7 +51,7 @@
     .searchbox button{ padding:0 22px; }
   }
   @media (max-width:380px){ .topbar .brand small{ display:none; } }
-  .warn-row { background:#fff; border:1px solid #eee; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
+  .warn-row { background:#fff; border:1px solid #ded7c2; border-radius:12px; padding:16px 18px; margin-bottom:10px; display:flex; gap:12px; align-items:center; }
   .warn-row.good { border-left:4px solid #16a34a; }
   .warn-row.mid { border-left:4px solid #f59e0b; background:#fffdf5; }
   .warn-row.bad { border-left:4px solid #dc2626; background:#fff7f7; }
@@ -124,13 +124,14 @@
   .quick { max-width:1400px; margin:0 auto; padding:0 20px; }
   .quick h2 { font-size:15px; color:#1a1a1a; margin-bottom:12px; font-weight:600; }
   .quick-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:10px; }
-  .quick-grid a { background:#fff; border:1px solid #eee; border-radius:10px; padding:14px 4px; text-align:center; text-decoration:none; color:#1a1a1a; font-size:13px; display:block; }
-  .quick-grid a:hover { border-color:#1a1a1a; }
+  .quick-grid a { background:#fff; border:1px solid #ded7c2; border-radius:12px; padding:14px 4px; text-align:center; text-decoration:none; color:#1a1a1a; font-size:13px; display:block; box-shadow:0 1px 2px rgba(74,64,32,.05), 0 10px 22px -12px rgba(74,64,32,.25); transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+  .quick-grid a:hover { border-color:#1a1a1a; transform:translateY(-2px); box-shadow:0 2px 3px rgba(74,64,32,.06), 0 16px 30px -12px rgba(74,64,32,.32); }
   .quick-grid a .cat { display:block; font-size:11px; color:#999; margin-top:4px; }
   @media (max-width:640px) { .site-grid { grid-template-columns:repeat(auto-fill, minmax(130px, 1fr)); } }
   .results { max-width:1400px; margin:32px auto 60px; padding:0 20px; }
   .meta { font-size:13px; color:#999; margin-bottom:12px; }
-  .card { background:#fff; border-radius:12px; padding:18px 20px; margin-bottom:12px; border:1px solid #eee; display:flex; gap:14px; align-items:flex-start; }
+  .card { background:#fff; border-radius:14px; padding:18px 20px; margin-bottom:12px; border:1px solid #ded7c2; display:flex; gap:14px; align-items:flex-start; box-shadow:0 1px 2px rgba(74,64,32,.06), 0 14px 30px -14px rgba(74,64,32,.28); transition:transform .18s ease, box-shadow .18s ease; }
+  .card:hover { transform:translateY(-2px); box-shadow:0 2px 3px rgba(74,64,32,.06), 0 22px 38px -14px rgba(74,64,32,.35); }
   .card.sponsored { border-color:#f5c518; background:#fffdf4; }
   .rank { font-size:22px; font-weight:800; color:#ddd; min-width:28px; padding-top:2px; }
   .card .body { flex:1; min-width:0; overflow-wrap:anywhere; }
@@ -528,7 +529,7 @@
 </div>
 </div>
 <div class="verify-wrap" style="max-width:1400px;margin:0 auto;padding:0 20px 8px">
-  <div style="background:#fff;border:1px solid #eee;border-radius:12px;padding:18px 20px">
+  <div style="background:#fff;border:1px solid #ded7c2;border-radius:14px;padding:18px 20px;box-shadow:0 1px 2px rgba(74,64,32,.06), 0 14px 30px -14px rgba(74,64,32,.28)">
     <h2 style="font-size:16px;margin-bottom:6px">🔍 <span data-i18n="verify_t">验一验：这个网址是真的官网吗？</span></h2>
     <p style="font-size:13px;color:#888;margin-bottom:12px" data-i18n="verify_p">智能预检：查站库、域名年龄、页面主体，多信号判断，仅供参考，最终以人工核验为准。</p>
     <div style="display:flex;gap:8px;flex-wrap:wrap">
