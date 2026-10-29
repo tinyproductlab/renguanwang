@@ -20,6 +20,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="认官网">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script>try{var _m=localStorage.getItem("rg_theme")||"auto";var _d=_m==="dark"||(_m==="auto"&&window.matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.setAttribute("data-theme",_d?"dark":"light");}catch(e){}</script>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   html { overflow-x:clip; }
@@ -303,6 +304,84 @@
   .weather-cities{max-width:1100px;margin:18px auto 0;display:flex;align-items:center;gap:12px;overflow-x:auto;white-space:nowrap;padding:4px 0 8px;scrollbar-width:thin}.weather-cities::before,.weather-cities::after{content:'';margin:auto}.weather-cities .weather-city-summary{flex:0 0 auto;background:transparent;color:#425872;border:0;border-bottom:2px solid transparent;border-radius:0;padding:7px 8px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}.weather-cities .weather-city-summary[aria-pressed="true"]{border-bottom-color:currentColor}.wx-night .weather-cities .weather-city-summary{color:#e1eafa}.weather-cities .weather-city-summary:focus-visible{outline:2px solid #2563eb;outline-offset:2px}.weather-controls{margin-top:3px}.weather-line{display:none!important}#weatherCapital{display:none}
 
 .weather-strip{flex-wrap:wrap;max-width:1100px;margin:18px auto 0;display:flex;align-items:center;justify-content:center;gap:12px;min-width:0}.weather-strip .weather-cities{flex-wrap:wrap;justify-content:center;white-space:normal;overflow:visible;max-width:100%;min-width:0;margin:0;gap:12px;padding:4px 0}.weather-strip .weather-cities::before,.weather-strip .weather-cities::after{display:none}#weatherManage{flex:0 0 auto;white-space:nowrap;min-height:34px;padding:6px 12px;border:1px solid #c9d5e2;border-radius:20px;background:#ffffffdc;color:#30435c;font:inherit;font-size:12px;cursor:pointer}#weatherManage:focus-visible{outline:2px solid #2563eb;outline-offset:3px}.weather-dialog #weatherCapital{display:inline-block}.weather-dialog-actions{display:flex;gap:8px;margin-top:16px}.weather-dialog-actions button[aria-pressed="true"]{background:#183c70;color:#fff}.wx-night #weatherStatus{color:#e2edff}#weatherStatus{text-align:center;font-size:12px}
+
+  .theme-btn { margin-left:10px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 10px; font-size:14px; background:#fff; cursor:pointer; line-height:1; }
+  html{ color-scheme:light; }
+  html[data-theme="dark"]{ color-scheme:dark; }
+  /* 夜间模式（默认自动跟随系统，可手动切换） */
+  html[data-theme="dark"] body{ background:#171511; color:#ece7da; }
+  html[data-theme="dark"] .topbar{ background:#1e1c17; border-bottom-color:#33302a; color:#98917f; }
+  html[data-theme="dark"] .topnav a{ color:#b6b0a1; }
+  html[data-theme="dark"] .topnav a:hover{ background:#2a2820; color:#fff; }
+  html[data-theme="dark"] .wx{ color:#a39c8b; }
+  html[data-theme="dark"] .region-sel, html[data-theme="dark"] .theme-btn{ background:#23211c; border-color:#3a372c; color:#ece7da; }
+  html[data-theme="dark"] .bookmark-btn{ background:#23211c; border:1px solid #3a372c; color:#ece7da; border-radius:8px; }
+  html[data-theme="dark"] .pwa-btn{ background:#ece7da; color:#171511; }
+  html[data-theme="dark"] .pwa-btn:hover{ background:#fff; }
+  html[data-theme="dark"] .hero-title p{ color:#a39c8b; }
+  html[data-theme="dark"] .searchbox{ background:#23211c; border-color:#55503f; box-shadow:0 4px 16px rgba(0,0,0,.4); }
+  html[data-theme="dark"] .searchbox input{ background:transparent; color:#ece7da; }
+  html[data-theme="dark"] .searchbox input::placeholder{ color:#8a8474; }
+  html[data-theme="dark"] .searchbox button{ background:#ece7da; color:#171511; }
+  html[data-theme="dark"] .weather-line{ color:#c9d4e6; }
+  html[data-theme="dark"] .wxbg.wx-clear .weather-line, html[data-theme="dark"] .wxbg.wx-cloud .weather-line, html[data-theme="dark"] .wxbg.wx-fog .weather-line, html[data-theme="dark"] .wxbg.wx-snow .weather-line{ color:#33465c; }
+  html[data-theme="dark"] .wxbg.wx-clear .hero-title h1, html[data-theme="dark"] .wxbg.wx-cloud .hero-title h1, html[data-theme="dark"] .wxbg.wx-fog .hero-title h1, html[data-theme="dark"] .wxbg.wx-snow .hero-title h1{ color:#1a1a1a; }
+  html[data-theme="dark"] .wxbg.wx-clear .hero-title p, html[data-theme="dark"] .wxbg.wx-cloud .hero-title p, html[data-theme="dark"] .wxbg.wx-fog .hero-title p, html[data-theme="dark"] .wxbg.wx-snow .hero-title p{ color:#555; }
+  html[data-theme="dark"] .chips span{ background:#23211c; border-color:#3a372c; color:#b6b0a1; }
+  html[data-theme="dark"] .chips span:hover{ border-color:#ece7da; color:#fff; }
+  html[data-theme="dark"] .verify-wrap > div{ background:#23211c !important; border-color:#3a372c !important; box-shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 30px -14px rgba(0,0,0,.7) !important; }
+  html[data-theme="dark"] .verify-wrap input{ background:#1a1813 !important; border-color:#3a372c !important; color:#ece7da !important; }
+  html[data-theme="dark"] .card{ background:#23211c; border-color:#3a372c; box-shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 30px -14px rgba(0,0,0,.75); }
+  html[data-theme="dark"] .card:hover{ box-shadow:0 2px 3px rgba(0,0,0,.4), 0 22px 38px -14px rgba(0,0,0,.85); }
+  html[data-theme="dark"] .card.sponsored{ background:#2a2513; }
+  html[data-theme="dark"] .rank{ color:#4d493e; }
+  html[data-theme="dark"] .card .domain{ color:#98917f; }
+  html[data-theme="dark"] .tags .cat{ background:#262b4d; color:#a5b4fc; }
+  html[data-theme="dark"] .tags .price{ background:#123528; color:#6ee7b7; }
+  html[data-theme="dark"] .tags .ad{ background:#3d2f10; color:#fcd34d; }
+  html[data-theme="dark"] .tags .off{ background:#0f2f42; color:#7dd3fc; }
+  html[data-theme="dark"] .tags .region-dom{ background:#3d1a1a; color:#fca5a5; }
+  html[data-theme="dark"] .tags .region-for{ background:#0f2f42; color:#7dd3fc; }
+  html[data-theme="dark"] .tags .dl{ background:#2d2145; color:#c4b5fd; }
+  html[data-theme="dark"] .tags .plat{ background:#2c2a23; color:#b6b0a1; }
+  html[data-theme="dark"] .go{ background:#ece7da; color:#171511; }
+  html[data-theme="dark"] .quick h2{ color:#ece7da; }
+  html[data-theme="dark"] .quick-grid a{ background:#23211c; border-color:#3a372c; color:#ece7da; box-shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 22px -12px rgba(0,0,0,.7); }
+  html[data-theme="dark"] .quick-grid a:hover{ border-color:#ece7da; box-shadow:0 2px 3px rgba(0,0,0,.4), 0 16px 30px -12px rgba(0,0,0,.8); }
+  html[data-theme="dark"] .quick-grid .qtile.pinned > a{ border-color:#f5c518; }
+  html[data-theme="dark"] .site-grid a{ background:#23211c; border-color:#33302a; }
+  html[data-theme="dark"] .site-grid a:hover{ border-color:#ece7da; }
+  html[data-theme="dark"] .site-grid a .sname{ color:#ece7da; }
+  html[data-theme="dark"] .country-head{ color:#d8d2c2; }
+  html[data-theme="dark"] .cat-block h3 .cnt{ color:#98917f; }
+  html[data-theme="dark"] .navsec .sub{ color:#98917f; }
+  html[data-theme="dark"] .meta{ color:#98917f; }
+  html[data-theme="dark"] .empty{ color:#98917f; }
+  html[data-theme="dark"] .footer{ background:#1e1c17; border-top-color:#33302a; color:#98917f; }
+  html[data-theme="dark"] .modal{ background:#23211c; color:#ece7da; }
+  html[data-theme="dark"] .fb-form input, html[data-theme="dark"] .fb-form textarea{ background:#1a1813; border-color:#3a372c; color:#ece7da; }
+  html[data-theme="dark"] .fb-form input:focus, html[data-theme="dark"] .fb-form textarea:focus{ border-color:#ece7da; }
+  html[data-theme="dark"] .fb-suggest{ background:#23211c; border-color:#3a372c; }
+  html[data-theme="dark"] .warn-row{ background:#23211c; border-color:#3a372c; }
+  html[data-theme="dark"] .warn-row.mid{ background:#2c2716; }
+  html[data-theme="dark"] .warn-row.bad{ background:#331d1d; }
+  html[data-theme="dark"] .weather-dialog{ background:#23211c; color:#ece7da; border-color:#3a372c; }
+  html[data-theme="dark"] .weather-dialog p{ color:#a39c8b; }
+  html[data-theme="dark"] .weather-dialog button{ background:#2c2a23; border-color:#3a372c; color:#ece7da; }
+  html[data-theme="dark"] .weather-dialog input, html[data-theme="dark"] .weather-dialog select{ background:#1a1813; border-color:#3a372c; color:#ece7da; }
+  html[data-theme="dark"] .quick-grid .qadd{ background:#23211c; border-color:#3a372c; color:#98917f; }
+  html[data-theme="dark"] .quick-grid .qadd:hover{ border-color:#ece7da; color:#ece7da; }
+  html[data-theme="dark"] #qForm input{ background:#1a1813; border-color:#3a372c; color:#ece7da; }
+  html[data-theme="dark"] #qForm .qsave{ background:#ece7da; color:#171511; }
+  html[data-theme="dark"] .nav-anchors a{ background:#23211c; border-color:#3a372c; color:#b6b0a1; }
+  html[data-theme="dark"] .nav-anchors a:hover{ border-color:#ece7da; color:#fff; }
+  html[data-theme="dark"] #toTop{ background:#23211c !important; border-color:#3a372c !important; color:#ece7da !important; }
+  html[data-theme="dark"] .topbar b{ color:#ece7da; }
+  html[data-theme="dark"] .foot-brand .brand b{ color:#ece7da; }
+  html[data-theme="dark"] .foot-join .ft, html[data-theme="dark"] .foot-links .ft{ color:#ece7da; }
+  html[data-theme="dark"] .qq-num{ background:#23211c; border-color:#3a372c; color:#ece7da; }
+  html[data-theme="dark"] .qq-num-sm{ color:#ece7da !important; }
+  html[data-theme="dark"] .fb-btn.ghost{ background:#2c2a23; color:#ece7da; }
 </style>
 <link rel="stylesheet" href="/weather-sky.css?v=20261027-weather-scenes">
 </head>
@@ -320,6 +399,7 @@
   <button type="button" id="bookmarkBtn" class="bookmark-btn" aria-haspopup="dialog" aria-controls="bookmarkDialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.5 4.4 1.1 6.2-5.7-3-5.7 3 1.1-6.2L3.2 9.6l6.3-.9Z"/></svg><span id="bookmarkLabel">收藏本站</span></button>
   <button id="pwaBtn" class="pwa-btn" style="display:none">📲 安装应用</button>
   
+  <button type="button" id="themeBtn" class="theme-btn" title="主题：自动（跟随系统），点击切换">🌗</button>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
     <option value="">🌍 全部</option>
     <option value="CN">🇨🇳 中国</option>
@@ -1249,6 +1329,23 @@ try{
   else { const auto = langToCountry(); if(auto && regionSel.querySelector(`option[value="${auto}"]`)){ init = auto; } }
   if(init){ activeRegion = init; regionSel.value = init; }
 }catch(e){}
+// 主题：默认自动跟随系统，用户可点顶栏按钮在 自动/白天/夜晚 间切换，选择存 localStorage
+const themeBtn = document.getElementById("themeBtn");
+let themeMode = "auto";
+try{ themeMode = localStorage.getItem("rg_theme") || "auto"; }catch(e){}
+if(!["auto","light","dark"].includes(themeMode)) themeMode = "auto";
+const themeMQ = window.matchMedia("(prefers-color-scheme: dark)");
+function applyTheme(){
+  const eff = themeMode === "auto" ? (themeMQ.matches ? "dark" : "light") : themeMode;
+  document.documentElement.setAttribute("data-theme", eff);
+  if(themeBtn){
+    themeBtn.textContent = themeMode === "auto" ? "🌗" : themeMode === "dark" ? "🌙" : "☀️";
+    themeBtn.title = themeMode === "auto" ? "主题：自动（跟随系统），点击切换" : themeMode === "dark" ? "主题：夜晚，点击切换" : "主题：白天，点击切换";
+  }
+}
+if(themeBtn){ themeBtn.addEventListener("click", () => { themeMode = themeMode === "auto" ? "light" : themeMode === "light" ? "dark" : "auto"; try{ localStorage.setItem("rg_theme", themeMode); }catch(e){} applyTheme(); }); }
+if(themeMQ.addEventListener) themeMQ.addEventListener("change", () => { if(themeMode === "auto") applyTheme(); });
+applyTheme();
 
 // 顶导航
 document.getElementById("topnav").addEventListener("click", e => {
