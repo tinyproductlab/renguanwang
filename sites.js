@@ -11163,7 +11163,6 @@ const SITES = [
 {name:"Waman Hari Pethe Jewellers",url:"https://whpjewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"Waman Hari Pethe Jewellers 印度马哈拉施特拉邦老牌金饰世家，主营传统黄金首饰、钻石与婚嫁金饰并运营官网商城",desc:"印度马哈拉施特拉邦老牌金饰世家，主营传统黄金首饰、钻石与婚嫁金饰并运营官网商城",official:true,region:"IN",plat:"网页",icon:"whpjewellers.com.ico"},
 {name:"Feil",url:"https://feil.hu",cat:"购物消费",rating:4,price:"免费",kw:"Feil 匈牙利本土钻石戒指工坊品牌，主营订婚钻戒与结婚对戒定制并运营官网商城",desc:"匈牙利本土钻石戒指工坊品牌，主营订婚钻戒与结婚对戒定制并运营官网商城",official:true,region:"HU",plat:"网页",icon:"feil.hu.ico"},
 {name:"Lindroos",url:"https://lindroos.fi",cat:"购物消费",rating:4,price:"免费",kw:"Lindroos 芬兰百年钟表珠宝连锁，主营名表、黄金首饰与婚戒并运营官网商城",desc:"芬兰百年钟表珠宝连锁，主营名表、黄金首饰与婚戒并运营官网商城",official:true,region:"FI",plat:"网页",icon:"lindroos.fi.ico"},
-{name:"Казахювелир",url:"https://kazakhyuvelir.kz",cat:"购物消费",rating:4,price:"免费",kw:"Казахювелир 哈萨克斯坦老牌国营背景珠宝连锁，主营黄金钻石首饰与民族纹样银饰并运营官网",desc:"哈萨克斯坦老牌国营背景珠宝连锁，主营黄金钻石首饰与民族纹样银饰并运营官网",official:true,region:"KZ",plat:"网页",icon:"kazakhyuvelir.kz.ico"},
 {name:"Praba",url:"https://praba.lt",cat:"购物消费",rating:4,price:"免费",kw:"Praba 立陶宛本土珠宝制造零售商，主营黄金、白银与琥珀首饰并运营官网商城",desc:"立陶宛本土珠宝制造零售商，主营黄金、白银与琥珀首饰并运营官网商城",official:true,region:"LT",plat:"网页",icon:"praba.lt.ico"},
 {name:"Shiels",url:"https://shiels.com.au",cat:"购物消费",rating:4,price:"免费",kw:"Shiels 澳大利亚本土珠宝连锁，主营钻石首饰、黄金与平价名表并运营官网商城",desc:"澳大利亚本土珠宝连锁，主营钻石首饰、黄金与平价名表并运营官网商城",official:true,region:"AU",plat:"网页",icon:"shiels.com.au.ico"},
 {name:"Hulchi Belluni",url:"https://hulchibelluni.com",cat:"购物消费",rating:4,price:"免费",kw:"Hulchi Belluni 比利时安特卫普高级珠宝品牌，主营钻石金饰与彩宝首饰并运营官网",desc:"比利时安特卫普高级珠宝品牌，主营钻石金饰与彩宝首饰并运营官网",official:true,region:"BE",plat:"网页",icon:"hulchibelluni.com.ico"},
@@ -11180,6 +11179,5 @@ const SITES = [
 {name:"Madart",url:"https://madart.ge",cat:"购物消费",rating:4,price:"免费",kw:"Madart 格鲁吉亚本土烘焙连锁，主营蛋糕与法式糕点并运营官网",desc:"格鲁吉亚本土烘焙连锁，主营蛋糕与法式糕点并运营官网",official:true,region:"GE",plat:"网页",icon:"madart.ge.ico"},
 {name:"Honey Bun",url:"https://honeybun.com",cat:"购物消费",rating:4,price:"免费",kw:"Honey Bun 牙买加本土烘焙食品品牌，主营面包、甜点与零食并运营官网",desc:"牙买加本土烘焙食品品牌，主营面包、甜点与零食并运营官网",official:true,region:"JM",plat:"网页",icon:"honeybun.com.ico"},
 {name:"Da Vinci Health",url:"https://davincihealth.com",cat:"生活服务",rating:4,price:"免费",kw:"Da Vinci Health 马耳他本土私立医疗集团，主营专科诊所、诊断影像与日间手术并运营官网",desc:"马耳他本土私立医疗集团，主营专科诊所、诊断影像与日间手术并运营官网",official:true,region:"MT",plat:"网页",icon:"davincihealth.com.ico"},
-{name:"Klinika Magdalena",url:"https://magdalena.hr",cat:"生活服务",rating:4,price:"免费",kw:"Klinika Magdalena 克罗地亚私立心血管专科医院，主营心脏外科、介入心脏病学与血管外科并运营官网",desc:"克罗地亚私立心血管专科医院，主营心脏外科、介入心脏病学与血管外科并运营官网",official:true,region:"HR",plat:"网页",icon:"magdalena.hr.ico"},
 {name:"Euroclinic Athens",url:"https://euroclinic.gr",cat:"生活服务",rating:4,price:"免费",kw:"Euroclinic Athens 希腊雅典私立医院集团，主营多专科诊疗、手术与重症监护并运营官网",desc:"希腊雅典私立医院集团，主营多专科诊疗、手术与重症监护并运营官网",official:true,region:"GR",plat:"网页",icon:"euroclinic.gr.ico"}
 ];
