@@ -11827,5 +11827,6 @@ const SITES = [
 {name:"Bon Ton Resort Langkawi",url:"https://bontonresort.com",cat:"购物消费",rating:4,price:"免费",kw:"bon ton resort langkawi",desc:"兰卡威由百年马来传统木屋改建的独立精品度假村",official:true,region:"MY",plat:"网页",icon:"bontonresort.com.ico"},
 {name:"Tri Lanka",url:"https://trilanka.com",cat:"购物消费",rating:4,price:"免费",kw:"tri lanka koggala hotel",desc:"斯里兰卡科加拉湖畔独立生态精品酒店，依坡地梯级布局",official:true,region:"LK",plat:"网页",icon:"trilanka.com.ico"},
 {name:"Tashi Namgay Resort",url:"https://tashinamgayresort.com",cat:"购物消费",rating:4,price:"免费",kw:"tashi namgay resort paro bhutan",desc:"不丹帕罗河畔独立度假酒店，融合传统不丹建筑与石浴",official:true,region:"BT",plat:"网页",icon:"tashinamgayresort.com.ico"},
-{name:"Azura Benguerra Island",url:"https://azura-retreats.com",cat:"购物消费",rating:4,price:"免费",kw:"azura benguerra island mozambique",desc:"莫桑比克本盖鲁阿岛独立野奢海岛度假村",official:true,region:"MZ",plat:"网页",icon:"azura-retreats.com.ico"}
+{name:"Azura Benguerra Island",url:"https://azura-retreats.com",cat:"购物消费",rating:4,price:"免费",kw:"azura benguerra island mozambique",desc:"莫桑比克本盖鲁阿岛独立野奢海岛度假村",official:true,region:"MZ",plat:"网页",icon:"azura-retreats.com.ico"},
+{name:"Cabrini Health",url:"https://www.cabrini.com.au",cat:"生活服务",rating:4,price:"免费",kw:"cabrini health melbourne australia",desc:"澳大利亚墨尔本天主教私立医疗机构",official:true,region:"AU",plat:"网页",icon:"www.cabrini.com.au.ico"}
 ];
