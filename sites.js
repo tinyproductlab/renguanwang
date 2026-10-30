@@ -11213,5 +11213,9 @@ const SITES = [
 {name:"Euromedik",url:"https://euromedik.rs",cat:"生活服务",rating:4,price:"免费",kw:"euromedik 医疗 塞尔维亚 官网",desc:"塞尔维亚私立医疗连锁官网，主营专科门诊、影像诊断与综合诊疗",official:true,region:"RS",plat:"网页",icon:"euromedik.rs.ico"},
 {name:"Farrer Park Hospital",url:"https://farrerpark.com",cat:"生活服务",rating:4,price:"免费",kw:"farrer park 医院 新加坡 官网",desc:"新加坡私立综合医院官网（Farrer Park），主营多专科诊疗、手术与健康筛查",official:true,region:"SG",plat:"网页",icon:"farrerpark.com.ico"},
 {name:"Clinique de la Madeleine",url:"https://www.cliniquedelamadeleine.com",cat:"生活服务",rating:4,price:"免费",kw:"clinique madeleine 诊所 塞内加尔 官网",desc:"塞内加尔达喀尔老牌私立诊所官网，主营妇产、综合诊疗与住院服务",official:true,region:"SN",plat:"网页",icon:"www.cliniquedelamadeleine.com.ico"},
-{name:"Great Shape",url:"https://www.great-shape.co.il",cat:"生活服务",rating:4,price:"免费",kw:"great shape 健身 以色列 官网",desc:"以色列健身连锁官网，主营器械训练、室内单车与多样团课",official:true,region:"IL",plat:"网页",icon:"www.great-shape.co.il.ico"}
+{name:"Great Shape",url:"https://www.great-shape.co.il",cat:"生活服务",rating:4,price:"免费",kw:"great shape 健身 以色列 官网",desc:"以色列健身连锁官网，主营器械训练、室内单车与多样团课",official:true,region:"IL",plat:"网页",icon:"www.great-shape.co.il.ico"},
+{name:"Chateau de Sable",url:"https://chateaudesable.com",cat:"购物消费",rating:4,price:"免费",kw:"chateau de sable 童装 新加坡 官网",desc:"新加坡童装品牌官网，主营法式婴幼儿服饰并运营官方商城",official:true,region:"SG",plat:"网页",icon:"chateaudesable.com.ico"},
+{name:"db Seabank Resort + Spa",url:"https://www.dbhotelsresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"db seabank 度假村 马耳他 官网",desc:"马耳他全包式海滨度假村官网（db 集团），主营海滨度假、水疗与餐饮服务",official:true,region:"MT",plat:"网页",icon:"www.dbhotelsresorts.com.ico"},
+{name:"Columbia Beach Resort",url:"https://columbiaresort.com",cat:"购物消费",rating:4,price:"免费",kw:"columbia beach resort 度假村 塞浦路斯 官网",desc:"塞浦路斯皮苏里湾豪华海滩度假村官网，主营别墅住宿、水疗与餐饮服务",official:true,region:"CY",plat:"网页",icon:"columbiaresort.com.ico"},
+{name:"El Tizoncito",url:"https://eltizoncito.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"el tizoncito 塔可 墨西哥 官网",desc:"墨西哥塔可连锁官网，主营牧羊人塔可等墨式小吃",official:true,region:"MX",plat:"网页",icon:"eltizoncito.com.mx.ico"}
 ];
