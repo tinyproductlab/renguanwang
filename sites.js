@@ -11688,5 +11688,7 @@ const SITES = [
 {name:"Vinotel Boutique Hotel",url:"https://vinotel.ge",cat:"购物消费",rating:4,price:"免费",kw:"vinotel boutique hotel tbilisi georgia wine",desc:"格鲁吉亚第比利斯老城精品酒店，自家葡萄酒窖",official:true,region:"GE",plat:"网页",icon:"vinotel.ge.ico"},
 {name:"Kiridara",url:"https://kiridarahotel.com",cat:"购物消费",rating:4,price:"免费",kw:"kiridara luang prabang hotel laos",desc:"老挝琅勃拉邦山丘精品酒店，俯瞰古城与湄公河",official:true,region:"LA",plat:"网页",icon:"kiridarahotel.com.ico"},
 {name:"Santani Wellness Resort",url:"https://santani.com",cat:"购物消费",rating:4,price:"免费",kw:"santani wellness resort kandy sri lanka ayurveda",desc:"斯里兰卡康提山间养生度假酒店，瑜伽与阿育吠陀",official:true,region:"LK",plat:"网页",icon:"santani.com.ico"},
-{name:"Yasawa Island Resort & Spa",url:"https://yasawa.com",cat:"购物消费",rating:4,price:"免费",kw:"yasawa island resort spa fiji beach",desc:"斐济亚萨瓦群岛海岛度假酒店，私享长白沙滩",official:true,region:"FJ",plat:"网页",icon:"yasawa.com.ico"}
+{name:"Yasawa Island Resort & Spa",url:"https://yasawa.com",cat:"购物消费",rating:4,price:"免费",kw:"yasawa island resort spa fiji beach",desc:"斐济亚萨瓦群岛海岛度假酒店，私享长白沙滩",official:true,region:"FJ",plat:"网页",icon:"yasawa.com.ico"},
+{name:"Hôpital de la Croix du Sud",url:"https://hopitalcroixdusud.com",cat:"生活服务",rating:4,price:"免费",kw:"hopital croix du sud rwanda kigali",desc:"卢旺达基加利私立医院，妇产科与综合诊疗",official:true,region:"RW",plat:"网页",icon:"hopitalcroixdusud.com.ico"},
+{name:"Saifee Hospital",url:"https://saifeehospital.co.tz",cat:"生活服务",rating:4,price:"免费",kw:"saifee hospital dar es salaam tanzania",desc:"坦桑尼亚达累斯萨拉姆私立医院，多专科门诊与住院",official:true,region:"TZ",plat:"网页",icon:"saifeehospital.co.tz.ico"}
 ];
