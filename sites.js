@@ -10718,5 +10718,13 @@ const SITES = [
 {name:"Ayamku",url:"https://ayamku.com",cat:"生活服务",rating:4,price:"免费",kw:"Ayamku 文莱本土炸鸡快餐连锁，主打本地口味炸鸡套餐",desc:"文莱本土炸鸡快餐连锁，主打本地口味炸鸡套餐",official:true,region:"BN",plat:"网页",icon:"ayamku.com.ico"},
 {name:"Gippo",url:"https://gippo.kz",cat:"生活服务",rating:4,price:"免费",kw:"Gippo 哈萨克斯坦本土快餐连锁，阿拉木图起家，主打汉堡与炸鸡",desc:"哈萨克斯坦本土快餐连锁，阿拉木图起家，主打汉堡与炸鸡",official:true,region:"KZ",plat:"网页",icon:"gippo.kz.ico"},
 {name:"The Burger House",url:"https://burgerhouse.com.np",cat:"生活服务",rating:4,price:"免费",kw:"The Burger House 尼泊尔本土汉堡与脆皮炸鸡连锁，加德满都起家门店众多",desc:"尼泊尔本土汉堡与脆皮炸鸡连锁，加德满都起家门店众多",official:true,region:"NP",plat:"网页",icon:"burgerhouse.com.np.ico"},
-{name:"Mimmos",url:"https://mimmos.com",cat:"生活服务",rating:4,price:"免费",kw:"Mimmos 莫桑比克本土意式餐饮连锁，马普托起家，主打披萨与意面",desc:"莫桑比克本土意式餐饮连锁，马普托起家，主打披萨与意面",official:true,region:"MZ",plat:"网页",icon:"mimmos.com.ico"}
+{name:"Mimmos",url:"https://mimmos.com",cat:"生活服务",rating:4,price:"免费",kw:"Mimmos 莫桑比克本土意式餐饮连锁，马普托起家，主打披萨与意面",desc:"莫桑比克本土意式餐饮连锁，马普托起家，主打披萨与意面",official:true,region:"MZ",plat:"网页",icon:"mimmos.com.ico"},
+{name:"Robert Wan",url:"https://robertwan.com",cat:"购物消费",rating:4,price:"免费",kw:"Robert Wan 法属波利尼西亚大溪地珍珠珠宝品牌，主营黑珍珠高级首饰与腕表",desc:"法属波利尼西亚大溪地珍珠珠宝品牌，主营黑珍珠高级首饰与腕表",official:true,region:"PF",plat:"网页",icon:"robertwan.com.ico"},
+{name:"Sangla",url:"https://sangla.com",cat:"购物消费",rating:4,price:"免费",kw:"Sangla 爱沙尼亚珠宝商 塔林金饰琥珀",desc:"爱沙尼亚老牌珠宝商，塔林经营逾百年，主营金饰与琥珀首饰",official:true,region:"EE",plat:"网页",icon:"sangla.com.ico"},
+{name:"Athanasiou",url:"https://athanasiou.com",cat:"购物消费",rating:4,price:"免费",kw:"Athanasiou 巴拿马面包咖啡连锁",desc:"巴拿马本土希腊风面包咖啡连锁，主营面包、糕点与咖啡轻食",official:true,region:"PA",plat:"网页",icon:"athanasiou.com.ico"},
+{name:"Polyclinique Atinkanmey",url:"https://polycliniqueatinkanmey.com",cat:"医疗",rating:4,price:"免费",kw:"Polyclinique Atinkanmey 贝宁科托努私立综合医院，本地主要私立医疗机构之一",desc:"贝宁科托努私立综合医院，本地主要私立医疗机构之一",official:true,region:"BJ",plat:"网页",icon:"polycliniqueatinkanmey.com.ico"},
+{name:"Belize Medical Associates",url:"https://belizemedical.com",cat:"医疗",rating:4,price:"免费",kw:"Belize Medical Associates 伯利兹伯利兹城私立医院，提供综合诊疗与住院服务",desc:"伯利兹伯利兹城私立医院，提供综合诊疗与住院服务",official:true,region:"BZ",plat:"网页",icon:"belizemedical.com.ico"},
+{name:"Guam Regional Medical City",url:"https://grmcguam.com",cat:"医疗",rating:4,price:"免费",kw:"Guam Regional Medical City 关岛私立综合医院，岛上主要私立医疗机构",desc:"关岛私立综合医院，岛上主要私立医疗机构",official:true,region:"GU",plat:"网页",icon:"grmcguam.com.ico"},
+{name:"Tree Top Hospital",url:"https://treetopmaldives.com",cat:"医疗",rating:4,price:"免费",kw:"Tree Top Hospital 马尔代夫胡鲁马累私立综合医院，本地高端私立医疗代表",desc:"马尔代夫胡鲁马累私立综合医院，本地高端私立医疗代表",official:true,region:"MV",plat:"网页",icon:"treetopmaldives.com.ico"},
+{name:"Gym+",url:"https://gymplius.lt",cat:"健身",rating:4,price:"免费",kw:"Gym+ 立陶宛健身连锁 平价器械团课 Gym Plius",desc:"立陶宛本土健身连锁，主营平价器械训练与团体课程",official:true,region:"LT",plat:"网页",icon:"gymplius.lt.ico"}
 ];
