@@ -11439,5 +11439,13 @@ const SITES = [
 {name:"Muang La Lodge",url:"https://muangla.com",cat:"购物消费",rating:4,price:"免费",kw:"muang la 老挝 乌多姆赛 温泉旅馆",desc:"老挝北部乌多姆赛河谷中的精品温泉旅馆官网。",official:true,region:"LA",plat:"网页",icon:"muangla.com.ico"},
 {name:"Bambu Indah",url:"https://bambuindah.com",cat:"购物消费",rating:4,price:"免费",kw:"bambu indah 印度尼西亚 巴厘岛 乌布 生态酒店",desc:"印度尼西亚巴厘岛乌布的竹建筑生态精品酒店官网。",official:true,region:"ID",plat:"网页",icon:"bambuindah.com.ico"},
 {name:"Ratua Island Resort & Spa",url:"https://ratua.com",cat:"购物消费",rating:4,price:"免费",kw:"ratua 瓦努阿图 私人岛 度假村",desc:"瓦努阿图圣灵岛附近私人小岛上的复古殖民风度假村官网。",official:true,region:"VU",plat:"网页",icon:"ratua.com.ico"},
-{name:"Noori",url:"https://noori.pt",cat:"生活服务",rating:4,price:"免费",kw:"noori 葡萄牙 寿司 快餐",desc:"葡萄牙本土卷制寿司快餐连锁的官网。",official:true,region:"PT",plat:"网页",icon:"noori.pt.ico"}
+{name:"Noori",url:"https://noori.pt",cat:"生活服务",rating:4,price:"免费",kw:"noori 葡萄牙 寿司 快餐",desc:"葡萄牙本土卷制寿司快餐连锁的官网。",official:true,region:"PT",plat:"网页",icon:"noori.pt.ico"},
+{name:"Hettich Jewellers",url:"https://hettich.co.uk",cat:"购物消费",rating:4,price:"免费",kw:"hettich jewellers 泽西岛 珠宝 名表",desc:"泽西岛百年家族珠宝商，主营钻石婚戒与名表的官网商城。",official:true,region:"JE",plat:"网页",icon:"hettich.co.uk.ico"},
+{name:"Catherine Best",url:"https://catherinebest.com",cat:"购物消费",rating:4,price:"免费",kw:"catherine best 根西岛 珠宝 订制",desc:"根西岛本土珠宝设计工坊，主营订制金饰与宝石首饰的官网商城。",official:true,region:"GG",plat:"网页",icon:"catherinebest.com.ico"},
+{name:"Kurdi Jewellery",url:"https://kurdijewelry.com",cat:"购物消费",rating:4,price:"免费",kw:"kurdi jewellery 约旦 珠宝 婚嫁",desc:"约旦本土珠宝零售商，主营黄金与钻石婚嫁首饰的官网商城。",official:true,region:"JO",plat:"网页",icon:"kurdijewelry.com.ico"},
+{name:"Bread & Beyond",url:"https://breadbeyond.com",cat:"购物消费",rating:4,price:"免费",kw:"bread & beyond 巴基斯坦 烘焙 蛋糕",desc:"巴基斯坦本土烘焙连锁，主营面包、蛋糕与健康烘焙的官网商城。",official:true,region:"PK",plat:"网页",icon:"breadbeyond.com.ico"},
+{name:"Dona Deôla",url:"https://donadeola.com.br",cat:"购物消费",rating:4,price:"免费",kw:"dona deôla 巴西 圣保罗 面包房",desc:"巴西圣保罗本土面包房连锁，主营面包、蛋糕与自助简餐的官网。",official:true,region:"BR",plat:"网页",icon:"donadeola.com.br.ico"},
+{name:"Bethzatha General Hospital",url:"https://bethzatha.com",cat:"生活服务",rating:4,price:"免费",kw:"bethzatha 埃塞俄比亚 亚的斯亚贝巴 私立医院",desc:"埃塞俄比亚亚的斯亚贝巴私立综合医院的官网。",official:true,region:"ET",plat:"网页",icon:"bethzatha.com.ico"},
+{name:"Hospital Viera",url:"https://hospitalviera.com",cat:"生活服务",rating:4,price:"免费",kw:"hospital viera 洪都拉斯 特古西加尔巴 私立医院",desc:"洪都拉斯特古西加尔巴私立综合医院的官网。",official:true,region:"HN",plat:"网页",icon:"hospitalviera.com.ico"},
+{name:"Joyería Recalde",url:"https://joyeriarecalde.com.py",cat:"购物消费",rating:4,price:"免费",kw:"joyería recalde 巴拉圭 亚松森 珠宝",desc:"巴拉圭亚松森本土珠宝商，主营黄金首饰与名表的官网。",official:true,region:"PY",plat:"网页",icon:"joyeriarecalde.com.py.ico"}
 ];
