@@ -11223,5 +11223,5 @@ const SITES = [
 {name:"Medikom",url:"https://medikom.ua",cat:"生活服务",rating:4,price:"免费",kw:"medikom 诊所 乌克兰 官网",desc:"乌克兰基辅私立诊所网络官网，主营全科与专科门诊、儿科和急救服务",official:true,region:"UA",plat:"网页",icon:"medikom.ua.ico"},
 {name:"Capital Clinic Riga",url:"https://capitalclinicriga.lv",cat:"生活服务",rating:4,price:"免费",kw:"capital clinic riga 诊所 拉脱维亚 官网",desc:"拉脱维亚里加高端私立诊所官网，主营专科门诊、预防体检与诊断检查",official:true,region:"LV",plat:"网页",icon:"capitalclinicriga.lv.ico"},
 {name:"Sophiahemmet",url:"https://sophiahemmet.se",cat:"生活服务",rating:4,price:"免费",kw:"sophiahemmet 医院 瑞典 官网",desc:"瑞典斯德哥尔摩私立医院官网，主营多专科诊疗、手术与康复服务",official:true,region:"SE",plat:"网页",icon:"sophiahemmet.se.ico"},
-{name:"Privathospitalet Mølholm",url:"https://molholm.dk",cat:"生活服务",rating:4,price:"免费",kw:"molholm 私立医院 丹麦 官网",desc:"丹麦私立专科医院官网，主营骨科、眼科等专科手术",official:true,region:"DK",plat:"网页",icon:"molholm.dk.ico"},
+{name:"Privathospitalet Mølholm",url:"https://molholm.dk",cat:"生活服务",rating:4,price:"免费",kw:"molholm 私立医院 丹麦 官网",desc:"丹麦私立专科医院官网，主营骨科、眼科等专科手术",official:true,region:"DK",plat:"网页",icon:"molholm.dk.ico"}
 ];
