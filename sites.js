@@ -11407,5 +11407,17 @@ const SITES = [
 {name:"Crown & Champa Resorts",url:"https://crownandchamparesorts.com",cat:"购物消费",rating:4,price:"免费",kw:"crown champa resorts 马尔代夫 度假村集团",desc:"马尔代夫本土度假村集团，运营多个岛屿度假村的官网。",official:true,region:"MV",plat:"网页",icon:"crownandchamparesorts.com.ico"},
 {name:"Storks",url:"https://storks.com.tr",cat:"购物消费",rating:4,price:"免费",kw:"storks 土耳其 珠宝 钻石",desc:"土耳其本土珠宝零售商，创立于1968年，主营钻石与黄金首饰的官网。",official:true,region:"TR",plat:"网页",icon:"storks.com.tr.ico"},
 {name:"Azza",url:"https://azza.az",cat:"购物消费",rating:4,price:"免费",kw:"azza 阿塞拜疆 糕点 蛋糕",desc:"阿塞拜疆本土知名糕点连锁，主营蛋糕与甜点的官网商城。",official:true,region:"AZ",plat:"网页",icon:"azza.az.ico"},
-{name:"Zalatimo Sweets",url:"https://zalatimosweets.com",cat:"购物消费",rating:4,price:"免费",kw:"zalatimo sweets 约旦 阿拉伯甜点",desc:"约旦本土老牌糕点品牌，创立于1860年，主营阿拉伯甜点与库纳法的官网。",official:true,region:"JO",plat:"网页",icon:"zalatimosweets.com.ico"}
+{name:"Zalatimo Sweets",url:"https://zalatimosweets.com",cat:"购物消费",rating:4,price:"免费",kw:"zalatimo sweets 约旦 阿拉伯甜点",desc:"约旦本土老牌糕点品牌，创立于1860年，主营阿拉伯甜点与库纳法的官网。",official:true,region:"JO",plat:"网页",icon:"zalatimosweets.com.ico"},
+{name:"Mimmis",url:"https://mimmis.no",cat:"购物消费",rating:4,price:"免费",kw:"mimmis 挪威 母婴 婴儿推车",desc:"挪威本土母婴用品连锁，主营婴儿推车、汽座与婴童用品的官网商城。",official:true,region:"NO",plat:"网页",icon:"mimmis.no.ico"},
+{name:"Calçados Bibi",url:"https://bibi.com",cat:"购物消费",rating:4,price:"免费",kw:"calçados bibi 巴西 童鞋",desc:"巴西本土童鞋品牌，创立于1949年，主营婴幼儿与儿童鞋履的官网商城。",official:true,region:"BR",plat:"网页",icon:"bibi.com.ico"},
+{name:"Lensmaster",url:"https://lensmaster.ru",cat:"购物消费",rating:4,price:"免费",kw:"lensmaster линзмастер 俄罗斯 眼镜",desc:"俄罗斯本土眼镜零售连锁，主营配镜、太阳镜与隐形眼镜的官网商城。",official:true,region:"RU",plat:"网页",icon:"lensmaster.ru.ico"},
+{name:"Société des Bains de Mer",url:"https://montecarlosbm.com",cat:"购物消费",rating:4,price:"免费",kw:"société des bains de mer 摩纳哥 蒙特卡洛 酒店集团",desc:"摩纳哥本土度假集团，运营蒙特卡洛多家地标酒店与娱乐场所的官网。",official:true,region:"MC",plat:"网页",icon:"montecarlosbm.com.ico"},
+{name:"The Atlantic Hotel",url:"https://theatlantichotel.com",cat:"购物消费",rating:4,price:"免费",kw:"atlantic hotel 泽西岛 海景酒店",desc:"泽西岛圣布雷拉德湾悬崖上的老牌海景酒店官网。",official:true,region:"JE",plat:"网页",icon:"theatlantichotel.com.ico"},
+{name:"Hotel Union Øye",url:"https://unionoye.no",cat:"购物消费",rating:4,price:"免费",kw:"hotel union øye 挪威 峡湾 历史酒店",desc:"挪威诺朗峡湾畔建于1891年的历史酒店官网。",official:true,region:"NO",plat:"网页",icon:"unionoye.no.ico"},
+{name:"Nimb Hotel",url:"https://nimb.dk",cat:"购物消费",rating:4,price:"免费",kw:"nimb hotel 丹麦 哥本哈根 蒂沃利",desc:"丹麦哥本哈根蒂沃利花园内的百年精品酒店官网。",official:true,region:"DK",plat:"网页",icon:"nimb.dk.ico"},
+{name:"Kakslauttanen Arctic Resort",url:"https://kakslauttanen.fi",cat:"购物消费",rating:4,price:"免费",kw:"kakslauttanen 芬兰 拉普兰 玻璃穹顶 极光",desc:"芬兰拉普兰以玻璃穹顶小屋闻名的极光度假村官网。",official:true,region:"FI",plat:"网页",icon:"kakslauttanen.fi.ico"},
+{name:"Hotel Mimi",url:"https://mimi-hotels.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel mimi 摩尔多瓦 基希讷乌 酒店",desc:"摩尔多瓦基希讷乌市中心的本土商务酒店官网（前身为 Jolly Alon Hotel）。",official:true,region:"MD",plat:"网页",icon:"mimi-hotels.com.ico"},
+{name:"Kronwell Brașov Hotel",url:"https://kronwell.com",cat:"购物消费",rating:4,price:"免费",kw:"kronwell brașov 罗马尼亚 布拉索夫 酒店",desc:"罗马尼亚布拉索夫的本土商务休闲酒店官网。",official:true,region:"RO",plat:"网页",icon:"kronwell.com.ico"},
+{name:"Vitaminas",url:"https://vitaminas.pt",cat:"购物消费",rating:4,price:"免费",kw:"vitaminas 葡萄牙 沙拉 简餐",desc:"葡萄牙本土简餐连锁，主营现做沙拉、三明治与鲜榨果汁的官网。",official:true,region:"PT",plat:"网页",icon:"vitaminas.pt.ico"},
+{name:"Robert's Coffee",url:"https://robertscoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"robert's coffee 芬兰 咖啡连锁",desc:"芬兰本土老牌咖啡连锁，主营咖啡与北欧风简餐的官网。",official:true,region:"FI",plat:"网页",icon:"robertscoffee.com.ico"}
 ];
