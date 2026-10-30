@@ -11532,7 +11532,6 @@ const SITES = [
 {name:"Medita Clinic",url:"https://medita.ee",cat:"生活服务",rating:4,price:"免费",kw:"medita clinic 爱沙尼亚 塔尔图 诊所",desc:"爱沙尼亚塔尔图私立诊所的官网，提供专科门诊、日间手术与体检服务。",official:true,region:"EE",plat:"网页",icon:"medita.ee.ico"},
 {name:"Opšta bolnica Atlas",url:"https://atlasklinika.com",cat:"生活服务",rating:4,price:"免费",kw:"atlas klinika 塞尔维亚 贝尔格莱德 私立医院",desc:"塞尔维亚贝尔格莱德私立综合医院的官网，提供外科与专科诊疗服务。",official:true,region:"RS",plat:"网页",icon:"atlasklinika.com.ico"},
 {name:"Optic Gallery",url:"https://opticgallery.az",cat:"购物消费",rating:4,price:"免费",kw:"optic gallery 阿塞拜疆 眼镜 连锁",desc:"阿塞拜疆本土眼镜零售连锁的官网，主营镜框、太阳镜与验光服务。",official:true,region:"AZ",plat:"网页",icon:"opticgallery.az.ico"},
-{name:"Pollo Feliz",url:"https://pollofeliz.mx",cat:"生活服务",rating:4,price:"免费",kw:"pollo feliz 墨西哥 烤鸡 快餐",desc:"墨西哥本土烤鸡快餐连锁的官网，主营炭烤鸡与墨西哥风味套餐。",official:true,region:"MX",plat:"网页",icon:"pollofeliz.mx.ico"},
 {name:"Beniya Mukayu",url:"https://mukayu.com",cat:"购物消费",rating:4,price:"免费",kw:"beniya mukayu 日本 山代温泉 旅馆",desc:"日本石川县山代温泉高端日式旅馆的官网，以庭院与怀石料理著称。",official:true,region:"JP",plat:"网页",icon:"mukayu.com.ico"},
 {name:"Ellerman House",url:"https://ellerman.co.za",cat:"购物消费",rating:4,price:"免费",kw:"ellerman house 南非 开普敦 精品酒店",desc:"南非开普敦班特里湾悬崖上的精品艺术酒店官网。",official:true,region:"ZA",plat:"网页",icon:"ellerman.co.za.ico"},
 {name:"Finca Cortesin",url:"https://fincacortesin.com",cat:"购物消费",rating:4,price:"免费",kw:"finca cortesin 西班牙 高尔夫 水疗 度假酒店",desc:"西班牙安达卢西亚高尔夫与水疗精品度假酒店的官网。",official:true,region:"ES",plat:"网页",icon:"fincacortesin.com.ico"},
