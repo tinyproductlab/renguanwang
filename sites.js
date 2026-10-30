@@ -11419,5 +11419,10 @@ const SITES = [
 {name:"Hotel Mimi",url:"https://mimi-hotels.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel mimi 摩尔多瓦 基希讷乌 酒店",desc:"摩尔多瓦基希讷乌市中心的本土商务酒店官网（前身为 Jolly Alon Hotel）。",official:true,region:"MD",plat:"网页",icon:"mimi-hotels.com.ico"},
 {name:"Kronwell Brașov Hotel",url:"https://kronwell.com",cat:"购物消费",rating:4,price:"免费",kw:"kronwell brașov 罗马尼亚 布拉索夫 酒店",desc:"罗马尼亚布拉索夫的本土商务休闲酒店官网。",official:true,region:"RO",plat:"网页",icon:"kronwell.com.ico"},
 {name:"Vitaminas",url:"https://vitaminas.pt",cat:"购物消费",rating:4,price:"免费",kw:"vitaminas 葡萄牙 沙拉 简餐",desc:"葡萄牙本土简餐连锁，主营现做沙拉、三明治与鲜榨果汁的官网。",official:true,region:"PT",plat:"网页",icon:"vitaminas.pt.ico"},
-{name:"Robert's Coffee",url:"https://robertscoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"robert's coffee 芬兰 咖啡连锁",desc:"芬兰本土老牌咖啡连锁，主营咖啡与北欧风简餐的官网。",official:true,region:"FI",plat:"网页",icon:"robertscoffee.com.ico"}
+{name:"Robert's Coffee",url:"https://robertscoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"robert's coffee 芬兰 咖啡连锁",desc:"芬兰本土老牌咖啡连锁，主营咖啡与北欧风简餐的官网。",official:true,region:"FI",plat:"网页",icon:"robertscoffee.com.ico"},
+{name:"Bijou Brigitte",url:"https://bijou-brigitte.com",cat:"购物消费",rating:4,price:"免费",kw:"bijou brigitte 德国 时尚首饰 配饰",desc:"德国本土时尚珠宝零售连锁，主营流行首饰与配饰的官网商城。",official:true,region:"DE",plat:"网页",icon:"bijou-brigitte.com.ico"},
+{name:"Clogau",url:"https://clogau.co.uk",cat:"购物消费",rating:4,price:"免费",kw:"clogau 英国 威尔士黄金 珠宝",desc:"英国本土威尔士黄金珠宝品牌，主营黄金首饰与婚戒的官网商城。",official:true,region:"GB",plat:"网页",icon:"clogau.co.uk.ico"},
+{name:"Nairobi Women's Hospital",url:"https://nwh.co.ke",cat:"生活服务",rating:4,price:"免费",kw:"nairobi women's hospital 肯尼亚 妇女医院",desc:"肯尼亚本土妇女专科医院连锁，兼营综合诊疗服务的官网。",official:true,region:"KE",plat:"网页",icon:"nwh.co.ke.ico"},
+{name:"Forest Park Hospital",url:"https://forestparkhospital.co.zm",cat:"生活服务",rating:4,price:"免费",kw:"forest park hospital 赞比亚 卢萨卡 私立医院",desc:"赞比亚卢萨卡本土私立医院，主营内科与外科诊疗服务的官网。",official:true,region:"ZM",plat:"网页",icon:"forestparkhospital.co.zm.ico"},
+{name:"Royal Angkor International Hospital",url:"https://royalangkorhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"royal angkor 柬埔寨 暹粒 国际医院",desc:"柬埔寨暹粒私立医院，服务游客与本地患者的综合诊疗官网。",official:true,region:"KH",plat:"网页",icon:"royalangkorhospital.com.ico"}
 ];
