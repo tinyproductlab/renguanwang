@@ -11272,5 +11272,13 @@ const SITES = [
 {name:"The Regency Kuwait",url:"https://www.regency.com.kw",cat:"购物消费",rating:4,price:"免费",kw:"regency kuwait 酒店 科威特 官网",desc:"科威特城海滨高端酒店官网，以宫殿式建筑与私人海滩著称",official:true,region:"KW",plat:"网页",icon:"www.regency.com.kw.ico"},
 {name:"La Birra Bar",url:"https://www.labirrabar.com",cat:"生活服务",rating:4,price:"免费",kw:"la birra bar 汉堡 阿根廷 官网",desc:"阿根廷本土汉堡连锁官网，主营手工牛肉汉堡",official:true,region:"AR",plat:"网页",icon:"www.labirrabar.com.ico"},
 {name:"El Mesón Sandwiches",url:"https://www.elmesonsandwiches.com",cat:"生活服务",rating:4,price:"免费",kw:"el meson sandwiches 三明治 波多黎各 官网",desc:"波多黎各本土三明治连锁官网，主营压制三明治与咖啡",official:true,region:"PR",plat:"网页",icon:"www.elmesonsandwiches.com.ico"},
-{name:"Pizza Fan",url:"https://www.pizzafan.gr",cat:"生活服务",rating:4,price:"免费",kw:"pizza fan 披萨 希腊 官网",desc:"希腊本土披萨连锁官网，主营披萨与意面外送",official:true,region:"GR",plat:"网页",icon:"www.pizzafan.gr.ico"}
+{name:"Pizza Fan",url:"https://www.pizzafan.gr",cat:"生活服务",rating:4,price:"免费",kw:"pizza fan 披萨 希腊 官网",desc:"希腊本土披萨连锁官网，主营披萨与意面外送",official:true,region:"GR",plat:"网页",icon:"www.pizzafan.gr.ico"},
+{name:"Malalan",url:"https://malalan.eu",cat:"购物消费",rating:4,price:"免费",kw:"malalan 珠宝 斯洛文尼亚 官网",desc:"斯洛文尼亚卢布尔雅那珠宝钟表零售商官网，主营高级腕表、婚戒与金饰",official:true,region:"SI",plat:"网页",icon:"malalan.eu.ico"},
+{name:"Little Jewellers",url:"https://littlejewellers.co.ke",cat:"购物消费",rating:4,price:"免费",kw:"little jewellers 珠宝 肯尼亚 官网",desc:"肯尼亚内罗毕本土珠宝商官网，主营婚戒、黄金首饰与定制珠宝",official:true,region:"KE",plat:"网页",icon:"littlejewellers.co.ke.ico"},
+{name:"Morad Yousuf Behbehani",url:"https://moradbehbehani.com",cat:"购物消费",rating:4,price:"免费",kw:"behbehani 钟表珠宝 科威特 官网",desc:"科威特老牌钟表珠宝零售商官网，主营奢侈腕表、珠宝与配饰",official:true,region:"KW",plat:"网页",icon:"moradbehbehani.com.ico"},
+{name:"Primaya Hospital",url:"https://primayahospital.com",cat:"生活服务",rating:4,price:"免费",kw:"primaya hospital 医院 印度尼西亚 官网",desc:"印度尼西亚私立综合医院连锁官网，主营多专科诊疗、手术与住院服务",official:true,region:"ID",plat:"网页",icon:"primayahospital.com.ico"},
+{name:"Polyclinique Internationale Sainte Anne-Marie",url:"https://www.groupepisam.com",cat:"生活服务",rating:4,price:"免费",kw:"pisam 诊所 科特迪瓦 官网",desc:"科特迪瓦阿比让大型私立综合诊所官网（PISAM），主营多专科诊疗、妇产与住院服务",official:true,region:"CI",plat:"网页",icon:"www.groupepisam.com.ico"},
+{name:"Nemocnica Bory",url:"https://nemocnica-bory.sk",cat:"生活服务",rating:4,price:"免费",kw:"nemocnica bory 医院 斯洛伐克 官网",desc:"斯洛伐克布拉迪斯拉发现代化私立综合医院官网，主营多专科诊疗、妇产与手术",official:true,region:"SK",plat:"网页",icon:"nemocnica-bory.sk.ico"},
+{name:"Hers",url:"https://hersegypt.com",cat:"生活服务",rating:4,price:"免费",kw:"hers 健身 埃及 官网",desc:"埃及女性专属健身连锁官网，主营团课、私教与营养管理",official:true,region:"EG",plat:"网页",icon:"hersegypt.com.ico"},
+{name:"Engenharia do Corpo",url:"https://www.engenhariadocorpo.com.br",cat:"生活服务",rating:4,price:"免费",kw:"engenharia do corpo 健身 巴西 官网",desc:"巴西本土健身连锁官网，主营器械训练与团体课程",official:true,region:"BR",plat:"网页",icon:"www.engenhariadocorpo.com.br.ico"}
 ];
