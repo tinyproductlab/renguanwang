@@ -10474,5 +10474,17 @@ const SITES = [
 {name:"Hospital Metropolitano",url:"https://hospitalmetropolitano.org",cat:"医疗",rating:4,price:"免费",kw:"Hospital Metropolitano 厄瓜多尔医院 基多医院",desc:"厄瓜多尔私立综合医院官网",official:true,region:"EC",plat:"网页",icon:"hospitalmetropolitano.org.ico"},
 {name:"Lenmed",url:"https://lenmed.co.za",cat:"医疗",rating:4,price:"免费",kw:"Lenmed 南非医院集团 私立医院",desc:"南非私立医院集团官网",official:true,region:"ZA",plat:"网页",icon:"lenmed.co.za.ico"},
 {name:"Sanatorio Migone",url:"https://sanatoriomigone.com.py",cat:"医疗",rating:4,price:"免费",kw:"Sanatorio Migone 巴拉圭医院 亚松森医院",desc:"巴拉圭私立综合医院官网",official:true,region:"PY",plat:"网页",icon:"sanatoriomigone.com.py.ico"},
-{name:"The Karen Hospital",url:"https://karenhospital.org",cat:"医疗",rating:4,price:"免费",kw:"The Karen Hospital 肯尼亚医院 内罗毕医院",desc:"肯尼亚私立综合医院官网",official:true,region:"KE",plat:"网页",icon:"karenhospital.org.ico"}
+{name:"The Karen Hospital",url:"https://karenhospital.org",cat:"医疗",rating:4,price:"免费",kw:"The Karen Hospital 肯尼亚医院 内罗毕医院",desc:"肯尼亚私立综合医院官网",official:true,region:"KE",plat:"网页",icon:"karenhospital.org.ico"},
+{name:"Coral Sea Resort & Casino",url:"https://coralsearesort.com",cat:"购物消费",rating:4,price:"免费",kw:"Coral Sea Resort 所罗门群岛度假酒店 霍尼亚拉酒店",desc:"所罗门群岛海滨度假酒店官网",official:true,region:"SB",plat:"网页",icon:"coralsearesort.com.ico"},
+{name:"Edgewater Resort & Spa",url:"https://edgewater.co.ck",cat:"购物消费",rating:4,price:"免费",kw:"Edgewater Resort 库克群岛度假村 拉罗汤加度假村",desc:"库克群岛本土度假村官网",official:true,region:"CK",plat:"网页",icon:"edgewater.co.ck.ico"},
+{name:"Lamana Hotel",url:"https://lamanahotel.com.pg",cat:"购物消费",rating:4,price:"免费",kw:"Lamana Hotel 巴布亚新几内亚酒店 莫尔兹比港酒店",desc:"巴布亚新几内亚本土精品酒店官网",official:true,region:"PG",plat:"网页",icon:"lamanahotel.com.pg.ico"},
+{name:"Little Italy Hotel",url:"https://littleitalyhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"Little Italy Hotel 汤加酒店 努库阿洛法酒店",desc:"汤加本土精品酒店官网",official:true,region:"TO",plat:"网页",icon:"littleitalyhotel.com.ico"},
+{name:"Marshall Islands Resort",url:"https://marshallislandsresort.com",cat:"购物消费",rating:4,price:"免费",kw:"Marshall Islands Resort 马绍尔群岛酒店 马朱罗酒店",desc:"马绍尔群岛海滨度假酒店官网",official:true,region:"MH",plat:"网页",icon:"marshallislandsresort.com.ico"},
+{name:"Taumeasina Island Resort",url:"https://taumeasina.com",cat:"购物消费",rating:4,price:"免费",kw:"Taumeasina 萨摩亚度假村 阿皮亚度假村",desc:"萨摩亚海岛度假村官网",official:true,region:"WS",plat:"网页",icon:"taumeasina.com.ico"},
+{name:"Hotel Minsk",url:"https://hotelminsk.by",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Minsk 白俄罗斯酒店 明斯克酒店",desc:"白俄罗斯老牌地标酒店官网",official:true,region:"BY",plat:"网页",icon:"hotelminsk.by.ico"},
+{name:"Aktu Taktu",url:"https://aktutaktu.is",cat:"生活服务",rating:4,price:"免费",kw:"Aktu Taktu 快餐 冰岛快餐连锁",desc:"冰岛本土快餐连锁官网，分类快餐",official:true,region:"IS",plat:"网页",icon:"aktutaktu.is.ico"},
+{name:"Holy Cow!",url:"https://holycow.ch",cat:"生活服务",rating:4,price:"免费",kw:"Holy Cow 汉堡 瑞士汉堡连锁",desc:"瑞士本土汉堡连锁官网，分类快餐",official:true,region:"CH",plat:"网页",icon:"holycow.ch.ico"},
+{name:"LIDO",url:"https://lido.lv",cat:"生活服务",rating:4,price:"免费",kw:"LIDO 拉脱维亚餐厅 自助餐厅连锁",desc:"拉脱维亚自助餐厅连锁官网，分类快餐",official:true,region:"LV",plat:"网页",icon:"lido.lv.ico"},
+{name:"Pizza Tempo",url:"https://pizzatempo.by",cat:"生活服务",rating:4,price:"免费",kw:"Pizza Tempo 披萨 白俄罗斯披萨连锁",desc:"白俄罗斯披萨连锁官网，分类快餐",official:true,region:"BY",plat:"网页",icon:"pizzatempo.by.ico"},
+{name:"Swing Kitchen",url:"https://swingkitchen.com",cat:"生活服务",rating:4,price:"免费",kw:"Swing Kitchen 素食汉堡 奥地利汉堡连锁",desc:"奥地利素食汉堡连锁官网，分类快餐",official:true,region:"AT",plat:"网页",icon:"swingkitchen.com.ico"}
 ];
