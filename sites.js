@@ -11801,5 +11801,11 @@ const SITES = [
 {name:"Hotel Lemongarden",url:"https://lemongardenhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"lemongarden brac croatia",desc:"克罗地亚布拉奇岛苏提万渔村的海滨成人精品酒店",official:true,region:"HR",plat:"网页",icon:"lemongardenhotel.com.ico"},
 {name:"Hotel Can Bordoy",url:"https://canbordoy.com",cat:"购物消费",rating:4,price:"免费",kw:"can bordoy palma mallorca",desc:"西班牙帕尔马老城庄园花园精品酒店，拥有老城最大的私人花园",official:true,region:"ES",plat:"网页",icon:"canbordoy.com.ico"},
 {name:"The Drisco",url:"https://thedrisco.com",cat:"购物消费",rating:4,price:"免费",kw:"the drisco tel aviv",desc:"以色列特拉维夫美洲殖民区历史建筑改建的精品酒店",official:true,region:"IL",plat:"网页",icon:"thedrisco.com.ico"},
-{name:"Chicken Station",url:"https://thechickenstation.com",cat:"生活服务",rating:4,price:"免费",kw:"chicken station nepal",desc:"尼泊尔本土炸鸡快餐连锁，主营炸鸡、汉堡与小吃拼盘",official:true,region:"NP",plat:"网页",icon:"thechickenstation.com.ico"}
+{name:"Chicken Station",url:"https://thechickenstation.com",cat:"生活服务",rating:4,price:"免费",kw:"chicken station nepal",desc:"尼泊尔本土炸鸡快餐连锁，主营炸鸡、汉堡与小吃拼盘",official:true,region:"NP",plat:"网页",icon:"thechickenstation.com.ico"},
+{name:"Jack's of Fiji",url:"https://jacksoffiji.com",cat:"购物消费",rating:4,price:"免费",kw:"jack's of fiji jewellery watches",desc:"斐济本土零售集团，旗下设有珠宝与名表专柜，主营黄金首饰、钻石与瑞士腕表",official:true,region:"FJ",plat:"网页",icon:"jacksoffiji.com.ico"},
+{name:"Mlinotest",url:"https://mlinotest.si",cat:"购物消费",rating:4,price:"免费",kw:"mlinotest slovenia bakery pasta",desc:"斯洛文尼亚本土烘焙企业，主营面包、意面与传统糕点",official:true,region:"SI",plat:"网页",icon:"mlinotest.si.ico"},
+{name:"Kury Jewelers",url:"https://joyeriakury.com",cat:"购物消费",rating:4,price:"免费",kw:"kury jewelers puerto rico",desc:"波多黎各圣胡安家族珠宝商，主营钻石首饰与瑞士名表",official:true,region:"PR",plat:"网页",icon:"joyeriakury.com.ico"},
+{name:"Belize Fitness",url:"https://belizefitness.com",cat:"生活服务",rating:4,price:"免费",kw:"belize fitness gym",desc:"伯利兹本土健身连锁，主营器械训练、动感单车与团体健身课程",official:true,region:"BZ",plat:"网页",icon:"belizefitness.com.ico"},
+{name:"Innov8 Gym",url:"https://innov8.co.zw",cat:"生活服务",rating:4,price:"免费",kw:"innov8 gym harare zimbabwe",desc:"津巴布韦哈拉雷本土健身俱乐部，主营器械训练、功能训练与团课",official:true,region:"ZW",plat:"网页",icon:"innov8.co.zw.ico"},
+{name:"Kabira Country Club Gym",url:"https://kabiracountryclub.com",cat:"生活服务",rating:4,price:"免费",kw:"kabira country club kampala gym",desc:"乌干达坎帕拉本土综合健身俱乐部，主营健身房、泳池与球类运动",official:true,region:"UG",plat:"网页",icon:"kabiracountryclub.com.ico"}
 ];
