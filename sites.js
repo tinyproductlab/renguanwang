@@ -11404,5 +11404,8 @@ const SITES = [
 {name:"Gondwana Hotel",url:"https://gondwanahotel.nc",cat:"购物消费",rating:4,price:"免费",kw:"gondwana hotel 新喀里多尼亚 努美阿 酒店",desc:"新喀里多尼亚努美阿的本土酒店，法式殖民风格建筑的官网。",official:true,region:"NC",plat:"网页",icon:"gondwanahotel.nc.ico"},
 {name:"Hotel Kia Ora Resort & Spa",url:"https://hotelkiaora.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel kia ora 法属波利尼西亚 伦吉拉 度假村",desc:"法属波利尼西亚伦吉拉环礁的海滩度假村官网。",official:true,region:"PF",plat:"网页",icon:"hotelkiaora.com.ico"},
 {name:"Saletoga Sands Resort & Spa",url:"https://saletogasands.com",cat:"购物消费",rating:4,price:"免费",kw:"saletoga sands 萨摩亚 度假村",desc:"萨摩亚乌波卢岛南岸的本土海滩度假村官网。",official:true,region:"WS",plat:"网页",icon:"saletogasands.com.ico"},
-{name:"Crown & Champa Resorts",url:"https://crownandchamparesorts.com",cat:"购物消费",rating:4,price:"免费",kw:"crown champa resorts 马尔代夫 度假村集团",desc:"马尔代夫本土度假村集团，运营多个岛屿度假村的官网。",official:true,region:"MV",plat:"网页",icon:"crownandchamparesorts.com.ico"}
+{name:"Crown & Champa Resorts",url:"https://crownandchamparesorts.com",cat:"购物消费",rating:4,price:"免费",kw:"crown champa resorts 马尔代夫 度假村集团",desc:"马尔代夫本土度假村集团，运营多个岛屿度假村的官网。",official:true,region:"MV",plat:"网页",icon:"crownandchamparesorts.com.ico"},
+{name:"Storks",url:"https://storks.com.tr",cat:"购物消费",rating:4,price:"免费",kw:"storks 土耳其 珠宝 钻石",desc:"土耳其本土珠宝零售商，创立于1968年，主营钻石与黄金首饰的官网。",official:true,region:"TR",plat:"网页",icon:"storks.com.tr.ico"},
+{name:"Azza",url:"https://azza.az",cat:"购物消费",rating:4,price:"免费",kw:"azza 阿塞拜疆 糕点 蛋糕",desc:"阿塞拜疆本土知名糕点连锁，主营蛋糕与甜点的官网商城。",official:true,region:"AZ",plat:"网页",icon:"azza.az.ico"},
+{name:"Zalatimo Sweets",url:"https://zalatimosweets.com",cat:"购物消费",rating:4,price:"免费",kw:"zalatimo sweets 约旦 阿拉伯甜点",desc:"约旦本土老牌糕点品牌，创立于1860年，主营阿拉伯甜点与库纳法的官网。",official:true,region:"JO",plat:"网页",icon:"zalatimosweets.com.ico"}
 ];
