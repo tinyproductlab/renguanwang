@@ -11500,5 +11500,7 @@ const SITES = [
 {name:"Matangi Private Island Resort",url:"https://matangiisland.com",cat:"购物消费",rating:4,price:"免费",kw:"matangi 斐济 私人岛 度假村",desc:"斐济北部马坦吉私人岛度假村官网。",official:true,region:"FJ",plat:"网页",icon:"matangiisland.com.ico"},
 {name:"Pizza Coloseum",url:"https://pizzacoloseum.cz",cat:"生活服务",rating:4,price:"免费",kw:"pizza coloseum 捷克 披萨 连锁",desc:"捷克本土披萨连锁，主营现烤披萨、意面与沙拉的官网。",official:true,region:"CZ",plat:"网页",icon:"pizzacoloseum.cz.ico"},
 {name:"Boom Burgers",url:"https://boomburgers.bg",cat:"生活服务",rating:4,price:"免费",kw:"boom burgers 保加利亚 汉堡 连锁",desc:"保加利亚本土汉堡连锁，主营手工牛肉汉堡与精酿啤酒的官网。",official:true,region:"BG",plat:"网页",icon:"boomburgers.bg.ico"},
-{name:"Bagelstein",url:"https://bagelstein.com",cat:"生活服务",rating:4,price:"免费",kw:"bagelstein 法国 贝果 连锁",desc:"法国本土贝果连锁，主营贝果三明治、沙拉与咖啡的官网商城。",official:true,region:"FR",plat:"网页",icon:"bagelstein.com.ico"}
+{name:"Bagelstein",url:"https://bagelstein.com",cat:"生活服务",rating:4,price:"免费",kw:"bagelstein 法国 贝果 连锁",desc:"法国本土贝果连锁，主营贝果三明治、沙拉与咖啡的官网商城。",official:true,region:"FR",plat:"网页",icon:"bagelstein.com.ico"},
+{name:"Carré Jewellery",url:"https://carre.dk",cat:"购物消费",rating:4,price:"免费",kw:"carré jewellery 丹麦 哥本哈根 珠宝",desc:"丹麦哥本哈根本土珠宝品牌，主营手工金饰与彩色宝石首饰的官网商城。",official:true,region:"DK",plat:"网页",icon:"carre.dk.ico"},
+{name:"Legacy Clinics",url:"https://legacyclinics.rw",cat:"生活服务",rating:4,price:"免费",kw:"legacy clinics 卢旺达 基加利 私立诊所",desc:"卢旺达基加利私立诊所集团的官网，提供综合门诊、影像与检验服务。",official:true,region:"RW",plat:"网页",icon:"legacyclinics.rw.ico"}
 ];
