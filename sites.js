@@ -10463,7 +10463,6 @@ const SITES = [
 {name:"Kirk Freeport",url:"https://kirkfreeport.com",cat:"购物消费",rating:4,price:"免费",kw:"Kirk Freeport 珠宝 开曼免税珠宝",desc:"开曼群岛免税珠宝零售商官网",official:true,region:"KY",plat:"网页",icon:"kirkfreeport.com.ico"},
 {name:"Walker Christopher",url:"https://walkerchristopher.com",cat:"购物消费",rating:4,price:"免费",kw:"Walker Christopher 珠宝 百慕大金匠",desc:"百慕大家族金匠珠宝店官网",official:true,region:"BM",plat:"网页",icon:"walkerchristopher.com.ico"},
 {name:"Green Cabin",url:"https://greencabin.lk",cat:"购物消费",rating:4,price:"免费",kw:"Green Cabin 面包房 斯里兰卡面包房",desc:"斯里兰卡老牌面包房官网，分类面包房",official:true,region:"LK",plat:"网页",icon:"greencabin.lk.ico"},
-{name:"National Baking Company",url:"https://nationalbakingcompany.com",cat:"购物消费",rating:4,price:"免费",kw:"National Baking Company 烘焙 牙买加国民烘焙",desc:"牙买加国民烘焙品牌官网，分类面包房",official:true,region:"JM",plat:"网页",icon:"nationalbakingcompany.com.ico"},
 {name:"Sinouk Coffee",url:"https://sinouk.com",cat:"购物消费",rating:4,price:"免费",kw:"Sinouk Coffee 咖啡 老挝咖啡连锁",desc:"老挝咖啡烘焙连锁官网，分类面包房",official:true,region:"LA",plat:"网页",icon:"sinouk.com.ico"},
 {name:"The Shop",url:"https://theshop-cambodia.com",cat:"购物消费",rating:4,price:"免费",kw:"The Shop 面包房 柬埔寨面包连锁",desc:"柬埔寨面包烘焙连锁官网，分类面包房",official:true,region:"KH",plat:"网页",icon:"theshop-cambodia.com.ico"},
 {name:"Buka Bakery",url:"https://bukabakery.com",cat:"购物消费",rating:4,price:"免费",kw:"Buka Bakery 面包房 科索沃面包连锁",desc:"科索沃面包房连锁官网，分类面包房",official:true,region:"XK",plat:"网页",icon:"bukabakery.com.ico"},
