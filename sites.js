@@ -11835,5 +11835,12 @@ const SITES = [
 {name:"Miavana",url:"https://miavana.com",cat:"购物消费",rating:4,price:"免费",kw:"miavana madagascar private island",desc:"马达加斯加诺西岛海域独立私人岛屿度假村，主打野奢与海洋保护",official:true,region:"MG",plat:"网页",icon:"miavana.com.ico"},
 {name:"Moulin Sur Mer",url:"https://moulinsurmer.com",cat:"购物消费",rating:4,price:"免费",kw:"moulin sur mer haiti resort",desc:"海地科特德阿尔卡丹斯海岸独立海滨度假村，殖民庄园改建",official:true,region:"HT",plat:"网页",icon:"moulinsurmer.com.ico"},
 {name:"Casa Bonita Tropical Lodge",url:"https://casabonitahotel.com",cat:"购物消费",rating:4,price:"免费",kw:"casa bonita tropical lodge barahona",desc:"多米尼加巴拉奥纳山区独立生态小屋，可俯瞰加勒比海",official:true,region:"DO",plat:"网页",icon:"casabonitahotel.com.ico"},
-{name:"Capella Ubud",url:"https://capellahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"capella ubud bali hotel",desc:"印度尼西亚巴厘岛乌布河谷独立帐篷度假村，复古探险家风格",official:true,region:"ID",plat:"网页",icon:"capellahotels.com.ico"}
+{name:"Capella Ubud",url:"https://capellahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"capella ubud bali hotel",desc:"印度尼西亚巴厘岛乌布河谷独立帐篷度假村，复古探险家风格",official:true,region:"ID",plat:"网页",icon:"capellahotels.com.ico"},
+{name:"Careems",url:"https://careems.com",cat:"购物消费",rating:4,price:"免费",kw:"careems sri lanka jewellers",desc:"斯里兰卡百年珠宝商，主营黄金、钻石与蓝宝石首饰",official:true,region:"LK",plat:"网页",icon:"careems.com.ico"},
+{name:"KPJ Penang Specialist Hospital",url:"https://kpjpenang.com",cat:"生活服务",rating:4,price:"免费",kw:"kpj penang specialist hospital",desc:"马来西亚槟城私立专科医院，KPJ 医疗集团旗下院区",official:true,region:"MY",plat:"网页",icon:"kpjpenang.com.ico"},
+{name:"Liaquat National Hospital",url:"https://lnh.edu.pk",cat:"生活服务",rating:4,price:"免费",kw:"liaquat national hospital karachi",desc:"巴基斯坦卡拉奇私立教学医院，大型综合医疗中心",official:true,region:"PK",plat:"网页",icon:"lnh.edu.pk.ico"},
+{name:"Misr International Hospital",url:"https://misrhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"misr international hospital cairo",desc:"埃及开罗私立综合医院，多专科诊疗机构",official:true,region:"EG",plat:"网页",icon:"misrhospital.com.ico"},
+{name:"Hospital San Javier",url:"https://sanjavier.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"hospital san javier guadalajara",desc:"墨西哥瓜达拉哈拉私立综合医院，区域医疗中心",official:true,region:"MX",plat:"网页",icon:"sanjavier.com.mx.ico"},
+{name:"Sanatorio Güemes",url:"https://sanatorioguemes.com",cat:"生活服务",rating:4,price:"免费",kw:"sanatorio guemes buenos aires",desc:"阿根廷布宜诺斯艾利斯私立综合医院，大型区域疗养院",official:true,region:"AR",plat:"网页",icon:"sanatorioguemes.com.ico"},
+{name:"Body Channel",url:"https://bodychannel.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"body channel fitness korea",desc:"韩国本土连锁健身房品牌，主营器械训练与团体课程",official:true,region:"KR",plat:"网页",icon:"bodychannel.co.kr.ico"}
 ];
