@@ -11220,10 +11220,8 @@ const SITES = [
 {name:"El Tizoncito",url:"https://eltizoncito.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"el tizoncito 塔可 墨西哥 官网",desc:"墨西哥塔可连锁官网，主营牧羊人塔可等墨式小吃",official:true,region:"MX",plat:"网页",icon:"eltizoncito.com.mx.ico"},
 {name:"Abaran",url:"https://abaran.com",cat:"购物消费",rating:4,price:"免费",kw:"abaran 珠宝 印度 官网",desc:"印度班加罗尔老牌珠宝商官网，主营黄金、钻石与铂金首饰并运营官方商城",official:true,region:"IN",plat:"网页",icon:"abaran.com.ico"},
 {name:"Victor Azzopardi",url:"https://victorazzopardi.com",cat:"购物消费",rating:4,price:"免费",kw:"victor azzopardi 珠宝 马耳他 官网",desc:"马耳他珠宝商官网，主营黄金钻石首饰、婚戒与礼品",official:true,region:"MT",plat:"网页",icon:"victorazzopardi.com.ico"},
-{name:"Oro China Jewelry",url:"https://www.orochinajewelry.com",cat:"购物消费",rating:4,price:"免费",kw:"oro china 珠宝 菲律宾 官网",desc:"菲律宾宿务珠宝连锁官网，主营黄金、钻石首饰与婚戒",official:true,region:"PH",plat:"网页",icon:"www.orochinajewelry.com.ico"},
 {name:"Medikom",url:"https://medikom.ua",cat:"生活服务",rating:4,price:"免费",kw:"medikom 诊所 乌克兰 官网",desc:"乌克兰基辅私立诊所网络官网，主营全科与专科门诊、儿科和急救服务",official:true,region:"UA",plat:"网页",icon:"medikom.ua.ico"},
 {name:"Capital Clinic Riga",url:"https://capitalclinicriga.lv",cat:"生活服务",rating:4,price:"免费",kw:"capital clinic riga 诊所 拉脱维亚 官网",desc:"拉脱维亚里加高端私立诊所官网，主营专科门诊、预防体检与诊断检查",official:true,region:"LV",plat:"网页",icon:"capitalclinicriga.lv.ico"},
 {name:"Sophiahemmet",url:"https://sophiahemmet.se",cat:"生活服务",rating:4,price:"免费",kw:"sophiahemmet 医院 瑞典 官网",desc:"瑞典斯德哥尔摩私立医院官网，主营多专科诊疗、手术与康复服务",official:true,region:"SE",plat:"网页",icon:"sophiahemmet.se.ico"},
 {name:"Privathospitalet Mølholm",url:"https://molholm.dk",cat:"生活服务",rating:4,price:"免费",kw:"molholm 私立医院 丹麦 官网",desc:"丹麦私立专科医院官网，主营骨科、眼科等专科手术",official:true,region:"DK",plat:"网页",icon:"molholm.dk.ico"},
-{name:"Leejam Fitness Time",url:"https://leejam.com.sa",cat:"生活服务",rating:4,price:"免费",kw:"leejam fitness time 健身 沙特 官网",desc:"沙特阿拉伯健身连锁官网（Leejam 旗下 Fitness Time），主营器械训练与泳池",official:true,region:"SA",plat:"网页",icon:"leejam.com.sa.ico"}
 ];
