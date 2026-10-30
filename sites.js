@@ -11379,5 +11379,11 @@ const SITES = [
 {name:"Raw Gyms",url:"https://rawgyms.com",cat:"生活服务",rating:4,price:"免费",kw:"raw gyms 都柏林 健身",desc:"爱尔兰都柏林本土健身房，在 Sandyford 和 Donnybrook 设有门店的官网。",official:true,region:"IE",plat:"网页",icon:"rawgyms.com.ico"},
 {name:"Tvørmegi",url:"https://tvormegi.fo",cat:"生活服务",rating:4,price:"免费",kw:"tvormegi 法罗群岛 crossfit",desc:"法罗群岛托尔斯港的 CrossFit 与功能健身训练馆官网。",official:true,region:"FO",plat:"网页",icon:"tvormegi.fo.ico"},
 {name:"Eugene Baby",url:"https://eugenebaby.com",cat:"购物消费",rating:4,price:"免费",kw:"eugene baby 荷花 母婴 香港",desc:"香港本土母婴用品连锁，主营婴儿食品、用品与孕妇产品的官网。",official:true,region:"HK",plat:"网页",icon:"eugenebaby.com.ico"},
-{name:"Te Moana Tahiti Resort",url:"https://temoanatahitiresort.pf",cat:"购物消费",rating:4,price:"免费",kw:"te moana tahiti resort 大溪地 酒店",desc:"法属波利尼西亚大溪地海滨度假酒店（原 Manava Suite Resort Tahiti）的官网。",official:true,region:"PF",plat:"网页",icon:"temoanatahitiresort.pf.ico"}
+{name:"Te Moana Tahiti Resort",url:"https://temoanatahitiresort.pf",cat:"购物消费",rating:4,price:"免费",kw:"te moana tahiti resort 大溪地 酒店",desc:"法属波利尼西亚大溪地海滨度假酒店（原 Manava Suite Resort Tahiti）的官网。",official:true,region:"PF",plat:"网页",icon:"temoanatahitiresort.pf.ico"},
+{name:"Mosso",url:"https://www.mosso.cl",cat:"购物消费",rating:4,price:"免费",kw:"mosso 智利 珠宝 腕表",desc:"智利本土奢华珠宝腕表零售商，主营钻石首饰与瑞士腕表的官网。",official:true,region:"CL",plat:"网页",icon:"www.mosso.cl.ico"},
+{name:"Jersey Pearl",url:"https://jerseypearl.com",cat:"购物消费",rating:4,price:"免费",kw:"jersey pearl 泽西岛 珍珠",desc:"泽西岛本土珍珠珠宝品牌，主营淡水珍珠首饰的官网商城。",official:true,region:"JE",plat:"网页",icon:"jerseypearl.com.ico"},
+{name:"By Charlotte",url:"https://bycharlotte.com.au",cat:"购物消费",rating:4,price:"免费",kw:"by charlotte 澳大利亚 珠宝",desc:"澳大利亚本土设计师珠宝品牌，主营镀金与银饰首饰的官网商城。",official:true,region:"AU",plat:"网页",icon:"bycharlotte.com.au.ico"},
+{name:"Kultho",url:"https://kultho.ro",cat:"购物消费",rating:4,price:"免费",kw:"kultho 罗马尼亚 珠宝",desc:"罗马尼亚本土珠宝零售商，主营黄金、钻石首饰的官网商城。",official:true,region:"RO",plat:"网页",icon:"kultho.ro.ico"},
+{name:"Medicom",url:"https://medicom.ua",cat:"生活服务",rating:4,price:"免费",kw:"medicom 基辅 私立诊所 medikom",desc:"乌克兰基辅老牌私立综合诊所，主营门诊、影像诊断与日间手术的官网。",official:true,region:"UA",plat:"网页",icon:"medicom.ua.ico"},
+{name:"Hôpital Albert Haykel",url:"https://hopitalhaykel.com",cat:"生活服务",rating:4,price:"免费",kw:"albert haykel 黎巴嫩 医院",desc:"黎巴嫩的黎波里私立综合医院，主营急诊、手术与专科诊疗的官网。",official:true,region:"LB",plat:"网页",icon:"hopitalhaykel.com.ico"}
 ];
