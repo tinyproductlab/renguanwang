@@ -10114,5 +10114,18 @@ const SITES = [
 {name:"Futeca Gym",url:"https://futeca.com",cat:"生活服务",rating:4,price:"免费",kw:"Futeca Gym 健身房 危地马拉健身",desc:"危地马拉健身房连锁官网，Futeca 体育综合体旗下",official:true,region:"GT",plat:"网页",icon:"futeca.com.ico"},
 {name:"Grand Sport Armenia",url:"https://grandsport.am",cat:"生活服务",rating:4,price:"免费",kw:"Grand Sport Armenia 健身 亚美尼亚健身俱乐部",desc:"亚美尼亚综合健身俱乐部官网",official:true,region:"AM",plat:"网页",icon:"grandsport.am.ico"},
 {name:"Horizon Fitness",url:"https://horizonfitness.om",cat:"生活服务",rating:4,price:"免费",kw:"Horizon Fitness 健身房 阿曼健身",desc:"阿曼健身房连锁官网",official:true,region:"OM",plat:"网页",icon:"horizonfitness.om.ico"},
-{name:"Waka Fitness",url:"https://wakafitness.com",cat:"生活服务",rating:4,price:"免费",kw:"Waka Fitness 健身房 卢旺达健身",desc:"卢旺达基加利健身房连锁官网",official:true,region:"RW",plat:"网页",icon:"wakafitness.com.ico"}
+{name:"Waka Fitness",url:"https://wakafitness.com",cat:"生活服务",rating:4,price:"免费",kw:"Waka Fitness 健身房 卢旺达健身",desc:"卢旺达基加利健身房连锁官网",official:true,region:"RW",plat:"网页",icon:"wakafitness.com.ico"},
+{name:"NipNap",url:"https://nipnap.co.ke",cat:"购物消费",rating:4,price:"免费",kw:"NipNap 纸尿裤 肯尼亚婴儿纸尿裤",desc:"肯尼亚婴儿纸尿裤品牌官网",official:true,region:"KE",plat:"网页",icon:"nipnap.co.ke.ico"},
+{name:"Crockid",url:"https://crockid.ru",cat:"购物消费",rating:4,price:"免费",kw:"Crockid 童装 俄罗斯婴童服装",desc:"俄罗斯婴童服装品牌官网",official:true,region:"RU",plat:"网页",icon:"crockid.ru.ico"},
+{name:"Energiers",url:"https://energiers.gr",cat:"购物消费",rating:4,price:"免费",kw:"Energiers 童装 希腊童装",desc:"希腊童装品牌官网",official:true,region:"GR",plat:"网页",icon:"energiers.gr.ico"},
+{name:"Moose Gear",url:"https://moosegear.com",cat:"购物消费",rating:4,price:"免费",kw:"Moose Gear 童装 菲律宾童装",desc:"菲律宾童装品牌官网",official:true,region:"PH",plat:"网页",icon:"moosegear.com.ico"},
+{name:"Value Optical",url:"https://valueoptical.com",cat:"购物消费",rating:4,price:"免费",kw:"Value Optical 眼镜 特立尼达眼镜店",desc:"特立尼达和多巴哥眼镜零售连锁官网",official:true,region:"TT",plat:"网页",icon:"valueoptical.com.ico"},
+{name:"Carlton Madagascar",url:"https://carlton-madagascar.com",cat:"购物消费",rating:4,price:"免费",kw:"Carlton Madagascar 酒店 马达加斯加酒店",desc:"马达加斯加塔那那利佛豪华酒店官网",official:true,region:"MG",plat:"网页",icon:"carlton-madagascar.com.ico"},
+{name:"Attitude Hotels",url:"https://hotels-attitude.com",cat:"购物消费",rating:4,price:"免费",kw:"Attitude Hotels 毛里求斯酒店 度假酒店集团",desc:"毛里求斯本土酒店集团官网",official:true,region:"MU",plat:"网页",icon:"hotels-attitude.com.ico"},
+{name:"The Crane Resort",url:"https://thecrane.com",cat:"购物消费",rating:4,price:"免费",kw:"The Crane Resort 巴巴多斯度假酒店",desc:"巴巴多斯海滨度假酒店官网",official:true,region:"BB",plat:"网页",icon:"thecrane.com.ico"},
+{name:"Jade Mountain",url:"https://jademountain.com",cat:"购物消费",rating:4,price:"免费",kw:"Jade Mountain 圣卢西亚度假酒店",desc:"圣卢西亚高端度假酒店官网",official:true,region:"LC",plat:"网页",icon:"jademountain.com.ico"},
+{name:"Fasano",url:"https://fasano.com.br",cat:"购物消费",rating:4,price:"免费",kw:"Fasano 巴西奢华酒店 圣保罗酒店",desc:"巴西奢华酒店集团官网",official:true,region:"BR",plat:"网页",icon:"fasano.com.br.ico"},
+{name:"Kazakhstan Hotel",url:"https://kazakhstanhotel.kz",cat:"购物消费",rating:4,price:"免费",kw:"Kazakhstan Hotel 哈萨克斯坦酒店 阿拉木图酒店",desc:"哈萨克斯坦阿拉木图标志性酒店官网",official:true,region:"KZ",plat:"网页",icon:"kazakhstanhotel.kz.ico"},
+{name:"Plantation Island Resort",url:"https://plantationisland.com",cat:"购物消费",rating:4,price:"免费",kw:"Plantation Island Resort 斐济度假村",desc:"斐济家族经营度假村官网",official:true,region:"FJ",plat:"网页",icon:"plantationisland.com.ico"},
+{name:"Aladin Foods",url:"https://aladinfoods.bg",cat:"生活服务",rating:4,price:"免费",kw:"Aladin Foods 快餐 保加利亚快餐",desc:"保加利亚快餐连锁官网",official:true,region:"BG",plat:"网页",icon:"aladinfoods.bg.ico"}
 ];
