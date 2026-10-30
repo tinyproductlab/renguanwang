@@ -11511,5 +11511,18 @@ const SITES = [
 {name:"Joma Bakery Café",url:"https://joma.biz",cat:"生活服务",rating:4,price:"免费",kw:"joma bakery cafe 老挝 烘焙咖啡",desc:"老挝本土烘焙咖啡连锁的官网，主营咖啡、面包与西式简餐。",official:true,region:"LA",plat:"网页",icon:"joma.biz.ico"},
 {name:"Saint Tracy",url:"https://sainttracy.com",cat:"购物消费",rating:4,price:"免费",kw:"saint tracy 尼日利亚 奢华珠宝 婚嫁",desc:"尼日利亚本土奢华珠宝品牌的官网商城，主营婚嫁珠宝与钻石首饰。",official:true,region:"NG",plat:"网页",icon:"sainttracy.com.ico"},
 {name:"Awfully Chocolate",url:"https://awfullychocolate.com",cat:"购物消费",rating:4,price:"免费",kw:"awfully chocolate 新加坡 巧克力 蛋糕",desc:"新加坡本土巧克力甜品品牌的官网商城，主营黑巧克力蛋糕与巧克力饮品。",official:true,region:"SG",plat:"网页",icon:"awfullychocolate.com.ico"},
-{name:"Chateau Gateaux",url:"https://chateaugateaux.co.za",cat:"购物消费",rating:4,price:"免费",kw:"chateau gateaux 南非 蛋糕 甜品",desc:"南非本土冷冻蛋糕甜品连锁的官网商城，主营整蛋糕、芝士蛋糕与甜点。",official:true,region:"ZA",plat:"网页",icon:"chateaugateaux.co.za.ico"}
+{name:"Chateau Gateaux",url:"https://chateaugateaux.co.za",cat:"购物消费",rating:4,price:"免费",kw:"chateau gateaux 南非 蛋糕 甜品",desc:"南非本土冷冻蛋糕甜品连锁的官网商城，主营整蛋糕、芝士蛋糕与甜点。",official:true,region:"ZA",plat:"网页",icon:"chateaugateaux.co.za.ico"},
+{name:"Bébécar",url:"https://bebecar.com",cat:"购物消费",rating:4,price:"免费",kw:"bébécar 葡萄牙 婴儿车 婴童用品",desc:"葡萄牙本土婴儿车与婴童用品品牌的官网，主营婴儿推车、汽车座椅与婴儿家具。",official:true,region:"PT",plat:"网页",icon:"bebecar.com.ico"},
+{name:"Natalys",url:"https://natalys.com",cat:"购物消费",rating:4,price:"免费",kw:"natalys 法国 婴幼儿服饰",desc:"法国本土婴幼儿服饰品牌的官网商城，主营新生儿服饰、孕妇装与婴儿用品。",official:true,region:"FR",plat:"网页",icon:"natalys.com.ico"},
+{name:"Bartek",url:"https://bartek.com.pl",cat:"购物消费",rating:4,price:"免费",kw:"bartek 波兰 儿童鞋履",desc:"波兰本土儿童鞋履品牌的官网商城，主营婴幼儿学步鞋与童鞋。",official:true,region:"PL",plat:"网页",icon:"bartek.com.pl.ico"},
+{name:"Sublime Comporta",url:"https://sublimehotels.pt",cat:"购物消费",rating:4,price:"免费",kw:"sublime comporta 葡萄牙 孔波尔塔 度假村",desc:"葡萄牙孔波尔塔独立奢华度假村的官网，藏于松林、沙丘与稻田之间。",official:true,region:"PT",plat:"网页",icon:"sublimehotels.pt.ico"},
+{name:"Los Cauquenes Resort & Spa",url:"https://loscauquenes.com",cat:"购物消费",rating:4,price:"免费",kw:"los cauquenes 阿根廷 乌斯怀亚 度假村",desc:"阿根廷乌斯怀亚海滨度假村的官网，面朝比格尔海峡与雪山。",official:true,region:"AR",plat:"网页",icon:"loscauquenes.com.ico"},
+{name:"Lapa Rios Lodge",url:"https://laparios.com",cat:"购物消费",rating:4,price:"免费",kw:"lapa rios 哥斯达黎加 奥萨半岛 生态旅舍",desc:"哥斯达黎加奥萨半岛生态精品旅舍的官网，位于私人雨林保护区内。",official:true,region:"CR",plat:"网页",icon:"laparios.com.ico"},
+{name:"Sandy Lane",url:"https://sandylane.com",cat:"购物消费",rating:4,price:"免费",kw:"sandy lane 巴巴多斯 奢华度假村",desc:"巴巴多斯西海岸老牌独立奢华度假村的官网，以粉色建筑与高尔夫球场著称。",official:true,region:"BB",plat:"网页",icon:"sandylane.com.ico"},
+{name:"Angama Mara",url:"https://angama.com",cat:"购物消费",rating:4,price:"免费",kw:"angama mara 肯尼亚 马赛马拉 营地酒店",desc:"肯尼亚马赛马拉悬崖边缘独立奢华营地酒店的官网，俯瞰大草原。",official:true,region:"KE",plat:"网页",icon:"angama.com.ico"},
+{name:"Babylonstoren",url:"https://babylonstoren.com",cat:"购物消费",rating:4,price:"免费",kw:"babylonstoren 南非 弗朗斯胡克 庄园酒店",desc:"南非弗朗斯胡克葡萄酒产区庄园花园酒店的官网，拥有自营农场与山景水疗。",official:true,region:"ZA",plat:"网页",icon:"babylonstoren.com.ico"},
+{name:"Keemala",url:"https://keemala.com",cat:"购物消费",rating:4,price:"免费",kw:"keemala 泰国 普吉岛 别墅度假村",desc:"泰国普吉岛山林中独立别墅度假村的官网，以树屋与鸟巢式泳池别墅闻名。",official:true,region:"TH",plat:"网页",icon:"keemala.com.ico"},
+{name:"The Lalu 涵碧楼",url:"https://thelalu.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"thelalu 涵碧楼 台湾 日月潭 度假酒店",desc:"台湾日月潭畔独立精品度假酒店的官网，以极简东方美学与湖景著称。",official:true,region:"TW",plat:"网页",icon:"thelalu.com.tw.ico"},
+{name:"Borgo Santo Pietro",url:"https://borgosantopietro.com",cat:"购物消费",rating:4,price:"免费",kw:"borgo santo pietro 意大利 托斯卡纳 庄园酒店",desc:"意大利托斯卡纳庄园精品酒店的官网，拥有自营有机农场与田园餐厅。",official:true,region:"IT",plat:"网页",icon:"borgosantopietro.com.ico"},
+{name:"Vero Cafe",url:"https://verocafe.lt",cat:"生活服务",rating:4,price:"免费",kw:"vero cafe 立陶宛 咖啡连锁",desc:"立陶宛本土咖啡连锁的官网，主营现磨咖啡、甜点与简餐。",official:true,region:"LT",plat:"网页",icon:"verocafe.lt.ico"}
 ];
