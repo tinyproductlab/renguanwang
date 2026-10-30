@@ -11352,5 +11352,13 @@ const SITES = [
 {name:"Dva Štapića",url:"https://dvastapica.com",cat:"生活服务",rating:4,price:"免费",kw:"dva stapica 亚洲快餐 塞尔维亚 官网",desc:"塞尔维亚亚洲快餐连锁官网，主营中式炒面、炒饭与寿司",official:true,region:"RS",plat:"网页",icon:"dvastapica.com.ico"},
 {name:"Solaria",url:"https://solariaresto.co.id",cat:"生活服务",rating:4,price:"免费",kw:"solaria 餐饮 印尼 官网",desc:"印度尼西亚大众餐饮连锁官网，主营印尼家常菜、面饭与小吃",official:true,region:"ID",plat:"网页",icon:"solariaresto.co.id.ico"},
 {name:"Ganapati Jewellers Nepal",url:"https://ganapatijewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"ganapati jewellers 珠宝 尼泊尔 官网",desc:"尼泊尔黄金钻石珠宝零售商官网，主营传统金饰、钻石与婚嫁首饰并运营官方商城",official:true,region:"NP",plat:"网页",icon:"ganapatijewellers.com.ico"},
-{name:"Luca",url:"https://lucatraditie.ro",cat:"购物消费",rating:4,price:"免费",kw:"luca 可颂 点心 罗马尼亚 官网",desc:"罗马尼亚西式点心连锁官网，主营可颂、椒盐卷饼与烘焙简餐",official:true,region:"RO",plat:"网页",icon:"lucatraditie.ro.ico"}
+{name:"Luca",url:"https://lucatraditie.ro",cat:"购物消费",rating:4,price:"免费",kw:"luca 可颂 点心 罗马尼亚 官网",desc:"罗马尼亚西式点心连锁官网，主营可颂、椒盐卷饼与烘焙简餐",official:true,region:"RO",plat:"网页",icon:"lucatraditie.ro.ico"},
+{name:"Baby Planet",url:"https://babyplanet.pk",cat:"购物消费",rating:4,price:"免费",kw:"baby planet 母婴 巴基斯坦 官网",desc:"巴基斯坦母婴用品连锁官网，主营婴儿食品、推车与育婴用品并运营官方商城",official:true,region:"PK",plat:"网页",icon:"babyplanet.pk.ico"},
+{name:"The Baby Store",url:"https://babystore.lk",cat:"购物消费",rating:4,price:"免费",kw:"baby store 母婴 斯里兰卡 官网",desc:"斯里兰卡母婴用品零售商官网，主营婴儿推车、奶瓶与孕妇用品并运营官方商城",official:true,region:"LK",plat:"网页",icon:"babystore.lk.ico"},
+{name:"Club Santana Beach & Nature Resort",url:"https://clubsantana.com",cat:"购物消费",rating:4,price:"免费",kw:"club santana 度假村 圣多美 官网",desc:"圣多美海滩自然度假村官网，主营海景别墅、生态活动与餐饮并提供在线预订",official:true,region:"ST",plat:"网页",icon:"clubsantana.com.ico"},
+{name:"Lancaster Hotel Ouaga 2000",url:"https://lancasterouaga2000.com",cat:"购物消费",rating:4,price:"免费",kw:"lancaster ouaga 2000 酒店 布基纳法索 官网",desc:"布基纳法索瓦加杜古高端酒店官网，主营商务住宿、会议与餐饮并提供在线预订",official:true,region:"BF",plat:"网页",icon:"lancasterouaga2000.com.ico"},
+{name:"Ocean Bay Hotel & Resort",url:"https://oceanbayhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"ocean bay hotel 度假 冈比亚 官网",desc:"冈比亚巴考海滨度假酒店官网，主营海滩客房、餐饮与休闲活动并提供在线预订",official:true,region:"GM",plat:"网页",icon:"oceanbayhotel.com.ico"},
+{name:"Timor Plaza Hotel",url:"https://timorplazahotel.com",cat:"购物消费",rating:4,price:"免费",kw:"timor plaza hotel 酒店 东帝汶 官网",desc:"东帝汶帝力市中心酒店官网，主营商务客房、公寓与会议服务并提供在线预订",official:true,region:"TL",plat:"网页",icon:"timorplazahotel.com.ico"},
+{name:"Funafuti Lagoon Hotel",url:"https://funafutilagoonhotel.tv",cat:"购物消费",rating:4,price:"免费",kw:"funafuti lagoon hotel 酒店 图瓦卢 官网",desc:"图瓦卢富纳富提泻湖畔酒店官网，主营海景住宿与本地餐饮并提供在线预订",official:true,region:"TV",plat:"网页",icon:"funafutilagoonhotel.tv.ico"},
+{name:"Ledger Plaza Bangui",url:"https://ledgerplazabangui.com",cat:"购物消费",rating:4,price:"免费",kw:"ledger plaza bangui 酒店 中非 官网",desc:"中非共和国班吉豪华酒店官网，主营商务住宿、会议与餐饮并提供在线预订",official:true,region:"CF",plat:"网页",icon:"ledgerplazabangui.com.ico"}
 ];
