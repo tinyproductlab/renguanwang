@@ -11339,5 +11339,16 @@ const SITES = [
 {name:"Bondelic",url:"https://bondelic.com",cat:"购物消费",rating:4,price:"免费",kw:"bondelic 糕点 多米尼加 官网",desc:"多米尼加糕点甜品连锁官网，主营蛋糕、面包与甜点并运营官方商城",official:true,region:"DO",plat:"网页",icon:"bondelic.com.ico"},
 {name:"Kitchen Cuisine",url:"https://www.kitchencuisine.com.pk",cat:"购物消费",rating:4,price:"免费",kw:"kitchen cuisine 烘焙 巴基斯坦 官网",desc:"巴基斯坦拉合尔烘焙咖啡连锁官网，主营面包、蛋糕与西点并运营官方商城",official:true,region:"PK",plat:"网页",icon:"www.kitchencuisine.com.pk.ico"},
 {name:"Rudolfinerhaus",url:"https://www.rudolfinerhaus.at",cat:"生活服务",rating:4,price:"免费",kw:"rudolfinerhaus 私立医院 奥地利 官网",desc:"奥地利维也纳老牌私立医院官网，主营综合诊疗、专科手术与住院服务",official:true,region:"AT",plat:"网页",icon:"www.rudolfinerhaus.at.ico"},
-{name:"DaVinci Healthcare",url:"https://www.davinci.com.mt",cat:"生活服务",rating:4,price:"免费",kw:"davinci healthcare 医疗 马耳他 官网",desc:"马耳他私立医疗中心官网，主营专科门诊、诊断检查与日间医疗服务",official:true,region:"MT",plat:"网页",icon:"www.davinci.com.mt.ico"}
+{name:"DaVinci Healthcare",url:"https://www.davinci.com.mt",cat:"生活服务",rating:4,price:"免费",kw:"davinci healthcare 医疗 马耳他 官网",desc:"马耳他私立医疗中心官网，主营专科门诊、诊断检查与日间医疗服务",official:true,region:"MT",plat:"网页",icon:"www.davinci.com.mt.ico"},
+{name:"Pablosky",url:"https://www.pablosky.com",cat:"购物消费",rating:4,price:"免费",kw:"pablosky 童鞋 西班牙 官网",desc:"西班牙儿童鞋履品牌官网，主营学步鞋、童鞋与青少年鞋款并运营官方商城",official:true,region:"ES",plat:"网页",icon:"www.pablosky.com.ico"},
+{name:"Joha",url:"https://joha.dk",cat:"购物消费",rating:4,price:"免费",kw:"joha 儿童羊毛 丹麦 官网",desc:"丹麦儿童羊毛服饰品牌官网，主营美利奴羊毛内衣与婴幼儿服饰并运营官方商城",official:true,region:"DK",plat:"网页",icon:"joha.dk.ico"},
+{name:"DUNS Sweden",url:"https://www.officialdunssweden.se",cat:"购物消费",rating:4,price:"免费",kw:"duns sweden 有机童装 瑞典 官网",desc:"瑞典有机童装品牌官网，主营 GOTS 有机棉儿童服饰与婴幼儿连体衣并运营官方商城",official:true,region:"SE",plat:"网页",icon:"www.officialdunssweden.se.ico"},
+{name:"Janus",url:"https://www.janus.no",cat:"购物消费",rating:4,price:"免费",kw:"janus 羊毛内衣 挪威 官网",desc:"挪威羊毛服饰品牌官网，主营儿童美利奴羊毛内衣与婴幼儿保暖服饰并运营官方商城",official:true,region:"NO",plat:"网页",icon:"www.janus.no.ico"},
+{name:"Lamington",url:"https://lamington.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"lamington 婴儿袜 新西兰 官网",desc:"新西兰儿童袜履品牌官网，主营美利奴羊毛婴儿袜与儿童服饰并运营官方商城",official:true,region:"NZ",plat:"网页",icon:"lamington.co.nz.ico"},
+{name:"Hotel Los Robles",url:"https://hotellosrobles.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel los robles 酒店 尼加拉瓜 官网",desc:"尼加拉瓜马那瓜精品酒店官网，主营花园式住宿、泳池与本地餐饮并提供在线预订",official:true,region:"NI",plat:"网页",icon:"hotellosrobles.com.ico"},
+{name:"Zahir Kebab",url:"https://zahirkebab.pl",cat:"生活服务",rating:4,price:"免费",kw:"zahir kebab 烤肉卷 波兰 官网",desc:"波兰烤肉卷连锁官网，主营土耳其烤肉卷、烤盘拼盘与沙拉",official:true,region:"PL",plat:"网页",icon:"zahirkebab.pl.ico"},
+{name:"BabyBack Ribs & BBQ",url:"https://babyback.ee",cat:"生活服务",rating:4,price:"免费",kw:"babyback ribs bbq 烧烤 爱沙尼亚 官网",desc:"爱沙尼亚美式烧烤连锁官网，主营烤肋排、汉堡与鸡翅",official:true,region:"EE",plat:"网页",icon:"babyback.ee.ico"},
+{name:"UGO",url:"https://www.ugo.cz",cat:"生活服务",rating:4,price:"免费",kw:"ugo 轻食 沙拉 捷克 官网",desc:"捷克轻食连锁官网，主营沙拉、鲜榨果汁与健康简餐",official:true,region:"CZ",plat:"网页",icon:"www.ugo.cz.ico"},
+{name:"Dva Štapića",url:"https://dvastapica.com",cat:"生活服务",rating:4,price:"免费",kw:"dva stapica 亚洲快餐 塞尔维亚 官网",desc:"塞尔维亚亚洲快餐连锁官网，主营中式炒面、炒饭与寿司",official:true,region:"RS",plat:"网页",icon:"dvastapica.com.ico"},
+{name:"Solaria",url:"https://solariaresto.co.id",cat:"生活服务",rating:4,price:"免费",kw:"solaria 餐饮 印尼 官网",desc:"印度尼西亚大众餐饮连锁官网，主营印尼家常菜、面饭与小吃",official:true,region:"ID",plat:"网页",icon:"solariaresto.co.id.ico"}
 ];
