@@ -11842,5 +11842,21 @@ const SITES = [
 {name:"Misr International Hospital",url:"https://misrhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"misr international hospital cairo",desc:"埃及开罗私立综合医院，多专科诊疗机构",official:true,region:"EG",plat:"网页",icon:"misrhospital.com.ico"},
 {name:"Hospital San Javier",url:"https://sanjavier.com.mx",cat:"生活服务",rating:4,price:"免费",kw:"hospital san javier guadalajara",desc:"墨西哥瓜达拉哈拉私立综合医院，区域医疗中心",official:true,region:"MX",plat:"网页",icon:"sanjavier.com.mx.ico"},
 {name:"Sanatorio Güemes",url:"https://sanatorioguemes.com",cat:"生活服务",rating:4,price:"免费",kw:"sanatorio guemes buenos aires",desc:"阿根廷布宜诺斯艾利斯私立综合医院，大型区域疗养院",official:true,region:"AR",plat:"网页",icon:"sanatorioguemes.com.ico"},
-{name:"Body Channel",url:"https://bodychannel.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"body channel fitness korea",desc:"韩国本土连锁健身房品牌，主营器械训练与团体课程",official:true,region:"KR",plat:"网页",icon:"bodychannel.co.kr.ico"}
+{name:"Body Channel",url:"https://bodychannel.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"body channel fitness korea",desc:"韩国本土连锁健身房品牌，主营器械训练与团体课程",official:true,region:"KR",plat:"网页",icon:"bodychannel.co.kr.ico"},
+{name:"Babelito",url:"https://babelito.com",cat:"购物消费",rating:4,price:"免费",kw:"奶瓶 安抚奶嘴 babelito",desc:"阿根廷本土母婴用品品牌，主营奶瓶、安抚奶嘴与婴儿洗护用品",official:true,region:"AR",plat:"网页",icon:"babelito.com.ico"},
+{name:"Bochko",url:"https://bochko.bg",cat:"购物消费",rating:4,price:"免费",kw:"婴儿洗护 bochko",desc:"保加利亚本土婴儿护理品牌，主营婴儿洗护与护肤产品",official:true,region:"BG",plat:"网页",icon:"bochko.bg.ico"},
+{name:"Cycles Baby",url:"https://cyclesbaby.com",cat:"购物消费",rating:4,price:"免费",kw:"婴儿洗衣 cycles baby",desc:"菲律宾本土婴儿洗护品牌，主营婴儿洗衣与织物护理产品",official:true,region:"PH",plat:"网页",icon:"cyclesbaby.com.ico"},
+{name:"Nexton",url:"https://nexton.com.pk",cat:"购物消费",rating:4,price:"免费",kw:"婴儿护理 nexton",desc:"巴基斯坦本土婴儿护理品牌，主营婴儿洗护与护肤用品",official:true,region:"PK",plat:"网页",icon:"nexton.com.pk.ico"},
+{name:"Fine Baby",url:"https://fine-baby.com",cat:"购物消费",rating:4,price:"免费",kw:"纸尿裤 fine baby",desc:"约旦本土纸尿裤品牌，主营婴儿纸尿裤与湿巾",official:true,region:"JO",plat:"网页",icon:"fine-baby.com.ico"},
+{name:"Kosili",url:"https://kosili.rs",cat:"购物消费",rating:4,price:"免费",kw:"婴儿护理 kosili",desc:"塞尔维亚本土婴儿护理品牌，主营婴儿洗发沐浴与护肤用品",official:true,region:"RS",plat:"网页",icon:"kosili.rs.ico"},
+{name:"Miniland",url:"https://minilandgroup.com",cat:"购物消费",rating:4,price:"免费",kw:"母婴 miniland",desc:"西班牙本土母婴用品品牌，主营奶瓶、保温容器与婴儿监护产品",official:true,region:"ES",plat:"网页",icon:"minilandgroup.com.ico"},
+{name:"年青人眼鏡",url:"https://youngman.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"眼镜 配镜 年青人",desc:"台湾本土眼镜连锁，主营验光配镜与学生镜架",official:true,region:"TW",plat:"网页",icon:"youngman.com.tw.ico"},
+{name:"Tsara Komba Luxury Beach & Ocean Lodge",url:"https://tsarakomba.com",cat:"购物消费",rating:4,price:"免费",kw:"度假 tsara komba",desc:"马达加斯加诺西孔巴岛上的独立野奢海滩度假小屋，周边为狐猴栖息的森林",official:true,region:"MG",plat:"网页",icon:"tsarakomba.com.ico"},
+{name:"Lakaz Chamarel Exclusive Lodge",url:"https://lakazchamarel.com",cat:"购物消费",rating:4,price:"免费",kw:"度假酒店 lakaz chamarel",desc:"毛里求斯沙马雷勒山区的独立生态精品小屋，山景别墅散布于热带花园中",official:true,region:"MU",plat:"网页",icon:"lakazchamarel.com.ico"},
+{name:"Riad Kniza",url:"https://riadkniza.com",cat:"购物消费",rating:4,price:"免费",kw:"里亚德 riad kniza",desc:"摩洛哥马拉喀什麦地那内的家族经营豪华里亚德，百年老宅改建带屋顶露台",official:true,region:"MA",plat:"网页",icon:"riadkniza.com.ico"},
+{name:"XVA Art Hotel",url:"https://xvagallery.com",cat:"购物消费",rating:4,price:"免费",kw:"艺术酒店 xva",desc:"迪拜巴斯塔基亚历史街区的独立艺术精品酒店，画廊与中东素食咖啡馆一体",official:true,region:"AE",plat:"网页",icon:"xvagallery.com.ico"},
+{name:"Walindi Plantation Resort",url:"https://walindiresort.com",cat:"购物消费",rating:4,price:"免费",kw:"潜水度假 walindi",desc:"巴布亚新几内亚金贝湾畔的家族经营潜水度假村，世界级珊瑚礁潜点门户",official:true,region:"PG",plat:"网页",icon:"walindiresort.com.ico"},
+{name:"Amorita Resort Bohol",url:"https://amoritaresort.com",cat:"购物消费",rating:4,price:"免费",kw:"度假村 amorita",desc:"菲律宾保和岛邦劳悬崖上的独立精品度假村，俯瞰阿罗纳海滩",official:true,region:"PH",plat:"网页",icon:"amoritaresort.com.ico"},
+{name:"Zooba",url:"https://zoobaeats.com",cat:"生活服务",rating:4,price:"免费",kw:"埃及小吃 zooba",desc:"埃及本土街头小吃连锁，主营鹰嘴豆饼、埃及面饼与传统小吃",official:true,region:"EG",plat:"网页",icon:"zoobaeats.com.ico"},
+{name:"Kenchic",url:"https://kenchic.com",cat:"生活服务",rating:4,price:"免费",kw:"炸鸡 kenchic",desc:"肯尼亚本土炸鸡快餐连锁，主营炸鸡、薯条与烤鸡套餐",official:true,region:"KE",plat:"网页",icon:"kenchic.com.ico"}
 ];
