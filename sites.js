@@ -11377,5 +11377,7 @@ const SITES = [
 {name:"Multigym Premium",url:"https://multigympremium.com",cat:"生活服务",rating:4,price:"免费",kw:"multigym premium 达卡 健身",desc:"孟加拉国达卡本土健身连锁，设有多家分店的官网。",official:true,region:"BD",plat:"网页",icon:"multigympremium.com.ico"},
 {name:"Olympique Club",url:"https://olympique-club.com",cat:"生活服务",rating:4,price:"免费",kw:"olympique club 达喀尔 健身",desc:"塞内加尔达喀尔老牌综合运动俱乐部，设有健身房与泳池的官网。",official:true,region:"SN",plat:"网页",icon:"olympique-club.com.ico"},
 {name:"Raw Gyms",url:"https://rawgyms.com",cat:"生活服务",rating:4,price:"免费",kw:"raw gyms 都柏林 健身",desc:"爱尔兰都柏林本土健身房，在 Sandyford 和 Donnybrook 设有门店的官网。",official:true,region:"IE",plat:"网页",icon:"rawgyms.com.ico"},
-{name:"Tvørmegi",url:"https://tvormegi.fo",cat:"生活服务",rating:4,price:"免费",kw:"tvormegi 法罗群岛 crossfit",desc:"法罗群岛托尔斯港的 CrossFit 与功能健身训练馆官网。",official:true,region:"FO",plat:"网页",icon:"tvormegi.fo.ico"}
+{name:"Tvørmegi",url:"https://tvormegi.fo",cat:"生活服务",rating:4,price:"免费",kw:"tvormegi 法罗群岛 crossfit",desc:"法罗群岛托尔斯港的 CrossFit 与功能健身训练馆官网。",official:true,region:"FO",plat:"网页",icon:"tvormegi.fo.ico"},
+{name:"Eugene Baby",url:"https://eugenebaby.com",cat:"购物消费",rating:4,price:"免费",kw:"eugene baby 荷花 母婴 香港",desc:"香港本土母婴用品连锁，主营婴儿食品、用品与孕妇产品的官网。",official:true,region:"HK",plat:"网页",icon:"eugenebaby.com.ico"},
+{name:"Te Moana Tahiti Resort",url:"https://temoanatahitiresort.pf",cat:"购物消费",rating:4,price:"免费",kw:"te moana tahiti resort 大溪地 酒店",desc:"法属波利尼西亚大溪地海滨度假酒店（原 Manava Suite Resort Tahiti）的官网。",official:true,region:"PF",plat:"网页",icon:"temoanatahitiresort.pf.ico"}
 ];
