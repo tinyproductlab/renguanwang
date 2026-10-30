@@ -11471,5 +11471,6 @@ const SITES = [
 {name:"Morgan's Rock",url:"https://morgansrock.com",cat:"购物消费",rating:4,price:"免费",kw:"morgan's rock 尼加拉瓜 生态度假屋",desc:"尼加拉瓜太平洋岸私人保护区内的生态度假屋官网。",official:true,region:"NI",plat:"网页",icon:"morgansrock.com.ico"},
 {name:"Laluna",url:"https://laluna.com",cat:"购物消费",rating:4,price:"免费",kw:"laluna 格林纳达 精品度假村",desc:"格林纳达圣乔治海岸的意式风情精品度假村官网。",official:true,region:"GD",plat:"网页",icon:"laluna.com.ico"},
 {name:"Pizza Smile",url:"https://pizzasmile.by",cat:"生活服务",rating:4,price:"免费",kw:"pizza smile 白俄罗斯 披萨 咖啡",desc:"白俄罗斯本土披萨咖啡连锁，主营披萨、寿司与简餐的官网。",official:true,region:"BY",plat:"网页",icon:"pizzasmile.by.ico"},
-{name:"Dr. Juice",url:"https://drjuice.com.mt",cat:"生活服务",rating:4,price:"免费",kw:"dr juice 马耳他 果汁 轻食",desc:"马耳他本土轻食连锁，主营鲜榨果汁、沙拉与卷饼的官网。",official:true,region:"MT",plat:"网页",icon:"drjuice.com.mt.ico"}
+{name:"Dr. Juice",url:"https://drjuice.com.mt",cat:"生活服务",rating:4,price:"免费",kw:"dr juice 马耳他 果汁 轻食",desc:"马耳他本土轻食连锁，主营鲜榨果汁、沙拉与卷饼的官网。",official:true,region:"MT",plat:"网页",icon:"drjuice.com.mt.ico"},
+{name:"Landmark General Hospital",url:"https://landmarkhospital.et",cat:"生活服务",rating:4,price:"免费",kw:"landmark general hospital 埃塞俄比亚 亚的斯亚贝巴 私立医院",desc:"埃塞俄比亚亚的斯亚贝巴私立综合医院的官网。",official:true,region:"ET",plat:"网页",icon:"landmarkhospital.et.ico"}
 ];
