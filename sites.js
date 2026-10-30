@@ -11540,5 +11540,9 @@ const SITES = [
 {name:"Schloss Elmau",url:"https://schloss-elmau.de",cat:"购物消费",rating:4,price:"免费",kw:"schloss elmau 德国 巴伐利亚 度假城堡酒店",desc:"德国巴伐利亚阿尔卑斯山谷中的文化与水疗度假城堡酒店官网。",official:true,region:"DE",plat:"网页",icon:"schloss-elmau.de.ico"},
 {name:"Topas Ecolodge",url:"https://topasecolodge.com",cat:"购物消费",rating:4,price:"免费",kw:"topas ecolodge 越南 沙坝 生态旅舍",desc:"越南沙坝梯田山谷中的北欧风生态精品旅舍官网。",official:true,region:"VN",plat:"网页",icon:"topasecolodge.com.ico"},
 {name:"Trisara",url:"https://trisara.com",cat:"购物消费",rating:4,price:"免费",kw:"trisara 泰国 普吉岛 别墅度假村",desc:"泰国普吉岛西北海岸的私人泳池别墅度假村官网。",official:true,region:"TH",plat:"网页",icon:"trisara.com.ico"},
-{name:"qualia",url:"https://qualia.com.au",cat:"购物消费",rating:4,price:"免费",kw:"qualia 澳大利亚 汉密尔顿岛 大堡礁 度假村",desc:"澳大利亚汉密尔顿岛上的大堡礁奢华度假村官网。",official:true,region:"AU",plat:"网页",icon:"qualia.com.au.ico"}
+{name:"qualia",url:"https://qualia.com.au",cat:"购物消费",rating:4,price:"免费",kw:"qualia 澳大利亚 汉密尔顿岛 大堡礁 度假村",desc:"澳大利亚汉密尔顿岛上的大堡礁奢华度假村官网。",official:true,region:"AU",plat:"网页",icon:"qualia.com.au.ico"},
+{name:"Juwelier Schullin",url:"https://schullin.at",cat:"购物消费",rating:4,price:"免费",kw:"schullin 奥地利 格拉茨 珠宝",desc:"奥地利格拉茨本土高端珠宝商的官网，主营高级珠宝、钻石首饰与名表。",official:true,region:"AT",plat:"网页",icon:"schullin.at.ico"},
+{name:"Freccero",url:"https://freccero.com",cat:"购物消费",rating:4,price:"免费",kw:"freccero 乌拉圭 珠宝 腕表",desc:"乌拉圭本土老牌珠宝与腕表零售商的官网，主营金饰、钻石首饰与名表。",official:true,region:"UY",plat:"网页",icon:"freccero.com.ico"},
+{name:"Sodiê Doces",url:"https://sodiedoces.com.br",cat:"购物消费",rating:4,price:"免费",kw:"sodiê doces 巴西 蛋糕 连锁",desc:"巴西本土大型蛋糕连锁的官网，主营切片蛋糕、甜点与节庆蛋糕。",official:true,region:"BR",plat:"网页",icon:"sodiedoces.com.br.ico"},
+{name:"San Churro",url:"https://sanchurro.com",cat:"购物消费",rating:4,price:"免费",kw:"san churro 澳大利亚 巧克力 咖啡 甜品",desc:"澳大利亚本土西班牙风味巧克力咖啡连锁的官网，主营吉事果、热巧克力与甜点。",official:true,region:"AU",plat:"网页",icon:"sanchurro.com.ico"}
 ];
