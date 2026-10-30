@@ -11770,5 +11770,19 @@ const SITES = [
 {name:"The Legian Bali",url:"https://thelegianbali.com",cat:"购物消费",rating:4,price:"免费",kw:"the legian bali seminyak",desc:"巴厘岛水明漾海滨独立精品酒店，全套房面海",official:true,region:"ID",plat:"网页",icon:"thelegianbali.com.ico"},
 {name:"Southern Ocean Lodge",url:"https://southernoceanlodge.com.au",cat:"购物消费",rating:4,price:"免费",kw:"southern ocean lodge kangaroo island",desc:"澳大利亚袋鼠岛悬崖野奢酒店，面朝南大洋",official:true,region:"AU",plat:"网页",icon:"southernoceanlodge.com.au.ico"},
 {name:"Eichardt's Private Hotel",url:"https://eichardts.com",cat:"购物消费",rating:4,price:"免费",kw:"eichardts private hotel queenstown",desc:"新西兰皇后镇湖畔独立精品酒店，1864 年历史建筑",official:true,region:"NZ",plat:"网页",icon:"eichardts.com.ico"},
-{name:"Salam Bro",url:"https://salam-bro.kz",cat:"生活服务",rating:4,price:"免费",kw:"salam bro kazakhstan burgers",desc:"哈萨克斯坦汉堡连锁，牛肉汉堡与快餐套餐",official:true,region:"KZ",plat:"网页",icon:"salam-bro.kz.ico"}
+{name:"Salam Bro",url:"https://salam-bro.kz",cat:"生活服务",rating:4,price:"免费",kw:"salam bro kazakhstan burgers",desc:"哈萨克斯坦汉堡连锁，牛肉汉堡与快餐套餐",official:true,region:"KZ",plat:"网页",icon:"salam-bro.kz.ico"},
+{name:"Poncini",url:"https://poncini.com",cat:"购物消费",rating:4,price:"免费",kw:"poncini mauritius jewellery watches",desc:"毛里求斯老牌奢侈品零售商，主营高级珠宝与瑞士名表",official:true,region:"MU",plat:"网页",icon:"poncini.com.ico"},
+{name:"SP Bakery",url:"https://spbakery.com.mm",cat:"购物消费",rating:4,price:"免费",kw:"sp bakery myanmar yangon",desc:"缅甸本土面包糕点连锁，主营面包、蛋糕与季节糕点",official:true,region:"MM",plat:"网页",icon:"spbakery.com.mm.ico"},
+{name:"Hausbrot",url:"https://hausbrot.com.ar",cat:"购物消费",rating:4,price:"免费",kw:"hausbrot argentina panaderia",desc:"阿根廷本土面包房连锁，主营欧式面包、糕点与咖啡轻食",official:true,region:"AR",plat:"网页",icon:"hausbrot.com.ar.ico"},
+{name:"Clínica Hospital San Fernando",url:"https://hospitalsanfernando.com",cat:"生活服务",rating:4,price:"免费",kw:"hospital san fernando panama clinica",desc:"巴拿马城老牌私立医院，提供急诊、住院与专科门诊",official:true,region:"PA",plat:"网页",icon:"hospitalsanfernando.com.ico"},
+{name:"City Clinic",url:"https://cityclinic.mu",cat:"生活服务",rating:4,price:"免费",kw:"city clinic mauritius port louis",desc:"毛里求斯路易港私立诊所，提供全科、专科与日间手术服务",official:true,region:"MU",plat:"网页",icon:"cityclinic.mu.ico"},
+{name:"Metropolitan Hospital",url:"https://metropolitan-hospital.gr",cat:"生活服务",rating:4,price:"免费",kw:"metropolitan hospital greece athens",desc:"希腊雅典私立综合医院，提供急诊、心血管与多专科诊疗",official:true,region:"GR",plat:"网页",icon:"metropolitan-hospital.gr.ico"},
+{name:"CHIREC",url:"https://chirec.be",cat:"生活服务",rating:4,price:"免费",kw:"chirec bruxelles hopital",desc:"比利时布鲁塞尔私立非营利医院集团，提供综合与专科诊疗",official:true,region:"BE",plat:"网页",icon:"chirec.be.ico"},
+{name:"Privatklinik Döbling",url:"https://privatklinik-doebling.at",cat:"生活服务",rating:4,price:"免费",kw:"privatklinik doebling wien",desc:"奥地利维也纳私立医院，提供外科、妇产与内科诊疗",official:true,region:"AT",plat:"网页",icon:"privatklinik-doebling.at.ico"},
+{name:"Kardiolita Clinics",url:"https://kardiolita.com",cat:"生活服务",rating:4,price:"免费",kw:"kardiolita clinics lithuania",desc:"立陶宛私立医疗集团，主营心血管诊疗与综合门诊服务",official:true,region:"LT",plat:"网页",icon:"kardiolita.com.ico"},
+{name:"Animal X",url:"https://animalx.com.co",cat:"生活服务",rating:4,price:"免费",kw:"animal x medellin gimnasio",desc:"哥伦比亚麦德林本土健身连锁，以功能训练与团课为特色",official:true,region:"CO",plat:"网页",icon:"animalx.com.co.ico"},
+{name:"Kings Sports Centre",url:"https://kingssportscentre.com",cat:"生活服务",rating:4,price:"免费",kw:"kings sports centre cayman",desc:"开曼群岛综合体育中心，设健身房、壁球场与保龄球馆",official:true,region:"KY",plat:"网页",icon:"kingssportscentre.com.ico"},
+{name:"U Energy",url:"https://uenergy.me",cat:"生活服务",rating:4,price:"免费",kw:"u energy lebanon gym beirut",desc:"黎巴嫩本土精品健身连锁，门店位于贝鲁特多地，设动感单车与瑜伽工作室",official:true,region:"LB",plat:"网页",icon:"uenergy.me.ico"},
+{name:"FitExpress",url:"https://fitexpress.it",cat:"生活服务",rating:4,price:"免费",kw:"fitexpress italia palestra",desc:"意大利本土平价健身加盟连锁，门店遍布意大利各地",official:true,region:"IT",plat:"网页",icon:"fitexpress.it.ico"},
+{name:"Station 24 Fitness",url:"https://station24.mx",cat:"生活服务",rating:4,price:"免费",kw:"station 24 fitness mexico gimnasio",desc:"墨西哥本土 24 小时健身连锁，主营器械训练与团体课程",official:true,region:"MX",plat:"网页",icon:"station24.mx.ico"}
 ];
