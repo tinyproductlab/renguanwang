@@ -11575,5 +11575,15 @@ const SITES = [
 {name:"Ittefaq Hospital",url:"https://ittefaqhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"ittefaq hospital 巴基斯坦 拉合尔 医院",desc:"巴基斯坦拉合尔私立综合医院的官网，提供急诊与多专科诊疗服务。",official:true,region:"PK",plat:"网页",icon:"ittefaqhospital.com.ico"},
 {name:"Myungsung Christian Medical Center",url:"https://myungsung.org",cat:"生活服务",rating:4,price:"免费",kw:"myungsung 埃塞俄比亚 亚的斯亚贝巴 医院",desc:"埃塞俄比亚亚的斯亚贝巴的韩系私立综合医院官网，提供多专科诊疗服务。",official:true,region:"ET",plat:"网页",icon:"myungsung.org.ico"},
 {name:"Specijalna bolnica AGRAM",url:"https://agram.hr",cat:"生活服务",rating:4,price:"免费",kw:"agram 克罗地亚 萨格勒布 专科医院",desc:"克罗地亚萨格勒布私立专科医院的官网，提供综合诊疗与日间手术服务。",official:true,region:"HR",plat:"网页",icon:"agram.hr.ico"},
-{name:"Euforie",url:"https://euforie.cz",cat:"生活服务",rating:4,price:"免费",kw:"euforie 捷克 布拉格 健身",desc:"捷克布拉格本土健身连锁的官网，主营器械训练与精品团课。",official:true,region:"CZ",plat:"网页",icon:"euforie.cz.ico"}
+{name:"Euforie",url:"https://euforie.cz",cat:"生活服务",rating:4,price:"免费",kw:"euforie 捷克 布拉格 健身",desc:"捷克布拉格本土健身连锁的官网，主营器械训练与精品团课。",official:true,region:"CZ",plat:"网页",icon:"euforie.cz.ico"},
+{name:"Augað",url:"https://augad.is",cat:"购物消费",rating:4,price:"免费",kw:"augad 冰岛 眼镜 连锁",desc:"冰岛本土眼镜零售连锁的官网，隶属 Provision 集团，提供配镜与视光检查服务。",official:true,region:"IS",plat:"网页",icon:"augad.is.ico"},
+{name:"Singita Grumeti",url:"https://singita.com",cat:"购物消费",rating:4,price:"免费",kw:"singita grumeti 坦桑尼亚 塞伦盖蒂 野奢营地",desc:"坦桑尼亚塞伦盖蒂西部走廊顶级野奢营地酒店的官网。",official:true,region:"TZ",plat:"网页",icon:"singita.com.ico"},
+{name:"Ol Donyo Lodge",url:"https://oldonyowuas.com",cat:"购物消费",rating:4,price:"免费",kw:"ol donyo 肯尼亚 狩猎小屋 乞力马扎罗",desc:"肯尼亚丘卢山丘精品狩猎小屋的官网，可远眺乞力马扎罗山。",official:true,region:"KE",plat:"网页",icon:"oldonyowuas.com.ico"},
+{name:"Jack's Camp",url:"https://jackscamp.com",cat:"购物消费",rating:4,price:"免费",kw:"jack's camp 博茨瓦纳 盐沼 帐篷营地",desc:"博茨瓦纳马卡迪卡迪盐沼复古风格豪华帐篷营地的官网。",official:true,region:"BW",plat:"网页",icon:"jackscamp.com.ico"},
+{name:"Little Kulala",url:"https://wildernessdestinations.com",cat:"购物消费",rating:4,price:"免费",kw:"little kulala 纳米比亚 沙漠小屋 索苏斯弗雷",desc:"纳米比亚索苏斯弗雷沙漠边缘精品沙漠小屋的官网。",official:true,region:"NA",plat:"网页",icon:"wildernessdestinations.com.ico"},
+{name:"Cape Weligama",url:"https://resplendentceylon.com",cat:"购物消费",rating:4,price:"免费",kw:"cape weligama 斯里兰卡 海岸 度假酒店",desc:"斯里兰卡南部海岸悬崖上庄园式度假酒店的官网。",official:true,region:"LK",plat:"网页",icon:"resplendentceylon.com.ico"},
+{name:"Estancia Vik",url:"https://estanciavik.com",cat:"购物消费",rating:4,price:"免费",kw:"estancia vik 乌拉圭 庄园酒店",desc:"乌拉圭何塞伊格纳西奥艺术庄园酒店的官网。",official:true,region:"UY",plat:"网页",icon:"estanciavik.com.ico"},
+{name:"Longitude 131°",url:"https://longitude131.com.au",cat:"购物消费",rating:4,price:"免费",kw:"longitude 131 澳大利亚 乌鲁鲁 沙漠营地",desc:"澳大利亚乌鲁鲁旁沙漠帐篷奢华营地的官网。",official:true,region:"AU",plat:"网页",icon:"longitude131.com.au.ico"},
+{name:"Døgnvill Burger",url:"https://dognvillburger.no",cat:"生活服务",rating:4,price:"免费",kw:"dognvill 挪威 汉堡 连锁",desc:"挪威本土汉堡连锁的官网，主营炭烤汉堡与精酿搭配。",official:true,region:"NO",plat:"网页",icon:"dognvillburger.no.ico"},
+{name:"Cocks & Cows",url:"https://cocksandcows.dk",cat:"生活服务",rating:4,price:"免费",kw:"cocks cows 丹麦 汉堡 炸鸡",desc:"丹麦本土汉堡鸡尾酒连锁的官网，主营汉堡与炸鸡。",official:true,region:"DK",plat:"网页",icon:"cocksandcows.dk.ico"}
 ];
