@@ -11087,5 +11087,8 @@ const SITES = [
 {name:"Hotel Plaza San Francisco",url:"https://plazasanfrancisco.cl",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Plaza San Francisco 智利圣地亚哥市中心老牌五星级酒店，临近旧国会与主广场并运营官网预订",desc:"智利圣地亚哥市中心老牌五星级酒店，临近旧国会与主广场并运营官网预订",official:true,region:"CL",plat:"网页",icon:"plazasanfrancisco.cl.ico"},
 {name:"Grand Hotel Yerevan",url:"https://grandhotelyerevan.com",cat:"购物消费",rating:4,price:"免费",kw:"Grand Hotel Yerevan 亚美尼亚埃里温市中心历史酒店，共和国广场旁老牌名店并运营官网预订",desc:"亚美尼亚埃里温市中心历史酒店，共和国广场旁老牌名店并运营官网预订",official:true,region:"AM",plat:"网页",icon:"grandhotelyerevan.com.ico"},
 {name:"Condado Vanderbilt Hotel",url:"https://condadovanderbilt.com",cat:"购物消费",rating:4,price:"免费",kw:"Condado Vanderbilt Hotel 波多黎各圣胡安孔达多海滨历史酒店，1919 年开业的老牌豪华酒店并运营官网预订",desc:"波多黎各圣胡安孔达多海滨历史酒店，1919 年开业的老牌豪华酒店并运营官网预订",official:true,region:"PR",plat:"网页",icon:"condadovanderbilt.com.ico"},
-{name:"Lulu Pizza",url:"https://lulu.lv",cat:"生活服务",rating:4,price:"免费",kw:"Lulu Pizza 拉脱维亚本土披萨连锁，主营薄底披萨与意面，提供在线订餐配送",desc:"拉脱维亚本土披萨连锁，主营薄底披萨与意面，提供在线订餐配送",official:true,region:"LV",plat:"网页",icon:"lulu.lv.ico"}
+{name:"Lulu Pizza",url:"https://lulu.lv",cat:"生活服务",rating:4,price:"免费",kw:"Lulu Pizza 拉脱维亚本土披萨连锁，主营薄底披萨与意面，提供在线订餐配送",desc:"拉脱维亚本土披萨连锁，主营薄底披萨与意面，提供在线订餐配送",official:true,region:"LV",plat:"网页",icon:"lulu.lv.ico"},
+{name:"Veselības centrs 4",url:"https://vc4.lv",cat:"生活服务",rating:4,price:"免费",kw:"Veselības centrs 4 拉脱维亚里加大型私立医疗中心，主营多专科门诊、影像诊断与日间手术",desc:"拉脱维亚里加大型私立医疗中心，主营多专科门诊、影像诊断与日间手术",official:true,region:"LV",plat:"网页",icon:"vc4.lv.ico"},
+{name:"Aleris",url:"https://aleris.dk",cat:"生活服务",rating:4,price:"免费",kw:"Aleris 丹麦私立医院集团，主营骨科、外科手术与专科门诊服务",desc:"丹麦私立医院集团，主营骨科、外科手术与专科门诊服务",official:true,region:"DK",plat:"网页",icon:"aleris.dk.ico"},
+{name:"Volvat",url:"https://volvat.no",cat:"生活服务",rating:4,price:"免费",kw:"Volvat 挪威本土私立医疗连锁，主营专科门诊、小型手术与健康检查",desc:"挪威本土私立医疗连锁，主营专科门诊、小型手术与健康检查",official:true,region:"NO",plat:"网页",icon:"volvat.no.ico"}
 ];
