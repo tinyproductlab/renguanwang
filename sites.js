@@ -11750,6 +11750,5 @@ const SITES = [
 {name:"Kazuri",url:"https://kazuri.co.ke",cat:"购物消费",rating:4,price:"免费",kw:"kazuri kenya ceramic beads handmade",desc:"肯尼亚手工陶瓷珠宝品牌，内罗毕工坊彩陶串珠",official:true,region:"KE",plat:"网页",icon:"kazuri.co.ke.ico"},
 {name:"Daily Bread",url:"https://dailybread.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"daily bread auckland sourdough bakery",desc:"新西兰奥克兰手工烘焙品牌，酸面包与糕点",official:true,region:"NZ",plat:"网页",icon:"dailybread.co.nz.ico"},
 {name:"Vienna Bakery",url:"https://viennabakery.com",cat:"购物消费",rating:4,price:"免费",kw:"vienna bakery jersey bread cakes",desc:"泽西岛本土烘焙连锁，面包、蛋糕与熟食糕点",official:true,region:"JE",plat:"网页",icon:"viennabakery.com.ico"},
-{name:"LIV Fitness",url:"https://livfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"liv fitness puerto rico san juan gym",desc:"波多黎各健身连锁，圣胡安都会区综合训练与团课",official:true,region:"PR",plat:"网页",icon:"livfitness.com.ico"},
 {name:"People Fitness",url:"https://peoplefitness.eu",cat:"生活服务",rating:4,price:"免费",kw:"people fitness latvia riga gym",desc:"拉脱维亚健身连锁，里加器械训练与团课",official:true,region:"LV",plat:"网页",icon:"peoplefitness.eu.ico"}
 ];
