@@ -11745,5 +11745,11 @@ const SITES = [
 {name:"Epi d'Or",url:"https://epidor.com",cat:"生活服务",rating:4,price:"免费",kw:"epi dor haiti fast food patisserie",desc:"海地本土快餐与烘焙连锁，汉堡、披萨与糕点",official:true,region:"HT",plat:"网页",icon:"epidor.com.ico"},
 {name:"Jade Teriyaki",url:"https://jadeteriyaki.com",cat:"生活服务",rating:4,price:"免费",kw:"jade teriyaki republica dominicana",desc:"多米尼加日式快餐连锁，照烧饭食与亚洲风味",official:true,region:"DO",plat:"网页",icon:"jadeteriyaki.com.ico"},
 {name:"Turks Kebab",url:"https://turkskebab.com",cat:"生活服务",rating:4,price:"免费",kw:"turks kebab providenciales",desc:"特克斯和凯科斯烤肉快餐店，土耳其烤肉卷",official:true,region:"TC",plat:"网页",icon:"turkskebab.com.ico"},
-{name:"Pollo Pinulito",url:"https://pinulito.com",cat:"生活服务",rating:4,price:"免费",kw:"pollo pinulito guatemala",desc:"危地马拉炸鸡连锁，平价炸鸡套餐",official:true,region:"GT",plat:"网页",icon:"pinulito.com.ico"}
+{name:"Pollo Pinulito",url:"https://pinulito.com",cat:"生活服务",rating:4,price:"免费",kw:"pollo pinulito guatemala",desc:"危地马拉炸鸡连锁，平价炸鸡套餐",official:true,region:"GT",plat:"网页",icon:"pinulito.com.ico"},
+{name:"Little Switzerland",url:"https://littleswitzerland.com",cat:"购物消费",rating:4,price:"免费",kw:"little switzerland virgin islands jewelry watches",desc:"美属维尔京群岛加勒比免税珠宝连锁，钻石首饰与名表",official:true,region:"VI",plat:"网页",icon:"littleswitzerland.com.ico"},
+{name:"Kazuri",url:"https://kazuri.co.ke",cat:"购物消费",rating:4,price:"免费",kw:"kazuri kenya ceramic beads handmade",desc:"肯尼亚手工陶瓷珠宝品牌，内罗毕工坊彩陶串珠",official:true,region:"KE",plat:"网页",icon:"kazuri.co.ke.ico"},
+{name:"Daily Bread",url:"https://dailybread.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"daily bread auckland sourdough bakery",desc:"新西兰奥克兰手工烘焙品牌，酸面包与糕点",official:true,region:"NZ",plat:"网页",icon:"dailybread.co.nz.ico"},
+{name:"Vienna Bakery",url:"https://viennabakery.com",cat:"购物消费",rating:4,price:"免费",kw:"vienna bakery jersey bread cakes",desc:"泽西岛本土烘焙连锁，面包、蛋糕与熟食糕点",official:true,region:"JE",plat:"网页",icon:"viennabakery.com.ico"},
+{name:"LIV Fitness",url:"https://livfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"liv fitness puerto rico san juan gym",desc:"波多黎各健身连锁，圣胡安都会区综合训练与团课",official:true,region:"PR",plat:"网页",icon:"livfitness.com.ico"},
+{name:"People Fitness",url:"https://peoplefitness.eu",cat:"生活服务",rating:4,price:"免费",kw:"people fitness latvia riga gym",desc:"拉脱维亚健身连锁，里加器械训练与团课",official:true,region:"LV",plat:"网页",icon:"peoplefitness.eu.ico"}
 ];
