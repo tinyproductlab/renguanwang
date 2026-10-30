@@ -11921,5 +11921,14 @@ const SITES = [
 {name:"Small Hope Bay Lodge",url:"https://smallhope.com",cat:"购物消费",rating:4,price:"免费",kw:"海滨旅馆 small hope",desc:"巴哈马安德罗斯岛的海滨旅馆，主打骨鱼垂钓与潜水",official:true,region:"BS",plat:"网页",icon:"smallhope.com.ico"},
 {name:"Vedana Lagoon Resort & Spa",url:"https://vedanalagoon.com",cat:"购物消费",rating:4,price:"免费",kw:"度假村 vedana",desc:"越南顺化泻湖畔的水上别墅度假村，主打静谧湖景",official:true,region:"VN",plat:"网页",icon:"vedanalagoon.com.ico"},
 {name:"Betos",url:"https://betos.com.ar",cat:"生活服务",rating:4,price:"免费",kw:"三明治 betos",desc:"阿根廷本土洛米托三明治连锁，主营 lomito、汉堡与阿根廷风味快餐",official:true,region:"AR",plat:"网页",icon:"betos.com.ar.ico"},
-{name:"Burger Burger",url:"https://burgerburger.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 burger burger",desc:"新西兰本土汉堡连锁，主营牛肉汉堡、鸡肉堡与手工薯条",official:true,region:"NZ",plat:"网页",icon:"burgerburger.co.nz.ico"}
+{name:"Burger Burger",url:"https://burgerburger.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 burger burger",desc:"新西兰本土汉堡连锁，主营牛肉汉堡、鸡肉堡与手工薯条",official:true,region:"NZ",plat:"网页",icon:"burgerburger.co.nz.ico"},
+{name:"Devi Jewellers",url:"https://devijewellers.lk",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 devi",desc:"斯里兰卡本土珠宝品牌，主营 22K 黄金与宝石首饰",official:true,region:"LK",plat:"网页",icon:"devijewellers.lk.ico"},
+{name:"Donutes",url:"https://donutes.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 donutes",desc:"台湾连锁烘焙咖啡品牌多那之，主营面包、蛋糕与咖啡",official:true,region:"TW",plat:"网页",icon:"donutes.com.tw.ico"},
+{name:"King's Confectionery",url:"https://kings.com.my",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 kings",desc:"马来西亚本土烘焙连锁，主营面包、蛋糕与节日糕点",official:true,region:"MY",plat:"网页",icon:"kings.com.my.ico"},
+{name:"Charly's Bakery",url:"https://charlysbakery.co.za",cat:"购物消费",rating:4,price:"免费",kw:"蛋糕 charlys",desc:"南非开普敦知名彩虹风蛋糕房，主营杯子蛋糕与定制蛋糕",official:true,region:"ZA",plat:"网页",icon:"charlysbakery.co.za.ico"},
+{name:"Pie Face",url:"https://pieface.com.au",cat:"购物消费",rating:4,price:"免费",kw:"馅饼 pie face",desc:"澳大利亚馅饼连锁，主营现烤肉馅饼与咖啡",official:true,region:"AU",plat:"网页",icon:"pieface.com.au.ico"},
+{name:"Thumbay Hospital",url:"https://thumbayhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"医院 thumbay",desc:"阿联酋阿治曼的私立教学医院，隶属 Thumbay 医疗集团",official:true,region:"AE",plat:"网页",icon:"thumbayhospital.com.ico"},
+{name:"Clínica Santa María",url:"https://csantamaria.cl",cat:"生活服务",rating:4,price:"免费",kw:"医院 santa maria",desc:"智利圣地亚哥知名私立诊所医院，设有儿科与心血管中心",official:true,region:"CL",plat:"网页",icon:"csantamaria.cl.ico"},
+{name:"Able Gym",url:"https://ablegym.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"健身 able",desc:"韩国首尔本土健身连锁，主营器械训练与私教塑形课程",official:true,region:"KR",plat:"网页",icon:"ablegym.co.kr.ico"},
+{name:"Fitnessworks",url:"https://fitnessworks.co.id",cat:"生活服务",rating:4,price:"免费",kw:"健身 fitnessworks",desc:"印度尼西亚本土健身连锁，主营器械训练、团课与私教课程",official:true,region:"ID",plat:"网页",icon:"fitnessworks.co.id.ico"}
 ];
