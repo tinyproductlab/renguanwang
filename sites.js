@@ -11563,5 +11563,17 @@ const SITES = [
 {name:"The Retreat at Blue Lagoon",url:"https://bluelagoon.com",cat:"购物消费",rating:4,price:"免费",kw:"retreat blue lagoon 冰岛 蓝湖 酒店",desc:"冰岛蓝湖旁奢华精品酒店的官网，客房直面熔岩地貌与温泉湖。",official:true,region:"IS",plat:"网页",icon:"bluelagoon.com.ico"},
 {name:"The Siam Hotel",url:"https://thesiamhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"the siam 泰国 曼谷 精品酒店",desc:"泰国曼谷湄南河畔的独立奢华精品酒店官网，以古董收藏与私人泳池别墅著称。",official:true,region:"TH",plat:"网页",icon:"thesiamhotel.com.ico"},
 {name:"The Yeatman",url:"https://the-yeatman-hotel.com",cat:"购物消费",rating:4,price:"免费",kw:"the yeatman 葡萄牙 波尔图 葡萄酒 酒店",desc:"葡萄牙波尔图老城的葡萄酒主题奢华酒店官网，俯瞰杜罗河与酒窖。",official:true,region:"PT",plat:"网页",icon:"the-yeatman-hotel.com.ico"},
-{name:"Villa Dubrovnik",url:"https://villa-dubrovnik.hr",cat:"购物消费",rating:4,price:"免费",kw:"villa dubrovnik 克罗地亚 奢华酒店",desc:"克罗地亚杜布罗夫尼克海滨的现代奢华精品酒店官网，直面老城与洛克鲁姆岛。",official:true,region:"HR",plat:"网页",icon:"villa-dubrovnik.hr.ico"}
+{name:"Villa Dubrovnik",url:"https://villa-dubrovnik.hr",cat:"购物消费",rating:4,price:"免费",kw:"villa dubrovnik 克罗地亚 奢华酒店",desc:"克罗地亚杜布罗夫尼克海滨的现代奢华精品酒店官网，直面老城与洛克鲁姆岛。",official:true,region:"HR",plat:"网页",icon:"villa-dubrovnik.hr.ico"},
+{name:"Ciribelli",url:"https://ciribelli.com",cat:"购物消费",rating:4,price:"免费",kw:"ciribelli 摩纳哥 珠宝",desc:"摩纳哥本土老牌珠宝商的官网，主营高级珠宝与钻石首饰。",official:true,region:"MC",plat:"网页",icon:"ciribelli.com.ico"},
+{name:"Golden Crown",url:"https://goldencrown.me",cat:"购物消费",rating:4,price:"免费",kw:"golden crown 黑山 珠宝 连锁",desc:"黑山本土珠宝零售连锁的官网，主营金饰、钻石首饰与婚戒。",official:true,region:"ME",plat:"网页",icon:"goldencrown.me.ico"},
+{name:"Timor Plaza Jewellery",url:"https://timorplaza.com",cat:"购物消费",rating:4,price:"免费",kw:"timor plaza 东帝汶 珠宝",desc:"东帝汶本土珠宝零售商的官网，主营金饰与婚嫁首饰。",official:true,region:"TL",plat:"网页",icon:"timorplaza.com.ico"},
+{name:"Exclusive Jewellery",url:"https://exclusivejewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"exclusive jewellery 科索沃 珠宝",desc:"科索沃本土珠宝零售商的官网，主营黄金、钻石首饰与婚戒。",official:true,region:"XK",plat:"网页",icon:"exclusivejewellery.com.ico"},
+{name:"Dulcinella",url:"https://dulcinella.md",cat:"购物消费",rating:4,price:"免费",kw:"dulcinella 摩尔多瓦 烘焙 甜品",desc:"摩尔多瓦本土烘焙甜品连锁的官网，主营蛋糕、面包与节庆糕点。",official:true,region:"MD",plat:"网页",icon:"dulcinella.md.ico"},
+{name:"Pchela",url:"https://pchela.bg",cat:"购物消费",rating:4,price:"免费",kw:"pchela 保加利亚 糖果 糕点",desc:"保加利亚本土老牌糖果糕点连锁的官网，主营奶油蛋糕与传统甜点。",official:true,region:"BG",plat:"网页",icon:"pchela.bg.ico"},
+{name:"Al Hayat International Hospital",url:"https://alhayathospital.com",cat:"生活服务",rating:4,price:"免费",kw:"al hayat 阿曼 马斯喀特 私立医院",desc:"阿曼马斯喀特私立医院的官网，提供多专科诊疗与住院服务。",official:true,region:"OM",plat:"网页",icon:"alhayathospital.com.ico"},
+{name:"Hospital Vozandes",url:"https://hospitalvozandes.com",cat:"生活服务",rating:4,price:"免费",kw:"hospital vozandes 厄瓜多尔 基多 医院",desc:"厄瓜多尔基多私立医院的官网，提供综合与专科医疗服务。",official:true,region:"EC",plat:"网页",icon:"hospitalvozandes.com.ico"},
+{name:"Ittefaq Hospital",url:"https://ittefaqhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"ittefaq hospital 巴基斯坦 拉合尔 医院",desc:"巴基斯坦拉合尔私立综合医院的官网，提供急诊与多专科诊疗服务。",official:true,region:"PK",plat:"网页",icon:"ittefaqhospital.com.ico"},
+{name:"Myungsung Christian Medical Center",url:"https://myungsung.org",cat:"生活服务",rating:4,price:"免费",kw:"myungsung 埃塞俄比亚 亚的斯亚贝巴 医院",desc:"埃塞俄比亚亚的斯亚贝巴的韩系私立综合医院官网，提供多专科诊疗服务。",official:true,region:"ET",plat:"网页",icon:"myungsung.org.ico"},
+{name:"Specijalna bolnica AGRAM",url:"https://agram.hr",cat:"生活服务",rating:4,price:"免费",kw:"agram 克罗地亚 萨格勒布 专科医院",desc:"克罗地亚萨格勒布私立专科医院的官网，提供综合诊疗与日间手术服务。",official:true,region:"HR",plat:"网页",icon:"agram.hr.ico"},
+{name:"Euforie",url:"https://euforie.cz",cat:"生活服务",rating:4,price:"免费",kw:"euforie 捷克 布拉格 健身",desc:"捷克布拉格本土健身连锁的官网，主营器械训练与精品团课。",official:true,region:"CZ",plat:"网页",icon:"euforie.cz.ico"}
 ];
