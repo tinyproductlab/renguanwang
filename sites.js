@@ -11280,5 +11280,13 @@ const SITES = [
 {name:"Polyclinique Internationale Sainte Anne-Marie",url:"https://www.groupepisam.com",cat:"生活服务",rating:4,price:"免费",kw:"pisam 诊所 科特迪瓦 官网",desc:"科特迪瓦阿比让大型私立综合诊所官网（PISAM），主营多专科诊疗、妇产与住院服务",official:true,region:"CI",plat:"网页",icon:"www.groupepisam.com.ico"},
 {name:"Nemocnica Bory",url:"https://nemocnica-bory.sk",cat:"生活服务",rating:4,price:"免费",kw:"nemocnica bory 医院 斯洛伐克 官网",desc:"斯洛伐克布拉迪斯拉发现代化私立综合医院官网，主营多专科诊疗、妇产与手术",official:true,region:"SK",plat:"网页",icon:"nemocnica-bory.sk.ico"},
 {name:"Hers",url:"https://hersegypt.com",cat:"生活服务",rating:4,price:"免费",kw:"hers 健身 埃及 官网",desc:"埃及女性专属健身连锁官网，主营团课、私教与营养管理",official:true,region:"EG",plat:"网页",icon:"hersegypt.com.ico"},
-{name:"Engenharia do Corpo",url:"https://www.engenhariadocorpo.com.br",cat:"生活服务",rating:4,price:"免费",kw:"engenharia do corpo 健身 巴西 官网",desc:"巴西本土健身连锁官网，主营器械训练与团体课程",official:true,region:"BR",plat:"网页",icon:"www.engenhariadocorpo.com.br.ico"}
+{name:"Engenharia do Corpo",url:"https://www.engenhariadocorpo.com.br",cat:"生活服务",rating:4,price:"免费",kw:"engenharia do corpo 健身 巴西 官网",desc:"巴西本土健身连锁官网，主营器械训练与团体课程",official:true,region:"BR",plat:"网页",icon:"www.engenhariadocorpo.com.br.ico"},
+{name:"AO76",url:"https://www.ao76.com",cat:"购物消费",rating:4,price:"免费",kw:"ao76 童装 比利时 官网",desc:"比利时童装品牌官网，主营 0 至 16 岁儿童时尚服饰并运营官方商城",official:true,region:"BE",plat:"网页",icon:"www.ao76.com.ico"},
+{name:"Träumeland",url:"https://www.traeumeland.com",cat:"购物消费",rating:4,price:"免费",kw:"träumeland 婴幼儿 奥地利 官网",desc:"奥地利婴幼儿睡眠品牌官网，主营婴儿床垫、睡袋与床品",official:true,region:"AT",plat:"网页",icon:"www.traeumeland.com.ico"},
+{name:"Familia",url:"https://www.familia.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"familia 婴幼儿 日本 官网",desc:"日本高端婴幼儿品牌官网，主营新生儿服饰、孕妇装与童装",official:true,region:"JP",plat:"网页",icon:"www.familia.co.jp.ico"},
+{name:"Piyopiyo",url:"https://piyopiyo.com",cat:"购物消费",rating:4,price:"免费",kw:"piyopiyo 黄色小鸭 母婴 台湾 官网",desc:"台湾母婴品牌官网（黄色小鸭），主营奶瓶、固齿器与婴幼儿日用品",official:true,region:"TW",plat:"网页",icon:"piyopiyo.com.ico"},
+{name:"Eyecare Plus",url:"https://www.eyecareplus.com.au",cat:"购物消费",rating:4,price:"免费",kw:"eyecare plus 眼镜 澳大利亚 官网",desc:"澳大利亚验光师连锁网络官网，主营验光配镜、镜框与隐形眼镜",official:true,region:"AU",plat:"网页",icon:"www.eyecareplus.com.au.ico"},
+{name:"Four Seasons Hotel Limassol",url:"https://www.fourseasons.com.cy",cat:"购物消费",rating:4,price:"免费",kw:"four seasons limassol 酒店 塞浦路斯 官网",desc:"塞浦路斯利马索尔独立家族经营豪华海滨酒店官网",official:true,region:"CY",plat:"网页",icon:"www.fourseasons.com.cy.ico"},
+{name:"Ovolo Hotels",url:"https://www.ovolohotels.com",cat:"购物消费",rating:4,price:"免费",kw:"ovolo hotels 酒店 澳大利亚 官网",desc:"澳大利亚精品酒店集团官网，运营悉尼、墨尔本等地设计酒店",official:true,region:"AU",plat:"网页",icon:"www.ovolohotels.com.ico"},
+{name:"Flunch",url:"https://www.flunch.fr",cat:"生活服务",rating:4,price:"免费",kw:"flunch 快餐 法国 官网",desc:"法国自助式快休闲连锁官网，主营烤肉、意面与沙拉自助",official:true,region:"FR",plat:"网页",icon:"www.flunch.fr.ico"}
 ];
