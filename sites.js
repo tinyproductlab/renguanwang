@@ -11399,5 +11399,10 @@ const SITES = [
 {name:"John F. Kennedy Medical Center",url:"https://jfkmc.gov.lr",cat:"生活服务",rating:4,price:"免费",kw:"jfk medical center 利比里亚 医院",desc:"利比里亚蒙罗维亚国家级综合医疗中心的官网。",official:true,region:"LR",plat:"网页",icon:"jfkmc.gov.lr.ico"},
 {name:"Medland Hospital",url:"https://medlandhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"medland hospital 赞比亚 卢萨卡 医院",desc:"赞比亚卢萨卡私立综合医院，主营专科诊疗与手术的官网。",official:true,region:"ZM",plat:"网页",icon:"medlandhospital.com.ico"},
 {name:"Hanh Phuc International Hospital",url:"https://hanhphuchospital.com",cat:"生活服务",rating:4,price:"免费",kw:"hanh phuc hospital 越南 幸福医院 妇产",desc:"越南平阳私立国际医院，主营妇产与儿科的官网。",official:true,region:"VN",plat:"网页",icon:"hanhphuchospital.com.ico"},
-{name:"SKY Fitness",url:"https://skyfitness.no",cat:"生活服务",rating:4,price:"免费",kw:"sky fitness 挪威 健身房",desc:"挪威本土平价健身连锁，主营器械训练与团体课程的官网。",official:true,region:"NO",plat:"网页",icon:"skyfitness.no.ico"}
+{name:"SKY Fitness",url:"https://skyfitness.no",cat:"生活服务",rating:4,price:"免费",kw:"sky fitness 挪威 健身房",desc:"挪威本土平价健身连锁，主营器械训练与团体课程的官网。",official:true,region:"NO",plat:"网页",icon:"skyfitness.no.ico"},
+{name:"Sunshine Suites Resort",url:"https://sunshinesuites.com",cat:"购物消费",rating:4,price:"免费",kw:"sunshine suites resort 开曼 七英里海滩 酒店",desc:"开曼群岛大开曼岛七英里海滩附近的本土精品度假酒店官网。",official:true,region:"KY",plat:"网页",icon:"sunshinesuites.com.ico"},
+{name:"Gondwana Hotel",url:"https://gondwanahotel.nc",cat:"购物消费",rating:4,price:"免费",kw:"gondwana hotel 新喀里多尼亚 努美阿 酒店",desc:"新喀里多尼亚努美阿的本土酒店，法式殖民风格建筑的官网。",official:true,region:"NC",plat:"网页",icon:"gondwanahotel.nc.ico"},
+{name:"Hotel Kia Ora Resort & Spa",url:"https://hotelkiaora.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel kia ora 法属波利尼西亚 伦吉拉 度假村",desc:"法属波利尼西亚伦吉拉环礁的海滩度假村官网。",official:true,region:"PF",plat:"网页",icon:"hotelkiaora.com.ico"},
+{name:"Saletoga Sands Resort & Spa",url:"https://saletogasands.com",cat:"购物消费",rating:4,price:"免费",kw:"saletoga sands 萨摩亚 度假村",desc:"萨摩亚乌波卢岛南岸的本土海滩度假村官网。",official:true,region:"WS",plat:"网页",icon:"saletogasands.com.ico"},
+{name:"Crown & Champa Resorts",url:"https://crownandchamparesorts.com",cat:"购物消费",rating:4,price:"免费",kw:"crown champa resorts 马尔代夫 度假村集团",desc:"马尔代夫本土度假村集团，运营多个岛屿度假村的官网。",official:true,region:"MV",plat:"网页",icon:"crownandchamparesorts.com.ico"}
 ];
