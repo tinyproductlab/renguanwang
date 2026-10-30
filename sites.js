@@ -11042,7 +11042,6 @@ const SITES = [
 {name:"Anna + Nina",url:"https://annanina.com",cat:"购物消费",rating:4,price:"免费",kw:"Anna + Nina 荷兰本土珠宝配饰品牌，主营金银首饰与叠戴系列并运营官网商城",desc:"荷兰本土珠宝配饰品牌，主营金银首饰与叠戴系列并运营官网商城",official:true,region:"NL",plat:"网页",icon:"annanina.com.ico"},
 {name:"Maanesten",url:"https://maanesten.com",cat:"购物消费",rating:4,price:"免费",kw:"Maanesten 丹麦本土珠宝品牌，主营手工感金银首饰与宝石系列并运营官网商城",desc:"丹麦本土珠宝品牌，主营手工感金银首饰与宝石系列并运营官网商城",official:true,region:"DK",plat:"网页",icon:"maanesten.com.ico"},
 {name:"Première Moisson",url:"https://premieremoisson.com",cat:"购物消费",rating:4,price:"免费",kw:"Première Moisson 魁北克法式面包连锁，主营乡村面包、可颂与熟食轻食",desc:"魁北克法式面包连锁，主营乡村面包、可颂与熟食轻食",official:true,region:"CA",plat:"网页",icon:"premieremoisson.com.ico"},
-{name:"Venetis",url:"https://venetis.gr",cat:"购物消费",rating:4,price:"免费",kw:"Venetis 希腊本土烘焙连锁，主营希腊馅饼、面包与咖啡轻食",desc:"希腊本土烘焙连锁，主营希腊馅饼、面包与咖啡轻食",official:true,region:"GR",plat:"网页",icon:"venetis.gr.ico"},
 {name:"Bushe",url:"https://bushe.ru",cat:"购物消费",rating:4,price:"免费",kw:"Bushe 圣彼得堡面包咖啡连锁，主营法式酥点、蛋糕与现烤面包",desc:"圣彼得堡面包咖啡连锁，主营法式酥点、蛋糕与现烤面包",official:true,region:"RU",plat:"网页",icon:"bushe.ru.ico"},
 {name:"Herzliya Medical Center",url:"https://hmc.co.il",cat:"生活服务",rating:4,price:"免费",kw:"Herzliya Medical Center 以色列赫兹利亚知名私立医院，主营多专科手术与国际患者服务",desc:"以色列赫兹利亚知名私立医院，主营多专科手术与国际患者服务",official:true,region:"IL",plat:"网页",icon:"hmc.co.il.ico"},
 {name:"Klíníkin Ármúla",url:"https://klinikin.is",cat:"生活服务",rating:4,price:"免费",kw:"Klíníkin Ármúla 冰岛雷克雅未克私立专科诊所，主营外科手术与多专科门诊",desc:"冰岛雷克雅未克私立专科诊所，主营外科手术与多专科门诊",official:true,region:"IS",plat:"网页",icon:"klinikin.is.ico"},
