@@ -11858,5 +11858,11 @@ const SITES = [
 {name:"Walindi Plantation Resort",url:"https://walindiresort.com",cat:"购物消费",rating:4,price:"免费",kw:"潜水度假 walindi",desc:"巴布亚新几内亚金贝湾畔的家族经营潜水度假村，世界级珊瑚礁潜点门户",official:true,region:"PG",plat:"网页",icon:"walindiresort.com.ico"},
 {name:"Amorita Resort Bohol",url:"https://amoritaresort.com",cat:"购物消费",rating:4,price:"免费",kw:"度假村 amorita",desc:"菲律宾保和岛邦劳悬崖上的独立精品度假村，俯瞰阿罗纳海滩",official:true,region:"PH",plat:"网页",icon:"amoritaresort.com.ico"},
 {name:"Zooba",url:"https://zoobaeats.com",cat:"生活服务",rating:4,price:"免费",kw:"埃及小吃 zooba",desc:"埃及本土街头小吃连锁，主营鹰嘴豆饼、埃及面饼与传统小吃",official:true,region:"EG",plat:"网页",icon:"zoobaeats.com.ico"},
-{name:"Kenchic",url:"https://kenchic.com",cat:"生活服务",rating:4,price:"免费",kw:"炸鸡 kenchic",desc:"肯尼亚本土炸鸡快餐连锁，主营炸鸡、薯条与烤鸡套餐",official:true,region:"KE",plat:"网页",icon:"kenchic.com.ico"}
+{name:"Kenchic",url:"https://kenchic.com",cat:"生活服务",rating:4,price:"免费",kw:"炸鸡 kenchic",desc:"肯尼亚本土炸鸡快餐连锁，主营炸鸡、薯条与烤鸡套餐",official:true,region:"KE",plat:"网页",icon:"kenchic.com.ico"},
+{name:"Riddhi Siddhi Jewellers",url:"https://riddhisiddhijewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 riddhi siddhi",desc:"尼泊尔本土珠宝商，主营黄金与钻石饰品",official:true,region:"NP",plat:"网页",icon:"riddhisiddhijewellers.com.ico"},
+{name:"Mister Baker",url:"https://misterbaker.com",cat:"购物消费",rating:4,price:"免费",kw:"蛋糕 mister baker",desc:"阿联酋本土蛋糕烘焙连锁，主营定制蛋糕与西点",official:true,region:"AE",plat:"网页",icon:"misterbaker.com.ico"},
+{name:"Yanhee Hospital",url:"https://yanhee.net",cat:"生活服务",rating:4,price:"免费",kw:"医院 yanhee",desc:"泰国曼谷私立综合医院，以综合诊疗与整形美容服务闻名",official:true,region:"TH",plat:"网页",icon:"yanhee.net.ico"},
+{name:"De Los Santos Medical Center",url:"https://delossantosmed.ph",cat:"生活服务",rating:4,price:"免费",kw:"医院 de los santos",desc:"菲律宾奎松市私立综合医院，以骨科与康复服务见长",official:true,region:"PH",plat:"网页",icon:"delossantosmed.ph.ico"},
+{name:"Epworth Healthcare",url:"https://epworth.org.au",cat:"生活服务",rating:4,price:"免费",kw:"医院 epworth",desc:"澳大利亚维多利亚州私立非营利医疗集团，运营多家专科医院",official:true,region:"AU",plat:"网页",icon:"epworth.org.au.ico"},
+{name:"Allevia Hospitals",url:"https://alleviahospitals.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"医院 allevia",desc:"新西兰奥克兰私立外科医疗集团（原 MercyAscot 更名），旗下设有 Mercy 与 Ascot 院区",official:true,region:"NZ",plat:"网页",icon:"alleviahospitals.co.nz.ico"}
 ];
