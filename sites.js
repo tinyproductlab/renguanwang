@@ -11880,5 +11880,18 @@ const SITES = [
 {name:"Emperor Jewellery",url:"https://emperorwatchjewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 英皇 emperor",desc:"香港英皇集团旗下珠宝品牌，主营钻石、黄金与翡翠饰品",official:true,region:"HK",plat:"网页",icon:"emperorwatchjewellery.com.ico"},
 {name:"馬可先生 Mr. Mark",url:"https://mrmark.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"面包 馬可先生",desc:"台湾本土有机烘焙连锁，主营杂粮面包与健康糕点",official:true,region:"TW",plat:"网页",icon:"mrmark.com.tw.ico"},
 {name:"Tere Cazola",url:"https://terecazola.com",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 tere cazola",desc:"墨西哥尤卡坦本土烘焙连锁，主营法式酥点与地方甜面包",official:true,region:"MX",plat:"网页",icon:"terecazola.com.ico"},
-{name:"Dr. Ziauddin Hospital",url:"https://ziauddinhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"医院 ziauddin",desc:"巴基斯坦卡拉奇的私立大学附属医院网络，设有多家院区与专科中心",official:true,region:"PK",plat:"网页",icon:"ziauddinhospital.com.ico"}
+{name:"Dr. Ziauddin Hospital",url:"https://ziauddinhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"医院 ziauddin",desc:"巴基斯坦卡拉奇的私立大学附属医院网络，设有多家院区与专科中心",official:true,region:"PK",plat:"网页",icon:"ziauddinhospital.com.ico"},
+{name:"Penduline",url:"https://penduline.com",cat:"购物消费",rating:4,price:"免费",kw:"儿童护理 penduline",desc:"埃及本土儿童护理品牌，主营儿童洗发、护发用品",official:true,region:"EG",plat:"网页",icon:"penduline.com.ico"},
+{name:"Maternelle",url:"https://maternelle.pe",cat:"购物消费",rating:4,price:"免费",kw:"母婴 maternelle",desc:"秘鲁本土母婴用品品牌，主营孕产、哺乳与婴儿护理用品",official:true,region:"PE",plat:"网页",icon:"maternelle.pe.ico"},
+{name:"Tigres",url:"https://tigres.ua",cat:"购物消费",rating:4,price:"免费",kw:"玩具 tigres",desc:"乌克兰本土玩具制造商，主营婴幼儿塑料玩具与戏水用品",official:true,region:"UA",plat:"网页",icon:"tigres.ua.ico"},
+{name:"Kính Mắt Lily",url:"https://kinhmatlily.com",cat:"购物消费",rating:4,price:"免费",kw:"眼镜 lily",desc:"越南本土时尚眼镜连锁，主营验光、镜架与镜片",official:true,region:"VN",plat:"网页",icon:"kinhmatlily.com.ico"},
+{name:"Lopez Optical",url:"https://lopezoptical.com",cat:"购物消费",rating:4,price:"免费",kw:"眼镜 lopez",desc:"巴拿马本土眼镜零售商，主营镜片定制与验光配镜",official:true,region:"PA",plat:"网页",icon:"lopezoptical.com.ico"},
+{name:"Óptica Express",url:"https://opticaexpress.hn",cat:"购物消费",rating:4,price:"免费",kw:"眼镜 express",desc:"洪都拉斯本土眼镜零售商，主营验光配镜与镜架镜片",official:true,region:"HN",plat:"网页",icon:"opticaexpress.hn.ico"},
+{name:"The Anam Cam Ranh",url:"https://theanam.com",cat:"购物消费",rating:4,price:"免费",kw:"酒店 anam",desc:"越南金兰湾的海滨度假村，以殖民风格建筑与长滩著称",official:true,region:"VN",plat:"网页",icon:"theanam.com.ico"},
+{name:"The Hide Safari Camp",url:"https://thehide.com",cat:"购物消费",rating:4,price:"免费",kw:"游猎营地 hide",desc:"津巴布韦万基国家公园边缘的独立游猎营地，主打帐篷营地与水坑观兽",official:true,region:"ZW",plat:"网页",icon:"thehide.com.ico"},
+{name:"Limalimo Lodge",url:"https://limalimolodge.com",cat:"购物消费",rating:4,price:"免费",kw:"生态旅馆 limalimo",desc:"埃塞俄比亚塞米恩山边缘的生态小屋，主打徒步与社区旅游",official:true,region:"ET",plat:"网页",icon:"limalimolodge.com.ico"},
+{name:"Saravana Bhavan",url:"https://saravanabhavan.com",cat:"生活服务",rating:4,price:"免费",kw:"印度餐 saravana",desc:"印度本土南印度素食餐饮连锁，主营多萨饼与南印套餐",official:true,region:"IN",plat:"网页",icon:"saravanabhavan.com.ico"},
+{name:"The Chicken Rice Shop",url:"https://thechickenriceshop.com",cat:"生活服务",rating:4,price:"免费",kw:"鸡饭 chicken rice",desc:"马来西亚本土鸡饭连锁，主营海南鸡饭与本地风味套餐",official:true,region:"MY",plat:"网页",icon:"thechickenriceshop.com.ico"},
+{name:"Laya Burger",url:"https://laya.com.tw",cat:"生活服务",rating:4,price:"免费",kw:"早餐 拉亞漢堡",desc:"台湾本土早餐汉堡连锁，主营汉堡、蛋饼与炸鸡套餐",official:true,region:"TW",plat:"网页",icon:"laya.com.tw.ico"},
+{name:"Melt Pizzas",url:"https://meltpizzas.com",cat:"生活服务",rating:4,price:"免费",kw:"披萨 melt",desc:"智利本土披萨连锁，主营披萨、意面与小吃",official:true,region:"CL",plat:"网页",icon:"meltpizzas.com.ico"}
 ];
