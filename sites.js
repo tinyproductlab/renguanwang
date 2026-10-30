@@ -11458,7 +11458,6 @@ const SITES = [
 {name:"BabyCare.lk",url:"https://babycare.lk",cat:"购物消费",rating:4,price:"免费",kw:"babycare 斯里兰卡 母婴 电商",desc:"斯里兰卡本土母婴电商，主营婴儿食品、尿布与婴童用品的官网商城。",official:true,region:"LK",plat:"网页",icon:"babycare.lk.ico"},
 {name:"Baby Care Cambodia",url:"https://babycarecambodia.com",cat:"购物消费",rating:4,price:"免费",kw:"baby care cambodia 柬埔寨 母婴",desc:"柬埔寨本土母婴用品店，主营婴儿食品、护理用品与婴童用品的官网商城。",official:true,region:"KH",plat:"网页",icon:"babycarecambodia.com.ico"},
 {name:"The Mom Store",url:"https://themomstore.in",cat:"购物消费",rating:4,price:"免费",kw:"the mom store 印度 孕产 母婴",desc:"印度本土孕产母婴品牌，主营孕妇装、哺乳用品与婴儿用品的官网商城。",official:true,region:"IN",plat:"网页",icon:"themomstore.in.ico"},
-{name:"Eyewish Opticiens",url:"https://eyewish.com",cat:"购物消费",rating:4,price:"免费",kw:"eyewish 荷兰 眼镜 验光",desc:"荷兰本土眼镜零售连锁，主营验光、框架眼镜与隐形眼镜的官网商城。",official:true,region:"NL",plat:"网页",icon:"eyewish.com.ico"},
 {name:"Vision Express Ireland",url:"https://visionexpress.ie",cat:"购物消费",rating:4,price:"免费",kw:"vision express 爱尔兰 眼镜",desc:"爱尔兰眼镜零售连锁，主营验光配镜、框架眼镜与太阳镜的官网商城。",official:true,region:"IE",plat:"网页",icon:"visionexpress.ie.ico"},
 {name:"Hôtel 2 Février",url:"https://2fevrier.com",cat:"购物消费",rating:4,price:"免费",kw:"hôtel 2 février 多哥 洛美 地标酒店",desc:"多哥洛美的地标高层酒店官网，集客房、会议与全景餐厅于一体。",official:true,region:"TG",plat:"网页",icon:"2fevrier.com.ico"},
 {name:"Hotel Club du Lac Tanganyika",url:"https://hotelclubdulac.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel club du lac tanganyika 布隆迪 湖畔酒店",desc:"布隆迪布琼布拉坦噶尼喀湖畔的度假酒店官网。",official:true,region:"BI",plat:"网页",icon:"hotelclubdulac.com.ico"},
