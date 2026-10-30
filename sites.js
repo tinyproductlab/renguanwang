@@ -11502,5 +11502,11 @@ const SITES = [
 {name:"Boom Burgers",url:"https://boomburgers.bg",cat:"生活服务",rating:4,price:"免费",kw:"boom burgers 保加利亚 汉堡 连锁",desc:"保加利亚本土汉堡连锁，主营手工牛肉汉堡与精酿啤酒的官网。",official:true,region:"BG",plat:"网页",icon:"boomburgers.bg.ico"},
 {name:"Bagelstein",url:"https://bagelstein.com",cat:"生活服务",rating:4,price:"免费",kw:"bagelstein 法国 贝果 连锁",desc:"法国本土贝果连锁，主营贝果三明治、沙拉与咖啡的官网商城。",official:true,region:"FR",plat:"网页",icon:"bagelstein.com.ico"},
 {name:"Carré Jewellery",url:"https://carre.dk",cat:"购物消费",rating:4,price:"免费",kw:"carré jewellery 丹麦 哥本哈根 珠宝",desc:"丹麦哥本哈根本土珠宝品牌，主营手工金饰与彩色宝石首饰的官网商城。",official:true,region:"DK",plat:"网页",icon:"carre.dk.ico"},
-{name:"Legacy Clinics",url:"https://legacyclinics.rw",cat:"生活服务",rating:4,price:"免费",kw:"legacy clinics 卢旺达 基加利 私立诊所",desc:"卢旺达基加利私立诊所集团的官网，提供综合门诊、影像与检验服务。",official:true,region:"RW",plat:"网页",icon:"legacyclinics.rw.ico"}
+{name:"Legacy Clinics",url:"https://legacyclinics.rw",cat:"生活服务",rating:4,price:"免费",kw:"legacy clinics 卢旺达 基加利 私立诊所",desc:"卢旺达基加利私立诊所集团的官网，提供综合门诊、影像与检验服务。",official:true,region:"RW",plat:"网页",icon:"legacyclinics.rw.ico"},
+{name:"Blukids",url:"https://blukids.com",cat:"购物消费",rating:4,price:"免费",kw:"blukids 克罗地亚 婴童服饰",desc:"克罗地亚市场婴童服饰品牌的官网商城，主营婴儿服饰、童装与儿童配饰。",official:true,region:"HR",plat:"网页",icon:"blukids.com.ico"},
+{name:"Kaneko Optical",url:"https://kaneko.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"kaneko optical 金子眼镜 日本 手工眼镜",desc:"日本本土手工眼镜品牌的官网商城，主营自有设计镜框与直营门店。",official:true,region:"JP",plat:"网页",icon:"kaneko.co.jp.ico"},
+{name:"Hansa Hotel",url:"https://hansa-hotel.com",cat:"购物消费",rating:4,price:"免费",kw:"hansa hotel 纳米比亚 斯瓦科普蒙德 历史酒店",desc:"纳米比亚斯瓦科普蒙德的百年历史酒店官网，开业于1905年。",official:true,region:"NA",plat:"网页",icon:"hansa-hotel.com.ico"},
+{name:"Latitude 0°",url:"https://latitude0.com",cat:"购物消费",rating:4,price:"免费",kw:"latitude 0 乌干达 坎帕拉 精品酒店",desc:"乌干达坎帕拉马金迪山区的精品设计酒店官网，以非洲当代艺术装饰为特色。",official:true,region:"UG",plat:"网页",icon:"latitude0.com.ico"},
+{name:"The Walled Off Hotel",url:"https://walledoffhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"walled off hotel 巴勒斯坦 伯利恒 班克斯",desc:"巴勒斯坦伯利恒紧邻隔离墙的精品酒店官网，以班克斯的艺术设计闻名。",official:true,region:"PS",plat:"网页",icon:"walledoffhotel.com.ico"},
+{name:"Joma Bakery Café",url:"https://joma.biz",cat:"生活服务",rating:4,price:"免费",kw:"joma bakery cafe 老挝 烘焙咖啡",desc:"老挝本土烘焙咖啡连锁的官网，主营咖啡、面包与西式简餐。",official:true,region:"LA",plat:"网页",icon:"joma.biz.ico"}
 ];
