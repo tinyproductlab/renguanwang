@@ -11893,5 +11893,13 @@ const SITES = [
 {name:"Saravana Bhavan",url:"https://saravanabhavan.com",cat:"生活服务",rating:4,price:"免费",kw:"印度餐 saravana",desc:"印度本土南印度素食餐饮连锁，主营多萨饼与南印套餐",official:true,region:"IN",plat:"网页",icon:"saravanabhavan.com.ico"},
 {name:"The Chicken Rice Shop",url:"https://thechickenriceshop.com",cat:"生活服务",rating:4,price:"免费",kw:"鸡饭 chicken rice",desc:"马来西亚本土鸡饭连锁，主营海南鸡饭与本地风味套餐",official:true,region:"MY",plat:"网页",icon:"thechickenriceshop.com.ico"},
 {name:"Laya Burger",url:"https://laya.com.tw",cat:"生活服务",rating:4,price:"免费",kw:"早餐 拉亞漢堡",desc:"台湾本土早餐汉堡连锁，主营汉堡、蛋饼与炸鸡套餐",official:true,region:"TW",plat:"网页",icon:"laya.com.tw.ico"},
-{name:"Melt Pizzas",url:"https://meltpizzas.com",cat:"生活服务",rating:4,price:"免费",kw:"披萨 melt",desc:"智利本土披萨连锁，主营披萨、意面与小吃",official:true,region:"CL",plat:"网页",icon:"meltpizzas.com.ico"}
+{name:"Melt Pizzas",url:"https://meltpizzas.com",cat:"生活服务",rating:4,price:"免费",kw:"披萨 melt",desc:"智利本土披萨连锁，主营披萨、意面与小吃",official:true,region:"CL",plat:"网页",icon:"meltpizzas.com.ico"},
+{name:"Shwe Nan Taw",url:"https://shwenantaw.com",cat:"购物消费",rating:4,price:"免费",kw:"金饰 shwe nan taw",desc:"缅甸本土金饰珠宝商，主营黄金、翡翠与宝石首饰",official:true,region:"MM",plat:"网页",icon:"shwenantaw.com.ico"},
+{name:"Taka Jewellery",url:"https://takajewellery.com.sg",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 taka",desc:"新加坡本土珠宝零售品牌，主营黄金与钻石首饰",official:true,region:"SG",plat:"网页",icon:"takajewellery.com.sg.ico"},
+{name:"Banjo's",url:"https://banjos.com.au",cat:"购物消费",rating:4,price:"免费",kw:"面包房 banjos",desc:"澳大利亚塔斯马尼亚起家的连锁面包房，主营馅饼与羊角面包",official:true,region:"AU",plat:"网页",icon:"banjos.com.au.ico"},
+{name:"Modern Bakery",url:"https://modernbakery.com",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 modern",desc:"阿联酋迪拜大型烘焙品牌，供应阿拉伯面包与各式西点",official:true,region:"AE",plat:"网页",icon:"modernbakery.com.ico"},
+{name:"Al Emadi Hospital",url:"https://alemadihospital.com.qa",cat:"生活服务",rating:4,price:"免费",kw:"医院 emadi",desc:"卡塔尔多哈的私立综合医院，提供专科诊疗与住院服务",official:true,region:"QA",plat:"网页",icon:"alemadihospital.com.qa.ico"},
+{name:"Assunta Hospital",url:"https://assunta.com.my",cat:"生活服务",rating:4,price:"免费",kw:"医院 assunta",desc:"马来西亚八打灵再也的老牌非营利私立医院",official:true,region:"MY",plat:"网页",icon:"assunta.com.my.ico"},
+{name:"Medcare Hospitals",url:"https://medcare.ae",cat:"生活服务",rating:4,price:"免费",kw:"医院 medcare",desc:"阿联酋本土私立医疗集团，在迪拜与沙迦设有医院与诊所",official:true,region:"AE",plat:"网页",icon:"medcare.ae.ico"},
+{name:"OxFitness Lab",url:"https://oxfitnesslab.com",cat:"生活服务",rating:4,price:"免费",kw:"健身 oxfitness",desc:"卡塔尔多哈的精品健身工作室，主营私教与功能性训练",official:true,region:"QA",plat:"网页",icon:"oxfitnesslab.com.ico"}
 ];
