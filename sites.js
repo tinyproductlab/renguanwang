@@ -11876,5 +11876,9 @@ const SITES = [
 {name:"Ol Malo",url:"https://olmalo.com",cat:"购物消费",rating:4,price:"免费",kw:"游猎庄园 ol malo",desc:"肯尼亚莱基皮亚高原的家族经营游猎庄园，可骑马和徒步观野生动物",official:true,region:"KE",plat:"网页",icon:"olmalo.com.ico"},
 {name:"White Pearl Resorts",url:"https://whitepearlresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"海滩度假 white pearl",desc:"莫桑比克南部蓬塔马蒙内海岸的独立白沙度假村，别墅散布于沙丘林间",official:true,region:"MZ",plat:"网页",icon:"whitepearlresorts.com.ico"},
 {name:"Pickl",url:"https://eatpickl.com",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 pickl",desc:"阿联酋迪拜本土汉堡品牌，主营砸牛肉汉堡与炸鸡堡",official:true,region:"AE",plat:"网页",icon:"eatpickl.com.ico"},
-{name:"Tsui Wah",url:"https://tsuiwah.com",cat:"生活服务",rating:4,price:"免费",kw:"茶餐厅 翠华 tsui wah",desc:"香港本土茶餐厅连锁，主营港式快餐、奶茶与烧味饭",official:true,region:"HK",plat:"网页",icon:"tsuiwah.com.ico"}
+{name:"Tsui Wah",url:"https://tsuiwah.com",cat:"生活服务",rating:4,price:"免费",kw:"茶餐厅 翠华 tsui wah",desc:"香港本土茶餐厅连锁，主营港式快餐、奶茶与烧味饭",official:true,region:"HK",plat:"网页",icon:"tsuiwah.com.ico"},
+{name:"Emperor Jewellery",url:"https://emperorwatchjewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 英皇 emperor",desc:"香港英皇集团旗下珠宝品牌，主营钻石、黄金与翡翠饰品",official:true,region:"HK",plat:"网页",icon:"emperorwatchjewellery.com.ico"},
+{name:"馬可先生 Mr. Mark",url:"https://mrmark.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"面包 馬可先生",desc:"台湾本土有机烘焙连锁，主营杂粮面包与健康糕点",official:true,region:"TW",plat:"网页",icon:"mrmark.com.tw.ico"},
+{name:"Tere Cazola",url:"https://terecazola.com",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 tere cazola",desc:"墨西哥尤卡坦本土烘焙连锁，主营法式酥点与地方甜面包",official:true,region:"MX",plat:"网页",icon:"terecazola.com.ico"},
+{name:"Dr. Ziauddin Hospital",url:"https://ziauddinhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"医院 ziauddin",desc:"巴基斯坦卡拉奇的私立大学附属医院网络，设有多家院区与专科中心",official:true,region:"PK",plat:"网页",icon:"ziauddinhospital.com.ico"}
 ];
