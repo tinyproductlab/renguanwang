@@ -11585,5 +11585,13 @@ const SITES = [
 {name:"Estancia Vik",url:"https://estanciavik.com",cat:"购物消费",rating:4,price:"免费",kw:"estancia vik 乌拉圭 庄园酒店",desc:"乌拉圭何塞伊格纳西奥艺术庄园酒店的官网。",official:true,region:"UY",plat:"网页",icon:"estanciavik.com.ico"},
 {name:"Longitude 131°",url:"https://longitude131.com.au",cat:"购物消费",rating:4,price:"免费",kw:"longitude 131 澳大利亚 乌鲁鲁 沙漠营地",desc:"澳大利亚乌鲁鲁旁沙漠帐篷奢华营地的官网。",official:true,region:"AU",plat:"网页",icon:"longitude131.com.au.ico"},
 {name:"Døgnvill Burger",url:"https://dognvillburger.no",cat:"生活服务",rating:4,price:"免费",kw:"dognvill 挪威 汉堡 连锁",desc:"挪威本土汉堡连锁的官网，主营炭烤汉堡与精酿搭配。",official:true,region:"NO",plat:"网页",icon:"dognvillburger.no.ico"},
-{name:"Cocks & Cows",url:"https://cocksandcows.dk",cat:"生活服务",rating:4,price:"免费",kw:"cocks cows 丹麦 汉堡 炸鸡",desc:"丹麦本土汉堡鸡尾酒连锁的官网，主营汉堡与炸鸡。",official:true,region:"DK",plat:"网页",icon:"cocksandcows.dk.ico"}
+{name:"Cocks & Cows",url:"https://cocksandcows.dk",cat:"生活服务",rating:4,price:"免费",kw:"cocks cows 丹麦 汉堡 炸鸡",desc:"丹麦本土汉堡鸡尾酒连锁的官网，主营汉堡与炸鸡。",official:true,region:"DK",plat:"网页",icon:"cocksandcows.dk.ico"},
+{name:"Cardow Jewelers",url:"https://cardow.com",cat:"购物消费",rating:4,price:"免费",kw:"cardow 美属维尔京群岛 圣托马斯 珠宝",desc:"美属维尔京群岛圣托马斯老牌珠宝商的官网，主营钻石首饰与加勒比风首饰。",official:true,region:"VI",plat:"网页",icon:"cardow.com.ico"},
+{name:"Harry Edwards Jewelers",url:"https://harryedwardsjewelers.com",cat:"购物消费",rating:4,price:"免费",kw:"harry edwards 圣卢西亚 珠宝",desc:"圣卢西亚本土珠宝零售商的官网，主营钻石首饰、婚戒与名表。",official:true,region:"LC",plat:"网页",icon:"harryedwardsjewelers.com.ico"},
+{name:"Kalev",url:"https://kalev.eu",cat:"购物消费",rating:4,price:"免费",kw:"kalev 爱沙尼亚 巧克力 糖果",desc:"爱沙尼亚本土巧克力糖果品牌的官网，主营巧克力、软糖与节庆礼盒。",official:true,region:"EE",plat:"网页",icon:"kalev.eu.ico"},
+{name:"Al Aker Sweets",url:"https://alaker.com",cat:"购物消费",rating:4,price:"免费",kw:"al aker 卡塔尔 阿拉伯甜品 库纳法",desc:"卡塔尔本土阿拉伯甜品连锁的官网，主营库纳法与东方甜点。",official:true,region:"QA",plat:"网页",icon:"alaker.com.ico"},
+{name:"La Loma Luz Adventist Hospital",url:"https://lalomaluz.com",cat:"生活服务",rating:4,price:"免费",kw:"la loma luz 伯利兹 教会医院",desc:"伯利兹卡约的教会私立医院官网，提供综合、外科与妇产诊疗服务。",official:true,region:"BZ",plat:"网页",icon:"lalomaluz.com.ico"},
+{name:"Configure Express",url:"https://configureexpress.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"configure express 新西兰 女性健身",desc:"新西兰本土女性快速健身连锁的官网，主营循环训练与团课。",official:true,region:"NZ",plat:"网页",icon:"configureexpress.co.nz.ico"},
+{name:"Spartan Fitness",url:"https://spartan.fitness",cat:"生活服务",rating:4,price:"免费",kw:"spartan fitness 巴林 健身 格斗",desc:"巴林本土健身连锁的官网，主营器械训练、团课与格斗训练。",official:true,region:"BH",plat:"网页",icon:"spartan.fitness.ico"},
+{name:"Premier Fitness Club",url:"https://premier.com.bo",cat:"生活服务",rating:4,price:"免费",kw:"premier fitness club 玻利维亚 健身",desc:"玻利维亚本土健身连锁的官网，主营器械训练、团课与搏击课程。",official:true,region:"BO",plat:"网页",icon:"premier.com.bo.ico"}
 ];
