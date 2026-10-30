@@ -11391,5 +11391,13 @@ const SITES = [
 {name:"Ani Plaza Hotel",url:"https://anihotel.com",cat:"购物消费",rating:4,price:"免费",kw:"ani plaza hotel 埃里温 亚美尼亚",desc:"亚美尼亚埃里温市中心老牌本土酒店（Ani Hotels 集团）的官网。",official:true,region:"AM",plat:"网页",icon:"anihotel.com.ico"},
 {name:"Ulaanbaatar Hotel",url:"https://ubhotel.mn",cat:"购物消费",rating:4,price:"免费",kw:"ulaanbaatar hotel 蒙古 乌兰巴托酒店",desc:"蒙古国乌兰巴托老牌本土酒店，开业于上世纪五十年代的官网。",official:true,region:"MN",plat:"网页",icon:"ubhotel.mn.ico"},
 {name:"Namgay Heritage Hotel",url:"https://namgayheritage.com",cat:"购物消费",rating:4,price:"免费",kw:"namgay heritage hotel 不丹 廷布",desc:"不丹廷布本土遗产风格酒店，融合传统不丹建筑的官网。",official:true,region:"BT",plat:"网页",icon:"namgayheritage.com.ico"},
-{name:"Palasia Hotel Palau",url:"https://palasiahotelpalau.com",cat:"购物消费",rating:4,price:"免费",kw:"palasia hotel palau 帕劳 酒店",desc:"帕劳科罗尔本土地标酒店，市中心最高建筑之一的官网。",official:true,region:"PW",plat:"网页",icon:"palasiahotelpalau.com.ico"}
+{name:"Palasia Hotel Palau",url:"https://palasiahotelpalau.com",cat:"购物消费",rating:4,price:"免费",kw:"palasia hotel palau 帕劳 酒店",desc:"帕劳科罗尔本土地标酒店，市中心最高建筑之一的官网。",official:true,region:"PW",plat:"网页",icon:"palasiahotelpalau.com.ico"},
+{name:"Gandelman",url:"https://gandelmanjewelers.com",cat:"购物消费",rating:4,price:"免费",kw:"gandelman 阿鲁巴 珠宝 名表",desc:"阿鲁巴本土老牌珠宝腕表零售商，创立于上世纪三十年代的官网。",official:true,region:"AW",plat:"网页",icon:"gandelmanjewelers.com.ico"},
+{name:"Bread Factory",url:"https://breadfactory.gr",cat:"购物消费",rating:4,price:"免费",kw:"bread factory 希腊 面包房 咖啡",desc:"希腊雅典本土烘焙连锁，主营面包、糕点与咖啡简餐的官网。",official:true,region:"GR",plat:"网页",icon:"breadfactory.gr.ico"},
+{name:"Bread History",url:"https://breadhistory.com.my",cat:"购物消费",rating:4,price:"免费",kw:"bread history 马来西亚 面包房",desc:"马来西亚槟城本土烘焙连锁，主营创意面包与蛋糕的官网。",official:true,region:"MY",plat:"网页",icon:"breadhistory.com.my.ico"},
+{name:"The Bank Hospital",url:"https://thebankhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"bank hospital 加纳 阿克拉 医院",desc:"加纳阿克拉私立综合医院，主营专科诊疗与健康检查的官网。",official:true,region:"GH",plat:"网页",icon:"thebankhospital.com.ico"},
+{name:"John F. Kennedy Medical Center",url:"https://jfkmc.gov.lr",cat:"生活服务",rating:4,price:"免费",kw:"jfk medical center 利比里亚 医院",desc:"利比里亚蒙罗维亚国家级综合医疗中心的官网。",official:true,region:"LR",plat:"网页",icon:"jfkmc.gov.lr.ico"},
+{name:"Medland Hospital",url:"https://medlandhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"medland hospital 赞比亚 卢萨卡 医院",desc:"赞比亚卢萨卡私立综合医院，主营专科诊疗与手术的官网。",official:true,region:"ZM",plat:"网页",icon:"medlandhospital.com.ico"},
+{name:"Hanh Phuc International Hospital",url:"https://hanhphuchospital.com",cat:"生活服务",rating:4,price:"免费",kw:"hanh phuc hospital 越南 幸福医院 妇产",desc:"越南平阳私立国际医院，主营妇产与儿科的官网。",official:true,region:"VN",plat:"网页",icon:"hanhphuchospital.com.ico"},
+{name:"SKY Fitness",url:"https://skyfitness.no",cat:"生活服务",rating:4,price:"免费",kw:"sky fitness 挪威 健身房",desc:"挪威本土平价健身连锁，主营器械训练与团体课程的官网。",official:true,region:"NO",plat:"网页",icon:"skyfitness.no.ico"}
 ];
