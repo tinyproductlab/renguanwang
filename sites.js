@@ -11223,5 +11223,18 @@ const SITES = [
 {name:"Medikom",url:"https://medikom.ua",cat:"生活服务",rating:4,price:"免费",kw:"medikom 诊所 乌克兰 官网",desc:"乌克兰基辅私立诊所网络官网，主营全科与专科门诊、儿科和急救服务",official:true,region:"UA",plat:"网页",icon:"medikom.ua.ico"},
 {name:"Capital Clinic Riga",url:"https://capitalclinicriga.lv",cat:"生活服务",rating:4,price:"免费",kw:"capital clinic riga 诊所 拉脱维亚 官网",desc:"拉脱维亚里加高端私立诊所官网，主营专科门诊、预防体检与诊断检查",official:true,region:"LV",plat:"网页",icon:"capitalclinicriga.lv.ico"},
 {name:"Sophiahemmet",url:"https://sophiahemmet.se",cat:"生活服务",rating:4,price:"免费",kw:"sophiahemmet 医院 瑞典 官网",desc:"瑞典斯德哥尔摩私立医院官网，主营多专科诊疗、手术与康复服务",official:true,region:"SE",plat:"网页",icon:"sophiahemmet.se.ico"},
-{name:"Privathospitalet Mølholm",url:"https://molholm.dk",cat:"生活服务",rating:4,price:"免费",kw:"molholm 私立医院 丹麦 官网",desc:"丹麦私立专科医院官网，主营骨科、眼科等专科手术",official:true,region:"DK",plat:"网页",icon:"molholm.dk.ico"}
+{name:"Privathospitalet Mølholm",url:"https://molholm.dk",cat:"生活服务",rating:4,price:"免费",kw:"molholm 私立医院 丹麦 官网",desc:"丹麦私立专科医院官网，主营骨科、眼科等专科手术",official:true,region:"DK",plat:"网页",icon:"molholm.dk.ico"},
+{name:"Mikk-Line",url:"https://www.mikk-line.com",cat:"购物消费",rating:4,price:"免费",kw:"mikk-line 童装 丹麦 官网",desc:"丹麦童装品牌官网，主营儿童户外服、雨衣与羊毛内衣并运营官方商城",official:true,region:"DK",plat:"网页",icon:"www.mikk-line.com.ico"},
+{name:"Leisure Club",url:"https://leisureclub.pk",cat:"购物消费",rating:4,price:"免费",kw:"leisure club 童装 巴基斯坦 官网",desc:"巴基斯坦童装品牌官网，主营婴幼儿及青少年服饰并运营官方商城",official:true,region:"PK",plat:"网页",icon:"leisureclub.pk.ico"},
+{name:"Miniklub",url:"https://miniklub.in",cat:"购物消费",rating:4,price:"免费",kw:"miniklub 婴幼儿 印度 官网",desc:"印度婴幼儿服饰品牌官网，主营新生儿服装与儿童服饰并运营官方商城",official:true,region:"IN",plat:"网页",icon:"miniklub.in.ico"},
+{name:"Ackermans",url:"https://ackermans.co.za",cat:"购物消费",rating:4,price:"免费",kw:"ackermans 零售 南非 官网",desc:"南非平价零售连锁官网，主营婴幼儿服饰、童装与儿童用品并运营官方商城",official:true,region:"ZA",plat:"网页",icon:"ackermans.co.za.ico"},
+{name:"Telegraaf Hotel",url:"https://telegraafhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"telegraaf hotel 酒店 爱沙尼亚 官网",desc:"爱沙尼亚塔林老城精品酒店官网，位于历史电报大楼内",official:true,region:"EE",plat:"网页",icon:"telegraafhotel.com.ico"},
+{name:"Al Moudira Hotel Luxor",url:"https://almoudira.com",cat:"购物消费",rating:4,price:"免费",kw:"al moudira 酒店 埃及 官网",desc:"埃及卢克索西岸精品酒店官网，宫殿式庭院建筑",official:true,region:"EG",plat:"网页",icon:"almoudira.com.ico"},
+{name:"Kuramathi Maldives",url:"https://nivakuramathi.com",cat:"购物消费",rating:4,price:"免费",kw:"kuramathi 度假村 马尔代夫 官网",desc:"马尔代夫拉斯杜环礁大型岛屿度假村官网",official:true,region:"MV",plat:"网页",icon:"nivakuramathi.com.ico"},
+{name:"Navutu Dreams Resort",url:"https://navuturesorts.com",cat:"购物消费",rating:4,price:"免费",kw:"navutu dreams 度假 柬埔寨 官网",desc:"柬埔寨暹粒精品度假酒店官网，主营瑜伽康养与度假住宿",official:true,region:"KH",plat:"网页",icon:"navuturesorts.com.ico"},
+{name:"Bohinj Eco Hotel",url:"https://bohinj-eco-hotel.si",cat:"购物消费",rating:4,price:"免费",kw:"bohinj eco hotel 酒店 斯洛文尼亚 官网",desc:"斯洛文尼亚博希尼湖区生态度假酒店官网，主营山地度假与水疗",official:true,region:"SI",plat:"网页",icon:"bohinj-eco-hotel.si.ico"},
+{name:"Square Nine Hotel Belgrade",url:"https://www.squarenine.rs",cat:"购物消费",rating:4,price:"免费",kw:"square nine hotel 酒店 塞尔维亚 官网",desc:"塞尔维亚贝尔格莱德老城精品豪华酒店官网",official:true,region:"RS",plat:"网页",icon:"www.squarenine.rs.ico"},
+{name:"Joe & The Juice",url:"https://joejuice.com",cat:"生活服务",rating:4,price:"免费",kw:"joe the juice 果汁 丹麦 官网",desc:"丹麦果汁三明治连锁官网，主营鲜榨果汁、三明治与咖啡",official:true,region:"DK",plat:"网页",icon:"joejuice.com.ico"},
+{name:"Peppes Pizza",url:"https://order.peppes.no",cat:"生活服务",rating:4,price:"免费",kw:"peppes pizza 披萨 挪威 官网",desc:"挪威披萨连锁官网，主营美式披萨与意面",official:true,region:"NO",plat:"网页",icon:"order.peppes.no.ico"},
+{name:"UDON",url:"https://udon.com",cat:"生活服务",rating:4,price:"免费",kw:"udon 面条 西班牙 官网",desc:"西班牙亚洲面条快休闲连锁官网，主营乌冬面与亚洲风味小吃",official:true,region:"ES",plat:"网页",icon:"udon.com.ico"}
 ];
