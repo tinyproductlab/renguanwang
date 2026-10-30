@@ -10491,7 +10491,6 @@ const SITES = [
 {name:"Julie Sandlau",url:"https://juliesandlau.com",cat:"购物消费",rating:4,price:"免费",kw:"Julie Sandlau 珠宝 丹麦设计师珠宝",desc:"丹麦设计师珠宝品牌官网",official:true,region:"DK",plat:"网页",icon:"juliesandlau.com.ico"},
 {name:"NAC Jewellers",url:"https://nacjewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"NAC Jewellers 珠宝 印度珠宝商",desc:"印度百年家族珠宝商官网",official:true,region:"IN",plat:"网页",icon:"nacjewellers.com.ico"},
 {name:"Waseem Jewellers",url:"https://waseemjewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"Waseem Jewellers 珠宝 巴基斯坦珠宝商",desc:"巴基斯坦家族珠宝商官网",official:true,region:"PK",plat:"网页",icon:"waseemjewellers.com.ico"},
-{name:"A Padaria Portuguesa",url:"https://apadariaportuguesa.pt",cat:"购物消费",rating:4,price:"免费",kw:"A Padaria Portuguesa 面包房 葡萄牙面包连锁",desc:"葡萄牙面包咖啡连锁官网，分类面包房",official:true,region:"PT",plat:"网页",icon:"apadariaportuguesa.pt.ico"},
 {name:"Azam Bakhresa",url:"https://bakhresa.com",cat:"购物消费",rating:4,price:"免费",kw:"Azam Bakhresa 面包 坦桑尼亚面包品牌",desc:"坦桑尼亚国民面包品牌官网，分类面包房",official:true,region:"TZ",plat:"网页",icon:"bakhresa.com.ico"},
 {name:"Boulangerie Saker",url:"https://boulangeriesaker.com",cat:"购物消费",rating:4,price:"免费",kw:"Boulangerie Saker 面包房 喀麦隆面包店",desc:"喀麦隆老字号面包糕点店官网，分类面包房",official:true,region:"CM",plat:"网页",icon:"boulangeriesaker.com.ico"},
 {name:"Panadería Ricomini",url:"https://ricomini.com",cat:"购物消费",rating:4,price:"免费",kw:"Panadería Ricomini 面包房 波多黎各面包房",desc:"波多黎各老牌面包房官网，分类面包房",official:true,region:"PR",plat:"网页",icon:"ricomini.com.ico"},
