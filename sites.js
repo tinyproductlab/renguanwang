@@ -11930,5 +11930,15 @@ const SITES = [
 {name:"Thumbay Hospital",url:"https://thumbayhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"医院 thumbay",desc:"阿联酋阿治曼的私立教学医院，隶属 Thumbay 医疗集团",official:true,region:"AE",plat:"网页",icon:"thumbayhospital.com.ico"},
 {name:"Clínica Santa María",url:"https://csantamaria.cl",cat:"生活服务",rating:4,price:"免费",kw:"医院 santa maria",desc:"智利圣地亚哥知名私立诊所医院，设有儿科与心血管中心",official:true,region:"CL",plat:"网页",icon:"csantamaria.cl.ico"},
 {name:"Able Gym",url:"https://ablegym.co.kr",cat:"生活服务",rating:4,price:"免费",kw:"健身 able",desc:"韩国首尔本土健身连锁，主营器械训练与私教塑形课程",official:true,region:"KR",plat:"网页",icon:"ablegym.co.kr.ico"},
-{name:"Fitnessworks",url:"https://fitnessworks.co.id",cat:"生活服务",rating:4,price:"免费",kw:"健身 fitnessworks",desc:"印度尼西亚本土健身连锁，主营器械训练、团课与私教课程",official:true,region:"ID",plat:"网页",icon:"fitnessworks.co.id.ico"}
+{name:"Fitnessworks",url:"https://fitnessworks.co.id",cat:"生活服务",rating:4,price:"免费",kw:"健身 fitnessworks",desc:"印度尼西亚本土健身连锁，主营器械训练、团课与私教课程",official:true,region:"ID",plat:"网页",icon:"fitnessworks.co.id.ico"},
+{name:"Oh-Lief",url:"https://ohlief.com",cat:"购物消费",rating:4,price:"免费",kw:"婴儿护肤 oh-lief",desc:"南非本土有机婴儿护肤品牌，主营天然婴儿护理与防晒产品",official:true,region:"ZA",plat:"网页",icon:"ohlief.com.ico"},
+{name:"Ancient Sands Golf Resort and Residences",url:"https://ancientsandsresort.com",cat:"购物消费",rating:4,price:"免费",kw:"高尔夫度假村 ancient sands",desc:"埃及红海 El Gouna 的高尔夫度假住宅酒店",official:true,region:"EG",plat:"网页",icon:"ancientsandsresort.com.ico"},
+{name:"Club Paradise Palawan",url:"https://clubparadisepalawan.com",cat:"购物消费",rating:4,price:"免费",kw:"海岛度假村 club paradise",desc:"菲律宾科隆的海岛度假村，位于巴拉望 Diacamal 岛",official:true,region:"PH",plat:"网页",icon:"clubparadisepalawan.com.ico"},
+{name:"Dar Ahlam",url:"https://darahlam.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 dar ahlam",desc:"摩洛哥斯库拉绿洲的沙漠精品酒店，以定制化住宿体验闻名",official:true,region:"MA",plat:"网页",icon:"darahlam.com.ico"},
+{name:"Fundu Lagoon",url:"https://fundulagoon.com",cat:"购物消费",rating:4,price:"免费",kw:"海滩旅馆 fundu",desc:"坦桑尼亚奔巴岛的隐秘海滩小屋度假村",official:true,region:"TZ",plat:"网页",icon:"fundulagoon.com.ico"},
+{name:"Gili Lankanfushi",url:"https://gili-lankanfushi.com",cat:"购物消费",rating:4,price:"免费",kw:"水上别墅 gili",desc:"马尔代夫北马累环礁的水上别墅度假村，水上别墅先驱",official:true,region:"MV",plat:"网页",icon:"gili-lankanfushi.com.ico"},
+{name:"Islas Secas",url:"https://islassecas.com",cat:"购物消费",rating:4,price:"免费",kw:"私人岛屿 islas secas",desc:"巴拿马奇里基湾的私人岛屿度假群",official:true,region:"PA",plat:"网页",icon:"islassecas.com.ico"},
+{name:"The Sindbad Hotel Hammamet",url:"https://sindbadhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"海滨酒店 sindbad",desc:"突尼斯哈马马特的海滨老牌度假酒店",official:true,region:"TN",plat:"网页",icon:"sindbadhotel.com.ico"},
+{name:"Thousand Nights Camp",url:"https://thousandnightsoman.com",cat:"购物消费",rating:4,price:"免费",kw:"沙漠营地 thousand nights",desc:"阿曼瓦希巴沙漠的豪华帐篷营地",official:true,region:"OM",plat:"网页",icon:"thousandnightsoman.com.ico"},
+{name:"An Lam Retreats Ninh Van Bay",url:"https://anlam.com",cat:"购物消费",rating:4,price:"免费",kw:"别墅度假村 an lam",desc:"越南宁凡湾的原生态木屋别墅度假村",official:true,region:"VN",plat:"网页",icon:"anlam.com.ico"}
 ];
