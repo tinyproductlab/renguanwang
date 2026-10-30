@@ -10315,5 +10315,18 @@ const SITES = [
 {name:"Season's",url:"https://seasons.com.mm",cat:"生活服务",rating:4,price:"免费",kw:"Season's 烘焙咖啡 缅甸咖啡连锁",desc:"缅甸烘焙咖啡连锁官网",official:true,region:"MM",plat:"网页",icon:"seasons.com.mm.ico"},
 {name:"Himalayan Java Coffee",url:"https://himalayanjava.com",cat:"生活服务",rating:4,price:"免费",kw:"Himalayan Java Coffee 咖啡 尼泊尔咖啡连锁",desc:"尼泊尔咖啡连锁官网",official:true,region:"NP",plat:"网页",icon:"himalayanjava.com.ico"},
 {name:"Barista",url:"https://barista.lk",cat:"生活服务",rating:4,price:"免费",kw:"Barista 咖啡 斯里兰卡咖啡连锁",desc:"斯里兰卡咖啡连锁官网",official:true,region:"LK",plat:"网页",icon:"barista.lk.ico"},
-{name:"Figaro Coffee",url:"https://figarocoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"Figaro Coffee 咖啡 菲律宾咖啡连锁",desc:"菲律宾咖啡连锁官网",official:true,region:"PH",plat:"网页",icon:"figarocoffee.com.ico"}
+{name:"Figaro Coffee",url:"https://figarocoffee.com",cat:"生活服务",rating:4,price:"免费",kw:"Figaro Coffee 咖啡 菲律宾咖啡连锁",desc:"菲律宾咖啡连锁官网",official:true,region:"PH",plat:"网页",icon:"figarocoffee.com.ico"},
+{name:"Briju",url:"https://briju.pl",cat:"购物消费",rating:4,price:"免费",kw:"Briju 珠宝 波兰珠宝连锁",desc:"波兰珠宝零售连锁官网",official:true,region:"PL",plat:"网页",icon:"briju.pl.ico"},
+{name:"Zlatarna Sofić",url:"https://sofic.ba",cat:"购物消费",rating:4,price:"免费",kw:"Zlatarna Sofić 珠宝 波黑金匠",desc:"波黑家族珠宝老铺官网",official:true,region:"BA",plat:"网页",icon:"sofic.ba.ico"},
+{name:"Halada",url:"https://halada.cz",cat:"购物消费",rating:4,price:"免费",kw:"Halada 珠宝 捷克珠宝",desc:"捷克珠宝零售商官网",official:true,region:"CZ",plat:"网页",icon:"halada.cz.ico"},
+{name:"Tabbah",url:"https://tabbah.com",cat:"购物消费",rating:4,price:"免费",kw:"Tabbah 高级珠宝 黎巴嫩珠宝世家",desc:"黎巴嫩高级珠宝世家官网",official:true,region:"LB",plat:"网页",icon:"tabbah.com.ico"},
+{name:"Hasla",url:"https://hasla.no",cat:"购物消费",rating:4,price:"免费",kw:"Hasla 银饰 挪威银饰珠宝",desc:"挪威手工银饰品牌官网",official:true,region:"NO",plat:"网页",icon:"hasla.no.ico"},
+{name:"Momi",url:"https://momi.com.pa",cat:"购物消费",rating:4,price:"免费",kw:"Momi 面包糕点 巴拿马面包连锁",desc:"巴拿马糕点面包连锁官网",official:true,region:"PA",plat:"网页",icon:"momi.com.pa.ico"},
+{name:"Costumbres Argentinas",url:"https://costumbresargentinas.com.ar",cat:"购物消费",rating:4,price:"免费",kw:"Costumbres Argentinas 面包房 阿根廷烘焙连锁",desc:"阿根廷面包房加盟连锁官网",official:true,region:"AR",plat:"网页",icon:"costumbresargentinas.com.ar.ico"},
+{name:"Pão Dourado",url:"https://paodourado.com.br",cat:"购物消费",rating:4,price:"免费",kw:"Pão Dourado 面包房 巴西面包连锁",desc:"巴西本土面包连锁官网",official:true,region:"BR",plat:"网页",icon:"paodourado.com.br.ico"},
+{name:"Bijola",url:"https://bijola.lt",cat:"购物消费",rating:4,price:"免费",kw:"Bijola 糕点 立陶宛糕点连锁",desc:"立陶宛糕点连锁官网",official:true,region:"LT",plat:"网页",icon:"bijola.lt.ico"},
+{name:"Knead",url:"https://knead.co.za",cat:"购物消费",rating:4,price:"免费",kw:"Knead 面包房 南非面包房连锁",desc:"南非手工面包房连锁官网",official:true,region:"ZA",plat:"网页",icon:"knead.co.za.ico"},
+{name:"Dar Al Fouad Hospital",url:"https://daralfouad.org",cat:"生活服务",rating:4,price:"免费",kw:"Dar Al Fouad 埃及医院 开罗心脏专科医院",desc:"埃及心脏专科私立医院官网，分类医疗",official:true,region:"EG",plat:"网页",icon:"daralfouad.org.ico"},
+{name:"Anadolu Medical Center",url:"https://anadolumedicalcenter.com",cat:"生活服务",rating:4,price:"免费",kw:"Anadolu Medical Center 土耳其医疗中心",desc:"土耳其综合医疗中心官网，分类医疗",official:true,region:"TR",plat:"网页",icon:"anadolumedicalcenter.com.ico"},
+{name:"Oktopus Fitness Club",url:"https://oktopus.ge",cat:"生活服务",rating:4,price:"免费",kw:"Oktopus Fitness 健身房 格鲁吉亚健身",desc:"格鲁吉亚健身俱乐部连锁官网",official:true,region:"GE",plat:"网页",icon:"oktopus.ge.ico"}
 ];
