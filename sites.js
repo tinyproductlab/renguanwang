@@ -11328,5 +11328,16 @@ const SITES = [
 {name:"Majestic Hotel & Spa Barcelona",url:"https://www.majestic-hotel.com",cat:"购物消费",rating:4,price:"免费",kw:"majestic hotel 巴塞罗那 官网",desc:"西班牙巴塞罗那格拉西亚大道家族经营豪华酒店官网，1918 年开业",official:true,region:"ES",plat:"网页",icon:"www.majestic-hotel.com.ico"},
 {name:"Grand Hotel Tremezzo",url:"https://www.grandhoteltremezzo.com",cat:"购物消费",rating:4,price:"免费",kw:"grand hotel tremezzo 科莫湖 官网",desc:"意大利科莫湖独立家族豪华酒店官网，美好年代风格湖畔宫殿",official:true,region:"IT",plat:"网页",icon:"www.grandhoteltremezzo.com.ico"},
 {name:"The Dharmawangsa",url:"https://dharmawangsa.com",cat:"购物消费",rating:4,price:"免费",kw:"dharmawangsa 雅加达 官网",desc:"印度尼西亚雅加达独立豪华酒店官网，主营高端住宿与传统文化体验",official:true,region:"ID",plat:"网页",icon:"dharmawangsa.com.ico"},
-{name:"Cili Pizza",url:"https://www.cili.lt",cat:"生活服务",rating:4,price:"免费",kw:"cili pizza 披萨 立陶宛 官网",desc:"立陶宛披萨连锁官网，主营披萨、寿司与热菜并运营官方商城",official:true,region:"LT",plat:"网页",icon:"www.cili.lt.ico"}
+{name:"Cili Pizza",url:"https://www.cili.lt",cat:"生活服务",rating:4,price:"免费",kw:"cili pizza 披萨 立陶宛 官网",desc:"立陶宛披萨连锁官网，主营披萨、寿司与热菜并运营官方商城",official:true,region:"LT",plat:"网页",icon:"www.cili.lt.ico"},
+{name:"Orrifinn",url:"https://www.orrifinn.com",cat:"购物消费",rating:4,price:"免费",kw:"orrifinn 珠宝 冰岛 官网",desc:"冰岛设计师珠宝品牌官网，主营手工金银首饰与订制婚戒并运营官方商城",official:true,region:"IS",plat:"网页",icon:"www.orrifinn.com.ico"},
+{name:"Eesti Juveel",url:"https://eestijuveel.ee",cat:"购物消费",rating:4,price:"免费",kw:"eesti juveel 珠宝 爱沙尼亚 官网",desc:"爱沙尼亚珠宝零售品牌官网，主营黄金、钻石首饰与腕表并运营官方商城",official:true,region:"EE",plat:"网页",icon:"eestijuveel.ee.ico"},
+{name:"Fashion Gold",url:"https://fashiongold.lt",cat:"购物消费",rating:4,price:"免费",kw:"fashion gold 珠宝 立陶宛 官网",desc:"立陶宛珠宝连锁官网，主营黄金首饰、婚戒与银饰并运营官方商城",official:true,region:"LT",plat:"网页",icon:"fashiongold.lt.ico"},
+{name:"Kayali Jewelry",url:"https://kayalijewelry.com",cat:"购物消费",rating:4,price:"免费",kw:"kayali jewelry 珠宝 约旦 官网",desc:"约旦珠宝零售商官网，主营黄金、钻石首饰与订制婚戒",official:true,region:"JO",plat:"网页",icon:"kayalijewelry.com.ico"},
+{name:"Crisson Jewellers",url:"https://www.crisson.com",cat:"购物消费",rating:4,price:"免费",kw:"crisson jewellers 珠宝 百慕大 官网",desc:"百慕大老牌珠宝零售商官网，主营钻石首饰、名表与婚戒并运营官方商城",official:true,region:"BM",plat:"网页",icon:"www.crisson.com.ico"},
+{name:"Koliba",url:"https://www.koliba.sk",cat:"购物消费",rating:4,price:"免费",kw:"koliba 糕点 斯洛伐克 官网",desc:"斯洛伐克乳品烘焙食品品牌官网，主营酸奶蛋糕与传统糕点",official:true,region:"SK",plat:"网页",icon:"www.koliba.sk.ico"},
+{name:"Emporio La Rosa",url:"https://www.emporiolarosa.cl",cat:"购物消费",rating:4,price:"免费",kw:"emporio la rosa 糕点 智利 官网",desc:"智利手工糕点与冰淇淋品牌官网，主营蛋糕、马卡龙与传统甜点并运营官方商城",official:true,region:"CL",plat:"网页",icon:"www.emporiolarosa.cl.ico"},
+{name:"Bondelic",url:"https://bondelic.com",cat:"购物消费",rating:4,price:"免费",kw:"bondelic 糕点 多米尼加 官网",desc:"多米尼加糕点甜品连锁官网，主营蛋糕、面包与甜点并运营官方商城",official:true,region:"DO",plat:"网页",icon:"bondelic.com.ico"},
+{name:"Kitchen Cuisine",url:"https://www.kitchencuisine.com.pk",cat:"购物消费",rating:4,price:"免费",kw:"kitchen cuisine 烘焙 巴基斯坦 官网",desc:"巴基斯坦拉合尔烘焙咖啡连锁官网，主营面包、蛋糕与西点并运营官方商城",official:true,region:"PK",plat:"网页",icon:"www.kitchencuisine.com.pk.ico"},
+{name:"Rudolfinerhaus",url:"https://www.rudolfinerhaus.at",cat:"生活服务",rating:4,price:"免费",kw:"rudolfinerhaus 私立医院 奥地利 官网",desc:"奥地利维也纳老牌私立医院官网，主营综合诊疗、专科手术与住院服务",official:true,region:"AT",plat:"网页",icon:"www.rudolfinerhaus.at.ico"},
+{name:"DaVinci Healthcare",url:"https://www.davinci.com.mt",cat:"生活服务",rating:4,price:"免费",kw:"davinci healthcare 医疗 马耳他 官网",desc:"马耳他私立医疗中心官网，主营专科门诊、诊断检查与日间医疗服务",official:true,region:"MT",plat:"网页",icon:"www.davinci.com.mt.ico"}
 ];
