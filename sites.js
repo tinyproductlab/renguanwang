@@ -11530,5 +11530,16 @@ const SITES = [
 {name:"Wigmore Clinic",url:"https://wigmoreclinic.am",cat:"生活服务",rating:4,price:"免费",kw:"wigmore clinic 亚美尼亚 骨科 诊所",desc:"亚美尼亚埃里温私立骨科专科诊所的官网，提供骨科手术与康复服务。",official:true,region:"AM",plat:"网页",icon:"wigmoreclinic.am.ico"},
 {name:"MediClub",url:"https://mediclub.az",cat:"生活服务",rating:4,price:"免费",kw:"mediclub 阿塞拜疆 巴库 私立诊所",desc:"阿塞拜疆巴库老牌私立诊所的官网，提供综合门诊与急救转运服务。",official:true,region:"AZ",plat:"网页",icon:"mediclub.az.ico"},
 {name:"Medita Clinic",url:"https://medita.ee",cat:"生活服务",rating:4,price:"免费",kw:"medita clinic 爱沙尼亚 塔尔图 诊所",desc:"爱沙尼亚塔尔图私立诊所的官网，提供专科门诊、日间手术与体检服务。",official:true,region:"EE",plat:"网页",icon:"medita.ee.ico"},
-{name:"Opšta bolnica Atlas",url:"https://atlasklinika.com",cat:"生活服务",rating:4,price:"免费",kw:"atlas klinika 塞尔维亚 贝尔格莱德 私立医院",desc:"塞尔维亚贝尔格莱德私立综合医院的官网，提供外科与专科诊疗服务。",official:true,region:"RS",plat:"网页",icon:"atlasklinika.com.ico"}
+{name:"Opšta bolnica Atlas",url:"https://atlasklinika.com",cat:"生活服务",rating:4,price:"免费",kw:"atlas klinika 塞尔维亚 贝尔格莱德 私立医院",desc:"塞尔维亚贝尔格莱德私立综合医院的官网，提供外科与专科诊疗服务。",official:true,region:"RS",plat:"网页",icon:"atlasklinika.com.ico"},
+{name:"Optic Gallery",url:"https://opticgallery.az",cat:"购物消费",rating:4,price:"免费",kw:"optic gallery 阿塞拜疆 眼镜 连锁",desc:"阿塞拜疆本土眼镜零售连锁的官网，主营镜框、太阳镜与验光服务。",official:true,region:"AZ",plat:"网页",icon:"opticgallery.az.ico"},
+{name:"Pollo Feliz",url:"https://pollofeliz.mx",cat:"生活服务",rating:4,price:"免费",kw:"pollo feliz 墨西哥 烤鸡 快餐",desc:"墨西哥本土烤鸡快餐连锁的官网，主营炭烤鸡与墨西哥风味套餐。",official:true,region:"MX",plat:"网页",icon:"pollofeliz.mx.ico"},
+{name:"Beniya Mukayu",url:"https://mukayu.com",cat:"购物消费",rating:4,price:"免费",kw:"beniya mukayu 日本 山代温泉 旅馆",desc:"日本石川县山代温泉高端日式旅馆的官网，以庭院与怀石料理著称。",official:true,region:"JP",plat:"网页",icon:"mukayu.com.ico"},
+{name:"Ellerman House",url:"https://ellerman.co.za",cat:"购物消费",rating:4,price:"免费",kw:"ellerman house 南非 开普敦 精品酒店",desc:"南非开普敦班特里湾悬崖上的精品艺术酒店官网。",official:true,region:"ZA",plat:"网页",icon:"ellerman.co.za.ico"},
+{name:"Finca Cortesin",url:"https://fincacortesin.com",cat:"购物消费",rating:4,price:"免费",kw:"finca cortesin 西班牙 高尔夫 水疗 度假酒店",desc:"西班牙安达卢西亚高尔夫与水疗精品度假酒店的官网。",official:true,region:"ES",plat:"网页",icon:"fincacortesin.com.ico"},
+{name:"Huka Lodge",url:"https://hukalodge.com",cat:"购物消费",rating:4,price:"免费",kw:"huka lodge 新西兰 陶波 庄园旅舍",desc:"新西兰陶波胡卡瀑布旁历史悠久的顶级庄园旅舍官网。",official:true,region:"NZ",plat:"网页",icon:"hukalodge.com.ico"},
+{name:"Il San Pietro di Positano",url:"https://ilsanpietro.com",cat:"购物消费",rating:4,price:"免费",kw:"il san pietro positano 意大利 奢华酒店",desc:"意大利波西塔诺悬崖上的家族经营奢华酒店官网，带私人海滩电梯。",official:true,region:"IT",plat:"网页",icon:"ilsanpietro.com.ico"},
+{name:"Schloss Elmau",url:"https://schloss-elmau.de",cat:"购物消费",rating:4,price:"免费",kw:"schloss elmau 德国 巴伐利亚 度假城堡酒店",desc:"德国巴伐利亚阿尔卑斯山谷中的文化与水疗度假城堡酒店官网。",official:true,region:"DE",plat:"网页",icon:"schloss-elmau.de.ico"},
+{name:"Topas Ecolodge",url:"https://topasecolodge.com",cat:"购物消费",rating:4,price:"免费",kw:"topas ecolodge 越南 沙坝 生态旅舍",desc:"越南沙坝梯田山谷中的北欧风生态精品旅舍官网。",official:true,region:"VN",plat:"网页",icon:"topasecolodge.com.ico"},
+{name:"Trisara",url:"https://trisara.com",cat:"购物消费",rating:4,price:"免费",kw:"trisara 泰国 普吉岛 别墅度假村",desc:"泰国普吉岛西北海岸的私人泳池别墅度假村官网。",official:true,region:"TH",plat:"网页",icon:"trisara.com.ico"},
+{name:"qualia",url:"https://qualia.com.au",cat:"购物消费",rating:4,price:"免费",kw:"qualia 澳大利亚 汉密尔顿岛 大堡礁 度假村",desc:"澳大利亚汉密尔顿岛上的大堡礁奢华度假村官网。",official:true,region:"AU",plat:"网页",icon:"qualia.com.au.ico"}
 ];
