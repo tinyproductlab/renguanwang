@@ -10958,7 +10958,6 @@ const SITES = [
 {name:"Aiguebelle",url:"https://aiguebelle.com",cat:"购物消费",rating:4,price:"免费",kw:"Aiguebelle 摩洛哥老牌巧克力与糕点品牌，1942 年创立，主营巧克力、糖果与摩洛哥糕点",desc:"摩洛哥老牌巧克力与糕点品牌，1942 年创立，主营巧克力、糖果与摩洛哥糕点",official:true,region:"MA",plat:"网页",icon:"aiguebelle.com.ico"},
 {name:"MP Shah Hospital",url:"https://mpshahhosp.org",cat:"生活服务",rating:4,price:"免费",kw:"MP Shah Hospital 肯尼亚内罗毕老牌私立综合医院",desc:"肯尼亚内罗毕老牌私立综合医院",official:true,region:"KE",plat:"网页",icon:"mpshahhosp.org.ico"},
 {name:"Kampala Hospital",url:"https://kampalahospital.com",cat:"生活服务",rating:4,price:"免费",kw:"Kampala Hospital 乌干达坎帕拉私立综合医院，服务本地与外籍患者",desc:"乌干达坎帕拉私立综合医院，服务本地与外籍患者",official:true,region:"UG",plat:"网页",icon:"kampalahospital.com.ico"},
-{name:"Bel Medic",url:"https://acibadembelmedic.rs",cat:"生活服务",rating:4,price:"免费",kw:"Bel Medic 塞尔维亚贝尔格莱德知名私立综合医院",desc:"塞尔维亚贝尔格莱德知名私立综合医院",official:true,region:"RS",plat:"网页",icon:"acibadembelmedic.rs.ico"},
 {name:"Pihlajalinna",url:"https://pihlajalinna.fi",cat:"生活服务",rating:4,price:"免费",kw:"Pihlajalinna 芬兰私立医疗集团，全国设有诊所、医院与健康服务中心",desc:"芬兰私立医疗集团，全国设有诊所、医院与健康服务中心",official:true,region:"FI",plat:"网页",icon:"pihlajalinna.fi.ico"},
 {name:"Aquaterra Fitness",url:"https://aquaterra.md",cat:"生活服务",rating:4,price:"免费",kw:"Aquaterra Fitness 摩尔多瓦本土高端健身俱乐部，基希讷乌多家门店，主营器械、泳池与水疗",desc:"摩尔多瓦本土高端健身俱乐部，基希讷乌多家门店，主营器械、泳池与水疗",official:true,region:"MD",plat:"网页",icon:"aquaterra.md.ico"}
 ];
