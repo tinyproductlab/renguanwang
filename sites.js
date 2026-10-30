@@ -11784,5 +11784,22 @@ const SITES = [
 {name:"Kings Sports Centre",url:"https://kingssportscentre.com",cat:"生活服务",rating:4,price:"免费",kw:"kings sports centre cayman",desc:"开曼群岛综合体育中心，设健身房、壁球场与保龄球馆",official:true,region:"KY",plat:"网页",icon:"kingssportscentre.com.ico"},
 {name:"U Energy",url:"https://uenergy.me",cat:"生活服务",rating:4,price:"免费",kw:"u energy lebanon gym beirut",desc:"黎巴嫩本土精品健身连锁，门店位于贝鲁特多地，设动感单车与瑜伽工作室",official:true,region:"LB",plat:"网页",icon:"uenergy.me.ico"},
 {name:"FitExpress",url:"https://fitexpress.it",cat:"生活服务",rating:4,price:"免费",kw:"fitexpress italia palestra",desc:"意大利本土平价健身加盟连锁，门店遍布意大利各地",official:true,region:"IT",plat:"网页",icon:"fitexpress.it.ico"},
-{name:"Station 24 Fitness",url:"https://station24.mx",cat:"生活服务",rating:4,price:"免费",kw:"station 24 fitness mexico gimnasio",desc:"墨西哥本土 24 小时健身连锁，主营器械训练与团体课程",official:true,region:"MX",plat:"网页",icon:"station24.mx.ico"}
+{name:"Station 24 Fitness",url:"https://station24.mx",cat:"生活服务",rating:4,price:"免费",kw:"station 24 fitness mexico gimnasio",desc:"墨西哥本土 24 小时健身连锁，主营器械训练与团体课程",official:true,region:"MX",plat:"网页",icon:"station24.mx.ico"},
+{name:"AeroSleep",url:"https://aerosleep.com",cat:"购物消费",rating:4,price:"免费",kw:"aerosleep baby mattress protector",desc:"比利时婴儿睡眠用品品牌，主营透气床垫保护垫与睡袋",official:true,region:"BE",plat:"网页",icon:"aerosleep.com.ico"},
+{name:"Dubatti",url:"https://dubatti.com",cat:"购物消费",rating:4,price:"免费",kw:"dubatti stroller netherlands",desc:"荷兰婴儿推车品牌，主营轻量多功能推车与提篮",official:true,region:"NL",plat:"网页",icon:"dubatti.com.ico"},
+{name:"Mama Kiddies",url:"https://mamakiddies.hu",cat:"购物消费",rating:4,price:"免费",kw:"mama kiddies babakocsi",desc:"匈牙利婴儿推车品牌，主营推车、安全座椅与婴儿床",official:true,region:"HU",plat:"网页",icon:"mamakiddies.hu.ico"},
+{name:"Patron",url:"https://patron.eu",cat:"购物消费",rating:4,price:"免费",kw:"patron strollers czech",desc:"捷克婴儿推车制造商，主营手推车与儿童康复推车",official:true,region:"CZ",plat:"网页",icon:"patron.eu.ico"},
+{name:"Love N Care",url:"https://lovencare.com.au",cat:"购物消费",rating:4,price:"免费",kw:"love n care australia baby",desc:"澳大利亚母婴用品品牌，主营婴儿床、推车与餐椅",official:true,region:"AU",plat:"网页",icon:"lovencare.com.au.ico"},
+{name:"Sunny Baby",url:"https://sunnybaby.com.tr",cat:"购物消费",rating:4,price:"免费",kw:"sunny baby turkiye bebek arabasi",desc:"土耳其婴儿推车制造商，主营推车、安全座椅与婴儿床",official:true,region:"TR",plat:"网页",icon:"sunnybaby.com.tr.ico"},
+{name:"Tinnies",url:"https://tinnies.pk",cat:"购物消费",rating:4,price:"免费",kw:"tinnies pakistan baby",desc:"巴基斯坦婴幼儿用品品牌，主营奶瓶、推车与婴儿护理用品",official:true,region:"PK",plat:"网页",icon:"tinnies.pk.ico"},
+{name:"Aurora Resort & Spa",url:"https://auroraresort.mk",cat:"购物消费",rating:4,price:"免费",kw:"aurora resort berovo macedonia",desc:"北马其顿贝罗沃山地度假水疗酒店，坐落在马莱舍沃山林间",official:true,region:"MK",plat:"网页",icon:"auroraresort.mk.ico"},
+{name:"Hotel Lomnica",url:"https://hotellomnica.sk",cat:"购物消费",rating:4,price:"免费",kw:"hotel lomnica tatranska",desc:"斯洛伐克高塔特拉山脚下的历史精品酒店，始于19世纪末贵族别墅",official:true,region:"SK",plat:"网页",icon:"hotellomnica.sk.ico"},
+{name:"Hotel Iso-Syöte",url:"https://isosyote.fi",cat:"购物消费",rating:4,price:"免费",kw:"iso syote hotel finland",desc:"芬兰拉普兰雪山山顶度假酒店，可赏极光与雪原全景",official:true,region:"FI",plat:"网页",icon:"isosyote.fi.ico"},
+{name:"Fabriken Furillen",url:"https://furillen.com",cat:"购物消费",rating:4,price:"免费",kw:"fabriken furillen gotland",desc:"瑞典哥特兰岛旧石灰厂房改建的工业风设计酒店，面朝波罗的海",official:true,region:"SE",plat:"网页",icon:"furillen.com.ico"},
+{name:"Hotel Brosundet",url:"https://brosundet.no",cat:"购物消费",rating:4,price:"免费",kw:"hotel brosundet alesund",desc:"挪威奥勒松新艺术风格建筑改建的海滨精品酒店",official:true,region:"NO",plat:"网页",icon:"brosundet.no.ico"},
+{name:"Inis Meáin Restaurant & Suites",url:"https://inismeain.com",cat:"购物消费",rating:4,price:"免费",kw:"inis meain restaurant suites aran",desc:"爱尔兰阿伦群岛上的极简餐厅套房酒店，主打本地食材与海岛静谧",official:true,region:"IE",plat:"网页",icon:"inismeain.com.ico"},
+{name:"Hotel Lemongarden",url:"https://lemongardenhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"lemongarden brac croatia",desc:"克罗地亚布拉奇岛苏提万渔村的海滨成人精品酒店",official:true,region:"HR",plat:"网页",icon:"lemongardenhotel.com.ico"},
+{name:"Hotel Can Bordoy",url:"https://canbordoy.com",cat:"购物消费",rating:4,price:"免费",kw:"can bordoy palma mallorca",desc:"西班牙帕尔马老城庄园花园精品酒店，拥有老城最大的私人花园",official:true,region:"ES",plat:"网页",icon:"canbordoy.com.ico"},
+{name:"The Drisco",url:"https://thedrisco.com",cat:"购物消费",rating:4,price:"免费",kw:"the drisco tel aviv",desc:"以色列特拉维夫美洲殖民区历史建筑改建的精品酒店",official:true,region:"IL",plat:"网页",icon:"thedrisco.com.ico"},
+{name:"Chicken Station",url:"https://thechickenstation.com",cat:"生活服务",rating:4,price:"免费",kw:"chicken station nepal",desc:"尼泊尔本土炸鸡快餐连锁，主营炸鸡、汉堡与小吃拼盘",official:true,region:"NP",plat:"网页",icon:"thechickenstation.com.ico"}
 ];
