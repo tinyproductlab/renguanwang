@@ -11828,5 +11828,12 @@ const SITES = [
 {name:"Tri Lanka",url:"https://trilanka.com",cat:"购物消费",rating:4,price:"免费",kw:"tri lanka koggala hotel",desc:"斯里兰卡科加拉湖畔独立生态精品酒店，依坡地梯级布局",official:true,region:"LK",plat:"网页",icon:"trilanka.com.ico"},
 {name:"Tashi Namgay Resort",url:"https://tashinamgayresort.com",cat:"购物消费",rating:4,price:"免费",kw:"tashi namgay resort paro bhutan",desc:"不丹帕罗河畔独立度假酒店，融合传统不丹建筑与石浴",official:true,region:"BT",plat:"网页",icon:"tashinamgayresort.com.ico"},
 {name:"Azura Benguerra Island",url:"https://azura-retreats.com",cat:"购物消费",rating:4,price:"免费",kw:"azura benguerra island mozambique",desc:"莫桑比克本盖鲁阿岛独立野奢海岛度假村",official:true,region:"MZ",plat:"网页",icon:"azura-retreats.com.ico"},
-{name:"Cabrini Health",url:"https://www.cabrini.com.au",cat:"生活服务",rating:4,price:"免费",kw:"cabrini health melbourne australia",desc:"澳大利亚墨尔本天主教私立医疗机构",official:true,region:"AU",plat:"网页",icon:"www.cabrini.com.au.ico"}
+{name:"Cabrini Health",url:"https://www.cabrini.com.au",cat:"生活服务",rating:4,price:"免费",kw:"cabrini health melbourne australia",desc:"澳大利亚墨尔本天主教私立医疗机构",official:true,region:"AU",plat:"网页",icon:"www.cabrini.com.au.ico"},
+{name:"Pure Beginnings",url:"https://purebeginnings.co.za",cat:"购物消费",rating:4,price:"免费",kw:"pure beginnings baby care south africa",desc:"南非婴儿护理品牌，主营有机婴儿洗护与护肤产品",official:true,region:"ZA",plat:"网页",icon:"purebeginnings.co.za.ico"},
+{name:"Lolly Baby",url:"https://lolly.com.br",cat:"购物消费",rating:4,price:"免费",kw:"lolly baby brasil produtos",desc:"巴西母婴用品品牌，主营奶瓶、安抚奶嘴与喂养用品",official:true,region:"BR",plat:"网页",icon:"lolly.com.br.ico"},
+{name:"Evolve Back Kuruba Safari Lodge",url:"https://evolveback.com",cat:"购物消费",rating:4,price:"免费",kw:"evolve back kuruba safari lodge kabini",desc:"印度卡比尼河畔独立游猎度假村，以部落文化建筑为特色",official:true,region:"IN",plat:"网页",icon:"evolveback.com.ico"},
+{name:"Miavana",url:"https://miavana.com",cat:"购物消费",rating:4,price:"免费",kw:"miavana madagascar private island",desc:"马达加斯加诺西岛海域独立私人岛屿度假村，主打野奢与海洋保护",official:true,region:"MG",plat:"网页",icon:"miavana.com.ico"},
+{name:"Moulin Sur Mer",url:"https://moulinsurmer.com",cat:"购物消费",rating:4,price:"免费",kw:"moulin sur mer haiti resort",desc:"海地科特德阿尔卡丹斯海岸独立海滨度假村，殖民庄园改建",official:true,region:"HT",plat:"网页",icon:"moulinsurmer.com.ico"},
+{name:"Casa Bonita Tropical Lodge",url:"https://casabonitahotel.com",cat:"购物消费",rating:4,price:"免费",kw:"casa bonita tropical lodge barahona",desc:"多米尼加巴拉奥纳山区独立生态小屋，可俯瞰加勒比海",official:true,region:"DO",plat:"网页",icon:"casabonitahotel.com.ico"},
+{name:"Capella Ubud",url:"https://capellahotels.com",cat:"购物消费",rating:4,price:"免费",kw:"capella ubud bali hotel",desc:"印度尼西亚巴厘岛乌布河谷独立帐篷度假村，复古探险家风格",official:true,region:"ID",plat:"网页",icon:"capellahotels.com.ico"}
 ];
