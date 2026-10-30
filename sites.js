@@ -10325,7 +10325,6 @@ const SITES = [
 {name:"Costumbres Argentinas",url:"https://costumbresargentinas.com.ar",cat:"购物消费",rating:4,price:"免费",kw:"Costumbres Argentinas 面包房 阿根廷烘焙连锁",desc:"阿根廷面包房加盟连锁官网",official:true,region:"AR",plat:"网页",icon:"costumbresargentinas.com.ar.ico"},
 {name:"Pão Dourado",url:"https://paodourado.com.br",cat:"购物消费",rating:4,price:"免费",kw:"Pão Dourado 面包房 巴西面包连锁",desc:"巴西本土面包连锁官网",official:true,region:"BR",plat:"网页",icon:"paodourado.com.br.ico"},
 {name:"Bijola",url:"https://bijola.lt",cat:"购物消费",rating:4,price:"免费",kw:"Bijola 糕点 立陶宛糕点连锁",desc:"立陶宛糕点连锁官网",official:true,region:"LT",plat:"网页",icon:"bijola.lt.ico"},
-{name:"Knead",url:"https://knead.co.za",cat:"购物消费",rating:4,price:"免费",kw:"Knead 面包房 南非面包房连锁",desc:"南非手工面包房连锁官网",official:true,region:"ZA",plat:"网页",icon:"knead.co.za.ico"},
 {name:"Dar Al Fouad Hospital",url:"https://daralfouad.org",cat:"生活服务",rating:4,price:"免费",kw:"Dar Al Fouad 埃及医院 开罗心脏专科医院",desc:"埃及心脏专科私立医院官网，分类医疗",official:true,region:"EG",plat:"网页",icon:"daralfouad.org.ico"},
 {name:"Anadolu Medical Center",url:"https://anadolumedicalcenter.com",cat:"生活服务",rating:4,price:"免费",kw:"Anadolu Medical Center 土耳其医疗中心",desc:"土耳其综合医疗中心官网，分类医疗",official:true,region:"TR",plat:"网页",icon:"anadolumedicalcenter.com.ico"},
 {name:"Oktopus Fitness Club",url:"https://oktopus.ge",cat:"生活服务",rating:4,price:"免费",kw:"Oktopus Fitness 健身房 格鲁吉亚健身",desc:"格鲁吉亚健身俱乐部连锁官网",official:true,region:"GE",plat:"网页",icon:"oktopus.ge.ico"}
