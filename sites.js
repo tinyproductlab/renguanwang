@@ -10274,7 +10274,6 @@ const SITES = [
 {name:"Clínica Universidad de los Andes",url:"https://clinicauandes.cl",cat:"生活服务",rating:4,price:"免费",kw:"Clínica Universidad de los Andes 智利医院 圣地亚哥医院",desc:"智利大学附属医院官网，分类医疗",official:true,region:"CL",plat:"网页",icon:"clinicauandes.cl.ico"},
 {name:"Athletic Fitness",url:"https://athletic.bg",cat:"生活服务",rating:4,price:"免费",kw:"Athletic Fitness 健身房 保加利亚健身",desc:"保加利亚健身连锁官网",official:true,region:"BG",plat:"网页",icon:"athletic.bg.ico"},
 {name:"Hreyfing",url:"https://hreyfing.is",cat:"生活服务",rating:4,price:"免费",kw:"Hreyfing 健身房 冰岛健身",desc:"冰岛健身连锁官网",official:true,region:"IS",plat:"网页",icon:"hreyfing.is.ico"},
-{name:"Jims",url:"https://jims.be",cat:"生活服务",rating:4,price:"免费",kw:"Jims 健身房 比利时健身",desc:"比利时健身连锁官网",official:true,region:"BE",plat:"网页",icon:"jims.be.ico"},
 {name:"MultiSpa",url:"https://multispa.cr",cat:"生活服务",rating:4,price:"免费",kw:"MultiSpa 健身 哥斯达黎加健身水疗",desc:"哥斯达黎加健身水疗连锁官网",official:true,region:"CR",plat:"网页",icon:"multispa.cr.ico"},
 {name:"hiitworks",url:"https://hiitworks.com",cat:"生活服务",rating:4,price:"免费",kw:"hiitworks 健身 乌克兰健身",desc:"乌克兰间歇训练健身连锁官网",official:true,region:"UA",plat:"网页",icon:"hiitworks.com.ico"}
 ];
