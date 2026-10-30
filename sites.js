@@ -11864,5 +11864,17 @@ const SITES = [
 {name:"Yanhee Hospital",url:"https://yanhee.net",cat:"生活服务",rating:4,price:"免费",kw:"医院 yanhee",desc:"泰国曼谷私立综合医院，以综合诊疗与整形美容服务闻名",official:true,region:"TH",plat:"网页",icon:"yanhee.net.ico"},
 {name:"De Los Santos Medical Center",url:"https://delossantosmed.ph",cat:"生活服务",rating:4,price:"免费",kw:"医院 de los santos",desc:"菲律宾奎松市私立综合医院，以骨科与康复服务见长",official:true,region:"PH",plat:"网页",icon:"delossantosmed.ph.ico"},
 {name:"Epworth Healthcare",url:"https://epworth.org.au",cat:"生活服务",rating:4,price:"免费",kw:"医院 epworth",desc:"澳大利亚维多利亚州私立非营利医疗集团，运营多家专科医院",official:true,region:"AU",plat:"网页",icon:"epworth.org.au.ico"},
-{name:"Allevia Hospitals",url:"https://alleviahospitals.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"医院 allevia",desc:"新西兰奥克兰私立外科医疗集团（原 MercyAscot 更名），旗下设有 Mercy 与 Ascot 院区",official:true,region:"NZ",plat:"网页",icon:"alleviahospitals.co.nz.ico"}
+{name:"Allevia Hospitals",url:"https://alleviahospitals.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"医院 allevia",desc:"新西兰奥克兰私立外科医疗集团（原 MercyAscot 更名），旗下设有 Mercy 与 Ascot 院区",official:true,region:"NZ",plat:"网页",icon:"alleviahospitals.co.nz.ico"},
+{name:"Akuku",url:"https://akuku.com.pl",cat:"购物消费",rating:4,price:"免费",kw:"母婴 akuku",desc:"波兰本土母婴用品品牌，主营安抚奶嘴与喂养配件",official:true,region:"PL",plat:"网页",icon:"akuku.com.pl.ico"},
+{name:"Easygrow",url:"https://easygrow.no",cat:"购物消费",rating:4,price:"免费",kw:"婴儿睡袋 easygrow",desc:"挪威本土婴儿睡袋品牌，主营户外保暖睡袋与推车睡袋",official:true,region:"NO",plat:"网页",icon:"easygrow.no.ico"},
+{name:"Saturdays",url:"https://saturdays.com",cat:"购物消费",rating:4,price:"免费",kw:"眼镜 saturdays",desc:"印度尼西亚本土眼镜品牌连锁，主营设计师镜架与验光配镜",official:true,region:"ID",plat:"网页",icon:"saturdays.com.ico"},
+{name:"Casa Pueblo",url:"https://casapueblo.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"艺术酒店 casapueblo",desc:"乌拉圭埃斯特角城附近蓬塔巴耶纳的独立艺术酒店，由艺术家帕埃斯亲手建造",official:true,region:"UY",plat:"网页",icon:"casapueblo.com.uy.ico"},
+{name:"Ceylon Tea Trails",url:"https://ceylonteatrails.com",cat:"购物消费",rating:4,price:"免费",kw:"茶庄度假 ceylon tea trails",desc:"斯里兰卡中部茶区的独立庄园度假村，由数栋殖民时期茶厂主别墅组成",official:true,region:"LK",plat:"网页",icon:"ceylonteatrails.com.ico"},
+{name:"Dar Ben Gacem",url:"https://darbengacem.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 dar ben gacem",desc:"突尼斯市麦地那老城内的独立精品酒店，由传统达尔老宅修复而成",official:true,region:"TN",plat:"网页",icon:"darbengacem.com.ico"},
+{name:"Munduk Moding Plantation",url:"https://mundukmodingplantation.com",cat:"购物消费",rating:4,price:"免费",kw:"种植园度假 munduk moding",desc:"印度尼西亚巴厘岛北部咖啡种植园内的独立生态度假村，坐拥山湖景观",official:true,region:"ID",plat:"网页",icon:"mundukmodingplantation.com.ico"},
+{name:"Okonjima Plains Camp",url:"https://okonjima.com",cat:"购物消费",rating:4,price:"免费",kw:"游猎营地 okonjima",desc:"纳米比亚中部高原的家族保护区营地，以非洲猫科动物保护项目闻名",official:true,region:"NA",plat:"网页",icon:"okonjima.com.ico"},
+{name:"Ol Malo",url:"https://olmalo.com",cat:"购物消费",rating:4,price:"免费",kw:"游猎庄园 ol malo",desc:"肯尼亚莱基皮亚高原的家族经营游猎庄园，可骑马和徒步观野生动物",official:true,region:"KE",plat:"网页",icon:"olmalo.com.ico"},
+{name:"White Pearl Resorts",url:"https://whitepearlresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"海滩度假 white pearl",desc:"莫桑比克南部蓬塔马蒙内海岸的独立白沙度假村，别墅散布于沙丘林间",official:true,region:"MZ",plat:"网页",icon:"whitepearlresorts.com.ico"},
+{name:"Pickl",url:"https://eatpickl.com",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 pickl",desc:"阿联酋迪拜本土汉堡品牌，主营砸牛肉汉堡与炸鸡堡",official:true,region:"AE",plat:"网页",icon:"eatpickl.com.ico"},
+{name:"Tsui Wah",url:"https://tsuiwah.com",cat:"生活服务",rating:4,price:"免费",kw:"茶餐厅 翠华 tsui wah",desc:"香港本土茶餐厅连锁，主营港式快餐、奶茶与烧味饭",official:true,region:"HK",plat:"网页",icon:"tsuiwah.com.ico"}
 ];
