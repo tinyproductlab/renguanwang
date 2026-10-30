@@ -11524,5 +11524,11 @@ const SITES = [
 {name:"Keemala",url:"https://keemala.com",cat:"购物消费",rating:4,price:"免费",kw:"keemala 泰国 普吉岛 别墅度假村",desc:"泰国普吉岛山林中独立别墅度假村的官网，以树屋与鸟巢式泳池别墅闻名。",official:true,region:"TH",plat:"网页",icon:"keemala.com.ico"},
 {name:"The Lalu 涵碧楼",url:"https://thelalu.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"thelalu 涵碧楼 台湾 日月潭 度假酒店",desc:"台湾日月潭畔独立精品度假酒店的官网，以极简东方美学与湖景著称。",official:true,region:"TW",plat:"网页",icon:"thelalu.com.tw.ico"},
 {name:"Borgo Santo Pietro",url:"https://borgosantopietro.com",cat:"购物消费",rating:4,price:"免费",kw:"borgo santo pietro 意大利 托斯卡纳 庄园酒店",desc:"意大利托斯卡纳庄园精品酒店的官网，拥有自营有机农场与田园餐厅。",official:true,region:"IT",plat:"网页",icon:"borgosantopietro.com.ico"},
-{name:"Vero Cafe",url:"https://verocafe.lt",cat:"生活服务",rating:4,price:"免费",kw:"vero cafe 立陶宛 咖啡连锁",desc:"立陶宛本土咖啡连锁的官网，主营现磨咖啡、甜点与简餐。",official:true,region:"LT",plat:"网页",icon:"verocafe.lt.ico"}
+{name:"Vero Cafe",url:"https://verocafe.lt",cat:"生活服务",rating:4,price:"免费",kw:"vero cafe 立陶宛 咖啡连锁",desc:"立陶宛本土咖啡连锁的官网，主营现磨咖啡、甜点与简餐。",official:true,region:"LT",plat:"网页",icon:"verocafe.lt.ico"},
+{name:"Prince Jewellery",url:"https://princejewellery.in",cat:"购物消费",rating:4,price:"免费",kw:"prince jewellery 印度 金奈 珠宝",desc:"印度金奈本土珠宝零售连锁的官网商城，主营黄金、钻石与宝石首饰。",official:true,region:"IN",plat:"网页",icon:"princejewellery.in.ico"},
+{name:"Frans.ua",url:"https://frans.ua",cat:"购物消费",rating:4,price:"免费",kw:"frans.ua 乌克兰 法式面包 咖啡",desc:"乌克兰本土法式面包咖啡连锁的官网，主营可颂、面包与简餐。",official:true,region:"UA",plat:"网页",icon:"frans.ua.ico"},
+{name:"Wigmore Clinic",url:"https://wigmoreclinic.am",cat:"生活服务",rating:4,price:"免费",kw:"wigmore clinic 亚美尼亚 骨科 诊所",desc:"亚美尼亚埃里温私立骨科专科诊所的官网，提供骨科手术与康复服务。",official:true,region:"AM",plat:"网页",icon:"wigmoreclinic.am.ico"},
+{name:"MediClub",url:"https://mediclub.az",cat:"生活服务",rating:4,price:"免费",kw:"mediclub 阿塞拜疆 巴库 私立诊所",desc:"阿塞拜疆巴库老牌私立诊所的官网，提供综合门诊与急救转运服务。",official:true,region:"AZ",plat:"网页",icon:"mediclub.az.ico"},
+{name:"Medita Clinic",url:"https://medita.ee",cat:"生活服务",rating:4,price:"免费",kw:"medita clinic 爱沙尼亚 塔尔图 诊所",desc:"爱沙尼亚塔尔图私立诊所的官网，提供专科门诊、日间手术与体检服务。",official:true,region:"EE",plat:"网页",icon:"medita.ee.ico"},
+{name:"Opšta bolnica Atlas",url:"https://atlasklinika.com",cat:"生活服务",rating:4,price:"免费",kw:"atlas klinika 塞尔维亚 贝尔格莱德 私立医院",desc:"塞尔维亚贝尔格莱德私立综合医院的官网，提供外科与专科诊疗服务。",official:true,region:"RS",plat:"网页",icon:"atlasklinika.com.ico"}
 ];
