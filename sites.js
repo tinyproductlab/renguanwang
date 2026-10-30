@@ -11385,5 +11385,11 @@ const SITES = [
 {name:"By Charlotte",url:"https://bycharlotte.com.au",cat:"购物消费",rating:4,price:"免费",kw:"by charlotte 澳大利亚 珠宝",desc:"澳大利亚本土设计师珠宝品牌，主营镀金与银饰首饰的官网商城。",official:true,region:"AU",plat:"网页",icon:"bycharlotte.com.au.ico"},
 {name:"Kultho",url:"https://kultho.ro",cat:"购物消费",rating:4,price:"免费",kw:"kultho 罗马尼亚 珠宝",desc:"罗马尼亚本土珠宝零售商，主营黄金、钻石首饰的官网商城。",official:true,region:"RO",plat:"网页",icon:"kultho.ro.ico"},
 {name:"Medicom",url:"https://medicom.ua",cat:"生活服务",rating:4,price:"免费",kw:"medicom 基辅 私立诊所 medikom",desc:"乌克兰基辅老牌私立综合诊所，主营门诊、影像诊断与日间手术的官网。",official:true,region:"UA",plat:"网页",icon:"medicom.ua.ico"},
-{name:"Hôpital Albert Haykel",url:"https://hopitalhaykel.com",cat:"生活服务",rating:4,price:"免费",kw:"albert haykel 黎巴嫩 医院",desc:"黎巴嫩的黎波里私立综合医院，主营急诊、手术与专科诊疗的官网。",official:true,region:"LB",plat:"网页",icon:"hopitalhaykel.com.ico"}
+{name:"Hôpital Albert Haykel",url:"https://hopitalhaykel.com",cat:"生活服务",rating:4,price:"免费",kw:"albert haykel 黎巴嫩 医院",desc:"黎巴嫩的黎波里私立综合医院，主营急诊、手术与专科诊疗的官网。",official:true,region:"LB",plat:"网页",icon:"hopitalhaykel.com.ico"},
+{name:"Tony Kealys",url:"https://tonykealys.com",cat:"购物消费",rating:4,price:"免费",kw:"tony kealys 爱尔兰 母婴 推车",desc:"爱尔兰本土母婴零售商，主营婴儿推车、汽车座椅与新生儿用品的官网商城。",official:true,region:"IE",plat:"网页",icon:"tonykealys.com.ico"},
+{name:"Amadria Park",url:"https://amadriapark.com",cat:"购物消费",rating:4,price:"免费",kw:"amadria park 克罗地亚 度假酒店",desc:"克罗地亚本土度假酒店集团，布局希贝尼克与奥帕蒂亚的官网。",official:true,region:"HR",plat:"网页",icon:"amadriapark.com.ico"},
+{name:"Ani Plaza Hotel",url:"https://anihotel.com",cat:"购物消费",rating:4,price:"免费",kw:"ani plaza hotel 埃里温 亚美尼亚",desc:"亚美尼亚埃里温市中心老牌本土酒店（Ani Hotels 集团）的官网。",official:true,region:"AM",plat:"网页",icon:"anihotel.com.ico"},
+{name:"Ulaanbaatar Hotel",url:"https://ubhotel.mn",cat:"购物消费",rating:4,price:"免费",kw:"ulaanbaatar hotel 蒙古 乌兰巴托酒店",desc:"蒙古国乌兰巴托老牌本土酒店，开业于上世纪五十年代的官网。",official:true,region:"MN",plat:"网页",icon:"ubhotel.mn.ico"},
+{name:"Namgay Heritage Hotel",url:"https://namgayheritage.com",cat:"购物消费",rating:4,price:"免费",kw:"namgay heritage hotel 不丹 廷布",desc:"不丹廷布本土遗产风格酒店，融合传统不丹建筑的官网。",official:true,region:"BT",plat:"网页",icon:"namgayheritage.com.ico"},
+{name:"Palasia Hotel Palau",url:"https://palasiahotelpalau.com",cat:"购物消费",rating:4,price:"免费",kw:"palasia hotel palau 帕劳 酒店",desc:"帕劳科罗尔本土地标酒店，市中心最高建筑之一的官网。",official:true,region:"PW",plat:"网页",icon:"palasiahotelpalau.com.ico"}
 ];
