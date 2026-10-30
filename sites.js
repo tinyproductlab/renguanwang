@@ -11350,5 +11350,7 @@ const SITES = [
 {name:"BabyBack Ribs & BBQ",url:"https://babyback.ee",cat:"生活服务",rating:4,price:"免费",kw:"babyback ribs bbq 烧烤 爱沙尼亚 官网",desc:"爱沙尼亚美式烧烤连锁官网，主营烤肋排、汉堡与鸡翅",official:true,region:"EE",plat:"网页",icon:"babyback.ee.ico"},
 {name:"UGO",url:"https://www.ugo.cz",cat:"生活服务",rating:4,price:"免费",kw:"ugo 轻食 沙拉 捷克 官网",desc:"捷克轻食连锁官网，主营沙拉、鲜榨果汁与健康简餐",official:true,region:"CZ",plat:"网页",icon:"www.ugo.cz.ico"},
 {name:"Dva Štapića",url:"https://dvastapica.com",cat:"生活服务",rating:4,price:"免费",kw:"dva stapica 亚洲快餐 塞尔维亚 官网",desc:"塞尔维亚亚洲快餐连锁官网，主营中式炒面、炒饭与寿司",official:true,region:"RS",plat:"网页",icon:"dvastapica.com.ico"},
-{name:"Solaria",url:"https://solariaresto.co.id",cat:"生活服务",rating:4,price:"免费",kw:"solaria 餐饮 印尼 官网",desc:"印度尼西亚大众餐饮连锁官网，主营印尼家常菜、面饭与小吃",official:true,region:"ID",plat:"网页",icon:"solariaresto.co.id.ico"}
+{name:"Solaria",url:"https://solariaresto.co.id",cat:"生活服务",rating:4,price:"免费",kw:"solaria 餐饮 印尼 官网",desc:"印度尼西亚大众餐饮连锁官网，主营印尼家常菜、面饭与小吃",official:true,region:"ID",plat:"网页",icon:"solariaresto.co.id.ico"},
+{name:"Ganapati Jewellers Nepal",url:"https://ganapatijewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"ganapati jewellers 珠宝 尼泊尔 官网",desc:"尼泊尔黄金钻石珠宝零售商官网，主营传统金饰、钻石与婚嫁首饰并运营官方商城",official:true,region:"NP",plat:"网页",icon:"ganapatijewellers.com.ico"},
+{name:"Luca",url:"https://lucatraditie.ro",cat:"购物消费",rating:4,price:"免费",kw:"luca 可颂 点心 罗马尼亚 官网",desc:"罗马尼亚西式点心连锁官网，主营可颂、椒盐卷饼与烘焙简餐",official:true,region:"RO",plat:"网页",icon:"lucatraditie.ro.ico"}
 ];
