@@ -11508,5 +11508,8 @@ const SITES = [
 {name:"Hansa Hotel",url:"https://hansa-hotel.com",cat:"购物消费",rating:4,price:"免费",kw:"hansa hotel 纳米比亚 斯瓦科普蒙德 历史酒店",desc:"纳米比亚斯瓦科普蒙德的百年历史酒店官网，开业于1905年。",official:true,region:"NA",plat:"网页",icon:"hansa-hotel.com.ico"},
 {name:"Latitude 0°",url:"https://latitude0.com",cat:"购物消费",rating:4,price:"免费",kw:"latitude 0 乌干达 坎帕拉 精品酒店",desc:"乌干达坎帕拉马金迪山区的精品设计酒店官网，以非洲当代艺术装饰为特色。",official:true,region:"UG",plat:"网页",icon:"latitude0.com.ico"},
 {name:"The Walled Off Hotel",url:"https://walledoffhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"walled off hotel 巴勒斯坦 伯利恒 班克斯",desc:"巴勒斯坦伯利恒紧邻隔离墙的精品酒店官网，以班克斯的艺术设计闻名。",official:true,region:"PS",plat:"网页",icon:"walledoffhotel.com.ico"},
-{name:"Joma Bakery Café",url:"https://joma.biz",cat:"生活服务",rating:4,price:"免费",kw:"joma bakery cafe 老挝 烘焙咖啡",desc:"老挝本土烘焙咖啡连锁的官网，主营咖啡、面包与西式简餐。",official:true,region:"LA",plat:"网页",icon:"joma.biz.ico"}
+{name:"Joma Bakery Café",url:"https://joma.biz",cat:"生活服务",rating:4,price:"免费",kw:"joma bakery cafe 老挝 烘焙咖啡",desc:"老挝本土烘焙咖啡连锁的官网，主营咖啡、面包与西式简餐。",official:true,region:"LA",plat:"网页",icon:"joma.biz.ico"},
+{name:"Saint Tracy",url:"https://sainttracy.com",cat:"购物消费",rating:4,price:"免费",kw:"saint tracy 尼日利亚 奢华珠宝 婚嫁",desc:"尼日利亚本土奢华珠宝品牌的官网商城，主营婚嫁珠宝与钻石首饰。",official:true,region:"NG",plat:"网页",icon:"sainttracy.com.ico"},
+{name:"Awfully Chocolate",url:"https://awfullychocolate.com",cat:"购物消费",rating:4,price:"免费",kw:"awfully chocolate 新加坡 巧克力 蛋糕",desc:"新加坡本土巧克力甜品品牌的官网商城，主营黑巧克力蛋糕与巧克力饮品。",official:true,region:"SG",plat:"网页",icon:"awfullychocolate.com.ico"},
+{name:"Chateau Gateaux",url:"https://chateaugateaux.co.za",cat:"购物消费",rating:4,price:"免费",kw:"chateau gateaux 南非 蛋糕 甜品",desc:"南非本土冷冻蛋糕甜品连锁的官网商城，主营整蛋糕、芝士蛋糕与甜点。",official:true,region:"ZA",plat:"网页",icon:"chateaugateaux.co.za.ico"}
 ];
