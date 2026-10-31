@@ -11995,5 +11995,19 @@ const SITES = [
 {name:"Ganzouri Specialized Hospital",url:"https://ganzourihospital.com",cat:"生活服务",rating:4,price:"免费",kw:"专科医院 ganzouri",desc:"埃及开罗私立专科医院，提供综合与专科诊疗服务",official:true,region:"EG",plat:"网页",icon:"ganzourihospital.com.ico"},
 {name:"Shwe La Min Hospital",url:"https://shwelamin.com",cat:"生活服务",rating:4,price:"免费",kw:"综合医院 shwe la min",desc:"缅甸仰光私立综合医院，提供门诊、住院与专科服务",official:true,region:"MM",plat:"网页",icon:"shwelamin.com.ico"},
 {name:"Ozone",url:"https://www.ozoneclubs.com",cat:"生活服务",rating:4,price:"免费",kw:"健身水疗 ozone",desc:"印度新德里本土豪华健身与水疗连锁，主营器械训练、水疗与团体课程",official:true,region:"IN",plat:"网页",icon:"www.ozoneclubs.com.ico"},
-{name:"Pippa's Health Centre",url:"https://pippasfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"健身中心 pippa",desc:"加纳阿克拉本土健身连锁，主营器械训练、团课与物理治疗",official:true,region:"GH",plat:"网页",icon:"pippasfitness.com.ico"}
+{name:"Pippa's Health Centre",url:"https://pippasfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"健身中心 pippa",desc:"加纳阿克拉本土健身连锁，主营器械训练、团课与物理治疗",official:true,region:"GH",plat:"网页",icon:"pippasfitness.com.ico"},
+{name:"AQA Baby",url:"https://aqababy.ru",cat:"购物消费",rating:4,price:"免费",kw:"婴幼儿洗护 aqa",desc:"俄罗斯本土婴幼儿洗护品牌，主营婴儿洗发、沐浴与护肤产品",official:true,region:"RU",plat:"网页",icon:"aqababy.ru.ico"},
+{name:"Ecoriginals",url:"https://ecoriginals.com.au",cat:"购物消费",rating:4,price:"免费",kw:"环保纸尿裤 ecoriginals",desc:"澳大利亚环保纸尿裤品牌，主营植物基可降解婴儿纸尿裤与湿巾",official:true,region:"AU",plat:"网页",icon:"ecoriginals.com.au.ico"},
+{name:"Cap Karoso",url:"https://capkaroso.com",cat:"购物消费",rating:4,price:"免费",kw:"生态度假村 karoso",desc:"印度尼西亚松巴岛西海岸的生态精品度假村，周边有传统村落与泻湖",official:true,region:"ID",plat:"网页",icon:"capkaroso.com.ico"},
+{name:"Hiiragiya Ryokan",url:"https://hiiragiya.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"日式旅馆 柊家",desc:"日本京都的老牌日式旅馆，以庭院客房与怀石料理著称",official:true,region:"JP",plat:"网页",icon:"hiiragiya.co.jp.ico"},
+{name:"Macalister Mansion",url:"https://macalistermansion.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 macalister",desc:"马来西亚槟城乔治市的设计精品酒店，由殖民老宅改建而成",official:true,region:"MY",plat:"网页",icon:"macalistermansion.com.ico"},
+{name:"Nazimgarh Wilderness Resort",url:"https://nazimgarh.com",cat:"购物消费",rating:4,price:"免费",kw:"自然度假村 nazimgarh",desc:"孟加拉国锡尔赫特茶园丘陵间的自然度假村",official:true,region:"BD",plat:"网页",icon:"nazimgarh.com.ico"},
+{name:"Nest Hotel",url:"https://nesthotel.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"海滨酒店 nest",desc:"韩国仁川永宗岛的设计型海滨酒店，可远眺西海",official:true,region:"KR",plat:"网页",icon:"nesthotel.co.kr.ico"},
+{name:"Ololo Safari Lodge",url:"https://olololodge.com",cat:"购物消费",rating:4,price:"免费",kw:"野奢旅馆 ololo",desc:"肯尼亚内罗毕国家公园边缘的家族经营野奢旅馆",official:true,region:"KE",plat:"网页",icon:"olololodge.com.ico"},
+{name:"Shipwreck Lodge",url:"https://shipwrecklodge.com.na",cat:"购物消费",rating:4,price:"免费",kw:"生态旅馆 shipwreck",desc:"纳米比亚骷髅海岸的沉船主题生态旅馆，位于沙丘与大西洋之间",official:true,region:"NA",plat:"网页",icon:"shipwrecklodge.com.na.ico"},
+{name:"The Funny Lion",url:"https://thefunnylion.com",cat:"购物消费",rating:4,price:"免费",kw:"度假酒店 funny lion",desc:"菲律宾科隆镇的精品度假酒店，是跳岛与潜水行程的落脚点",official:true,region:"PH",plat:"网页",icon:"thefunnylion.com.ico"},
+{name:"The Warehouse Hotel",url:"https://thewarehousehotel.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 warehouse",desc:"新加坡河畔的精品酒店，由 1895 年的仓库建筑改建而成",official:true,region:"SG",plat:"网页",icon:"thewarehousehotel.com.ico"},
+{name:"Villa Belle Époque",url:"https://villabelleepoque.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 belle epoque",desc:"埃及开罗马阿迪区的别墅式精品酒店，带花园与泳池，被称为埃及首家精品酒店",official:true,region:"EG",plat:"网页",icon:"villabelleepoque.com.ico"},
+{name:"Arthur's Pizza",url:"https://arthurs.lk",cat:"生活服务",rating:4,price:"免费",kw:"披萨 arthurs",desc:"斯里兰卡本土披萨连锁，主营意式披萨与意面",official:true,region:"LK",plat:"网页",icon:"arthurs.lk.ico"},
+{name:"Johnny & Jugnu",url:"https://johnnyandjugnu.com",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 johnny jugnu",desc:"巴基斯坦拉合尔本土汉堡连锁，主营牛肉汉堡与卷饼",official:true,region:"PK",plat:"网页",icon:"johnnyandjugnu.com.ico"}
 ];
