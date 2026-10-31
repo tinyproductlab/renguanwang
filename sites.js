@@ -12494,5 +12494,6 @@ const SITES = [
 {name:"Asia Hotels",url:"https://asiahotels.uz",cat:"购物消费",rating:4,price:"免费",kw:"asia hotels，asiahotels.uz，官网",desc:"乌兹别克斯坦本土连锁酒店集团，在塔什干、撒马尔罕、费尔干纳等地设有酒店，认准官网 asiahotels.uz。",official:true,region:"UZ",plat:"网页",icon:"asiahotels.uz.ico"},
 {name:"Pizza Mia",url:"https://pizzamia.com.cy",cat:"生活服务",rating:4,price:"免费",kw:"pizza mia，pizzamia.com.cy，官网",desc:"塞浦路斯本土披萨连锁，在尼科西亚等地设有门店，认准官网 pizzamia.com.cy。",official:true,region:"CY",plat:"网页",icon:"pizzamia.com.cy.ico"},
 {name:"Brioche",url:"https://www.briocherwanda.com",cat:"购物消费",rating:4,price:"免费",kw:"brioche，briocherwanda.com，官网",desc:"卢旺达本土法式烘焙咖啡连锁，在基加利设有多家门店，认准官网 briocherwanda.com。",official:true,region:"RW",plat:"网页",icon:"www.briocherwanda.com.ico"},
-{name:"Enbee",url:"https://enbee.co.zw",cat:"购物消费",rating:4,price:"免费",kw:"enbee，enbee.co.zw，官网",desc:"津巴布韦本土童装与校服零售商，在哈拉雷经营儿童服饰与校服门店，认准官网 enbee.co.zw。",official:true,region:"ZW",plat:"网页",icon:"enbee.co.zw.ico"}
+{name:"Enbee",url:"https://enbee.co.zw",cat:"购物消费",rating:4,price:"免费",kw:"enbee，enbee.co.zw，官网",desc:"津巴布韦本土童装与校服零售商，在哈拉雷经营儿童服饰与校服门店，认准官网 enbee.co.zw。",official:true,region:"ZW",plat:"网页",icon:"enbee.co.zw.ico"},
+{name:"Fit Farm Jamaica",url:"https://www.fitfarmjamaica.com",cat:"生活服务",rating:4,price:"免费",kw:"fit farm jamaica，fitfarmjamaica.com，官网",desc:"牙买加本土健身连锁，在金斯敦设有门店，认准官网 fitfarmjamaica.com。",official:true,region:"JM",plat:"网页",icon:"www.fitfarmjamaica.com.ico"}
 ];
