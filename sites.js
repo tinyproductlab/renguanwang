@@ -12030,5 +12030,11 @@ const SITES = [
 {name:"Mfuwe Lodge",url:"https://bushcampcompany.com",cat:"购物消费",rating:4,price:"免费",kw:"Mfuwe Lodge 赞比亚 卢安瓜 Safari",desc:"赞比亚南卢安瓜国家公园内的经典 Safari 旅舍，以大象穿堂闻名",official:true,region:"ZM",plat:"网页",icon:"bushcampcompany.com.ico"},
 {name:"Burgerizzr",url:"https://burgerizzr.com",cat:"生活服务",rating:4,price:"免费",kw:"Burgerizzr 汉堡 沙特 快餐",desc:"沙特阿拉伯本土汉堡连锁，主打现烤牛肉与鸡肉汉堡",official:true,region:"SA",plat:"网页",icon:"burgerizzr.com.ico"},
 {name:"Go Crispy",url:"https://gocrispy.com",cat:"生活服务",rating:4,price:"免费",kw:"Go Crispy 炸鸡 卡塔尔 快餐",desc:"卡塔尔本土炸鸡连锁，提供炸鸡、汉堡与家庭套餐",official:true,region:"QA",plat:"网页",icon:"gocrispy.com.ico"},
-{name:"Papa's Pizza",url:"https://papaspizzaghana.com",cat:"生活服务",rating:4,price:"免费",kw:"Papa's Pizza 披萨 加纳 快餐",desc:"加纳本土披萨连锁，提供披萨、炸鸡与外卖服务",official:true,region:"GH",plat:"网页",icon:"papaspizzaghana.com.ico"}
+{name:"Papa's Pizza",url:"https://papaspizzaghana.com",cat:"生活服务",rating:4,price:"免费",kw:"Papa's Pizza 披萨 加纳 快餐",desc:"加纳本土披萨连锁，提供披萨、炸鸡与外卖服务",official:true,region:"GH",plat:"网页",icon:"papaspizzaghana.com.ico"},
+{name:"King Fook Jewellery",url:"https://www.kingfook.com.hk",cat:"购物消费",rating:4,price:"免费",kw:"King Fook Jewellery 景福珠宝 香港",desc:"香港老牌珠宝零售商，主营黄金、钻石、翡翠与名表首饰",official:true,region:"HK",plat:"网页",icon:"www.kingfook.com.hk.ico"},
+{name:"Bellevue Medical Center",url:"https://bmc.com.lb",cat:"生活服务",rating:4,price:"免费",kw:"Bellevue Medical Center 医院 黎巴嫩 贝鲁特",desc:"黎巴嫩贝鲁特私立综合医院，主营专科诊疗与手术服务",official:true,region:"LB",plat:"网页",icon:"bmc.com.lb.ico"},
+{name:"Braemar Hospital",url:"https://braemarhospital.co.nz",cat:"生活服务",rating:4,price:"免费",kw:"Braemar Hospital 医院 新西兰 汉密尔顿",desc:"新西兰汉密尔顿私立外科医院，提供专科手术与住院服务",official:true,region:"NZ",plat:"网页",icon:"braemarhospital.co.nz.ico"},
+{name:"Malkars",url:"https://malkars.se",cat:"生活服务",rating:4,price:"免费",kw:"Malkars 健身 瑞典 卡尔马",desc:"瑞典东南部区域健身连锁，在卡尔马地区运营多家训练中心",official:true,region:"SE",plat:"网页",icon:"malkars.se.ico"},
+{name:"Panobianco",url:"https://panobianco.com.br",cat:"生活服务",rating:4,price:"免费",kw:"Panobianco 健身 巴西 加盟",desc:"巴西本土健身加盟连锁，在圣保罗州等地运营大量平价健身房",official:true,region:"BR",plat:"网页",icon:"panobianco.com.br.ico"},
+{name:"Simply Gym",url:"https://simplygym.co.uk",cat:"生活服务",rating:4,price:"免费",kw:"Simply Gym 健身 英国",desc:"英国区域健身连锁，主营平价月付器械训练与团体课程门店",official:true,region:"GB",plat:"网页",icon:"simplygym.co.uk.ico"}
 ];
