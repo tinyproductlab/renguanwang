@@ -12439,5 +12439,7 @@ const SITES = [
 {name:"Yao",url:"https://yao.com.do",cat:"生活服务",rating:4,price:"免费",kw:"yao，yao.com.do，官网",desc:"多米尼加本土中式快餐连锁，认准官网 yao.com.do。",official:true,region:"DO",plat:"网页",icon:"yao.com.do.ico"},
 {name:"Björnsbakarí",url:"https://www.bjornsbakari.is",cat:"购物消费",rating:4,price:"免费",kw:"björnsbakarí，bjornsbakari.is，官网",desc:"冰岛本土面包连锁，认准官网 bjornsbakari.is。",official:true,region:"IS",plat:"网页",icon:"www.bjornsbakari.is.ico"},
 {name:"Fitness One",url:"https://fitnessone.com.gt",cat:"生活服务",rating:4,price:"免费",kw:"fitness one，fitnessone.com.gt，官网",desc:"危地马拉本土健身连锁，认准官网 fitnessone.com.gt。",official:true,region:"GT",plat:"网页",icon:"fitnessone.com.gt.ico"},
-{name:"Mother's",url:"https://mothersjm.com",cat:"生活服务",rating:4,price:"免费",kw:"mother's，mothersjm.com，官网",desc:"牙买加本土快餐连锁，认准官网 mothersjm.com。",official:true,region:"JM",plat:"网页",icon:"mothersjm.com.ico"}
+{name:"Mother's",url:"https://mothersjm.com",cat:"生活服务",rating:4,price:"免费",kw:"mother's，mothersjm.com，官网",desc:"牙买加本土快餐连锁，认准官网 mothersjm.com。",official:true,region:"JM",plat:"网页",icon:"mothersjm.com.ico"},
+{name:"Petru",url:"https://petru.ro",cat:"购物消费",rating:4,price:"免费",kw:"petru，petru.ro，官网",desc:"罗马尼亚本土酥皮点心连锁，认准官网 petru.ro。",official:true,region:"RO",plat:"网页",icon:"petru.ro.ico"},
+{name:"Hress",url:"https://www.hress.is",cat:"生活服务",rating:4,price:"免费",kw:"hress，hress.is，官网",desc:"冰岛本土健身连锁，认准官网 hress.is。",official:true,region:"IS",plat:"网页",icon:"www.hress.is.ico"}
 ];
