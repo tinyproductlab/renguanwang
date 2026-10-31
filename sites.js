@@ -12454,5 +12454,6 @@ const SITES = [
 {name:"Marianas Eye Institute",url:"https://marianaseye.com",cat:"购物消费",rating:4,price:"免费",kw:"marianas eye institute，marianaseye.com，官网",desc:"北马里亚纳群岛本土眼科与配镜中心，认准官网 marianaseye.com。",official:true,region:"MP",plat:"网页",icon:"marianaseye.com.ico"},
 {name:"Rituals Coffee House",url:"https://ritualscoffeehouse.com",cat:"生活服务",rating:4,price:"免费",kw:"rituals coffee house，ritualscoffeehouse.com，官网",desc:"特立尼达和多巴哥本土咖啡快餐连锁，认准官网 ritualscoffeehouse.com。",official:true,region:"TT",plat:"网页",icon:"ritualscoffeehouse.com.ico"},
 {name:"El Churry",url:"https://elchurry.com",cat:"生活服务",rating:4,price:"免费",kw:"el churry，elchurry.com，官网",desc:"波多黎各本土三明治快餐连锁，认准官网 elchurry.com。",official:true,region:"PR",plat:"网页",icon:"elchurry.com.ico"},
-{name:"Beyond Limits Fitness",url:"https://www.beyondlimitsfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"beyond limits fitness，beyondlimitsfitness.com，官网",desc:"巴巴多斯本土健身中心，认准官网 beyondlimitsfitness.com。",official:true,region:"BB",plat:"网页",icon:"www.beyondlimitsfitness.com.ico"}
+{name:"Beyond Limits Fitness",url:"https://www.beyondlimitsfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"beyond limits fitness，beyondlimitsfitness.com，官网",desc:"巴巴多斯本土健身中心，认准官网 beyondlimitsfitness.com。",official:true,region:"BB",plat:"网页",icon:"www.beyondlimitsfitness.com.ico"},
+{name:"Liburnia Riviera Hotels",url:"https://www.liburnia.hr",cat:"购物消费",rating:4,price:"免费",kw:"liburnia riviera hotels，liburnia.hr，官网",desc:"克罗地亚本土酒店集团，认准官网 liburnia.hr。",official:true,region:"HR",plat:"网页",icon:"www.liburnia.hr.ico"}
 ];
