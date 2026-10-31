@@ -12009,5 +12009,15 @@ const SITES = [
 {name:"The Warehouse Hotel",url:"https://thewarehousehotel.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 warehouse",desc:"新加坡河畔的精品酒店，由 1895 年的仓库建筑改建而成",official:true,region:"SG",plat:"网页",icon:"thewarehousehotel.com.ico"},
 {name:"Villa Belle Époque",url:"https://villabelleepoque.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 belle epoque",desc:"埃及开罗马阿迪区的别墅式精品酒店，带花园与泳池，被称为埃及首家精品酒店",official:true,region:"EG",plat:"网页",icon:"villabelleepoque.com.ico"},
 {name:"Arthur's Pizza",url:"https://arthurs.lk",cat:"生活服务",rating:4,price:"免费",kw:"披萨 arthurs",desc:"斯里兰卡本土披萨连锁，主营意式披萨与意面",official:true,region:"LK",plat:"网页",icon:"arthurs.lk.ico"},
-{name:"Johnny & Jugnu",url:"https://johnnyandjugnu.com",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 johnny jugnu",desc:"巴基斯坦拉合尔本土汉堡连锁，主营牛肉汉堡与卷饼",official:true,region:"PK",plat:"网页",icon:"johnnyandjugnu.com.ico"}
+{name:"Johnny & Jugnu",url:"https://johnnyandjugnu.com",cat:"生活服务",rating:4,price:"免费",kw:"汉堡 johnny jugnu",desc:"巴基斯坦拉合尔本土汉堡连锁，主营牛肉汉堡与卷饼",official:true,region:"PK",plat:"网页",icon:"johnnyandjugnu.com.ico"},
+{name:"JEWELRY TSUTSUMI",url:"https://www.tsutsumi.co.jp",cat:"购物消费",rating:4,price:"免费",kw:"JEWELRY TSUTSUMI ツツミ 珠宝 日本",desc:"日本本土珠宝零售连锁，主营日常金饰与钻石首饰",official:true,region:"JP",plat:"网页",icon:"www.tsutsumi.co.jp.ico"},
+{name:"SEMEUR",url:"https://semeur.com.tw",cat:"购物消费",rating:4,price:"免费",kw:"SEMEUR 圣娜 面包 台湾",desc:"台湾法式烘焙连锁，主营可颂、欧式面包与甜点",official:true,region:"TW",plat:"网页",icon:"semeur.com.tw.ico"},
+{name:"Nada Bakery",url:"https://nadabakery.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"Nada Bakery 面包 新西兰 惠灵顿",desc:"新西兰惠灵顿本土面包连锁，主营面包、馅饼与甜点",official:true,region:"NZ",plat:"网页",icon:"nadabakery.co.nz.ico"},
+{name:"Berry's Cake House",url:"https://berrys.com.my",cat:"购物消费",rating:4,price:"免费",kw:"Berry's Cake House 蛋糕 马来西亚",desc:"马来西亚本土蛋糕面包连锁，主营蛋糕、面包与节庆糕点",official:true,region:"MY",plat:"网页",icon:"berrys.com.my.ico"},
+{name:"Manila Doctors Hospital",url:"https://maniladoctors.com.ph",cat:"生活服务",rating:4,price:"免费",kw:"Manila Doctors Hospital 医院 菲律宾",desc:"菲律宾马尼拉私立综合医院，提供多专科诊疗与住院服务",official:true,region:"PH",plat:"网页",icon:"maniladoctors.com.ph.ico"},
+{name:"Melomed Private Hospitals",url:"https://melomed.co.za",cat:"生活服务",rating:4,price:"免费",kw:"Melomed Private Hospitals 医院 南非",desc:"南非私立医院集团，在西开普省等地运营综合医院",official:true,region:"ZA",plat:"网页",icon:"melomed.co.za.ico"},
+{name:"Wooridul Spine Hospital",url:"https://wooridul.com",cat:"生活服务",rating:4,price:"免费",kw:"Wooridul Spine Hospital 脊柱 韩国",desc:"韩国私立脊柱专科医院，主营脊柱疾病诊疗与微创手术",official:true,region:"KR",plat:"网页",icon:"wooridul.com.ico"},
+{name:"Cheng Hsin General Hospital",url:"https://www.chgh.org.tw",cat:"生活服务",rating:4,price:"免费",kw:"Cheng Hsin General Hospital 振兴医院 台湾",desc:"台湾台北私立综合医院，主营心脏、骨科与综合专科诊疗",official:true,region:"TW",plat:"网页",icon:"www.chgh.org.tw.ico"},
+{name:"Al Moosa Specialist Hospital",url:"https://almoosahealthgroup.org",cat:"生活服务",rating:4,price:"免费",kw:"Al Moosa Specialist Hospital 医院 沙特",desc:"沙特阿拉伯私立专科医院，提供综合诊疗与住院服务",official:true,region:"SA",plat:"网页",icon:"almoosahealthgroup.org.ico"},
+{name:"金吉鸟健身",url:"https://jinjiniao.com",cat:"生活服务",rating:4,price:"免费",kw:"金吉鸟健身 健身 中国",desc:"中国南京起家的健身连锁，主营器械训练、泳池与团体课程",official:true,region:"CN",plat:"网页",icon:"jinjiniao.com.ico"}
 ];
