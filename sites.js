@@ -12370,5 +12370,10 @@ const SITES = [
 {name:"MACFIT360",url:"https://macfit360.com",cat:"生活服务",rating:4,price:"免费",kw:"macfit360，macfit360.com，官网",desc:"巴哈马本土健身品牌，认准官网 macfit360.com。",official:true,region:"BS",plat:"网页",icon:"macfit360.com.ico"},
 {name:"Ken Black",url:"https://kenblack.ie",cat:"购物消费",rating:4,price:"免费",kw:"ken black，kenblack.ie，官网",desc:"爱尔兰本土玩具零售连锁，认准官网 kenblack.ie。",official:true,region:"IE",plat:"网页",icon:"kenblack.ie.ico"},
 {name:"Sach Pizza",url:"https://sachpizza.com",cat:"生活服务",rating:4,price:"免费",kw:"sach pizza，sachpizza.com，官网",desc:"科索沃本土比萨连锁，认准官网 sachpizza.com。",official:true,region:"XK",plat:"网页",icon:"sachpizza.com.ico"},
-{name:"Grenadine House",url:"https://www.grenadinehouse.com",cat:"购物消费",rating:4,price:"免费",kw:"grenadine house，grenadinehouse.com，官网",desc:"圣文森特和格林纳丁斯本土精品酒店，认准官网 grenadinehouse.com。",official:true,region:"VC",plat:"网页",icon:"www.grenadinehouse.com.ico"}
+{name:"Grenadine House",url:"https://www.grenadinehouse.com",cat:"购物消费",rating:4,price:"免费",kw:"grenadine house，grenadinehouse.com，官网",desc:"圣文森特和格林纳丁斯本土精品酒店，认准官网 grenadinehouse.com。",official:true,region:"VC",plat:"网页",icon:"www.grenadinehouse.com.ico"},
+{name:"Bijoux Jewelers",url:"https://bijouxjewelers.com",cat:"购物消费",rating:4,price:"免费",kw:"bijoux jewelers，bijouxjewelers.com，官网",desc:"牙买加本土珠宝零售连锁，认准官网 bijouxjewelers.com。",official:true,region:"JM",plat:"网页",icon:"bijouxjewelers.com.ico"},
+{name:"Mylnan",url:"https://mylnan.fo",cat:"购物消费",rating:4,price:"免费",kw:"mylnan，mylnan.fo，官网",desc:"法罗群岛本土面包烘焙企业，认准官网 mylnan.fo。",official:true,region:"FO",plat:"网页",icon:"mylnan.fo.ico"},
+{name:"Golden Club",url:"https://goldenclub.ee",cat:"生活服务",rating:4,price:"免费",kw:"golden club，goldenclub.ee，官网",desc:"爱沙尼亚本土健身俱乐部，认准官网 goldenclub.ee。",official:true,region:"EE",plat:"网页",icon:"goldenclub.ee.ico"},
+{name:"Luxfit",url:"https://luxfit.lu",cat:"生活服务",rating:4,price:"免费",kw:"luxfit，luxfit.lu，官网",desc:"卢森堡本土健身工作室连锁，认准官网 luxfit.lu。",official:true,region:"LU",plat:"网页",icon:"luxfit.lu.ico"},
+{name:"Burn",url:"https://burn.fo",cat:"生活服务",rating:4,price:"免费",kw:"burn，burn.fo，官网",desc:"法罗群岛本土健身连锁，认准官网 burn.fo。",official:true,region:"FO",plat:"网页",icon:"burn.fo.ico"}
 ];
