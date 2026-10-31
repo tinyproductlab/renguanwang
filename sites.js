@@ -12427,5 +12427,7 @@ const SITES = [
 {name:"Groupe Cogit",url:"https://www.groupecogit.com",cat:"购物消费",rating:4,price:"免费",kw:"groupe cogit，groupecogit.com，官网",desc:"法属圭亚那本土酒店运营商，认准官网 groupecogit.com。",official:true,region:"GF",plat:"网页",icon:"www.groupecogit.com.ico"},
 {name:"Caribbean Gems",url:"https://www.caribbeangems.com",cat:"购物消费",rating:4,price:"免费",kw:"caribbean gems，caribbeangems.com，官网",desc:"荷属圣马丁本土珠宝零售商，认准官网 caribbeangems.com。",official:true,region:"SX",plat:"网页",icon:"www.caribbeangems.com.ico"},
 {name:"Fitness Forma",url:"https://fitnessforma.md",cat:"生活服务",rating:4,price:"免费",kw:"fitness forma，fitnessforma.md，官网",desc:"摩尔多瓦本土健身连锁，认准官网 fitnessforma.md。",official:true,region:"MD",plat:"网页",icon:"fitnessforma.md.ico"},
-{name:"The Fit Centre",url:"https://thefitcentre.com",cat:"生活服务",rating:4,price:"免费",kw:"the fit centre，thefitcentre.com，官网",desc:"特立尼达和多巴哥本土健身连锁，认准官网 thefitcentre.com。",official:true,region:"TT",plat:"网页",icon:"thefitcentre.com.ico"}
+{name:"The Fit Centre",url:"https://thefitcentre.com",cat:"生活服务",rating:4,price:"免费",kw:"the fit centre，thefitcentre.com，官网",desc:"特立尼达和多巴哥本土健身连锁，认准官网 thefitcentre.com。",official:true,region:"TT",plat:"网页",icon:"thefitcentre.com.ico"},
+{name:"Shami Eye Center",url:"https://shamieye.com",cat:"购物消费",rating:4,price:"免费",kw:"shami eye center，shamieye.com，官网",desc:"约旦本土眼科医疗连锁，认准官网 shamieye.com。",official:true,region:"JO",plat:"网页",icon:"shamieye.com.ico"},
+{name:"Art Lunch",url:"https://artlunch.am",cat:"生活服务",rating:4,price:"免费",kw:"art lunch，artlunch.am，官网",desc:"亚美尼亚本土快餐连锁，认准官网 artlunch.am。",official:true,region:"AM",plat:"网页",icon:"artlunch.am.ico"}
 ];
