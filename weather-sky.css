@@ -40,3 +40,92 @@
  .wxbg.wx-windy .sky-wind{width:100px;left:0;top:14px}
  .weather-advice{max-width:95%;font-size:12px}
 }
+
+/* Night hero polish: preserve the weather mood without letting decoration or
+   the app's warm dark theme reduce contrast around the primary search task. */
+.wxbg.wx-night .hero-title h1,
+html[data-theme="dark"] .wxbg.wx-night .hero-title h1{
+  color:#f8fbff;
+  text-shadow:0 2px 18px rgba(3,10,25,.38);
+}
+.wxbg.wx-night .hero-title p,
+html[data-theme="dark"] .wxbg.wx-night .hero-title p{
+  color:#dce8fa;
+  text-shadow:0 1px 10px rgba(3,10,25,.32);
+}
+.wxbg.wx-night:is(.wx-cloud,.wx-rain,.wx-storm,.wx-snow,.wx-fog,.wx-partly,.wx-windy) > .wx-sky{
+  color:#8298b5;
+  opacity:.46;
+}
+.wxbg.wx-night .searchbox,
+html[data-theme="dark"] .wxbg.wx-night .searchbox{
+  background:rgba(7,18,38,.68);
+  border-color:rgba(226,238,255,.52);
+  box-shadow:0 14px 34px rgba(2,8,23,.3),inset 0 1px 0 rgba(255,255,255,.09);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+.wxbg.wx-night .searchbox:focus-within{
+  border-color:#f5c518;
+  box-shadow:0 14px 34px rgba(2,8,23,.3),0 0 0 3px rgba(245,197,24,.22);
+}
+.wxbg.wx-night .searchbox input,
+html[data-theme="dark"] .wxbg.wx-night .searchbox input{
+  background:transparent;
+  color:#fff;
+}
+.wxbg.wx-night .searchbox input::placeholder{color:#b7c6da;opacity:1}
+.wxbg.wx-night .searchbox button{
+  background:#f5c518;
+  color:#1b2436;
+  font-weight:700;
+}
+.wxbg.wx-night .searchbox button:hover{background:#ffd83d}
+.wxbg.wx-night .chips span,
+html[data-theme="dark"] .wxbg.wx-night .chips span{
+  background:rgba(8,22,45,.54);
+  border-color:rgba(220,235,255,.3);
+  color:#eef4ff;
+  box-shadow:0 5px 16px rgba(2,8,23,.16);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.wxbg.wx-night .chips span:hover{
+  background:rgba(21,42,73,.74);
+  border-color:rgba(255,255,255,.58);
+  color:#fff;
+}
+.wxbg.wx-night .weather-cities .weather-city-summary{color:#d7e5f8}
+.wxbg.wx-night .weather-cities .weather-city-summary[aria-pressed="true"]{
+  background:rgba(255,255,255,.15);
+  border-bottom-color:transparent;
+  border-radius:999px;
+  color:#fff;
+}
+.wxbg.wx-night #weatherManage,
+.wxbg.wx-night #weatherDetail{
+  background:rgba(255,255,255,.13);
+  border-color:rgba(255,255,255,.3);
+  color:#fff;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.wxbg.wx-night .weather-advice{color:#dbe8fa}
+@media(max-width:600px){
+  .wxbg.wx-night .hero-wrap{padding-top:32px}
+  .wxbg.wx-night .hero-title{margin-bottom:28px}
+  .wxbg.wx-night .hero-title h1{letter-spacing:1px}
+  .wxbg.wx-night .hero-title p{line-height:1.7;padding-inline:4px}
+  .wxbg.wx-night > .wx-sky .sky-cloud-left{display:none}
+  .wxbg.wx-night > .wx-sky .sky-cloud-right{
+    width:104px;
+    right:-12px;
+    top:8px;
+    opacity:.5;
+  }
+  .wxbg.wx-night .searchbox{border-radius:14px}
+  .wxbg.wx-night .weather-strip{gap:9px;margin-top:15px}
+  .wxbg.wx-night .weather-strip .weather-cities{gap:7px}
+  .wxbg.wx-night .weather-cities .weather-city-summary{padding:7px 9px;font-size:12px}
+  .wxbg.wx-night .weather-advice{margin-top:10px;color:#c9d9ef}
+}
