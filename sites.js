@@ -12382,5 +12382,12 @@ const SITES = [
 {name:"Chopsticks",url:"https://chopsticks.ee",cat:"生活服务",rating:4,price:"免费",kw:"chopsticks，chopsticks.ee，官网",desc:"爱沙尼亚本土亚洲快餐连锁，认准官网 chopsticks.ee。",official:true,region:"EE",plat:"网页",icon:"chopsticks.ee.ico"},
 {name:"Mr. Gyros",url:"https://www.mrgyros.am",cat:"生活服务",rating:4,price:"免费",kw:"mr. gyros，mrgyros.am，官网",desc:"亚美尼亚本土希腊烤肉卷连锁，认准官网 mrgyros.am。",official:true,region:"AM",plat:"网页",icon:"www.mrgyros.am.ico"},
 {name:"Pizza Bruno",url:"https://pizzabruno.az",cat:"生活服务",rating:4,price:"免费",kw:"pizza bruno，pizzabruno.az，官网",desc:"阿塞拜疆本土比萨连锁，认准官网 pizzabruno.az。",official:true,region:"AZ",plat:"网页",icon:"pizzabruno.az.ico"},
-{name:"Street 77",url:"https://street77.uz",cat:"生活服务",rating:4,price:"免费",kw:"street 77，street77.uz，官网",desc:"乌兹别克斯坦本土快餐连锁，认准官网 street77.uz。",official:true,region:"UZ",plat:"网页",icon:"street77.uz.ico"}
+{name:"Street 77",url:"https://street77.uz",cat:"生活服务",rating:4,price:"免费",kw:"street 77，street77.uz，官网",desc:"乌兹别克斯坦本土快餐连锁，认准官网 street77.uz。",official:true,region:"UZ",plat:"网页",icon:"street77.uz.ico"},
+{name:"Ray & Scott Jewellers",url:"https://rayandscott.com",cat:"购物消费",rating:4,price:"免费",kw:"ray & scott jewellers，rayandscott.com，官网",desc:"根西岛本土家族珠宝商，认准官网 rayandscott.com。",official:true,region:"GG",plat:"网页",icon:"rayandscott.com.ico"},
+{name:"Zlatarna Dar",url:"https://zlatarnadar.ba",cat:"购物消费",rating:4,price:"免费",kw:"zlatarna dar，zlatarnadar.ba，官网",desc:"波黑本土金饰珠宝零售商，认准官网 zlatarnadar.ba。",official:true,region:"BA",plat:"网页",icon:"zlatarnadar.ba.ico"},
+{name:"Hinerava",url:"https://hinerava.com",cat:"购物消费",rating:4,price:"免费",kw:"hinerava，hinerava.com，官网",desc:"法属波利尼西亚本土黑珍珠珠宝品牌，认准官网 hinerava.com。",official:true,region:"PF",plat:"网页",icon:"hinerava.com.ico"},
+{name:"Mon Chéri",url:"https://www.moncheri.al",cat:"购物消费",rating:4,price:"免费",kw:"mon chéri，moncheri.al，官网",desc:"阿尔巴尼亚本土糕点咖啡连锁，认准官网 moncheri.al。",official:true,region:"AL",plat:"网页",icon:"www.moncheri.al.ico"},
+{name:"La Tecleña",url:"https://lateclena.com",cat:"购物消费",rating:4,price:"免费",kw:"la tecleña，lateclena.com，官网",desc:"萨尔瓦多本土面包房连锁，认准官网 lateclena.com。",official:true,region:"SV",plat:"网页",icon:"lateclena.com.ico"},
+{name:"Sir Lester Bird Medical Centre",url:"https://msjmc.org",cat:"生活服务",rating:4,price:"免费",kw:"sir lester bird medical centre，msjmc.org，官网",desc:"安提瓜和巴布达国家医疗中心，认准官网 msjmc.org。",official:true,region:"AG",plat:"网页",icon:"msjmc.org.ico"},
+{name:"Venjing Tórshavn",url:"https://venjing.fo",cat:"生活服务",rating:4,price:"免费",kw:"venjing tórshavn，venjing.fo，官网",desc:"法罗群岛本土健身连锁，认准官网 venjing.fo。",official:true,region:"FO",plat:"网页",icon:"venjing.fo.ico"}
 ];
