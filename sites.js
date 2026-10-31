@@ -12362,5 +12362,10 @@ const SITES = [
 {name:"Imperial Hotels Group",url:"https://imperialhotels.co.ug",cat:"购物消费",rating:4,price:"免费",kw:"imperial hotels group，imperialhotels.co.ug，官网",desc:"乌干达本土酒店集团，认准官网 imperialhotels.co.ug。",official:true,region:"UG",plat:"网页",icon:"imperialhotels.co.ug.ico"},
 {name:"TABIA Group",url:"https://tabia.az",cat:"购物消费",rating:4,price:"免费",kw:"tabia group，tabia.az，官网",desc:"阿塞拜疆本土酒店集团（原 PMD Hospitality），认准官网 tabia.az。",official:true,region:"AZ",plat:"网页",icon:"tabia.az.ico"},
 {name:"Nacion Sushi",url:"https://nacionsushi.com",cat:"生活服务",rating:4,price:"免费",kw:"nacion sushi，nacionsushi.com，官网",desc:"巴拿马本土寿司快餐连锁，认准官网 nacionsushi.com。",official:true,region:"PA",plat:"网页",icon:"nacionsushi.com.ico"},
-{name:"Bigos",url:"https://www.bigoshn.com",cat:"生活服务",rating:4,price:"免费",kw:"bigos，bigoshn.com，官网",desc:"洪都拉斯本土汉堡连锁，认准官网 bigoshn.com。",official:true,region:"HN",plat:"网页",icon:"www.bigoshn.com.ico"}
+{name:"Bigos",url:"https://www.bigoshn.com",cat:"生活服务",rating:4,price:"免费",kw:"bigos，bigoshn.com，官网",desc:"洪都拉斯本土汉堡连锁，认准官网 bigoshn.com。",official:true,region:"HN",plat:"网页",icon:"www.bigoshn.com.ico"},
+{name:"Island Jewellers",url:"https://islandjewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"island jewellers，islandjewellers.com，官网",desc:"开曼群岛本土珠宝零售连锁，认准官网 islandjewellers.com。",official:true,region:"KY",plat:"网页",icon:"islandjewellers.com.ico"},
+{name:"Chronograph",url:"https://chronograph.am",cat:"购物消费",rating:4,price:"免费",kw:"chronograph，chronograph.am，官网",desc:"亚美尼亚本土钟表珠宝零售连锁，认准官网 chronograph.am。",official:true,region:"AM",plat:"网页",icon:"chronograph.am.ico"},
+{name:"Larnaca General Hospital",url:"https://www.shso.org.cy/hospital/geniko-nosokomeio-larnakas/",cat:"生活服务",rating:4,price:"免费",kw:"larnaca general hospital，shso.org.cy，官网",desc:"塞浦路斯拉纳卡市的地区综合医院，认准官网 shso.org.cy。",official:true,region:"CY",plat:"网页",icon:"www.shso.org.cy.ico"},
+{name:"MyFit 360",url:"https://myfit360.mu",cat:"生活服务",rating:4,price:"免费",kw:"myfit 360，myfit360.mu，官网",desc:"毛里求斯本土健身连锁，认准官网 myfit360.mu。",official:true,region:"MU",plat:"网页",icon:"myfit360.mu.ico"},
+{name:"MACFIT360",url:"https://macfit360.com",cat:"生活服务",rating:4,price:"免费",kw:"macfit360，macfit360.com，官网",desc:"巴哈马本土健身品牌，认准官网 macfit360.com。",official:true,region:"BS",plat:"网页",icon:"macfit360.com.ico"}
 ];
