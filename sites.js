@@ -12375,5 +12375,12 @@ const SITES = [
 {name:"Mylnan",url:"https://mylnan.fo",cat:"购物消费",rating:4,price:"免费",kw:"mylnan，mylnan.fo，官网",desc:"法罗群岛本土面包烘焙企业，认准官网 mylnan.fo。",official:true,region:"FO",plat:"网页",icon:"mylnan.fo.ico"},
 {name:"Golden Club",url:"https://goldenclub.ee",cat:"生活服务",rating:4,price:"免费",kw:"golden club，goldenclub.ee，官网",desc:"爱沙尼亚本土健身俱乐部，认准官网 goldenclub.ee。",official:true,region:"EE",plat:"网页",icon:"goldenclub.ee.ico"},
 {name:"Luxfit",url:"https://luxfit.lu",cat:"生活服务",rating:4,price:"免费",kw:"luxfit，luxfit.lu，官网",desc:"卢森堡本土健身工作室连锁，认准官网 luxfit.lu。",official:true,region:"LU",plat:"网页",icon:"luxfit.lu.ico"},
-{name:"Burn",url:"https://burn.fo",cat:"生活服务",rating:4,price:"免费",kw:"burn，burn.fo，官网",desc:"法罗群岛本土健身连锁，认准官网 burn.fo。",official:true,region:"FO",plat:"网页",icon:"burn.fo.ico"}
+{name:"Burn",url:"https://burn.fo",cat:"生活服务",rating:4,price:"免费",kw:"burn，burn.fo，官网",desc:"法罗群岛本土健身连锁，认准官网 burn.fo。",official:true,region:"FO",plat:"网页",icon:"burn.fo.ico"},
+{name:"Ocean Club Resorts",url:"https://oceanclubresorts.com",cat:"购物消费",rating:4,price:"免费",kw:"ocean club resorts，oceanclubresorts.com，官网",desc:"特克斯和凯科斯本土度假村运营商，认准官网 oceanclubresorts.com。",official:true,region:"TC",plat:"网页",icon:"oceanclubresorts.com.ico"},
+{name:"Speke Group",url:"https://spekegroup.com",cat:"购物消费",rating:4,price:"免费",kw:"speke group，spekegroup.com，官网",desc:"乌干达本土酒店集团，认准官网 spekegroup.com。",official:true,region:"UG",plat:"网页",icon:"spekegroup.com.ico"},
+{name:"Ambasadori Hotels",url:"https://ambasadori.com",cat:"购物消费",rating:4,price:"免费",kw:"ambasadori hotels，ambasadori.com，官网",desc:"格鲁吉亚本土酒店集团，认准官网 ambasadori.com。",official:true,region:"GE",plat:"网页",icon:"ambasadori.com.ico"},
+{name:"Chopsticks",url:"https://chopsticks.ee",cat:"生活服务",rating:4,price:"免费",kw:"chopsticks，chopsticks.ee，官网",desc:"爱沙尼亚本土亚洲快餐连锁，认准官网 chopsticks.ee。",official:true,region:"EE",plat:"网页",icon:"chopsticks.ee.ico"},
+{name:"Mr. Gyros",url:"https://www.mrgyros.am",cat:"生活服务",rating:4,price:"免费",kw:"mr. gyros，mrgyros.am，官网",desc:"亚美尼亚本土希腊烤肉卷连锁，认准官网 mrgyros.am。",official:true,region:"AM",plat:"网页",icon:"www.mrgyros.am.ico"},
+{name:"Pizza Bruno",url:"https://pizzabruno.az",cat:"生活服务",rating:4,price:"免费",kw:"pizza bruno，pizzabruno.az，官网",desc:"阿塞拜疆本土比萨连锁，认准官网 pizzabruno.az。",official:true,region:"AZ",plat:"网页",icon:"pizzabruno.az.ico"},
+{name:"Street 77",url:"https://street77.uz",cat:"生活服务",rating:4,price:"免费",kw:"street 77，street77.uz，官网",desc:"乌兹别克斯坦本土快餐连锁，认准官网 street77.uz。",official:true,region:"UZ",plat:"网页",icon:"street77.uz.ico"}
 ];
