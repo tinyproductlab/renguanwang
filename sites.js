@@ -12520,5 +12520,7 @@ const SITES = [
 {name:"ER Hospitality",url:"https://erhospitality.mu",cat:"购物消费",rating:4,price:"免费",kw:"er hospitality，erhospitality.mu，官网",desc:"毛里求斯本土酒店集团，前身为 Rogers Hospitality，运营岛上多家海滨度假村，认准官网 erhospitality.mu。",official:true,region:"MU",plat:"网页",icon:"erhospitality.mu.ico"},
 {name:"Tradewinds Hotel",url:"https://tradewindshotel.com",cat:"购物消费",rating:4,price:"免费",kw:"tradewinds hotel，tradewindshotel.com，官网",desc:"美属萨摩亚本土酒店，在帕果帕果经营商务与度假酒店物业，认准官网 tradewindshotel.com。",official:true,region:"AS",plat:"网页",icon:"tradewindshotel.com.ico"},
 {name:"Don Pan",url:"https://donpan.com.ni",cat:"购物消费",rating:4,price:"免费",kw:"don pan，donpan.com.ni，官网",desc:"尼加拉瓜本土面包糕点连锁，在马那瓜等地设有多家门店，认准官网 donpan.com.ni。",official:true,region:"NI",plat:"网页",icon:"donpan.com.ni.ico"},
-{name:"Italdizain Jewellery",url:"https://italdizain.az",cat:"购物消费",rating:4,price:"免费",kw:"italdizain jewellery，italdizain.az，官网",desc:"阿塞拜疆本土珠宝零售集团，在巴库设有多家精品店，认准官网 italdizain.az。",official:true,region:"AZ",plat:"网页",icon:"italdizain.az.ico"}
+{name:"Italdizain Jewellery",url:"https://italdizain.az",cat:"购物消费",rating:4,price:"免费",kw:"italdizain jewellery，italdizain.az，官网",desc:"阿塞拜疆本土珠宝零售集团，在巴库设有多家精品店，认准官网 italdizain.az。",official:true,region:"AZ",plat:"网页",icon:"italdizain.az.ico"},
+{name:"Pão Quente",url:"https://paoquente.cv",cat:"购物消费",rating:4,price:"免费",kw:"pão quente，paoquente.cv，官网",desc:"佛得角本土面包房连锁，在普拉亚和明德卢经营多家门店，认准官网 paoquente.cv。",official:true,region:"CV",plat:"网页",icon:"paoquente.cv.ico"},
+{name:"Brutăria Bardar",url:"https://brutariabardar.md",cat:"购物消费",rating:4,price:"免费",kw:"brutăria bardar，brutariabardar.md，官网",desc:"摩尔多瓦本土面包企业，在基希讷乌等地经营多家门店，认准官网 brutariabardar.md。",official:true,region:"MD",plat:"网页",icon:"brutariabardar.md.ico"}
 ];
