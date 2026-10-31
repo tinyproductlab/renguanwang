@@ -12519,5 +12519,6 @@ const SITES = [
 {name:"Machaba Safaris",url:"https://machabasafaris.com",cat:"购物消费",rating:4,price:"免费",kw:"machaba safaris，machabasafaris.com，官网",desc:"博茨瓦纳本土野奢营地集团，运营奥卡万戈三角洲与乔贝地区多家营地，认准官网 machabasafaris.com。",official:true,region:"BW",plat:"网页",icon:"machabasafaris.com.ico"},
 {name:"ER Hospitality",url:"https://erhospitality.mu",cat:"购物消费",rating:4,price:"免费",kw:"er hospitality，erhospitality.mu，官网",desc:"毛里求斯本土酒店集团，前身为 Rogers Hospitality，运营岛上多家海滨度假村，认准官网 erhospitality.mu。",official:true,region:"MU",plat:"网页",icon:"erhospitality.mu.ico"},
 {name:"Tradewinds Hotel",url:"https://tradewindshotel.com",cat:"购物消费",rating:4,price:"免费",kw:"tradewinds hotel，tradewindshotel.com，官网",desc:"美属萨摩亚本土酒店，在帕果帕果经营商务与度假酒店物业，认准官网 tradewindshotel.com。",official:true,region:"AS",plat:"网页",icon:"tradewindshotel.com.ico"},
-{name:"Don Pan",url:"https://donpan.com.ni",cat:"购物消费",rating:4,price:"免费",kw:"don pan，donpan.com.ni，官网",desc:"尼加拉瓜本土面包糕点连锁，在马那瓜等地设有多家门店，认准官网 donpan.com.ni。",official:true,region:"NI",plat:"网页",icon:"donpan.com.ni.ico"}
+{name:"Don Pan",url:"https://donpan.com.ni",cat:"购物消费",rating:4,price:"免费",kw:"don pan，donpan.com.ni，官网",desc:"尼加拉瓜本土面包糕点连锁，在马那瓜等地设有多家门店，认准官网 donpan.com.ni。",official:true,region:"NI",plat:"网页",icon:"donpan.com.ni.ico"},
+{name:"Italdizain Jewellery",url:"https://italdizain.az",cat:"购物消费",rating:4,price:"免费",kw:"italdizain jewellery，italdizain.az，官网",desc:"阿塞拜疆本土珠宝零售集团，在巴库设有多家精品店，认准官网 italdizain.az。",official:true,region:"AZ",plat:"网页",icon:"italdizain.az.ico"}
 ];
