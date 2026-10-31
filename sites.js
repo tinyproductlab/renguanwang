@@ -11961,5 +11961,15 @@ const SITES = [
 {name:"Nuarro Lodge",url:"https://nuarro.com",cat:"购物消费",rating:4,price:"免费",kw:"海滩旅馆 nuarro",desc:"莫桑比克北部楠普拉海岸的生态海滩旅馆，主打鲸鱼观测与原始珊瑚礁潜水",official:true,region:"MZ",plat:"网页",icon:"nuarro.com.ico"},
 {name:"Peponi Hotel",url:"https://peponihotel.com",cat:"购物消费",rating:4,price:"免费",kw:"海滨酒店 peponi",desc:"肯尼亚拉穆岛谢拉海滩的家族海滨酒店，以海景露台与帆船活动闻名",official:true,region:"KE",plat:"网页",icon:"peponihotel.com.ico"},
 {name:"Pimalai Resort & Spa",url:"https://pimalai.com",cat:"购物消费",rating:4,price:"免费",kw:"度假村 pimalai",desc:"泰国兰塔岛国家公园边缘的山海度假村，藏于雨林坡地与私家海滩之间",official:true,region:"TH",plat:"网页",icon:"pimalai.com.ico"},
-{name:"Shahpura Bagh",url:"https://shahpurabagh.com",cat:"购物消费",rating:4,price:"免费",kw:"庄园酒店 shahpura",desc:"印度拉贾斯坦邦的家族遗产庄园酒店，由王室夏宫改建",official:true,region:"IN",plat:"网页",icon:"shahpurabagh.com.ico"}
+{name:"Shahpura Bagh",url:"https://shahpurabagh.com",cat:"购物消费",rating:4,price:"免费",kw:"庄园酒店 shahpura",desc:"印度拉贾斯坦邦的家族遗产庄园酒店，由王室夏宫改建",official:true,region:"IN",plat:"网页",icon:"shahpurabagh.com.ico"},
+{name:"Lazo Diamond",url:"https://lazodiamond.com.my",cat:"购物消费",rating:4,price:"免费",kw:"钻石 lazo",desc:"马来西亚本土钻石珠宝零售商，主营婚戒与日常钻饰",official:true,region:"MY",plat:"网页",icon:"lazodiamond.com.my.ico"},
+{name:"Brodard Bakery",url:"https://brodardbakery.com",cat:"购物消费",rating:4,price:"免费",kw:"法式糕点 brodard",desc:"越南胡志明市的老牌法式糕点品牌，创于上世纪四十年代，主营法式面包与月饼",official:true,region:"VN",plat:"网页",icon:"brodardbakery.com.ico"},
+{name:"Chinese General Hospital and Medical Center",url:"https://cghmc.com.ph",cat:"生活服务",rating:4,price:"免费",kw:"综合医院 chinese general",desc:"菲律宾马尼拉的私立综合医疗中心，由华人社群创办，提供多专科诊疗服务",official:true,region:"PH",plat:"网页",icon:"cghmc.com.ph.ico"},
+{name:"Mount Alvernia Hospital",url:"https://mtalvernia.sg",cat:"生活服务",rating:4,price:"免费",kw:"教会医院 alvernia",desc:"新加坡私立教会医院，主打妇产、儿科与综合诊疗",official:true,region:"SG",plat:"网页",icon:"mtalvernia.sg.ico"},
+{name:"Sahyadri Hospitals",url:"https://sahyadrihospital.com",cat:"生活服务",rating:4,price:"免费",kw:"医院集团 sahyadri",desc:"印度马哈拉施特拉邦的私立医院集团，主营综合与专科诊疗",official:true,region:"IN",plat:"网页",icon:"sahyadrihospital.com.ico"},
+{name:"Specialty Hospital",url:"https://www.specialty-hospital.com",cat:"生活服务",rating:4,price:"免费",kw:"综合医院 specialty",desc:"约旦安曼的私立综合医院，设有心脏与专科诊疗中心",official:true,region:"JO",plat:"网页",icon:"www.specialty-hospital.com.ico"},
+{name:"FitFac",url:"https://fitfacmuaythai.com",cat:"生活服务",rating:4,price:"免费",kw:"泰拳健身 fitfac",desc:"泰国曼谷的泰拳与健身工作室连锁，主营泰拳团课与减脂训练",official:true,region:"TH",plat:"网页",icon:"fitfacmuaythai.com.ico"},
+{name:"Fitness HQ",url:"https://fitnesshq.com",cat:"生活服务",rating:4,price:"免费",kw:"健身房 fitness hq",desc:"阿联酋迪拜的本土健身品牌，主营器械训练、团课与私教服务",official:true,region:"AE",plat:"网页",icon:"fitnesshq.com.ico"},
+{name:"Alpha Fitness",url:"https://www.alphaqualidadedevida.com.br",cat:"生活服务",rating:4,price:"免费",kw:"健身连锁 alpha",desc:"巴西本土区域健身连锁，主营器械训练、团课与格斗课程",official:true,region:"BR",plat:"网页",icon:"www.alphaqualidadedevida.com.br.ico"},
+{name:"中体倍力",url:"https://csbf.com.cn",cat:"生活服务",rating:4,price:"免费",kw:"健身连锁 中体倍力",desc:"中国本土老牌健身连锁，主营器械训练、操课与游泳配套服务",official:true,region:"CN",plat:"网页",icon:"csbf.com.cn.ico"}
 ];
