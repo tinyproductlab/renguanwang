@@ -12432,5 +12432,9 @@ const SITES = [
 {name:"Art Lunch",url:"https://artlunch.am",cat:"生活服务",rating:4,price:"免费",kw:"art lunch，artlunch.am，官网",desc:"亚美尼亚本土快餐连锁，认准官网 artlunch.am。",official:true,region:"AM",plat:"网页",icon:"artlunch.am.ico"},
 {name:"Mikado",url:"https://www.mikado.mu",cat:"购物消费",rating:4,price:"免费",kw:"mikado，mikado.mu，官网",desc:"毛里求斯本土珠宝零售连锁，认准官网 mikado.mu。",official:true,region:"MU",plat:"网页",icon:"www.mikado.mu.ico"},
 {name:"Ta' Dernis Bakery",url:"https://tadernis.com",cat:"购物消费",rating:4,price:"免费",kw:"ta' dernis bakery，tadernis.com，官网",desc:"马耳他本土传统面包房，认准官网 tadernis.com。",official:true,region:"MT",plat:"网页",icon:"tadernis.com.ico"},
-{name:"Heilsuræktin",url:"https://heilsuraektin.is",cat:"生活服务",rating:4,price:"免费",kw:"heilsuræktin，heilsuraektin.is，官网",desc:"冰岛本土健身俱乐部，认准官网 heilsuraektin.is。",official:true,region:"IS",plat:"网页",icon:"heilsuraektin.is.ico"}
+{name:"Heilsuræktin",url:"https://heilsuraektin.is",cat:"生活服务",rating:4,price:"免费",kw:"heilsuræktin，heilsuraektin.is，官网",desc:"冰岛本土健身俱乐部，认准官网 heilsuraektin.is。",official:true,region:"IS",plat:"网页",icon:"heilsuraektin.is.ico"},
+{name:"Muy'Ono Resorts",url:"https://muyono.com",cat:"购物消费",rating:4,price:"免费",kw:"muy'ono resorts，muyono.com，官网",desc:"伯利兹本土度假村集团，认准官网 muyono.com。",official:true,region:"BZ",plat:"网页",icon:"muyono.com.ico"},
+{name:"Soaltee Hotels & Resorts",url:"https://soaltee.com",cat:"购物消费",rating:4,price:"免费",kw:"soaltee hotels & resorts，soaltee.com，官网",desc:"尼泊尔本土酒店集团，认准官网 soaltee.com。",official:true,region:"NP",plat:"网页",icon:"soaltee.com.ico"},
+{name:"Hot Horse",url:"https://hot-horse.si",cat:"生活服务",rating:4,price:"免费",kw:"hot horse，hot-horse.si，官网",desc:"斯洛文尼亚本土马肉汉堡快餐品牌，认准官网 hot-horse.si。",official:true,region:"SI",plat:"网页",icon:"hot-horse.si.ico"},
+{name:"Yao",url:"https://yao.com.do",cat:"生活服务",rating:4,price:"免费",kw:"yao，yao.com.do，官网",desc:"多米尼加本土中式快餐连锁，认准官网 yao.com.do。",official:true,region:"DO",plat:"网页",icon:"yao.com.do.ico"}
 ];
