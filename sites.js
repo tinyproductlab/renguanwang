@@ -11988,5 +11988,12 @@ const SITES = [
 {name:"Temple Tree Resort Langkawi",url:"https://templetree.com.my",cat:"购物消费",rating:4,price:"免费",kw:"度假村 temple tree",desc:"马来西亚兰卡威的精品度假村，由多栋马来与华人传统老宅组成",official:true,region:"MY",plat:"网页",icon:"templetree.com.my.ico"},
 {name:"Baked Potato",url:"https://bakedpotato.com.br",cat:"生活服务",rating:4,price:"免费",kw:"快餐 baked potato",desc:"巴西本土烤土豆快餐连锁，主打填馅烤土豆和轻食套餐",official:true,region:"BR",plat:"网页",icon:"bakedpotato.com.br.ico"},
 {name:"Kota Joe",url:"https://kotajoe.co.za",cat:"生活服务",rating:4,price:"免费",kw:"快餐 kota",desc:"南非本土公路餐馆式快餐连锁，以科塔三明治和汉堡为特色",official:true,region:"ZA",plat:"网页",icon:"kotajoe.co.za.ico"},
-{name:"Bánh Mì PewPew",url:"https://banhmipewpew.com",cat:"生活服务",rating:4,price:"免费",kw:"法包 pewpew",desc:"越南本土法包三明治连锁，主打现烤面包与越式夹馅",official:true,region:"VN",plat:"网页",icon:"banhmipewpew.com.ico"}
+{name:"Bánh Mì PewPew",url:"https://banhmipewpew.com",cat:"生活服务",rating:4,price:"免费",kw:"法包 pewpew",desc:"越南本土法包三明治连锁，主打现烤面包与越式夹馅",official:true,region:"VN",plat:"网页",icon:"banhmipewpew.com.ico"},
+{name:"ARY Jewellery",url:"https://aryjewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 ary",desc:"巴基斯坦本土珠宝连锁，主营黄金饰品、钻石首饰与金条",official:true,region:"PK",plat:"网页",icon:"aryjewellery.com.ico"},
+{name:"Joyería Ricciardi",url:"https://ricciardijoyas.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 ricciardi",desc:"阿根廷布宜诺斯艾利斯本土珠宝商，主营黄金、钻石首饰与腕表",official:true,region:"AR",plat:"网页",icon:"ricciardijoyas.com.ico"},
+{name:"BRB Hospitals Limited",url:"https://brbhospital.com",cat:"生活服务",rating:4,price:"免费",kw:"综合医院 brb",desc:"孟加拉国达卡私立综合医院，主营多专科诊疗与诊断服务",official:true,region:"BD",plat:"网页",icon:"brbhospital.com.ico"},
+{name:"Ganzouri Specialized Hospital",url:"https://ganzourihospital.com",cat:"生活服务",rating:4,price:"免费",kw:"专科医院 ganzouri",desc:"埃及开罗私立专科医院，提供综合与专科诊疗服务",official:true,region:"EG",plat:"网页",icon:"ganzourihospital.com.ico"},
+{name:"Shwe La Min Hospital",url:"https://shwelamin.com",cat:"生活服务",rating:4,price:"免费",kw:"综合医院 shwe la min",desc:"缅甸仰光私立综合医院，提供门诊、住院与专科服务",official:true,region:"MM",plat:"网页",icon:"shwelamin.com.ico"},
+{name:"Ozone",url:"https://www.ozoneclubs.com",cat:"生活服务",rating:4,price:"免费",kw:"健身水疗 ozone",desc:"印度新德里本土豪华健身与水疗连锁，主营器械训练、水疗与团体课程",official:true,region:"IN",plat:"网页",icon:"www.ozoneclubs.com.ico"},
+{name:"Pippa's Health Centre",url:"https://pippasfitness.com",cat:"生活服务",rating:4,price:"免费",kw:"健身中心 pippa",desc:"加纳阿克拉本土健身连锁，主营器械训练、团课与物理治疗",official:true,region:"GH",plat:"网页",icon:"pippasfitness.com.ico"}
 ];
