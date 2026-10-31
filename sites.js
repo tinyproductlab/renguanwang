@@ -12525,5 +12525,6 @@ const SITES = [
 {name:"Brutăria Bardar",url:"https://brutariabardar.md",cat:"购物消费",rating:4,price:"免费",kw:"brutăria bardar，brutariabardar.md，官网",desc:"摩尔多瓦本土面包企业，在基希讷乌等地经营多家门店，认准官网 brutariabardar.md。",official:true,region:"MD",plat:"网页",icon:"brutariabardar.md.ico"},
 {name:"Eyecare Jersey",url:"https://eyecare.je",cat:"购物消费",rating:4,price:"免费",kw:"eyecare jersey，eyecare.je，官网",desc:"泽西岛本土眼镜连锁，在圣赫利尔提供验光与配镜服务，认准官网 eyecare.je。",official:true,region:"JE",plat:"网页",icon:"eyecare.je.ico"},
 {name:"Optics.am",url:"https://optics.am",cat:"购物消费",rating:4,price:"免费",kw:"optics.am，optics.am，官网",desc:"亚美尼亚本土眼镜零售商，在埃里温经营验光配镜门店，认准官网 optics.am。",official:true,region:"AM",plat:"网页",icon:"optics.am.ico"},
-{name:"Webster Opticians",url:"https://www.guernseyopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"webster opticians，guernseyopticians.com，官网",desc:"根西岛本土家族眼镜店，在圣彼得港经营验光配镜，认准官网 guernseyopticians.com。",official:true,region:"GG",plat:"网页",icon:"www.guernseyopticians.com.ico"}
+{name:"Webster Opticians",url:"https://www.guernseyopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"webster opticians，guernseyopticians.com，官网",desc:"根西岛本土家族眼镜店，在圣彼得港经营验光配镜，认准官网 guernseyopticians.com。",official:true,region:"GG",plat:"网页",icon:"www.guernseyopticians.com.ico"},
+{name:"RAW Fitness",url:"https://www.rawfitness.fit",cat:"生活服务",rating:4,price:"免费",kw:"raw fitness，rawfitness.fit，官网",desc:"特立尼达和多巴哥本土健身连锁，在西班牙港等地设有门店，认准官网 rawfitness.fit。",official:true,region:"TT",plat:"网页",icon:"www.rawfitness.fit.ico"}
 ];
