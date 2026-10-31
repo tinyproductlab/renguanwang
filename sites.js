@@ -12483,5 +12483,6 @@ const SITES = [
 {name:"Begemotik",url:"https://begemotik.am",cat:"购物消费",rating:4,price:"免费",kw:"begemotik，begemotik.am，官网",desc:"亚美尼亚本土玩具零售连锁，认准官网 begemotik.am。",official:true,region:"AM",plat:"网页",icon:"begemotik.am.ico"},
 {name:"Bulaccino",url:"https://www.bulaccino.com",cat:"购物消费",rating:4,price:"免费",kw:"bulaccino，bulaccino.com，官网",desc:"斐济本土面包咖啡连锁，认准官网 bulaccino.com。",official:true,region:"FJ",plat:"网页",icon:"www.bulaccino.com.ico"},
 {name:"Vision Care Seychelles",url:"https://visioncare.sc",cat:"购物消费",rating:4,price:"免费",kw:"vision care seychelles，visioncare.sc，官网",desc:"塞舌尔本土眼镜零售商，认准官网 visioncare.sc。",official:true,region:"SC",plat:"网页",icon:"visioncare.sc.ico"},
-{name:"Latvijas Maiznieks",url:"https://maiznieks.lv",cat:"购物消费",rating:4,price:"免费",kw:"latvijas maiznieks，maiznieks.lv，官网",desc:"拉脱维亚本土面包烘焙企业，认准官网 maiznieks.lv。",official:true,region:"LV",plat:"网页",icon:"maiznieks.lv.ico"}
+{name:"Latvijas Maiznieks",url:"https://maiznieks.lv",cat:"购物消费",rating:4,price:"免费",kw:"latvijas maiznieks，maiznieks.lv，官网",desc:"拉脱维亚本土面包烘焙企业，认准官网 maiznieks.lv。",official:true,region:"LV",plat:"网页",icon:"maiznieks.lv.ico"},
+{name:"Kok Optica",url:"https://www.kokoptica.com",cat:"购物消费",rating:4,price:"免费",kw:"kok optica，kokoptica.com，官网",desc:"库拉索本土眼镜零售商，认准官网 kokoptica.com。",official:true,region:"CW",plat:"网页",icon:"www.kokoptica.com.ico"}
 ];
