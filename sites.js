@@ -12402,5 +12402,10 @@ const SITES = [
 {name:"Vienna Bakeries",url:"https://viennabakeries.com",cat:"购物消费",rating:4,price:"免费",kw:"vienna bakeries，viennabakeries.com，官网",desc:"塞浦路斯本土面包烘焙连锁，认准官网 viennabakeries.com。",official:true,region:"CY",plat:"网页",icon:"viennabakeries.com.ico"},
 {name:"Gustav",url:"https://gustav.ee",cat:"购物消费",rating:4,price:"免费",kw:"gustav，gustav.ee，官网",desc:"爱沙尼亚本土咖啡烘焙连锁，认准官网 gustav.ee。",official:true,region:"EE",plat:"网页",icon:"gustav.ee.ico"},
 {name:"Busy Bee",url:"https://busybee.com.mt",cat:"购物消费",rating:4,price:"免费",kw:"busy bee，busybee.com.mt，官网",desc:"马耳他本土糕点咖啡连锁，认准官网 busybee.com.mt。",official:true,region:"MT",plat:"网页",icon:"busybee.com.mt.ico"},
-{name:"Namur",url:"https://www.namur.lu",cat:"购物消费",rating:4,price:"免费",kw:"namur，namur.lu，官网",desc:"卢森堡本土糕点烘焙连锁，认准官网 namur.lu。",official:true,region:"LU",plat:"网页",icon:"www.namur.lu.ico"}
+{name:"Namur",url:"https://www.namur.lu",cat:"购物消费",rating:4,price:"免费",kw:"namur，namur.lu，官网",desc:"卢森堡本土糕点烘焙连锁，认准官网 namur.lu。",official:true,region:"LU",plat:"网页",icon:"www.namur.lu.ico"},
+{name:"Primul Pas",url:"https://primulpas.md",cat:"购物消费",rating:4,price:"免费",kw:"primul pas，primulpas.md，官网",desc:"摩尔多瓦本土母婴用品零售连锁，认准官网 primulpas.md。",official:true,region:"MD",plat:"网页",icon:"primulpas.md.ico"},
+{name:"Optika Luani",url:"https://optikaluani.al",cat:"购物消费",rating:4,price:"免费",kw:"optika luani，optikaluani.al，官网",desc:"阿尔巴尼亚本土眼镜零售连锁，认准官网 optikaluani.al。",official:true,region:"AL",plat:"网页",icon:"optikaluani.al.ico"},
+{name:"Coral Hospitality Corp",url:"https://coralhospitality.com",cat:"购物消费",rating:4,price:"免费",kw:"coral hospitality corp，coralhospitality.com，官网",desc:"多米尼加本土酒店管理集团，认准官网 coralhospitality.com。",official:true,region:"DO",plat:"网页",icon:"coralhospitality.com.ico"},
+{name:"Karibea Hotels",url:"https://www.karibea.com",cat:"购物消费",rating:4,price:"免费",kw:"karibea hotels，karibea.com，官网",desc:"马提尼克本土加勒比酒店集团，认准官网 karibea.com。",official:true,region:"MQ",plat:"网页",icon:"www.karibea.com.ico"},
+{name:"Bensaude Hotels",url:"https://www.bensaudehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"bensaude hotels，bensaudehotels.com，官网",desc:"葡萄牙亚速尔本土酒店集团，认准官网 bensaudehotels.com。",official:true,region:"PT",plat:"网页",icon:"www.bensaudehotels.com.ico"}
 ];
