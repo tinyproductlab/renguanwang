@@ -11940,5 +11940,13 @@ const SITES = [
 {name:"Islas Secas",url:"https://islassecas.com",cat:"购物消费",rating:4,price:"免费",kw:"私人岛屿 islas secas",desc:"巴拿马奇里基湾的私人岛屿度假群",official:true,region:"PA",plat:"网页",icon:"islassecas.com.ico"},
 {name:"The Sindbad Hotel Hammamet",url:"https://sindbadhotel.com",cat:"购物消费",rating:4,price:"免费",kw:"海滨酒店 sindbad",desc:"突尼斯哈马马特的海滨老牌度假酒店",official:true,region:"TN",plat:"网页",icon:"sindbadhotel.com.ico"},
 {name:"Thousand Nights Camp",url:"https://thousandnightsoman.com",cat:"购物消费",rating:4,price:"免费",kw:"沙漠营地 thousand nights",desc:"阿曼瓦希巴沙漠的豪华帐篷营地",official:true,region:"OM",plat:"网页",icon:"thousandnightsoman.com.ico"},
-{name:"An Lam Retreats Ninh Van Bay",url:"https://anlam.com",cat:"购物消费",rating:4,price:"免费",kw:"别墅度假村 an lam",desc:"越南宁凡湾的原生态木屋别墅度假村",official:true,region:"VN",plat:"网页",icon:"anlam.com.ico"}
+{name:"An Lam Retreats Ninh Van Bay",url:"https://anlam.com",cat:"购物消费",rating:4,price:"免费",kw:"别墅度假村 an lam",desc:"越南宁凡湾的原生态木屋别墅度假村",official:true,region:"VN",plat:"网页",icon:"anlam.com.ico"},
+{name:"Blue Diamond",url:"https://bluediamond.com.tr",cat:"购物消费",rating:4,price:"免费",kw:"钻石 blue diamond",desc:"土耳其本土珠宝连锁，主营钻石与黄金首饰",official:true,region:"TR",plat:"网页",icon:"bluediamond.com.tr.ico"},
+{name:"Ganpati Jewellers",url:"https://ganpatijewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 ganpati",desc:"尼泊尔加德满都本土珠宝行，主营黄金与钻石首饰",official:true,region:"NP",plat:"网页",icon:"ganpatijewellers.com.ico"},
+{name:"Haroon Sharif Jewellers",url:"https://haroonsharifjewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 haroon",desc:"巴基斯坦拉合尔老牌家族珠宝商，主营黄金与钻石婚嫁首饰",official:true,region:"PK",plat:"网页",icon:"haroonsharifjewellers.com.ico"},
+{name:"Mini Gold",url:"https://minigold.co.kr",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 minigold",desc:"韩国本土珠宝连锁，主营黄金、钻石与时尚首饰",official:true,region:"KR",plat:"网页",icon:"minigold.co.kr.ico"},
+{name:"Royal Diamond",url:"https://royaldiamond.com.bd",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 royal diamond",desc:"孟加拉国达卡本土珠宝商，主营钻石与黄金首饰定制",official:true,region:"BD",plat:"网页",icon:"royaldiamond.com.bd.ico"},
+{name:"Just Bake",url:"https://justbake.in",cat:"购物消费",rating:4,price:"免费",kw:"蛋糕 just bake",desc:"印度班加罗尔本土蛋糕连锁，主营定制蛋糕与烘焙食品",official:true,region:"IN",plat:"网页",icon:"justbake.in.ico"},
+{name:"Little & Friday",url:"https://littleandfriday.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 little friday",desc:"新西兰奥克兰本土烘焙咖啡连锁，主营手工糕点与甜甜圈",official:true,region:"NZ",plat:"网页",icon:"littleandfriday.co.nz.ico"},
+{name:"The Place Gym",url:"https://theplace.com.kh",cat:"生活服务",rating:4,price:"免费",kw:"健身 place",desc:"柬埔寨金边本土健身连锁，主营器械训练、泳池与团课",official:true,region:"KH",plat:"网页",icon:"theplace.com.kh.ico"}
 ];
