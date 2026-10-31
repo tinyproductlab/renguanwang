@@ -11979,7 +11979,6 @@ const SITES = [
 {name:"Al Mahra Opticals",url:"https://almahraopticals.com",cat:"购物消费",rating:4,price:"免费",kw:"眼镜连锁 mahra",desc:"卡塔尔本土眼镜连锁，在多哈等地设有门店并提供免费验光",official:true,region:"QA",plat:"网页",icon:"almahraopticals.com.ico"},
 {name:"Ammar Optician",url:"https://ammaroptician.com",cat:"购物消费",rating:4,price:"免费",kw:"眼镜连锁 ammar",desc:"巴林本土眼镜连锁，主营验光、镜架、太阳镜与助听服务",official:true,region:"BH",plat:"网页",icon:"ammaroptician.com.ico"},
 {name:"Ópticas Bustorf",url:"https://bustorf.cl",cat:"购物消费",rating:4,price:"免费",kw:"眼镜连锁 bustorf",desc:"智利本土老牌眼镜连锁，主营视力评估、镜片与隐形眼镜",official:true,region:"CL",plat:"网页",icon:"bustorf.cl.ico"},
-{name:"eGG Optical",url:"https://eggoptical.com",cat:"购物消费",rating:4,price:"免费",kw:"眼镜连锁 egg",desc:"香港本土快时尚眼镜连锁，主营自有设计镜架与太阳镜零售",official:true,region:"HK",plat:"网页",icon:"eggoptical.com.ico"},
 {name:"Aarunya Nature Resort & Spa",url:"https://aarunyaresort.com",cat:"购物消费",rating:4,price:"免费",kw:"度假村 aarunya",desc:"斯里兰卡康提茶园山丘间的精品自然度假村，主打水疗与瑜伽静修",official:true,region:"LK",plat:"网页",icon:"aarunyaresort.com.ico"},
 {name:"Chobe Bakwena Lodge",url:"https://chobebakwena.com",cat:"购物消费",rating:4,price:"免费",kw:"生态旅馆 bakwena",desc:"博茨瓦纳乔贝河畔的生态旅馆，采用环保建筑并组织河上游猎",official:true,region:"BW",plat:"网页",icon:"chobebakwena.com.ico"},
 {name:"Dar Zemora",url:"https://darzemora.com",cat:"购物消费",rating:4,price:"免费",kw:"精品酒店 zemora",desc:"摩洛哥马拉喀什棕榈林区的庄园式精品酒店，环绕花园与泳池",official:true,region:"MA",plat:"网页",icon:"darzemora.com.ico"},
