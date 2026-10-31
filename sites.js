@@ -12470,5 +12470,6 @@ const SITES = [
 {name:"Puri Guliani",url:"https://puriguliani.ge",cat:"购物消费",rating:4,price:"免费",kw:"puri guliani，puriguliani.ge，官网",desc:"格鲁吉亚本土面包房连锁，认准官网 puriguliani.ge。",official:true,region:"GE",plat:"网页",icon:"puriguliani.ge.ico"},
 {name:"Mamabox",url:"https://mamabox.md",cat:"购物消费",rating:4,price:"免费",kw:"mamabox，mamabox.md，官网",desc:"摩尔多瓦本土母婴用品零售商，认准官网 mamabox.md。",official:true,region:"MD",plat:"网页",icon:"mamabox.md.ico"},
 {name:"Koykan",url:"https://koykan.com",cat:"生活服务",rating:4,price:"免费",kw:"koykan，koykan.com，官网",desc:"克罗地亚本土卷饼快餐连锁，认准官网 koykan.com。",official:true,region:"HR",plat:"网页",icon:"koykan.com.ico"},
-{name:"Giulian",url:"https://www.giulian.bg",cat:"购物消费",rating:4,price:"免费",kw:"giulian，giulian.bg，官网",desc:"保加利亚本土珠宝零售连锁，认准官网 giulian.bg。",official:true,region:"BG",plat:"网页",icon:"www.giulian.bg.ico"}
+{name:"Giulian",url:"https://www.giulian.bg",cat:"购物消费",rating:4,price:"免费",kw:"giulian，giulian.bg，官网",desc:"保加利亚本土珠宝零售连锁，认准官网 giulian.bg。",official:true,region:"BG",plat:"网页",icon:"www.giulian.bg.ico"},
+{name:"VMF",url:"https://vmf.az",cat:"购物消费",rating:4,price:"免费",kw:"vmf，vmf.az，官网",desc:"阿塞拜疆本土钟表零售连锁，认准官网 vmf.az。",official:true,region:"AZ",plat:"网页",icon:"vmf.az.ico"}
 ];
