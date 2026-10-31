@@ -12496,5 +12496,6 @@ const SITES = [
 {name:"Brioche",url:"https://www.briocherwanda.com",cat:"购物消费",rating:4,price:"免费",kw:"brioche，briocherwanda.com，官网",desc:"卢旺达本土法式烘焙咖啡连锁，在基加利设有多家门店，认准官网 briocherwanda.com。",official:true,region:"RW",plat:"网页",icon:"www.briocherwanda.com.ico"},
 {name:"Enbee",url:"https://enbee.co.zw",cat:"购物消费",rating:4,price:"免费",kw:"enbee，enbee.co.zw，官网",desc:"津巴布韦本土童装与校服零售商，在哈拉雷经营儿童服饰与校服门店，认准官网 enbee.co.zw。",official:true,region:"ZW",plat:"网页",icon:"enbee.co.zw.ico"},
 {name:"Fit Farm Jamaica",url:"https://www.fitfarmjamaica.com",cat:"生活服务",rating:4,price:"免费",kw:"fit farm jamaica，fitfarmjamaica.com，官网",desc:"牙买加本土健身连锁，在金斯敦设有门店，认准官网 fitfarmjamaica.com。",official:true,region:"JM",plat:"网页",icon:"www.fitfarmjamaica.com.ico"},
-{name:"Legekæden",url:"https://www.legekaeden.dk",cat:"购物消费",rating:4,price:"免费",kw:"legekæden，legekaeden.dk，官网",desc:"丹麦本土玩具零售连锁，在哥本哈根等地设有众多合作门店，认准官网 legekaeden.dk。",official:true,region:"DK",plat:"网页",icon:"www.legekaeden.dk.ico"}
+{name:"Legekæden",url:"https://www.legekaeden.dk",cat:"购物消费",rating:4,price:"免费",kw:"legekæden，legekaeden.dk，官网",desc:"丹麦本土玩具零售连锁，在哥本哈根等地设有众多合作门店，认准官网 legekaeden.dk。",official:true,region:"DK",plat:"网页",icon:"www.legekaeden.dk.ico"},
+{name:"BodyZone Fitness Aruba",url:"https://www.bodyzonearuba.com",cat:"生活服务",rating:4,price:"免费",kw:"bodyzone fitness aruba，bodyzonearuba.com，官网",desc:"阿鲁巴本土健身中心，在奥拉涅斯塔德经营综合训练场馆，认准官网 bodyzonearuba.com。",official:true,region:"AW",plat:"网页",icon:"www.bodyzonearuba.com.ico"}
 ];
