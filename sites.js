@@ -12424,5 +12424,8 @@ const SITES = [
 {name:"Buddy Dive Resort",url:"https://buddydive.com",cat:"购物消费",rating:4,price:"免费",kw:"buddy dive resort，buddydive.com，官网",desc:"博内尔本土潜水度假村，认准官网 buddydive.com。",official:true,region:"BQ",plat:"网页",icon:"buddydive.com.ico"},
 {name:"Simpson Bay Resort",url:"https://www.simpsonbayresort.com",cat:"购物消费",rating:4,price:"免费",kw:"simpson bay resort，simpsonbayresort.com，官网",desc:"荷属圣马丁本土度假村，认准官网 simpsonbayresort.com。",official:true,region:"SX",plat:"网页",icon:"www.simpsonbayresort.com.ico"},
 {name:"La Créole Beach Hôtel & Spa",url:"https://www.creolebeach.com",cat:"购物消费",rating:4,price:"免费",kw:"la créole beach hôtel & spa，creolebeach.com，官网",desc:"瓜德罗普本土海滩度假酒店，认准官网 creolebeach.com。",official:true,region:"GP",plat:"网页",icon:"www.creolebeach.com.ico"},
-{name:"Groupe Cogit",url:"https://www.groupecogit.com",cat:"购物消费",rating:4,price:"免费",kw:"groupe cogit，groupecogit.com，官网",desc:"法属圭亚那本土酒店运营商，认准官网 groupecogit.com。",official:true,region:"GF",plat:"网页",icon:"www.groupecogit.com.ico"}
+{name:"Groupe Cogit",url:"https://www.groupecogit.com",cat:"购物消费",rating:4,price:"免费",kw:"groupe cogit，groupecogit.com，官网",desc:"法属圭亚那本土酒店运营商，认准官网 groupecogit.com。",official:true,region:"GF",plat:"网页",icon:"www.groupecogit.com.ico"},
+{name:"Caribbean Gems",url:"https://www.caribbeangems.com",cat:"购物消费",rating:4,price:"免费",kw:"caribbean gems，caribbeangems.com，官网",desc:"荷属圣马丁本土珠宝零售商，认准官网 caribbeangems.com。",official:true,region:"SX",plat:"网页",icon:"www.caribbeangems.com.ico"},
+{name:"Fitness Forma",url:"https://fitnessforma.md",cat:"生活服务",rating:4,price:"免费",kw:"fitness forma，fitnessforma.md，官网",desc:"摩尔多瓦本土健身连锁，认准官网 fitnessforma.md。",official:true,region:"MD",plat:"网页",icon:"fitnessforma.md.ico"},
+{name:"The Fit Centre",url:"https://thefitcentre.com",cat:"生活服务",rating:4,price:"免费",kw:"the fit centre，thefitcentre.com，官网",desc:"特立尼达和多巴哥本土健身连锁，认准官网 thefitcentre.com。",official:true,region:"TT",plat:"网页",icon:"thefitcentre.com.ico"}
 ];
