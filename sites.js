@@ -12526,5 +12526,8 @@ const SITES = [
 {name:"Eyecare Jersey",url:"https://eyecare.je",cat:"购物消费",rating:4,price:"免费",kw:"eyecare jersey，eyecare.je，官网",desc:"泽西岛本土眼镜连锁，在圣赫利尔提供验光与配镜服务，认准官网 eyecare.je。",official:true,region:"JE",plat:"网页",icon:"eyecare.je.ico"},
 {name:"Optics.am",url:"https://optics.am",cat:"购物消费",rating:4,price:"免费",kw:"optics.am，optics.am，官网",desc:"亚美尼亚本土眼镜零售商，在埃里温经营验光配镜门店，认准官网 optics.am。",official:true,region:"AM",plat:"网页",icon:"optics.am.ico"},
 {name:"Webster Opticians",url:"https://www.guernseyopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"webster opticians，guernseyopticians.com，官网",desc:"根西岛本土家族眼镜店，在圣彼得港经营验光配镜，认准官网 guernseyopticians.com。",official:true,region:"GG",plat:"网页",icon:"www.guernseyopticians.com.ico"},
-{name:"RAW Fitness",url:"https://www.rawfitness.fit",cat:"生活服务",rating:4,price:"免费",kw:"raw fitness，rawfitness.fit，官网",desc:"特立尼达和多巴哥本土健身连锁，在西班牙港等地设有门店，认准官网 rawfitness.fit。",official:true,region:"TT",plat:"网页",icon:"www.rawfitness.fit.ico"}
+{name:"RAW Fitness",url:"https://www.rawfitness.fit",cat:"生活服务",rating:4,price:"免费",kw:"raw fitness，rawfitness.fit，官网",desc:"特立尼达和多巴哥本土健身连锁，在西班牙港等地设有门店，认准官网 rawfitness.fit。",official:true,region:"TT",plat:"网页",icon:"www.rawfitness.fit.ico"},
+{name:"Fafa Hotels & Resorts",url:"https://fafa.al",cat:"购物消费",rating:4,price:"免费",kw:"fafa hotels & resorts，fafa.al，官网",desc:"阿尔巴尼亚本土度假集团，在都拉斯等地运营多家海滨度假村，认准官网 fafa.al。",official:true,region:"AL",plat:"网页",icon:"fafa.al.ico"},
+{name:"Island Outpost",url:"https://www.islandoutpost.com",cat:"购物消费",rating:4,price:"免费",kw:"island outpost，islandoutpost.com，官网",desc:"牙买加本土精品酒店集团，在全岛运营多家特色度假物业，认准官网 islandoutpost.com。",official:true,region:"JM",plat:"网页",icon:"www.islandoutpost.com.ico"},
+{name:"Cayuga Collection",url:"https://cayugacollection.com",cat:"购物消费",rating:4,price:"免费",kw:"cayuga collection，cayugacollection.com，官网",desc:"哥斯达黎加本土生态酒店集团，在中美洲运营多家生态度假村，认准官网 cayugacollection.com。",official:true,region:"CR",plat:"网页",icon:"cayugacollection.com.ico"}
 ];
