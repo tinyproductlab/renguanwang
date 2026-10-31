@@ -12522,5 +12522,8 @@ const SITES = [
 {name:"Don Pan",url:"https://donpan.com.ni",cat:"购物消费",rating:4,price:"免费",kw:"don pan，donpan.com.ni，官网",desc:"尼加拉瓜本土面包糕点连锁，在马那瓜等地设有多家门店，认准官网 donpan.com.ni。",official:true,region:"NI",plat:"网页",icon:"donpan.com.ni.ico"},
 {name:"Italdizain Jewellery",url:"https://italdizain.az",cat:"购物消费",rating:4,price:"免费",kw:"italdizain jewellery，italdizain.az，官网",desc:"阿塞拜疆本土珠宝零售集团，在巴库设有多家精品店，认准官网 italdizain.az。",official:true,region:"AZ",plat:"网页",icon:"italdizain.az.ico"},
 {name:"Pão Quente",url:"https://paoquente.cv",cat:"购物消费",rating:4,price:"免费",kw:"pão quente，paoquente.cv，官网",desc:"佛得角本土面包房连锁，在普拉亚和明德卢经营多家门店，认准官网 paoquente.cv。",official:true,region:"CV",plat:"网页",icon:"paoquente.cv.ico"},
-{name:"Brutăria Bardar",url:"https://brutariabardar.md",cat:"购物消费",rating:4,price:"免费",kw:"brutăria bardar，brutariabardar.md，官网",desc:"摩尔多瓦本土面包企业，在基希讷乌等地经营多家门店，认准官网 brutariabardar.md。",official:true,region:"MD",plat:"网页",icon:"brutariabardar.md.ico"}
+{name:"Brutăria Bardar",url:"https://brutariabardar.md",cat:"购物消费",rating:4,price:"免费",kw:"brutăria bardar，brutariabardar.md，官网",desc:"摩尔多瓦本土面包企业，在基希讷乌等地经营多家门店，认准官网 brutariabardar.md。",official:true,region:"MD",plat:"网页",icon:"brutariabardar.md.ico"},
+{name:"Eyecare Jersey",url:"https://eyecare.je",cat:"购物消费",rating:4,price:"免费",kw:"eyecare jersey，eyecare.je，官网",desc:"泽西岛本土眼镜连锁，在圣赫利尔提供验光与配镜服务，认准官网 eyecare.je。",official:true,region:"JE",plat:"网页",icon:"eyecare.je.ico"},
+{name:"Optics.am",url:"https://optics.am",cat:"购物消费",rating:4,price:"免费",kw:"optics.am，optics.am，官网",desc:"亚美尼亚本土眼镜零售商，在埃里温经营验光配镜门店，认准官网 optics.am。",official:true,region:"AM",plat:"网页",icon:"optics.am.ico"},
+{name:"Webster Opticians",url:"https://www.guernseyopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"webster opticians，guernseyopticians.com，官网",desc:"根西岛本土家族眼镜店，在圣彼得港经营验光配镜，认准官网 guernseyopticians.com。",official:true,region:"GG",plat:"网页",icon:"www.guernseyopticians.com.ico"}
 ];
