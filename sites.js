@@ -12463,5 +12463,6 @@ const SITES = [
 {name:"Albena",url:"https://albena.bg",cat:"购物消费",rating:4,price:"免费",kw:"albena，albena.bg，官网",desc:"保加利亚本土海滨度假区运营集团，认准官网 albena.bg。",official:true,region:"BG",plat:"网页",icon:"albena.bg.ico"},
 {name:"Continental Hotels",url:"https://continentalhotels.ro",cat:"购物消费",rating:4,price:"免费",kw:"continental hotels，continentalhotels.ro，官网",desc:"罗马尼亚本土酒店集团，认准官网 continentalhotels.ro。",official:true,region:"RO",plat:"网页",icon:"continentalhotels.ro.ico"},
 {name:"Rivoli Jewellers",url:"https://rivolijewellers.com",cat:"购物消费",rating:4,price:"免费",kw:"rivoli jewellers，rivolijewellers.com，官网",desc:"泽西岛本土家族珠宝商，认准官网 rivolijewellers.com。",official:true,region:"JE",plat:"网页",icon:"rivolijewellers.com.ico"},
-{name:"Magnum Jewelers",url:"https://www.magnumjewelers.com",cat:"购物消费",rating:4,price:"免费",kw:"magnum jewelers，magnumjewelers.com，官网",desc:"开曼群岛本土免税珠宝腕表零售商，认准官网 magnumjewelers.com。",official:true,region:"KY",plat:"网页",icon:"www.magnumjewelers.com.ico"}
+{name:"Magnum Jewelers",url:"https://www.magnumjewelers.com",cat:"购物消费",rating:4,price:"免费",kw:"magnum jewelers，magnumjewelers.com，官网",desc:"开曼群岛本土免税珠宝腕表零售商，认准官网 magnumjewelers.com。",official:true,region:"KY",plat:"网页",icon:"www.magnumjewelers.com.ico"},
+{name:"Bebelux Moldova",url:"https://www.bebelux.md",cat:"购物消费",rating:4,price:"免费",kw:"bebelux moldova，bebelux.md，官网",desc:"摩尔多瓦本土婴童用品零售商，认准官网 bebelux.md。",official:true,region:"MD",plat:"网页",icon:"www.bebelux.md.ico"}
 ];
