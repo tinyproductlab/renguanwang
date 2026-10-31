@@ -12474,5 +12474,9 @@ const SITES = [
 {name:"VMF",url:"https://vmf.az",cat:"购物消费",rating:4,price:"免费",kw:"vmf，vmf.az，官网",desc:"阿塞拜疆本土钟表零售连锁，认准官网 vmf.az。",official:true,region:"AZ",plat:"网页",icon:"vmf.az.ico"},
 {name:"Mamatoto",url:"https://mamatoto.com.cy",cat:"购物消费",rating:4,price:"免费",kw:"mamatoto，mamatoto.com.cy，官网",desc:"塞浦路斯本土母婴用品零售商，认准官网 mamatoto.com.cy。",official:true,region:"CY",plat:"网页",icon:"mamatoto.com.cy.ico"},
 {name:"Centroxogo",url:"https://www.centroxogo.com",cat:"购物消费",rating:4,price:"免费",kw:"centroxogo，centroxogo.com，官网",desc:"西班牙本土玩具零售连锁，认准官网 centroxogo.com。",official:true,region:"ES",plat:"网页",icon:"www.centroxogo.com.ico"},
-{name:"Eyesland",url:"https://eyesland.is",cat:"购物消费",rating:4,price:"免费",kw:"eyesland，eyesland.is，官网",desc:"冰岛本土眼镜零售连锁，认准官网 eyesland.is。",official:true,region:"IS",plat:"网页",icon:"eyesland.is.ico"}
+{name:"Eyesland",url:"https://eyesland.is",cat:"购物消费",rating:4,price:"免费",kw:"eyesland，eyesland.is，官网",desc:"冰岛本土眼镜零售连锁，认准官网 eyesland.is。",official:true,region:"IS",plat:"网页",icon:"eyesland.is.ico"},
+{name:"BPM Satovi",url:"https://www.bpmsatovi.com",cat:"购物消费",rating:4,price:"免费",kw:"bpm satovi，bpmsatovi.com，官网",desc:"塞尔维亚本土钟表珠宝零售连锁，认准官网 bpmsatovi.com。",official:true,region:"RS",plat:"网页",icon:"www.bpmsatovi.com.ico"},
+{name:"Arttime",url:"https://arttime.ge",cat:"购物消费",rating:4,price:"免费",kw:"arttime，arttime.ge，官网",desc:"格鲁吉亚本土钟表零售连锁，认准官网 arttime.ge。",official:true,region:"GE",plat:"网页",icon:"arttime.ge.ico"},
+{name:"Panafricare Clinic",url:"https://panafricare.com",cat:"生活服务",rating:4,price:"免费",kw:"panafricare clinic，panafricare.com，官网",desc:"塞舌尔本土私立诊所，认准官网 panafricare.com。",official:true,region:"SC",plat:"网页",icon:"panafricare.com.ico"},
+{name:"Prime Fit",url:"https://primefit.ge",cat:"生活服务",rating:4,price:"免费",kw:"prime fit，primefit.ge，官网",desc:"格鲁吉亚本土健身连锁，认准官网 primefit.ge。",official:true,region:"GE",plat:"网页",icon:"primefit.ge.ico"}
 ];
