@@ -12506,5 +12506,8 @@ const SITES = [
 {name:"Menda",url:"https://www.menda.rs",cat:"购物消费",rating:4,price:"免费",kw:"menda，menda.rs，官网",desc:"塞尔维亚本土儿童用品零售连锁，在贝尔格莱德等地设有门店，认准官网 menda.rs。",official:true,region:"RS",plat:"网页",icon:"www.menda.rs.ico"},
 {name:"Funtastik",url:"https://www.funtastik.by",cat:"购物消费",rating:4,price:"免费",kw:"funtastik，funtastik.by，官网",desc:"白俄罗斯本土玩具零售连锁，在明斯克等地设有门店，认准官网 funtastik.by。",official:true,region:"BY",plat:"网页",icon:"www.funtastik.by.ico"},
 {name:"Träningsverket",url:"https://traningsverket.fi",cat:"生活服务",rating:4,price:"免费",kw:"träningsverket，traningsverket.fi，官网",desc:"奥兰群岛本土健身中心，在玛丽港经营健身场馆，认准官网 traningsverket.fi。",official:true,region:"AX",plat:"网页",icon:"traningsverket.fi.ico"},
-{name:"Kings Premier Health Club",url:"https://kings.gg",cat:"生活服务",rating:4,price:"免费",kw:"kings premier health club，kings.gg，官网",desc:"根西岛本土综合健身俱乐部，经营室内外运动场馆，认准官网 kings.gg。",official:true,region:"GG",plat:"网页",icon:"kings.gg.ico"}
+{name:"Kings Premier Health Club",url:"https://kings.gg",cat:"生活服务",rating:4,price:"免费",kw:"kings premier health club，kings.gg，官网",desc:"根西岛本土综合健身俱乐部，经营室内外运动场馆，认准官网 kings.gg。",official:true,region:"GG",plat:"网页",icon:"kings.gg.ico"},
+{name:"Ansaldo",url:"https://ansaldo.cl",cat:"购物消费",rating:4,price:"免费",kw:"ansaldo，ansaldo.cl，官网",desc:"智利本土玩具零售连锁，在瓦尔帕莱索、圣地亚哥等地设有门店，认准官网 ansaldo.cl。",official:true,region:"CL",plat:"网页",icon:"ansaldo.cl.ico"},
+{name:"Versa Hospitality",url:"https://www.versahospitality.com",cat:"购物消费",rating:4,price:"免费",kw:"versa hospitality，versahospitality.com，官网",desc:"马尔代夫本土度假集团（原 Universal Resorts），运营库鲁巴、薇莉多等多个环礁岛屿度假村，认准官网 versahospitality.com。",official:true,region:"MV",plat:"网页",icon:"www.versahospitality.com.ico"},
+{name:"Hugo's Hotels",url:"https://hugoshotels.com",cat:"购物消费",rating:4,price:"免费",kw:"hugo's hotels，hugoshotels.com，官网",desc:"马耳他本土酒店集团，在圣朱利安斯运营多家雨果品牌精品酒店，认准官网 hugoshotels.com。",official:true,region:"MT",plat:"网页",icon:"hugoshotels.com.ico"}
 ];
