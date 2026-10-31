@@ -12418,5 +12418,11 @@ const SITES = [
 {name:"Rukis",url:"https://rukis.ee",cat:"购物消费",rating:4,price:"免费",kw:"rukis，rukis.ee，官网",desc:"爱沙尼亚本土面包房连锁，认准官网 rukis.ee。",official:true,region:"EE",plat:"网页",icon:"rukis.ee.ico"},
 {name:"Cyrano",url:"https://cyranocorfu.com.ec",cat:"购物消费",rating:4,price:"免费",kw:"cyrano，cyranocorfu.com.ec，官网",desc:"厄瓜多尔本土面包咖啡连锁，认准官网 cyranocorfu.com.ec。",official:true,region:"EC",plat:"网页",icon:"cyranocorfu.com.ec.ico"},
 {name:"Patsy",url:"https://tiendapatsy.com",cat:"购物消费",rating:4,price:"免费",kw:"patsy，tiendapatsy.com，官网",desc:"危地马拉本土糕点连锁，认准官网 tiendapatsy.com。",official:true,region:"GT",plat:"网页",icon:"tiendapatsy.com.ico"},
-{name:"Ennoia",url:"https://www.ennoia.mu",cat:"生活服务",rating:4,price:"免费",kw:"ennoia，ennoia.mu，官网",desc:"毛里求斯本土健身俱乐部连锁，认准官网 ennoia.mu。",official:true,region:"MU",plat:"网页",icon:"www.ennoia.mu.ico"}
+{name:"Ennoia",url:"https://www.ennoia.mu",cat:"生活服务",rating:4,price:"免费",kw:"ennoia，ennoia.mu，官网",desc:"毛里求斯本土健身俱乐部连锁，认准官网 ennoia.mu。",official:true,region:"MU",plat:"网页",icon:"www.ennoia.mu.ico"},
+{name:"Grupo Marta",url:"https://www.grupomarta.com",cat:"购物消费",rating:4,price:"免费",kw:"grupo marta，grupomarta.com，官网",desc:"哥斯达黎加本土酒店集团，认准官网 grupomarta.com。",official:true,region:"CR",plat:"网页",icon:"www.grupomarta.com.ico"},
+{name:"LionsDive Beach Resort",url:"https://www.lionsdive.com",cat:"购物消费",rating:4,price:"免费",kw:"lionsdive beach resort，lionsdive.com，官网",desc:"库拉索本土海滩度假村，认准官网 lionsdive.com。",official:true,region:"CW",plat:"网页",icon:"www.lionsdive.com.ico"},
+{name:"Buddy Dive Resort",url:"https://buddydive.com",cat:"购物消费",rating:4,price:"免费",kw:"buddy dive resort，buddydive.com，官网",desc:"博内尔本土潜水度假村，认准官网 buddydive.com。",official:true,region:"BQ",plat:"网页",icon:"buddydive.com.ico"},
+{name:"Simpson Bay Resort",url:"https://www.simpsonbayresort.com",cat:"购物消费",rating:4,price:"免费",kw:"simpson bay resort，simpsonbayresort.com，官网",desc:"荷属圣马丁本土度假村，认准官网 simpsonbayresort.com。",official:true,region:"SX",plat:"网页",icon:"www.simpsonbayresort.com.ico"},
+{name:"La Créole Beach Hôtel & Spa",url:"https://www.creolebeach.com",cat:"购物消费",rating:4,price:"免费",kw:"la créole beach hôtel & spa，creolebeach.com，官网",desc:"瓜德罗普本土海滩度假酒店，认准官网 creolebeach.com。",official:true,region:"GP",plat:"网页",icon:"www.creolebeach.com.ico"},
+{name:"Groupe Cogit",url:"https://www.groupecogit.com",cat:"购物消费",rating:4,price:"免费",kw:"groupe cogit，groupecogit.com，官网",desc:"法属圭亚那本土酒店运营商，认准官网 groupecogit.com。",official:true,region:"GF",plat:"网页",icon:"www.groupecogit.com.ico"}
 ];
