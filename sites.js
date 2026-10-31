@@ -12367,5 +12367,8 @@ const SITES = [
 {name:"Chronograph",url:"https://chronograph.am",cat:"购物消费",rating:4,price:"免费",kw:"chronograph，chronograph.am，官网",desc:"亚美尼亚本土钟表珠宝零售连锁，认准官网 chronograph.am。",official:true,region:"AM",plat:"网页",icon:"chronograph.am.ico"},
 {name:"Larnaca General Hospital",url:"https://www.shso.org.cy/hospital/geniko-nosokomeio-larnakas/",cat:"生活服务",rating:4,price:"免费",kw:"larnaca general hospital，shso.org.cy，官网",desc:"塞浦路斯拉纳卡市的地区综合医院，认准官网 shso.org.cy。",official:true,region:"CY",plat:"网页",icon:"www.shso.org.cy.ico"},
 {name:"MyFit 360",url:"https://myfit360.mu",cat:"生活服务",rating:4,price:"免费",kw:"myfit 360，myfit360.mu，官网",desc:"毛里求斯本土健身连锁，认准官网 myfit360.mu。",official:true,region:"MU",plat:"网页",icon:"myfit360.mu.ico"},
-{name:"MACFIT360",url:"https://macfit360.com",cat:"生活服务",rating:4,price:"免费",kw:"macfit360，macfit360.com，官网",desc:"巴哈马本土健身品牌，认准官网 macfit360.com。",official:true,region:"BS",plat:"网页",icon:"macfit360.com.ico"}
+{name:"MACFIT360",url:"https://macfit360.com",cat:"生活服务",rating:4,price:"免费",kw:"macfit360，macfit360.com，官网",desc:"巴哈马本土健身品牌，认准官网 macfit360.com。",official:true,region:"BS",plat:"网页",icon:"macfit360.com.ico"},
+{name:"Ken Black",url:"https://kenblack.ie",cat:"购物消费",rating:4,price:"免费",kw:"ken black，kenblack.ie，官网",desc:"爱尔兰本土玩具零售连锁，认准官网 kenblack.ie。",official:true,region:"IE",plat:"网页",icon:"kenblack.ie.ico"},
+{name:"Sach Pizza",url:"https://sachpizza.com",cat:"生活服务",rating:4,price:"免费",kw:"sach pizza，sachpizza.com，官网",desc:"科索沃本土比萨连锁，认准官网 sachpizza.com。",official:true,region:"XK",plat:"网页",icon:"sachpizza.com.ico"},
+{name:"Grenadine House",url:"https://www.grenadinehouse.com",cat:"购物消费",rating:4,price:"免费",kw:"grenadine house，grenadinehouse.com，官网",desc:"圣文森特和格林纳丁斯本土精品酒店，认准官网 grenadinehouse.com。",official:true,region:"VC",plat:"网页",icon:"www.grenadinehouse.com.ico"}
 ];
