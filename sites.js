@@ -12471,5 +12471,8 @@ const SITES = [
 {name:"Mamabox",url:"https://mamabox.md",cat:"购物消费",rating:4,price:"免费",kw:"mamabox，mamabox.md，官网",desc:"摩尔多瓦本土母婴用品零售商，认准官网 mamabox.md。",official:true,region:"MD",plat:"网页",icon:"mamabox.md.ico"},
 {name:"Koykan",url:"https://koykan.com",cat:"生活服务",rating:4,price:"免费",kw:"koykan，koykan.com，官网",desc:"克罗地亚本土卷饼快餐连锁，认准官网 koykan.com。",official:true,region:"HR",plat:"网页",icon:"koykan.com.ico"},
 {name:"Giulian",url:"https://www.giulian.bg",cat:"购物消费",rating:4,price:"免费",kw:"giulian，giulian.bg，官网",desc:"保加利亚本土珠宝零售连锁，认准官网 giulian.bg。",official:true,region:"BG",plat:"网页",icon:"www.giulian.bg.ico"},
-{name:"VMF",url:"https://vmf.az",cat:"购物消费",rating:4,price:"免费",kw:"vmf，vmf.az，官网",desc:"阿塞拜疆本土钟表零售连锁，认准官网 vmf.az。",official:true,region:"AZ",plat:"网页",icon:"vmf.az.ico"}
+{name:"VMF",url:"https://vmf.az",cat:"购物消费",rating:4,price:"免费",kw:"vmf，vmf.az，官网",desc:"阿塞拜疆本土钟表零售连锁，认准官网 vmf.az。",official:true,region:"AZ",plat:"网页",icon:"vmf.az.ico"},
+{name:"Mamatoto",url:"https://mamatoto.com.cy",cat:"购物消费",rating:4,price:"免费",kw:"mamatoto，mamatoto.com.cy，官网",desc:"塞浦路斯本土母婴用品零售商，认准官网 mamatoto.com.cy。",official:true,region:"CY",plat:"网页",icon:"mamatoto.com.cy.ico"},
+{name:"Centroxogo",url:"https://www.centroxogo.com",cat:"购物消费",rating:4,price:"免费",kw:"centroxogo，centroxogo.com，官网",desc:"西班牙本土玩具零售连锁，认准官网 centroxogo.com。",official:true,region:"ES",plat:"网页",icon:"www.centroxogo.com.ico"},
+{name:"Eyesland",url:"https://eyesland.is",cat:"购物消费",rating:4,price:"免费",kw:"eyesland，eyesland.is，官网",desc:"冰岛本土眼镜零售连锁，认准官网 eyesland.is。",official:true,region:"IS",plat:"网页",icon:"eyesland.is.ico"}
 ];
