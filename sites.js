@@ -12019,5 +12019,16 @@ const SITES = [
 {name:"Wooridul Spine Hospital",url:"https://wooridul.com",cat:"生活服务",rating:4,price:"免费",kw:"Wooridul Spine Hospital 脊柱 韩国",desc:"韩国私立脊柱专科医院，主营脊柱疾病诊疗与微创手术",official:true,region:"KR",plat:"网页",icon:"wooridul.com.ico"},
 {name:"Cheng Hsin General Hospital",url:"https://www.chgh.org.tw",cat:"生活服务",rating:4,price:"免费",kw:"Cheng Hsin General Hospital 振兴医院 台湾",desc:"台湾台北私立综合医院，主营心脏、骨科与综合专科诊疗",official:true,region:"TW",plat:"网页",icon:"www.chgh.org.tw.ico"},
 {name:"Al Moosa Specialist Hospital",url:"https://almoosahealthgroup.org",cat:"生活服务",rating:4,price:"免费",kw:"Al Moosa Specialist Hospital 医院 沙特",desc:"沙特阿拉伯私立专科医院，提供综合诊疗与住院服务",official:true,region:"SA",plat:"网页",icon:"almoosahealthgroup.org.ico"},
-{name:"金吉鸟健身",url:"https://jinjiniao.com",cat:"生活服务",rating:4,price:"免费",kw:"金吉鸟健身 健身 中国",desc:"中国南京起家的健身连锁，主营器械训练、泳池与团体课程",official:true,region:"CN",plat:"网页",icon:"jinjiniao.com.ico"}
+{name:"金吉鸟健身",url:"https://jinjiniao.com",cat:"生活服务",rating:4,price:"免费",kw:"金吉鸟健身 健身 中国",desc:"中国南京起家的健身连锁，主营器械训练、泳池与团体课程",official:true,region:"CN",plat:"网页",icon:"jinjiniao.com.ico"},
+{name:"Perlimpinpin",url:"https://perlimpinpin.com",cat:"购物消费",rating:4,price:"免费",kw:"Perlimpinpin 婴幼儿 加拿大 睡袋",desc:"加拿大婴幼儿纺织品牌，主营睡袋、毯子、睡衣与婴儿服饰",official:true,region:"CA",plat:"网页",icon:"perlimpinpin.com.ico"},
+{name:"Keliam Kids Babyshop",url:"https://keliamkids.com",cat:"购物消费",rating:4,price:"免费",kw:"Keliam Kids Babyshop 母婴 肯尼亚",desc:"肯尼亚母婴零售连锁，设有实体门店并销售孕产与婴幼儿用品",official:true,region:"KE",plat:"网页",icon:"keliamkids.com.ico"},
+{name:"The Optical Co",url:"https://theopticalco.com.au",cat:"购物消费",rating:4,price:"免费",kw:"The Optical Co 眼镜 澳大利亚",desc:"澳大利亚眼镜零售连锁，提供验光、设计师镜架和镜片服务",official:true,region:"AU",plat:"网页",icon:"theopticalco.com.au.ico"},
+{name:"Rachamankha",url:"https://rachamankha.com",cat:"购物消费",rating:4,price:"免费",kw:"Rachamankha 酒店 清迈 泰国",desc:"泰国清迈老城精品酒店，以兰纳建筑与安静庭院著称",official:true,region:"TH",plat:"网页",icon:"rachamankha.com.ico"},
+{name:"Halcyon House",url:"https://halcyonhouse.com.au",cat:"购物消费",rating:4,price:"免费",kw:"Halcyon House 酒店 澳大利亚 海滨",desc:"澳大利亚卡巴里塔海滩的复古海滨精品酒店，由老汽车旅馆改造而成",official:true,region:"AU",plat:"网页",icon:"halcyonhouse.com.au.ico"},
+{name:"Gregans Castle Hotel",url:"https://gregans.ie",cat:"购物消费",rating:4,price:"免费",kw:"Gregans Castle Hotel 爱尔兰 庄园",desc:"爱尔兰布伦地区边缘的乡村庄园酒店，以美食与高威风光闻名",official:true,region:"IE",plat:"网页",icon:"gregans.ie.ico"},
+{name:"Hotel Conte Perast",url:"https://hotelconte.me",cat:"购物消费",rating:4,price:"免费",kw:"Hotel Conte Perast 黑山 科托尔湾",desc:"黑山佩拉斯特老城的海滨精品酒店，位于科托尔湾历史建筑内",official:true,region:"ME",plat:"网页",icon:"hotelconte.me.ico"},
+{name:"Mfuwe Lodge",url:"https://bushcampcompany.com",cat:"购物消费",rating:4,price:"免费",kw:"Mfuwe Lodge 赞比亚 卢安瓜 Safari",desc:"赞比亚南卢安瓜国家公园内的经典 Safari 旅舍，以大象穿堂闻名",official:true,region:"ZM",plat:"网页",icon:"bushcampcompany.com.ico"},
+{name:"Burgerizzr",url:"https://burgerizzr.com",cat:"生活服务",rating:4,price:"免费",kw:"Burgerizzr 汉堡 沙特 快餐",desc:"沙特阿拉伯本土汉堡连锁，主打现烤牛肉与鸡肉汉堡",official:true,region:"SA",plat:"网页",icon:"burgerizzr.com.ico"},
+{name:"Go Crispy",url:"https://gocrispy.com",cat:"生活服务",rating:4,price:"免费",kw:"Go Crispy 炸鸡 卡塔尔 快餐",desc:"卡塔尔本土炸鸡连锁，提供炸鸡、汉堡与家庭套餐",official:true,region:"QA",plat:"网页",icon:"gocrispy.com.ico"},
+{name:"Papa's Pizza",url:"https://papaspizzaghana.com",cat:"生活服务",rating:4,price:"免费",kw:"Papa's Pizza 披萨 加纳 快餐",desc:"加纳本土披萨连锁，提供披萨、炸鸡与外卖服务",official:true,region:"GH",plat:"网页",icon:"papaspizzaghana.com.ico"}
 ];
