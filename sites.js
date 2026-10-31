@@ -12492,5 +12492,6 @@ const SITES = [
 {name:"XS Rotaļlietas",url:"https://www.xsrotallietas.lv",cat:"购物消费",rating:4,price:"免费",kw:"xs rotaļlietas，xsrotallietas.lv，官网",desc:"拉脱维亚本土玩具零售连锁，在里加等地设有门店，认准官网 xsrotallietas.lv。",official:true,region:"LV",plat:"网页",icon:"www.xsrotallietas.lv.ico"},
 {name:"Imperial Optical Bahamas",url:"https://www.imperialopticalbahamas.com",cat:"购物消费",rating:4,price:"免费",kw:"imperial optical bahamas，imperialopticalbahamas.com，官网",desc:"巴哈马本土眼镜零售商，在拿骚设有验光配镜门店，认准官网 imperialopticalbahamas.com。",official:true,region:"BS",plat:"网页",icon:"www.imperialopticalbahamas.com.ico"},
 {name:"Asia Hotels",url:"https://asiahotels.uz",cat:"购物消费",rating:4,price:"免费",kw:"asia hotels，asiahotels.uz，官网",desc:"乌兹别克斯坦本土连锁酒店集团，在塔什干、撒马尔罕、费尔干纳等地设有酒店，认准官网 asiahotels.uz。",official:true,region:"UZ",plat:"网页",icon:"asiahotels.uz.ico"},
-{name:"Pizza Mia",url:"https://pizzamia.com.cy",cat:"生活服务",rating:4,price:"免费",kw:"pizza mia，pizzamia.com.cy，官网",desc:"塞浦路斯本土披萨连锁，在尼科西亚等地设有门店，认准官网 pizzamia.com.cy。",official:true,region:"CY",plat:"网页",icon:"pizzamia.com.cy.ico"}
+{name:"Pizza Mia",url:"https://pizzamia.com.cy",cat:"生活服务",rating:4,price:"免费",kw:"pizza mia，pizzamia.com.cy，官网",desc:"塞浦路斯本土披萨连锁，在尼科西亚等地设有门店，认准官网 pizzamia.com.cy。",official:true,region:"CY",plat:"网页",icon:"pizzamia.com.cy.ico"},
+{name:"Brioche",url:"https://www.briocherwanda.com",cat:"购物消费",rating:4,price:"免费",kw:"brioche，briocherwanda.com，官网",desc:"卢旺达本土法式烘焙咖啡连锁，在基加利设有多家门店，认准官网 briocherwanda.com。",official:true,region:"RW",plat:"网页",icon:"www.briocherwanda.com.ico"}
 ];
