@@ -12481,5 +12481,6 @@ const SITES = [
 {name:"Prime Fit",url:"https://primefit.ge",cat:"生活服务",rating:4,price:"免费",kw:"prime fit，primefit.ge，官网",desc:"格鲁吉亚本土健身连锁，认准官网 primefit.ge。",official:true,region:"GE",plat:"网页",icon:"primefit.ge.ico"},
 {name:"Junior's",url:"https://juniors.com.mt",cat:"购物消费",rating:4,price:"免费",kw:"junior's，juniors.com.mt，官网",desc:"马耳他本土玩具与儿童用品连锁，认准官网 juniors.com.mt。",official:true,region:"MT",plat:"网页",icon:"juniors.com.mt.ico"},
 {name:"Begemotik",url:"https://begemotik.am",cat:"购物消费",rating:4,price:"免费",kw:"begemotik，begemotik.am，官网",desc:"亚美尼亚本土玩具零售连锁，认准官网 begemotik.am。",official:true,region:"AM",plat:"网页",icon:"begemotik.am.ico"},
-{name:"Bulaccino",url:"https://www.bulaccino.com",cat:"购物消费",rating:4,price:"免费",kw:"bulaccino，bulaccino.com，官网",desc:"斐济本土面包咖啡连锁，认准官网 bulaccino.com。",official:true,region:"FJ",plat:"网页",icon:"www.bulaccino.com.ico"}
+{name:"Bulaccino",url:"https://www.bulaccino.com",cat:"购物消费",rating:4,price:"免费",kw:"bulaccino，bulaccino.com，官网",desc:"斐济本土面包咖啡连锁，认准官网 bulaccino.com。",official:true,region:"FJ",plat:"网页",icon:"www.bulaccino.com.ico"},
+{name:"Vision Care Seychelles",url:"https://visioncare.sc",cat:"购物消费",rating:4,price:"免费",kw:"vision care seychelles，visioncare.sc，官网",desc:"塞舌尔本土眼镜零售商，认准官网 visioncare.sc。",official:true,region:"SC",plat:"网页",icon:"visioncare.sc.ico"}
 ];
