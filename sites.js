@@ -12436,5 +12436,7 @@ const SITES = [
 {name:"Muy'Ono Resorts",url:"https://muyono.com",cat:"购物消费",rating:4,price:"免费",kw:"muy'ono resorts，muyono.com，官网",desc:"伯利兹本土度假村集团，认准官网 muyono.com。",official:true,region:"BZ",plat:"网页",icon:"muyono.com.ico"},
 {name:"Soaltee Hotels & Resorts",url:"https://soaltee.com",cat:"购物消费",rating:4,price:"免费",kw:"soaltee hotels & resorts，soaltee.com，官网",desc:"尼泊尔本土酒店集团，认准官网 soaltee.com。",official:true,region:"NP",plat:"网页",icon:"soaltee.com.ico"},
 {name:"Hot Horse",url:"https://hot-horse.si",cat:"生活服务",rating:4,price:"免费",kw:"hot horse，hot-horse.si，官网",desc:"斯洛文尼亚本土马肉汉堡快餐品牌，认准官网 hot-horse.si。",official:true,region:"SI",plat:"网页",icon:"hot-horse.si.ico"},
-{name:"Yao",url:"https://yao.com.do",cat:"生活服务",rating:4,price:"免费",kw:"yao，yao.com.do，官网",desc:"多米尼加本土中式快餐连锁，认准官网 yao.com.do。",official:true,region:"DO",plat:"网页",icon:"yao.com.do.ico"}
+{name:"Yao",url:"https://yao.com.do",cat:"生活服务",rating:4,price:"免费",kw:"yao，yao.com.do，官网",desc:"多米尼加本土中式快餐连锁，认准官网 yao.com.do。",official:true,region:"DO",plat:"网页",icon:"yao.com.do.ico"},
+{name:"Björnsbakarí",url:"https://www.bjornsbakari.is",cat:"购物消费",rating:4,price:"免费",kw:"björnsbakarí，bjornsbakari.is，官网",desc:"冰岛本土面包连锁，认准官网 bjornsbakari.is。",official:true,region:"IS",plat:"网页",icon:"www.bjornsbakari.is.ico"},
+{name:"Fitness One",url:"https://fitnessone.com.gt",cat:"生活服务",rating:4,price:"免费",kw:"fitness one，fitnessone.com.gt，官网",desc:"危地马拉本土健身连锁，认准官网 fitnessone.com.gt。",official:true,region:"GT",plat:"网页",icon:"fitnessone.com.gt.ico"}
 ];
