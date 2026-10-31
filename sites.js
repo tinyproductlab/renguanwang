@@ -11948,5 +11948,18 @@ const SITES = [
 {name:"Royal Diamond",url:"https://royaldiamond.com.bd",cat:"购物消费",rating:4,price:"免费",kw:"珠宝 royal diamond",desc:"孟加拉国达卡本土珠宝商，主营钻石与黄金首饰定制",official:true,region:"BD",plat:"网页",icon:"royaldiamond.com.bd.ico"},
 {name:"Just Bake",url:"https://justbake.in",cat:"购物消费",rating:4,price:"免费",kw:"蛋糕 just bake",desc:"印度班加罗尔本土蛋糕连锁，主营定制蛋糕与烘焙食品",official:true,region:"IN",plat:"网页",icon:"justbake.in.ico"},
 {name:"Little & Friday",url:"https://littleandfriday.co.nz",cat:"购物消费",rating:4,price:"免费",kw:"烘焙 little friday",desc:"新西兰奥克兰本土烘焙咖啡连锁，主营手工糕点与甜甜圈",official:true,region:"NZ",plat:"网页",icon:"littleandfriday.co.nz.ico"},
-{name:"The Place Gym",url:"https://theplace.com.kh",cat:"生活服务",rating:4,price:"免费",kw:"健身 place",desc:"柬埔寨金边本土健身连锁，主营器械训练、泳池与团课",official:true,region:"KH",plat:"网页",icon:"theplace.com.kh.ico"}
+{name:"The Place Gym",url:"https://theplace.com.kh",cat:"生活服务",rating:4,price:"免费",kw:"健身 place",desc:"柬埔寨金边本土健身连锁，主营器械训练、泳池与团课",official:true,region:"KH",plat:"网页",icon:"theplace.com.kh.ico"},
+{name:"Mắt Kính Tâm Đức",url:"https://tamduc.vn",cat:"购物消费",rating:4,price:"免费",kw:"眼镜 tam duc",desc:"越南胡志明市本土眼镜连锁，主营验光配镜与镜片定制",official:true,region:"VN",plat:"网页",icon:"tamduc.vn.ico"},
+{name:"Mullers Optometrists",url:"https://mullers.co.za",cat:"购物消费",rating:4,price:"免费",kw:"验光 mullers",desc:"南非开普敦老牌验光连锁，主营验光配镜与眼健康检查",official:true,region:"ZA",plat:"网页",icon:"mullers.co.za.ico"},
+{name:"Cheong Fatt Tze - The Blue Mansion",url:"https://cheongfatttzemansion.com",cat:"购物消费",rating:4,price:"免费",kw:"古迹酒店 blue mansion",desc:"马来西亚槟城乔治市的蓝屋古迹精品酒店，由张弼士故居修复而成",official:true,region:"MY",plat:"网页",icon:"cheongfatttzemansion.com.ico"},
+{name:"Chumbe Island Coral Park",url:"https://chumbeisland.com",cat:"购物消费",rating:4,price:"免费",kw:"生态旅馆 chumbe",desc:"坦桑尼亚桑给巴尔附近私人珊瑚保护区小岛的生态旅馆，仅设七间生态小屋",official:true,region:"TZ",plat:"网页",icon:"chumbeisland.com.ico"},
+{name:"Dunes by Al Nahda",url:"https://dunesbyalnahda.com",cat:"购物消费",rating:4,price:"免费",kw:"沙漠度假村 dunes",desc:"阿曼巴尔卡沙丘边缘的沙漠度假村，主营沙丘景观帐篷与骆驼活动",official:true,region:"OM",plat:"网页",icon:"dunesbyalnahda.com.ico"},
+{name:"Gal Oya Lodge",url:"https://www.galoyalodge.com",cat:"购物消费",rating:4,price:"免费",kw:"生态旅馆 gal oya",desc:"斯里兰卡东部国家公园旁的生态旅馆，主打湖上船游与丛林别墅",official:true,region:"LK",plat:"网页",icon:"www.galoyalodge.com.ico"},
+{name:"Hindukush Heights",url:"https://hindukushheights.com",cat:"购物消费",rating:4,price:"免费",kw:"山景酒店 hindukush",desc:"巴基斯坦吉德拉尔的家族经营山景酒店，坐落在兴都库什山脉脚下",official:true,region:"PK",plat:"网页",icon:"hindukushheights.com.ico"},
+{name:"Kasbah du Toubkal",url:"https://kasbahdutoubkal.com",cat:"购物消费",rating:4,price:"免费",kw:"山间旅馆 toubkal",desc:"摩洛哥伊姆利勒高阿特拉斯山区的生态山间旅馆，由柏柏尔社区参与运营",official:true,region:"MA",plat:"网页",icon:"kasbahdutoubkal.com.ico"},
+{name:"Le Domaine de L'Orangeraie",url:"https://orangeraie.com",cat:"购物消费",rating:4,price:"免费",kw:"海滩度假村 orangeraie",desc:"塞舌尔拉迪格岛的花园海滩度假村，以花岗岩景观与克里奥尔别墅为特色",official:true,region:"SC",plat:"网页",icon:"orangeraie.com.ico"},
+{name:"Nuarro Lodge",url:"https://nuarro.com",cat:"购物消费",rating:4,price:"免费",kw:"海滩旅馆 nuarro",desc:"莫桑比克北部楠普拉海岸的生态海滩旅馆，主打鲸鱼观测与原始珊瑚礁潜水",official:true,region:"MZ",plat:"网页",icon:"nuarro.com.ico"},
+{name:"Peponi Hotel",url:"https://peponihotel.com",cat:"购物消费",rating:4,price:"免费",kw:"海滨酒店 peponi",desc:"肯尼亚拉穆岛谢拉海滩的家族海滨酒店，以海景露台与帆船活动闻名",official:true,region:"KE",plat:"网页",icon:"peponihotel.com.ico"},
+{name:"Pimalai Resort & Spa",url:"https://pimalai.com",cat:"购物消费",rating:4,price:"免费",kw:"度假村 pimalai",desc:"泰国兰塔岛国家公园边缘的山海度假村，藏于雨林坡地与私家海滩之间",official:true,region:"TH",plat:"网页",icon:"pimalai.com.ico"},
+{name:"Shahpura Bagh",url:"https://shahpurabagh.com",cat:"购物消费",rating:4,price:"免费",kw:"庄园酒店 shahpura",desc:"印度拉贾斯坦邦的家族遗产庄园酒店，由王室夏宫改建",official:true,region:"IN",plat:"网页",icon:"shahpurabagh.com.ico"}
 ];
