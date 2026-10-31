@@ -12504,5 +12504,7 @@ const SITES = [
 {name:"Pompo",url:"https://pompo.cz",cat:"购物消费",rating:4,price:"免费",kw:"pompo，pompo.cz，官网",desc:"捷克本土玩具零售连锁，在布拉格、布尔诺等地设有门店，认准官网 pompo.cz。",official:true,region:"CZ",plat:"网页",icon:"pompo.cz.ico"},
 {name:"Loco Croco",url:"https://lococroco.mk",cat:"购物消费",rating:4,price:"免费",kw:"loco croco，lococroco.mk，官网",desc:"北马其顿本土童装零售连锁，在斯科普里等地设有门店，认准官网 lococroco.mk。",official:true,region:"MK",plat:"网页",icon:"lococroco.mk.ico"},
 {name:"Menda",url:"https://www.menda.rs",cat:"购物消费",rating:4,price:"免费",kw:"menda，menda.rs，官网",desc:"塞尔维亚本土儿童用品零售连锁，在贝尔格莱德等地设有门店，认准官网 menda.rs。",official:true,region:"RS",plat:"网页",icon:"www.menda.rs.ico"},
-{name:"Funtastik",url:"https://www.funtastik.by",cat:"购物消费",rating:4,price:"免费",kw:"funtastik，funtastik.by，官网",desc:"白俄罗斯本土玩具零售连锁，在明斯克等地设有门店，认准官网 funtastik.by。",official:true,region:"BY",plat:"网页",icon:"www.funtastik.by.ico"}
+{name:"Funtastik",url:"https://www.funtastik.by",cat:"购物消费",rating:4,price:"免费",kw:"funtastik，funtastik.by，官网",desc:"白俄罗斯本土玩具零售连锁，在明斯克等地设有门店，认准官网 funtastik.by。",official:true,region:"BY",plat:"网页",icon:"www.funtastik.by.ico"},
+{name:"Träningsverket",url:"https://traningsverket.fi",cat:"生活服务",rating:4,price:"免费",kw:"träningsverket，traningsverket.fi，官网",desc:"奥兰群岛本土健身中心，在玛丽港经营健身场馆，认准官网 traningsverket.fi。",official:true,region:"AX",plat:"网页",icon:"traningsverket.fi.ico"},
+{name:"Kings Premier Health Club",url:"https://kings.gg",cat:"生活服务",rating:4,price:"免费",kw:"kings premier health club，kings.gg，官网",desc:"根西岛本土综合健身俱乐部，经营室内外运动场馆，认准官网 kings.gg。",official:true,region:"GG",plat:"网页",icon:"kings.gg.ico"}
 ];
