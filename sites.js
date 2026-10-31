@@ -12499,5 +12499,10 @@ const SITES = [
 {name:"Legekæden",url:"https://www.legekaeden.dk",cat:"购物消费",rating:4,price:"免费",kw:"legekæden，legekaeden.dk，官网",desc:"丹麦本土玩具零售连锁，在哥本哈根等地设有众多合作门店，认准官网 legekaeden.dk。",official:true,region:"DK",plat:"网页",icon:"www.legekaeden.dk.ico"},
 {name:"BodyZone Fitness Aruba",url:"https://www.bodyzonearuba.com",cat:"生活服务",rating:4,price:"免费",kw:"bodyzone fitness aruba，bodyzonearuba.com，官网",desc:"阿鲁巴本土健身中心，在奥拉涅斯塔德经营综合训练场馆，认准官网 bodyzonearuba.com。",official:true,region:"AW",plat:"网页",icon:"www.bodyzonearuba.com.ico"},
 {name:"Burger Bill's",url:"https://burgerbills.ws",cat:"生活服务",rating:4,price:"免费",kw:"burger bill's，burgerbills.ws，官网",desc:"萨摩亚本土汉堡快餐连锁，在阿皮亚设有门店，认准官网 burgerbills.ws。",official:true,region:"WS",plat:"网页",icon:"burgerbills.ws.ico"},
-{name:"Carine Hotels",url:"https://carinehotels.me",cat:"购物消费",rating:4,price:"免费",kw:"carine hotels，carinehotels.me，官网",desc:"黑山本土酒店集团，在黑塞哥诺维与波德戈里察等地运营多家酒店，认准官网 carinehotels.me。",official:true,region:"ME",plat:"网页",icon:"carinehotels.me.ico"}
+{name:"Carine Hotels",url:"https://carinehotels.me",cat:"购物消费",rating:4,price:"免费",kw:"carine hotels，carinehotels.me，官网",desc:"黑山本土酒店集团，在黑塞哥诺维与波德戈里察等地运营多家酒店，认准官网 carinehotels.me。",official:true,region:"ME",plat:"网页",icon:"carinehotels.me.ico"},
+{name:"Extra Leker",url:"https://www.extra-leker.no",cat:"购物消费",rating:4,price:"免费",kw:"extra leker，extra-leker.no，官网",desc:"挪威本土玩具零售连锁，在奥斯陆等地设有众多门店，认准官网 extra-leker.no。",official:true,region:"NO",plat:"网页",icon:"www.extra-leker.no.ico"},
+{name:"Pompo",url:"https://pompo.cz",cat:"购物消费",rating:4,price:"免费",kw:"pompo，pompo.cz，官网",desc:"捷克本土玩具零售连锁，在布拉格、布尔诺等地设有门店，认准官网 pompo.cz。",official:true,region:"CZ",plat:"网页",icon:"pompo.cz.ico"},
+{name:"Loco Croco",url:"https://lococroco.mk",cat:"购物消费",rating:4,price:"免费",kw:"loco croco，lococroco.mk，官网",desc:"北马其顿本土童装零售连锁，在斯科普里等地设有门店，认准官网 lococroco.mk。",official:true,region:"MK",plat:"网页",icon:"lococroco.mk.ico"},
+{name:"Menda",url:"https://www.menda.rs",cat:"购物消费",rating:4,price:"免费",kw:"menda，menda.rs，官网",desc:"塞尔维亚本土儿童用品零售连锁，在贝尔格莱德等地设有门店，认准官网 menda.rs。",official:true,region:"RS",plat:"网页",icon:"www.menda.rs.ico"},
+{name:"Funtastik",url:"https://www.funtastik.by",cat:"购物消费",rating:4,price:"免费",kw:"funtastik，funtastik.by，官网",desc:"白俄罗斯本土玩具零售连锁，在明斯克等地设有门店，认准官网 funtastik.by。",official:true,region:"BY",plat:"网页",icon:"www.funtastik.by.ico"}
 ];
