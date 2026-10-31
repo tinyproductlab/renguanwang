@@ -12485,5 +12485,6 @@ const SITES = [
 {name:"Vision Care Seychelles",url:"https://visioncare.sc",cat:"购物消费",rating:4,price:"免费",kw:"vision care seychelles，visioncare.sc，官网",desc:"塞舌尔本土眼镜零售商，认准官网 visioncare.sc。",official:true,region:"SC",plat:"网页",icon:"visioncare.sc.ico"},
 {name:"Latvijas Maiznieks",url:"https://maiznieks.lv",cat:"购物消费",rating:4,price:"免费",kw:"latvijas maiznieks，maiznieks.lv，官网",desc:"拉脱维亚本土面包烘焙企业，认准官网 maiznieks.lv。",official:true,region:"LV",plat:"网页",icon:"maiznieks.lv.ico"},
 {name:"Kok Optica",url:"https://www.kokoptica.com",cat:"购物消费",rating:4,price:"免费",kw:"kok optica，kokoptica.com，官网",desc:"库拉索本土眼镜零售商，认准官网 kokoptica.com。",official:true,region:"CW",plat:"网页",icon:"www.kokoptica.com.ico"},
-{name:"Ronny's Pizza",url:"https://ronnyspizza.ge",cat:"生活服务",rating:4,price:"免费",kw:"ronny's pizza，ronnyspizza.ge，官网",desc:"格鲁吉亚本土披萨连锁，认准官网 ronnyspizza.ge。",official:true,region:"GE",plat:"网页",icon:"ronnyspizza.ge.ico"}
+{name:"Ronny's Pizza",url:"https://ronnyspizza.ge",cat:"生活服务",rating:4,price:"免费",kw:"ronny's pizza，ronnyspizza.ge，官网",desc:"格鲁吉亚本土披萨连锁，认准官网 ronnyspizza.ge。",official:true,region:"GE",plat:"网页",icon:"ronnyspizza.ge.ico"},
+{name:"Prouds Fiji",url:"https://www.prouds.com.fj",cat:"购物消费",rating:4,price:"免费",kw:"prouds fiji，prouds.com.fj，官网",desc:"斐济本土零售连锁，认准官网 prouds.com.fj。",official:true,region:"FJ",plat:"网页",icon:"www.prouds.com.fj.ico"}
 ];
