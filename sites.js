@@ -12540,5 +12540,6 @@ const SITES = [
 {name:"Grupo Puntacana",url:"https://grupopuntacana.com.do",cat:"购物消费",rating:4,price:"免费",kw:"grupo puntacana，grupopuntacana.com.do，官网",desc:"多米尼加本土旅游集团，在蓬塔卡纳运营多家酒店物业，认准官网 grupopuntacana.com.do。",official:true,region:"DO",plat:"网页",icon:"grupopuntacana.com.do.ico"},
 {name:"Unitur",url:"https://www.unitur.eu",cat:"购物消费",rating:4,price:"免费",kw:"unitur，unitur.eu，官网",desc:"斯洛文尼亚本土旅游集团，运营滑雪度假村与温泉酒店，认准官网 unitur.eu。",official:true,region:"SI",plat:"网页",icon:"www.unitur.eu.ico"},
 {name:"Basecamp Explorer",url:"https://basecampexplorer.com",cat:"购物消费",rating:4,price:"免费",kw:"basecamp explorer，basecampexplorer.com，官网",desc:"挪威斯瓦尔巴本土探险酒店运营方，经营探险酒店与营地，认准官网 basecampexplorer.com。",official:true,region:"SJ",plat:"网页",icon:"basecampexplorer.com.ico"},
-{name:"Uniprom Pekara",url:"https://uniprompekara.me",cat:"购物消费",rating:4,price:"免费",kw:"uniprom pekara，uniprompekara.me，官网",desc:"黑山本土烘焙连锁，在黑山多地设有面包房门店，主营面包、糕点与巴尔干馅饼，认准官网 uniprompekara.me。",official:true,region:"ME",plat:"网页",icon:"uniprompekara.me.ico"}
+{name:"Uniprom Pekara",url:"https://uniprompekara.me",cat:"购物消费",rating:4,price:"免费",kw:"uniprom pekara，uniprompekara.me，官网",desc:"黑山本土烘焙连锁，在黑山多地设有面包房门店，主营面包、糕点与巴尔干馅饼，认准官网 uniprompekara.me。",official:true,region:"ME",plat:"网页",icon:"uniprompekara.me.ico"},
+{name:"Hoteli Ilidža",url:"https://hoteliilidza.ba",cat:"购物消费",rating:4,price:"免费",kw:"hoteli ilidža，hoteliilidza.ba，官网",desc:"波黑本土酒店集团，在萨拉热窝伊利扎区运营多家酒店，认准官网 hoteliilidza.ba。",official:true,region:"BA",plat:"网页",icon:"hoteliilidza.ba.ico"}
 ];
