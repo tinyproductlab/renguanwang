@@ -12588,5 +12588,6 @@ const SITES = [
 {name:"Warehouse Fitness Studio",url:"https://www.wfs.com.mt",cat:"健身",rating:4,price:"免费",kw:"warehouse fitness studio，wfs.com.mt，官网",desc:"马耳他本土健身连锁，岛内四家门店，认准官网 wfs.com.mt。",official:true,region:"MT",plat:"Web",icon:"www.wfs.com.mt.ico"},
 {name:"Bimbi Baby Shop",url:"https://www.bimbibabyshop.com",cat:"购物消费",rating:4,price:"免费",kw:"bimbi baby shop，bimbibabyshop.com，官网",desc:"马耳他本土母婴用品连锁，锡杰维与弗古拉两家门店，认准官网 bimbibabyshop.com。",official:true,region:"MT",plat:"Web",icon:"www.bimbibabyshop.com.ico"},
 {name:"b_smart hotels",url:"https://b-smarts.net",cat:"购物消费",rating:4,price:"免费",kw:"b_smart hotels，b-smarts.net，官网",desc:"列支敦士登自助入住酒店集团，总部在甘普林-本德恩，在列支敦士登、瑞士与奥地利运营二十余家酒店，认准官网 b-smarts.net。",official:true,region:"LI",plat:"Web",icon:"b-smarts.net.ico"},
-{name:"Baby-Rose",url:"https://baby-rose.ch",cat:"购物消费",rating:4,price:"免费",kw:"baby-rose，baby-rose.ch，官网",desc:"瑞士母婴用品连锁，全瑞士共九家门店，认准官网 baby-rose.ch。",official:true,region:"CH",plat:"Web",icon:"baby-rose.ch.ico"}
+{name:"Baby-Rose",url:"https://baby-rose.ch",cat:"购物消费",rating:4,price:"免费",kw:"baby-rose，baby-rose.ch，官网",desc:"瑞士母婴用品连锁，全瑞士共九家门店，认准官网 baby-rose.ch。",official:true,region:"CH",plat:"Web",icon:"baby-rose.ch.ico"},
+{name:"Bahrain Jewellery Centre",url:"https://bjc.com.bh",cat:"购物消费",rating:4,price:"免费",kw:"bahrain jewellery centre，bjc.com.bh，官网",desc:"巴林奢侈珠宝钟表零售商，1978年创立，全国共十八家门店，认准官网 bjc.com.bh。",official:true,region:"BH",plat:"Web",icon:"bjc.com.bh.ico"}
 ];
