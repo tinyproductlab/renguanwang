@@ -12550,5 +12550,6 @@ const SITES = [
 {name:"Serendib Hotels & Resorts",url:"https://serendibhotels.mw",cat:"购物消费",rating:4,price:"免费",kw:"serendib hotels & resorts，serendibhotels.mw，官网",desc:"马拉维本土酒店集团，在布兰太尔、利隆圭与马拉维湖畔运营多家酒店与度假村，认准官网 serendibhotels.mw。",official:true,region:"MW",plat:"网页",icon:"serendibhotels.mw.ico"},
 {name:"Chinese Dragon Cafe",url:"https://www.chinesedragoncafe.com",cat:"生活服务",rating:4,price:"免费",kw:"chinese dragon cafe，chinesedragoncafe.com，官网",desc:"斯里兰卡本土中餐连锁，1942 年创立，在科伦坡等地设有十余家门店，认准官网 chinesedragoncafe.com。",official:true,region:"LK",plat:"网页",icon:"www.chinesedragoncafe.com.ico"},
 {name:"Excapade",url:"https://excapade.com",cat:"生活服务",rating:4,price:"免费",kw:"excapade，excapade.com，官网",desc:"文莱本土日料连锁，2002 年创立，在斯里巴加湾等地设有十余家门店，认准官网 excapade.com。",official:true,region:"BN",plat:"网页",icon:"excapade.com.ico"},
-{name:"Pie City",url:"https://piecity.co.za",cat:"生活服务",rating:4,price:"免费",kw:"pie city，piecity.co.za，官网",desc:"南非本土馅饼快餐连锁，1994 年创立，在南非及博茨瓦纳、赞比亚设有众多门店，认准官网 piecity.co.za。",official:true,region:"ZA",plat:"网页",icon:"piecity.co.za.ico"}
+{name:"Pie City",url:"https://piecity.co.za",cat:"生活服务",rating:4,price:"免费",kw:"pie city，piecity.co.za，官网",desc:"南非本土馅饼快餐连锁，1994 年创立，在南非及博茨瓦纳、赞比亚设有众多门店，认准官网 piecity.co.za。",official:true,region:"ZA",plat:"网页",icon:"piecity.co.za.ico"},
+{name:"Pizza Boys",url:"https://pizzaboys.com",cat:"生活服务",rating:4,price:"免费",kw:"pizza boys，pizzaboys.com，官网",desc:"特立尼达和多巴哥本土披萨快餐连锁，在西班牙港等地设有多家门店，认准官网 pizzaboys.com。",official:true,region:"TT",plat:"网页",icon:"pizzaboys.com.ico"}
 ];
