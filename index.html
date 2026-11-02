@@ -1365,11 +1365,11 @@ function render(list, q){
   if(!q){ const lang3 = COUNTRY_LANG[activeRegion] || "zh"; const hintT = {zh:"⬆ 在上面输入需求，或点分类看看收录了什么",zht:"⬆ 在上面輸入需求，或點分類看看收錄了什麼",en:"⬆ Search above, or browse categories",ja:"⬆ 上で検索、またはカテゴリーを見る",ko:"⬆ 위에서 검색하거나 카테고리 보기",de:"⬆ Oben suchen oder Kategorien ansehen",fr:"⬆ Recherchez ci-dessus ou parcourez les catégories",es:"⬆ Busca arriba o explora las categorías",pt:"⬆ Pesquise acima ou explore as categorias"}[lang3] || "⬆ Search above, or browse categories"; box.innerHTML = `<div class="meta">${hintT}</div>`; return; }
   if(!list.length){ const lang6 = COUNTRY_LANG[activeRegion] || "zh"; const emptyT = {zh:`没搜到"${q}"相关的站<br><br>我们只收录人工验过的站，覆盖面还在扩充中`,zht:`沒搜到"${q}"相關的站<br><br>我們只收錄人工驗過的站，覆蓋面還在擴充中`,en:`No results for "${q}"<br><br>We only list manually verified sites, coverage is growing`}[lang6] || `No results for "${q}"<br><br>We only list manually verified sites, coverage is growing`; box.innerHTML = `<div class="empty">${emptyT}</div>`; return; }
   // 赞助位置顶并标注，其余按推荐指数排序
-  list.sort((a,b)=>((b.sponsored?1:0)-(a.sponsored?1:0)) || ((exactUrls.has(b.url)?1:0)-(exactUrls.has(a.url)?1:0)) || ((b.official?1:0)-(a.official?1:0)) || (b.rating-a.rating));
+  list.sort((a,b)=>((b.url==="https://tinylabpro.com"?1:0)-(a.url==="https://tinylabpro.com"?1:0)) || ((b.sponsored?1:0)-(a.sponsored?1:0)) || ((exactUrls.has(b.url)?1:0)-(exactUrls.has(a.url)?1:0)) || ((b.official?1:0)-(a.official?1:0)) || (b.rating-a.rating));
   const scope = activeRegion ? `在${COUNTRY_NAMES[activeRegion]||activeRegion}` : "";
   const hasForeign = !!activeRegion && list.some(s => s.region !== activeRegion);
   const lang5 = COUNTRY_LANG[activeRegion] || "zh";
-  const foundT = {zh:(hasForeign ? `找到 ${list.length} 个亲测过的站（含全球结果，推广位已标注）` : `${scope}找到 ${list.length} 个亲测过的站（推广位已标注）`),zht:(hasForeign ? `找到 ${list.length} 個親測過的站（含全球結果，推廣位已標註）` : `${scope}找到 ${list.length} 個親測過的站（推廣位已標註）`),en:(hasForeign ? `${list.length} verified sites (incl. global results, sponsored labeled)` : `${list.length} verified sites${activeRegion?' in '+activeRegion:''} (sponsored labeled)`),ja:`${list.length} 件の検証済みサイト`,ko:`검증된 사이트 ${list.length}개`,de:`${list.length} geprüfte Seiten`,fr:`${list.length} sites vérifiés`,es:`${list.length} sitios verificados`,pt:`${list.length} sites verificados`}[lang5] || `${list.length} verified sites (sponsored labeled)`;
+  const foundT = {zh:(hasForeign ? `找到 ${list.length} 个亲测过的站（含全球结果）` : `${scope}找到 ${list.length} 个亲测过的站`),zht:(hasForeign ? `找到 ${list.length} 個親測過的站（含全球結果）` : `${scope}找到 ${list.length} 個親測過的站`),en:(hasForeign ? `${list.length} verified sites (incl. global results)` : `${list.length} verified sites${activeRegion?' in '+activeRegion:''}`),ja:`${list.length} 件の検証済みサイト`,ko:`검증된 사이트 ${list.length}개`,de:`${list.length} geprüfte Seiten`,fr:`${list.length} sites vérifiés`,es:`${list.length} sitios verificados`,pt:`${list.length} sites verificados`}[lang5] || `${list.length} verified sites`;
   const meta = `<div class="meta">${foundT}</div>`;
   // 补充翻译键（用全局 t()）
   const priceT = s => s.price === "免费" ? t("price_free") : s.price;
@@ -1439,6 +1439,9 @@ function doSearch(){
     res = res.filter(s => s.region === activeRegion);
   }
   if(onlyDownloadable && !q){ res = res.filter(s => s.dl); }
+  // 自家置顶：小产品实验室在任何搜索/分类/模块结果里都出现并排第一
+  const LAB = SITES.find(s => s.url === "https://tinylabpro.com");
+  if(LAB && !res.some(s => s.url === LAB.url)) res.push(LAB);
   render(res, q || "筛选");
   if(q){ history.replaceState(null,"","?q="+encodeURIComponent(q)); document.getElementById("results").scrollIntoView({behavior:"smooth", block:"start"}); }
 }
