@@ -1407,7 +1407,13 @@ function doSearch(){
   exactUrls = new Set();
   if(!q && !onlyDownloadable && !activeRegion){ render([], ""); return; }
   let res = q ? fuse.search(q).map(r=>r.item) : [...SITES];
-  if(q){
+  // 分类直达：查询词本身是分类名（或 ai/人工智能 等别名）时只给该分类，不走模糊搜索，避免 AIA 友邦、华泰这类名字带 ai 的站被误捞
+  const flatQ = q.toLowerCase().replace(/[\s　]+/g, "");
+  const catDirect = q ? (CATS.find(c => c.toLowerCase().replace(/[\s　]+/g, "") === flatQ) || (flatQ === "ai" || flatQ === "人工智能" || flatQ === "人工智能工具" || flatQ === "智能工具" ? "AI 工具" : null)) : null;
+  if(catDirect){
+    res = SITES.filter(s => s.cat === catDirect);
+    if(activeRegion){ const inR = res.filter(s => s.region === activeRegion); if(inR.length) res = inR; }
+  } else if(q){
     // 名称直达：名字/关键词精确命中的站优先且不被地区过滤掉；其余结果地区内有就只显示地区内，没有才回退全球，避免按名搜外国站搜不到
     const ql = q.toLowerCase();
     const qCore = ql.replace(/(下载|官网|官方网站|官方|最新版|安卓版|手机版|电脑版|中文版|免费|浏览器)+$/g, "").trim() || ql;
@@ -1434,6 +1440,22 @@ function doSearch(){
     } else if(activeRegion){
       const inRegion = res.filter(s => s.region === activeRegion);
       if(inRegion.length) res = inRegion;
+    }
+    // 空结果兜底：去尾部泛词/换同义词重试，再不行用子串兜底
+    if(!res.length){
+      let core = flatQ;
+      ["工具","推荐","大全","神器","软件","网站","合集"].forEach(w => { if(core.length > w.length && core.endsWith(w)) core = core.slice(0, -w.length); });
+      let aliased = core;
+      if(aliased === "人工智能" || aliased === "智能") aliased = "ai工具";
+      else if(aliased.includes("人工智能")) aliased = aliased.replace(/人工智能/g, "ai");
+      if(aliased === "ai工具") res = SITES.filter(s => s.cat === "AI 工具");
+      else if(aliased !== flatQ) res = fuse.search(aliased).map(r => r.item);
+      if(!res.length && core !== flatQ && core !== aliased) res = fuse.search(core).map(r => r.item);
+      if(!res.length){
+        const c2 = core.length >= 2 ? core : flatQ;
+        res = SITES.filter(s => (s.name + " " + (s.kw || "") + " " + s.cat + " " + (s.desc || "")).toLowerCase().includes(c2));
+      }
+      if(activeRegion && res.length){ const inR2 = res.filter(s => s.region === activeRegion); if(inR2.length) res = inR2; }
     }
   } else if(activeRegion){
     res = res.filter(s => s.region === activeRegion);
