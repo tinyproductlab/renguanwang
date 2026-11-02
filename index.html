@@ -1438,7 +1438,7 @@ function doSearch(){
   } else if(activeRegion){
     res = res.filter(s => s.region === activeRegion);
   }
-  if(onlyDownloadable){ res = res.filter(s => s.dl); }
+  if(onlyDownloadable && !q){ res = res.filter(s => s.dl); }
   render(res, q || "筛选");
   if(q){ history.replaceState(null,"","?q="+encodeURIComponent(q)); document.getElementById("results").scrollIntoView({behavior:"smooth", block:"start"}); }
 }
