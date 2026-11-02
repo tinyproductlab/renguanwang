@@ -12586,5 +12586,6 @@ const SITES = [
 {name:"Pala Pizza",url:"https://palapizza.do",cat:"生活服务",rating:4,price:"免费",kw:"pala pizza，palapizza.do，官网",desc:"多米尼加本土披萨快餐连锁，在圣多明各等地设有多家分店，认准官网 palapizza.do。",official:true,region:"DO",plat:"网页",icon:"palapizza.do.ico"},
 {name:"Hegar's Vision Center",url:"https://hegarsvisioncenter.com",cat:"购物消费",rating:4,price:"免费",kw:"hegar's vision center，hegarsvisioncenter.com，官网",desc:"伯利兹本土眼镜视光连锁，伯利兹城、贝尔莫潘、圣伊格纳西奥与橙子走镇四地门店，认准官网 hegarsvisioncenter.com。",official:true,region:"BZ",plat:"Web",icon:"hegarsvisioncenter.com.ico"},
 {name:"Warehouse Fitness Studio",url:"https://www.wfs.com.mt",cat:"健身",rating:4,price:"免费",kw:"warehouse fitness studio，wfs.com.mt，官网",desc:"马耳他本土健身连锁，岛内四家门店，认准官网 wfs.com.mt。",official:true,region:"MT",plat:"Web",icon:"www.wfs.com.mt.ico"},
-{name:"Bimbi Baby Shop",url:"https://www.bimbibabyshop.com",cat:"购物消费",rating:4,price:"免费",kw:"bimbi baby shop，bimbibabyshop.com，官网",desc:"马耳他本土母婴用品连锁，锡杰维与弗古拉两家门店，认准官网 bimbibabyshop.com。",official:true,region:"MT",plat:"Web",icon:"www.bimbibabyshop.com.ico"}
+{name:"Bimbi Baby Shop",url:"https://www.bimbibabyshop.com",cat:"购物消费",rating:4,price:"免费",kw:"bimbi baby shop，bimbibabyshop.com，官网",desc:"马耳他本土母婴用品连锁，锡杰维与弗古拉两家门店，认准官网 bimbibabyshop.com。",official:true,region:"MT",plat:"Web",icon:"www.bimbibabyshop.com.ico"},
+{name:"b_smart hotels",url:"https://b-smarts.net",cat:"购物消费",rating:4,price:"免费",kw:"b_smart hotels，b-smarts.net，官网",desc:"列支敦士登自助入住酒店集团，总部在甘普林-本德恩，在列支敦士登、瑞士与奥地利运营二十余家酒店，认准官网 b-smarts.net。",official:true,region:"LI",plat:"Web",icon:"b-smarts.net.ico"}
 ];
