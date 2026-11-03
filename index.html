@@ -1660,6 +1660,7 @@ if(brandHome) brandHome.addEventListener("click", e => {
   const qEl = document.getElementById("q");
   if(qEl) qEl.value = "";
   onlyDownloadable = false;
+  try{ const u = new URL(location.href); if(u.searchParams.has("q")){ u.searchParams.delete("q"); history.replaceState(null, "", u.toString()); } }catch(err){}
   render([], ""); buildNav();
   window.scrollTo({top:0, behavior:"smooth"});
 });
