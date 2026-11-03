@@ -28,6 +28,7 @@
   .topbar { background:#fff; border-bottom:1px solid #eee; padding:8px 16px; font-size:13px; color:#888; display:flex; justify-content:flex-start; gap:6px; align-items:center; position:sticky; top:0; z-index:150; box-shadow:0 1px 10px rgba(0,0,0,.05); }
   .topbar b { color:#1a1a1a; }
   .topbar .brand { display:flex; align-items:center; gap:8px; }
+  .topbar .brand a.brand-home { display:flex; align-items:center; gap:8px; color:inherit; text-decoration:none; cursor:pointer; }
   .topbar .brand img { width:24px; height:24px; }
   .topbar .brand a.brand-lab { color:inherit; text-decoration:none; }
   .topbar .brand a.brand-lab:hover { text-decoration:underline; }
@@ -392,7 +393,7 @@
 </head>
 <body>
 <div class="topbar">
-  <span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> <small style="font-weight:400;color:#999;letter-spacing:1px" title="Recognize Genuine Websites">RGW</small> · <a class="brand-lab" href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室</a></span></span>
+  <span class="brand"><a class="brand-home" href="#" id="brandHome" title="回到顶部首页"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> <small style="font-weight:400;color:#999;letter-spacing:1px" title="Recognize Genuine Websites">RGW</small></span></a> <span>· <a class="brand-lab" href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室</a></span></span>
   <nav class="topnav" id="topnav">
     <a href="#" data-nav="nav" data-i18n="nav_sites">网站导航</a>
     <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;" data-i18n="nav_feedback">反馈</a>
@@ -1651,6 +1652,16 @@ document.getElementById("topnav").addEventListener("click", e => {
   } else if(k === "about"){
     document.querySelector(".footer").scrollIntoView({behavior:"smooth"});
   }
+});
+// 点左上角认官网：回到顶部首页（清空搜索、恢复首页内容）
+const brandHome = document.getElementById("brandHome");
+if(brandHome) brandHome.addEventListener("click", e => {
+  e.preventDefault();
+  const qEl = document.getElementById("q");
+  if(qEl) qEl.value = "";
+  onlyDownloadable = false;
+  render([], ""); buildNav();
+  window.scrollTo({top:0, behavior:"smooth"});
 });
 
 function stars(n){ return "★".repeat(n)+"☆".repeat(5-n); }
