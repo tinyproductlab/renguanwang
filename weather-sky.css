@@ -129,3 +129,53 @@ html[data-theme="dark"] .wxbg.wx-night .chips span{
   .wxbg.wx-night .weather-cities .weather-city-summary{padding:7px 9px;font-size:12px}
   .wxbg.wx-night .weather-advice{margin-top:10px;color:#c9d9ef}
 }
+
+/* Mobile layout polish (2026-11-03): tighten the phone header/hero only.
+   Everything here is inside max-width queries; desktop rendering is untouched. */
+@media(max-width:720px){
+  /* Header: two rows instead of three — brand + icon buttons on row 1,
+     region selector + nav links sharing row 2. */
+  .topbar{padding:8px 12px;row-gap:6px;column-gap:6px}
+  .topbar .brand{order:1}
+  .bookmark-btn,.topbar .bookmark-btn{order:2;margin-left:auto}
+  .pwa-btn{order:2;margin-left:0}
+  .theme-btn{order:2;margin-left:0}
+  .region-sel{order:3;flex:0 1 auto;min-width:0;max-width:132px;margin-left:0}
+  .topnav{order:3;width:auto;flex:1 1 auto;margin-top:0;padding-bottom:0;justify-content:flex-end}
+  .topnav a{padding:6px 7px;font-size:13px}
+  /* Hero: less air above the search box, subtitle wraps in balanced lines. */
+  .hero-wrap{padding:26px 16px 20px}
+  .wxbg.wx-night .hero-wrap{padding-top:26px}
+  .hero-title{margin-bottom:22px}
+  .wxbg.wx-night .hero-title{margin-bottom:22px}
+  .hero-title h1{margin-bottom:10px}
+  .hero-title p{font-size:14px;line-height:1.65;margin-bottom:18px;text-wrap:balance}
+  .searchbox input{padding:13px 14px}
+  .searchbox button{padding:0 20px}
+  /* Weather strip: one compact block under the search box. */
+  .weather-strip{margin-top:12px;gap:8px}
+  .wxbg.wx-night .weather-strip{margin-top:12px;gap:8px}
+  .weather-strip .weather-cities{gap:6px;padding:2px 0}
+  .weather-cities .weather-city-summary{padding:6px 8px;font-size:12px}
+  .wxbg.wx-night .weather-cities .weather-city-summary{padding:6px 8px;font-size:12px}
+  #weatherManage,#weatherDetail{min-height:30px;padding:5px 10px;font-size:12px}
+  .weather-advice{margin-top:7px}
+  .wxbg.wx-night .weather-advice{margin-top:7px}
+  #weatherStatus{margin-top:6px}
+  /* Category chips: equal-width 4-column grid instead of uneven flex pills. */
+  .chips{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px;padding-bottom:4px}
+  .chips::before,.chips::after{display:none}
+  .chips span{text-align:center;padding:7px 2px;font-size:13px}
+  /* Slightly narrower page gutters on phones. */
+  .quick,.results,.navsec,.freq-wrap{padding-left:16px;padding-right:16px}
+  .verify-wrap{padding-left:16px!important;padding-right:16px!important}
+}
+@media(max-width:600px){
+  /* Crescent moon / sun: smaller, tucked into the corner, off the title. */
+  .wxbg:is(.wx-clear,.wx-partly).wx-night::before{width:44px;left:auto;right:14px;top:12px;transform:none}
+  .wxbg.wx-clear::before{width:46px}
+}
+@media(max-width:360px){
+  .chips{grid-template-columns:repeat(3,1fr)}
+  .topnav a{padding:6px 5px}
+}
