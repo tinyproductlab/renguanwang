@@ -11741,7 +11741,6 @@ const SITES = [
 {name:"Mystery Hotel Budapest",url:"https://mysteryhotelbudapest.com",cat:"购物消费",rating:4,price:"免费",kw:"mystery hotel budapest",desc:"匈牙利布达佩斯主题精品酒店，19 世纪宫殿建筑",official:true,region:"HU",plat:"网页",icon:"mysteryhotelbudapest.com.ico"},
 {name:"Hotel Josephine Old Town",url:"https://hoteljosephine.cz",cat:"购物消费",rating:4,price:"免费",kw:"hotel josephine prague old town",desc:"捷克布拉格老城独立精品酒店，家族经营",official:true,region:"CZ",plat:"网页",icon:"hoteljosephine.cz.ico"},
 {name:"Hotel Ta' Cenc & Spa",url:"https://tacenc.com",cat:"购物消费",rating:4,price:"免费",kw:"hotel tacenc gozo malta spa",desc:"马耳他戈佐岛独立庄园度假酒店与水疗",official:true,region:"MT",plat:"网页",icon:"tacenc.com.ico"},
-{name:"Epi d'Or",url:"https://epidor.com",cat:"生活服务",rating:4,price:"免费",kw:"epi dor haiti fast food patisserie",desc:"海地本土快餐与烘焙连锁，汉堡、披萨与糕点",official:true,region:"HT",plat:"网页",icon:"epidor.com.ico"},
 {name:"Jade Teriyaki",url:"https://jadeteriyaki.com",cat:"生活服务",rating:4,price:"免费",kw:"jade teriyaki republica dominicana",desc:"多米尼加日式快餐连锁，照烧饭食与亚洲风味",official:true,region:"DO",plat:"网页",icon:"jadeteriyaki.com.ico"},
 {name:"Turks Kebab",url:"https://turkskebab.com",cat:"生活服务",rating:4,price:"免费",kw:"turks kebab providenciales",desc:"特克斯和凯科斯烤肉快餐店，土耳其烤肉卷",official:true,region:"TC",plat:"网页",icon:"turkskebab.com.ico"},
 {name:"Pollo Pinulito",url:"https://pinulito.com",cat:"生活服务",rating:4,price:"免费",kw:"pollo pinulito guatemala",desc:"危地马拉炸鸡连锁，平价炸鸡套餐",official:true,region:"GT",plat:"网页",icon:"pinulito.com.ico"},
