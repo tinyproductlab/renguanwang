@@ -12649,5 +12649,7 @@ const SITES = [
 {name:"LBJ Tropical Medical Center",url:"https://lbjtmc.org",cat:"生活服务",rating:4,price:"免费",kw:"lbj tropical medical center，lbjtmc.org，官网",desc:"美属萨摩亚唯一医院，位于帕果帕果，认准官网 lbjtmc.org。",official:true,region:"AS",plat:"Web",icon:"lbjtmc.org.ico"},
 {name:"Fitness GL",url:"https://fitness.gl",cat:"健身",rating:4,price:"免费",kw:"fitness gl，fitness.gl，官网",desc:"格陵兰本土健身连锁，努克、伊卢利萨特与阿西亚特设有 24 小时健身房，认准官网 fitness.gl。",official:true,region:"GL",plat:"Web",icon:"fitness.gl.ico"},
 {name:"Dolly Dimples",url:"https://dolly.no",cat:"生活服务",rating:4,price:"免费",kw:"dolly dimples，dolly.no，官网",desc:"挪威本土披萨连锁，1985 年创立，西南部二十余家门店，认准官网 dolly.no。",official:true,region:"NO",plat:"Web",icon:"dolly.no.ico"},
-{name:"Regal Burger",url:"https://regalburger.com",cat:"生活服务",rating:4,price:"免费",kw:"regal burger，regalburger.com，官网",desc:"斯洛伐克本土汉堡连锁，2014 年创立，全国十余家门店，认准官网 regalburger.com。",official:true,region:"SK",plat:"Web",icon:"regalburger.com.ico"}
+{name:"Regal Burger",url:"https://regalburger.com",cat:"生活服务",rating:4,price:"免费",kw:"regal burger，regalburger.com，官网",desc:"斯洛伐克本土汉堡连锁，2014 年创立，全国十余家门店，认准官网 regalburger.com。",official:true,region:"SK",plat:"Web",icon:"regalburger.com.ico"},
+{name:"Arcádia",url:"https://arcadia.pt",cat:"购物消费",rating:4,price:"免费",kw:"arcádia，arcadia.pt，官网",desc:"葡萄牙手工巧克力与糕点老牌，1933 年创立于波尔图，全国多家门店，认准官网 arcadia.pt。",official:true,region:"PT",plat:"Web",icon:"arcadia.pt.ico"},
+{name:"Liepkalni",url:"https://liepkalni.lv",cat:"购物消费",rating:4,price:"免费",kw:"liepkalni，liepkalni.lv，官网",desc:"拉脱维亚本土面包企业，自有面包房遍布全国，认准官网 liepkalni.lv。",official:true,region:"LV",plat:"Web",icon:"liepkalni.lv.ico"}
 ];
