@@ -136,6 +136,16 @@
   .quick-grid a .cat { display:block; font-size:11px; color:#999; margin-top:4px; }
   @media (max-width:640px) { .site-grid { grid-template-columns:repeat(auto-fill, minmax(130px, 1fr)); } }
   .results { max-width:1400px; margin:32px auto 60px; padding:0 20px; }
+  .freq-wrap { max-width:1400px; margin:24px auto -16px; padding:0 20px; }
+  .freq-tip { background:#fffbe8; border:1px solid #f5c518; border-radius:12px; padding:10px 16px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; font-size:13px; color:#1a1a1a; }
+  .freq-tip .ft-t { flex:1; min-width:200px; }
+  .freq-tip .ft-b { display:flex; gap:8px; }
+  .freq-tip .ft-add { border:none; background:#1a1a1a; color:#fff; border-radius:8px; padding:6px 14px; font-size:13px; cursor:pointer; }
+  .freq-tip .ft-add:hover { background:#333; }
+  .freq-tip .ft-no { border:1px solid #e5e7eb; background:#fff; color:#666; border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; }
+  html[data-theme="dark"] .freq-tip { background:#2a2517; border-color:#8a6d1f; color:#ece7da; }
+  html[data-theme="dark"] .freq-tip .ft-add { background:#ece7da; color:#171511; }
+  html[data-theme="dark"] .freq-tip .ft-no { background:#23211c; border-color:#3a372c; color:#b6b0a1; }
   .meta { font-size:13px; color:#999; margin-bottom:12px; }
   .card { background:#fff; border-radius:14px; padding:18px 20px; margin-bottom:12px; border:1px solid #ded7c2; display:flex; gap:14px; align-items:flex-start; box-shadow:0 1px 2px rgba(74,64,32,.06), 0 14px 30px -14px rgba(74,64,32,.28); transition:transform .18s ease, box-shadow .18s ease; }
   .card:hover { transform:translateY(-2px); box-shadow:0 2px 3px rgba(74,64,32,.06), 0 22px 38px -14px rgba(74,64,32,.35); }
@@ -629,6 +639,7 @@
     <div class="quick-grid" id="quickGrid"></div>
     <div id="qForm"><input id="qName" data-i18n-ph="pin_name_ph" placeholder="名称，如：我的博客"><input id="qUrl" data-i18n-ph="pin_url_ph" placeholder="网址，如：https://example.com"><button type="button" class="qsave" onclick="saveCustomPin()" data-i18n="pin_save">保存</button><button type="button" onclick="document.getElementById('qForm').classList.remove('open')" data-i18n="pin_cancel">取消</button></div>
     </div>
+<div class="freq-wrap"><div class="freq-tip" id="freqTip" style="display:none"></div></div>
 <div class="results" id="results"></div>
 <div class="navsec" id="navsec">
   <h2 data-i18n="cats_title">分类导航</h2>
@@ -752,7 +763,7 @@ zh: {
   hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
   plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
   verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体 + AI 智能检验，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…",
-  quick:"快捷直达", quick_hint:"点任意站卡上的 📌，把它钉到这里最前面；自带站卡右上角的 × 可以取消它；点 ＋ 还能添加自己的网址（只存在你的浏览器里）", pin_restore:"恢复默认", pin_add:"＋ 添加网址", pin_name_ph:"名称，如：我的博客", pin_url_ph:"网址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自定义", cats_title:"分类导航",
+  quick:"快捷直达", quick_hint:"点任意站卡上的 📌，把它钉到这里最前面；自带站卡右上角的 × 可以取消它；点 ＋ 还能添加自己的网址（只存在你的浏览器里）", pin_restore:"恢复默认", pin_add:"＋ 添加网址", pin_name_ph:"名称，如：我的博客", pin_url_ph:"网址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自定义", freq_suggest:"你常打开「{name}」，加到快捷直达，下次一键直达", freq_add:"加到快捷直达", freq_no:"不用了", freq_added:"✅ 已加入快捷直达，回到顶部就能看到", cats_title:"分类导航",
   cats_sub:"全部人工验过的站 · 点分类跳转",
   cat_essentials:"装机必备", cat_ai:"AI工具", cat_office:"办公效率", cat_dev:"开发工具", cat_design:"设计创意",
   cat_edu:"学习教育", cat_finance:"金融投资", cat_media:"影音娱乐", cat_software:"常用软件", cat_social:"社交社区",
@@ -783,7 +794,7 @@ zht: {
   nav_home:"首頁", nav_hot:"熱門軟件", nav_ai:"AI工具", nav_sites:"網站導航", nav_feedback:"反饋", nav_about:"關於我們",
   hero_h1:"搜官網，不踩坑", hero_p:"認準官網，訪問不迷路 · 不收錄沒驗過的站 · 搜出來直接告訴你選哪個",
   plat_all:"全部平台", search_ph:"輸入軟件/網站名稱…", search_btn:"搜索",
-  quick:"快捷直達", quick_hint:"點任意站卡上的 📌，把它釘到這裡最前面；自帶站卡右上角的 × 可以取消它；點 ＋ 還能添加自己的網址（只存在你的瀏覽器裡）", pin_restore:"恢復預設", pin_add:"＋ 添加網址", pin_name_ph:"名稱，如：我的博客", pin_url_ph:"網址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自訂", cats_title:"分類導航",
+  quick:"快捷直達", quick_hint:"點任意站卡上的 📌，把它釘到這裡最前面；自帶站卡右上角的 × 可以取消它；點 ＋ 還能添加自己的網址（只存在你的瀏覽器裡）", pin_restore:"恢復預設", pin_add:"＋ 添加網址", pin_name_ph:"名稱，如：我的博客", pin_url_ph:"網址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自訂", freq_suggest:"你常打開「{name}」，加到快捷直達，下次一鍵直達", freq_add:"加到快捷直達", freq_no:"不用了", freq_added:"✅ 已加入快捷直達，回到頂部就能看到", cats_title:"分類導航",
   cats_sub:"全部人工驗過的站 · 點分類跳轉",
   cat_essentials:"裝機必備", cat_ai:"AI工具", cat_office:"辦公效率", cat_dev:"開發工具", cat_design:"設計創意",
   cat_edu:"學習教育", cat_finance:"金融投資", cat_media:"影音娛樂", cat_software:"常用軟件", cat_social:"社交社區",
@@ -803,7 +814,7 @@ en: {
   hero_h1:"Find Official Sites", hero_p:"Verified official websites only · We tell you which one to pick",
   plat_all:"All Platforms", search_ph:"Search software or website…", search_btn:"Search",
   verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age, page identity + AI inspection. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…",
-  quick:"Quick Access", quick_hint:"📌 on any site card pins it to the front here; × on a built-in card removes it; ＋ adds your own link (stored only in your browser)", pin_restore:"Restore defaults", pin_add:"＋ Add link", pin_name_ph:"Name, e.g. My blog", pin_url_ph:"URL, e.g. https://example.com", pin_save:"Save", pin_cancel:"Cancel", pin_custom:"Custom", cats_title:"Categories",
+  quick:"Quick Access", quick_hint:"📌 on any site card pins it to the front here; × on a built-in card removes it; ＋ adds your own link (stored only in your browser)", pin_restore:"Restore defaults", pin_add:"＋ Add link", pin_name_ph:"Name, e.g. My blog", pin_url_ph:"URL, e.g. https://example.com", pin_save:"Save", pin_cancel:"Cancel", pin_custom:"Custom", freq_suggest:"You open {name} often — add it to Quick Access for one-click visits", freq_add:"Add to Quick Access", freq_no:"Not now", freq_added:"✅ Added to Quick Access — find it at the top of the page", cats_title:"Categories",
   cats_sub:"All manually verified sites · Click a category",
   cat_essentials:"Essentials", cat_ai:"AI Tools", cat_office:"Productivity", cat_dev:"Dev Tools", cat_design:"Design",
   cat_edu:"Education", cat_finance:"Finance", cat_media:"Entertainment", cat_software:"Software", cat_social:"Social",
@@ -1669,6 +1680,7 @@ function stars(n){ return "★".repeat(n)+"☆".repeat(5-n); }
 function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return ""; } }
 function platShort(s){ return s.plat==="Windows"?" · Win":s.plat==="macOS"?" · Mac":""; }
 function render(list, q){
+  hideFreqTip();
   const box = document.getElementById("results");
   const quickEl = document.querySelector(".quick");
   if(quickEl) quickEl.style.display = q ? "none" : "";
@@ -1711,6 +1723,7 @@ function render(list, q){
   } else {
     box.innerHTML = meta + `<div class="cards-grid">` + list.map((s,i)=>cardHtml(s,i)).join("") + `</div>`;
   }
+  updateFreqTip(list);
 }
 function doSearch(){
   const q = document.getElementById("q").value.trim();
@@ -1946,6 +1959,66 @@ function togglePin(url){
   savePins(pins); refreshAfterPin();
 }
 function unpinAt(i){ const pins = loadPins(); const p = pins[i]; pins.splice(i, 1); savePins(pins); if(p) clearHiddenUrl(p.u); refreshAfterPin(); }
+// 常搜提示：本地统计每个站的打开次数，常开的站（≥3 次）就在搜索结果上方建议一键加到快捷直达
+function loadFreq(){ try{ const v = JSON.parse(localStorage.getItem("rg_freq") || "{}"); return v && typeof v === "object" ? v : {}; }catch(e){ return {}; } }
+function bumpFreq(url){
+  const f = loadFreq(); const en = f[url] || {c:0};
+  en.c = (en.c || 0) + 1; en.t = Date.now(); f[url] = en;
+  try{ localStorage.setItem("rg_freq", JSON.stringify(f)); }catch(e){}
+}
+document.addEventListener("click", e => {
+  const a = e.target.closest('a[target="_blank"]');
+  if(!a) return;
+  const href = a.getAttribute("href") || "";
+  const s = SITES.find(x => x.url === href);
+  if(s) bumpFreq(s.url);
+});
+function loadFreqNo(){ try{ const v = JSON.parse(localStorage.getItem("rg_freq_no") || "{}"); return v && typeof v === "object" ? v : {}; }catch(e){ return {}; } }
+function inQuickDefault(url){
+  const rc = activeRegion || "CN";
+  if(rc === "CN" && TINYLAB.some(p => p.u === url)) return true;
+  const names = QUICK[rc];
+  let list;
+  if(names){ list = names.map(n => SITES.find(s => s.name === n)).filter(Boolean); }
+  else { list = SITES.filter(s => s.region === rc).sort((a,b) => b.rating - a.rating).slice(0,12); }
+  return list.some(s => s.url === url);
+}
+function hideFreqTip(){ const el = document.getElementById("freqTip"); if(el){ el.style.display = "none"; el.innerHTML = ""; } }
+function updateFreqTip(list){
+  const el = document.getElementById("freqTip");
+  if(!el) return;
+  const f = loadFreq(); const no = loadFreqNo(); const now = Date.now();
+  const lang = COUNTRY_LANG[activeRegion] || "zh";
+  let best = null, bestC = 2;
+  (list || []).forEach(s => {
+    const en = f[s.url];
+    if(!en || en.c <= bestC) return;
+    if(isPinned(s.url) || inQuickDefault(s.url)) return;
+    if(no[s.url] && now - no[s.url] < 30 * 864e5) return;
+    best = s; bestC = en.c;
+  });
+  if(!best){ hideFreqTip(); return; }
+  const dname = (lang !== "zh" && lang !== "zht" && SITE_EN[best.name]) ? SITE_EN[best.name] : best.name;
+  el.innerHTML = `<span class="ft-t">⭐ ${escHtml(t("freq_suggest").replace("{name}", dname))}</span><span class="ft-b"><button type="button" class="ft-add" data-freq-add="${encodeURIComponent(best.url)}">${escHtml(t("freq_add"))}</button><button type="button" class="ft-no" data-freq-no="${encodeURIComponent(best.url)}">${escHtml(t("freq_no"))}</button></span>`;
+  el.style.display = "flex";
+}
+document.addEventListener("click", e => {
+  const add = e.target.closest("[data-freq-add]");
+  if(add){
+    const url = decodeURIComponent(add.dataset.freqAdd);
+    if(!isPinned(url)) togglePin(url);
+    const el = document.getElementById("freqTip");
+    if(el){ el.style.display = "flex"; el.innerHTML = `<span class="ft-t">${escHtml(t("freq_added"))}</span>`; setTimeout(hideFreqTip, 2000); }
+    return;
+  }
+  const noBtn = e.target.closest("[data-freq-no]");
+  if(noBtn){
+    const url = decodeURIComponent(noBtn.dataset.freqNo);
+    const m = loadFreqNo(); m[url] = Date.now();
+    try{ localStorage.setItem("rg_freq_no", JSON.stringify(m)); }catch(e){}
+    hideFreqTip();
+  }
+});
 function escHtml(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 function saveCustomPin(){
   const nEl = document.getElementById("qName"), uEl = document.getElementById("qUrl");
