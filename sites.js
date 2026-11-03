@@ -12642,5 +12642,6 @@ const SITES = [
 {name:"Hôpital El-Maarouf",url:"https://chn-elmaarouf.com",cat:"生活服务",rating:4,price:"免费",kw:"hôpital el-maarouf，chn-elmaarouf.com，官网",desc:"科摩罗国家中心医院，位于莫罗尼，全国最大的公立医院，认准官网 chn-elmaarouf.com。",official:true,region:"KM",plat:"Web",icon:"chn-elmaarouf.com.ico"},
 {name:"Príncipe Collection",url:"https://principecollection.com",cat:"购物消费",rating:4,price:"免费",kw:"príncipe collection，principecollection.com，官网",desc:"圣多美和普林西比本土酒店集团，运营五家可持续酒店，认准官网 principecollection.com。",official:true,region:"ST",plat:"Web",icon:"principecollection.com.ico"},
 {name:"Big Banana",url:"https://bigbanana-antigua.com",cat:"生活服务",rating:4,price:"免费",kw:"big banana，bigbanana-antigua.com，官网",desc:"安提瓜本土披萨快餐品牌，1985 年创立，市中心与机场设有两家餐厅，认准官网 bigbanana-antigua.com。",official:true,region:"AG",plat:"Web",icon:"bigbanana-antigua.com.ico"},
-{name:"Phisique",url:"https://www.phisiqueclub.com",cat:"健身",rating:4,price:"免费",kw:"phisique，phisiqueclub.com，官网",desc:"厄瓜多尔本土健身连锁，基多与昆巴亚设有六家俱乐部，认准官网 phisiqueclub.com。",official:true,region:"EC",plat:"Web",icon:"www.phisiqueclub.com.ico"}
+{name:"Phisique",url:"https://www.phisiqueclub.com",cat:"健身",rating:4,price:"免费",kw:"phisique，phisiqueclub.com，官网",desc:"厄瓜多尔本土健身连锁，基多与昆巴亚设有六家俱乐部，认准官网 phisiqueclub.com。",official:true,region:"EC",plat:"Web",icon:"www.phisiqueclub.com.ico"},
+{name:"Bebé Mundo",url:"https://bebemundo.co.cr",cat:"购物消费",rating:4,price:"免费",kw:"bebé mundo，bebemundo.co.cr，官网",desc:"哥斯达黎加本土母婴用品连锁，Cemaco 集团旗下品牌，圣何塞等地设有四家门店，认准官网 bebemundo.co.cr。",official:true,region:"CR",plat:"Web",icon:"bebemundo.co.cr.ico"}
 ];
