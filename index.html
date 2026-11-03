@@ -25,19 +25,24 @@
   * { margin:0; padding:0; box-sizing:border-box; }
   html { overflow-x:clip; }
   body { min-width:0; overflow-x:clip; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:#ede9dc; color:#1a1a1a; }
-  .topbar { background:#fff; border-bottom:1px solid #eee; padding:10px 24px; font-size:13px; color:#888; display:flex; justify-content:space-between; align-items:center; }
+  .topbar { background:#fff; border-bottom:1px solid #eee; padding:8px 16px; font-size:13px; color:#888; display:flex; justify-content:flex-start; gap:6px; align-items:center; position:sticky; top:0; z-index:150; box-shadow:0 1px 10px rgba(0,0,0,.05); }
   .topbar b { color:#1a1a1a; }
   .topbar .brand { display:flex; align-items:center; gap:8px; }
   .topbar .brand img { width:24px; height:24px; }
   .topbar .brand a.brand-lab { color:inherit; text-decoration:none; }
   .topbar .brand a.brand-lab:hover { text-decoration:underline; }
-  .topnav { display:flex; flex-wrap:wrap; min-width:0; gap:2px; }
-  .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 12px; border-radius:8px; white-space:nowrap; }
+  .topnav { display:flex; flex-wrap:wrap; min-width:0; gap:0; }
+  .topnav a { font-size:13px; color:#555; text-decoration:none; padding:6px 8px; border-radius:8px; white-space:nowrap; }
   .topnav a:hover { background:#f3f4f6; color:#1a1a1a; }
-  .region-sel { margin-left:10px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
+  .region-sel { margin-left:4px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:13px; color:#333; background:#fff; cursor:pointer; }
   .wx { margin-left:auto; font-size:13px; color:#666; white-space:nowrap; }
-  .pwa-btn { margin-left:12px; border:none; background:#1a1a1a; color:#fff; border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; white-space:nowrap; }
-  .pwa-btn:hover { background:#333; }
+  .pwa-btn { margin-left:4px; border:1px solid #e5e7eb; background:#fff; color:#1a1a1a; border-radius:8px; padding:6px 8px; font-size:15px; line-height:1; cursor:pointer; white-space:nowrap; }
+  .pwa-btn:hover { background:#f3f4f6; }
+  .icon-btn { position:relative; }
+  .topbar .bookmark-btn { padding:6px 8px; }
+  .ib-label { position:absolute; top:calc(100% + 8px); left:50%; transform:translateX(-50%); background:#1a1a1a; color:#fff; font-size:12px; font-weight:400; line-height:1.4; padding:5px 10px; border-radius:6px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .15s ease; z-index:160; box-shadow:0 4px 14px rgba(0,0,0,.18); }
+  .icon-btn:hover .ib-label, .icon-btn.show-tip .ib-label { opacity:1; }
+  html[data-theme="dark"] .ib-label { background:#ece7da; color:#171511; }
   @media (max-width:720px){
     .topbar{ flex-wrap:wrap; padding:10px 14px; row-gap:8px; }
     .topbar .brand{ order:1; flex:1 1 auto; min-width:0; }
@@ -305,7 +310,7 @@
 
 .weather-strip{flex-wrap:wrap;max-width:1100px;margin:18px auto 0;display:flex;align-items:center;justify-content:center;gap:12px;min-width:0}.weather-strip .weather-cities{flex-wrap:wrap;justify-content:center;white-space:normal;overflow:visible;max-width:100%;min-width:0;margin:0;gap:12px;padding:4px 0}.weather-strip .weather-cities::before,.weather-strip .weather-cities::after{display:none}#weatherManage{flex:0 0 auto;white-space:nowrap;min-height:34px;padding:6px 12px;border:1px solid #c9d5e2;border-radius:20px;background:#ffffffdc;color:#30435c;font:inherit;font-size:12px;cursor:pointer}#weatherManage:focus-visible{outline:2px solid #2563eb;outline-offset:3px}.weather-dialog #weatherCapital{display:inline-block}.weather-dialog-actions{display:flex;gap:8px;margin-top:16px}.weather-dialog-actions button[aria-pressed="true"]{background:#183c70;color:#fff}.wx-night #weatherStatus{color:#e2edff}#weatherStatus{text-align:center;font-size:12px}
 
-  .theme-btn { margin-left:10px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 10px; font-size:14px; background:#fff; cursor:pointer; line-height:1; }
+  .theme-btn { margin-left:4px; border:1px solid #e5e7eb; border-radius:8px; padding:6px 8px; font-size:14px; background:#fff; cursor:pointer; line-height:1; }
   html{ color-scheme:light; }
   html[data-theme="dark"]{ color-scheme:dark; }
   /* 夜间模式（默认自动跟随系统，可手动切换） */
@@ -389,15 +394,12 @@
 <div class="topbar">
   <span class="brand"><img src="./logo.svg" alt="认官网"> <span><b>认官网</b> <small style="font-weight:400;color:#999;letter-spacing:1px" title="Recognize Genuine Websites">RGW</small> · <a class="brand-lab" href="https://tinylabpro.com" target="_blank" rel="noopener">小产品实验室</a></span></span>
   <nav class="topnav" id="topnav">
-    <a href="#" data-nav="home" data-i18n="nav_home">首页</a>
-    <a href="#" data-nav="hot" data-i18n="nav_hot">热门软件</a>
-    <a href="#" data-nav="ai" data-i18n="nav_ai">AI工具</a>
     <a href="#" data-nav="nav" data-i18n="nav_sites">网站导航</a>
     <a href="#" data-nav="feedback" onclick="openFbModal('fake');return false;" data-i18n="nav_feedback">反馈</a>
     <a href="#" data-nav="about" data-i18n="nav_about">关于我们</a>
   </nav>
-  <button type="button" id="bookmarkBtn" class="bookmark-btn" aria-haspopup="dialog" aria-controls="bookmarkDialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.5 4.4 1.1 6.2-5.7-3-5.7 3 1.1-6.2L3.2 9.6l6.3-.9Z"/></svg><span id="bookmarkLabel">收藏本站</span></button>
-  <button id="pwaBtn" class="pwa-btn" style="display:none">📲 安装应用</button>
+  <button type="button" id="bookmarkBtn" class="bookmark-btn icon-btn" title="收藏本站" aria-label="收藏本站" aria-haspopup="dialog" aria-controls="bookmarkDialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.3.9-4.5 4.4 1.1 6.2-5.7-3-5.7 3 1.1-6.2L3.2 9.6l6.3-.9Z"/></svg><span id="bookmarkLabel" class="ib-label">收藏本站</span></button>
+  <button id="pwaBtn" class="pwa-btn icon-btn" style="display:none" title="安装应用" aria-label="安装应用"><span aria-hidden="true">📲</span><span id="pwaLabel" class="ib-label">安装应用</span></button>
   
   <button type="button" id="themeBtn" class="theme-btn" title="主题：自动（跟随系统），点击切换">🌗</button>
   <select id="regionSel" class="region-sel" title="选择国家或地区">
@@ -713,7 +715,7 @@
       <div class="fb-actions">
         <button class="fb-btn" id="fbSubmitNew" onclick="submitNewSite()" data-i18n="fb_submit_new">提交推荐</button>
       </div>
-      <p class="fb-ok" id="fbOkNew">✅ 已提交，我们核验后会收录。</p>
+      <p class="fb-ok" id="fbOkNew" data-i18n="fb_done_new">✅ 已提交，我们核验后会收录。</p>
     </div>
   </div>
 </div>
@@ -733,6 +735,18 @@ const COUNTRY_LANG = {CN:"zh",TW:"zht",HK:"zht",US:"en",GB:"en",CA:"en",AU:"en",
 
 const I18N = {
 zh: {
+  fb_report:"🚨 举报假网站", fb_suggest:"✨ 推荐新网站",
+  fb_fake_url:"假网站网址", fb_fake_ph:"例如：sunlogin-download.com",
+  fb_impersonate:"它冒充的是哪个官网 / 软件",
+  fb_search_ph:"输入关键词搜索，如：向日葵",
+  fb_note:"补充说明（选填）", fb_note_ph:"例如：在哪里看到的、哪里可疑",
+  fb_submit:"提交反馈", fb_done:"✅ 已提交，我们核实后会处理。", fb_done_new:"✅ 已提交，我们核验后会收录。",
+  fb_newtip:"推荐你觉得值得收录的官网，我们人工核验后会加入。",
+  fb_name:"网站 / 软件名称", fb_name_ph:"例如：XX输入法",
+  fb_url:"官网网址", fb_desc:"一句话介绍（选填）", fb_desc_ph:"例如：语音输入很强的输入法",
+  fb_submit_new:"提交推荐", fb_submitting:"提交中…", fb_submitted:"已提交",
+  fb_need_name:"请填写网站 / 软件名称", fb_need_one:"请至少填写假网站网址或被冒充的官网",
+  fb_fail:"提交失败，请稍后重试", fb_fail_net:"提交失败，请检查网络后重试", fb_copied_fallback:"⚠️ 直接提交失败，已复制反馈内容，请稍后重试。",
   nav_home:"首页", nav_hot:"热门软件", nav_ai:"AI工具", nav_sites:"网站导航", nav_feedback:"反馈", nav_about:"关于我们",
   hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
   plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
@@ -753,6 +767,18 @@ zh: {
   price_free:"免费", verified:"官网认证", go:"直达 →", dl:"💾 可下载", ad:"推广",
 },
 zht: {
+  fb_report:"🚨 舉報假網站", fb_suggest:"✨ 推薦新網站",
+  fb_fake_url:"假網站網址", fb_fake_ph:"例如：sunlogin-download.com",
+  fb_impersonate:"它冒充的是哪個官網 / 軟件",
+  fb_search_ph:"輸入關鍵詞搜尋，如：向日葵",
+  fb_note:"補充說明（選填）", fb_note_ph:"例如：在哪裡看到的、哪裡可疑",
+  fb_submit:"提交反饋", fb_done:"✅ 已提交，我們核實後會處理。", fb_done_new:"✅ 已提交，我們核驗後會收錄。",
+  fb_newtip:"推薦你覺得值得收錄的官網，我們人工核驗後會加入。",
+  fb_name:"網站 / 軟件名稱", fb_name_ph:"例如：XX輸入法",
+  fb_url:"官網網址", fb_desc:"一句話介紹（選填）", fb_desc_ph:"例如：語音輸入很強的輸入法",
+  fb_submit_new:"提交推薦", fb_submitting:"提交中…", fb_submitted:"已提交",
+  fb_need_name:"請填寫網站 / 軟件名稱", fb_need_one:"請至少填寫假網站網址或被冒充的官網",
+  fb_fail:"提交失敗，請稍後重試", fb_fail_net:"提交失敗，請檢查網絡後重試", fb_copied_fallback:"⚠️ 直接提交失敗，已複製反饋內容，請稍後重試。",
   nav_home:"首頁", nav_hot:"熱門軟件", nav_ai:"AI工具", nav_sites:"網站導航", nav_feedback:"反饋", nav_about:"關於我們",
   hero_h1:"搜官網，不踩坑", hero_p:"認準官網，訪問不迷路 · 不收錄沒驗過的站 · 搜出來直接告訴你選哪個",
   plat_all:"全部平台", search_ph:"輸入軟件/網站名稱…", search_btn:"搜索",
@@ -800,8 +826,28 @@ en: {
   fb_name:"Site / Software Name", fb_name_ph:"e.g. XX Input",
   fb_url:"Official URL", fb_desc:"One-line intro (optional)", fb_desc_ph:"e.g. great voice input",
   fb_submit_new:"Submit Suggestion",
+  fb_done_new:"✅ Submitted, we'll verify and add it.",
+  fb_submitting:"Submitting…",
+  fb_submitted:"Submitted",
+  fb_need_name:"Please enter the site / software name",
+  fb_need_one:"Please enter the fake site URL, or the official site it impersonates",
+  fb_fail:"Submission failed, please try again later",
+  fb_fail_net:"Submission failed, please check your network and retry",
+  fb_copied_fallback:"⚠️ Direct submission failed. The feedback text has been copied — please try again later.",
 },
 ja: {
+  fb_report:"🚨 偽サイトを通報", fb_suggest:"✨ サイトを提案",
+  fb_fake_url:"偽サイトのURL", fb_fake_ph:"例：sunlogin-download.com",
+  fb_impersonate:"どの公式サイト／ソフトになりすましていますか",
+  fb_search_ph:"キーワードで検索、例：Sunlogin",
+  fb_note:"補足説明（任意）", fb_note_ph:"例：どこで見たか、どこが怪しいか",
+  fb_submit:"送信", fb_done:"✅ 送信しました。確認して対応します。", fb_done_new:"✅ 送信しました。確認して追加します。",
+  fb_newtip:"掲載する価値のある公式サイトを教えてください。確認して追加します。",
+  fb_name:"サイト／ソフト名", fb_name_ph:"例：XX入力法",
+  fb_url:"公式URL", fb_desc:"一言紹介（任意）", fb_desc_ph:"例：音声入力が強い",
+  fb_submit_new:"提案を送信", fb_submitting:"送信中…", fb_submitted:"送信済み",
+  fb_need_name:"サイト／ソフト名を入力してください", fb_need_one:"偽サイトのURLか、なりすまし先の公式サイトを入力してください",
+  fb_fail:"送信に失敗しました。後でもう一度お試しください", fb_fail_net:"送信に失敗しました。ネットワークを確認してください", fb_copied_fallback:"⚠️ 直接送信に失敗しました。内容をコピーしました。後で再送信してください。",
   nav_home:"ホーム", nav_hot:"人気ソフト", nav_ai:"AIツール", nav_sites:"サイト", nav_feedback:"フィードバック", nav_about:"概要",
   hero_h1:"公式サイトを検索", hero_p:"検証済み公式サイトのみ · どれを選ぶべきか教えます",
   plat_all:"全プラットフォーム", search_ph:"ソフト・サイト名を入力…", search_btn:"検索",
@@ -821,6 +867,18 @@ ja: {
   price_free:"無料", verified:"認証済み", go:"開く →", dl:"💾 ダウンロード", ad:"広告",
 },
 ko: {
+  fb_report:"🚨 가짜 사이트 신고", fb_suggest:"✨ 사이트 추천",
+  fb_fake_url:"가짜 사이트 주소", fb_fake_ph:"예: sunlogin-download.com",
+  fb_impersonate:"어떤 공식 사이트/소프트웨어를 사칭하나요",
+  fb_search_ph:"키워드로 검색, 예: Sunlogin",
+  fb_note:"추가 설명 (선택)", fb_note_ph:"예: 어디서 봤는지, 어디가 의심스러운지",
+  fb_submit:"제출", fb_done:"✅ 제출되었습니다. 확인 후 처리하겠습니다.", fb_done_new:"✅ 제출되었습니다. 확인 후 추가하겠습니다.",
+  fb_newtip:"수록할 만한 공식 사이트를 추천해 주세요. 직접 확인 후 추가합니다.",
+  fb_name:"사이트 / 소프트웨어 이름", fb_name_ph:"예: XX 입력기",
+  fb_url:"공식 주소", fb_desc:"한 줄 소개 (선택)", fb_desc_ph:"예: 음성 입력이 강력함",
+  fb_submit_new:"추천 제출", fb_submitting:"제출 중…", fb_submitted:"제출됨",
+  fb_need_name:"사이트 / 소프트웨어 이름을 입력하세요", fb_need_one:"가짜 사이트 주소나 사칭 대상 공식 사이트를 입력하세요",
+  fb_fail:"제출에 실패했습니다. 나중에 다시 시도하세요", fb_fail_net:"제출에 실패했습니다. 네트워크를 확인하세요", fb_copied_fallback:"⚠️ 직접 제출에 실패해 내용을 복사했습니다. 나중에 다시 시도하세요.",
   nav_home:"홈", nav_hot:"인기 소프트웨어", nav_ai:"AI 도구", nav_sites:"웹사이트", nav_feedback:"피드백", nav_about:"소개",
   hero_h1:"공식 사이트 검색", hero_p:"검증된 공식 사이트만 · 어떤 걸 선택할지 알려드립니다",
   plat_all:"전체 플랫폼", search_ph:"소프트웨어/사이트 이름 입력…", search_btn:"검색",
@@ -840,6 +898,18 @@ ko: {
   price_free:"무료", verified:"인증됨", go:"바로가기 →", dl:"💾 다운로드", ad:"광고",
 },
 de: {
+  fb_report:"🚨 Fake-Website melden", fb_suggest:"✨ Website vorschlagen",
+  fb_fake_url:"URL der Fake-Website", fb_fake_ph:"z. B. sunlogin-download.com",
+  fb_impersonate:"Welche offizielle Website/Software wird imitiert",
+  fb_search_ph:"Stichwort eingeben, z. B. Sunlogin",
+  fb_note:"Anmerkungen (optional)", fb_note_ph:"z. B. wo gesehen, was verdächtig ist",
+  fb_submit:"Absenden", fb_done:"✅ Gesendet. Wir prüfen es und handeln.", fb_done_new:"✅ Gesendet. Wir prüfen es und nehmen es auf.",
+  fb_newtip:"Schlagen Sie eine offizielle Website vor, die eine Aufnahme verdient. Wir prüfen sie manuell.",
+  fb_name:"Name der Website / Software", fb_name_ph:"z. B. XX Eingabe",
+  fb_url:"Offizielle URL", fb_desc:"Kurzbeschreibung (optional)", fb_desc_ph:"z. B. starke Spracheingabe",
+  fb_submit_new:"Vorschlag absenden", fb_submitting:"Wird gesendet…", fb_submitted:"Gesendet",
+  fb_need_name:"Bitte Name der Website / Software eingeben", fb_need_one:"Bitte URL der Fake-Website oder die imitierte offizielle Website eingeben",
+  fb_fail:"Senden fehlgeschlagen, bitte später erneut versuchen", fb_fail_net:"Senden fehlgeschlagen, bitte Netzwerk prüfen", fb_copied_fallback:"⚠️ Direktes Senden fehlgeschlagen. Der Inhalt wurde kopiert — bitte später erneut versuchen.",
   nav_home:"Start", nav_hot:"Top-Software", nav_ai:"KI-Tools", nav_sites:"Webseiten", nav_feedback:"Feedback", nav_about:"Über uns",
   hero_h1:"Offizielle Seiten finden", hero_p:"Nur manuell geprüfte offizielle Webseiten · Wir sagen dir, welche du wählen sollst",
   plat_all:"Alle Plattformen", search_ph:"Software oder Webseite suchen…", search_btn:"Suchen",
@@ -859,6 +929,18 @@ de: {
   price_free:"Kostenlos", verified:"Verifiziert", go:"Öffnen →", dl:"💾 Download", ad:"Werbung",
 },
 fr: {
+  fb_report:"🚨 Signaler un faux site", fb_suggest:"✨ Suggérer un site",
+  fb_fake_url:"URL du faux site", fb_fake_ph:"ex. : sunlogin-download.com",
+  fb_impersonate:"Quel site officiel / logiciel imite-t-il",
+  fb_search_ph:"Rechercher par mot-clé, ex. Sunlogin",
+  fb_note:"Précisions (facultatif)", fb_note_ph:"ex. : où vous l'avez vu, ce qui est suspect",
+  fb_submit:"Envoyer", fb_done:"✅ Envoyé. Nous vérifierons et agirons.", fb_done_new:"✅ Envoyé. Nous vérifierons et l'ajouterons.",
+  fb_newtip:"Suggérez un site officiel qui mérite d'être répertorié. Nous le vérifions manuellement.",
+  fb_name:"Nom du site / logiciel", fb_name_ph:"ex. : Saisie XX",
+  fb_url:"URL officielle", fb_desc:"Description en une phrase (facultatif)", fb_desc_ph:"ex. : saisie vocale très performante",
+  fb_submit_new:"Envoyer la suggestion", fb_submitting:"Envoi…", fb_submitted:"Envoyé",
+  fb_need_name:"Veuillez saisir le nom du site / logiciel", fb_need_one:"Veuillez saisir l'URL du faux site ou le site officiel imité",
+  fb_fail:"Échec de l'envoi, réessayez plus tard", fb_fail_net:"Échec de l'envoi, vérifiez votre réseau", fb_copied_fallback:"⚠️ L'envoi direct a échoué. Le contenu a été copié — réessayez plus tard.",
   nav_home:"Accueil", nav_hot:"Logiciels", nav_ai:"Outils IA", nav_sites:"Sites web", nav_feedback:"Avis", nav_about:"À propos",
   hero_h1:"Trouver les sites officiels", hero_p:"Sites officiels vérifiés manuellement uniquement · On vous dit lequel choisir",
   plat_all:"Toutes plateformes", search_ph:"Rechercher un logiciel ou site…", search_btn:"Rechercher",
@@ -878,6 +960,18 @@ fr: {
   price_free:"Gratuit", verified:"Vérifié", go:"Ouvrir →", dl:"💾 Télécharger", ad:"Pub",
 },
 es: {
+  fb_report:"🚨 Denunciar sitio falso", fb_suggest:"✨ Sugerir un sitio",
+  fb_fake_url:"URL del sitio falso", fb_fake_ph:"ej.: sunlogin-download.com",
+  fb_impersonate:"Qué sitio oficial/software está suplantando",
+  fb_search_ph:"Busca por palabra clave, ej. Sunlogin",
+  fb_note:"Notas (opcional)", fb_note_ph:"ej.: dónde lo viste, qué es sospechoso",
+  fb_submit:"Enviar", fb_done:"✅ Enviado. Lo verificaremos y actuaremos.", fb_done_new:"✅ Enviado. Lo verificaremos y lo añadiremos.",
+  fb_newtip:"Sugiere un sitio oficial que merezca estar aquí. Lo verificamos manualmente.",
+  fb_name:"Nombre del sitio / software", fb_name_ph:"ej.: Entrada XX",
+  fb_url:"URL oficial", fb_desc:"Descripción en una frase (opcional)", fb_desc_ph:"ej.: entrada de voz muy potente",
+  fb_submit_new:"Enviar sugerencia", fb_submitting:"Enviando…", fb_submitted:"Enviado",
+  fb_need_name:"Introduce el nombre del sitio / software", fb_need_one:"Introduce la URL del sitio falso o el sitio oficial suplantado",
+  fb_fail:"Error al enviar, inténtalo más tarde", fb_fail_net:"Error al enviar, comprueba tu red", fb_copied_fallback:"⚠️ El envío directo falló. El contenido se copió: inténtalo más tarde.",
   nav_home:"Inicio", nav_hot:"Software", nav_ai:"Herramientas IA", nav_sites:"Sitios web", nav_feedback:"Opinión", nav_about:"Nosotros",
   hero_h1:"Encuentra sitios oficiales", hero_p:"Solo sitios oficiales verificados manualmente · Te decimos cuál elegir",
   plat_all:"Todas las plataformas", search_ph:"Buscar software o sitio…", search_btn:"Buscar",
@@ -897,6 +991,18 @@ es: {
   price_free:"Gratis", verified:"Verificado", go:"Abrir →", dl:"💾 Descargar", ad:"Anuncio",
 },
 pt: {
+  fb_report:"🚨 Denunciar site falso", fb_suggest:"✨ Sugerir um site",
+  fb_fake_url:"URL do site falso", fb_fake_ph:"ex.: sunlogin-download.com",
+  fb_impersonate:"Qual site oficial/software ele está imitando",
+  fb_search_ph:"Pesquise por palavra-chave, ex. Sunlogin",
+  fb_note:"Observações (opcional)", fb_note_ph:"ex.: onde você viu, o que é suspeito",
+  fb_submit:"Enviar", fb_done:"✅ Enviado. Vamos verificar e agir.", fb_done_new:"✅ Enviado. Vamos verificar e adicionar.",
+  fb_newtip:"Sugira um site oficial que mereça ser listado. Verificamos manualmente.",
+  fb_name:"Nome do site / software", fb_name_ph:"ex.: Entrada XX",
+  fb_url:"URL oficial", fb_desc:"Descrição em uma frase (opcional)", fb_desc_ph:"ex.: entrada de voz muito boa",
+  fb_submit_new:"Enviar sugestão", fb_submitting:"Enviando…", fb_submitted:"Enviado",
+  fb_need_name:"Insira o nome do site / software", fb_need_one:"Insira a URL do site falso ou o site oficial imitado",
+  fb_fail:"Falha no envio, tente mais tarde", fb_fail_net:"Falha no envio, verifique sua rede", fb_copied_fallback:"⚠️ O envio direto falhou. O conteúdo foi copiado — tente mais tarde.",
   nav_home:"Início", nav_hot:"Software", nav_ai:"Ferramentas IA", nav_sites:"Sites", nav_feedback:"Feedback", nav_about:"Sobre",
   hero_h1:"Encontre sites oficiais", hero_p:"Apenas sites oficiais verificados manualmente · Dizemos qual escolher",
   plat_all:"Todas as plataformas", search_ph:"Pesquisar software ou site…", search_btn:"Pesquisar",
@@ -916,6 +1022,18 @@ pt: {
   price_free:"Grátis", verified:"Verificado", go:"Abrir →", dl:"💾 Baixar", ad:"Anúncio",
 },
 it: {
+  fb_report:"🚨 Segnala sito falso", fb_suggest:"✨ Suggerisci un sito",
+  fb_fake_url:"URL del sito falso", fb_fake_ph:"es. sunlogin-download.com",
+  fb_impersonate:"Quale sito ufficiale/software sta imitando",
+  fb_search_ph:"Cerca per parola chiave, es. Sunlogin",
+  fb_note:"Note (facoltativo)", fb_note_ph:"es. dove l'hai visto, cosa è sospetto",
+  fb_submit:"Invia", fb_done:"✅ Inviato. Verificheremo e interverremo.", fb_done_new:"✅ Inviato. Verificheremo e lo aggiungeremo.",
+  fb_newtip:"Suggerisci un sito ufficiale che merita di essere incluso. Lo verifichiamo manualmente.",
+  fb_name:"Nome del sito / software", fb_name_ph:"es. Input XX",
+  fb_url:"URL ufficiale", fb_desc:"Descrizione in una frase (facoltativo)", fb_desc_ph:"es. input vocale molto efficace",
+  fb_submit_new:"Invia suggerimento", fb_submitting:"Invio…", fb_submitted:"Inviato",
+  fb_need_name:"Inserisci il nome del sito / software", fb_need_one:"Inserisci l'URL del sito falso o il sito ufficiale imitato",
+  fb_fail:"Invio non riuscito, riprova più tardi", fb_fail_net:"Invio non riuscito, controlla la rete", fb_copied_fallback:"⚠️ Invio diretto non riuscito. Contenuto copiato: riprova più tardi.",
   nav_home:"Home", nav_hot:"Software", nav_ai:"Strumenti IA", nav_sites:"Siti web", nav_feedback:"Feedback", nav_about:"Chi siamo",
   hero_h1:"Trova i siti ufficiali", hero_p:"Solo siti ufficiali verificati manualmente · Ti diciamo quale scegliere",
   plat_all:"Tutte le piattaforme", search_ph:"Cerca software o sito…", search_btn:"Cerca",
@@ -935,6 +1053,18 @@ it: {
   price_free:"Gratis", verified:"Verificato", go:"Apri →", dl:"💾 Scarica", ad:"Annuncio",
 },
 nl: {
+  fb_report:"🚨 Nepwebsite melden", fb_suggest:"✨ Website voorstellen",
+  fb_fake_url:"URL van de nepwebsite", fb_fake_ph:"bijv. sunlogin-download.com",
+  fb_impersonate:"Welke officiële website/software wordt nagebootst",
+  fb_search_ph:"Zoek op trefwoord, bijv. Sunlogin",
+  fb_note:"Opmerkingen (optioneel)", fb_note_ph:"bijv. waar je het zag, wat verdacht is",
+  fb_submit:"Verzenden", fb_done:"✅ Verzonden. We controleren het en ondernemen actie.", fb_done_new:"✅ Verzonden. We controleren het en voegen het toe.",
+  fb_newtip:"Stel een officiële website voor die een vermelding verdient. We controleren handmatig.",
+  fb_name:"Naam van website / software", fb_name_ph:"bijv. XX-invoer",
+  fb_url:"Officiële URL", fb_desc:"Beschrijving in één zin (optioneel)", fb_desc_ph:"bijv. sterke spraakinvoer",
+  fb_submit_new:"Voorstel verzenden", fb_submitting:"Verzenden…", fb_submitted:"Verzonden",
+  fb_need_name:"Voer de naam van de website / software in", fb_need_one:"Voer de URL van de nepwebsite of de nagebootste officiële website in",
+  fb_fail:"Verzenden mislukt, probeer later opnieuw", fb_fail_net:"Verzenden mislukt, controleer je netwerk", fb_copied_fallback:"⚠️ Direct verzenden mislukt. De inhoud is gekopieerd — probeer later opnieuw.",
   nav_home:"Home", nav_hot:"Software", nav_ai:"AI-tools", nav_sites:"Websites", nav_feedback:"Feedback", nav_about:"Over ons",
   hero_h1:"Vind officiële sites", hero_p:"Alleen handmatig geverifieerde officiële websites · Wij vertellen je welke te kiezen",
   plat_all:"Alle platforms", search_ph:"Zoek software of website…", search_btn:"Zoeken",
@@ -954,6 +1084,18 @@ nl: {
   price_free:"Gratis", verified:"Geverifieerd", go:"Openen →", dl:"💾 Download", ad:"Advertentie",
 },
 ru: {
+  fb_report:"🚨 Сообщить о поддельном сайте", fb_suggest:"✨ Предложить сайт",
+  fb_fake_url:"Адрес поддельного сайта", fb_fake_ph:"например: sunlogin-download.com",
+  fb_impersonate:"Какой официальный сайт / программу он копирует",
+  fb_search_ph:"Поиск по слову, например: Sunlogin",
+  fb_note:"Комментарий (необязательно)", fb_note_ph:"например: где увидели, что подозрительно",
+  fb_submit:"Отправить", fb_done:"✅ Отправлено. Мы проверим и примем меры.", fb_done_new:"✅ Отправлено. Мы проверим и добавим.",
+  fb_newtip:"Предложите официальный сайт, который стоит добавить. Мы проверяем вручную.",
+  fb_name:"Название сайта / программы", fb_name_ph:"например: XX Ввод",
+  fb_url:"Официальный адрес", fb_desc:"Описание в одно предложение (необязательно)", fb_desc_ph:"например: мощный голосовой ввод",
+  fb_submit_new:"Отправить предложение", fb_submitting:"Отправка…", fb_submitted:"Отправлено",
+  fb_need_name:"Укажите название сайта / программы", fb_need_one:"Укажите адрес поддельного сайта или официальный сайт, который он копирует",
+  fb_fail:"Не удалось отправить, попробуйте позже", fb_fail_net:"Не удалось отправить, проверьте сеть", fb_copied_fallback:"⚠️ Прямая отправка не удалась. Текст скопирован — попробуйте позже.",
   nav_home:"Главная", nav_hot:"Программы", nav_ai:"ИИ-инструменты", nav_sites:"Сайты", nav_feedback:"Отзыв", nav_about:"О нас",
   hero_h1:"Найти официальные сайты", hero_p:"Только проверенные вручную официальные сайты · Подскажем, какой выбрать",
   plat_all:"Все платформы", search_ph:"Поиск программы или сайта…", search_btn:"Найти",
@@ -973,6 +1115,18 @@ ru: {
   price_free:"Бесплатно", verified:"Проверено", go:"Открыть →", dl:"💾 Скачать", ad:"Реклама",
 },
 th: {
+  fb_report:"🚨 รายงานเว็บปลอม", fb_suggest:"✨ แนะนำเว็บไซต์",
+  fb_fake_url:"URL ของเว็บปลอม", fb_fake_ph:"เช่น sunlogin-download.com",
+  fb_impersonate:"มันแอบอ้างเป็นเว็บทางการ/ซอฟต์แวร์ใด",
+  fb_search_ph:"พิมพ์คำค้น เช่น Sunlogin",
+  fb_note:"หมายเหตุ (ไม่บังคับ)", fb_note_ph:"เช่น เจอที่ไหน น่าสงสัยตรงไหน",
+  fb_submit:"ส่ง", fb_done:"✅ ส่งแล้ว เราจะตรวจสอบและดำเนินการ", fb_done_new:"✅ ส่งแล้ว เราจะตรวจสอบและเพิ่มให้",
+  fb_newtip:"แนะนำเว็บทางการที่ควรอยู่ในรายการ เราจะตรวจสอบด้วยตนเองก่อนเพิ่ม",
+  fb_name:"ชื่อเว็บไซต์ / ซอฟต์แวร์", fb_name_ph:"เช่น XX อินพุต",
+  fb_url:"URL ทางการ", fb_desc:"แนะนำสั้น ๆ หนึ่งประโยค (ไม่บังคับ)", fb_desc_ph:"เช่น พิมพ์ด้วยเสียงเก่งมาก",
+  fb_submit_new:"ส่งคำแนะนำ", fb_submitting:"กำลังส่ง…", fb_submitted:"ส่งแล้ว",
+  fb_need_name:"กรุณากรอกชื่อเว็บไซต์ / ซอฟต์แวร์", fb_need_one:"กรุณากรอก URL เว็บปลอมหรือเว็บทางการที่ถูกแอบอ้าง",
+  fb_fail:"ส่งไม่สำเร็จ โปรดลองใหม่ภายหลัง", fb_fail_net:"ส่งไม่สำเร็จ โปรดตรวจสอบเครือข่าย", fb_copied_fallback:"⚠️ ส่งโดยตรงไม่สำเร็จ คัดลอกเนื้อหาแล้ว โปรดลองใหม่ภายหลัง",
   nav_home:"หน้าแรก", nav_hot:"ซอฟต์แวร์ยอดนิยม", nav_ai:"เครื่องมือ AI", nav_sites:"เว็บไซต์", nav_feedback:"ข้อเสนอแนะ", nav_about:"เกี่ยวกับเรา",
   hero_h1:"ค้นหาเว็บไซต์ทางการ", hero_p:"เฉพาะเว็บทางการที่ผ่านการตรวจสอบ · บอกคุณว่าควรเลือกเว็บไหน",
   plat_all:"ทุกแพลตฟอร์ม", search_ph:"ค้นหาซอฟต์แวร์หรือเว็บไซต์…", search_btn:"ค้นหา",
@@ -992,6 +1146,18 @@ th: {
   price_free:"ฟรี", verified:"ยืนยันแล้ว", go:"เปิด →", dl:"💾 ดาวน์โหลด", ad:"โฆษณา",
 },
 vi: {
+  fb_report:"🚨 Báo cáo trang giả mạo", fb_suggest:"✨ Đề xuất trang web",
+  fb_fake_url:"URL trang giả mạo", fb_fake_ph:"ví dụ: sunlogin-download.com",
+  fb_impersonate:"Nó mạo danh trang chính thức/phần mềm nào",
+  fb_search_ph:"Nhập từ khóa tìm kiếm, ví dụ Sunlogin",
+  fb_note:"Ghi chú (không bắt buộc)", fb_note_ph:"ví dụ: thấy ở đâu, điểm nào đáng ngờ",
+  fb_submit:"Gửi", fb_done:"✅ Đã gửi. Chúng tôi sẽ kiểm tra và xử lý.", fb_done_new:"✅ Đã gửi. Chúng tôi sẽ kiểm tra và thêm vào.",
+  fb_newtip:"Đề xuất một trang chính thức đáng được liệt kê. Chúng tôi kiểm tra thủ công.",
+  fb_name:"Tên trang web / phần mềm", fb_name_ph:"ví dụ: Bộ gõ XX",
+  fb_url:"URL chính thức", fb_desc:"Giới thiệu một câu (không bắt buộc)", fb_desc_ph:"ví dụ: nhập liệu bằng giọng nói rất tốt",
+  fb_submit_new:"Gửi đề xuất", fb_submitting:"Đang gửi…", fb_submitted:"Đã gửi",
+  fb_need_name:"Vui lòng nhập tên trang web / phần mềm", fb_need_one:"Vui lòng nhập URL trang giả mạo hoặc trang chính thức bị mạo danh",
+  fb_fail:"Gửi thất bại, vui lòng thử lại sau", fb_fail_net:"Gửi thất bại, vui lòng kiểm tra mạng", fb_copied_fallback:"⚠️ Gửi trực tiếp thất bại. Nội dung đã được sao chép — vui lòng thử lại sau.",
   nav_home:"Trang chủ", nav_hot:"Phần mềm", nav_ai:"Công cụ AI", nav_sites:"Trang web", nav_feedback:"Góp ý", nav_about:"Về chúng tôi",
   hero_h1:"Tìm trang web chính thức", hero_p:"Chỉ trang chính thức đã xác minh thủ công · Cho bạn biết nên chọn trang nào",
   plat_all:"Mọi nền tảng", search_ph:"Tìm phần mềm hoặc trang web…", search_btn:"Tìm",
@@ -1011,6 +1177,18 @@ vi: {
   price_free:"Miễn phí", verified:"Đã xác minh", go:"Mở →", dl:"💾 Tải xuống", ad:"Quảng cáo",
 },
 id: {
+  fb_report:"🚨 Laporkan Situs Palsu", fb_suggest:"✨ Sarankan Situs",
+  fb_fake_url:"URL situs palsu", fb_fake_ph:"mis. sunlogin-download.com",
+  fb_impersonate:"Situs resmi/perangkat lunak apa yang ditiru",
+  fb_search_ph:"Ketik untuk mencari, mis. Sunlogin",
+  fb_note:"Catatan (opsional)", fb_note_ph:"mis. di mana Anda melihatnya, apa yang mencurigakan",
+  fb_submit:"Kirim", fb_done:"✅ Terkirim. Kami akan memverifikasi dan menindaklanjuti.", fb_done_new:"✅ Terkirim. Kami akan memverifikasi dan menambahkannya.",
+  fb_newtip:"Sarankan situs resmi yang layak dicantumkan. Kami verifikasi secara manual.",
+  fb_name:"Nama Situs / Perangkat Lunak", fb_name_ph:"mis. Input XX",
+  fb_url:"URL Resmi", fb_desc:"Perkenalan satu kalimat (opsional)", fb_desc_ph:"mis. input suara sangat bagus",
+  fb_submit_new:"Kirim Saran", fb_submitting:"Mengirim…", fb_submitted:"Terkirim",
+  fb_need_name:"Isi nama situs / perangkat lunak", fb_need_one:"Isi URL situs palsu atau situs resmi yang ditiru",
+  fb_fail:"Pengiriman gagal, coba lagi nanti", fb_fail_net:"Pengiriman gagal, periksa jaringan Anda", fb_copied_fallback:"⚠️ Pengiriman langsung gagal. Konten telah disalin — coba lagi nanti.",
   nav_home:"Beranda", nav_hot:"Perangkat Lunak", nav_ai:"Alat AI", nav_sites:"Situs Web", nav_feedback:"Umpan Balik", nav_about:"Tentang",
   hero_h1:"Temukan Situs Resmi", hero_p:"Hanya situs resmi yang diverifikasi manual · Kami beri tahu mana yang dipilih",
   plat_all:"Semua Platform", search_ph:"Cari perangkat lunak atau situs…", search_btn:"Cari",
@@ -1030,6 +1208,18 @@ id: {
   price_free:"Gratis", verified:"Terverifikasi", go:"Buka →", dl:"💾 Unduh", ad:"Iklan",
 },
 tr: {
+  fb_report:"🚨 Sahte Siteyi Bildir", fb_suggest:"✨ Site Öner",
+  fb_fake_url:"Sahte site URL'si", fb_fake_ph:"örn. sunlogin-download.com",
+  fb_impersonate:"Hangi resmi siteyi/yazılımı taklit ediyor",
+  fb_search_ph:"Anahtar kelimeyle arayın, örn. Sunlogin",
+  fb_note:"Notlar (isteğe bağlı)", fb_note_ph:"örn. nerede gördünüz, ne şüpheli",
+  fb_submit:"Gönder", fb_done:"✅ Gönderildi. Kontrol edip işlem yapacağız.", fb_done_new:"✅ Gönderildi. Kontrol edip ekleyeceğiz.",
+  fb_newtip:"Listelenmeyi hak eden bir resmi site önerin. Manuel olarak kontrol ediyoruz.",
+  fb_name:"Site / Yazılım Adı", fb_name_ph:"örn. XX Giriş",
+  fb_url:"Resmi URL", fb_desc:"Tek cümlelik tanıtım (isteğe bağlı)", fb_desc_ph:"örn. güçlü sesli giriş",
+  fb_submit_new:"Öneriyi Gönder", fb_submitting:"Gönderiliyor…", fb_submitted:"Gönderildi",
+  fb_need_name:"Site / yazılım adını girin", fb_need_one:"Sahte site URL'sini veya taklit edilen resmi siteyi girin",
+  fb_fail:"Gönderme başarısız, daha sonra tekrar deneyin", fb_fail_net:"Gönderme başarısız, ağınızı kontrol edin", fb_copied_fallback:"⚠️ Doğrudan gönderme başarısız. İçerik kopyalandı — daha sonra tekrar deneyin.",
   nav_home:"Ana Sayfa", nav_hot:"Yazılımlar", nav_ai:"YZ Araçları", nav_sites:"Siteler", nav_feedback:"Geri Bildirim", nav_about:"Hakkında",
   hero_h1:"Resmi Siteleri Bul", hero_p:"Yalnızca manuel doğrulamalı resmi siteler · Hangisini seçeceğini söylüyoruz",
   plat_all:"Tüm Platformlar", search_ph:"Yazılım veya site ara…", search_btn:"Ara",
@@ -1049,6 +1239,18 @@ tr: {
   price_free:"Ücretsiz", verified:"Doğrulandı", go:"Aç →", dl:"💾 İndir", ad:"Reklam",
 },
 ar: {
+  fb_report:"🚨 الإبلاغ عن موقع مزيف", fb_suggest:"✨ اقترح موقعًا",
+  fb_fake_url:"رابط الموقع المزيف", fb_fake_ph:"مثال: sunlogin-download.com",
+  fb_impersonate:"ما الموقع الرسمي/البرنامج الذي ينتحله",
+  fb_search_ph:"اكتب للبحث، مثال Sunlogin",
+  fb_note:"ملاحظات (اختياري)", fb_note_ph:"مثال: أين رأيته، ما المريب فيه",
+  fb_submit:"إرسال", fb_done:"✅ تم الإرسال. سنتحقق ونتخذ إجراء.", fb_done_new:"✅ تم الإرسال. سنتحقق ونضيفه.",
+  fb_newtip:"اقترح موقعًا رسميًا يستحق الإدراج. نتحقق يدويًا قبل الإضافة.",
+  fb_name:"اسم الموقع / البرنامج", fb_name_ph:"مثال: إدخال XX",
+  fb_url:"الرابط الرسمي", fb_desc:"تعريف بجملة واحدة (اختياري)", fb_desc_ph:"مثال: إدخال صوتي قوي",
+  fb_submit_new:"إرسال الاقتراح", fb_submitting:"جارٍ الإرسال…", fb_submitted:"تم الإرسال",
+  fb_need_name:"أدخل اسم الموقع / البرنامج", fb_need_one:"أدخل رابط الموقع المزيف أو الموقع الرسمي المنتحَل",
+  fb_fail:"فشل الإرسال، حاول لاحقًا", fb_fail_net:"فشل الإرسال، تحقق من الشبكة", fb_copied_fallback:"⚠️ فشل الإرسال المباشر. تم نسخ المحتوى — حاول لاحقًا.",
   nav_home:"الرئيسية", nav_hot:"برامج", nav_ai:"أدوات الذكاء", nav_sites:"مواقع", nav_feedback:"ملاحظات", nav_about:"من نحن",
   hero_h1:"ابحث عن المواقع الرسمية", hero_p:"مواقع رسمية تم التحقق منها يدويًا فقط · نخبرك أيها تختار",
   plat_all:"كل المنصات", search_ph:"ابحث عن برنامج أو موقع…", search_btn:"بحث",
@@ -1068,6 +1270,18 @@ ar: {
   price_free:"مجاني", verified:"موثق", go:"فتح →", dl:"💾 تحميل", ad:"إعلان",
 },
 he: {
+  fb_report:"🚨 דיווח על אתר מזויף", fb_suggest:"✨ הצעת אתר",
+  fb_fake_url:"כתובת האתר המזויף", fb_fake_ph:"לדוגמה: sunlogin-download.com",
+  fb_impersonate:"איזה אתר רשמי/תוכנה הוא מחקה",
+  fb_search_ph:"הקלידו לחיפוש, לדוגמה Sunlogin",
+  fb_note:"הערות (לא חובה)", fb_note_ph:"לדוגמה: איפה ראיתם, מה חשוד",
+  fb_submit:"שליחה", fb_done:"✅ נשלח. נבדוק ונטפל.", fb_done_new:"✅ נשלח. נבדוק ונוסיף.",
+  fb_newtip:"הציעו אתר רשמי שראוי להופיע כאן. אנו בודקים ידנית.",
+  fb_name:"שם האתר / התוכנה", fb_name_ph:"לדוגמה: קלט XX",
+  fb_url:"כתובת רשמית", fb_desc:"תיאור במשפט אחד (לא חובה)", fb_desc_ph:"לדוגמה: קלט קולי חזק",
+  fb_submit_new:"שליחת הצעה", fb_submitting:"שולח…", fb_submitted:"נשלח",
+  fb_need_name:"הזינו את שם האתר / התוכנה", fb_need_one:"הזינו את כתובת האתר המזויף או את האתר הרשמי שהוא מחקה",
+  fb_fail:"השליחה נכשלה, נסו שוב מאוחר יותר", fb_fail_net:"השליחה נכשלה, בדקו את הרשת", fb_copied_fallback:"⚠️ השליחה הישירה נכשלה. התוכן הועתק — נסו שוב מאוחר יותר.",
   nav_home:"בית", nav_hot:"תוכנות", nav_ai:"כלי AI", nav_sites:"אתרים", nav_feedback:"משוב", nav_about:"אודות",
   hero_h1:"מצא אתרים רשמיים", hero_p:"רק אתרים רשמיים מאומתים ידנית · נגיד לך איזה לבחור",
   plat_all:"כל הפלטפורמות", search_ph:"חפש תוכנה או אתר…", search_btn:"חפש",
@@ -1086,6 +1300,18 @@ he: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 pl: {
+  fb_report:"🚨 Zgłoś fałszywą stronę", fb_suggest:"✨ Zaproponuj stronę",
+  fb_fake_url:"Adres fałszywej strony", fb_fake_ph:"np. sunlogin-download.com",
+  fb_impersonate:"Jaką oficjalną stronę/program podszywa się",
+  fb_search_ph:"Wpisz słowo kluczowe, np. Sunlogin",
+  fb_note:"Uwagi (opcjonalnie)", fb_note_ph:"np. gdzie to widziałeś, co jest podejrzane",
+  fb_submit:"Wyślij", fb_done:"✅ Wysłano. Zweryfikujemy i podejmiemy działania.", fb_done_new:"✅ Wysłano. Zweryfikujemy i dodamy.",
+  fb_newtip:"Zaproponuj oficjalną stronę wartą umieszczenia. Weryfikujemy ręcznie.",
+  fb_name:"Nazwa strony / programu", fb_name_ph:"np. Wprowadzanie XX",
+  fb_url:"Oficjalny adres", fb_desc:"Opis w jednym zdaniu (opcjonalnie)", fb_desc_ph:"np. świetne wprowadzanie głosowe",
+  fb_submit_new:"Wyślij propozycję", fb_submitting:"Wysyłanie…", fb_submitted:"Wysłano",
+  fb_need_name:"Podaj nazwę strony / programu", fb_need_one:"Podaj adres fałszywej strony lub oficjalną stronę, pod którą się podszywa",
+  fb_fail:"Wysyłanie nieudane, spróbuj później", fb_fail_net:"Wysyłanie nieudane, sprawdź sieć", fb_copied_fallback:"⚠️ Bezpośrednie wysyłanie nieudane. Treść skopiowano — spróbuj później.",
   nav_home:"Start", nav_hot:"Oprogramowanie", nav_ai:"Narzędzia AI", nav_sites:"Strony", nav_feedback:"Opinia", nav_about:"O nas",
   hero_h1:"Znajdź oficjalne strony", hero_p:"Tylko ręcznie zweryfikowane oficjalne strony · Powiemy ci, którą wybrać",
   plat_all:"Wszystkie platformy", search_ph:"Szukaj oprogramowania lub strony…", search_btn:"Szukaj",
@@ -1104,6 +1330,18 @@ pl: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 cs: {
+  fb_report:"🚨 Nahlásit podvodný web", fb_suggest:"✨ Navrhnout web",
+  fb_fake_url:"Adresa podvodného webu", fb_fake_ph:"např. sunlogin-download.com",
+  fb_impersonate:"Jaký oficiální web/software napodobuje",
+  fb_search_ph:"Hledejte podle klíčového slova, např. Sunlogin",
+  fb_note:"Poznámky (volitelné)", fb_note_ph:"např. kde jste to viděli, co je podezřelé",
+  fb_submit:"Odeslat", fb_done:"✅ Odesláno. Ověříme a zasáhneme.", fb_done_new:"✅ Odesláno. Ověříme a přidáme.",
+  fb_newtip:"Navrhněte oficiální web, který si zaslouží zařazení. Ověřujeme ručně.",
+  fb_name:"Název webu / softwaru", fb_name_ph:"např. Vstup XX",
+  fb_url:"Oficiální adresa", fb_desc:"Popis jednou větou (volitelné)", fb_desc_ph:"např. silný hlasový vstup",
+  fb_submit_new:"Odeslat návrh", fb_submitting:"Odesílání…", fb_submitted:"Odesláno",
+  fb_need_name:"Zadejte název webu / softwaru", fb_need_one:"Zadejte adresu podvodného webu nebo oficiální web, který napodobuje",
+  fb_fail:"Odeslání se nezdařilo, zkuste to později", fb_fail_net:"Odeslání se nezdařilo, zkontrolujte síť", fb_copied_fallback:"⚠️ Přímé odeslání se nezdařilo. Obsah byl zkopírován — zkuste to později.",
   nav_home:"Domů", nav_hot:"Software", nav_ai:"AI nástroje", nav_sites:"Weby", nav_feedback:"Zpětná vazba", nav_about:"O nás",
   hero_h1:"Najít oficiální weby", hero_p:"Pouze ručně ověřené oficiální weby · Řekneme ti, který vybrat",
   plat_all:"Všechny platformy", search_ph:"Hledat software nebo web…", search_btn:"Hledat",
@@ -1122,6 +1360,18 @@ cs: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 da: {
+  fb_report:"🚨 Anmeld falsk hjemmeside", fb_suggest:"✨ Foreslå en hjemmeside",
+  fb_fake_url:"URL til falsk hjemmeside", fb_fake_ph:"f.eks. sunlogin-download.com",
+  fb_impersonate:"Hvilken officiel hjemmeside/software efterligner den",
+  fb_search_ph:"Søg med nøgleord, f.eks. Sunlogin",
+  fb_note:"Noter (valgfrit)", fb_note_ph:"f.eks. hvor du så den, hvad der er mistænkeligt",
+  fb_submit:"Send", fb_done:"✅ Sendt. Vi kontrollerer og handler.", fb_done_new:"✅ Sendt. Vi kontrollerer og tilføjer den.",
+  fb_newtip:"Foreslå en officiel hjemmeside, der fortjener at være her. Vi kontrollerer manuelt.",
+  fb_name:"Navn på hjemmeside / software", fb_name_ph:"f.eks. XX Input",
+  fb_url:"Officiel URL", fb_desc:"Beskrivelse på én sætning (valgfrit)", fb_desc_ph:"f.eks. stærk stemmeindtastning",
+  fb_submit_new:"Send forslag", fb_submitting:"Sender…", fb_submitted:"Sendt",
+  fb_need_name:"Indtast navn på hjemmeside / software", fb_need_one:"Indtast URL til den falske hjemmeside eller den officielle, den efterligner",
+  fb_fail:"Afsendelse mislykkedes, prøv igen senere", fb_fail_net:"Afsendelse mislykkedes, tjek dit netværk", fb_copied_fallback:"⚠️ Direkte afsendelse mislykkedes. Indholdet er kopieret — prøv igen senere.",
   nav_home:"Hjem", nav_hot:"Software", nav_ai:"AI-værktøjer", nav_sites:"Websteder", nav_feedback:"Feedback", nav_about:"Om os",
   hero_h1:"Find officielle sider", hero_p:"Kun manuelt verificerede officielle sider · Vi fortæller dig hvilken du skal vælge",
   plat_all:"Alle platforme", search_ph:"Søg software eller side…", search_btn:"Søg",
@@ -1140,6 +1390,18 @@ da: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 sv: {
+  fb_report:"🚨 Rapportera falsk webbplats", fb_suggest:"✨ Föreslå en webbplats",
+  fb_fake_url:"URL till falsk webbplats", fb_fake_ph:"t.ex. sunlogin-download.com",
+  fb_impersonate:"Vilken officiell webbplats/programvara imiterar den",
+  fb_search_ph:"Sök med nyckelord, t.ex. Sunlogin",
+  fb_note:"Anteckningar (valfritt)", fb_note_ph:"t.ex. var du såg den, vad som är misstänkt",
+  fb_submit:"Skicka", fb_done:"✅ Skickat. Vi kontrollerar och agerar.", fb_done_new:"✅ Skickat. Vi kontrollerar och lägger till den.",
+  fb_newtip:"Föreslå en officiell webbplats som förtjänar att listas. Vi kontrollerar manuellt.",
+  fb_name:"Namn på webbplats / programvara", fb_name_ph:"t.ex. XX Inmatning",
+  fb_url:"Officiell URL", fb_desc:"Beskrivning i en mening (valfritt)", fb_desc_ph:"t.ex. stark röstinmatning",
+  fb_submit_new:"Skicka förslag", fb_submitting:"Skickar…", fb_submitted:"Skickat",
+  fb_need_name:"Ange namn på webbplats / programvara", fb_need_one:"Ange URL till den falska webbplatsen eller den officiella den imiterar",
+  fb_fail:"Det gick inte att skicka, försök senare", fb_fail_net:"Det gick inte att skicka, kontrollera nätverket", fb_copied_fallback:"⚠️ Direktsändning misslyckades. Innehållet har kopierats — försök senare igen.",
   nav_home:"Hem", nav_hot:"Programvara", nav_ai:"AI-verktyg", nav_sites:"Webbplatser", nav_feedback:"Feedback", nav_about:"Om oss",
   hero_h1:"Hitta officiella sidor", hero_p:"Endast manuellt verifierade officiella sidor · Vi berättar vilken du ska välja",
   plat_all:"Alla plattformar", search_ph:"Sök programvara eller sida…", search_btn:"Sök",
@@ -1158,6 +1420,18 @@ sv: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 fi: {
+  fb_report:"🚨 Ilmoita väärennetty sivusto", fb_suggest:"✨ Ehdota sivustoa",
+  fb_fake_url:"Väärennetyn sivuston URL", fb_fake_ph:"esim. sunlogin-download.com",
+  fb_impersonate:"Mitä virallista sivustoa/ohjelmistoa se jäljittelee",
+  fb_search_ph:"Hae avainsanalla, esim. Sunlogin",
+  fb_note:"Lisätiedot (valinnainen)", fb_note_ph:"esim. missä näit sen, mikä on epäilyttävää",
+  fb_submit:"Lähetä", fb_done:"✅ Lähetetty. Tarkistamme ja toimimme.", fb_done_new:"✅ Lähetetty. Tarkistamme ja lisäämme sen.",
+  fb_newtip:"Ehdota virallista sivustoa, joka ansaitsee tulla listatuksi. Tarkistamme manuaalisesti.",
+  fb_name:"Sivuston / ohjelmiston nimi", fb_name_ph:"esim. XX-syöttö",
+  fb_url:"Virallinen URL", fb_desc:"Yhden lauseen esittely (valinnainen)", fb_desc_ph:"esim. vahva äänisyöttö",
+  fb_submit_new:"Lähetä ehdotus", fb_submitting:"Lähetetään…", fb_submitted:"Lähetetty",
+  fb_need_name:"Anna sivuston / ohjelmiston nimi", fb_need_one:"Anna väärennetyn sivuston URL tai jäljitelty virallinen sivusto",
+  fb_fail:"Lähetys epäonnistui, yritä myöhemmin uudelleen", fb_fail_net:"Lähetys epäonnistui, tarkista verkko", fb_copied_fallback:"⚠️ Suora lähetys epäonnistui. Sisältö kopioitiin — yritä myöhemmin uudelleen.",
   nav_home:"Etusivu", nav_hot:"Ohjelmistot", nav_ai:"Tekoälytyökalut", nav_sites:"Sivustot", nav_feedback:"Palaute", nav_about:"Meistä",
   hero_h1:"Löydä viralliset sivut", hero_p:"Vain manuaalisesti vahvistetut viralliset sivut · Kerromme minkä valita",
   plat_all:"Kaikki alustat", search_ph:"Hae ohjelmistoa tai sivua…", search_btn:"Hae",
@@ -1176,6 +1450,18 @@ fi: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 no: {
+  fb_report:"🚨 Rapporter falskt nettsted", fb_suggest:"✨ Foreslå et nettsted",
+  fb_fake_url:"URL til falskt nettsted", fb_fake_ph:"f.eks. sunlogin-download.com",
+  fb_impersonate:"Hvilket offisielt nettsted/programvare etterligner det",
+  fb_search_ph:"Søk med nøkkelord, f.eks. Sunlogin",
+  fb_note:"Merknader (valgfritt)", fb_note_ph:"f.eks. hvor du så det, hva som er mistenkelig",
+  fb_submit:"Send", fb_done:"✅ Sendt. Vi kontrollerer og handler.", fb_done_new:"✅ Sendt. Vi kontrollerer og legger det til.",
+  fb_newtip:"Foreslå et offisielt nettsted som fortjener å være her. Vi kontrollerer manuelt.",
+  fb_name:"Navn på nettsted / programvare", fb_name_ph:"f.eks. XX Inndata",
+  fb_url:"Offisiell URL", fb_desc:"Beskrivelse i én setning (valgfritt)", fb_desc_ph:"f.eks. sterk taleinndata",
+  fb_submit_new:"Send forslag", fb_submitting:"Sender…", fb_submitted:"Sendt",
+  fb_need_name:"Skriv inn navn på nettsted / programvare", fb_need_one:"Skriv inn URL til det falske nettstedet eller det offisielle det etterligner",
+  fb_fail:"Sending mislyktes, prøv igjen senere", fb_fail_net:"Sending mislyktes, sjekk nettverket", fb_copied_fallback:"⚠️ Direkte sending mislyktes. Innholdet er kopiert — prøv igjen senere.",
   nav_home:"Hjem", nav_hot:"Programvare", nav_ai:"AI-verktøy", nav_sites:"Nettsteder", nav_feedback:"Tilbakemelding", nav_about:"Om oss",
   hero_h1:"Finn offisielle sider", hero_p:"Kun manuelt verifiserte offisielle sider · Vi forteller deg hvilken du skal velge",
   plat_all:"Alle plattformer", search_ph:"Søk programvare eller side…", search_btn:"Søk",
@@ -1194,6 +1480,18 @@ no: {
   foot_gzh:"WeChat: 小产品实验室",
 },
 el: {
+  fb_report:"🚨 Αναφορά ψεύτικου ιστότοπου", fb_suggest:"✨ Πρότεινε ιστότοπο",
+  fb_fake_url:"URL ψεύτικου ιστότοπου", fb_fake_ph:"π.χ. sunlogin-download.com",
+  fb_impersonate:"Ποιον επίσημο ιστότοπο/λογισμικό μιμείται",
+  fb_search_ph:"Αναζήτηση με λέξη-κλειδί, π.χ. Sunlogin",
+  fb_note:"Σημειώσεις (προαιρετικό)", fb_note_ph:"π.χ. πού το είδατε, τι είναι ύποπτο",
+  fb_submit:"Υποβολή", fb_done:"✅ Υποβλήθηκε. Θα το ελέγξουμε και θα ενεργήσουμε.", fb_done_new:"✅ Υποβλήθηκε. Θα το ελέγξουμε και θα το προσθέσουμε.",
+  fb_newtip:"Προτείνετε έναν επίσημο ιστότοπο που αξίζει να καταχωρηθεί. Ελέγχουμε χειροκίνητα.",
+  fb_name:"Όνομα ιστότοπου / λογισμικού", fb_name_ph:"π.χ. Είσοδος XX",
+  fb_url:"Επίσημο URL", fb_desc:"Περιγραφή σε μία πρόταση (προαιρετικό)", fb_desc_ph:"π.χ. ισχυρή φωνητική είσοδος",
+  fb_submit_new:"Υποβολή πρότασης", fb_submitting:"Υποβολή…", fb_submitted:"Υποβλήθηκε",
+  fb_need_name:"Εισαγάγετε όνομα ιστότοπου / λογισμικού", fb_need_one:"Εισαγάγετε το URL του ψεύτικου ιστότοπου ή τον επίσημο που μιμείται",
+  fb_fail:"Η υποβολή απέτυχε, δοκιμάστε αργότερα", fb_fail_net:"Η υποβολή απέτυχε, ελέγξτε το δίκτυο", fb_copied_fallback:"⚠️ Η άμεση υποβολή απέτυχε. Το περιεχόμενο αντιγράφηκε — δοκιμάστε αργότερα.",
   nav_home:"Αρχική", nav_hot:"Λογισμικό", nav_ai:"Εργαλεία AI", nav_sites:"Ιστότοποι", nav_feedback:"Σχόλια", nav_about:"Σχετικά",
   hero_h1:"Βρες επίσημους ιστότοπους", hero_p:"Μόνο χειροκίνητα επαληθευμένοι επίσημοι ιστότοποι · Σου λέμε ποιον να διαλέξεις",
   plat_all:"Όλες οι πλατφόρμες", search_ph:"Αναζήτηση λογισμικού ή ιστότοπου…", search_btn:"Αναζήτηση",
@@ -1470,6 +1768,7 @@ function doSearch(){
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
 // 反馈弹窗
 function openFbModal(tab){
+  if(typeof applyLang === "function") applyLang();
   document.getElementById("fbModal").style.display = "flex";
   document.body.style.overflow = "hidden";
   if(tab) switchFbTab(tab);
@@ -1512,38 +1811,38 @@ async function submitNewSite(){
   const name = document.getElementById("fbNewName").value.trim();
   const url = document.getElementById("fbNewUrl").value.trim();
   const desc = document.getElementById("fbNewDesc").value.trim();
-  if(!name){ alert("请填写网站 / 软件名称"); return; }
+  if(!name){ alert(t("fb_need_name")); return; }
   const btn = document.getElementById("fbSubmitNew");
   const okEl = document.getElementById("fbOkNew");
-  btn.disabled = true; btn.textContent = "提交中…";
+  btn.disabled = true; btn.textContent = t("fb_submitting");
   try{
     const r = await fetch("/api/feedback", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ type:"new", name, url, desc }) });
     const j = await r.json().catch(()=>({ok:false}));
-    if(j.ok){ okEl.style.display = "block"; btn.textContent = "已提交"; setTimeout(closeFbModal, 1500); return; }
-    alert("提交失败，请稍后重试");
-  }catch(e){ alert("提交失败，请检查网络后重试"); }
-  btn.disabled = false; btn.textContent = "提交推荐";
+    if(j.ok){ okEl.textContent = t("fb_done_new"); okEl.style.display = "block"; btn.textContent = t("fb_submitted"); setTimeout(closeFbModal, 1500); return; }
+    alert(t("fb_fail"));
+  }catch(e){ alert(t("fb_fail_net")); }
+  btn.disabled = false; btn.textContent = t("fb_submit_new");
 }
 async function submitFeedback(){
   const fake = document.getElementById("fbFake").value.trim();
   const real = document.getElementById("fbReal").value.trim();
   const note = document.getElementById("fbNote").value.trim();
   const honey = document.getElementById("fbWeb").value;
-  if(!fake && !real){ alert("请至少填写假网站网址或被冒充的官网"); return; }
+  if(!fake && !real){ alert(t("fb_need_one")); return; }
   const btn = document.getElementById("fbSubmit");
   const okEl = document.getElementById("fbOk");
-  btn.disabled = true; btn.textContent = "提交中…";
+  btn.disabled = true; btn.textContent = t("fb_submitting");
   const fallbackCopy = () => {
     const txt = "【认官网-假网站反馈】\n假网站：" + (fake||"未填") + "\n冒充对象：" + (real||"未填") + "\n补充说明：" + (note||"无");
-    const done = () => { okEl.textContent = "⚠️ 直接提交失败，已复制反馈内容，请稍后重试。"; okEl.style.display = "block"; };
-    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert("提交失败，请手动复制")); }
-    else alert("提交失败，请手动复制");
-    btn.disabled = false; btn.textContent = "提交反馈";
+    const done = () => { okEl.textContent = t("fb_copied_fallback"); okEl.style.display = "block"; };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(()=>alert(t("fb_fail"))); }
+    else alert(t("fb_fail"));
+    btn.disabled = false; btn.textContent = t("fb_submit");
   };
   try{
     const r = await fetch("/api/feedback", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ fake, real, note, website: honey }) });
     const j = await r.json().catch(()=>({ok:false}));
-    if(j.ok){ okEl.textContent = "✅ 已提交，我们核实后会处理。"; okEl.style.display = "block"; btn.textContent = "已提交"; setTimeout(closeFbModal, 1500); return; }
+    if(j.ok){ okEl.textContent = t("fb_done"); okEl.style.display = "block"; btn.textContent = t("fb_submitted"); setTimeout(closeFbModal, 1500); return; }
     fallbackCopy();
   }catch(e){ fallbackCopy(); }
 }
@@ -1814,6 +2113,21 @@ if ("serviceWorker" in navigator) {
 <script src="/weather.js?v=20261027-weather-advice" defer></script>
 <dialog id="bookmarkDialog" class="weather-dialog" aria-labelledby="bookmarkTitle"><div class="weather-dialog-head"><h2 id="bookmarkTitle">收藏认官网</h2><button type="button" id="bookmarkClose" aria-label="关闭">×</button></div><p id="bookmarkInstructions"></p></dialog>
 <script src="/bookmark.js?v=20261027" defer></script>
+<script>
+// 顶栏图标按钮：平时只显示图标，点按（或悬停）时短暂显示文字提示
+(function(){
+  var lang = (typeof currentLang === "function") ? currentLang() : "zh";
+  var pl = document.getElementById("pwaLabel");
+  if(pl) pl.textContent = lang === "zh" ? "安装应用" : lang === "zht" ? "安裝應用" : "Install App";
+  document.querySelectorAll(".icon-btn").forEach(function(b){
+    b.addEventListener("click", function(){
+      b.classList.add("show-tip");
+      clearTimeout(b._tipT);
+      b._tipT = setTimeout(function(){ b.classList.remove("show-tip"); }, 1800);
+    });
+  });
+})();
+</script>
 <dialog id="weatherDialog" class="weather-dialog" aria-labelledby="weatherDialogTitle">
   <div class="weather-dialog-head"><h2 id="weatherDialogTitle">自定义天气城市</h2><button type="button" id="weatherClose" aria-label="关闭">×</button></div>
   <div class="weather-dialog-actions"><button type="button" id="weatherCapital">国家首都</button><button type="button" id="weatherLocate">使用定位</button></div>
