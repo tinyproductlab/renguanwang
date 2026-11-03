@@ -1921,17 +1921,20 @@ function copyQQNum2(){
   if(footGzh) footGzh.onclick = () => {
     qrModalImg.src = "./gzh-qrcode.jpg";
     qrModalTip.textContent = t("wechat_label") + "小产品实验室";
+    qrModalImg.style.cursor = "";
+    qrModalImg.onclick = null;
     qrModal.style.display = "flex";
   };
   if(footTg) footTg.onclick = () => {
     qrModalImg.src = "./tg-qrcode.png";
-    qrModalTip.textContent = "t.me/renguanwang（点击图片复制链接）";
+    const tipHtml = `<a href="https://t.me/renguanwang" target="_blank" rel="noopener" style="color:#1a1a1a;text-decoration:underline">t.me/renguanwang</a>（点击图片复制链接）`;
+    qrModalTip.innerHTML = tipHtml;
     qrModalImg.style.cursor = "pointer";
     qrModalImg.onclick = () => {
       const url = "https://t.me/renguanwang";
       if(navigator.clipboard) navigator.clipboard.writeText(url);
       qrModalTip.textContent = "已复制!";
-      setTimeout(()=>{ qrModalTip.textContent = "t.me/renguanwang（点击图片复制链接）"; }, 1200);
+      setTimeout(()=>{ qrModalTip.innerHTML = tipHtml; }, 1200);
     };
     qrModal.style.display = "flex";
   };
