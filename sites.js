@@ -12647,5 +12647,7 @@ const SITES = [
 {name:"Hospital Agostinho Neto",url:"https://www.han.gov.cv",cat:"生活服务",rating:4,price:"免费",kw:"hospital agostinho neto，han.gov.cv，官网",desc:"佛得角国家级转诊医院，位于首都普拉亚，认准官网 han.gov.cv。",official:true,region:"CV",plat:"Web",icon:"www.han.gov.cv.ico"},
 {name:"Ålands hälso- och sjukvård",url:"https://www.ahs.ax",cat:"生活服务",rating:4,price:"免费",kw:"ålands hälso- och sjukvård，ahs.ax，官网",desc:"奥兰群岛公共医疗机构，运营玛丽港中央医院，认准官网 ahs.ax。",official:true,region:"AX",plat:"Web",icon:"www.ahs.ax.ico"},
 {name:"LBJ Tropical Medical Center",url:"https://lbjtmc.org",cat:"生活服务",rating:4,price:"免费",kw:"lbj tropical medical center，lbjtmc.org，官网",desc:"美属萨摩亚唯一医院，位于帕果帕果，认准官网 lbjtmc.org。",official:true,region:"AS",plat:"Web",icon:"lbjtmc.org.ico"},
-{name:"Fitness GL",url:"https://fitness.gl",cat:"健身",rating:4,price:"免费",kw:"fitness gl，fitness.gl，官网",desc:"格陵兰本土健身连锁，努克、伊卢利萨特与阿西亚特设有 24 小时健身房，认准官网 fitness.gl。",official:true,region:"GL",plat:"Web",icon:"fitness.gl.ico"}
+{name:"Fitness GL",url:"https://fitness.gl",cat:"健身",rating:4,price:"免费",kw:"fitness gl，fitness.gl，官网",desc:"格陵兰本土健身连锁，努克、伊卢利萨特与阿西亚特设有 24 小时健身房，认准官网 fitness.gl。",official:true,region:"GL",plat:"Web",icon:"fitness.gl.ico"},
+{name:"Dolly Dimples",url:"https://dolly.no",cat:"生活服务",rating:4,price:"免费",kw:"dolly dimples，dolly.no，官网",desc:"挪威本土披萨连锁，1985 年创立，西南部二十余家门店，认准官网 dolly.no。",official:true,region:"NO",plat:"Web",icon:"dolly.no.ico"},
+{name:"Regal Burger",url:"https://regalburger.com",cat:"生活服务",rating:4,price:"免费",kw:"regal burger，regalburger.com，官网",desc:"斯洛伐克本土汉堡连锁，2014 年创立，全国十余家门店，认准官网 regalburger.com。",official:true,region:"SK",plat:"Web",icon:"regalburger.com.ico"}
 ];
