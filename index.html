@@ -249,6 +249,22 @@
   .foot-base { text-align:center; color:#bbb; font-size:12px; padding-top:20px; border-top:1px solid #f3f3f3; max-width:1400px; margin:0 auto; }
   .foot-base a { color:#888; text-decoration:none; }
   .foot-base a:hover { color:#1a1a1a; }
+  .donate-wrap { text-align:center; margin:16px auto 30px; padding:0 20px; }
+  .donate-btn { display:inline-flex; align-items:center; gap:7px; padding:10px 26px; border-radius:999px; border:1px solid #f0c75e; background:#fff7e0; color:#8a6100; font-size:14px; font-weight:600; cursor:pointer; box-shadow:0 2px 8px rgba(240,199,94,.35); transition:transform .15s, box-shadow .15s; }
+  .donate-btn:hover { transform:translateY(-1px); box-shadow:0 4px 14px rgba(240,199,94,.5); }
+  .donate-heart { color:#e0245e; font-size:15px; }
+  .donate-box { background:#fff; border-radius:14px; padding:24px 22px 18px; text-align:center; position:relative; max-width:580px; width:calc(100% - 36px); max-height:88vh; overflow:auto; }
+  .donate-title { font-size:17px; font-weight:700; color:#1a1a1a; }
+  .donate-note { font-size:13px; color:#888; margin-top:6px; }
+  .donate-row { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:16px; }
+  .donate-row figure { margin:0; width:158px; }
+  .donate-row img { width:158px; height:158px; object-fit:contain; border:1px solid #eee; border-radius:10px; background:#fff; }
+  .donate-row figcaption { font-size:13px; color:#555; margin-top:6px; }
+  .donate-addr { margin-top:16px; display:flex; gap:8px; justify-content:center; align-items:center; flex-wrap:wrap; font-size:12px; color:#666; }
+  .donate-addr code { background:#f6f6f6; padding:5px 9px; border-radius:6px; word-break:break-all; font-size:12px; }
+  .donate-addr button { border:1px solid #ddd; background:#fff; border-radius:6px; padding:5px 12px; font-size:12px; cursor:pointer; color:#333; }
+  .donate-net { font-size:11px; color:#aaa; margin-top:6px; }
+  @media (max-width:720px){ .donate-row figure{ width:118px; } .donate-row img{ width:118px; height:118px; } }
   .feedback { max-width:760px; margin:20px auto 60px; padding:0 20px; }
   .foot-inner .feedback { margin:0; padding:0; max-width:420px; flex:1 1 300px; }
   .foot-inner .fb-form { padding:20px; }
@@ -677,6 +693,37 @@
   </div>
   <div class="foot-base">本站仅做网址导航，收录标准：人工打开验过 &nbsp;·&nbsp; 推广位会明确标注 &nbsp;·&nbsp; <a href="./privacy.html">隐私协议</a></div>
   <div id="visitLine" style="text-align:center;font-size:12px;color:#aaa;margin-top:8px">本站累计访问 <span id="visitCount">…</span> 次</div>
+  <div class="donate-wrap">
+    <button type="button" class="donate-btn" id="donateBtn"><span class="donate-heart">❤</span><span data-i18n="donate_btn">打赏</span></button>
+  </div>
+  <div id="donateModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;align-items:center;justify-content:center" onclick="if(event.target===this)closeDonate()">
+    <div class="donate-box">
+      <button onclick="closeDonate()" style="position:absolute;top:8px;right:12px;border:none;background:none;font-size:18px;cursor:pointer">✕</button>
+      <div class="donate-title" data-i18n="donate_title">感谢你的支持</div>
+      <div class="donate-note" data-i18n="donate_note">如果这个站帮到了你，可以请作者喝杯咖啡。</div>
+      <div class="donate-row">
+        <figure><img data-src="./donate-wechat.png" alt="WeChat Pay"><figcaption data-i18n="donate_wechat">微信打赏</figcaption></figure>
+        <figure><img data-src="./donate-alipay.png" alt="Alipay"><figcaption data-i18n="donate_alipay">支付宝打赏</figcaption></figure>
+        <figure><img data-src="./donate-usdt.png" alt="USDT"><figcaption data-i18n="donate_crypto">USDT打赏</figcaption></figure>
+      </div>
+      <div class="donate-addr"><span>USDT (TRC20)</span><code>TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH</code><button type="button" id="usdtCopy" data-i18n="donate_copy">复制地址</button></div>
+    </div>
+  </div>
+  <script>
+  function openDonate(){
+    var m = document.getElementById('donateModal');
+    m.querySelectorAll('img[data-src]').forEach(function(im){ im.src = im.getAttribute('data-src'); im.removeAttribute('data-src'); });
+    m.style.display = 'flex';
+  }
+  function closeDonate(){ document.getElementById('donateModal').style.display = 'none'; }
+  document.getElementById('donateBtn').addEventListener('click', openDonate);
+  document.getElementById('usdtCopy').addEventListener('click', function(){
+    var btn = this;
+    if (navigator.clipboard) navigator.clipboard.writeText('TSAdZm2yNMZCpmd8ussPgrg7pnNYdv9epH');
+    btn.textContent = t('donate_copied');
+    setTimeout(function(){ btn.textContent = t('donate_copy'); }, 1600);
+  });
+  </script>
   <script>
   (function(){
     var el = document.getElementById("visitLine");
@@ -775,6 +822,7 @@ zh: {
   donate_wechat:"微信打赏",
   donate_alipay:"支付宝打赏",
   donate_crypto:"USDT打赏",
+  donate_btn:"打赏", donate_title:"感谢你的支持", donate_note:"如果这个站帮到了你，可以请作者喝杯咖啡。", donate_copy:"复制地址", donate_copied:"已复制",
   foot_gzh:"微信：小产品实验室",
   price_free:"免费", verified:"官网认证", go:"直达 →", dl:"💾 可下载", ad:"推广",
 },
@@ -806,6 +854,7 @@ zht: {
   donate_wechat:"微信打賞",
   donate_alipay:"支付寶打賞",
   donate_crypto:"USDT打賞",
+  donate_btn:"打賞", donate_title:"感謝你的支持", donate_note:"如果這個站幫到了你，可以請作者喝杯咖啡。", donate_copy:"複製地址", donate_copied:"已複製",
   foot_gzh:"微信：小產品實驗室",
   price_free:"免費", verified:"官網認證", go:"直達 →", dl:"💾 可下載", ad:"推廣",
 },
@@ -826,6 +875,7 @@ en: {
   donate_wechat:"WeChat Pay",
   donate_alipay:"Alipay",
   donate_crypto:"USDT",
+  donate_btn:"Tip", donate_title:"Thanks for your support", donate_note:"If this site helped you, you can buy the author a coffee.", donate_copy:"Copy address", donate_copied:"Copied",
   foot_gzh:"WeChat: 小产品实验室",
   price_free:"Free", verified:"Verified", go:"Visit →", dl:"💾 Download", ad:"Ad",
   fb_report:"🚨 Report Fake Site", fb_suggest:"✨ Suggest a Site",
