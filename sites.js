@@ -12633,5 +12633,6 @@ const SITES = [
 {name:"Cheshire Hall Medical Centre",url:"https://www.tcihospital.tc",cat:"生活服务",rating:4,price:"免费",kw:"cheshire hall medical centre，tcihospital.tc，官网",desc:"特克斯和凯科斯群岛主要医院，位于普罗维登西亚莱斯，认准官网 tcihospital.tc。",official:true,region:"TC",plat:"Web",icon:"www.tcihospital.tc.ico"},
 {name:"Queen Elizabeth Hospital",url:"https://www.qehconnect.com",cat:"生活服务",rating:4,price:"免费",kw:"queen elizabeth hospital，qehconnect.com，官网",desc:"巴巴多斯国家级医院，位于布里奇顿，认准官网 qehconnect.com。",official:true,region:"BB",plat:"Web",icon:"www.qehconnect.com.ico"},
 {name:"Bebelandia",url:"https://bebelandiasv.com",cat:"购物消费",rating:4,price:"免费",kw:"bebelandia，bebelandiasv.com，官网",desc:"萨尔瓦多本土母婴用品连锁，圣萨尔瓦多、圣安娜等地多家门店，认准官网 bebelandiasv.com。",official:true,region:"SV",plat:"Web",icon:"bebelandiasv.com.ico"},
-{name:"Novízzima",url:"https://www.novizzima.com",cat:"生活服务",rating:4,price:"免费",kw:"novízzima，novizzima.com，官网",desc:"萨尔瓦多本土披萨连锁，1979 年以 Pizza Nova 之名创立，圣萨尔瓦多等地多家门店，认准官网 novizzima.com。",official:true,region:"SV",plat:"Web",icon:"www.novizzima.com.ico"}
+{name:"Novízzima",url:"https://www.novizzima.com",cat:"生活服务",rating:4,price:"免费",kw:"novízzima，novizzima.com，官网",desc:"萨尔瓦多本土披萨连锁，1979 年以 Pizza Nova 之名创立，圣萨尔瓦多等地多家门店，认准官网 novizzima.com。",official:true,region:"SV",plat:"Web",icon:"www.novizzima.com.ico"},
+{name:"Windhoek Central Hospital",url:"https://wch.gov.na",cat:"生活服务",rating:4,price:"免费",kw:"windhoek central hospital，wch.gov.na，官网",desc:"纳米比亚国家级中央医院，认准官网 wch.gov.na。",official:true,region:"NA",plat:"Web",icon:"wch.gov.na.ico"}
 ];
