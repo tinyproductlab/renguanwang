@@ -12661,5 +12661,7 @@ const SITES = [
 {name:"The Bakery Cafe",url:"https://thebakerycafe.com.np",cat:"购物消费",rating:4,price:"免费",kw:"the bakery cafe，thebakerycafe.com.np，官网",desc:"尼泊尔本土烘焙咖啡连锁，1991 年创立，加德满都谷地多家门店，认准官网 thebakerycafe.com.np。",official:true,region:"NP",plat:"Web",icon:"thebakerycafe.com.np.ico"},
 {name:"Shwe Pu Zun",url:"https://shwepuzuncake.com",cat:"购物消费",rating:4,price:"免费",kw:"shwe pu zun，shwepuzuncake.com，官网",desc:"缅甸本土面包糕点连锁，1978 年创立，仰光多家门店及内比都门店，认准官网 shwepuzuncake.com。",official:true,region:"MM",plat:"Web",icon:"shwepuzuncake.com.ico"},
 {name:"Naoero Medical Centre",url:"https://www.nmc.gov.nr",cat:"生活服务",rating:4,price:"免费",kw:"naoero medical centre，nmc.gov.nr，官网",desc:"瑙鲁国家医疗中心（原瑙鲁共和国医院），全国唯一的公立医院，认准官网 nmc.gov.nr。",official:true,region:"NR",plat:"Web",icon:"www.nmc.gov.nr.ico"},
-{name:"CHU de la Référence Nationale",url:"https://churn.td",cat:"生活服务",rating:4,price:"免费",kw:"chu de la référence nationale，churn.td，官网",desc:"乍得国家转诊大学医院中心，位于恩贾梅纳，认准官网 churn.td。",official:true,region:"TD",plat:"Web",icon:"churn.td.ico"}
+{name:"CHU de la Référence Nationale",url:"https://churn.td",cat:"生活服务",rating:4,price:"免费",kw:"chu de la référence nationale，churn.td，官网",desc:"乍得国家转诊大学医院中心，位于恩贾梅纳，认准官网 churn.td。",official:true,region:"TD",plat:"Web",icon:"churn.td.ico"},
+{name:"Tuaco Opticians",url:"https://tuaco.com",cat:"购物消费",rating:4,price:"免费",kw:"tuaco opticians，tuaco.com，官网",desc:"马耳他本土家族眼镜企业，1948 年创立，瓦莱塔设有门店，认准官网 tuaco.com。",official:true,region:"MT",plat:"Web",icon:"tuaco.com.ico"},
+{name:"Barbar",url:"https://www.eatbarbar.com",cat:"生活服务",rating:4,price:"免费",kw:"barbar，eatbarbar.com，官网",desc:"黎巴嫩本土快餐连锁，1979 年创立于贝鲁特，黎巴嫩多家门店并已拓展至海湾多国，认准官网 eatbarbar.com。",official:true,region:"LB",plat:"Web",icon:"www.eatbarbar.com.ico"}
 ];
