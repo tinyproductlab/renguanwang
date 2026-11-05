@@ -12791,5 +12791,6 @@ const SITES = [
 {name:"甘肃政务服务网",url:"https://zwfw.gansu.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"甘肃政务服务网，甘快办，zwfw.gansu.gov.cn，官网",desc:"甘肃政务服务网，认准官网 zwfw.gansu.gov.cn。",official:true,region:"CN",plat:"Web",icon:"zwfw.gansu.gov.cn.ico"},
 {name:"青海政务服务网",url:"https://www.qhzwfw.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"青海政务服务网，青松办，qhzwfw.gov.cn，官网",desc:"青海政务服务网，认准官网 qhzwfw.gov.cn。",official:true,region:"CN",plat:"Web",icon:"www.qhzwfw.gov.cn.ico"},
 {name:"宁夏政务服务网",url:"https://zwfw.nx.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"宁夏政务服务网，我的宁夏，zwfw.nx.gov.cn，官网",desc:"宁夏政务服务网，认准官网 zwfw.nx.gov.cn。",official:true,region:"CN",plat:"Web",icon:"zwfw.nx.gov.cn.ico"},
-{name:"新疆政务服务网",url:"https://zwfw.xinjiang.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"新疆政务服务网，新服办，zwfw.xinjiang.gov.cn，官网",desc:"新疆政务服务网，认准官网 zwfw.xinjiang.gov.cn。",official:true,region:"CN",plat:"Web",icon:"zwfw.xinjiang.gov.cn.ico"}
+{name:"新疆政务服务网",url:"https://zwfw.xinjiang.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"新疆政务服务网，新服办，zwfw.xinjiang.gov.cn，官网",desc:"新疆政务服务网，认准官网 zwfw.xinjiang.gov.cn。",official:true,region:"CN",plat:"Web",icon:"zwfw.xinjiang.gov.cn.ico"},
+{name:"Chapati & Karak",url:"https://chapatikarak.com",cat:"生活服务",rating:4,price:"免费",kw:"chapati & karak,chapatikarak.com，官网",desc:"卡塔尔恰巴提与卡拉克奶茶连锁，多哈多家门店，认准官网 chapatikarak.com。",official:true,region:"QA",plat:"Web",icon:"chapatikarak.com.ico"}
 ];
