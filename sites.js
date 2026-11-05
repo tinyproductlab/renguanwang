@@ -12965,5 +12965,7 @@ const SITES = [
 {name:"Gymnasia",url:"https://gymnasia.ge",cat:"健身",rating:4,price:"免费",kw:"gymnasia，gymnasia.ge，官网",desc:"格鲁吉亚第比利斯运动健身俱乐部，认准官网 gymnasia.ge。",official:true,region:"GE",plat:"Web",icon:"gymnasia.ge.ico"},
 {name:"ROC Fitness Club",url:"https://www.rocfitnessclub.com",cat:"健身",rating:4,price:"免费",kw:"roc fitness club，rocfitnessclub.com，官网",desc:"尼泊尔加德满都健身连锁，认准官网 rocfitnessclub.com。",official:true,region:"NP",plat:"Web",icon:"www.rocfitnessclub.com.ico"},
 {name:"Ópticas Franklin",url:"https://opticasfranklinsv.com",cat:"购物消费",rating:4,price:"免费",kw:"ópticas franklin，opticasfranklinsv.com，官网",desc:"萨尔瓦多眼镜连锁，认准官网 opticasfranklinsv.com。",official:true,region:"SV",plat:"Web",icon:"opticasfranklinsv.com.ico"},
-{name:"Sicilia",url:"https://pekarasicilia.me",cat:"生活服务",rating:4,price:"免费",kw:"sicilia，pekarasicilia.me，官网",desc:"黑山波德戈里察意式面包披萨连锁，认准官网 pekarasicilia.me。",official:true,region:"ME",plat:"Web",icon:"pekarasicilia.me.ico"}
+{name:"Sicilia",url:"https://pekarasicilia.me",cat:"生活服务",rating:4,price:"免费",kw:"sicilia，pekarasicilia.me，官网",desc:"黑山波德戈里察意式面包披萨连锁，认准官网 pekarasicilia.me。",official:true,region:"ME",plat:"Web",icon:"pekarasicilia.me.ico"},
+{name:"Bäckerei Wanger",url:"https://wangerag.com",cat:"购物消费",rating:4,price:"免费",kw:"bäckerei wanger，wangerag.com，官网",desc:"列支敦士登家族面包糕点企业，认准官网 wangerag.com。",official:true,region:"LI",plat:"Web",icon:"wangerag.com.ico"},
+{name:"Muhu Pagarid",url:"https://muhupagarid.ee",cat:"购物消费",rating:4,price:"免费",kw:"muhu pagarid，muhupagarid.ee，官网",desc:"爱沙尼亚面包品牌连锁，认准官网 muhupagarid.ee。",official:true,region:"EE",plat:"Web",icon:"muhupagarid.ee.ico"}
 ];
