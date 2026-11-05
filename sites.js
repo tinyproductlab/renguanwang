@@ -12969,5 +12969,7 @@ const SITES = [
 {name:"Bäckerei Wanger",url:"https://wangerag.com",cat:"购物消费",rating:4,price:"免费",kw:"bäckerei wanger，wangerag.com，官网",desc:"列支敦士登家族面包糕点企业，认准官网 wangerag.com。",official:true,region:"LI",plat:"Web",icon:"wangerag.com.ico"},
 {name:"Muhu Pagarid",url:"https://muhupagarid.ee",cat:"购物消费",rating:4,price:"免费",kw:"muhu pagarid，muhupagarid.ee，官网",desc:"爱沙尼亚面包品牌连锁，认准官网 muhupagarid.ee。",official:true,region:"EE",plat:"Web",icon:"muhupagarid.ee.ico"},
 {name:"Muscat Opticians",url:"https://muscatopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"muscat opticians，muscatopticians.com，官网",desc:"阿曼本土眼镜连锁，认准官网 muscatopticians.com。",official:true,region:"OM",plat:"Web",icon:"muscatopticians.com.ico"},
-{name:"Bachir",url:"https://bachir.com",cat:"购物消费",rating:4,price:"免费",kw:"bachir，bachir.com，官网",desc:"黎巴嫩老牌冰淇淋品牌连锁，认准官网 bachir.com。",official:true,region:"LB",plat:"Web",icon:"bachir.com.ico"}
+{name:"Bachir",url:"https://bachir.com",cat:"购物消费",rating:4,price:"免费",kw:"bachir，bachir.com，官网",desc:"黎巴嫩老牌冰淇淋品牌连锁，认准官网 bachir.com。",official:true,region:"LB",plat:"Web",icon:"bachir.com.ico"},
+{name:"Kære Børn",url:"https://kaereboern.dk",cat:"购物消费",rating:4,price:"免费",kw:"kære børn，kaereboern.dk，官网",desc:"丹麦本土母婴用品连锁，认准官网 kaereboern.dk。",official:true,region:"DK",plat:"Web",icon:"kaereboern.dk.ico"},
+{name:"Óptica Florida",url:"https://opticaflorida.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"óptica florida，opticaflorida.com.uy，官网",desc:"乌拉圭本土眼镜连锁，认准官网 opticaflorida.com.uy。",official:true,region:"UY",plat:"Web",icon:"opticaflorida.com.uy.ico"}
 ];
