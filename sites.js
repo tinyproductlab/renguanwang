@@ -12944,5 +12944,7 @@ const SITES = [
 {name:"Kauno klinikos",url:"https://kaunoklinikos.lt",cat:"生活服务",rating:4,price:"免费",kw:"kauno klinikos，kaunoklinikos.lt，官网",desc:"立陶宛考纳斯临床医院，认准官网 kaunoklinikos.lt。",official:true,region:"LT",plat:"Web",icon:"kaunoklinikos.lt.ico"},
 {name:"Zan Mitrev Clinic",url:"https://zmc.mk",cat:"生活服务",rating:4,price:"免费",kw:"zan mitrev clinic，zmc.mk，官网",desc:"北马其顿斯科普里私立心脏专科医院，认准官网 zmc.mk。",official:true,region:"MK",plat:"Web",icon:"zmc.mk.ico"},
 {name:"CHU de La Réunion",url:"https://www.chu-reunion.fr",cat:"生活服务",rating:4,price:"免费",kw:"chu de la réunion，chu-reunion.fr，官网",desc:"留尼汪大学医院中心，认准官网 chu-reunion.fr。",official:true,region:"RE",plat:"Web",icon:"www.chu-reunion.fr.ico"},
-{name:"King Faisal Hospital",url:"https://kfh.rw",cat:"生活服务",rating:4,price:"免费",kw:"king faisal hospital，kfh.rw，官网",desc:"卢旺达基加利费萨尔国王医院，认准官网 kfh.rw。",official:true,region:"RW",plat:"Web",icon:"kfh.rw.ico"}
+{name:"King Faisal Hospital",url:"https://kfh.rw",cat:"生活服务",rating:4,price:"免费",kw:"king faisal hospital，kfh.rw，官网",desc:"卢旺达基加利费萨尔国王医院，认准官网 kfh.rw。",official:true,region:"RW",plat:"Web",icon:"kfh.rw.ico"},
+{name:"JUKU",url:"https://www.jukukeskus.ee",cat:"购物消费",rating:4,price:"免费",kw:"juku，jukukeskus.ee，官网",desc:"爱沙尼亚儿童用品连锁，认准官网 jukukeskus.ee。",official:true,region:"EE",plat:"Web",icon:"www.jukukeskus.ee.ico"},
+{name:"Torarica Group",url:"https://torarica.com",cat:"购物消费",rating:4,price:"免费",kw:"torarica group，torarica.com，官网",desc:"苏里南本土酒店集团，认准官网 torarica.com。",official:true,region:"SR",plat:"Web",icon:"torarica.com.ico"}
 ];
