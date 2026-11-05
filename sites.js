@@ -12906,5 +12906,7 @@ const SITES = [
 {name:"Baby Centar",url:"https://babycentar.ba",cat:"购物消费",rating:4,price:"免费",kw:"baby centar，babycentar.ba，官网",desc:"波黑本土母婴用品连锁，运营方 ITALGROUP，萨拉热窝设有大型门店并全境配送，认准官网 babycentar.ba。",official:true,region:"BA",plat:"Web",icon:"babycentar.ba.ico"},
 {name:"Timanttiset",url:"https://timanttiset.fi",cat:"购物消费",rating:4,price:"免费",kw:"timanttiset，timanttiset.fi，官网",desc:"芬兰本土钟表珠宝连锁，1972 年成立的创业者合作社，全国约三十家门店，认准官网 timanttiset.fi。",official:true,region:"FI",plat:"Web",icon:"timanttiset.fi.ico"},
 {name:"BabySky",url:"https://babysky.com.mt",cat:"购物消费",rating:4,price:"免费",kw:"babysky，babysky.com.mt，官网",desc:"马耳他本土母婴用品连锁，两家门店并经营网店，认准官网 babysky.com.mt。",official:true,region:"MT",plat:"Web",icon:"babysky.com.mt.ico"},
-{name:"PernaMea",url:"https://pernamea.md",cat:"购物消费",rating:4,price:"免费",kw:"pernamea，pernamea.md，官网",desc:"摩尔多瓦本土母婴用品连锁，基希讷乌三家门店并经营网店，认准官网 pernamea.md。",official:true,region:"MD",plat:"Web",icon:"pernamea.md.ico"}
+{name:"PernaMea",url:"https://pernamea.md",cat:"购物消费",rating:4,price:"免费",kw:"pernamea，pernamea.md，官网",desc:"摩尔多瓦本土母婴用品连锁，基希讷乌三家门店并经营网店，认准官网 pernamea.md。",official:true,region:"MD",plat:"Web",icon:"pernamea.md.ico"},
+{name:"Jouel",url:"https://joueljewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"jouel，joueljewellery.com，官网",desc:"塞舌尔本土珠宝品牌，2004 年创立，全国八家门店，认准官网 joueljewellery.com。",official:true,region:"SC",plat:"Web",icon:"joueljewellery.com.ico"},
+{name:"California Gym",url:"https://www.california-gym.com",cat:"健身",rating:4,price:"免费",kw:"california gym，california-gym.com，官网",desc:"突尼斯本土健身连锁，1999 年创立，该国首家健身连锁，十二家俱乐部，认准官网 california-gym.com。",official:true,region:"TN",plat:"Web",icon:"www.california-gym.com.ico"}
 ];
