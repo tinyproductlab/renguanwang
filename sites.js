@@ -12939,5 +12939,10 @@ const SITES = [
 {name:"City Optic",url:"https://cityoptic.mn",cat:"购物消费",rating:4,price:"免费",kw:"city optic，cityoptic.mn，官网",desc:"蒙古眼镜零售连锁，认准官网 cityoptic.mn。",official:true,region:"MN",plat:"Web",icon:"cityoptic.mn.ico"},
 {name:"VH Hotels & Resorts",url:"https://www.vhhr.com",cat:"购物消费",rating:4,price:"免费",kw:"vh hotels & resorts，vhhr.com，官网",desc:"多米尼加本土酒店集团，认准官网 vhhr.com。",official:true,region:"DO",plat:"Web",icon:"www.vhhr.com.ico"},
 {name:"Djeliba Leisure Group",url:"https://djelibagroup.com",cat:"购物消费",rating:4,price:"免费",kw:"djeliba leisure group，djelibagroup.com，官网",desc:"冈比亚本土酒店集团，认准官网 djelibagroup.com。",official:true,region:"GM",plat:"Web",icon:"djelibagroup.com.ico"},
-{name:"Heritance Hotels & Resorts",url:"https://www.heritancehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"heritance hotels & resorts，heritancehotels.com，官网",desc:"斯里兰卡酒店集团，认准官网 heritancehotels.com。",official:true,region:"LK",plat:"Web",icon:"www.heritancehotels.com.ico"}
+{name:"Heritance Hotels & Resorts",url:"https://www.heritancehotels.com",cat:"购物消费",rating:4,price:"免费",kw:"heritance hotels & resorts，heritancehotels.com，官网",desc:"斯里兰卡酒店集团，认准官网 heritancehotels.com。",official:true,region:"LK",plat:"Web",icon:"www.heritancehotels.com.ico"},
+{name:"Khimji's Watches",url:"https://khimjiswatches.om",cat:"购物消费",rating:4,price:"免费",kw:"khimji's watches，khimjiswatches.om，官网",desc:"阿曼珠宝腕表零售商，认准官网 khimjiswatches.om。",official:true,region:"OM",plat:"Web",icon:"khimjiswatches.om.ico"},
+{name:"Kauno klinikos",url:"https://kaunoklinikos.lt",cat:"生活服务",rating:4,price:"免费",kw:"kauno klinikos，kaunoklinikos.lt，官网",desc:"立陶宛考纳斯临床医院，认准官网 kaunoklinikos.lt。",official:true,region:"LT",plat:"Web",icon:"kaunoklinikos.lt.ico"},
+{name:"Zan Mitrev Clinic",url:"https://zmc.mk",cat:"生活服务",rating:4,price:"免费",kw:"zan mitrev clinic，zmc.mk，官网",desc:"北马其顿斯科普里私立心脏专科医院，认准官网 zmc.mk。",official:true,region:"MK",plat:"Web",icon:"zmc.mk.ico"},
+{name:"CHU de La Réunion",url:"https://www.chu-reunion.fr",cat:"生活服务",rating:4,price:"免费",kw:"chu de la réunion，chu-reunion.fr，官网",desc:"留尼汪大学医院中心，认准官网 chu-reunion.fr。",official:true,region:"RE",plat:"Web",icon:"www.chu-reunion.fr.ico"},
+{name:"King Faisal Hospital",url:"https://kfh.rw",cat:"生活服务",rating:4,price:"免费",kw:"king faisal hospital，kfh.rw，官网",desc:"卢旺达基加利费萨尔国王医院，认准官网 kfh.rw。",official:true,region:"RW",plat:"Web",icon:"kfh.rw.ico"}
 ];
