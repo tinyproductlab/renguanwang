@@ -12722,5 +12722,6 @@ const SITES = [
 {name:"中国人大网",url:"https://www.npc.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"中国人大网，全国人大，npc.gov.cn，官网",desc:"全国人民代表大会常务委员会官方网站，认准官网 npc.gov.cn。",official:true,region:"CN",plat:"Web",icon:"www.npc.gov.cn.ico"},
 {name:"中国政协网",url:"https://www.cppcc.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"中国政协网，全国政协，cppcc.gov.cn，官网",desc:"中国人民政治协商会议全国委员会官方网站，认准官网 cppcc.gov.cn。",official:true,region:"CN",plat:"Web",icon:"www.cppcc.gov.cn.ico"},
 {name:"最高人民法院",url:"https://www.court.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"最高人民法院，最高法，court.gov.cn，官网",desc:"中华人民共和国最高人民法院官方网站，认准官网 court.gov.cn。",official:true,region:"CN",plat:"Web",icon:"www.court.gov.cn.ico"},
-{name:"最高人民检察院",url:"https://www.spp.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"最高人民检察院，最高检，spp.gov.cn，官网",desc:"中华人民共和国最高人民检察院官方网站，认准官网 spp.gov.cn。",official:true,region:"CN",plat:"Web",icon:"www.spp.gov.cn.ico"}
+{name:"最高人民检察院",url:"https://www.spp.gov.cn",cat:"政府官网",rating:4,price:"免费",kw:"最高人民检察院，最高检，spp.gov.cn，官网",desc:"中华人民共和国最高人民检察院官方网站，认准官网 spp.gov.cn。",official:true,region:"CN",plat:"Web",icon:"www.spp.gov.cn.ico"},
+{name:"Avancia",url:"https://avancia.ax",cat:"健身",rating:4,price:"免费",kw:"avancia，avancia.ax，官网",desc:"奥兰群岛玛丽港健身连锁，两家门店，认准官网 avancia.ax。",official:true,region:"AX",plat:"Web",icon:"avancia.ax.ico"}
 ];
