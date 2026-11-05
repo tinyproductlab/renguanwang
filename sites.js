@@ -12982,5 +12982,6 @@ const SITES = [
 {name:"Namibia Wildlife Resorts",url:"https://nwr.com.na",cat:"生活服务",rating:4,price:"免费",kw:"namibia wildlife resorts，nwr.com.na，官网",desc:"纳米比亚国有度假村与营地集团，认准官网 nwr.com.na。",official:true,region:"NA",plat:"Web",icon:"nwr.com.na.ico"},
 {name:"Sultan's Dine",url:"https://sultansdinebd.com",cat:"生活服务",rating:4,price:"免费",kw:"sultan's dine，sultansdinebd.com，官网",desc:"孟加拉国本土比尔亚尼餐饮连锁，认准官网 sultansdinebd.com。",official:true,region:"BD",plat:"Web",icon:"sultansdinebd.com.ico"},
 {name:"F1 Fitness",url:"https://clubf1.lv",cat:"健身",rating:4,price:"免费",kw:"f1 fitness，clubf1.lv，官网",desc:"拉脱维亚本土健身连锁，认准官网 clubf1.lv。",official:true,region:"LV",plat:"Web",icon:"clubf1.lv.ico"},
-{name:"Parirenyatwa Group of Hospitals",url:"https://parihosp.org",cat:"生活服务",rating:4,price:"免费",kw:"parirenyatwa group of hospitals，parihosp.org，官网",desc:"津巴布韦最大公立转诊医院群，认准官网 parihosp.org。",official:true,region:"ZW",plat:"Web",icon:"parihosp.org.ico"}
+{name:"Parirenyatwa Group of Hospitals",url:"https://parihosp.org",cat:"生活服务",rating:4,price:"免费",kw:"parirenyatwa group of hospitals，parihosp.org，官网",desc:"津巴布韦最大公立转诊医院群，认准官网 parihosp.org。",official:true,region:"ZW",plat:"Web",icon:"parihosp.org.ico"},
+{name:"Roadster Diner",url:"https://roadsterdiner.com",cat:"生活服务",rating:4,price:"免费",kw:"roadster diner，roadsterdiner.com，官网",desc:"黎巴嫩本土美式餐吧连锁，认准官网 roadsterdiner.com。",official:true,region:"LB",plat:"Web",icon:"roadsterdiner.com.ico"}
 ];
