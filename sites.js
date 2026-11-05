@@ -12803,5 +12803,6 @@ const SITES = [
 {name:"Mangalis Hotel Group",url:"https://mangalis.com",cat:"购物消费",rating:4,price:"免费",kw:"mangalis hotel group,mangalis.com,官网",desc:"总部位于塞内加尔达喀尔的泛非酒店集团，旗下 Noom、Seen、Yaas 三个品牌，认准官网 mangalis.com。",official:true,region:"SN",plat:"Web",icon:"mangalis.com.ico"},
 {name:"Souq Waqif Boutique Hotels",url:"https://www.swbh.com",cat:"购物消费",rating:4,price:"免费",kw:"souq waqif boutique hotels,swbh.com,官网",desc:"卡塔尔多哈瓦其夫市集内的精品酒店集合，共 8 家酒店统一运营，认准官网 swbh.com。",official:true,region:"QA",plat:"Web",icon:"www.swbh.com.ico"},
 {name:"Etika",url:"https://www.etika.fo",cat:"生活服务",rating:4,price:"免费",kw:"etika,etika.fo,官网",desc:"法罗群岛寿司餐厅，托尔斯港两家门店，认准官网 etika.fo。",official:true,region:"FO",plat:"Web",icon:"www.etika.fo.ico"},
-{name:"Shell Beans",url:"https://shellbeans.com",cat:"生活服务",rating:4,price:"免费",kw:"shell beans,shellbeans.com,官网",desc:"马尔代夫咖啡餐厅连锁，马累与胡鲁马累多家门店，认准官网 shellbeans.com。",official:true,region:"MV",plat:"Web",icon:"shellbeans.com.ico"}
+{name:"Shell Beans",url:"https://shellbeans.com",cat:"生活服务",rating:4,price:"免费",kw:"shell beans,shellbeans.com,官网",desc:"马尔代夫咖啡餐厅连锁，马累与胡鲁马累多家门店，认准官网 shellbeans.com。",official:true,region:"MV",plat:"Web",icon:"shellbeans.com.ico"},
+{name:"Theocharides Optika",url:"https://theocharidesopticals.com",cat:"购物消费",rating:4,price:"免费",kw:"theocharides optika，theocharides opticals，theocharidesopticals.com，官网",desc:"塞浦路斯本土眼镜连锁，家族经营四十余年，在尼科西亚与利马索尔设有门店，认准官网 theocharidesopticals.com。",official:true,region:"CY",plat:"Web",icon:"theocharidesopticals.com.ico"}
 ];
