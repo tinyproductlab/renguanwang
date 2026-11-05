@@ -13008,5 +13008,6 @@ const SITES = [
 {name:"First Central Hospital of Mongolia",url:"https://unte.moh.gov.mn",cat:"生活服务",rating:4,price:"免费",kw:"first central hospital of mongolia，unte.moh.gov.mn，官网",desc:"蒙古国第一中央医院，认准官网 unte.moh.gov.mn。",official:true,region:"MN",plat:"Web",icon:"unte.moh.gov.mn.ico"},
 {name:"MK Mountain Resort",url:"https://www.mkresort.com",cat:"生活服务",rating:4,price:"免费",kw:"mk mountain resort，mkresort.com，官网",desc:"塞尔维亚科帕奥尼克度假酒店集团，认准官网 mkresort.com。",official:true,region:"RS",plat:"Web",icon:"www.mkresort.com.ico"},
 {name:"Africa Albida Tourism",url:"https://www.africaalbidatourism.com",cat:"生活服务",rating:4,price:"免费",kw:"africa albida tourism，africaalbidatourism.com，官网",desc:"津巴布韦维多利亚瀑布酒店集团，认准官网 africaalbidatourism.com。",official:true,region:"ZW",plat:"Web",icon:"www.africaalbidatourism.com.ico"},
-{name:"Robin Pope Safaris",url:"https://www.robinpopesafaris.net",cat:"生活服务",rating:4,price:"免费",kw:"robin pope safaris，robinpopesafaris.net，官网",desc:"赞比亚狩猎营地集团，认准官网 robinpopesafaris.net。",official:true,region:"ZM",plat:"Web",icon:"www.robinpopesafaris.net.ico"}
+{name:"Robin Pope Safaris",url:"https://www.robinpopesafaris.net",cat:"生活服务",rating:4,price:"免费",kw:"robin pope safaris，robinpopesafaris.net，官网",desc:"赞比亚狩猎营地集团，认准官网 robinpopesafaris.net。",official:true,region:"ZM",plat:"Web",icon:"www.robinpopesafaris.net.ico"},
+{name:"Vibholm",url:"https://www.vibholm.dk",cat:"购物消费",rating:4,price:"免费",kw:"vibholm，vibholm.dk，官网",desc:"丹麦珠宝钟表连锁，认准官网 vibholm.dk。",official:true,region:"DK",plat:"Web",icon:"www.vibholm.dk.ico"}
 ];
