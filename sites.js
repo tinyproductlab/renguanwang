@@ -12968,5 +12968,6 @@ const SITES = [
 {name:"Sicilia",url:"https://pekarasicilia.me",cat:"生活服务",rating:4,price:"免费",kw:"sicilia，pekarasicilia.me，官网",desc:"黑山波德戈里察意式面包披萨连锁，认准官网 pekarasicilia.me。",official:true,region:"ME",plat:"Web",icon:"pekarasicilia.me.ico"},
 {name:"Bäckerei Wanger",url:"https://wangerag.com",cat:"购物消费",rating:4,price:"免费",kw:"bäckerei wanger，wangerag.com，官网",desc:"列支敦士登家族面包糕点企业，认准官网 wangerag.com。",official:true,region:"LI",plat:"Web",icon:"wangerag.com.ico"},
 {name:"Muhu Pagarid",url:"https://muhupagarid.ee",cat:"购物消费",rating:4,price:"免费",kw:"muhu pagarid，muhupagarid.ee，官网",desc:"爱沙尼亚面包品牌连锁，认准官网 muhupagarid.ee。",official:true,region:"EE",plat:"Web",icon:"muhupagarid.ee.ico"},
-{name:"Muscat Opticians",url:"https://muscatopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"muscat opticians，muscatopticians.com，官网",desc:"阿曼本土眼镜连锁，认准官网 muscatopticians.com。",official:true,region:"OM",plat:"Web",icon:"muscatopticians.com.ico"}
+{name:"Muscat Opticians",url:"https://muscatopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"muscat opticians，muscatopticians.com，官网",desc:"阿曼本土眼镜连锁，认准官网 muscatopticians.com。",official:true,region:"OM",plat:"Web",icon:"muscatopticians.com.ico"},
+{name:"Bachir",url:"https://bachir.com",cat:"购物消费",rating:4,price:"免费",kw:"bachir，bachir.com，官网",desc:"黎巴嫩老牌冰淇淋品牌连锁，认准官网 bachir.com。",official:true,region:"LB",plat:"Web",icon:"bachir.com.ico"}
 ];
