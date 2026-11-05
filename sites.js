@@ -12903,5 +12903,6 @@ const SITES = [
 {name:"Centre Hospitalier Universitaire Yalgado Ouédraogo",url:"https://chuyobf.org",cat:"生活服务",rating:4,price:"免费",kw:"chu yalgado ouédraogo，chuyobf.org，官网",desc:"布基纳法索最大的大学医院，位于瓦加杜古，认准官网 chuyobf.org。",official:true,region:"BF",plat:"Web",icon:"chuyobf.org.ico"},
 {name:"Panadería Santa Eduvigis",url:"https://santaeduvigis.com",cat:"购物消费",rating:4,price:"免费",kw:"panadería santa eduvigis，santaeduvigis.com，官网",desc:"萨尔瓦多本土烘焙连锁，1955 年创立，以 semita 蜜糖面包闻名，全国二十余家门店，认准官网 santaeduvigis.com。",official:true,region:"SV",plat:"Web",icon:"santaeduvigis.com.ico"},
 {name:"Centre Hospitalier National de Nouakchott",url:"https://chn.mr",cat:"生活服务",rating:4,price:"免费",kw:"centre hospitalier national de nouakchott，chn.mr，官网",desc:"毛里塔尼亚国家医院，位于努瓦克肖特，认准官网 chn.mr。",official:true,region:"MR",plat:"Web",icon:"chn.mr.ico"},
-{name:"Baby Centar",url:"https://babycentar.ba",cat:"购物消费",rating:4,price:"免费",kw:"baby centar，babycentar.ba，官网",desc:"波黑本土母婴用品连锁，运营方 ITALGROUP，萨拉热窝设有大型门店并全境配送，认准官网 babycentar.ba。",official:true,region:"BA",plat:"Web",icon:"babycentar.ba.ico"}
+{name:"Baby Centar",url:"https://babycentar.ba",cat:"购物消费",rating:4,price:"免费",kw:"baby centar，babycentar.ba，官网",desc:"波黑本土母婴用品连锁，运营方 ITALGROUP，萨拉热窝设有大型门店并全境配送，认准官网 babycentar.ba。",official:true,region:"BA",plat:"Web",icon:"babycentar.ba.ico"},
+{name:"Timanttiset",url:"https://timanttiset.fi",cat:"购物消费",rating:4,price:"免费",kw:"timanttiset，timanttiset.fi，官网",desc:"芬兰本土钟表珠宝连锁，1972 年成立的创业者合作社，全国约三十家门店，认准官网 timanttiset.fi。",official:true,region:"FI",plat:"Web",icon:"timanttiset.fi.ico"}
 ];
