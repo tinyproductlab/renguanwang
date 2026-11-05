@@ -12994,5 +12994,6 @@ const SITES = [
 {name:"Hôpital Cheikh Zaid",url:"https://www.hcz.ma",cat:"生活服务",rating:4,price:"免费",kw:"hôpital cheikh zaid，hcz.ma，官网",desc:"摩洛哥拉巴特综合医院，认准官网 hcz.ma。",official:true,region:"MA",plat:"Web",icon:"www.hcz.ma.ico"},
 {name:"OLE.FIT",url:"https://ole.fit",cat:"健身",rating:4,price:"免费",kw:"ole.fit，ole.fit，官网",desc:"芬兰健身连锁，认准官网 ole.fit。",official:true,region:"FI",plat:"Web",icon:"ole.fit.ico"},
 {name:"Sporting Health Club",url:"https://sportinghealthclub.dk",cat:"健身",rating:4,price:"免费",kw:"sporting health club，sportinghealthclub.dk，官网",desc:"丹麦哥本哈根健身连锁，认准官网 sportinghealthclub.dk。",official:true,region:"DK",plat:"Web",icon:"sportinghealthclub.dk.ico"},
-{name:"Sporty",url:"https://sportygroup.no",cat:"健身",rating:4,price:"免费",kw:"sporty，sportygroup.no，官网",desc:"挪威健身连锁集团，认准官网 sportygroup.no。",official:true,region:"NO",plat:"Web",icon:"sportygroup.no.ico"}
+{name:"Sporty",url:"https://sportygroup.no",cat:"健身",rating:4,price:"免费",kw:"sporty，sportygroup.no，官网",desc:"挪威健身连锁集团，认准官网 sportygroup.no。",official:true,region:"NO",plat:"Web",icon:"sportygroup.no.ico"},
+{name:"Spring Maternity",url:"https://www.springmaternity.com",cat:"购物消费",rating:4,price:"免费",kw:"spring maternity，springmaternity.com，官网",desc:"新加坡孕产母婴用品连锁，认准官网 springmaternity.com。",official:true,region:"SG",plat:"Web",icon:"www.springmaternity.com.ico"}
 ];
