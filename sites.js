@@ -12980,5 +12980,7 @@ const SITES = [
 {name:"Dukley Hotels & Resorts",url:"https://www.dukleyhotels.com",cat:"生活服务",rating:4,price:"免费",kw:"dukley hotels & resorts，dukleyhotels.com，官网",desc:"黑山本土度假酒店集团，认准官网 dukleyhotels.com。",official:true,region:"ME",plat:"Web",icon:"www.dukleyhotels.com.ico"},
 {name:"Moivaro Lodges",url:"https://www.moivaro.com",cat:"生活服务",rating:4,price:"免费",kw:"moivaro lodges，moivaro.com，官网",desc:"坦桑尼亚本土旅馆与帐篷营地集团，认准官网 moivaro.com。",official:true,region:"TZ",plat:"Web",icon:"www.moivaro.com.ico"},
 {name:"Namibia Wildlife Resorts",url:"https://nwr.com.na",cat:"生活服务",rating:4,price:"免费",kw:"namibia wildlife resorts，nwr.com.na，官网",desc:"纳米比亚国有度假村与营地集团，认准官网 nwr.com.na。",official:true,region:"NA",plat:"Web",icon:"nwr.com.na.ico"},
-{name:"Sultan's Dine",url:"https://sultansdinebd.com",cat:"生活服务",rating:4,price:"免费",kw:"sultan's dine，sultansdinebd.com，官网",desc:"孟加拉国本土比尔亚尼餐饮连锁，认准官网 sultansdinebd.com。",official:true,region:"BD",plat:"Web",icon:"sultansdinebd.com.ico"}
+{name:"Sultan's Dine",url:"https://sultansdinebd.com",cat:"生活服务",rating:4,price:"免费",kw:"sultan's dine，sultansdinebd.com，官网",desc:"孟加拉国本土比尔亚尼餐饮连锁，认准官网 sultansdinebd.com。",official:true,region:"BD",plat:"Web",icon:"sultansdinebd.com.ico"},
+{name:"F1 Fitness",url:"https://clubf1.lv",cat:"健身",rating:4,price:"免费",kw:"f1 fitness，clubf1.lv，官网",desc:"拉脱维亚本土健身连锁，认准官网 clubf1.lv。",official:true,region:"LV",plat:"Web",icon:"clubf1.lv.ico"},
+{name:"Parirenyatwa Group of Hospitals",url:"https://parihosp.org",cat:"生活服务",rating:4,price:"免费",kw:"parirenyatwa group of hospitals，parihosp.org，官网",desc:"津巴布韦最大公立转诊医院群，认准官网 parihosp.org。",official:true,region:"ZW",plat:"Web",icon:"parihosp.org.ico"}
 ];
