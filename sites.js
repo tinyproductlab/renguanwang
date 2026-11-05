@@ -12924,5 +12924,8 @@ const SITES = [
 {name:"Sabrini",url:"https://sabrini.ro",cat:"购物消费",rating:4,price:"免费",kw:"sabrini，sabrini.ro，官网",desc:"罗马尼亚本土钻石珠宝连锁，全国设有 30 家实体店，认准官网 sabrini.ro。",official:true,region:"RO",plat:"Web",icon:"sabrini.ro.ico"},
 {name:"Invoke",url:"https://invoke.bg",cat:"购物消费",rating:4,price:"免费",kw:"invoke，invoke.bg，官网",desc:"保加利亚本土银饰品牌，主营银饰与天然石首饰，认准官网 invoke.bg。",official:true,region:"BG",plat:"Web",icon:"invoke.bg.ico"},
 {name:"Minit",url:"https://minitbakery.sk",cat:"购物消费",rating:4,price:"免费",kw:"minit，minitbakery.sk，官网",desc:"斯洛伐克烘焙连锁，在中欧多国经营数百家特许烘焙店，认准官网 minitbakery.sk。",official:true,region:"SK",plat:"Web",icon:"minitbakery.sk.ico"},
-{name:"Somali Fitness",url:"https://somalifitness.com",cat:"健身",rating:4,price:"免费",kw:"somali fitness，somalifitness.com，官网",desc:"索马里本土健身连锁，在摩加迪沙设有 7 家分店，认准官网 somalifitness.com。",official:true,region:"SO",plat:"Web",icon:"somalifitness.com.ico"}
+{name:"Somali Fitness",url:"https://somalifitness.com",cat:"健身",rating:4,price:"免费",kw:"somali fitness，somalifitness.com，官网",desc:"索马里本土健身连锁，在摩加迪沙设有 7 家分店，认准官网 somalifitness.com。",official:true,region:"SO",plat:"Web",icon:"somalifitness.com.ico"},
+{name:"Hartling Group",url:"https://hartlinggroup.com",cat:"购物消费",rating:4,price:"免费",kw:"hartling group，hartlinggroup.com，官网",desc:"特克斯和凯科斯本土度假集团，开发运营 The Sands、The Palms 与 The Shore Club 三家度假村，认准官网 hartlinggroup.com。",official:true,region:"TC",plat:"Web",icon:"hartlinggroup.com.ico"},
+{name:"Kaani Hotels",url:"https://kaanihotels.com",cat:"购物消费",rating:4,price:"免费",kw:"kaani hotels，kaanihotels.com，官网",desc:"马尔代夫本土酒店集团，在马富士岛运营四家酒店物业，认准官网 kaanihotels.com。",official:true,region:"MV",plat:"Web",icon:"kaanihotels.com.ico"},
+{name:"Optical House",url:"https://opticalhouse.gr",cat:"购物消费",rating:4,price:"免费",kw:"optical house，opticalhouse.gr，官网",desc:"希腊本土眼镜连锁，在伊拉克利翁、罗得岛与雅典设有三家门店，认准官网 opticalhouse.gr。",official:true,region:"GR",plat:"Web",icon:"opticalhouse.gr.ico"}
 ];
