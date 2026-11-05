@@ -12929,5 +12929,6 @@ const SITES = [
 {name:"Kaani Hotels",url:"https://kaanihotels.com",cat:"购物消费",rating:4,price:"免费",kw:"kaani hotels，kaanihotels.com，官网",desc:"马尔代夫本土酒店集团，在马富士岛运营四家酒店物业，认准官网 kaanihotels.com。",official:true,region:"MV",plat:"Web",icon:"kaanihotels.com.ico"},
 {name:"Optical House",url:"https://opticalhouse.gr",cat:"购物消费",rating:4,price:"免费",kw:"optical house，opticalhouse.gr，官网",desc:"希腊本土眼镜连锁，在伊拉克利翁、罗得岛与雅典设有三家门店，认准官网 opticalhouse.gr。",official:true,region:"GR",plat:"Web",icon:"opticalhouse.gr.ico"},
 {name:"Cyril Boutique",url:"https://www.cyril-boutique.com",cat:"购物消费",rating:4,price:"免费",kw:"cyril boutique，cyril-boutique.com，官网",desc:"厄瓜多尔本土法式糕点连锁，在基多设有五家门店，认准官网 cyril-boutique.com。",official:true,region:"EC",plat:"Web",icon:"www.cyril-boutique.com.ico"},
-{name:"Splend'or",url:"https://www.splendor.ro",cat:"购物消费",rating:4,price:"免费",kw:"splend'or，splendor.ro，官网",desc:"罗马尼亚本土珠宝连锁，在全国多家购物中心设有门店，认准官网 splendor.ro。",official:true,region:"RO",plat:"Web",icon:"www.splendor.ro.ico"}
+{name:"Splend'or",url:"https://www.splendor.ro",cat:"购物消费",rating:4,price:"免费",kw:"splend'or，splendor.ro，官网",desc:"罗马尼亚本土珠宝连锁，在全国多家购物中心设有门店，认准官网 splendor.ro。",official:true,region:"RO",plat:"Web",icon:"www.splendor.ro.ico"},
+{name:"Modern Nomads",url:"https://modernnomads.mn",cat:"生活服务",rating:4,price:"免费",kw:"modern nomads，modernnomads.mn，官网",desc:"蒙古本土餐饮连锁，在乌兰巴托与额尔登特设有多家门店，主打现代化蒙古传统菜，认准官网 modernnomads.mn。",official:true,region:"MN",plat:"Web",icon:"modernnomads.mn.ico"}
 ];
