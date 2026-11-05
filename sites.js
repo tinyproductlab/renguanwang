@@ -12927,5 +12927,7 @@ const SITES = [
 {name:"Somali Fitness",url:"https://somalifitness.com",cat:"健身",rating:4,price:"免费",kw:"somali fitness，somalifitness.com，官网",desc:"索马里本土健身连锁，在摩加迪沙设有 7 家分店，认准官网 somalifitness.com。",official:true,region:"SO",plat:"Web",icon:"somalifitness.com.ico"},
 {name:"Hartling Group",url:"https://hartlinggroup.com",cat:"购物消费",rating:4,price:"免费",kw:"hartling group，hartlinggroup.com，官网",desc:"特克斯和凯科斯本土度假集团，开发运营 The Sands、The Palms 与 The Shore Club 三家度假村，认准官网 hartlinggroup.com。",official:true,region:"TC",plat:"Web",icon:"hartlinggroup.com.ico"},
 {name:"Kaani Hotels",url:"https://kaanihotels.com",cat:"购物消费",rating:4,price:"免费",kw:"kaani hotels，kaanihotels.com，官网",desc:"马尔代夫本土酒店集团，在马富士岛运营四家酒店物业，认准官网 kaanihotels.com。",official:true,region:"MV",plat:"Web",icon:"kaanihotels.com.ico"},
-{name:"Optical House",url:"https://opticalhouse.gr",cat:"购物消费",rating:4,price:"免费",kw:"optical house，opticalhouse.gr，官网",desc:"希腊本土眼镜连锁，在伊拉克利翁、罗得岛与雅典设有三家门店，认准官网 opticalhouse.gr。",official:true,region:"GR",plat:"Web",icon:"opticalhouse.gr.ico"}
+{name:"Optical House",url:"https://opticalhouse.gr",cat:"购物消费",rating:4,price:"免费",kw:"optical house，opticalhouse.gr，官网",desc:"希腊本土眼镜连锁，在伊拉克利翁、罗得岛与雅典设有三家门店，认准官网 opticalhouse.gr。",official:true,region:"GR",plat:"Web",icon:"opticalhouse.gr.ico"},
+{name:"Cyril Boutique",url:"https://www.cyril-boutique.com",cat:"购物消费",rating:4,price:"免费",kw:"cyril boutique，cyril-boutique.com，官网",desc:"厄瓜多尔本土法式糕点连锁，在基多设有五家门店，认准官网 cyril-boutique.com。",official:true,region:"EC",plat:"Web",icon:"www.cyril-boutique.com.ico"},
+{name:"Splend'or",url:"https://www.splendor.ro",cat:"购物消费",rating:4,price:"免费",kw:"splend'or，splendor.ro，官网",desc:"罗马尼亚本土珠宝连锁，在全国多家购物中心设有门店，认准官网 splendor.ro。",official:true,region:"RO",plat:"Web",icon:"www.splendor.ro.ico"}
 ];
