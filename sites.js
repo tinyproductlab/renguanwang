@@ -12951,5 +12951,6 @@ const SITES = [
 {name:"Rīgas Austrumu klīniskā universitātes slimnīca",url:"https://aslimnica.lv",cat:"生活服务",rating:4,price:"免费",kw:"rīgas austrumu klīniskā universitātes slimnīca，aslimnica.lv，官网",desc:"拉脱维亚里加东部临床大学医院，认准官网 aslimnica.lv。",official:true,region:"LV",plat:"Web",icon:"aslimnica.lv.ico"},
 {name:"Univerzitetni klinični center Maribor",url:"https://www.ukc-mb.si",cat:"生活服务",rating:4,price:"免费",kw:"univerzitetni klinični center maribor，ukc-mb.si，官网",desc:"斯洛文尼亚马里博尔大学医疗中心，认准官网 ukc-mb.si。",official:true,region:"SI",plat:"Web",icon:"www.ukc-mb.si.ico"},
 {name:"Klinički bolnički centar Sestre milosrdnice",url:"https://www.kbcsm.hr",cat:"生活服务",rating:4,price:"免费",kw:"klinički bolnički centar sestre milosrdnice，kbcsm.hr，官网",desc:"克罗地亚萨格勒布临床医院中心，认准官网 kbcsm.hr。",official:true,region:"HR",plat:"Web",icon:"www.kbcsm.hr.ico"},
-{name:"Centre Hospitalier de Kourou",url:"https://www.ch-kourou.fr",cat:"生活服务",rating:4,price:"免费",kw:"centre hospitalier de kourou，ch-kourou.fr，官网",desc:"法属圭亚那库鲁医院中心，认准官网 ch-kourou.fr。",official:true,region:"GF",plat:"Web",icon:"www.ch-kourou.fr.ico"}
+{name:"Centre Hospitalier de Kourou",url:"https://www.ch-kourou.fr",cat:"生活服务",rating:4,price:"免费",kw:"centre hospitalier de kourou，ch-kourou.fr，官网",desc:"法属圭亚那库鲁医院中心，认准官网 ch-kourou.fr。",official:true,region:"GF",plat:"Web",icon:"www.ch-kourou.fr.ico"},
+{name:"OPA",url:"https://opa.com.al",cat:"生活服务",rating:4,price:"免费",kw:"opa，opa.com.al，官网",desc:"阿尔巴尼亚希腊风味快餐连锁，认准官网 opa.com.al。",official:true,region:"AL",plat:"Web",icon:"opa.com.al.ico"}
 ];
