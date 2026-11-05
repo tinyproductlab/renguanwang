@@ -12953,5 +12953,6 @@ const SITES = [
 {name:"Klinički bolnički centar Sestre milosrdnice",url:"https://www.kbcsm.hr",cat:"生活服务",rating:4,price:"免费",kw:"klinički bolnički centar sestre milosrdnice，kbcsm.hr，官网",desc:"克罗地亚萨格勒布临床医院中心，认准官网 kbcsm.hr。",official:true,region:"HR",plat:"Web",icon:"www.kbcsm.hr.ico"},
 {name:"Centre Hospitalier de Kourou",url:"https://www.ch-kourou.fr",cat:"生活服务",rating:4,price:"免费",kw:"centre hospitalier de kourou，ch-kourou.fr，官网",desc:"法属圭亚那库鲁医院中心，认准官网 ch-kourou.fr。",official:true,region:"GF",plat:"Web",icon:"www.ch-kourou.fr.ico"},
 {name:"OPA",url:"https://opa.com.al",cat:"生活服务",rating:4,price:"免费",kw:"opa，opa.com.al，官网",desc:"阿尔巴尼亚希腊风味快餐连锁，认准官网 opa.com.al。",official:true,region:"AL",plat:"Web",icon:"opa.com.al.ico"},
-{name:"Class Optical",url:"https://www.classoptical.com",cat:"购物消费",rating:4,price:"免费",kw:"class optical，classoptical.com，官网",desc:"马耳他眼镜集团及零售连锁，认准官网 classoptical.com。",official:true,region:"MT",plat:"Web",icon:"www.classoptical.com.ico"}
+{name:"Class Optical",url:"https://www.classoptical.com",cat:"购物消费",rating:4,price:"免费",kw:"class optical，classoptical.com，官网",desc:"马耳他眼镜集团及零售连锁，认准官网 classoptical.com。",official:true,region:"MT",plat:"Web",icon:"www.classoptical.com.ico"},
+{name:"Nawaloka Hospital",url:"https://www.nawaloka.com",cat:"生活服务",rating:4,price:"免费",kw:"nawaloka hospital，nawaloka.com，官网",desc:"斯里兰卡科伦坡大型私立医院，认准官网 nawaloka.com。",official:true,region:"LK",plat:"Web",icon:"www.nawaloka.com.ico"}
 ];
