@@ -12908,5 +12908,6 @@ const SITES = [
 {name:"BabySky",url:"https://babysky.com.mt",cat:"购物消费",rating:4,price:"免费",kw:"babysky，babysky.com.mt，官网",desc:"马耳他本土母婴用品连锁，两家门店并经营网店，认准官网 babysky.com.mt。",official:true,region:"MT",plat:"Web",icon:"babysky.com.mt.ico"},
 {name:"PernaMea",url:"https://pernamea.md",cat:"购物消费",rating:4,price:"免费",kw:"pernamea，pernamea.md，官网",desc:"摩尔多瓦本土母婴用品连锁，基希讷乌三家门店并经营网店，认准官网 pernamea.md。",official:true,region:"MD",plat:"Web",icon:"pernamea.md.ico"},
 {name:"Jouel",url:"https://joueljewellery.com",cat:"购物消费",rating:4,price:"免费",kw:"jouel，joueljewellery.com，官网",desc:"塞舌尔本土珠宝品牌，2004 年创立，全国八家门店，认准官网 joueljewellery.com。",official:true,region:"SC",plat:"Web",icon:"joueljewellery.com.ico"},
-{name:"California Gym",url:"https://www.california-gym.com",cat:"健身",rating:4,price:"免费",kw:"california gym，california-gym.com，官网",desc:"突尼斯本土健身连锁，1999 年创立，该国首家健身连锁，十二家俱乐部，认准官网 california-gym.com。",official:true,region:"TN",plat:"Web",icon:"www.california-gym.com.ico"}
+{name:"California Gym",url:"https://www.california-gym.com",cat:"健身",rating:4,price:"免费",kw:"california gym，california-gym.com，官网",desc:"突尼斯本土健身连锁，1999 年创立，该国首家健身连锁，十二家俱乐部，认准官网 california-gym.com。",official:true,region:"TN",plat:"Web",icon:"www.california-gym.com.ico"},
+{name:"Óptica Estela Jinchuk",url:"https://opticaestelajinchuk.com",cat:"购物消费",rating:4,price:"免费",kw:"óptica estela jinchuk，opticaestelajinchuk.com，官网",desc:"乌拉圭本土眼镜连锁，蒙得维的亚与东角城多家门店，认准官网 opticaestelajinchuk.com。",official:true,region:"UY",plat:"Web",icon:"opticaestelajinchuk.com.ico"}
 ];
