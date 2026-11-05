@@ -12971,5 +12971,6 @@ const SITES = [
 {name:"Muscat Opticians",url:"https://muscatopticians.com",cat:"购物消费",rating:4,price:"免费",kw:"muscat opticians，muscatopticians.com，官网",desc:"阿曼本土眼镜连锁，认准官网 muscatopticians.com。",official:true,region:"OM",plat:"Web",icon:"muscatopticians.com.ico"},
 {name:"Bachir",url:"https://bachir.com",cat:"购物消费",rating:4,price:"免费",kw:"bachir，bachir.com，官网",desc:"黎巴嫩老牌冰淇淋品牌连锁，认准官网 bachir.com。",official:true,region:"LB",plat:"Web",icon:"bachir.com.ico"},
 {name:"Kære Børn",url:"https://kaereboern.dk",cat:"购物消费",rating:4,price:"免费",kw:"kære børn，kaereboern.dk，官网",desc:"丹麦本土母婴用品连锁，认准官网 kaereboern.dk。",official:true,region:"DK",plat:"Web",icon:"kaereboern.dk.ico"},
-{name:"Óptica Florida",url:"https://opticaflorida.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"óptica florida，opticaflorida.com.uy，官网",desc:"乌拉圭本土眼镜连锁，认准官网 opticaflorida.com.uy。",official:true,region:"UY",plat:"Web",icon:"opticaflorida.com.uy.ico"}
+{name:"Óptica Florida",url:"https://opticaflorida.com.uy",cat:"购物消费",rating:4,price:"免费",kw:"óptica florida，opticaflorida.com.uy，官网",desc:"乌拉圭本土眼镜连锁，认准官网 opticaflorida.com.uy。",official:true,region:"UY",plat:"Web",icon:"opticaflorida.com.uy.ico"},
+{name:"iNua Hospitality",url:"https://www.inua.ie",cat:"生活服务",rating:4,price:"免费",kw:"inua hospitality，inua.ie，官网",desc:"爱尔兰本土酒店集团，认准官网 inua.ie。",official:true,region:"IE",plat:"Web",icon:"www.inua.ie.ico"}
 ];
