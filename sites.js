@@ -12963,5 +12963,7 @@ const SITES = [
 {name:"Level Up Barbados",url:"https://levelupbarbados.com",cat:"健身",rating:4,price:"免费",kw:"level up barbados，levelupbarbados.com，官网",desc:"巴巴多斯 24 小时健身连锁，认准官网 levelupbarbados.com。",official:true,region:"BB",plat:"Web",icon:"levelupbarbados.com.ico"},
 {name:"PowerMax",url:"https://powermax.ge",cat:"健身",rating:4,price:"免费",kw:"powermax，powermax.ge，官网",desc:"格鲁吉亚第比利斯健身连锁，认准官网 powermax.ge。",official:true,region:"GE",plat:"Web",icon:"powermax.ge.ico"},
 {name:"Gymnasia",url:"https://gymnasia.ge",cat:"健身",rating:4,price:"免费",kw:"gymnasia，gymnasia.ge，官网",desc:"格鲁吉亚第比利斯运动健身俱乐部，认准官网 gymnasia.ge。",official:true,region:"GE",plat:"Web",icon:"gymnasia.ge.ico"},
-{name:"ROC Fitness Club",url:"https://www.rocfitnessclub.com",cat:"健身",rating:4,price:"免费",kw:"roc fitness club，rocfitnessclub.com，官网",desc:"尼泊尔加德满都健身连锁，认准官网 rocfitnessclub.com。",official:true,region:"NP",plat:"Web",icon:"www.rocfitnessclub.com.ico"}
+{name:"ROC Fitness Club",url:"https://www.rocfitnessclub.com",cat:"健身",rating:4,price:"免费",kw:"roc fitness club，rocfitnessclub.com，官网",desc:"尼泊尔加德满都健身连锁，认准官网 rocfitnessclub.com。",official:true,region:"NP",plat:"Web",icon:"www.rocfitnessclub.com.ico"},
+{name:"Ópticas Franklin",url:"https://opticasfranklinsv.com",cat:"购物消费",rating:4,price:"免费",kw:"ópticas franklin，opticasfranklinsv.com，官网",desc:"萨尔瓦多眼镜连锁，认准官网 opticasfranklinsv.com。",official:true,region:"SV",plat:"Web",icon:"opticasfranklinsv.com.ico"},
+{name:"Sicilia",url:"https://pekarasicilia.me",cat:"生活服务",rating:4,price:"免费",kw:"sicilia，pekarasicilia.me，官网",desc:"黑山波德戈里察意式面包披萨连锁，认准官网 pekarasicilia.me。",official:true,region:"ME",plat:"Web",icon:"pekarasicilia.me.ico"}
 ];
