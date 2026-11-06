@@ -114,7 +114,7 @@ async function compute(core, env) {
 
   // ③ 抓页面验信号：可达 + 标题与候选名对得上（或 .gov.cn 政府域名）
   const signals = [];
-  let reachable = false, titleMatch = false, pageTitle = "";
+  let reachable = false, titleMatch = false, labelMatch = false, parked = false, pageTitle = "";
   try {
     const r = await fetch("https://" + domain + "/", {
       headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
@@ -128,14 +128,21 @@ async function compute(core, env) {
     const text = html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").slice(0, 4000);
     titleMatch = nameMatchesText(cand.name, pageTitle) || nameMatchesText(cand.name, text) || nameMatchesText(core, pageTitle);
     if (pageTitle.includes(core)) titleMatch = true;
+    // 英文站标题对不上中文名时，用域名主标签兜底：标题里含品牌词（如 unitree）说明是正经品牌站；
+    // 但页面若是域名停放/出售页，直接否掉。
+    const sld = domain.replace(/^www\./, "").split(".")[0];
+    if (sld.length >= 4 && (pageTitle + " " + text).toLowerCase().includes(sld)) labelMatch = true;
+    if (/domain (is )?for sale|buy this domain|域名出售|该域名可以转让|parked/i.test(pageTitle + " " + text)) parked = true;
   } catch (e) { /* 打不开 */ }
   if (reachable) signals.push("页面可达");
   if (pageTitle) signals.push("标题：" + pageTitle.slice(0, 60));
   if (titleMatch) signals.push("标题与名称对得上");
+  if (labelMatch) signals.push("标题含域名品牌词");
+  if (parked) signals.push("疑似域名停放页");
   const govCn = /\.gov\.cn$/.test(domain);
   if (govCn) signals.push("gov.cn 政府域名");
 
-  if (reachable && (titleMatch || govCn)) {
+  if (reachable && !parked && (titleMatch || labelMatch || govCn)) {
     return { status: "candidate", candidate: { name: cand.name || core, url: "https://" + domain, host: domain }, signals };
   }
   return { status: "none", candidate: null, signals: signals.length ? signals : ["候选未通过信号检验"] };
@@ -171,6 +178,7 @@ async function aiCandidate(env, core) {
   models.push("z-ai/glm-5.3-flash", "google/gemma-4-31b-it", "openai/gpt-oss-20b", "nvidia/nemotron-3-super-120b-a12b", "moonshotai/kimi-k2.6");
   const sys = "你是官网查找助手。用户给出一个机构或品牌名称，请给出它最可能的官方网站。只输出 JSON：{\"name\":\"官方全名\",\"domain\":\"官网域名（裸域名，不要带 http 和路径）\"}。不确定就把 domain 设为空字符串，绝不编造看起来像的域名。";
   const usr = "名称：" + core;
+  let remembered = null;
   for (const model of models) {
     try {
       const r = await fetch("https://integrate.api.nvidia.com/v1/chat/completions", {
@@ -186,10 +194,12 @@ async function aiCandidate(env, core) {
       if (!m) continue;
       const parsed = JSON.parse(m[0]);
       if (typeof parsed.domain !== "string") continue;
-      return { name: String(parsed.name || "").slice(0, 80), domain: parsed.domain.trim() };
+      const out = { name: String(parsed.name || "").slice(0, 80), domain: parsed.domain.trim() };
+      if (out.domain) return out; // 有候选就用；空候选继续问下一个模型，最后才认空
+      remembered = out;
     } catch (e) { /* 换下一个模型 */ }
   }
-  return null;
+  return remembered;
 }
 
 async function logFind(kv, core, rawQ, result) {
