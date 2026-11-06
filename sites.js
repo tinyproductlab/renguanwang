@@ -13012,5 +13012,6 @@ const SITES = [
 {name:"Vibholm",url:"https://www.vibholm.dk",cat:"购物消费",rating:4,price:"免费",kw:"vibholm，vibholm.dk，官网",desc:"丹麦珠宝钟表连锁，认准官网 vibholm.dk。",official:true,region:"DK",plat:"Web",icon:"www.vibholm.dk.ico"},
 {name:"Mamours",url:"https://www.mamours.com.my",cat:"购物消费",rating:4,price:"免费",kw:"mamours，mamours.com.my，官网",desc:"马来西亚母婴用品连锁，认准官网 mamours.com.my。",official:true,region:"MY",plat:"Web",icon:"www.mamours.com.my.ico"},
 {name:"Worldwide Hotels",url:"https://www.wwhotels.com",cat:"生活服务",rating:4,price:"免费",kw:"worldwide hotels，wwhotels.com，官网",desc:"新加坡酒店集团，认准官网 wwhotels.com。",official:true,region:"SG",plat:"Web",icon:"www.wwhotels.com.ico"},
-{name:"Holiday Villa Hotels & Resorts",url:"https://www.holidayvillahotels.com",cat:"生活服务",rating:4,price:"免费",kw:"holiday villa hotels & resorts，holidayvillahotels.com，官网",desc:"马来西亚酒店集团，认准官网 holidayvillahotels.com。",official:true,region:"MY",plat:"Web",icon:"www.holidayvillahotels.com.ico"}
+{name:"Holiday Villa Hotels & Resorts",url:"https://www.holidayvillahotels.com",cat:"生活服务",rating:4,price:"免费",kw:"holiday villa hotels & resorts，holidayvillahotels.com，官网",desc:"马来西亚酒店集团，认准官网 holidayvillahotels.com。",official:true,region:"MY",plat:"Web",icon:"www.holidayvillahotels.com.ico"},
+{name:"SJM Resorts",url:"https://www.sjmresorts.com",cat:"生活服务",rating:4,price:"免费",kw:"sjm resorts，sjmresorts.com，官网",desc:"澳门本土酒店度假村运营商，运营新葡京、上葡京等物业，认准官网 sjmresorts.com。",official:true,region:"MO",plat:"Web",icon:"www.sjmresorts.com.ico"}
 ];
