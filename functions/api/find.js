@@ -54,7 +54,7 @@ export async function onRequestPost(context) {
       if (context.waitUntil) context.waitUntil(p);
     }
 
-    return json({ ok: true, status: result.status, candidate: result.candidate || null, signals: result.signals || [] });
+    return json({ ok: true, status: result.status, candidate: result.candidate || null, tried: result.tried || null, signals: result.signals || [] });
   } catch (e) {
     return json({ ok: false, msg: "error" }, 500);
   }
@@ -145,7 +145,8 @@ async function compute(core, env) {
   if (reachable && !parked && (titleMatch || labelMatch || govCn)) {
     return { status: "candidate", candidate: { name: cand.name || core, url: "https://" + domain, host: domain }, signals };
   }
-  return { status: "none", candidate: null, signals: signals.length ? signals : ["候选未通过信号检验"] };
+  // 没过信号也把 AI 给的域名留档（tried），筛选时优先复核这类，别白白丢掉
+  return { status: "none", candidate: null, tried: { name: cand.name || core, host: domain }, signals: signals.length ? signals : ["候选未通过信号检验"] };
 }
 
 // 名称与页面文本对质：名称里任一 ≥3 字的连续片段出现在文本中即算对上
@@ -214,6 +215,7 @@ async function logFind(kv, core, rawQ, result) {
   rec.last = now;
   rec.status = result.status;
   if (result.candidate) { rec.name = result.candidate.name; rec.url = result.candidate.url; rec.host = result.candidate.host; }
+  if (result.tried) rec.tried = result.tried;
   rec.signals = result.signals || [];
   await kv.put(key, JSON.stringify(rec));
   return rec.count;
