@@ -176,6 +176,8 @@
   @media (max-width:640px){ .cards-grid { grid-template-columns:1fr; } }
   .go { align-self:center; white-space:nowrap; background:#1a1a1a; color:#fff; text-decoration:none; font-size:14px; padding:10px 18px; border-radius:8px; }
   .empty { text-align:center; color:#999; padding:60px 0; font-size:15px; }
+  .find-note { max-width:720px; margin:18px auto 0; padding:14px 18px; border:1.5px dashed #d9a406; border-radius:12px; background:#fffbe9; color:#6b5600; font-size:14px; line-height:1.8; text-align:left; }
+  .find-note a { color:#1a73e8; font-weight:600; }
   .navsec { max-width:1400px; margin:40px auto 60px; padding:0 20px; }
   .navsec h2 { font-size:18px; }
   .navsec .sub { font-size:13px; color:#999; margin:6px 0 12px; }
@@ -783,7 +785,7 @@
   </div>
 </div>
 <script src="./fuse.min.js"></script>
-<script src="./sites.js?v=20261106-13015"></script>
+<script src="./sites.js?v=20261107-13015"></script>
 <script>
 
 const CATS = ["装机必备","AI 工具","办公效率","影音娱乐","社交社区","生活服务","购物消费","学习教育","金融投资","开发工具","常用软件","设计创意","新闻资讯","阅读创作","常用网站","政府官网"];
@@ -1839,6 +1841,41 @@ function doSearch(){
   if(LAB && !res.some(s => s.url === LAB.url)) res.push(LAB);
   render(res, q || "筛选");
   if(q){ history.replaceState(null,"","?q="+encodeURIComponent(q)); document.getElementById("results").scrollIntoView({behavior:"smooth", block:"start"}); }
+  // 搜索缺口兜底：除自家置顶外没有任何结果时，走 /api/find（在库简称匹配/AI 找候选/后台记录待筛选补库）
+  if(q && !res.some(s => s !== LAB)) maybeFind(q);
+}
+// 搜索缺口兜底：同一词一会话只问一次；结果以虚线提示条呈现，未核验候选明确标注，不混进正式结果
+const findTried = new Set();
+async function maybeFind(q){
+  if(findTried.has(q)) return;
+  findTried.add(q);
+  const box = document.getElementById("results");
+  if(!box) return;
+  const lang = COUNTRY_LANG[activeRegion] || "zh";
+  const en = lang !== "zh" && lang !== "zht";
+  const div = document.createElement("div");
+  div.className = "find-note";
+  div.textContent = en ? "Not in our library yet — AI is looking it up online…" : "库里还没有这个站，AI 正在网上帮你找……";
+  box.appendChild(div);
+  const recorded = en ? "Not in our library yet. Your search has been logged — we will verify and add it." : "库里还没有这个站，已记录你的搜索，我们核验通过后会补进站库。";
+  try{
+    const r = await fetch("/api/find", { method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify({ q }) });
+    const j = await r.json();
+    if(!j || !j.ok) throw new Error("bad");
+    if(j.status === "in_library" && j.candidate){
+      div.innerHTML = en
+        ? `Actually it IS in our library — the short name just didn't match: <a href="${j.candidate.url}" target="_blank" rel="noopener">${escHtml(j.candidate.name)} (${escHtml(j.candidate.host)})</a>. We'll add the short name.`
+        : `其实库里有这个站，是简称没对上：<a href="${j.candidate.url}" target="_blank" rel="noopener">${escHtml(j.candidate.name)}（${escHtml(j.candidate.host)}）</a>。我们会把这个简称补上。`;
+    } else if(j.status === "candidate" && j.candidate){
+      div.innerHTML = en
+        ? `Not in our library yet. AI found a possible official site: ${escHtml(j.candidate.name)} (${escHtml(j.candidate.host)}) — <b>not manually verified</b>, please judge for yourself. Logged; will be added after verification.`
+        : `库里还没有这个站。AI 在网上找到一个疑似官网：${escHtml(j.candidate.name)}（${escHtml(j.candidate.host)}），<b>未经人工核验</b>，请自行判断。我们已记录，核验通过后会补进站库。`;
+    } else {
+      div.textContent = recorded;
+    }
+  }catch(e){
+    div.textContent = recorded;
+  }
 }
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") doSearch(); });
 // 反馈弹窗
