@@ -147,7 +147,7 @@
   html[data-theme="dark"] .freq-tip .ft-add { background:#ece7da; color:#171511; }
   html[data-theme="dark"] .freq-tip .ft-no { background:#23211c; border-color:#3a372c; color:#b6b0a1; }
   .meta { font-size:13px; color:#999; margin-bottom:12px; }
-  .card { background:#fff; border-radius:14px; padding:18px 20px; margin-bottom:12px; border:1px solid #ded7c2; display:flex; gap:14px; align-items:flex-start; box-shadow:0 1px 2px rgba(74,64,32,.06), 0 14px 30px -14px rgba(74,64,32,.28); transition:transform .18s ease, box-shadow .18s ease; }
+  .card { background:#fff; border-radius:14px; padding:18px 20px; margin-bottom:12px; border:1px solid #ded7c2; display:flex; gap:14px; align-items:flex-start; box-shadow:0 1px 2px rgba(74,64,32,.06), 0 14px 30px -14px rgba(74,64,32,.28); transition:transform .18s ease, box-shadow .18s ease; cursor:pointer; }
   .card:hover { transform:translateY(-2px); box-shadow:0 2px 3px rgba(74,64,32,.06), 0 22px 38px -14px rgba(74,64,32,.35); }
   .card.sponsored { border-color:#f5c518; background:#fffdf4; }
   .rank { font-size:22px; font-weight:800; color:#ddd; min-width:28px; padding-top:2px; }
@@ -1752,7 +1752,7 @@ function render(list, q){
   const dlT = t("dl");
   const adT = t("ad");
   const cardHtml = (s,i)=>`
-    <div class="card${s.sponsored?" sponsored":""}">
+    <div class="card${s.sponsored?" sponsored":""}" data-url="${s.url}">
       <div class="rank">${i+1}</div>
       <div class="body">
         <h3>${s.icon?`<img class="cic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="globe">🌍</span>`}${s.name}<span class="stars">${stars(s.rating)}</span></h3>
@@ -1761,7 +1761,6 @@ function render(list, q){
         <p>${s.desc}</p>
       </div>
       <button type="button" class="pin-btn${isPinned(s.url)?" on":""}" data-pin="${encodeURIComponent(s.url)}" aria-label="pin">📌</button>
-      <a class="go" href="${s.url}" target="_blank" rel="noopener">${goT}</a>
     </div>`;
   // 全部模式按国家分组；卡片列数随可用宽度调整
   if(!activeRegion){
@@ -2062,6 +2061,17 @@ document.addEventListener("click", e => {
   const href = a.getAttribute("href") || "";
   const s = SITES.find(x => x.url === href);
   if(s) bumpFreq(s.url);
+});
+// 搜索结果卡片整卡可点跳转（已去掉「直达」按钮）：点钉选按钮不跳，划选文字时不跳
+document.addEventListener("click", e => {
+  const card = e.target.closest(".card[data-url]");
+  if(!card) return;
+  if(e.target.closest("[data-pin]")) return;
+  const sel = window.getSelection && window.getSelection();
+  if(sel && String(sel).length) return;
+  const url = card.dataset.url;
+  bumpFreq(url);
+  window.open(url, "_blank", "noopener");
 });
 function loadFreqNo(){ try{ const v = JSON.parse(localStorage.getItem("rg_freq_no") || "{}"); return v && typeof v === "object" ? v : {}; }catch(e){ return {}; } }
 function inQuickDefault(url){
