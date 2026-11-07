@@ -13013,5 +13013,6 @@ const SITES = [
 {name:"Mamours",url:"https://www.mamours.com.my",cat:"购物消费",rating:4,price:"免费",kw:"mamours，mamours.com.my，官网",desc:"马来西亚母婴用品连锁，认准官网 mamours.com.my。",official:true,region:"MY",plat:"Web",icon:"www.mamours.com.my.ico"},
 {name:"Worldwide Hotels",url:"https://www.wwhotels.com",cat:"生活服务",rating:4,price:"免费",kw:"worldwide hotels，wwhotels.com，官网",desc:"新加坡酒店集团，认准官网 wwhotels.com。",official:true,region:"SG",plat:"Web",icon:"www.wwhotels.com.ico"},
 {name:"Holiday Villa Hotels & Resorts",url:"https://www.holidayvillahotels.com",cat:"生活服务",rating:4,price:"免费",kw:"holiday villa hotels & resorts，holidayvillahotels.com，官网",desc:"马来西亚酒店集团，认准官网 holidayvillahotels.com。",official:true,region:"MY",plat:"Web",icon:"www.holidayvillahotels.com.ico"},
-{name:"SJM Resorts",url:"https://www.sjmresorts.com",cat:"生活服务",rating:4,price:"免费",kw:"sjm resorts，sjmresorts.com，官网",desc:"澳门本土酒店度假村运营商，运营新葡京、上葡京等物业，认准官网 sjmresorts.com。",official:true,region:"MO",plat:"Web",icon:"www.sjmresorts.com.ico"}
+{name:"SJM Resorts",url:"https://www.sjmresorts.com",cat:"生活服务",rating:4,price:"免费",kw:"sjm resorts，sjmresorts.com，官网",desc:"澳门本土酒店度假村运营商，运营新葡京、上葡京等物业，认准官网 sjmresorts.com。",official:true,region:"MO",plat:"Web",icon:"www.sjmresorts.com.ico"},
+{name:"App Store Connect",url:"https://appstoreconnect.apple.com",cat:"开发工具",rating:4,price:"免费",kw:"app store connect，appstoreconnect.apple.com，苹果开发者后台，官网",desc:"苹果官方开发者后台，发布和管理 App、查看销售数据与结算，认准官网 appstoreconnect.apple.com。",official:true,region:"US",plat:"Web",icon:"appstoreconnect.apple.com.ico"}
 ];
