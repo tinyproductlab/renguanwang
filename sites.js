@@ -13059,5 +13059,7 @@ const SITES = [
 {name:"Google Ads",url:"https://ads.google.com",cat:"开发工具",rating:4,price:"免费",kw:"google ads，ads.google.com，谷歌广告，官网",desc:"谷歌官方广告平台，在搜索、YouTube 和展示网络投放广告，认准官网 ads.google.com。",official:true,region:"US",plat:"Web",icon:"ads.google.com.ico"},
 {name:"TikTok Ads Manager",url:"https://ads.tiktok.com",cat:"开发工具",rating:4,price:"免费",kw:"tiktok ads manager，ads.tiktok.com，tiktok广告平台，官网",desc:"TikTok 官方广告管理平台，认准官网 ads.tiktok.com。",official:true,region:"US",plat:"Web",icon:"ads.tiktok.com.ico"},
 {name:"Spotify for Artists",url:"https://artists.spotify.com",cat:"开发工具",rating:4,price:"免费",kw:"spotify for artists，artists.spotify.com，官网",desc:"Spotify 官方艺人后台，管理歌曲、查看听众数据，认准官网 artists.spotify.com。",official:true,region:"SE",plat:"Web",icon:"artists.spotify.com.ico"},
-{name:"PayPal",url:"https://www.paypal.com",cat:"金融投资",rating:4,price:"免费",kw:"paypal，贝宝，paypal.com，官网",desc:"全球知名在线支付平台，跨国收付款和购物支付，认准官网 paypal.com。",official:true,region:"US",plat:"Web",icon:"www.paypal.com.ico"}
+{name:"PayPal",url:"https://www.paypal.com",cat:"金融投资",rating:4,price:"免费",kw:"paypal，贝宝，paypal.com，官网",desc:"全球知名在线支付平台，跨国收付款和购物支付，认准官网 paypal.com。",official:true,region:"US",plat:"Web",icon:"www.paypal.com.ico"},
+{name:"宇树科技",url:"https://www.unitree.com",cat:"购物消费",rating:4,price:"免费",kw:"宇树科技，unitree，unitree.com，官网",desc:"宇树科技官方网站，专注四足机器人与人形机器人，认准官网 unitree.com。",official:true,region:"CN",plat:"Web",icon:"www.unitree.com.ico"},
+{name:"大足石刻研究院",url:"https://www.dzskyjy.cn",cat:"生活服务",rating:4,price:"免费",kw:"大足石刻研究院，大足石刻博物馆，dzskyjy.cn，官网",desc:"大足石刻研究院（大足石刻博物馆）官方网站，负责世界文化遗产大足石刻的保护研究与参观预约，认准官网 dzskyjy.cn。",official:true,region:"CN",plat:"Web",icon:"www.dzskyjy.cn.ico"}
 ];
