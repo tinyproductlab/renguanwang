@@ -13067,5 +13067,6 @@ const SITES = [
 {name:"LXI.be",url:"https://lxi.be",cat:"开发工具",rating:4,price:"免费",kw:"lxi.be，lxi，免费主机，免费虚拟主机，官网",desc:"德国免费虚拟主机，永久免费档提供 5GB 空间、PHP 与数据库、免费 SSL，支持 SSH，认准官网 lxi.be。",official:true,region:"DE",plat:"Web",icon:"lxi.be.ico"},
 {name:"GoogieHost",url:"https://googiehost.com",cat:"开发工具",rating:4,price:"免费",kw:"googiehost，免费主机，免费虚拟主机，googiehost.com，官网",desc:"印度免费虚拟主机，提供免费子域名、SSL 与控制面板且无广告，认准官网 googiehost.com。",official:true,region:"IN",plat:"Web",icon:"googiehost.com.ico"},
 {name:"WorkBuddy",url:"https://www.workbuddy.cn",cat:"AI 工具",rating:4,price:"免费+付费",kw:"workbuddy agent 腾讯AI办公智能体，workbuddy.cn，官网",desc:"腾讯出品的 AI 办公智能体，你说一句话，它自己拆任务、调工具、操作本地文件，交回文档、表格或 PPT，认准官网 workbuddy.cn。",official:true,region:"CN",plat:"双平台",icon:"www.workbuddy.cn.ico"},
-{name:"IPPure",url:"https://ippure.com",cat:"开发工具",rating:4,price:"免费+付费",kw:"ippure pure IP纯净度 风险检测，ippure.com，官网",desc:"在线检测 IP 纯净度和风险系数，能看 IP 类型、来源与 WebRTC、DNS 泄露，挑代理、养号前先过一遍，认准官网 ippure.com。",official:true,region:"CN",plat:"Web",icon:"ippure.com.ico"}
+{name:"IPPure",url:"https://ippure.com",cat:"开发工具",rating:4,price:"免费+付费",kw:"ippure pure IP纯净度 风险检测，ippure.com，官网",desc:"在线检测 IP 纯净度和风险系数，能看 IP 类型、来源与 WebRTC、DNS 泄露，挑代理、养号前先过一遍，认准官网 ippure.com。",official:true,region:"CN",plat:"Web",icon:"ippure.com.ico"},
+{name:"WorkBuddy 国际版",url:"https://www.workbuddy.ai",cat:"AI 工具",rating:4,price:"免费+付费",kw:"workbuddy ai international AI办公智能体国际版，workbuddy.ai，官网",desc:"WorkBuddy 的国际站，套餐、积分和国内版不一样，面向海外用户，认准官网 workbuddy.ai。",official:true,region:"US",plat:"双平台",icon:"www.workbuddy.ai.ico"}
 ];
