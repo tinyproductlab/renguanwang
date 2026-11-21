@@ -686,6 +686,16 @@
         <p id="qrModalTip" style="margin-top:12px;font-size:13px;color:#666"></p>
       </div>
     </div>
+    <!-- 验真前关注提醒：每次访问只出一次，不强制 -->
+    <div id="followModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:10000;align-items:center;justify-content:center" onclick="if(event.target===this)closeFollow()">
+      <div style="background:#fff;border-radius:12px;padding:24px;text-align:center;position:relative;max-width:320px;margin:0 16px">
+        <button onclick="closeFollow()" style="position:absolute;top:8px;right:12px;border:none;background:none;font-size:18px;cursor:pointer">✕</button>
+        <div style="font-size:16px;font-weight:700;margin-bottom:8px" data-i18n="follow_t">关注公众号，不错过新收录</div>
+        <img src="./gzh-qrcode.jpg" alt="" style="width:200px;height:200px;border-radius:8px">
+        <p style="margin:12px 0 16px;font-size:13px;color:#666;line-height:1.6" data-i18n="follow_p">微信扫一扫，关注「小产品实验室」，新收录的官网和防骗提醒第一时间知道。不关注也没关系，关掉就能继续验真。</p>
+        <button id="followGo" style="padding:10px 26px;background:#f5c518;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer" data-i18n="follow_go">继续验真</button>
+      </div>
+    </div>
 <div class="feedback" id="feedback" style="display:none">
   <button class="fb-toggle" onclick="openFbModal('fake')">
     <span>🙋 发现假网站？想推荐新网站？</span>
@@ -811,7 +821,7 @@ zh: {
   nav_home:"首页", nav_hot:"热门软件", nav_ai:"AI工具", nav_sites:"网站导航", nav_feedback:"反馈", nav_about:"关于我们",
   hero_h1:"搜官网，不踩坑", hero_p:"认准官网，访问不迷路 · 不收录没验过的站 · 搜出来直接告诉你选哪个",
   plat_all:"全部平台", search_ph:"输入软件/网站名称…", search_btn:"搜索",
-  verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体 + AI 智能检验，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…",
+  verify_t:"验一验：这个网址是真的官网吗？", verify_p:"智能预检：查站库、域名年龄、页面主体 + AI 智能检验，多信号判断，仅供参考，最终以人工核验为准。", verify_url_ph:"粘贴要验证的网址，如 https://...", verify_desc_ph:"它应该是什么网站，如：微信官网", verify_btn:"验真", verify_ing:"验真中…", follow_t:"关注公众号，不错过新收录", follow_p:"微信扫一扫，关注「小产品实验室」，新收录的官网和防骗提醒第一时间知道。不关注也没关系，关掉就能继续验真。", follow_go:"继续验真",
   quick:"快捷直达", quick_hint:"点任意站卡上的 📌，把它钉到这里最前面；自带站卡右上角的 × 可以取消它；点 ＋ 还能添加自己的网址（只存在你的浏览器里）", pin_restore:"恢复默认", pin_add:"＋ 添加网址", pin_name_ph:"名称，如：我的博客", pin_url_ph:"网址，如：https://example.com", pin_save:"保存", pin_cancel:"取消", pin_custom:"自定义", freq_suggest:"你常打开「{name}」，加到快捷直达，下次一键直达", freq_add:"加到快捷直达", freq_no:"不用了", freq_added:"✅ 已加入快捷直达，回到顶部就能看到", cats_title:"分类导航",
   cats_sub:"全部人工验过的站 · 点分类跳转",
   cat_essentials:"装机必备", cat_ai:"AI工具", cat_gov:"政府官网", cat_office:"办公效率", cat_dev:"开发工具", cat_design:"设计创意",
@@ -864,7 +874,7 @@ en: {
   nav_home:"Home", nav_hot:"Hot Software", nav_ai:"AI Tools", nav_sites:"Websites", nav_feedback:"Feedback", nav_about:"About",
   hero_h1:"Find Official Sites", hero_p:"Verified official websites only · We tell you which one to pick",
   plat_all:"All Platforms", search_ph:"Search software or website…", search_btn:"Search",
-  verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age, page identity + AI inspection. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…",
+  verify_t:"Verify: is this really the official site?", verify_p:"Smart pre-check: verified database, domain age, page identity + AI inspection. For reference only; human verification is final.", verify_url_ph:"Paste the URL to verify, e.g. https://...", verify_desc_ph:"What site should it be? e.g. WeChat official site", verify_btn:"Verify", verify_ing:"Verifying…", follow_t:"Follow us on WeChat", follow_p:"Scan to follow TinyProductlab on WeChat for newly verified sites and anti-scam alerts. No pressure — just close this to keep verifying.", follow_go:"Continue to verify",
   quick:"Quick Access", quick_hint:"📌 on any site card pins it to the front here; × on a built-in card removes it; ＋ adds your own link (stored only in your browser)", pin_restore:"Restore defaults", pin_add:"＋ Add link", pin_name_ph:"Name, e.g. My blog", pin_url_ph:"URL, e.g. https://example.com", pin_save:"Save", pin_cancel:"Cancel", pin_custom:"Custom", freq_suggest:"You open {name} often — add it to Quick Access for one-click visits", freq_add:"Add to Quick Access", freq_no:"Not now", freq_added:"✅ Added to Quick Access — find it at the top of the page", cats_title:"Categories",
   cats_sub:"All manually verified sites · Click a category",
   cat_essentials:"Essentials", cat_ai:"AI Tools", cat_gov:"Government", cat_office:"Productivity", cat_dev:"Dev Tools", cat_design:"Design",
@@ -2156,7 +2166,7 @@ function buildNav(){
     const lang2 = COUNTRY_LANG[activeRegion] || "zh";
     const cntT = {zh:"个站",zht:"個站",en:"sites",ja:"サイト",ko:"개 사이트",de:"Seiten",fr:"sites",es:"sitios",pt:"sites",it:"siti",nl:"sites",ru:"сайтов",th:"เว็บ",vi:"trang",id:"situs",tr:"site",ar:"موقع",he:"אתרים",pl:"stron",cs:"webů",da:"sider",sv:"sidor",fi:"sivua",no:"sider",el:"ιστότοποι"}[lang2] || "sites";
     div.innerHTML = `<h3>${catT(c)}<span class="cnt">${list.length} ${cntT}</span></h3><div class="site-grid">` +
-      list.map(s => `<div class="sitem"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span><span class="sdomain">${host(s.url)}${platShort(s)}</span></span></a><button type="button" class="pin-btn${isPinned(s.url)?" on":""}" data-pin="${encodeURIComponent(s.url)}" aria-label="pin">📌</button></div>`).join("") + `</div>`;
+      list.map(s => `<div class="sitem"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="sic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="sic globe">🌍</span>`}<span class="stext"><span class="sname">${s.name}</span></span></a><button type="button" class="pin-btn${isPinned(s.url)?" on":""}" data-pin="${encodeURIComponent(s.url)}" aria-label="pin">📌</button></div>`).join("") + `</div>`;
     cats.appendChild(div);
   });
   // 快捷直达：钉选的书签排最前面（金边 + × 可取消），其后是按地区默认
@@ -2168,14 +2178,14 @@ function buildNav(){
     const pinTiles = [];
     pins.forEach((p, i) => {
       if(p.c){
-        pinTiles.push(`<div class="qtile pinned"><a href="${escHtml(p.u)}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}<span class="cat">${t("pin_custom")}</span><span class="dom">${escHtml(host(p.u))}</span></a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
+        pinTiles.push(`<div class="qtile pinned"><a href="${escHtml(p.u)}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}</a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
       } else {
         const s = SITES.find(x => x.url === p.u);
         if(s){
           const dname = (lang4 !== "zh" && lang4 !== "zht" && SITE_EN[s.name]) ? SITE_EN[s.name] : s.name;
-          pinTiles.push(`<div class="qtile pinned"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
+          pinTiles.push(`<div class="qtile pinned"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}</a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
         } else {
-          pinTiles.push(`<div class="qtile pinned"><a href="${escHtml(p.u)}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}<span class="cat">${t("pin_custom")}</span><span class="dom">${escHtml(host(p.u))}</span></a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
+          pinTiles.push(`<div class="qtile pinned"><a href="${escHtml(p.u)}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}</a><button type="button" class="qrm" data-unpin="${i}" aria-label="remove">×</button></div>`);
         }
       }
     });
@@ -2190,10 +2200,10 @@ function buildNav(){
     const hidden = new Set(loadHidden());
     list = list.filter(s => !pinnedUrls.has(s.url) && !hidden.has(s.url));
     const restoreBtn = hidden.size ? `<button type="button" class="qadd" data-restore="1">${t("pin_restore")}</button>` : "";
-    const labTiles = rc === "CN" ? TINYLAB.filter(p => !hidden.has(p.u)).map(p => `<div class="qtile pinned"><a href="${p.u}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}<span class="cat">小产品实验室</span><span class="dom">${p.d || "tinylabpro.com"}</span></a><button type="button" class="qrm" data-hide="${encodeURIComponent(p.u)}" aria-label="remove">×</button></div>`) : [];
+    const labTiles = rc === "CN" ? TINYLAB.filter(p => !hidden.has(p.u)).map(p => `<div class="qtile pinned"><a href="${p.u}" target="_blank" rel="noopener"><span class="qic globe">🌍</span>${escHtml(p.n)}</a><button type="button" class="qrm" data-hide="${encodeURIComponent(p.u)}" aria-label="remove">×</button></div>`) : [];
     qg.innerHTML = pinTiles.join("") + labTiles.join("") + list.map(s => {
       const dname = (lang4 !== "zh" && lang4 !== "zht" && SITE_EN[s.name]) ? SITE_EN[s.name] : s.name;
-      return `<div class="qtile"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}<span class="cat">${catT(s.cat)}</span><span class="dom">${host(s.url)}${platShort(s)}</span></a><button type="button" class="qrm" data-hide="${encodeURIComponent(s.url)}" aria-label="remove">×</button></div>`;
+      return `<div class="qtile"><a href="${s.url}" target="_blank" rel="noopener">${s.icon?`<img class="qic" src="./icons/${s.icon}" alt="" loading="lazy" onerror="this.remove()">`:`<span class="qic globe">🌍</span>`}${dname}</a><button type="button" class="qrm" data-hide="${encodeURIComponent(s.url)}" aria-label="remove">×</button></div>`;
     }).join("") + restoreBtn + `<button type="button" class="qadd" onclick="document.getElementById('qForm').classList.toggle('open');document.getElementById('qName').focus()">${t("pin_add")}</button>`;
   }
 }
@@ -2247,9 +2257,22 @@ async function doVerify() {
   vBtn.disabled = false;
   vBtn.textContent = t("verify_btn");
 }
-if (vBtn) vBtn.onclick = doVerify;
-if (vDesc) vDesc.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
-if (vUrl) vUrl.addEventListener("keydown", e => { if (e.key === "Enter") doVerify(); });
+// 关注提醒门：点验真先弹一次公众号二维码（不强制，关掉或点继续验真都行），同一访问只弹一次
+function closeFollow(){ const m = document.getElementById("followModal"); if (m) m.style.display = "none"; }
+function gateVerify() {
+  let shown = false;
+  try { shown = sessionStorage.getItem("rg_follow_once") === "1"; } catch (e) {}
+  if (shown) { doVerify(); return; }
+  try { sessionStorage.setItem("rg_follow_once", "1"); } catch (e) {}
+  const m = document.getElementById("followModal");
+  if (!m) { doVerify(); return; }
+  m.style.display = "flex";
+}
+const followGo = document.getElementById("followGo");
+if (followGo) followGo.onclick = () => { closeFollow(); doVerify(); };
+if (vBtn) vBtn.onclick = gateVerify;
+if (vDesc) vDesc.addEventListener("keydown", e => { if (e.key === "Enter") gateVerify(); });
+if (vUrl) vUrl.addEventListener("keydown", e => { if (e.key === "Enter") gateVerify(); });
 </script>
 <div id="iosTip" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:9998;background:#1a1a1a;color:#fff;border-radius:12px;padding:16px 18px;font-size:14px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.3)">
   把认官网装成应用：点浏览器的「分享」或菜单按钮，选「安装应用」或「添加到主屏幕」就行。
